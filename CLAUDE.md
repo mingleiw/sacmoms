@@ -70,6 +70,14 @@ no UTC offset (Sacramento switches PDT/PST; a fixed offset is wrong half the
 year). Structured data that disagrees with the visible page is an SEO liability,
 not a win.
 
+**Event distances come from `data/venues.json`, never from memory.** Written by
+`scripts/geocode_venues.py` (needs `nominatim.openstreetmap.org`; non-fatal in
+the daily refresh). Matches outside Sacramento County are rejected — "Elk Grove
+Library" geocodes to **Illinois** — and an unresolved venue is stored with
+`"lat": null` so its events show no distance rather than a guessed one. Missing
+file means no distances anywhere, which is a supported state. Do not hand-write
+coordinates into it without setting `"locked": true` and checking them.
+
 **Event details live in a dialog, not generated pages.** Dated storytimes
 rotate daily, so a page per event would 404 within a week of being indexed and
 would be thin content besides. The crawlable surface is the `Event` JSON-LD on

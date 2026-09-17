@@ -226,6 +226,46 @@ If the scrape ever fails or the listing markup changes, the site falls back to
 the weekly events — it never invents storytimes to fill the gap. Do not add
 library storytimes to `data/events.json` as weekly recurrences.
 
+## Event distances
+
+Events carry a venue name and a city but no coordinates, so a parent in Elk
+Grove used to see a storytime in North Highlands with nothing to say it was a
+long drive — while every place card beside it showed a distance badge.
+
+`scripts/geocode_venues.py` resolves each distinct (venue, city) once and writes
+`data/venues.json`; `build.py` joins that onto events and bakes a per-town
+`dist` into the page JSON, the same way place distances are baked.
+
+```sh
+python3 scripts/geocode_venues.py            # fill in what is missing
+python3 scripts/geocode_venues.py --dry-run  # list what it would look up
+python3 scripts/geocode_venues.py --recheck  # re-resolve everything
+```
+
+It needs to reach `nominatim.openstreetmap.org`, which the daily-refresh VM can
+and some sandboxes cannot. It runs from `daily_refresh.sh` and is **non-fatal**:
+a geocoder outage must not block the push.
+
+Guards, because a wrong coordinate sends a family across the county:
+
+- **A match outside Sacramento County is rejected.** Searching "Elk Grove
+  Library" returns Elk Grove Village, **Illinois** — this project has already
+  been caught by that once. Anything outside roughly 38.0–39.1N, 121.9–120.8W
+  is discarded rather than stored.
+- **An unresolved venue is stored with `"lat": null`** and skipped by the build,
+  so its events show no distance. Never a guessed one.
+- Every entry records the query, what the geocoder matched and when, so a bad
+  match is auditable. Hand-fix one and add `"locked": true` to keep it.
+- A run that would resolve **fewer** venues than the existing file refuses to
+  write, so an outage cannot quietly wipe every distance off the site.
+
+**No `data/venues.json` means no distances** and the site behaves exactly as it
+did before — the join is optional at every step.
+
+This is also what finally makes the five city pages differ in substance: the
+same storytime is 3 miles from Sacramento and 34 from Elk Grove, so each page
+now ships its own event payload instead of a byte-identical copy.
+
 ## Event details
 
 Cards clamp their blurb to three lines and every card opens a details dialog

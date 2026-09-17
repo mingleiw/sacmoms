@@ -84,6 +84,24 @@ REGIONS = {'sf': 'San Francisco', 'marin': 'Marin & North Bay', 'east': 'East Ba
 GROUPS = [('sf', 'San Francisco'), ('marin', 'Marin & North Bay'), ('east', 'East Bay'),
           ('peninsula', 'Peninsula'), ('south', 'South Bay'), ('sac', 'Sacramento area')]
 
+def load_venues():
+    """{venue|city: (lat, lon)} for events, or {} when not geocoded yet.
+
+    Written by scripts/geocode_venues.py. Entries it could not resolve carry a
+    null lat and are skipped here, so an unresolved venue shows no distance
+    rather than a made-up one. Absent file = the site behaves as it did before
+    distances existed.
+    """
+    try:
+        rows = load('venues.json')
+    except FileNotFoundError:
+        return {}
+    return {'%s|%s' % (r['venue'], r['city']): (r['lat'], r['lon'])
+            for r in rows if r.get('lat') is not None and r.get('lon') is not None}
+
+
+VENUES = load_venues()
+
 SPRITE = read('templates/sprite.svg')
 TIPS = read('templates/tips.html')
 
@@ -277,6 +295,19 @@ def city_page(town, places, events, dated, base):
     today = datetime.date.today()
     week = {str(today + datetime.timedelta(days=i)) for i in range(7)}
     ev += [e for e in dated if e['region'] == town['region'] and e['date'] in week]
+
+    # How far each event is *from this town*. Copy first: these dicts are shared
+    # across every city page, so writing distance in place would leave all five
+    # pages showing whichever city was generated last. Baking it here is also
+    # what finally makes the pages differ from each other in substance.
+    ranked_ev = []
+    for e in ev:
+        e = dict(e)
+        vc = VENUES.get('%s|%s' % (e.get('venue', ''), e.get('city', '')))
+        if vc:
+            e['dist'] = round(miles(town['lat'], town['lon'], vc[0], vc[1]), 1)
+        ranked_ev.append(e)
+    ev = ranked_ev
 
     title = 'Where to take the kids in %s · %s' % (name, SITE_NAME)
     desc = ('Places to take kids near %s, sorted by how far they are. '

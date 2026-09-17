@@ -109,6 +109,12 @@
     });
   }
 
+  // Mirrors show_miles() in build.py: one decimal under 10 miles, whole
+  // numbers above. Place cards and event chips must not round differently.
+  function showMiles(d) {
+    return d < 10 ? String(Math.round(d * 10) / 10) : String(Math.round(d));
+  }
+
   function hhmm(t) {
     var p = t.split(':'), h = +p[0], m = p[1], ap = h >= 12 ? 'pm' : 'am';
     h = h % 12; if (h === 0) h = 12;
@@ -162,6 +168,8 @@
           '<p class="ev-where">' + esc(e.venue) + ', ' + esc(e.city) + '</p>' +
           '<p class="ev-blurb">' + esc(e.blurb) + '</p>' +
           '<div class="ev-foot">' +
+            (e.dist === undefined ? '' :
+              '<span class="ev-tag ev-dist">' + esc(showMiles(e.dist)) + ' mi</span>') +
             '<span class="ev-tag">' + esc(e.ages) + '</span>' +
             '<button class="ev-more" type="button">Details</button>' +
             '<a class="map" href="https://www.google.com/maps/search/?api=1&query=' +
@@ -220,7 +228,10 @@
       '<p class="d-when">' + esc(longDate(e)) + ' \u00b7 ' + esc(when) + '</p>' +
       '<p class="d-where">' + esc(e.venue) + ', ' + esc(e.city) + '</p>' +
       (e.blurb ? '<p class="d-blurb">' + esc(e.blurb) + '</p>' : '') +
-      '<div class="d-tags"><span class="ev-tag">' + esc(e.ages) + '</span></div>' +
+      '<div class="d-tags">' +
+        (e.dist === undefined ? '' :
+          '<span class="ev-tag ev-dist">' + esc(showMiles(e.dist)) + ' mi from ' + esc(TOWN.name) + '</span>') +
+        '<span class="ev-tag">' + esc(e.ages) + '</span></div>' +
       '<div class="d-acts">' +
         '<a class="map" href="https://www.google.com/maps/search/?api=1&query=' +
           encodeURIComponent(e.venue + ' ' + e.city) +

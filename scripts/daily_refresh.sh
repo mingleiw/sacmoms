@@ -20,6 +20,12 @@ python3 scripts/refresh_scm_events.py          # Sacramento Children's Museum we
 python3 scripts/refresh_marin_storytimes.py || echo "warning: marin storytimes refresh failed; keeping last known-good" >&2
 python3 scripts/refresh_marin_events.py       || echo "warning: marin events refresh failed; keeping last known-good" >&2
 
+# New venues appear whenever the library rotates storytimes to a branch we have
+# not seen. This only looks up the ones missing coordinates, so it is usually a
+# no-op. Non-fatal on purpose: a geocoder outage must not block the push, and
+# events without coordinates simply show no distance.
+python3 scripts/geocode_venues.py || echo "warning: venue geocoding failed; events may show no distance" >&2
+
 python3 build.py
 
 if [ -z "$(git status --porcelain)" ]; then
