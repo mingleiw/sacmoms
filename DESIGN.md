@@ -218,9 +218,20 @@ and traffic means these pages have to be worth indexing:
   pattern search engines demote. With it, Elk Grove lists 9 Sacramento places and
   Berkeley lists 17 Bay Area ones.
 
-The root page carries both a `<select>` and a full list of `<a>` links. A
-dropdown is not crawlable, so a picker alone would have left every city page
-undiscoverable — the opposite of the point.
+The root page originally carried both a `<select>` and a full list of `<a>`
+links: a dropdown is not crawlable, so a picker alone would have left every city
+page undiscoverable.
+
+**The dropdown is gone.** It made sense at 38 cities across six regions, where a
+long list needs collapsing. At five cities it showed the same five names twice on
+one short page, and a dropdown costs a tap, a scroll and a selection where a link
+costs one tap. The crawlable `<a>` links were always the half that mattered, so
+they stay and are now the only way in, under the heading *Choose your city*. The
+"last time you looked at X" shortcut moved to the hero and still works.
+
+If the city count ever grows enough that the list stops being scannable, the
+answer is a filter or a search box over real links — not a `<select>` that
+duplicates them.
 
 ## Status
 

@@ -141,7 +141,9 @@ section[id] { scroll-margin-top: 78px; }
 }
 
 /* ---------- Hero ---------- */
-.hero { padding: 66px 0 56px; }
+/* Bottom padding was sized around the picker card that used to close the hero.
+   With the card gone the hero ends on the lede, so it no longer needs that much. */
+.hero { padding: 66px 0 36px; }
 .hero-inner { position: relative; }
 
 .hero-title {
@@ -158,31 +160,7 @@ section[id] { scroll-margin-top: 78px; }
 .lede strong { color: var(--ink); font-weight: 700; }
 
 /* ---------- Location ---------- */
-.picker {
-  padding: 24px 26px 26px; background: var(--chalk);
-  border-radius: var(--r-lg); max-width: 540px;
-  box-shadow: 0 3px 0 var(--line-2), 0 14px 30px rgba(35,49,61,.09);
-}
-.picker-q { margin: 0 0 14px; font-family: var(--display); font-size: 21px; font-weight: 700; }
-.loc-row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
-#townSelect {
-  font: inherit; font-family: var(--text); font-size: 16.5px; font-weight: 700; color: var(--ink);
-  padding: 13px 16px; border-radius: var(--r-md);
-  border: 2px solid var(--line-2); background: var(--sky);
-  min-width: 210px; flex: 1 1 210px; cursor: pointer;
-  transition: border-color .2s var(--ease);
-}
-#townSelect:hover { border-color: var(--sea); }
-.loc-clear {
-  font: inherit; font-size: 14.5px; font-weight: 700; color: var(--sea);
-  background: var(--sea-w); border: 0; cursor: pointer;
-  padding: 9px 16px; border-radius: 999px;
-  transition: transform .2s var(--bounce);
-}
-.loc-clear:hover { transform: translateY(-1px); }
-.loc-clear:active { transform: translateY(1px); }
 .loc-hint { margin: 14px 0 0; font-size: 14px; color: var(--ink-2); }
-
 
 /* ---------- Section heads ---------- */
 .section-head { margin-bottom: 28px; }
@@ -305,7 +283,7 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 @media (max-width: 560px) { .event { flex-direction: column; gap: 6px; } .ev-time { width: auto; } }
 
 /* ---------- Filters ---------- */
-.list-section { padding: 60px 0 84px; }
+.list-section { padding: 44px 0 72px; }
 .filters { margin-bottom: 28px; }
 .filter-row { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 11px; }
 .filter-label { flex: none; width: 66px; padding-top: 8px; font-size: 14.5px; font-weight: 800; }
@@ -407,15 +385,6 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
   transition: transform .18s var(--bounce), color .18s var(--ease), background .18s var(--ease);
 }
 .city-group a:hover { transform: translateY(-2px); color: var(--chalk); background: var(--sea); }
-
-#citySelect {
-  font: inherit; font-family: var(--text); font-size: 16.5px; font-weight: 700; color: var(--ink);
-  padding: 13px 16px; border-radius: var(--r-md);
-  border: 2px solid var(--line-2); background: var(--sky);
-  min-width: 210px; flex: 1 1 210px; cursor: pointer;
-  transition: border-color .2s var(--ease);
-}
-#citySelect:hover { border-color: var(--sea); }
 
 /* ---------- Before you go ---------- */
 .tips { background: var(--ink); color: rgba(255,255,255,.76); padding: 64px 0 70px; }

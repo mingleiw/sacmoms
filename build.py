@@ -424,18 +424,15 @@ def root_page(towns_with_pages, places, base):
     out = HEAD.format(title=html.escape(title, quote=True), desc=html.escape(desc, quote=True),
                       canonical=base, up='', nav='')
 
-    options, links = '', ''
+    links = ''
     for key, label in GROUPS:
         group = [t for t in towns_with_pages if t['region'] == key]
         if not group:
             continue
-        options += '            <optgroup label="%s">\n' % html.escape(label)
         links += '        <section class="city-group">\n          <h3>%s</h3>\n          <ul>\n' % html.escape(label)
         for t in group:
             s = slugify(t['name'])
-            options += '              <option value="%s/">%s</option>\n' % (s, html.escape(t['name']))
             links += '            <li><a href="%s/">%s</a></li>\n' % (s, html.escape(t['name']))
-        options += '            </optgroup>\n'
         links += '          </ul>\n        </section>\n'
 
     out += '''
@@ -453,24 +450,16 @@ def root_page(towns_with_pages, places, base):
         and weather notes that decide whether it is worth the drive.
       </p>
 
-      <div class="picker">
-        <p class="picker-q">Choose your city</p>
-        <div class="loc-row">
-          <select id="citySelect" aria-label="Choose your city">
-            <option value="">Pick a city&hellip;</option>
-%s          </select>
-        </div>
-        <p class="loc-hint" id="lastCity" hidden></p>
-      </div>
+      <p class="loc-hint" id="lastCity" hidden></p>
     </div>
   </section>
 
-  <!-- ad slot: between picker and city index -->
+  <!-- ad slot: between hero and city index -->
 
   <section class="list-section" id="list">
     <div class="wrap">
       <div class="section-head">
-        <h2>All cities</h2>
+        <h2>Choose your city</h2>
         <p class="section-sub">%d cities, %d places to take the kids. Every city links straight through.</p>
       </div>
       <div class="city-index">
@@ -478,16 +467,13 @@ def root_page(towns_with_pages, places, base):
     </div>
   </section>
 </main>
-''' % (options, len(towns_with_pages), len(listed), links)
+''' % (len(towns_with_pages), len(listed), links)
 
     out += '''<script>
 // Offer the city this browser used last, without getting in the way of the list.
 (function () {
-  var sel = document.getElementById('citySelect');
   var hint = document.getElementById('lastCity');
-  sel.addEventListener('change', function () {
-    if (sel.value) location.href = sel.value;
-  });
+  if (!hint) return;
   try {
     var last = localStorage.getItem('owtk.city');
     if (last && document.querySelector('.city-index a[href="' + last + '/"]')) {

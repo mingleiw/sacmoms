@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/style.css?v=d7279e2ea3" />
+<link rel="stylesheet" href="assets/style.css?v=47896433ee" />
 <script>document.documentElement.className += ' js';</script>
 </head>
 <body>
@@ -60,31 +60,16 @@
         and weather notes that decide whether it is worth the drive.
       </p>
 
-      <div class="picker">
-        <p class="picker-q">Choose your city</p>
-        <div class="loc-row">
-          <select id="citySelect" aria-label="Choose your city">
-            <option value="">Pick a city&hellip;</option>
-            <optgroup label="Sacramento area">
-              <option value="elk-grove/">Elk Grove</option>
-              <option value="sacramento/">Sacramento</option>
-              <option value="rancho-cordova/">Rancho Cordova</option>
-              <option value="folsom/">Folsom</option>
-              <option value="citrus-heights/">Citrus Heights</option>
-            </optgroup>
-          </select>
-        </div>
-        <p class="loc-hint" id="lastCity" hidden></p>
-      </div>
+      <p class="loc-hint" id="lastCity" hidden></p>
     </div>
   </section>
 
-  <!-- ad slot: between picker and city index -->
+  <!-- ad slot: between hero and city index -->
 
   <section class="list-section" id="list">
     <div class="wrap">
       <div class="section-head">
-        <h2>All cities</h2>
+        <h2>Choose your city</h2>
         <p class="section-sub">5 cities, 9 places to take the kids. Every city links straight through.</p>
       </div>
       <div class="city-index">
@@ -105,11 +90,8 @@
 <script>
 // Offer the city this browser used last, without getting in the way of the list.
 (function () {
-  var sel = document.getElementById('citySelect');
   var hint = document.getElementById('lastCity');
-  sel.addEventListener('change', function () {
-    if (sel.value) location.href = sel.value;
-  });
+  if (!hint) return;
   try {
     var last = localStorage.getItem('owtk.city');
     if (last && document.querySelector('.city-index a[href="' + last + '/"]')) {
