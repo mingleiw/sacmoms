@@ -1,10 +1,9 @@
 /* Shared by every city page.
 
-   Distances are already baked into each card's data-dist at build time, so
-   this script never computes geography. It handles the one thing that can
-   only happen in a browser: filtering the places list. With JavaScript off
-   the page still renders every place, in distance order, which is the
-   important half. */
+   Distances are baked into each card's data-dist at build time (from the
+   town centre), so the page works with JavaScript off. When the user shares
+   their location, distances recompute from their actual position and
+   everything re-sorts. */
 
 (function () {
   if (typeof TOWN === 'undefined') return;
@@ -13,15 +12,106 @@
   var countEl = document.getElementById('count');
   var emptyEl = document.getElementById('empty');
   var resetEl = document.getElementById('reset');
+  var cardsEl = document.getElementById('cards');
 
   var state = { age: 'all', env: 'all' };
+  var userLoc = null;
 
-  // Remember which city this browser looked at, so the index can offer it.
   try {
     var seg = location.pathname.replace(/\/+$/, '').split('/').pop();
     if (seg) localStorage.setItem('owtk.city', seg);
   } catch (e) {}
 
+  try {
+    var saved = localStorage.getItem('owtk.loc');
+    if (saved) userLoc = JSON.parse(saved);
+  } catch (e) {}
+
+  function esc(s) {
+    return String(s).replace(/[&<>"]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+    });
+  }
+
+  function haversine(lat1, lon1, lat2, lon2) {
+    var R = 3958.8, r = Math.PI / 180;
+    var dla = (lat2 - lat1) * r, dlo = (lon2 - lon1) * r;
+    var a = Math.sin(dla / 2) * Math.sin(dla / 2) +
+            Math.cos(lat1 * r) * Math.cos(lat2 * r) *
+            Math.sin(dlo / 2) * Math.sin(dlo / 2);
+    return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  }
+
+  function showMiles(d) {
+    return d < 10 ? String(Math.round(d * 10) / 10) : String(Math.round(d));
+  }
+
+  function cardDist(card) {
+    if (userLoc) {
+      var lat = +card.getAttribute('data-lat');
+      var lon = +card.getAttribute('data-lon');
+      if (lat && lon) return haversine(userLoc.lat, userLoc.lon, lat, lon);
+    }
+    return +card.getAttribute('data-dist');
+  }
+
+  function sortCards() {
+    cards.sort(function (a, b) { return cardDist(a) - cardDist(b); });
+    cards.forEach(function (c) {
+      var mi = showMiles(cardDist(c));
+      var el = c.querySelector('.m-dist');
+      if (el) el.textContent = mi + ' mi';
+      cardsEl.appendChild(c);
+    });
+  }
+
+  function buildLocPrompt() {
+    var locBar = document.getElementById('locBar');
+    if (!locBar) return;
+
+    if (userLoc) {
+      locBar.innerHTML = '<span class="loc-status">\u{1F4CD} Using your location</span>' +
+        '<button class="loc-clear-btn">Reset</button>';
+      locBar.querySelector('.loc-clear-btn').addEventListener('click', function () {
+        userLoc = null;
+        try { localStorage.removeItem('owtk.loc'); } catch (e) {}
+        sortCards();
+        apply();
+        buildLocPrompt();
+      });
+    } else if ('geolocation' in navigator) {
+      locBar.innerHTML = '<button class="loc-btn">' +
+        '\u{1F4CD} Use my location for exact distances</button>';
+      locBar.querySelector('.loc-btn').addEventListener('click', requestLocation);
+    } else {
+      locBar.innerHTML = '';
+    }
+  }
+
+  function requestLocation() {
+    var locBar = document.getElementById('locBar');
+    var btn = locBar ? locBar.querySelector('.loc-btn') : null;
+    if (btn) { btn.textContent = 'Locating…'; btn.disabled = true; }
+
+    navigator.geolocation.getCurrentPosition(
+      function (pos) {
+        userLoc = { lat: pos.coords.latitude, lon: pos.coords.longitude };
+        try { localStorage.setItem('owtk.loc', JSON.stringify(userLoc)); } catch (e) {}
+        sortCards();
+        apply();
+        buildLocPrompt();
+        // Re-render events so distance chips update from user position
+        if (typeof reRenderEvents === 'function') reRenderEvents();
+      },
+      function () {
+        if (btn) { btn.textContent = 'Location unavailable'; btn.disabled = true; }
+      },
+      { enableHighAccuracy: false, timeout: 8000 }
+    );
+  }
+
+  // Expose for the events IIFE to call
+  window._sacmoms = { userLoc: function () { return userLoc; }, haversine: haversine, showMiles: showMiles, esc: esc };
 
   function matches(card) {
     for (var k in state) {
@@ -62,6 +152,8 @@
     apply();
   });
 
+  if (userLoc) sortCards();
+  buildLocPrompt();
   apply();
 })();
 
@@ -75,8 +167,6 @@
   var DAYS  = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   var SHORT = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
-  // Local YYYY-MM-DD for matching dated events (refreshed daily by the
-  // scraper). Recurring events still match on day-of-week via e.day.
   function ymd(d) {
     return d.getFullYear() + '-' +
       ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
@@ -94,23 +184,19 @@
     return n;
   }
 
-  // Open on the first day in the window that has something on, not blindly on
-  // today. This calendar is sparse by design — most days are empty — and
-  // defaulting to today showed an empty panel with no hint that Saturday was
-  // busy, which reads as broken rather than quiet.
   var picked = 0;
   for (var w = 0; w < week.length; w++) {
     if (countFor(week[w])) { picked = w; break; }
   }
 
+  var sm = window._sacmoms || {};
   function esc(s) {
+    if (sm.esc) return sm.esc(s);
     return String(s).replace(/[&<>"]/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
     });
   }
 
-  // Mirrors show_miles() in build.py: one decimal under 10 miles, whole
-  // numbers above. Place cards and event chips must not round differently.
   function showMiles(d) {
     return d < 10 ? String(Math.round(d * 10) / 10) : String(Math.round(d));
   }
@@ -121,6 +207,19 @@
     return m === '00' ? h + ' ' + ap : h + ':' + m + ' ' + ap;
   }
 
+  function evDist(e) {
+    var loc = sm.userLoc ? sm.userLoc() : null;
+    if (loc && e.lat && e.lon) return sm.haversine(loc.lat, loc.lon, e.lat, e.lon);
+    if (e.dist !== undefined) return e.dist;
+    return null;
+  }
+
+  function evDistLabel(e) {
+    var loc = sm.userLoc ? sm.userLoc() : null;
+    if (loc && e.lat && e.lon) return '';  // from user, no "from X" suffix
+    return ' from ' + TOWN.name;
+  }
+
   function strip() {
     stripEl.innerHTML = '';
     week.forEach(function (d, i) {
@@ -128,8 +227,6 @@
       b.className = 'day' + (i === picked ? ' is-on' : '');
       b.setAttribute('role', 'tab');
       b.setAttribute('aria-selected', i === picked ? 'true' : 'false');
-      // Without aria-controls the tablist and the list it swaps are unrelated
-      // as far as a screen reader is concerned.
       b.setAttribute('aria-controls', 'events');
       var label = i === 0 ? 'Today' : (i === 1 ? 'Tomorrow' : SHORT[d.getDay()]);
       var n = countFor(d);
@@ -143,14 +240,10 @@
     });
   }
 
-  // The day's rendered list, hoisted so the click handler can map a card's
-  // data-i back to its event.
   var shown = [];
 
   function render() {
     var d = week[picked];
-    // An entry may have no time: the day and venue are confirmed but the hour
-    // is not. Those sort last and say so rather than showing a made-up clock.
     var list = EVENTS.filter(function (e) { return e.day === d.getDay() || e.date === ymd(d); })
                      .sort(function (a, b) {
                        var ta = a.time || '99:99', tb = b.time || '99:99';
@@ -160,6 +253,10 @@
 
     evEl.innerHTML = list.map(function (e, i) {
       var when = e.time ? hhmm(e.time) + (e.until ? ' – ' + hhmm(e.until) : '') : '';
+      var dist = evDist(e);
+      var distChip = dist !== null
+        ? '<span class="ev-tag ev-dist">' + esc(showMiles(dist)) + ' mi</span>'
+        : '';
       return '<article class="event" data-i="' + i + '">' +
         '<div class="ev-time' + (when ? '' : ' ev-time-unknown') + '">' +
           (when ? esc(when) : esc(e.timeLabel || 'Time not confirmed')) + '</div>' +
@@ -168,8 +265,7 @@
           '<p class="ev-where">' + esc(e.venue) + ', ' + esc(e.city) + '</p>' +
           '<p class="ev-blurb">' + esc(e.blurb) + '</p>' +
           '<div class="ev-foot">' +
-            (e.dist === undefined ? '' :
-              '<span class="ev-tag ev-dist">' + esc(showMiles(e.dist)) + ' mi</span>') +
+            distChip +
             '<span class="ev-tag">' + esc(e.ages) + '</span>' +
             '<button class="ev-more" type="button">Details</button>' +
             '<a class="map" href="https://www.google.com/maps/search/?api=1&query=' +
@@ -182,7 +278,6 @@
     var when = picked === 0 ? 'today' : (picked === 1 ? 'tomorrow' : 'on ' + DAYS[d.getDay()]);
     weekMt.hidden = list.length !== 0;
 
-    // Say where to look next rather than just reporting nothing here.
     var nxt = -1;
     for (var j = 1; j < week.length; j++) {
       var idx = (picked + j) % week.length;
@@ -192,20 +287,13 @@
       (nxt > -1 ? ' Next up: ' + (nxt === 0 ? 'today' : nxt === 1 ? 'tomorrow' : DAYS[week[nxt].getDay()]) + '.' : '');
   }
 
-  /* ---- Details ----
-     Cards clamp their blurb to keep the day's list scannable; this shows the
-     whole entry. Deliberately a dialog and not a generated page per event:
-     dated storytimes rotate daily, so static pages would be created and
-     deleted every morning, leaving indexed URLs 404ing within the week, and
-     each would carry a venue, a time and about two lines of text -- the thin
-     content MIN_PLACES and LIST_MILES exist to keep off this domain. Search
-     engines already get these events as Event JSON-LD on the city page. */
+  // Expose so the places IIFE can trigger a re-render after geolocation
+  window.reRenderEvents = function () { render(); };
+
+  /* ---- Details ---- */
   var dlg    = document.getElementById('evDialog');
   var detail = document.getElementById('evDetail');
 
-  // Stable across rebuilds and day changes, so a shared link keeps working
-  // while the event is still listed. An event that has since passed simply
-  // does not match and the page opens normally -- never a dead end.
   function keyFor(e) {
     return (e.date || 'w' + e.day) + '-' +
       String(e.title + '-' + e.venue).toLowerCase()
@@ -221,16 +309,18 @@
 
   function openDetail(e, push) {
     if (!dlg || !detail) return;
-    var when = e.time ? hhmm(e.time) + (e.until ? ' \u2013 ' + hhmm(e.until) : '')
+    var when = e.time ? hhmm(e.time) + (e.until ? ' – ' + hhmm(e.until) : '')
                       : (e.timeLabel || 'Time not confirmed');
+    var dist = evDist(e);
+    var label = evDistLabel(e);
     detail.innerHTML =
       '<h3 id="evDialogTitle">' + esc(e.title) + '</h3>' +
-      '<p class="d-when">' + esc(longDate(e)) + ' \u00b7 ' + esc(when) + '</p>' +
+      '<p class="d-when">' + esc(longDate(e)) + ' · ' + esc(when) + '</p>' +
       '<p class="d-where">' + esc(e.venue) + ', ' + esc(e.city) + '</p>' +
       (e.blurb ? '<p class="d-blurb">' + esc(e.blurb) + '</p>' : '') +
       '<div class="d-tags">' +
-        (e.dist === undefined ? '' :
-          '<span class="ev-tag ev-dist">' + esc(showMiles(e.dist)) + ' mi from ' + esc(TOWN.name) + '</span>') +
+        (dist === null ? '' :
+          '<span class="ev-tag ev-dist">' + esc(showMiles(dist)) + ' mi' + esc(label) + '</span>') +
         '<span class="ev-tag">' + esc(e.ages) + '</span></div>' +
       '<div class="d-acts">' +
         '<a class="map" href="https://www.google.com/maps/search/?api=1&query=' +
@@ -247,20 +337,18 @@
   }
 
   if (dlg) {
-    // Closing by any route (Esc, backdrop, the button) must drop the hash,
-    // or reopening the same event from the list does nothing.
     dlg.addEventListener('close', function () {
       if (location.hash.indexOf('#event=') === 0) {
         try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {}
       }
     });
     dlg.addEventListener('click', function (ev) {
-      if (ev.target === dlg) dlg.close();   // backdrop
+      if (ev.target === dlg) dlg.close();
     });
   }
 
   evEl.addEventListener('click', function (ev) {
-    if (ev.target.closest('a')) return;     // Map / source links win
+    if (ev.target.closest('a')) return;
     var art = ev.target.closest('.event');
     if (!art) return;
     var e = shown[+art.getAttribute('data-i')];
@@ -272,8 +360,6 @@
     if (!m) return;
     for (var i = 0; i < EVENTS.length; i++) {
       if (keyFor(EVENTS[i]) === m[1]) {
-        // Jump the strip to the day that event is on, so closing the dialog
-        // leaves the right list behind it.
         if (EVENTS[i].date) {
           for (var j = 0; j < week.length; j++) {
             if (ymd(week[j]) === EVENTS[i].date) { picked = j; break; }
