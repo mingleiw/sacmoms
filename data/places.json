@@ -393,7 +393,8 @@
   "lon": -121.3697,
   "ages": "All ages",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/elk-grove-regional-park"
  },
  {
   "name": "Oasis Park",
@@ -411,7 +412,8 @@
   "lon": -121.4453,
   "ages": "Under 10",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/oasis-park"
  },
  {
   "name": "Wackford Aquatic Complex",
@@ -429,7 +431,8 @@
   "lon": -121.429,
   "ages": "3 and up",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.elkgrovecity.org/recreation/aquatics/wackford-aquatic-complex"
  },
  {
   "name": "The Alley",
@@ -447,7 +450,8 @@
   "lon": -121.383,
   "ages": "3 and up",
   "envlabel": "Indoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.bowlthealley.com/"
  },
  {
   "name": "Fairytale Town",
@@ -465,7 +469,8 @@
   "lon": -121.503,
   "ages": "Under 10",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.fairytaletown.org/"
  },
  {
   "name": "Funderland",
@@ -483,7 +488,8 @@
   "lon": -121.5045,
   "ages": "Under 10",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.funderlandpark.com/"
  },
  {
   "name": "Sacramento Zoo",
@@ -501,7 +507,8 @@
   "lon": -121.503,
   "ages": "All ages",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.saczoo.org/"
  },
  {
   "name": "California State Railroad Museum",
@@ -519,7 +526,8 @@
   "lon": -121.5049,
   "ages": "3 and up",
   "envlabel": "Indoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.californiarailroad.museum/"
  },
  {
   "name": "Sacramento Children&rsquo;s Museum",
@@ -537,7 +545,8 @@
   "lon": -121.2917,
   "ages": "Under 9",
   "envlabel": "Indoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://sackids.org/"
  },
  {
   "name": "McKinley Park",
@@ -555,7 +564,8 @@
   "lon": -121.46265,
   "ages": "Under 12",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.cityofsacramento.org/ParksandRec/Parks/Park-Directory/Central-City/McKinley-Park"
  },
  {
   "name": "Bertha Henschel Park",
@@ -573,7 +583,8 @@
   "lon": -121.44316,
   "ages": "Under 12",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.cityofsacramento.org/ParksandRec/Parks/Park-Directory/North-Sacramento/Bertha-Henschel-Park"
  },
  {
   "name": "Sacramento Adventure Playground",
@@ -591,7 +602,8 @@
   "lon": -121.47172,
   "ages": "Ages 6–15",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.cityofsacramento.org/ParksandRec/Parks/Park-Directory/South-Area/William-Land-Regional-Park"
  },
  {
   "name": "Heron Landing Community Park",
@@ -609,7 +621,8 @@
   "lon": -121.24055,
   "ages": "Under 12",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.cityofranchocordova.org/government/community-services/parks-recreation/parks"
  },
  {
   "name": "White Rock Community Splash Park",
@@ -627,7 +640,8 @@
   "lon": -121.299716,
   "ages": "Under 12",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.cityofranchocordova.org/government/community-services/parks-recreation/parks"
  },
  {
   "name": "Folsom Kids’ Castle Park",
@@ -645,7 +659,8 @@
   "lon": -121.12585,
   "ages": "Under 12",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.folsom.ca.us/government/parks-recreation/parks-trails/parks"
  },
  {
   "name": "Folsom City Lions Park",
@@ -663,7 +678,8 @@
   "lon": -121.167026,
   "ages": "Under 12",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.folsom.ca.us/government/parks-recreation/parks-trails/parks"
  },
  {
   "name": "Econome Family Park",
@@ -681,7 +697,8 @@
   "ages": "Under 12",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "note": "The giant ground-level slide is the headline — arrive before the birthday-party rush on weekends."
+  "note": "The giant ground-level slide is the headline — arrive before the birthday-party rush on weekends.",
+  "url": "https://www.folsom.ca.us/government/parks-recreation/parks-trails/parks"
  },
  {
   "name": "Tempo Park",
@@ -699,7 +716,8 @@
   "lon": -121.263833,
   "ages": "Under 12",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.citrusheights.net/161/Parks"
  },
  {
   "name": "Rusch Park",
@@ -717,7 +735,8 @@
   "ages": "All ages",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "note": "Big park and spread out — the two playgrounds sit on opposite sides, so pick your parking accordingly."
+  "note": "Big park and spread out — the two playgrounds sit on opposite sides, so pick your parking accordingly.",
+  "url": "https://www.citrusheights.net/161/Parks"
  },
  {
   "name": "Kammerer Park",
@@ -735,7 +754,8 @@
   "ages": "Under 12",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "note": "The musical splash pad runs seasonally; the instruments play year-round."
+  "note": "The musical splash pad runs seasonally; the instruments play year-round.",
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/kammerer-park"
  },
  {
   "name": "George Park",
@@ -753,7 +773,8 @@
   "lon": -121.44794,
   "ages": "Under 12",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/george-park"
  },
  {
   "name": "Enchanted Elk Grove",
@@ -771,7 +792,8 @@
   "lon": -121.35897,
   "ages": "Under 12",
   "envlabel": "Indoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.enchantedplayland.com/"
  },
  {
   "name": "Enchanted Natomas",
@@ -789,7 +811,8 @@
   "lon": -121.498551,
   "ages": "Ages 0–8",
   "envlabel": "Indoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.enchantedplayland.com/"
  },
  {
   "name": "Urban Air Trampoline and Adventure Park",
@@ -807,7 +830,8 @@
   "lon": -121.427202,
   "ages": "Ages 3+",
   "envlabel": "Indoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.urbanair.com/sacramento-ca"
  },
  {
   "name": "Rebounderz Sacramento",
@@ -825,7 +849,8 @@
   "lon": -121.38031,
   "ages": "Ages 2+",
   "envlabel": "Indoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.rfranchising.com/sacramento/"
  },
  {
   "name": "Kids Empire",
@@ -843,7 +868,8 @@
   "lon": -121.307752,
   "ages": "All ages",
   "envlabel": "Indoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.kidsempire.com/locations/rancho-cordova/"
  },
  {
   "name": "Peek-a-Boo Factory",
@@ -861,7 +887,8 @@
   "lon": -121.263449,
   "ages": "All ages",
   "envlabel": "Indoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.peekaboofactory.com/"
  },
  {
   "name": "Wacky Tacky",
@@ -879,7 +906,8 @@
   "lon": -121.260374,
   "ages": "Under 12",
   "envlabel": "Indoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://wackytacky.com/"
  },
  {
   "name": "WonderPlay Zone",
@@ -897,7 +925,8 @@
   "lon": -121.129986,
   "ages": "Ages 0–7",
   "envlabel": "Indoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.wonderplayzone.com/"
  },
  {
   "name": "Ely’s Play House",
@@ -915,7 +944,8 @@
   "lon": -121.273297,
   "ages": "Ages 0–8",
   "envlabel": "Indoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.elysplayhouse.com/"
  },
  {
   "name": "Space To Play",
@@ -933,7 +963,8 @@
   "lon": -121.371248,
   "ages": "Under 12",
   "envlabel": "Indoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.spacetoplay.com/"
  },
  {
   "name": "Oneto Park",
@@ -951,7 +982,8 @@
   "lon": -121.399689,
   "ages": "Under 10",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/oneto-park"
  },
  {
   "name": "Miwok Park",
@@ -969,7 +1001,8 @@
   "lon": -121.40407,
   "ages": "Under 10",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/miwok-park"
  },
  {
   "name": "Machado Dairy Park",
@@ -987,7 +1020,8 @@
   "lon": -121.42073,
   "ages": "Under 10",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/machado-dairy-park"
  },
  {
   "name": "Kloss Park",
@@ -1005,7 +1039,8 @@
   "lon": -121.4285,
   "ages": "Under 10",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/kloss-park"
  },
  {
   "name": "Morse Community Park",
@@ -1023,7 +1058,8 @@
   "lon": -121.43734,
   "ages": "Under 10",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/morse-community-park"
  },
  {
   "name": "Derr-Okamoto Community Park",
@@ -1041,6 +1077,7 @@
   "lon": -121.33917,
   "ages": "Under 10",
   "envlabel": "Outdoors",
-  "arealabel": "Sacramento area"
+  "arealabel": "Sacramento area",
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/derr-okamoto-community-park"
  }
 ]
