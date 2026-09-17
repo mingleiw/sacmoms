@@ -405,14 +405,21 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .footer-disclaimer strong { color: var(--ink); font-weight: 700; }
 
 /* ---- Location bar ---- */
-.loc-bar { margin-bottom: 18px; }
+.loc-bar { margin-bottom: 18px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 .loc-bar:empty { display: none; }
 .loc-btn { font: inherit; font-size: 14.5px; font-weight: 700; color: var(--sea); background: var(--sea-w); border: 0; padding: 9px 18px; border-radius: 999px; cursor: pointer; transition: transform .2s var(--bounce); }
 .loc-btn:hover { transform: translateY(-1px); }
 .loc-btn:active { transform: translateY(1px); }
 .loc-btn:disabled { opacity: .6; cursor: default; transform: none; }
+.loc-or { font-size: 13.5px; color: var(--ink-2); }
+.zip-form { display: flex; align-items: center; gap: 6px; }
+.zip-input { font: inherit; font-size: 14.5px; width: 7em; padding: 8px 12px; border: 2px solid var(--line-2); border-radius: 999px; background: var(--chalk); color: var(--ink); text-align: center; }
+.zip-input:focus { outline: none; border-color: var(--sea); }
+.zip-input.zip-err { border-color: var(--tomato); }
+.zip-input::placeholder { color: var(--ink-2); opacity: .7; }
+.zip-go { padding: 8px 14px; font-size: 13.5px; }
 .loc-status { font-size: 14px; font-weight: 700; color: var(--grass); }
-.loc-clear-btn { font: inherit; font-size: 13px; font-weight: 700; color: var(--ink-2); background: none; border: 0; cursor: pointer; margin-left: 10px; border-bottom: 1px dotted var(--line-2); }
+.loc-clear-btn { font: inherit; font-size: 13px; font-weight: 700; color: var(--ink-2); background: none; border: 0; cursor: pointer; margin-left: 2px; border-bottom: 1px dotted var(--line-2); }
 .loc-clear-btn:hover { color: var(--ink); }
 
 @media (prefers-reduced-motion: reduce) {
