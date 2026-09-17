@@ -578,7 +578,7 @@ def seasonal_section_html(groups, town_name):
        html.escape(g['blurb']),
        dist_chip, html.escape(g['ages']),
        html.escape(g['venue'] + ' ' + g['city']),
-       '<a class="ev-src" href="%s" target="_blank" rel="noopener">Details</a>' % html.escape(g['source']) if g.get('source') else '')
+       '<a class="ev-src" href="%s" target="_blank" rel="noopener">Official site</a>' % html.escape(g['source']) if g.get('source') else '')
         out += '''      </div>
     </div>
   </section>
@@ -603,6 +603,87 @@ def check_app_contract(page_html, slug):
             'build aborted: %s/ is missing element id(s) %s that assets/app.js '
             'looks up. The page template and the script have drifted apart.'
             % (slug, ', '.join(missing)))
+
+
+def check_js_scope_contract():
+    """Fail the build if an app.js IIFE references another IIFE's privates.
+
+    assets/app.js is two IIFEs that may only share state through
+    window._sacmoms. This exists because the event-filter persistence patch
+    once put `estate` in the week IIFE while filterQuery() in the places IIFE
+    read it: a ReferenceError that syncHash()'s try/catch swallowed (so filter
+    hashes were silently never written) and that killed openDetail() uncaught
+    (so no Details dialog opened and no #event= hash appeared). The script
+    looked fine and unit tests passed -- the bug only existed across the IIFE
+    boundary, which nothing checked. This check closes that hole.
+    """
+    src = read('assets/app.js')
+    # strip strings, regex literals, then comments
+    src = re.sub(r"'(?:[^'\\\n]|\\.)*'", "''", src)
+    src = re.sub(r'"(?:[^"\\\n]|\\.)*"', '""', src)
+    src = re.sub(r'`(?:[^`\\]|\\.)*`', '``', src)
+    src = re.sub(r'([=(:,!&|?]\s*|return\s+)/((?![/*])(?:[^/\\\n\[]|\\.|\[[^\]\n]*\])+/[gimsuy]*)',
+                 r"\1''", src)
+    src = re.sub(r'/\*[\s\S]*?\*/', ' ', src)
+    src = re.sub(r'//[^\n]*', ' ', src)
+    iifes, idx = [], 0
+    while True:
+        s = src.find('(function () {', idx)
+        if s == -1:
+            break
+        e = src.find('})();', s)
+        if e == -1:
+            break
+        iifes.append(src[s:e])
+        idx = e + 5
+    keywords = set('break case catch class const continue debugger default delete do else '
+                   'export extends finally for function if import in instanceof new return super '
+                   'switch this throw try typeof var void while with yield let static'.split())
+    literals = {'true', 'false', 'null', 'undefined', 'NaN', 'Infinity'}
+    allowed_globals = {'window', 'document', 'navigator', 'location', 'history',
+                       'localStorage', 'sessionStorage', 'JSON', 'Math', 'Date',
+                       'encodeURIComponent', 'decodeURIComponent', 'encodeURI',
+                       'decodeURI', 'parseInt', 'parseFloat', 'isNaN', 'isFinite',
+                       'Array', 'Object', 'String', 'Number', 'Boolean', 'RegExp',
+                       'Error', 'TypeError', 'RangeError', 'SyntaxError',
+                       'setTimeout', 'clearTimeout', 'setInterval', 'clearInterval',
+                       'requestAnimationFrame', 'console', 'arguments',
+                       'TOWN', 'EVENTS'}  # page-provided, guarded by typeof checks
+    bad = []
+    for n, body in enumerate(iifes):
+        declared = set()
+        for m in re.finditer(r'\bvar\s+([^;]+);', body):
+            for part in m.group(1).split(','):
+                d = re.match(r'\s*([A-Za-z_$][\w$]*)', part)
+                if d:
+                    declared.add(d.group(1))
+        declared.update(re.findall(r'\bfunction\s+([A-Za-z_$][\w$]*)', body))
+        for m in re.finditer(r'\bfunction(?:\s+[A-Za-z_$][\w$]*)?\s*\(([^)]*)\)', body):
+            for p in m.group(1).split(','):
+                p = p.strip()
+                if re.fullmatch(r'[A-Za-z_$][\w$]*', p):
+                    declared.add(p)
+        declared.update(re.findall(r'\bcatch\s*\(\s*([A-Za-z_$][\w$]*)\s*\)', body))
+        code = re.sub(r'\.[A-Za-z_$][\w$]*', '', body)          # obj.prop
+        code = re.sub(r'([{,]\s*)[A-Za-z_$][\w$]*(?=\s*:)', r'\1', code)  # object keys
+        # reRenderEvents is the one sanctioned exception: a window-level bridge
+        # the week IIFE sets ("place filters changed, re-render events"), and
+        # every use here sits inside `if (typeof reRenderEvents === 'function')`,
+        # so the call can never execute while the name is undeclared.
+        declared.add('reRenderEvents')
+        seen = set()
+        for m in re.finditer(r'\b[A-Za-z_$][\w$]*\b', code):
+            ident = m.group(0)
+            if (ident in seen or ident in keywords or ident in literals
+                    or ident in declared or ident in allowed_globals):
+                continue
+            seen.add(ident)
+            bad.append('IIFE-%d references undeclared %r' % (n + 1, ident))
+    if bad:
+        raise SystemExit(
+            'build aborted: assets/app.js crosses its IIFE boundary:\n  ' +
+            '\n  '.join(bad) +
+            '\nShare state only through window._sacmoms.')
 
 
 def city_page(town, places, events, dated, base):
@@ -648,7 +729,7 @@ def city_page(town, places, events, dated, base):
     for _, p in ranked:
         ph = photo_for(slugify(p['name']))
         if ph:
-            og_img = '<meta property="og:image" content="%s%s/%s" />' % (base, slug, ph)
+            og_img = '<meta property="og:image" content="%s%s" />' % (base, ph)
             break
 
     out = HEAD.format(title=html.escape(title, quote=True), desc=html.escape(desc, quote=True),
@@ -827,6 +908,7 @@ def root_page(towns_with_pages, places, base):
 
 
 def main():
+    check_js_scope_contract()
     towns = load('towns.json')
     if FOCUS_REGION:
         towns = [t for t in towns if t.get('region') == FOCUS_REGION]

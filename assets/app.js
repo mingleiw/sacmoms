@@ -15,6 +15,10 @@
   var cardsEl = document.getElementById('cards');
 
   var state = { age: 'all', env: 'all' };
+  /* Event-filter state lives here, next to the place filters, so the hash
+     helpers below can reach it. The week IIFE reads and mutates this same
+     object through window._sacmoms.estate. */
+  var estate = { age: 'all', env: 'all', dist: 'all' };
   var userLoc = null;
 
   /* Filters ride in the URL hash so refresh, bookmarking and sharing keep
@@ -35,6 +39,16 @@
       if (VALID_FILTERS[t[1]].indexOf(v) !== -1) state[t[1]] = v;
     }
   }
+  /* Event filters ride in the same hash under e-prefixed params, so they
+     survive refresh exactly like the place filters: ?eage=3-5&eenv=outdoor&edist=10 */
+  var EV_PARAM = { eage: 'age', eenv: 'env', edist: 'dist' };
+  function readEventFilterHash() {
+    var re = /[?&](eage|eenv|edist)=([^&#]*)/g, t;
+    while ((t = re.exec(location.hash)) !== null) {
+      var v = decodeURIComponent(t[2]);
+      if (VALID_FILTERS[t[1]].indexOf(v) !== -1) estate[EV_PARAM[t[1]]] = v;
+    }
+  }
   function filterQuery() {
     var q = [];
     if (state.age !== 'all') q.push('age=' + encodeURIComponent(state.age));
@@ -51,6 +65,7 @@
     try { history.replaceState(null, '', '#' + b + filterQuery()); } catch (e) {}
   }
   readFilterHash();
+  readEventFilterHash();
 
   try {
     var seg = location.pathname.replace(/\/+$/, '').split('/').pop();
@@ -254,7 +269,8 @@
 
   // Expose for the events IIFE to call
   window._sacmoms = { userLoc: function () { return userLoc; }, haversine: haversine,
-                      showMiles: showMiles, esc: esc, filterQuery: filterQuery };
+                      showMiles: showMiles, esc: esc, filterQuery: filterQuery,
+                      syncHash: syncHash, estate: estate };
 
   function matches(card) {
     for (var k in state) {
@@ -404,19 +420,12 @@
   /* ---- Event filters: age / setting / distance. These apply only to the
      week section; the place filters above apply only to places. Each set is
      labelled with its scope so the boundary is obvious. ---- */
-  var estate = { age: 'all', env: 'all', dist: 'all' };
+  /* Shared event-filter state, owned by the places IIFE (see window._sacmoms).
+     Same object reference, so chip clicks here are visible to filterQuery(). */
+  var estate = (window._sacmoms && window._sacmoms.estate) ||
+               { age: 'all', env: 'all', dist: 'all' };
   var evCountEl = document.getElementById('evCount');
 
-  /* Event filters persist in the hash under e-prefixed params, exactly like
-     the place filters, so a refresh keeps the event selection too. */
-  var EV_PARAM = { eage: 'age', eenv: 'env', edist: 'dist' };
-  function readEventFilterHash() {
-    var re = /[?&](eage|eenv|edist)=([^&#]*)/g, t;
-    while ((t = re.exec(location.hash)) !== null) {
-      var v = decodeURIComponent(t[2]);
-      if (VALID_FILTERS[t[1]].indexOf(v) !== -1) estate[EV_PARAM[t[1]]] = v;
-    }
-  }
   function paintEventChips() {
     document.querySelectorAll('[data-egroup]').forEach(function (g) {
       var key = g.getAttribute('data-egroup');
@@ -448,10 +457,9 @@
       estate[key] = btn.getAttribute('data-v');
       paintEventChips();
       render();
-      syncHash();
+      if (window._sacmoms && window._sacmoms.syncHash) window._sacmoms.syncHash();
     });
   });
-  readEventFilterHash();
   paintEventChips();
 
   /* An event counts as ended only when the organiser published an end time

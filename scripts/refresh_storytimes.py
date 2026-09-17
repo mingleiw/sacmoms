@@ -99,6 +99,9 @@ def parse_listing(html, today):
         if not m:
             continue
         url, title = m.group(1), m.group(2).strip()
+        # The library's own listing sometimes uses a spaced "?" as a separator
+        # ("Hora de Cuentos Bilingüe ? Bilingual Storytime"); normalize to a dash.
+        title = re.sub(r"\s+\?\s+", " - ", title)
         if "storytime" not in title.lower() and "cuentos" not in title.lower():
             continue
         if "amev-event-canceled" in block or ">Cancelled<" in block or ">Rescheduled<" in block:
