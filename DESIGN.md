@@ -3,7 +3,13 @@
 ## The goal
 
 Help a parent or caregiver, on any given day, decide where to take the kids —
-**without making them do the searching.** Northern California, not one county.
+**without making them do the searching.**
+
+> **Scope note.** This document records the design as reasoned through at Bay
+> Area / Northern California scope. The site now ships **Sacramento County only**
+> — 5 city pages, via `FOCUS_REGION = 'sac'`. Bay Area references below are
+> history, not a description of what is built. Current state is *Sacramento-first*
+> at the end.
 
 The benchmark is Marin Mommies. Two things about it matter:
 
@@ -153,10 +159,12 @@ to rank. They are conventional work; the pipeline is the risk.
 
 ## Blockers
 
-1. **Actions token is clamped read-only on this fork.** A nightly job committing
-   JSON needs `contents: write`. Already observed: a workflow died with
-   `Resource not accessible by integration` despite declaring permissions.
-   Fix: Settings → Actions → General → Workflow permissions → **Read and write**.
+1. ~~**Actions token is clamped read-only on this fork.**~~ **Moot.** The nightly
+   job never ran in GitHub Actions. `scripts/daily_refresh.sh` runs from cron in
+   an agent runtime and pushes via a helper that authenticates through the Secure
+   Vault at call time, so no Actions token and no repo secret is involved. The
+   workflow that hit `Resource not accessible by integration` was removed rather
+   than left failing.
 2. **API key secret** for the agent in CI.
 3. **"Meta Muse"** — named as the day-one data source; term not yet explained.
    Its output format determines the schema to build against.
@@ -183,9 +191,10 @@ shipped as errors without checking:
   as "early Fall 2026". No storytime is listed there, because it cannot be
   confirmed running.
 
-The header label changed from "Bay Area" to "Northern California", which is now
-the accurate description. The title and Open Graph copy still say Bay Area and
-need a decision on branding.
+The header label changed from "Bay Area" to "Northern California". **Both are now
+superseded:** the site is branded SacMoms and scoped to Sacramento County, and the
+title, header and Open Graph copy all say so. The branding question recorded here
+is closed.
 
 ## URL architecture
 
@@ -243,3 +252,60 @@ replaces them with real geocoding; the map link stays authoritative.
 **Still unproven: the pipeline itself** (decisions 1–4, 11), which is the part
 that can actually kill the project. It cannot be built here — no outbound web, no
 API key, and the Actions token is still clamped read-only.
+
+---
+
+## Sacramento-first — current state
+
+Scope narrowed from Northern California to **Sacramento County**, and the site was
+rebranded **Kidventures → SacMoms**. `FOCUS_REGION = 'sac'` in `build.py` filters
+towns at build time; the Bay Area towns, places and Marin events stay in `data/`
+rather than being deleted, so widening scope later is a one-line change.
+
+Ships today: `/sacramento/`, `/elk-grove/`, `/folsom/`, `/rancho-cordova/`,
+`/citrus-heights/`, plus the root picker. 30 places (9 in region), 51 weekly
+events (7 in region), 123 dated Sacramento library storytimes.
+
+### The pipeline is no longer unproven
+
+The paragraph above is superseded. `scripts/daily_refresh.sh` runs from cron in an
+agent runtime, scrapes, rebuilds, commits and pushes. `data/dated_events_sac.json`
+holds **123 real dated storytimes**, each with its own per-event source URL on
+`engage.saclibrary.org` — decisions 1–4 and 11 demonstrated end to end on a real
+source. Decision 3 (hard provenance) held: nothing publishes without a source URL.
+
+Two things learned in the running system:
+
+- **Verbatim beats tidy.** Four scraped titles carry a literal ASCII `?` where a
+  dash belongs. It is in the library's own listing, not a decoding fault. Left
+  as-is: normalising it would make the page disagree with the source it links to.
+- **Fail-closed has a blast radius.** Scrapers exit non-zero on an empty scrape so
+  a bad run cannot publish an empty calendar — correct. But `daily_refresh.sh` is
+  `set -e`, so a **Mill Valley** outage aborted the run before Sacramento was
+  rebuilt or pushed, over data `FOCUS_REGION` discards. Fail-closed has to be
+  scoped to the data that actually ships; the Marin calls are now non-fatal.
+
+### Open issue: the SEO guards stopped guarding
+
+`MIN_PLACES` / `MAX_MILES` / `LIST_MILES` were the answer to decision-driven
+worry about doorway pages, and under Bay Area scope they worked. Under
+Sacramento-only scope they are inert:
+
+- all 9 in-region places fall within `LIST_MILES` of all 5 towns, so nothing is
+  excluded and every page lists the same 9
+- events match on `region`, not proximity, so every page ships a **byte-identical
+  `EVENTS` payload** — verified, 35 events, identical across all five
+- Folsom, Rancho Cordova and Citrus Heights share an identical top-four
+
+So the pages differ only by sort order and printed distances. At five pages this
+is arguably honest — distance ordering *is* the answer a parent wants — but it is
+exactly the pattern the thresholds were added to prevent, and it gets worse with
+every city added.
+
+The guards were geometry-based, and geometry stopped discriminating when the
+region got small relative to the radius. **A threshold that encodes an assumption
+about scale silently stops working when the scale changes**, without erroring.
+
+Fixing it means making pages differ in substance: match events by distance from
+the town rather than by region, and add places outside the Sacramento core. Until
+then, city count should not grow.

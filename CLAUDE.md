@@ -3,6 +3,10 @@
 Static site. One page per city: pick a city, get places near it sorted by
 distance. `README.md` has the full detail; this file is the things that bite.
 
+Scope is Sacramento County — 5 city pages, set by `FOCUS_REGION = 'sac'` in
+`build.py`. `data/` still carries Bay Area towns, places and Marin events from the
+site's earlier scope; they are filtered out at build time, not deleted.
+
 ## Generated files — never edit by hand
 
 `index.html`, every `<city-slug>/` directory, `sitemap.xml` and `robots.txt` are
@@ -78,17 +82,37 @@ are hand-entered approximations: fine for 5 miles versus 40, not surveyed.
   renders correctly with JavaScript off.
 - `localStorage` access is wrapped in `try/catch` — private browsing throws.
 - Event text is escaped before insertion; venue names contain apostrophes.
+- `scripts/daily_refresh.sh` is `set -e`, and the scrapers exit non-zero when
+  their source yields nothing. Only the **Sacramento** scrapers may gate that
+  run; the Marin ones are called with `|| echo warning` because they feed data
+  `FOCUS_REGION` filters out, and an outage at a Mill Valley library used to
+  abort the refresh and leave Sacramento un-rebuilt. Adding a scraper means
+  deciding which side of that line it belongs on.
+- Scraped titles are reproduced verbatim, including source-side typos. Four
+  `Hora de Cuentos Bilingüe ? Bilingual Storytime` entries carry a literal ASCII
+  `?` that is in the library's own listing — not a decoding bug (`ü` decodes
+  fine). Do not "fix" it here; the page would then disagree with the source it
+  links to.
 
 ## Why there are thresholds in build.py
 
 `MIN_PLACES` (4) and `MAX_MILES` (25) decide whether a city gets a page at all.
 `LIST_MILES` (40) caps what a page lists.
 
-These are not tuning knobs. Without them the site is 42 pages carrying the same
-30 places in a different order, which is the doorway-page pattern search engines
-demote — and the stated long-term plan is ads, so indexability is load-bearing.
-Four towns currently do not qualify. The fix is places near them, not a lower
-threshold.
+These are not tuning knobs. They exist because pages that carry the same content
+in a different order are the doorway-page pattern search engines demote — and the
+stated long-term plan is ads, so indexability is load-bearing.
+
+**They are currently inert, and that is the biggest open issue in the repo.** All
+9 Sacramento places sit within 40 miles of all 5 Sacramento towns, so `LIST_MILES`
+excludes nothing; and events match on `region`, so every city page ships a
+byte-identical `EVENTS` payload. The five pages differ only in sort order and
+printed distances. Tolerable at five pages, not as the count grows.
+
+So: **do not add city pages until the pages differ in substance.** The fixes are
+per-town event matching (by distance, not region) and more dispersed places. A
+lower threshold is not a fix. Detail in `README.md` under *Which cities get a
+page*.
 
 ## Verify before pushing
 

@@ -7,18 +7,24 @@ the parking and weather notes that decide whether it's worth the drive.
 
 ```
 /                    city picker — dropdown plus a crawlable list of every city
+/sacramento/         places near Sacramento, closest first
 /elk-grove/          places near Elk Grove, closest first
-/berkeley/           places near Berkeley, closest first
-...                  38 cities
+/folsom/  /rancho-cordova/  /citrus-heights/
 ```
+
+`FOCUS_REGION` at the top of `build.py` is what limits this to five pages. It is
+set to `'sac'`, so only Sacramento-region towns are generated, even though `data/`
+still carries Bay Area towns and places from the site's earlier scope. Widening it
+is a one-line change — but read *Which cities get a page* below first, because the
+guards that are supposed to make extra pages safe do not currently bite.
 
 ## Files
 
 ```
 build.py             generates every page — run this after editing data
-data/places.json     30 destinations
-data/events.json     recurring weekly events
-data/towns.json      42 towns with coordinates
+data/places.json     30 destinations (9 in the Sacramento region)
+data/events.json     51 recurring weekly events (7 in the Sacramento region)
+data/towns.json      46 towns with coordinates (5 in the Sacramento region)
 templates/           shared fragments (icon sprite, "Before you go")
 assets/style.css     styles, shared by every page
 assets/app.js        client script, shared by every city page
@@ -69,17 +75,31 @@ Two thresholds in `build.py`:
 | `MAX_MILES` | 25 | The radius that qualification is measured over |
 | `LIST_MILES` | 40 | A city page only lists places within this far |
 
-Currently 38 of 42 towns qualify. Skipped: **Petaluma** (1 place within 25mi),
-**Santa Rosa** (0), **Livermore** (2), **Gilroy** (1).
+All 5 Sacramento-region towns qualify; none are skipped.
 
-This is deliberate, and it matters if the site is ever monetised. Publishing 42
-pages that all carry the same 30 places in a different order is the doorway-page
-pattern search engines demote. `LIST_MILES` is what stops each page being padded
-with destinations nobody would drive to from there — it's why the Elk Grove page
-lists 9 Sacramento places and not 21 Bay Area ones as well.
+### The guards are currently inert — read this before adding cities
 
-To add a skipped city, add places near it. The thresholds are a symptom, not the
-cause.
+These thresholds exist because publishing many pages that carry the same content
+in a different order is the doorway-page pattern search engines demote, and the
+stated long-term plan is ads, so indexability is load-bearing.
+
+Under the old Bay Area scope they did real work. Under `FOCUS_REGION = 'sac'` they
+do not. All 9 Sacramento places are within 40 miles of all 5 Sacramento towns, so
+`LIST_MILES` excludes nothing, and every city page carries:
+
+- the **same 9 places**, differing only in sort order and the printed distances
+- the **same 35 events** — a byte-identical `EVENTS` payload, because `build.py`
+  matches dated and weekly events on `region`, not on proximity to the town
+
+Folsom, Rancho Cordova and Citrus Heights currently share an identical top-four.
+That is the pattern the thresholds were added to prevent, now happening.
+
+It is defensible at five pages: the distance ordering is genuinely the answer a
+parent wants, and five near-identical pages is not a doorway farm. It stops being
+defensible as city count grows. **Before adding cities, make the pages differ in
+substance, not order** — the honest fixes are per-town events (match events by
+distance from the town, not by region) and places dense enough that `LIST_MILES`
+starts excluding some. Lowering the thresholds is not a fix; it is the symptom.
 
 ## Adding a place
 
@@ -184,14 +204,23 @@ through the library's public LibCal calendar:
 - `scripts/refresh_marin_storytimes.py` queries that JSON feed day-by-day and
   writes the storytime instances to `data/dated_events_marin.json`. Each source
   owns its own file so a broken scraper can never wipe another source's data.
+- **Nothing it writes is rendered today.** `FOCUS_REGION = 'sac'` filters towns
+  to the Sacramento region, and events match on `region`, so the Marin files are
+  kept warm for a future scope widening and nothing more.
 
 - `build.py` folds the next 7 days of dated events into each town page of the
-  matching region (Sacramento-area, Marin-area) alongside the weekly events.
-  `assets/app.js` matches them by date (`e.date`) while weekly events keep
-  matching by day-of-week (`e.day`).
-- A daily cron runs both scrapers, rebuilds, commits and pushes. Either script
-  exits non-zero without touching its file when its source yields zero
-  storytimes, so the cron reports it instead of publishing an empty calendar.
+  matching region alongside the weekly events. `assets/app.js` matches them by
+  date (`e.date`) while weekly events keep matching by day-of-week (`e.day`).
+- A daily cron (`scripts/daily_refresh.sh`) runs the scrapers, rebuilds, commits
+  and pushes. Each script exits non-zero without touching its file when its
+  source yields zero storytimes, so a bad scrape reports instead of publishing an
+  empty calendar.
+- **The Sacramento scrapers gate that run; the Marin ones deliberately do not.**
+  The script is `set -e`, so before this was split, a Mill Valley outage aborted
+  the refresh and left Sacramento un-rebuilt and un-pushed over data that is not
+  even rendered. The Marin calls now carry `|| echo warning`. If `FOCUS_REGION`
+  ever widens to include Marin, move them back above the line in that script so
+  their failures gate the push again.
 
 If the scrape ever fails or the listing markup changes, the site falls back to
 the weekly events — it never invents storytimes to fill the gap. Do not add
@@ -236,8 +265,13 @@ traffic tracks whether these pages are worth indexing, and that is exactly what
 
 ## Possible next steps
 
-- [ ] More Peninsula and North Bay places — the thinnest regions
-- [ ] Places near Petaluma, Santa Rosa, Livermore and Gilroy so they qualify
+- [ ] **Make city pages differ in substance, not just order** — the five pages
+      currently carry the same 9 places and a byte-identical event payload. Match
+      events by distance from the town rather than by `region`, and add places
+      outside the Sacramento core so `LIST_MILES` starts excluding some. This
+      gates any increase in city count; see *Which cities get a page*.
+- [ ] More Sacramento-region places, especially outside the central cluster —
+      9 places across 5 cities is what makes the pages duplicate each other
 - [ ] Storytimes for the Elk Grove library after its **10 October 2026** grand
       opening at 9260 Elk Grove Blvd; nothing is listed there until a schedule
       is published
