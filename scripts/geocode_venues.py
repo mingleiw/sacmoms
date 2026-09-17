@@ -50,6 +50,35 @@ UA = "SacMoms/1.0 (+https://github.com/mingleiw/sacmoms)"
 LAT_RANGE = (38.0, 39.1)
 LON_RANGE = (-121.9, -120.8)
 
+# Venues whose plain "venue, city" query fails, keyed by "venue|city". Tried in
+# order before the default query. Documented 2026-09-17:
+# - Fair Oaks Library's default query matches a same-named branch in Stockton;
+#   qualifying with the county lands the real branch at 11601 Fair Oaks Blvd.
+# - "Martin Luther King, Jr. Library" needs the comma dropped to match OSM's
+#   "Martin Luther King, Jr. Regional Library".
+# - Historic Folsom Plaza / Old Town Elk Grove are districts OSM only knows
+#   under their broader names.
+QUERY_OVERRIDES = {
+    "Fair Oaks Library|Fair Oaks": ["Fair Oaks Library, Sacramento County, CA, USA"],
+    "Martin Luther King, Jr. Library|Sacramento": ["Martin Luther King Jr Library, Sacramento, CA, USA"],
+    "Historic Folsom Plaza|Folsom": ["Historic Folsom, Folsom, CA, USA"],
+    "Old Town Elk Grove|Elk Grove": ["Elk Grove Historic District, Elk Grove, CA, USA"],
+}
+
+# Venues OpenStreetMap does not know at all (zero hits on every query form).
+# Coordinates are pinned from the organizer's published address, verified
+# against Nominatim's address geocode, and locked so no future run can
+# overwrite them with a worse match. Verified 2026-09-17.
+PINNED = {
+    # Elk Grove Certified Farmers' Market, Sat 8a-12p (Waze-listed address)
+    "Laguna Gateway Center|Elk Grove": (38.422297, -121.402146),
+    # Organizer-published: 38.576153, -121.480284 (exploremidtown.org);
+    # Nominatim address geocode agrees to ~15m.
+    "Midtown Farmers Market|Sacramento": (38.576244, -121.480403),
+    # 7335 Gloria Dr; Nominatim matches "Robbie Waters Public Library" here.
+    "Robbie Waters Pocket - Greenhaven Library|Sacramento": (38.493911, -121.537011),
+}
+
 
 def key(venue, city):
     return "%s|%s" % (venue.strip(), city.strip())
@@ -85,11 +114,13 @@ def query(q):
 
 
 def resolve(venue, city):
-    """Try the venue, then fall back to the venue without its branch suffix.
+    """Try override queries, then the venue, then the venue without its branch suffix.
 
     Returns (lat, lon, matched_name, used_query) or (None, None, reason, q).
     """
-    tries = ["%s, %s, CA, USA" % (venue, city)]
+    k = key(venue, city)
+    tries = list(QUERY_OVERRIDES.get(k, []))
+    tries.append("%s, %s, CA, USA" % (venue, city))
     # "North Highlands - Antelope Library" is two branch names joined by the
     # library's own convention; the second half is the searchable one.
     if " - " in venue:
@@ -143,6 +174,17 @@ def main():
 
     today = dt.date.today().isoformat()
     for k, v, c in todo:
+        if k in PINNED:
+            lat, lon = PINNED[k]
+            existing[k] = {
+                "venue": v, "city": c, "lat": lat, "lon": lon,
+                "query": "hand-pinned", "matched": "hand-pinned (locked)",
+                "resolved": today,
+                "source": "organizer-published address, verified via nominatim.openstreetmap.org",
+                "locked": True,
+            }
+            print("  %-46s %.4f, %.4f (pinned, locked)" % (v[:46], lat, lon))
+            continue
         lat, lon, matched, q = resolve(v, c)
         existing[k] = {
             "venue": v, "city": c, "lat": lat, "lon": lon,

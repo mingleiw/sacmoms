@@ -136,7 +136,7 @@ def parse_listing(html, today):
             "venue": venue,
             "city": city,
             "region": "sac",
-            "ages": "Babies" if baby else "All ages",
+            "ages": "Babies 0\u201318 mo" if baby else "Ages 0\u20135",
             "blurb": blurb,
             "source": url,
         })
