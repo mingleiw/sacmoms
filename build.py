@@ -34,6 +34,7 @@ def _asset_v(rel):
 # always fetches fresh. Without this, browsers sit on the old app.js after a
 # deploy and dated events silently stop rendering.
 APP_JS_V = _asset_v('assets/app.js')
+CAL_JS_V = _asset_v('assets/calendar.js')
 STYLE_V = _asset_v('assets/style.css')
 
 # Change this if the repo is renamed or a custom domain is pointed at the site:
@@ -686,6 +687,63 @@ def check_js_scope_contract():
             '\nShare state only through window._sacmoms.')
 
 
+def calendar_page(town, events, dated, base):
+    slug = slugify(town['name'])
+    name = town['name']
+    today = datetime.date.today()
+
+    ev = [e for e in events if e['region'] == town['region']]
+    ev += [e for e in dated if e['region'] == town['region'] and e['date'] >= str(today)]
+
+    ranked_ev = []
+    for e in ev:
+        e = dict(e)
+        vc = VENUES.get('%s|%s' % (e.get('venue', ''), e.get('city', '')))
+        if vc:
+            e['dist'] = round(miles(town['lat'], town['lon'], vc[0], vc[1]), 1)
+            e['lat'] = vc[0]
+            e['lon'] = vc[1]
+        e['age_tags'] = EVENT_AGE_TAGS.get(e.get('ages'), '0-2 3-5 6-9 10+')
+        e['env'] = event_env(e)
+        ranked_ev.append(e)
+    ev = ranked_ev
+
+    title = 'Event calendar for %s · %s' % (name, SITE_NAME)
+    desc = ('Full calendar of kid-friendly events near %s — markets, storytimes, '
+            'open gyms, seasonal events and more.' % name)
+
+    og_img = ''
+    out = HEAD.format(title=html.escape(title, quote=True), desc=html.escape(desc, quote=True),
+                      canonical='%s%s/calendar/' % (base, slug), up='../../',
+                      og_image=og_img,
+                      nav='<a href="../../"><span class="nav-full">Change city</span>'
+                          '<span class="nav-short">Cities</span></a>'
+                          '<a href="../">%s</a>' % html.escape(name))
+
+    out += '''
+<main id="top">
+  <section class="cal-section">
+    <div class="wrap">
+      <a class="cal-back" href="../">&larr; Back to %s</a>
+      <div class="section-head">
+        <h2>Event calendar</h2>
+        <p class="section-sub">All events near %s &mdash; tap a date to see what&rsquo;s on</p>
+      </div>
+      <div id="calMonths"></div>
+      <div id="calDetail"></div>
+    </div>
+  </section>
+</main>
+''' % (html.escape(name), html.escape(name))
+
+    out += '<script>\nvar TOWN = %s;\nvar CAL_EVENTS = %s;\n</script>\n' % (
+        json.dumps({'name': name, 'lat': town['lat'], 'lon': town['lon']}),
+        json.dumps(ev, ensure_ascii=False))
+    out += '<script src="../../assets/calendar.js?v=' + CAL_JS_V + '"></script>\n'
+    out += FOOT
+    return out
+
+
 def city_page(town, places, events, dated, base):
     slug = slugify(town['name'])
     name = town['name']
@@ -783,6 +841,7 @@ def city_page(town, places, events, dated, base):
         open gyms, a per-date listing for library storytimes. Schedules change and sessions get
         cancelled, so confirm with the venue before you set out.
       </p>
+      <a class="cal-cta" href="calendar/">View full calendar &rarr;</a>
     </div>
     <dialog class="ev-dialog" id="evDialog" aria-labelledby="evDialogTitle">
       <form method="dialog">
@@ -947,12 +1006,17 @@ def main():
         os.makedirs(d, exist_ok=True)
         open(os.path.join(d, 'index.html'), 'w', encoding='utf-8').write(page)
         open(os.path.join(d, '.generated'), 'w').write('written by build.py\n')
+        cal_dir = os.path.join(d, 'calendar')
+        os.makedirs(cal_dir, exist_ok=True)
+        open(os.path.join(cal_dir, 'index.html'), 'w', encoding='utf-8').write(
+            calendar_page(t, events, dated, base))
 
     open(os.path.join(ROOT, 'index.html'), 'w', encoding='utf-8').write(
         root_page(towns_with_pages, places, base))
 
     # sitemap, so the city pages are actually discoverable
-    urls = [base] + ['%s%s/' % (base, slugify(t['name'])) for t in towns_with_pages]
+    urls = [base] + ['%s%s/' % (base, slugify(t['name'])) for t in towns_with_pages] + \
+           ['%s%s/calendar/' % (base, slugify(t['name'])) for t in towns_with_pages]
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sm += ''.join('  <url><loc>%s</loc></url>\n' % u for u in urls)
     sm += '</urlset>\n'
