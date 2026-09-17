@@ -1,41 +1,5 @@
 [
  {
-  "date": "2026-09-16",
-  "time": "10:30",
-  "title": "Family Storytime",
-  "venue": "Arden - Dimick Library",
-  "city": "Sacramento",
-  "region": "sac",
-  "ages": "All ages",
-  "blurb": "Songs, rhymes, movement and stories for young children.",
-  "source": "https://engage.saclibrary.org/event/13177380",
-  "until": "11:00"
- },
- {
-  "date": "2026-09-16",
-  "time": "10:30",
-  "title": "Family Storytime",
-  "venue": "Sylvan Oaks Library",
-  "city": "Sacramento",
-  "region": "sac",
-  "ages": "All ages",
-  "blurb": "Songs, rhymes, movement and stories for young children.",
-  "source": "https://engage.saclibrary.org/event/15066236",
-  "until": "11:30"
- },
- {
-  "date": "2026-09-16",
-  "time": "11:30",
-  "title": "Family Storytime",
-  "venue": "Arden - Dimick Library",
-  "city": "Sacramento",
-  "region": "sac",
-  "ages": "All ages",
-  "blurb": "Songs, rhymes, movement and stories for young children.",
-  "source": "https://engage.saclibrary.org/event/13177566",
-  "until": "12:00"
- },
- {
   "date": "2026-09-17",
   "time": "10:00",
   "title": "Family Storytime",
@@ -1474,5 +1438,65 @@
   "blurb": "Songs, rhymes, movement and stories for young children.",
   "source": "https://engage.saclibrary.org/event/17099861",
   "until": "18:00"
+ },
+ {
+  "date": "2026-10-17",
+  "time": "10:00",
+  "title": "Family Storytime",
+  "venue": "Franklin Library",
+  "city": "Elk Grove",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Songs, rhymes, movement and stories for young children.",
+  "source": "https://engage.saclibrary.org/event/16811817",
+  "until": "11:00"
+ },
+ {
+  "date": "2026-10-17",
+  "time": "10:00",
+  "title": "Family Storytime",
+  "venue": "Robbie Waters Pocket - Greenhaven Library",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Songs, rhymes, movement and stories for young children.",
+  "source": "https://engage.saclibrary.org/event/13689857",
+  "until": "12:00"
+ },
+ {
+  "date": "2026-10-17",
+  "time": "10:30",
+  "title": "Baby Storytime",
+  "venue": "Central Library",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "Babies",
+  "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
+  "source": "https://engage.saclibrary.org/event/16639467",
+  "until": "11:00"
+ },
+ {
+  "date": "2026-10-17",
+  "time": "10:30",
+  "title": "Family Storytime",
+  "venue": "North Natomas Library",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Songs, rhymes, movement and stories for young children.",
+  "source": "https://engage.saclibrary.org/event/15790922",
+  "until": "11:30"
+ },
+ {
+  "date": "2026-10-17",
+  "time": "15:30",
+  "title": "Hora de Cuentos Bilingüe ? Bilingual Storytime",
+  "venue": "Central Library",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Songs, rhymes, movement and stories for young children. Bilingual Spanish/English.",
+  "source": "https://engage.saclibrary.org/event/16903228",
+  "until": "16:00"
  }
 ]
