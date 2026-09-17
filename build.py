@@ -546,8 +546,7 @@ def city_page(town, places, events, dated, base):
   <section class="hero">
     <div class="wrap hero-inner">
       <h1 class="hero-title"><span class="hl">Where to take the kids in %s</span></h1>
-      <p class="lede">%d places within %d miles, closest first. %s</p>
-      <p class="city-switch"><a href="../">Not your city? Pick another &rarr;</a></p>%s
+      <p class="lede">%d places within %d miles, closest first. %s</p>%s
     </div>
   </section>
 

@@ -373,9 +373,6 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .empty { margin: 28px 0 0; padding: 36px 22px; text-align: center; background: var(--chalk); border-radius: var(--r-lg); font-size: 15.5px; font-weight: 600; color: var(--ink-2); }
 
 /* ---------- City index (root page) ---------- */
-.city-switch { margin: 22px 0 0; font-size: 15px; font-weight: 700; }
-.city-switch a { color: var(--sea); border-bottom: 2px solid var(--sea-w); padding-bottom: 1px; }
-.city-switch a:hover { border-color: var(--sea); }
 
 .city-index { display: grid; grid-template-columns: 1fr; gap: 24px; }
 @media (min-width: 640px)  { .city-index { grid-template-columns: repeat(2, 1fr); } }
