@@ -228,7 +228,7 @@ section[id] { scroll-margin-top: 78px; }
 .ev-sample { display: inline-block; margin-left: 9px; padding: 2px 10px; border-radius: 999px; background: var(--sun-w); color: #7A5A18; font-size: 11.5px; font-weight: 800; vertical-align: 2px; }
 .ev-where { margin: 3px 0 0; font-size: 14.5px; font-weight: 700; }
 .ev-blurb { margin: 5px 0 0; font-size: 14.5px; color: var(--ink-2); }
-.ev-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 11px; }
+.ev-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 9px 13px; margin-top: 12px; }
 .ev-tag { font-size: 12.5px; font-weight: 700; color: var(--ink-2); background: var(--sky); padding: 3px 11px; border-radius: 999px; }
 .ev-time-unknown { color: var(--ink-2); font-weight: 600; font-size: 13px; }
 .ev-src { font-size: 12.5px; font-weight: 700; color: var(--ink-2); border-bottom: 1px dotted var(--line-2); }
@@ -244,12 +244,30 @@ section[id] { scroll-margin-top: 78px; }
 .js .event { cursor: pointer; }
 .js .event:hover { background: var(--sky-2); }
 .event:focus-within { outline: 2px solid var(--sea); outline-offset: 2px; }
+/* The footer had four different treatments competing: a grey pill, a filled
+   pill, a solid-underlined blue link and a dotted-underlined grey one. One
+   emphasised action per card, then quiet references, so the row reads
+   meta -> do this -> check this. */
 .ev-more {
-  font: inherit; font-size: 12.5px; font-weight: 800; color: var(--sea);
-  background: none; border: 0; padding: 3px 0; cursor: pointer;
-  border-bottom: 1px solid currentColor;
+  font: inherit; font-size: 12.5px; font-weight: 800; line-height: 1.35;
+  color: var(--sea); background: var(--sea-w); border: 0;
+  padding: 5px 13px; border-radius: 999px; cursor: pointer;
+  transition: background .2s var(--ease), color .2s var(--ease);
 }
-.ev-more:hover { color: var(--ink); }
+.ev-more:hover { color: var(--chalk); background: var(--sea); }
+
+/* .map is a chunky pill on place cards, which is right there and too loud
+   here, where it sits beside three other things. Scoped down to match the
+   source link so the two references are visually one tier. */
+.ev-foot .map, .ev-foot .ev-src,
+.ev-detail .d-acts .ev-src {
+  font-size: 12.5px; font-weight: 700; color: var(--ink-2);
+  background: none; padding: 0; border-radius: 0;
+  align-self: center; margin-top: 0; line-height: 1.35;
+  border-bottom: 1px dotted var(--line-2);
+}
+.ev-foot .map:hover, .ev-foot .ev-src:hover,
+.ev-detail .d-acts .ev-src:hover { color: var(--ink); transform: none; }
 /* No JS means no dialog to open, so the affordance must not be advertised. */
 html:not(.js) .ev-more { display: none; }
 html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: visible; display: block; }
@@ -276,7 +294,7 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .ev-detail .d-where { margin-top: 3px; font-size: 15px; font-weight: 700; }
 .ev-detail .d-blurb { margin-top: 12px; font-size: 15px; color: var(--ink-2); }
 .ev-detail .d-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
-.ev-detail .d-acts { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+.ev-detail .d-acts { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin-top: 18px; }
 @media (max-width: 420px) { .ev-detail { padding: 22px 18px 20px; } .ev-detail h3 { font-size: 20px; } }
 
 .week-foot { margin: 24px 0 0; font-size: 14px; color: var(--ink-2); }

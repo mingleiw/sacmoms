@@ -163,9 +163,9 @@
           '<p class="ev-blurb">' + esc(e.blurb) + '</p>' +
           '<div class="ev-foot">' +
             '<span class="ev-tag">' + esc(e.ages) + '</span>' +
+            '<button class="ev-more" type="button">Details</button>' +
             '<a class="map" href="https://www.google.com/maps/search/?api=1&query=' +
               encodeURIComponent(e.venue + ' ' + e.city) + '" target="_blank" rel="noopener">Map</a>' +
-            '<button class="ev-more" type="button">Details</button>' +
             (e.source ? '<a class="ev-src" href="' + esc(e.source) + '" target="_blank" rel="noopener">Where this came from</a>' : '') +
           '</div>' +
         '</div></article>';
