@@ -155,11 +155,14 @@ section[id] { scroll-margin-top: 78px; }
 .hero-title .hl:nth-child(2) { animation-delay: .16s; color: var(--tomato); }
 @keyframes pop { to { opacity: 1; transform: none; } }
 
-.lede { margin: 0 0 32px; color: var(--ink-2); font-size: 17.5px; max-width: 46ch; }
+.lede { margin: 0 0 16px; color: var(--ink-2); font-size: 17.5px; max-width: 46ch; }
 .lede strong { color: var(--ink); font-weight: 700; }
+.intro { margin: 0 0 28px; color: var(--ink-2); font-size: 15.5px; line-height: 1.65; max-width: 56ch; }
 
 /* ---------- Quick links ---------- */
 .quick-links { display: flex; flex-wrap: wrap; gap: 10px; margin: 2px 0 0; }
+.browse-links { margin-top: 12px; }
+.browse-links .filter-label { font-size: 13px; color: var(--ink-3); align-self: center; }
 .quick-link {
   font-size: 15px; font-weight: 700; padding: 9px 22px;
   border-radius: 999px; background: var(--sea); color: var(--chalk);

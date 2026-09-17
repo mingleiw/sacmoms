@@ -744,6 +744,137 @@ def calendar_page(town, events, dated, base):
     return out
 
 
+def city_intro(name, listed, ev, seasonal_groups, today):
+    """Data-driven editorial paragraph unique to each city page."""
+    n = len(listed)
+    indoor = [p for _, p in listed if p.get('env') == 'indoor']
+    outdoor = [p for _, p in listed if p.get('env') == 'outdoor']
+    free = [p for _, p in listed if (p.get('spec') or {}).get('price', '').startswith('Free')]
+    parks = [p for _, p in listed if p.get('cat') in ('outdoors', 'play') and p.get('env') == 'outdoor']
+
+    parts = []
+    parts.append('%s has %d kid-friendly spots within driving distance' % (name, n))
+    bits = []
+    if outdoor:
+        bits.append('%d outdoor' % len(outdoor))
+    if indoor:
+        bits.append('%d indoor' % len(indoor))
+    if bits:
+        parts[-1] += ' &mdash; %s' % ' and '.join(bits)
+    parts[-1] += '.'
+
+    if free:
+        parts.append('%d of them are completely free, including %s and %s.' % (
+            len(free), html.escape(free[0]['name']),
+            html.escape(free[1]['name']) if len(free) > 1 else 'more'))
+
+    if ev:
+        week_count = len(ev)
+        parts.append('There are %d events on the calendar this week &mdash; '
+                     'storytimes, open gyms and markets.' % week_count)
+
+    if seasonal_groups:
+        parts.append('Check the seasonal section for pumpkin patches and special events running right now.')
+
+    if parks and len(parks) >= 3:
+        close_parks = sorted(listed, key=lambda x: x[0])
+        close_parks = [p['name'] for _, p in close_parks
+                       if p.get('cat') in ('outdoors', 'play') and p.get('env') == 'outdoor'][:3]
+        parts.append('The closest playgrounds are %s, %s and %s.' % (
+            html.escape(close_parks[0]), html.escape(close_parks[1]), html.escape(close_parks[2])))
+
+    return ' '.join(parts)
+
+
+FILTER_PAGES = [
+    {
+        'slug': 'indoor',
+        'filter': lambda p: p.get('env') == 'indoor',
+        'h1': 'Indoor activities for kids near %s',
+        'title': 'Indoor activities for kids near %s · %s',
+        'desc': 'Indoor play spaces, museums and activities for kids near %s — '
+                'perfect for rainy days or hot afternoons.',
+        'lede': 'Play cafes, bounce parks, museums and indoor gyms near %(name)s &mdash; '
+                '%(n)d options within %(mi)d miles.',
+        'icon': 'play',
+    },
+    {
+        'slug': 'outdoor',
+        'filter': lambda p: p.get('env') == 'outdoor',
+        'h1': 'Outdoor activities for kids near %s',
+        'title': 'Outdoor activities for kids near %s · %s',
+        'desc': 'Parks, playgrounds and outdoor spots for kids near %s — '
+                'sorted by distance so you can find the closest one.',
+        'lede': 'Parks, splash pads, playgrounds and open-air attractions near %(name)s &mdash; '
+                '%(n)d spots within %(mi)d miles.',
+        'icon': 'park',
+    },
+    {
+        'slug': 'free',
+        'filter': lambda p: (p.get('spec') or {}).get('price', '').startswith('Free'),
+        'h1': 'Free things to do with kids near %s',
+        'title': 'Free things to do with kids near %s · %s',
+        'desc': 'Free parks, playgrounds and splash pads for kids near %s — '
+                'no tickets, no entry fee, just show up.',
+        'lede': 'No entry fee, no tickets &mdash; just show up. %(n)d free spots for kids near %(name)s.',
+        'icon': 'park',
+    },
+]
+
+
+def filter_page(town, places, fp, base):
+    slug = slugify(town['name'])
+    name = town['name']
+    ranked = sorted(((miles(town['lat'], town['lon'], p['lat'], p['lon']), p) for p in places),
+                    key=lambda x: x[0])
+    listed = [(d, p) for d, p in ranked if d <= LIST_MILES and fp['filter'](p)]
+    if not listed:
+        return None
+
+    title = fp['title'] % (name, SITE_NAME)
+    desc = fp['desc'] % name
+    lede = fp['lede'] % {'name': html.escape(name), 'n': len(listed), 'mi': LIST_MILES}
+    canon = '%s%s/%s/' % (base, slug, fp['slug'])
+    og_img = ''
+    for _, p in listed:
+        ph = photo_for(slugify(p['name']))
+        if ph:
+            og_img = '<meta property="og:image" content="%s%s" />' % (base, ph)
+            break
+
+    out = HEAD.format(title=html.escape(title, quote=True), desc=html.escape(desc, quote=True),
+                      canonical=canon, up='../../',
+                      og_image=og_img,
+                      nav='<a href="../../"><span class="nav-full">Change city</span>'
+                          '<span class="nav-short">Cities</span></a>'
+                          '<a href="../">%s</a>' % html.escape(name))
+
+    out += '''
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <h1 class="hero-title"><span class="hl">%s</span></h1>
+      <p class="lede">%s</p>
+    </div>
+  </section>
+
+  <section class="list-section" id="list">
+    <div class="wrap">
+      <div class="cards" id="cards">
+%s
+      </div>
+    </div>
+  </section>
+</main>
+''' % (html.escape(fp['h1'] % name), lede,
+       ''.join(place_card(p, d, up='../../') for d, p in listed))
+
+    out += places_jsonld([p for _, p in listed])
+    out += FOOT
+    return out
+
+
 def city_page(town, places, events, dated, base):
     slug = slugify(town['name'])
     name = town['name']
@@ -807,13 +938,29 @@ def city_page(town, places, events, dated, base):
     quick = ('\n      <nav class="quick-links" aria-label="Jump to a section">\n        %s\n      </nav>'
              % '\n        '.join(ql))
 
+    intro = city_intro(name, listed, ev, seasonal_groups, today)
+
+    # Links to filtered sub-pages (indoor, outdoor, free)
+    filter_links = ''
+    for fp in FILTER_PAGES:
+        count = len([1 for d, p in listed if fp['filter'](p)])
+        if count >= 2:
+            filter_links += ('<a class="quick-link" href="%s/">%s (%d)</a>' %
+                             (fp['slug'], fp['slug'].capitalize(), count))
+    if filter_links:
+        filter_links = ('\n      <nav class="quick-links browse-links" '
+                        'aria-label="Browse by category">\n        '
+                        '<span class="filter-label">Browse:</span>\n        '
+                        '%s\n      </nav>' % filter_links)
+
     out += '''
 <main id="top">
 
   <section class="hero">
     <div class="wrap hero-inner">
       <h1 class="hero-title"><span class="hl">Where to take the kids in %s</span></h1>
-      <p class="lede">%d places within %d miles, closest first. %s</p>%s
+      <p class="lede">%d places within %d miles, closest first. %s</p>
+      <p class="intro">%s</p>%s%s
     </div>
   </section>
 
@@ -822,7 +969,8 @@ def city_page(town, places, events, dated, base):
   <div class="wrap"><div class="loc-bar" id="locBar"></div></div>
 
 ''' % (html.escape(name), len(listed), LIST_MILES,
-       'Weekly markets and events too.' if ev else '', quick)
+       'Weekly markets and events too.' if ev else '',
+       intro, quick, filter_links)
 
     if ev:
         out += '''
@@ -1010,6 +1158,12 @@ def main():
         os.makedirs(cal_dir, exist_ok=True)
         open(os.path.join(cal_dir, 'index.html'), 'w', encoding='utf-8').write(
             calendar_page(t, events, dated, base))
+        for fp in FILTER_PAGES:
+            page_html = filter_page(t, places, fp, base)
+            if page_html:
+                fp_dir = os.path.join(d, fp['slug'])
+                os.makedirs(fp_dir, exist_ok=True)
+                open(os.path.join(fp_dir, 'index.html'), 'w', encoding='utf-8').write(page_html)
 
     open(os.path.join(ROOT, 'index.html'), 'w', encoding='utf-8').write(
         root_page(towns_with_pages, places, base))
@@ -1017,6 +1171,12 @@ def main():
     # sitemap, so the city pages are actually discoverable
     urls = [base] + ['%s%s/' % (base, slugify(t['name'])) for t in towns_with_pages] + \
            ['%s%s/calendar/' % (base, slugify(t['name'])) for t in towns_with_pages]
+    for fp in FILTER_PAGES:
+        for t in towns_with_pages:
+            s = slugify(t['name'])
+            fpath = os.path.join(ROOT, s, fp['slug'], 'index.html')
+            if os.path.exists(fpath):
+                urls.append('%s%s/%s/' % (base, s, fp['slug']))
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sm += ''.join('  <url><loc>%s</loc></url>\n' % u for u in urls)
     sm += '</urlset>\n'
