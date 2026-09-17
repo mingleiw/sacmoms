@@ -224,7 +224,7 @@
       '<div class="d-acts">' +
         '<a class="map" href="https://www.google.com/maps/search/?api=1&query=' +
           encodeURIComponent(e.venue + ' ' + e.city) +
-          '" target="_blank" rel="noopener">Map &amp; directions</a>' +
+          '" target="_blank" rel="noopener">Map</a>' +
         (e.source ? '<a class="ev-src" href="' + esc(e.source) +
           '" target="_blank" rel="noopener">Where this came from</a>' : '') +
       '</div>';
