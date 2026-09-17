@@ -110,6 +110,7 @@ HEAD = '''<!DOCTYPE html>
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="google-site-verification" content="dm2Pu9RXpaVxuBA3NeG7Tp5krl5A987svIRWzIHpHtE" />
 <title>{title}</title>
 <meta name="description" content="{desc}" />
 <link rel="canonical" href="{canonical}" />
