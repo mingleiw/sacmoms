@@ -115,6 +115,26 @@ are hand-entered approximations: fine for 5 miles versus 40, not surveyed.
   fine). Do not "fix" it here; the page would then disagree with the source it
   links to.
 
+## The page and the script must not drift
+
+`build.py` aborts if a generated city page is missing any element id that
+`assets/app.js` looks up with `getElementById`. Do not weaken this.
+
+It exists because they drifted once, silently. A stale `build.py` was committed
+over a newer one while `assets/` was left untouched, which dropped the
+`<dialog>` markup but kept the script that opens it. The Details button still
+rendered, `app.js` still looked up `#evDialog`, the null guard returned early,
+and clicking an event on the live site did nothing at all. No error, no failed
+build — it just quietly stopped working.
+
+If the guard fires, the fix is to restore whichever half is stale, not to delete
+the id from the check.
+
+**Pointing the site at a domain is one line.** `BASE_URL` in `build.py`, then
+rebuild; `CNAME` holds the domain for Pages. Never hand-edit generated HTML to
+change URLs, and never overwrite `build.py` wholesale from an older copy —
+that is exactly how the drift above happened.
+
 ## Why there are thresholds in build.py
 
 `MIN_PLACES` (4) and `MAX_MILES` (25) decide whether a city gets a page at all.
