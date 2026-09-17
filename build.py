@@ -180,7 +180,7 @@ def place_card(p, dist=None):
         meta += '<li class="m-region">%s</li>' % REGIONS.get(p['region'], p['region'])
     meta += '<li class="m-age">%s</li><li class="m-env">%s</li>' % (p['ages'], p['envlabel'])
     return '''
-        <article class="card" data-cat="{cat}" data-age="{age}" data-region="{region}" data-env="{env}"{dattr}>
+        <article class="card" data-cat="{cat}" data-age="{age}" data-region="{region}" data-env="{env}"{dattr} data-lat="{lat}" data-lon="{lon}">
           <div class="card-top">
             <span class="ico" aria-hidden="true"><svg width="20" height="20"><use href="#{icon}"/></svg></span>
             <div><h3>{name}</h3><p class="en">{where}</p></div>
@@ -356,6 +356,8 @@ def city_page(town, places, events, dated, base):
         vc = VENUES.get('%s|%s' % (e.get('venue', ''), e.get('city', '')))
         if vc:
             e['dist'] = round(miles(town['lat'], town['lon'], vc[0], vc[1]), 1)
+            e['lat'] = vc[0]
+            e['lon'] = vc[1]
         ranked_ev.append(e)
     ev = ranked_ev
 
@@ -380,6 +382,8 @@ def city_page(town, places, events, dated, base):
   </section>
 
   <!-- ad slot: below the fold, above the answer -->
+
+  <div class="wrap"><div class="loc-bar" id="locBar"></div></div>
 
 ''' % (html.escape(name), len(listed), LIST_MILES,
        'Weekly markets and events too.' if ev else '')
