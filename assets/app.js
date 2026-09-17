@@ -465,7 +465,28 @@
     else if (dlg && dlg.open) dlg.close();
   });
 
+  /* ---- Quick links: #today / #weekend pick the day and jump to this section ---- */
+  function pickDay(i, smooth) {
+    picked = i; strip(); render();
+    var sec = stripEl.closest ? stripEl.closest('section') : null;
+    if (sec) {
+      try { sec.scrollIntoView({behavior: smooth ? 'smooth' : 'auto', block: 'start'}); }
+      catch (e) { sec.scrollIntoView(); }
+    }
+  }
+  function weekendIndex() {
+    var dow = today.getDay();
+    return (dow === 0 || dow === 6) ? 0 : 6 - dow;  /* Sat/Sun -> today, else upcoming Saturday */
+  }
+  function applyQuickHash(smooth) {
+    if (location.hash === '#today') { pickDay(0, smooth); return true; }
+    if (location.hash === '#weekend') { pickDay(weekendIndex(), smooth); return true; }
+    return false;
+  }
+  window.addEventListener('hashchange', function () { applyQuickHash(true); });
+
   strip();
   render();
   fromHash();
+  applyQuickHash(false);
 })();

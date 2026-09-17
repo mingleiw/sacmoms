@@ -531,6 +531,15 @@ def city_page(town, places, events, dated, base):
                       nav='<a href="../"><span class="nav-full">Change city</span>'
                           '<span class="nav-short">Cities</span></a>')
 
+    # Quick links under the hero: jump straight to today's events, the weekend,
+    # or the places list. Today/Weekend only exist when the week section does.
+    ql = ['<a class="quick-link" href="#list">Places</a>']
+    if ev:
+        ql[0:0] = ['<a class="quick-link" href="#today">Today</a>',
+                   '<a class="quick-link" href="#weekend">This weekend</a>']
+    quick = ('\n      <nav class="quick-links" aria-label="Jump to a section">\n        %s\n      </nav>'
+             % '\n        '.join(ql))
+
     out += '''
 <main id="top">
 
@@ -538,7 +547,7 @@ def city_page(town, places, events, dated, base):
     <div class="wrap hero-inner">
       <h1 class="hero-title"><span class="hl">Where to take the kids in %s</span></h1>
       <p class="lede">%d places within %d miles, closest first. %s</p>
-      <p class="city-switch"><a href="../">Not your city? Pick another &rarr;</a></p>
+      <p class="city-switch"><a href="../">Not your city? Pick another &rarr;</a></p>%s
     </div>
   </section>
 
@@ -547,10 +556,7 @@ def city_page(town, places, events, dated, base):
   <div class="wrap"><div class="loc-bar" id="locBar"></div></div>
 
 ''' % (html.escape(name), len(listed), LIST_MILES,
-       'Weekly markets and events too.' if ev else '')
-
-    if seasonal_groups:
-        out += seasonal_section_html(seasonal_groups, name)
+       'Weekly markets and events too.' if ev else '', quick)
 
     if ev:
         out += '''
@@ -577,6 +583,9 @@ def city_page(town, places, events, dated, base):
     </dialog>
   </section>
 ''' % html.escape(REGIONS.get(town['region'], town['region']))
+
+    if seasonal_groups:
+        out += seasonal_section_html(seasonal_groups, name)
 
     out += '''
   <section class="list-section" id="list">
