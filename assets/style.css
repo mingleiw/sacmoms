@@ -324,6 +324,10 @@ section[id] { scroll-margin-top: 78px; }
   background: var(--chalk); border-radius: var(--r-lg);
   padding: 20px 22px 22px; box-shadow: 0 3px 0 var(--line-2);
 }
+/* Under FOCUS_REGION there is only one region, and a lone narrow card sitting in
+   a three-column grid reads as a broken layout rather than a deliberate one.
+   Let it span instead. Reverts by itself if more regions are ever generated. */
+.city-group:only-child { grid-column: 1 / -1; }
 .city-group h3 { font-size: 16px; font-weight: 800; color: var(--sea); margin-bottom: 10px; }
 .city-group ul { display: flex; flex-wrap: wrap; gap: 7px; }
 .city-group li { display: block; }

@@ -63,6 +63,13 @@ is no editor here to retire a stale value. Cards carry only slow-changing facts
 plus a map link, which is always current. Map links are Google Maps *search*
 links, never specific URLs, so they cannot 404.
 
+**Event JSON-LD must match the page.** `events_jsonld` in `build.py` describes
+exactly the events the page renders, over the same 7-day window — never more.
+No guessed clock times (date-only `startDate` when the hour is not sourced) and
+no UTC offset (Sacramento switches PDT/PST; a fixed offset is wrong half the
+year). Structured data that disagrees with the visible page is an SEO liability,
+not a win.
+
 **Weather is an enhancement, never a dependency.** Any failure — blocked request,
 bad status, unexpected shape, timeout — leaves it unknown, and the shortlist
 ranks on distance alone while claiming nothing about the sky. Test that path

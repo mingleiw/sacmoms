@@ -122,6 +122,9 @@
       b.className = 'day' + (i === picked ? ' is-on' : '');
       b.setAttribute('role', 'tab');
       b.setAttribute('aria-selected', i === picked ? 'true' : 'false');
+      // Without aria-controls the tablist and the list it swaps are unrelated
+      // as far as a screen reader is concerned.
+      b.setAttribute('aria-controls', 'events');
       var label = i === 0 ? 'Today' : (i === 1 ? 'Tomorrow' : SHORT[d.getDay()]);
       var n = countFor(d);
       b.innerHTML = '<span class="day-name">' + label + '</span>' +

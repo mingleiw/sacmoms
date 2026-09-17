@@ -246,6 +246,25 @@ If ads happen, the SEO notes above stop being theoretical: revenue tracks traffi
 traffic tracks whether these pages are worth indexing, and that is exactly what
 `MIN_PLACES` and `LIST_MILES` protect.
 
+### Structured data
+
+Each city page carries schema.org `Event` markup (`events_jsonld` in `build.py`)
+for the same 7-day window it renders, so storytimes and markets are eligible for
+event rich results. Two rules keep it from becoming a liability, because
+structured data that disagrees with the visible page is worse than none:
+
+- **It describes only what the page already lists.** Same event set, same window.
+  It can never advertise more than a visitor would see.
+- **Nothing is invented to satisfy the schema.** An event with no sourced hour
+  gets a date-only `startDate` instead of a guessed time, and **no UTC offset is
+  emitted at all** — Sacramento moves between PDT and PST, and a hardcoded offset
+  would be silently wrong half the year. Local time with no offset is valid
+  ISO 8601 and is read as local to the venue.
+
+The markup is currently identical across all five city pages, for the same reason
+the pages are: the event set is region-wide. Fixing that is the *Which cities get
+a page* problem, not a structured-data problem.
+
 ## Implementation notes — don't remove these
 
 - `[hidden] { display: none !important; }` is **load-bearing**. Cards are
