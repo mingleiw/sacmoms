@@ -364,11 +364,15 @@ def group_seasonal(events, town):
             'dates': dates,
             'date_label': format_date_range(dates),
         }
+        lat = first.get('lat')
+        lon = first.get('lon')
         vc = VENUES.get('%s|%s' % (g['venue'], g['city']))
         if vc:
-            g['dist'] = round(miles(town['lat'], town['lon'], vc[0], vc[1]), 1)
+            lat, lon = vc
+        if lat is not None and lon is not None:
+            g['dist'] = round(miles(town['lat'], town['lon'], lat, lon), 1)
         result.append(g)
-    result.sort(key=lambda g: g['dates'][0])
+    result.sort(key=lambda g: (g.get('dist') is None, g.get('dist', 0)))
     return result
 
 
