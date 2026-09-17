@@ -320,6 +320,12 @@ def city_page(town, places, events, dated, base):
         cancelled, so confirm with the venue before you set out.
       </p>
     </div>
+    <dialog class="ev-dialog" id="evDialog" aria-labelledby="evDialogTitle">
+      <form method="dialog">
+        <button class="ev-close" value="close" aria-label="Close details">&times;</button>
+      </form>
+      <div class="ev-detail" id="evDetail"></div>
+    </dialog>
   </section>
 ''' % html.escape(REGIONS.get(town['region'], town['region']))
 

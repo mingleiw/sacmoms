@@ -233,6 +233,52 @@ section[id] { scroll-margin-top: 78px; }
 .ev-time-unknown { color: var(--ink-2); font-weight: 600; font-size: 13px; }
 .ev-src { font-size: 12.5px; font-weight: 700; color: var(--ink-2); border-bottom: 1px dotted var(--line-2); }
 .ev-src:hover { color: var(--ink); }
+
+/* Cards clamp long text on purpose and the dialog is the escape hatch. Blurbs
+   come from scrapers and vary from 50 to 250+ characters; without a clamp one
+   verbose listing makes a card three times the height of its neighbours. */
+.ev-blurb {
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;
+  line-clamp: 3; overflow: hidden;
+}
+.js .event { cursor: pointer; }
+.js .event:hover { background: var(--sky-2); }
+.event:focus-within { outline: 2px solid var(--sea); outline-offset: 2px; }
+.ev-more {
+  font: inherit; font-size: 12.5px; font-weight: 800; color: var(--sea);
+  background: none; border: 0; padding: 3px 0; cursor: pointer;
+  border-bottom: 1px solid currentColor;
+}
+.ev-more:hover { color: var(--ink); }
+/* No JS means no dialog to open, so the affordance must not be advertised. */
+html:not(.js) .ev-more { display: none; }
+html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: visible; display: block; }
+
+.ev-dialog {
+  width: min(560px, calc(100vw - 32px)); padding: 0; border: 0;
+  /* A 700-character blurb on a short phone overflows the dialog. Scrolling it
+     is UA-stylesheet default, but say so explicitly, and use dvh so mobile
+     browser chrome does not push the source link out of reach. */
+  max-height: calc(100dvh - 40px); overflow: auto;
+  border-radius: var(--r-lg); background: var(--chalk); color: var(--ink);
+  box-shadow: 0 18px 50px rgba(20,35,50,.28);
+}
+.ev-dialog::backdrop { background: rgba(20,35,50,.55); }
+.ev-close {
+  position: absolute; top: 10px; right: 12px; z-index: 1;
+  font-size: 26px; line-height: 1; color: var(--ink-2);
+  background: none; border: 0; padding: 4px 8px; cursor: pointer; border-radius: 999px;
+}
+.ev-close:hover { color: var(--ink); background: var(--sky); }
+.ev-detail { padding: 26px 24px 24px; }
+.ev-detail h3 { font-family: var(--display); font-size: 23px; line-height: 1.2; padding-right: 34px; }
+.ev-detail .d-when { margin-top: 10px; font-size: 15.5px; font-weight: 800; color: var(--sea); }
+.ev-detail .d-where { margin-top: 3px; font-size: 15px; font-weight: 700; }
+.ev-detail .d-blurb { margin-top: 12px; font-size: 15px; color: var(--ink-2); }
+.ev-detail .d-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.ev-detail .d-acts { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+@media (max-width: 420px) { .ev-detail { padding: 22px 18px 20px; } .ev-detail h3 { font-size: 20px; } }
+
 .week-foot { margin: 24px 0 0; font-size: 14px; color: var(--ink-2); }
 
 @media (max-width: 560px) { .event { flex-direction: column; gap: 6px; } .ev-time { width: auto; } }

@@ -70,6 +70,12 @@ no UTC offset (Sacramento switches PDT/PST; a fixed offset is wrong half the
 year). Structured data that disagrees with the visible page is an SEO liability,
 not a win.
 
+**Event details live in a dialog, not generated pages.** Dated storytimes
+rotate daily, so a page per event would 404 within a week of being indexed and
+would be thin content besides. The crawlable surface is the `Event` JSON-LD on
+the city page. Cards clamp the blurb to three lines; the dialog shows all of it.
+Without JS the button is hidden and the clamp is lifted, so nothing is lost.
+
 **Weather is an enhancement, never a dependency.** Any failure — blocked request,
 bad status, unexpected shape, timeout — leaves it unknown, and the shortlist
 ranks on distance alone while claiming nothing about the sky. Test that path

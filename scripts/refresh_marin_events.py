@@ -203,8 +203,11 @@ def main():
             until = to_24h(detail["until_disp"]) if detail["until_disp"] else None
             blurb = detail["body"] or r["blurb"]
             blurb = re.sub(r"\.\.\.$", "", blurb).strip()
-            if len(blurb) > 220:
-                blurb = blurb[:217].rsplit(" ", 1)[0] + "…"
+            # Cards clamp the blurb to three lines in CSS and the details
+            # dialog shows the rest, so storing the full text costs nothing on
+            # screen. The cap is only a guard against a runaway page body.
+            if len(blurb) > 700:
+                blurb = blurb[:697].rsplit(" ", 1)[0] + "…"
             e = {
                 "time": r["time"],
                 "title": r["title"],

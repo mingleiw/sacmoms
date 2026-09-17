@@ -137,6 +137,10 @@
     });
   }
 
+  // The day's rendered list, hoisted so the click handler can map a card's
+  // data-i back to its event.
+  var shown = [];
+
   function render() {
     var d = week[picked];
     // An entry may have no time: the day and venue are confirmed but the hour
@@ -146,10 +150,11 @@
                        var ta = a.time || '99:99', tb = b.time || '99:99';
                        return ta < tb ? -1 : (ta > tb ? 1 : 0);
                      });
+    shown = list;
 
-    evEl.innerHTML = list.map(function (e) {
+    evEl.innerHTML = list.map(function (e, i) {
       var when = e.time ? hhmm(e.time) + (e.until ? ' – ' + hhmm(e.until) : '') : '';
-      return '<article class="event">' +
+      return '<article class="event" data-i="' + i + '">' +
         '<div class="ev-time' + (when ? '' : ' ev-time-unknown') + '">' +
           (when ? esc(when) : esc(e.timeLabel || 'Time not confirmed')) + '</div>' +
         '<div class="ev-body">' +
@@ -160,6 +165,7 @@
             '<span class="ev-tag">' + esc(e.ages) + '</span>' +
             '<a class="map" href="https://www.google.com/maps/search/?api=1&query=' +
               encodeURIComponent(e.venue + ' ' + e.city) + '" target="_blank" rel="noopener">Map</a>' +
+            '<button class="ev-more" type="button">Details</button>' +
             (e.source ? '<a class="ev-src" href="' + esc(e.source) + '" target="_blank" rel="noopener">Where this came from</a>' : '') +
           '</div>' +
         '</div></article>';
@@ -178,6 +184,103 @@
       (nxt > -1 ? ' Next up: ' + (nxt === 0 ? 'today' : nxt === 1 ? 'tomorrow' : DAYS[week[nxt].getDay()]) + '.' : '');
   }
 
+  /* ---- Details ----
+     Cards clamp their blurb to keep the day's list scannable; this shows the
+     whole entry. Deliberately a dialog and not a generated page per event:
+     dated storytimes rotate daily, so static pages would be created and
+     deleted every morning, leaving indexed URLs 404ing within the week, and
+     each would carry a venue, a time and about two lines of text -- the thin
+     content MIN_PLACES and LIST_MILES exist to keep off this domain. Search
+     engines already get these events as Event JSON-LD on the city page. */
+  var dlg    = document.getElementById('evDialog');
+  var detail = document.getElementById('evDetail');
+
+  // Stable across rebuilds and day changes, so a shared link keeps working
+  // while the event is still listed. An event that has since passed simply
+  // does not match and the page opens normally -- never a dead end.
+  function keyFor(e) {
+    return (e.date || 'w' + e.day) + '-' +
+      String(e.title + '-' + e.venue).toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
+  }
+
+  function longDate(e) {
+    var d = e.date ? new Date(e.date + 'T00:00:00') : week[picked];
+    return DAYS[d.getDay()] + ' ' + d.getDate() + ' ' +
+      ['January','February','March','April','May','June','July',
+       'August','September','October','November','December'][d.getMonth()];
+  }
+
+  function openDetail(e, push) {
+    if (!dlg || !detail) return;
+    var when = e.time ? hhmm(e.time) + (e.until ? ' \u2013 ' + hhmm(e.until) : '')
+                      : (e.timeLabel || 'Time not confirmed');
+    detail.innerHTML =
+      '<h3 id="evDialogTitle">' + esc(e.title) + '</h3>' +
+      '<p class="d-when">' + esc(longDate(e)) + ' \u00b7 ' + esc(when) + '</p>' +
+      '<p class="d-where">' + esc(e.venue) + ', ' + esc(e.city) + '</p>' +
+      (e.blurb ? '<p class="d-blurb">' + esc(e.blurb) + '</p>' : '') +
+      '<div class="d-tags"><span class="ev-tag">' + esc(e.ages) + '</span></div>' +
+      '<div class="d-acts">' +
+        '<a class="map" href="https://www.google.com/maps/search/?api=1&query=' +
+          encodeURIComponent(e.venue + ' ' + e.city) +
+          '" target="_blank" rel="noopener">Map &amp; directions</a>' +
+        (e.source ? '<a class="ev-src" href="' + esc(e.source) +
+          '" target="_blank" rel="noopener">Where this came from</a>' : '') +
+      '</div>';
+    if (push) {
+      try { history.pushState(null, '', '#event=' + keyFor(e)); } catch (err) {}
+    }
+    if (dlg.showModal) { if (!dlg.open) dlg.showModal(); }
+    else { dlg.setAttribute('open', ''); }
+  }
+
+  if (dlg) {
+    // Closing by any route (Esc, backdrop, the button) must drop the hash,
+    // or reopening the same event from the list does nothing.
+    dlg.addEventListener('close', function () {
+      if (location.hash.indexOf('#event=') === 0) {
+        try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {}
+      }
+    });
+    dlg.addEventListener('click', function (ev) {
+      if (ev.target === dlg) dlg.close();   // backdrop
+    });
+  }
+
+  evEl.addEventListener('click', function (ev) {
+    if (ev.target.closest('a')) return;     // Map / source links win
+    var art = ev.target.closest('.event');
+    if (!art) return;
+    var e = shown[+art.getAttribute('data-i')];
+    if (e) openDetail(e, true);
+  });
+
+  function fromHash() {
+    var m = /^#event=(.+)$/.exec(location.hash);
+    if (!m) return;
+    for (var i = 0; i < EVENTS.length; i++) {
+      if (keyFor(EVENTS[i]) === m[1]) {
+        // Jump the strip to the day that event is on, so closing the dialog
+        // leaves the right list behind it.
+        if (EVENTS[i].date) {
+          for (var j = 0; j < week.length; j++) {
+            if (ymd(week[j]) === EVENTS[i].date) { picked = j; break; }
+          }
+        }
+        strip(); render();
+        openDetail(EVENTS[i], false);
+        return;
+      }
+    }
+  }
+
+  window.addEventListener('hashchange', function () {
+    if (location.hash.indexOf('#event=') === 0) fromHash();
+    else if (dlg && dlg.open) dlg.close();
+  });
+
   strip();
   render();
+  fromHash();
 })();

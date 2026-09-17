@@ -226,6 +226,30 @@ If the scrape ever fails or the listing markup changes, the site falls back to
 the weekly events — it never invents storytimes to fill the gap. Do not add
 library storytimes to `data/events.json` as weekly recurrences.
 
+## Event details
+
+Cards clamp their blurb to three lines and every card opens a details dialog
+(click the card, or the **Details** button; `Esc`, the close button or the
+backdrop shuts it). The dialog carries the full date, time, venue, the whole
+blurb, ages, a map link and the source link.
+
+Opening one puts `#event=<key>` in the URL, so a listing can be linked and the
+back button works. The key is derived from date (or weekday) plus title and
+venue, so it survives a rebuild. A key that no longer matches anything — the
+event has passed — opens the page normally rather than erroring.
+
+**Why a dialog and not a page per event.** Dated storytimes rotate daily, so
+generated pages would be created and deleted every morning and anything indexed
+would 404 within the week. Each would also carry a venue, a time and about two
+lines of text, which is exactly the thin content `MIN_PLACES` and `LIST_MILES`
+exist to keep off this domain. Search engines already receive every event as
+`Event` JSON-LD on the city page, which is the crawlable surface that does not
+rot. If durable event pages are ever wanted, the honest candidates are the seven
+*recurring weekly* events, which have no expiry date — not the scraped instances.
+
+With JavaScript off there is no dialog, so the **Details** button is hidden and
+the blurb is not clamped: the full text renders in the card.
+
 ## Editorial rule
 
 **No opening hours, admission prices or one-off dates anywhere on the page.**
