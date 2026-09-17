@@ -792,24 +792,6 @@
   "arealabel": "Sacramento area"
  },
  {
-  "name": "Climbaroo Indoor Play Center",
-  "where": "Natomas, Sacramento",
-  "desc": "Natomas weekday open-play spot with birthday parties and all-ages open play sessions.",
-  "note": "Best on weekdays — weekends skew toward private parties.",
-  "cta": "Map & directions",
-  "mapq": "Climbaroo+Indoor+Play+Center+Sacramento+CA",
-  "icon": "i-play",
-  "cat": "play",
-  "age": "0-2 3-5 6-9 10+",
-  "region": "sac",
-  "env": "indoor",
-  "lat": 38.65192,
-  "lon": -121.50329,
-  "ages": "All ages",
-  "envlabel": "Indoors",
-  "arealabel": "Sacramento area"
- },
- {
   "name": "Urban Air Trampoline and Adventure Park",
   "where": "Arden, Sacramento",
   "desc": "Wall-to-wall trampolines, Sky Rider, warrior course — the big-energy burn-off.",
