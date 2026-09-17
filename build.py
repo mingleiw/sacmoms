@@ -110,6 +110,7 @@ HEAD = '''<!DOCTYPE html>
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="google-site-verification" content="dm2Pu9RXpaVxuBA3NeG7Tp5krl5A987svIRWzIHpHtE" />
 <title>{title}</title>
 <meta name="description" content="{desc}" />
 <link rel="canonical" href="{canonical}" />
@@ -281,6 +282,36 @@ def events_jsonld(ev, town, week_dates):
     return '<script type="application/ld+json">\n%s\n</script>\n' % blob
 
 
+def places_jsonld(places):
+    """Schema.org TouristAttraction markup for the place cards on a city page."""
+    items = []
+    for p in places:
+        items.append({
+            '@type': 'TouristAttraction',
+            'name': p['name'],
+            'description': html.unescape(p['desc']),
+            'url': 'https://www.google.com/maps/search/?api=1&query=%s' % p['mapq'],
+            'geo': {
+                '@type': 'GeoCoordinates',
+                'latitude': p['lat'],
+                'longitude': p['lon'],
+            },
+            'address': {
+                '@type': 'PostalAddress',
+                'addressLocality': p['where'],
+                'addressRegion': 'CA',
+                'addressCountry': 'US',
+            },
+        })
+    if not items:
+        return ''
+    for i in items:
+        i['@context'] = 'https://schema.org'
+    # </script> inside a JSON string would close the tag early.
+    blob = json.dumps(items, ensure_ascii=False, indent=1).replace('</', '<\\/')
+    return '<script type="application/ld+json">\n%s\n</script>\n' % blob
+
+
 def check_app_contract(page_html, slug):
     """Fail the build if app.js reaches for an element the page does not emit.
 
@@ -402,6 +433,7 @@ def city_page(town, places, events, dated, base):
     out += TIPS
     out += '\n</main>\n'
     out += events_jsonld(ev, town, week)
+    out += places_jsonld([p for _, p in listed])
     out += '<script>\nvar TOWN = %s;\nvar EVENTS = %s;\n</script>\n' % (
         json.dumps({'name': name, 'lat': town['lat'], 'lon': town['lon']}),
         json.dumps(ev, ensure_ascii=False))
