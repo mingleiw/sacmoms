@@ -17,6 +17,33 @@
   var state = { age: 'all', env: 'all' };
   var userLoc = null;
 
+  /* Filters ride in the URL hash so refresh, bookmarking and sharing keep
+     the selection: #list?age=0-2&env=indoor. Params attach to any base
+     (#today, #weekend, #list). Written with replaceState: no scroll jump,
+     no hashchange, no interference with the week section's handlers. */
+  var VALID_FILTERS = { age: ['all', '0-2', '3-5', '6-9', '10+'],
+                        env: ['all', 'indoor', 'outdoor'] };
+  function readFilterHash() {
+    var re = /[?&](age|env)=([^&#]*)/g, t;
+    while ((t = re.exec(location.hash)) !== null) {
+      var v = decodeURIComponent(t[2]);
+      if (VALID_FILTERS[t[1]].indexOf(v) !== -1) state[t[1]] = v;
+    }
+  }
+  function filterQuery() {
+    var q = [];
+    if (state.age !== 'all') q.push('age=' + encodeURIComponent(state.age));
+    if (state.env !== 'all') q.push('env=' + encodeURIComponent(state.env));
+    return q.length ? '?' + q.join('&') : '';
+  }
+  function syncHash(base) {
+    var m = /^#([^?]*)/.exec(location.hash || '');
+    var b = base || (m && m[1]) || 'list';
+    if (b.indexOf('event=') === 0) return;  /* dialog owns the hash while open */
+    try { history.replaceState(null, '', '#' + b + filterQuery()); } catch (e) {}
+  }
+  readFilterHash();
+
   try {
     var seg = location.pathname.replace(/\/+$/, '').split('/').pop();
     if (seg) localStorage.setItem('owtk.city', seg);
@@ -155,6 +182,14 @@
       var geoBtn = locBar.querySelector('.loc-btn:not(.zip-go)');
       if (geoBtn) geoBtn.addEventListener('click', requestLocation);
 
+      var zipInp = locBar.querySelector('.zip-input');
+      zipInp.addEventListener('input', function () {
+        zipInp.classList.remove('zip-err');
+        zipInp.removeAttribute('aria-invalid');
+        var old = locBar.querySelector('.zip-error');
+        if (old) old.remove();
+      });
+
       locBar.querySelector('.zip-form').addEventListener('submit', function (ev) {
         ev.preventDefault();
         var inp = locBar.querySelector('.zip-input');
@@ -162,9 +197,20 @@
         if (code.length !== 5) { inp.focus(); return; }
         var coords = ZIPS[code];
         if (!coords) {
-          inp.value = '';
-          inp.placeholder = 'Zip not found';
+          /* Keep what they typed, explain the coverage, offer the city list. */
           inp.classList.add('zip-err');
+          inp.setAttribute('aria-invalid', 'true');
+          var err = locBar.querySelector('.zip-error');
+          if (!err) {
+            err = document.createElement('p');
+            err.className = 'zip-error';
+            err.setAttribute('role', 'alert');
+            locBar.querySelector('.zip-form').appendChild(err);
+          }
+          err.innerHTML = '&ldquo;' + esc(code) + '&rdquo; isn&rsquo;t covered yet &mdash; ' +
+            'we serve Sacramento County zips. Try one near Sacramento, Rancho Cordova, ' +
+            'Folsom, Citrus Heights or Elk Grove, or ' +
+            '<a href="../">pick your city &rarr;</a>';
           inp.focus();
           return;
         }
@@ -199,7 +245,8 @@
   }
 
   // Expose for the events IIFE to call
-  window._sacmoms = { userLoc: function () { return userLoc; }, haversine: haversine, showMiles: showMiles, esc: esc };
+  window._sacmoms = { userLoc: function () { return userLoc; }, haversine: haversine,
+                      showMiles: showMiles, esc: esc, filterQuery: filterQuery };
 
   function matches(card) {
     for (var k in state) {
@@ -232,12 +279,28 @@
       if (!btn || !g.contains(btn)) return;
       state[key] = btn.getAttribute('data-v');
       apply();
+      syncHash();
     });
   });
 
   resetEl.addEventListener('click', function () {
     state = { age: 'all', env: 'all' };
     apply();
+    syncHash();
+  });
+
+  /* The "Places" quick link must not drop the filter params, so it scrolls
+     manually and rewrites the hash instead of navigating. */
+  document.querySelectorAll('a.quick-link[href="#list"]').forEach(function (a) {
+    a.addEventListener('click', function (ev) {
+      ev.preventDefault();
+      var sec = document.getElementById('list');
+      if (sec) {
+        try { sec.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+        catch (e) { sec.scrollIntoView(); }
+      }
+      syncHash('list');
+    });
   });
 
   if (userLoc) sortCards();
@@ -394,10 +457,10 @@
       ['January','February','March','April','May','June','July',
        'August','September','October','November','December'][d.getMonth()];
   }
+  var returnHash = '';  /* hash to restore when the event dialog closes */
 
   function openDetail(e, push) {
-    if (!dlg || !detail) return;
-    var when = e.time ? hhmm(e.time) + (e.until ? ' – ' + hhmm(e.until) : '')
+    if (!dlg || !detail) return;    var when = e.time ? hhmm(e.time) + (e.until ? ' – ' + hhmm(e.until) : '')
                       : (e.timeLabel || 'Time not confirmed');
     var dist = evDist(e);
     var label = evDistLabel(e);
@@ -418,7 +481,11 @@
           '" target="_blank" rel="noopener">Where this came from</a>' : '') +
       '</div>';
     if (push) {
-      try { history.pushState(null, '', '#event=' + keyFor(e)); } catch (err) {}
+      /* Keep the filter params on the dialog hash so they survive open/close. */
+      returnHash = location.hash;
+      var fq = (window._sacmoms && window._sacmoms.filterQuery)
+        ? window._sacmoms.filterQuery() : '';
+      try { history.pushState(null, '', '#event=' + keyFor(e) + fq); } catch (err) {}
     }
     if (dlg.showModal) { if (!dlg.open) dlg.showModal(); }
     else { dlg.setAttribute('open', ''); }
@@ -427,7 +494,12 @@
   if (dlg) {
     dlg.addEventListener('close', function () {
       if (location.hash.indexOf('#event=') === 0) {
-        try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {}
+        /* Restore where they were; a shared #event= link falls back to #list. */
+        var fq = (window._sacmoms && window._sacmoms.filterQuery)
+          ? window._sacmoms.filterQuery() : '';
+        var rh = (returnHash && returnHash.indexOf('#event=') !== 0)
+          ? returnHash : ('#list' + fq);
+        try { history.replaceState(null, '', rh); } catch (e) {}
       }
     });
     dlg.addEventListener('click', function (ev) {
@@ -444,7 +516,7 @@
   });
 
   function fromHash() {
-    var m = /^#event=(.+)$/.exec(location.hash);
+    var m = /^#event=([^?&#]+)/.exec(location.hash);
     if (!m) return;
     for (var i = 0; i < EVENTS.length; i++) {
       if (keyFor(EVENTS[i]) === m[1]) {
@@ -479,8 +551,8 @@
     return (dow === 0 || dow === 6) ? 0 : 6 - dow;  /* Sat/Sun -> today, else upcoming Saturday */
   }
   function applyQuickHash(smooth) {
-    if (location.hash === '#today') { pickDay(0, smooth); return true; }
-    if (location.hash === '#weekend') { pickDay(weekendIndex(), smooth); return true; }
+    if (/^#today(\?|$)/.test(location.hash)) { pickDay(0, smooth); return true; }
+    if (/^#weekend(\?|$)/.test(location.hash)) { pickDay(weekendIndex(), smooth); return true; }
     return false;
   }
   window.addEventListener('hashchange', function () { applyQuickHash(true); });

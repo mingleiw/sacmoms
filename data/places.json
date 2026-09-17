@@ -15,7 +15,9 @@
   "lon": -122.4661,
   "ages": "All ages",
   "envlabel": "Indoors",
-  "arealabel": "San Francisco"
+  "arealabel": "San Francisco",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Exploratorium",
@@ -33,7 +35,9 @@
   "lon": -122.3972,
   "ages": "6 and up",
   "envlabel": "Indoors",
-  "arealabel": "San Francisco"
+  "arealabel": "San Francisco",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "San Francisco Zoo",
@@ -51,7 +55,9 @@
   "lon": -122.503,
   "ages": "Under 10",
   "envlabel": "Outdoors",
-  "arealabel": "San Francisco"
+  "arealabel": "San Francisco",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Children&rsquo;s Creativity Museum",
@@ -69,7 +75,9 @@
   "lon": -122.4029,
   "ages": "3&ndash;9",
   "envlabel": "Indoors",
-  "arealabel": "San Francisco"
+  "arealabel": "San Francisco",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Randall Museum",
@@ -87,7 +95,9 @@
   "lon": -122.4383,
   "ages": "Under 10",
   "envlabel": "Indoors",
-  "arealabel": "San Francisco"
+  "arealabel": "San Francisco",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Koret Children&rsquo;s Quarter",
@@ -105,7 +115,9 @@
   "lon": -122.459,
   "ages": "1&ndash;10",
   "envlabel": "Outdoors",
-  "arealabel": "San Francisco"
+  "arealabel": "San Francisco",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Bay Area Discovery Museum",
@@ -123,7 +135,9 @@
   "lon": -122.4783,
   "ages": "Under 9",
   "envlabel": "Indoors + out",
-  "arealabel": "Marin &amp; North Bay"
+  "arealabel": "Marin &amp; North Bay",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Muir Woods National Monument",
@@ -141,7 +155,9 @@
   "lon": -122.5719,
   "ages": "3 and up",
   "envlabel": "Outdoors",
-  "arealabel": "Marin &amp; North Bay"
+  "arealabel": "Marin &amp; North Bay",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Marin Headlands &amp; Rodeo Beach",
@@ -159,7 +175,9 @@
   "lon": -122.5364,
   "ages": "3 and up",
   "envlabel": "Outdoors",
-  "arealabel": "Marin &amp; North Bay"
+  "arealabel": "Marin &amp; North Bay",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Children&rsquo;s Fairyland",
@@ -177,7 +195,9 @@
   "lon": -122.2594,
   "ages": "1&ndash;8",
   "envlabel": "Outdoors",
-  "arealabel": "East Bay"
+  "arealabel": "East Bay",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Oakland Zoo",
@@ -195,7 +215,9 @@
   "lon": -122.1463,
   "ages": "All ages",
   "envlabel": "Outdoors",
-  "arealabel": "East Bay"
+  "arealabel": "East Bay",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Tilden Regional Park",
@@ -213,7 +235,9 @@
   "lon": -122.2447,
   "ages": "Under 10",
   "envlabel": "Outdoors",
-  "arealabel": "East Bay"
+  "arealabel": "East Bay",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Lawrence Hall of Science",
@@ -231,7 +255,9 @@
   "lon": -122.246,
   "ages": "6 and up",
   "envlabel": "Indoors + out",
-  "arealabel": "East Bay"
+  "arealabel": "East Bay",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Chabot Space &amp; Science Center",
@@ -249,7 +275,9 @@
   "lon": -122.1815,
   "ages": "6 and up",
   "envlabel": "Indoors",
-  "arealabel": "East Bay"
+  "arealabel": "East Bay",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "CuriOdyssey at Coyote Point",
@@ -267,7 +295,9 @@
   "lon": -122.318,
   "ages": "Under 10",
   "envlabel": "Indoors + out",
-  "arealabel": "Peninsula"
+  "arealabel": "Peninsula",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Hiller Aviation Museum",
@@ -285,7 +315,9 @@
   "lon": -122.2497,
   "ages": "3 and up",
   "envlabel": "Indoors",
-  "arealabel": "Peninsula"
+  "arealabel": "Peninsula",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Half Moon Bay &amp; the Coastside",
@@ -303,7 +335,9 @@
   "lon": -122.445,
   "ages": "All ages",
   "envlabel": "Outdoors",
-  "arealabel": "Peninsula"
+  "arealabel": "Peninsula",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Children&rsquo;s Discovery Museum of San Jose",
@@ -321,7 +355,9 @@
   "lon": -121.8907,
   "ages": "Under 9",
   "envlabel": "Indoors",
-  "arealabel": "South Bay"
+  "arealabel": "South Bay",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Happy Hollow Park &amp; Zoo",
@@ -339,7 +375,9 @@
   "lon": -121.8603,
   "ages": "1&ndash;8",
   "envlabel": "Outdoors",
-  "arealabel": "South Bay"
+  "arealabel": "South Bay",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "The Tech Interactive",
@@ -357,7 +395,9 @@
   "lon": -121.89,
   "ages": "7 and up",
   "envlabel": "Indoors",
-  "arealabel": "South Bay"
+  "arealabel": "South Bay",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Gilroy Gardens",
@@ -375,7 +415,9 @@
   "lon": -121.612,
   "ages": "3 and up",
   "envlabel": "Outdoors",
-  "arealabel": "South Bay"
+  "arealabel": "South Bay",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Elk Grove Regional Park",
@@ -394,7 +436,9 @@
   "ages": "All ages",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.elkgrovecity.org/recreation/parks-trails/elk-grove-regional-park"
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/elk-grove-regional-park",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Oasis Park",
@@ -413,7 +457,9 @@
   "ages": "Under 10",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.elkgrovecity.org/recreation/parks-trails/oasis-park"
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/oasis-park",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Wackford Aquatic Complex",
@@ -432,7 +478,9 @@
   "ages": "3 and up",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.elkgrovecity.org/recreation/aquatics/wackford-aquatic-complex"
+  "url": "https://www.elkgrovecity.org/recreation/aquatics/wackford-aquatic-complex",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "The Alley",
@@ -451,7 +499,9 @@
   "ages": "3 and up",
   "envlabel": "Indoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.bowlthealley.com/"
+  "url": "https://www.bowlthealley.com/",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Fairytale Town",
@@ -470,7 +520,9 @@
   "ages": "Under 10",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.fairytaletown.org/"
+  "url": "https://www.fairytaletown.org/",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Funderland",
@@ -489,7 +541,9 @@
   "ages": "Under 10",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.funderlandpark.com/"
+  "url": "https://www.funderlandpark.com/",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Sacramento Zoo",
@@ -508,7 +562,9 @@
   "ages": "All ages",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.saczoo.org/"
+  "url": "https://www.saczoo.org/",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "California State Railroad Museum",
@@ -527,7 +583,9 @@
   "ages": "3 and up",
   "envlabel": "Indoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.californiarailroad.museum/"
+  "url": "https://www.californiarailroad.museum/",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Sacramento Children&rsquo;s Museum",
@@ -546,7 +604,9 @@
   "ages": "Under 9",
   "envlabel": "Indoors",
   "arealabel": "Sacramento area",
-  "url": "https://sackids.org/"
+  "url": "https://sackids.org/",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "McKinley Park",
@@ -565,7 +625,9 @@
   "ages": "Under 12",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.cityofsacramento.org/ParksandRec/Parks/Park-Directory/Central-City/McKinley-Park"
+  "url": "https://www.cityofsacramento.org/ParksandRec/Parks/Park-Directory/Central-City/McKinley-Park",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Bertha Henschel Park",
@@ -584,7 +646,9 @@
   "ages": "Under 12",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.cityofsacramento.org/ParksandRec/Parks/Park-Directory/North-Sacramento/Bertha-Henschel-Park"
+  "url": "https://www.cityofsacramento.org/ParksandRec/Parks/Park-Directory/North-Sacramento/Bertha-Henschel-Park",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Sacramento Adventure Playground",
@@ -603,7 +667,9 @@
   "ages": "Ages 6–15",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.cityofsacramento.org/ParksandRec/Parks/Park-Directory/South-Area/William-Land-Regional-Park"
+  "url": "https://www.cityofsacramento.org/ParksandRec/Parks/Park-Directory/South-Area/William-Land-Regional-Park",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Heron Landing Community Park",
@@ -622,7 +688,9 @@
   "ages": "Under 12",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.cityofranchocordova.org/government/community-services/parks-recreation/parks"
+  "url": "https://www.cityofranchocordova.org/government/community-services/parks-recreation/parks",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "White Rock Community Splash Park",
@@ -641,13 +709,15 @@
   "ages": "Under 12",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.cityofranchocordova.org/government/community-services/parks-recreation/parks"
+  "url": "https://www.cityofranchocordova.org/government/community-services/parks-recreation/parks",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Folsom Kids’ Castle Park",
   "where": "Phillip C. Cohn Park, Folsom",
-  "desc": "Wooden castle and western-town playground with a little-kids area, obstacle course, tire swing and a nature trail to a pond.",
-  "note": "The city approved a full rebuild planned for April 2026 — check the new castle is open before you go.",
+  "desc": "Castle-themed playground rebuilt in 2026 with modern, durable materials in the original castle theme — plus a little-kids area, obstacle course, tire swing and a nature trail to a pond.",
+  "note": "The new castle reopened in summer 2026 after the full community rebuild. Confirm current hours with the City of Folsom before you go.",
   "cta": "Map & directions",
   "mapq": "Kids+Castle+Park+Folsom+CA",
   "icon": "i-play",
@@ -660,7 +730,9 @@
   "ages": "Under 12",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.folsom.ca.us/government/parks-recreation/parks-trails/parks"
+  "url": "https://www.folsom.ca.us/government/parks-recreation/parks-trails/parks",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Folsom City Lions Park",
@@ -679,7 +751,9 @@
   "ages": "Under 12",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.folsom.ca.us/government/parks-recreation/parks-trails/parks"
+  "url": "https://www.folsom.ca.us/government/parks-recreation/parks-trails/parks",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Econome Family Park",
@@ -698,7 +772,9 @@
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
   "note": "The giant ground-level slide is the headline — arrive before the birthday-party rush on weekends.",
-  "url": "https://www.folsom.ca.us/government/parks-recreation/parks-trails/parks"
+  "url": "https://www.folsom.ca.us/government/parks-recreation/parks-trails/parks",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Tempo Park",
@@ -717,7 +793,9 @@
   "ages": "Under 12",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.citrusheights.net/161/Parks"
+  "url": "https://www.citrusheights.net/161/Parks",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Rusch Park",
@@ -736,7 +814,9 @@
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
   "note": "Big park and spread out — the two playgrounds sit on opposite sides, so pick your parking accordingly.",
-  "url": "https://www.citrusheights.net/161/Parks"
+  "url": "https://www.citrusheights.net/161/Parks",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Kammerer Park",
@@ -755,7 +835,9 @@
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
   "note": "The musical splash pad runs seasonally; the instruments play year-round.",
-  "url": "https://www.elkgrovecity.org/recreation/parks-trails/kammerer-park"
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/kammerer-park",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "George Park",
@@ -774,7 +856,9 @@
   "ages": "Under 12",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.elkgrovecity.org/recreation/parks-trails/george-park"
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/george-park",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Enchanted Elk Grove",
@@ -793,7 +877,9 @@
   "ages": "Under 12",
   "envlabel": "Indoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.enchantedindoorplayground.com/"
+  "url": "https://www.enchantedindoorplayground.com/",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Enchanted Natomas",
@@ -812,7 +898,9 @@
   "ages": "Ages 0–8",
   "envlabel": "Indoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.enchantedindoorplayground.com/"
+  "url": "https://www.enchantedindoorplayground.com/",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Urban Air Trampoline and Adventure Park",
@@ -831,7 +919,9 @@
   "ages": "Ages 3+",
   "envlabel": "Indoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.urbanair.com/sacramento-ca"
+  "url": "https://www.urbanair.com/sacramento-ca",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Rebounderz Sacramento",
@@ -850,7 +940,9 @@
   "ages": "Ages 2+",
   "envlabel": "Indoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.rfranchising.com/sacramento/"
+  "url": "https://www.rfranchising.com/sacramento/",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Kids Empire",
@@ -869,7 +961,9 @@
   "ages": "All ages",
   "envlabel": "Indoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.kidsempire.com/locations/rancho-cordova/"
+  "url": "https://www.kidsempire.com/locations/rancho-cordova/",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Peek-a-Boo Factory",
@@ -888,7 +982,9 @@
   "ages": "All ages",
   "envlabel": "Indoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.peekaboofactory.com/"
+  "url": "https://www.peekaboofactory.com/",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Wacky Tacky",
@@ -907,7 +1003,9 @@
   "ages": "Under 12",
   "envlabel": "Indoors",
   "arealabel": "Sacramento area",
-  "url": "https://wackytacky.com/"
+  "url": "https://wackytacky.com/",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "WonderPlay Zone",
@@ -926,7 +1024,9 @@
   "ages": "Ages 0–7",
   "envlabel": "Indoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.wonderplayzone.com/"
+  "url": "https://www.wonderplayzone.com/",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Ely’s Play House",
@@ -945,7 +1045,9 @@
   "ages": "Ages 0–8",
   "envlabel": "Indoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.elysplayhouse.com/"
+  "url": "https://www.elysplayhouse.com/",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Space To Play",
@@ -964,7 +1066,9 @@
   "ages": "Under 12",
   "envlabel": "Indoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.spacetoplay.com/"
+  "url": "https://www.spacetoplay.com/",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Oneto Park",
@@ -983,7 +1087,9 @@
   "ages": "Under 10",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.elkgrovecity.org/recreation/parks-trails/oneto-park"
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/oneto-park",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Miwok Park",
@@ -1002,7 +1108,9 @@
   "ages": "Under 10",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.elkgrovecity.org/recreation/parks-trails/miwok-park"
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/miwok-park",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Machado Dairy Park",
@@ -1021,7 +1129,9 @@
   "ages": "Under 10",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.elkgrovecity.org/recreation/parks-trails/machado-dairy-park"
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/machado-dairy-park",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Kloss Park",
@@ -1040,7 +1150,9 @@
   "ages": "Under 10",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.elkgrovecity.org/recreation/parks-trails/kloss-park"
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/kloss-park",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Morse Community Park",
@@ -1059,7 +1171,9 @@
   "ages": "Under 10",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.elkgrovecity.org/recreation/parks-trails/morse-community-park"
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/morse-community-park",
+  "status": "open",
+  "last_checked": "2026-09-17"
  },
  {
   "name": "Derr-Okamoto Community Park",
@@ -1078,6 +1192,8 @@
   "ages": "Under 10",
   "envlabel": "Outdoors",
   "arealabel": "Sacramento area",
-  "url": "https://www.elkgrovecity.org/recreation/parks-trails/derr-okamoto-community-park"
+  "url": "https://www.elkgrovecity.org/recreation/parks-trails/derr-okamoto-community-park",
+  "status": "open",
+  "last_checked": "2026-09-17"
  }
 ]

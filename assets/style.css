@@ -170,6 +170,14 @@ section[id] { scroll-margin-top: 78px; }
 .quick-link:hover { transform: translateY(-2px); }
 .quick-link:active { transform: translateY(1px); box-shadow: 0 1px 0 #1F6FAB; }
 
+/* ---------- Freshness ---------- */
+.fresh { display: flex; align-items: center; gap: 7px; font-size: 12.5px; color: var(--ink-2); margin: 9px 0 0; }
+.fresh-dot { width: 8px; height: 8px; border-radius: 50%; background: #2f9e44; flex: none; }
+
+/* ---------- Zip error ---------- */
+.zip-error { color: #b3261e; font-size: 13px; line-height: 1.5; margin: 8px 0 0; max-width: 46ch; }
+.zip-error a { font-weight: 700; text-decoration: underline; }
+
 /* ---------- Location ---------- */
 .loc-hint { margin: 14px 0 0; font-size: 14px; color: var(--ink-2); }
 

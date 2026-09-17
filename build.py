@@ -78,6 +78,17 @@ def show_miles(d):
     return ('%.1f' % d) if d < 10 else str(int(round(d)))
 
 
+def fmt_checked(iso):
+    # 2026-09-17 -> Sep 17, 2026
+    try:
+        y, m, d = iso.split('-')
+        months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+                  'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+        return '%s %d, %s' % (months[int(m) - 1], int(d), y)
+    except Exception:
+        return iso
+
+
 REGIONS = {'sf': 'San Francisco', 'marin': 'Marin & North Bay', 'east': 'East Bay',
            'peninsula': 'Peninsula', 'south': 'South Bay', 'sac': 'Sacramento area'}
 
@@ -196,6 +207,10 @@ def place_card(p, dist=None, up='../'):
     img_html = ''
     if photo:
         img_html = '<img class="card-img" src="%s%s" alt="" width="400" height="225" loading="lazy">' % (up, photo)
+    fresh = ''
+    if (p.get('status') or '').lower() == 'open' and p.get('last_checked'):
+        fresh = ('<p class="fresh"><span class="fresh-dot" aria-hidden="true"></span>'
+                 'Open &middot; Last checked %s</p>' % fmt_checked(p['last_checked']))
     return '''
         <article class="card{imgcls}" data-cat="{cat}" data-age="{age}" data-region="{region}" data-env="{env}"{dattr} data-lat="{lat}" data-lon="{lon}">
           {img}
@@ -205,11 +220,12 @@ def place_card(p, dist=None, up='../'):
           </div>
           <p class="desc">{desc}</p>
           <ul class="meta">{meta}</ul>
+          {fresh}
           <p class="note"><b>Before you go</b> {note}</p>
           <a class="map" href="https://www.google.com/maps/search/?api=1&query={mapq}" target="_blank" rel="noopener">{cta}</a>
         </article>
 '''.format(dattr=('' if dist is None else ' data-dist="%.1f"' % dist),
-           meta=meta, img=img_html, imgcls=' has-img' if photo else '', **p)
+           meta=meta, img=img_html, imgcls=' has-img' if photo else '', fresh=fresh, **p)
 
 
 FILTERS = '''
@@ -537,6 +553,8 @@ def city_page(town, places, events, dated, base):
     if ev:
         ql[0:0] = ['<a class="quick-link" href="#today">Today</a>',
                    '<a class="quick-link" href="#weekend">This weekend</a>']
+    if seasonal_groups:
+        ql.insert(len(ql) - 1, '<a class="quick-link" href="#seasonal">Special events</a>')
     quick = ('\n      <nav class="quick-links" aria-label="Jump to a section">\n        %s\n      </nav>'
              % '\n        '.join(ql))
 
