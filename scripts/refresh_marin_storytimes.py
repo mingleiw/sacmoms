@@ -43,7 +43,7 @@ REGION = "marin"
 def fetch_day(day):
     req = urllib.request.Request(
         LIST_URL.format(day=day),
-        headers={"User-Agent": "kidventures-refresh/1.0"})
+        headers={"User-Agent": "sacmoms-refresh/1.0"})
     with urllib.request.urlopen(req, timeout=60) as resp:
         return json.loads(resp.read().decode("utf-8", errors="replace"))
 

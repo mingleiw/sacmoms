@@ -50,7 +50,7 @@ MONTHS = {m: i + 1 for i, m in enumerate(
 
 
 def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "kidventures-refresh/1.0"})
+    req = urllib.request.Request(url, headers={"User-Agent": "sacmoms-refresh/1.0"})
     with urllib.request.urlopen(req, timeout=60) as resp:
         return resp.read().decode("utf-8", errors="replace")
 

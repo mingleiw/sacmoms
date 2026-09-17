@@ -16,7 +16,7 @@ genuinely different, crawlable content and still works with JavaScript off.
 import json, math, os, re, shutil, html, datetime, hashlib
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-SITE_NAME = 'Kidventures'
+SITE_NAME = 'SacMoms'
 
 # Sacramento branch: build only Sacramento-region city pages.
 # main builds every region; this branch focuses on Sacramento first.

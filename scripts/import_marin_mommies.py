@@ -16,7 +16,7 @@ from collections import Counter, defaultdict
 from datetime import date, timedelta
 
 BASE = "https://www.marinmommies.com"
-UA = "kidventures-import/1.0 (one-time import; contact via github.com/mingleiw/kidventures)"
+UA = "sacmoms-import/1.0 (one-time import; contact via github.com/mingleiw/sacmoms)"
 EVENTS_JSON = "data/events.json"
 
 

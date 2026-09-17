@@ -21,7 +21,7 @@ from collections import Counter, defaultdict
 from datetime import date, timedelta
 
 BASE = "https://www.marinmommies.com"
-UA = "kidventures-refresh/1.0 (daily refresh; contact via github.com/mingleiw/kidventures)"
+UA = "sacmoms-refresh/1.0 (daily refresh; contact via github.com/mingleiw/sacmoms)"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EVENTS_JSON = os.path.join(ROOT, "data", "events.json")
 ORIGIN = "marin-mommies"

@@ -1,4 +1,4 @@
-# Kidventures
+# SacMoms
 
 Static site. One page per city: pick a city, get places near it sorted by
 distance. `README.md` has the full detail; this file is the things that bite.

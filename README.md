@@ -1,6 +1,6 @@
-# Kidventures
+# SacMoms
 
-Where to take the kids, across Northern California.
+Where to take the kids in Sacramento County.
 
 One page per city. Pick a city, get the places near it sorted by distance, with
 the parking and weather notes that decide whether it's worth the drive.
@@ -49,7 +49,7 @@ whole list still renders with JavaScript off.
 
 **Settings → Pages → Deploy from a branch → `main` → `/ (root)`**
 
-Once enabled, live at <https://mingleiw.github.io/kidventures/>
+Once enabled, live at <https://mingleiw.github.io/sacmoms/>
 
 Push to `main` and Pages redeploys. Run `build.py` and commit its output first, or
 the live site won't reflect your data edits.
