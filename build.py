@@ -196,6 +196,25 @@ FOOT = '''
 '''
 
 
+SPEC_ROWS = (('price', 'Price'), ('toddler', 'Toddlers'),
+             ('restrooms', 'Restrooms'), ('shade', 'Shade'),
+             ('parking', 'Parking'), ('visit', 'Typical visit'))
+
+
+def spec_html(p):
+    """Structured facts lifted out of the prose, so cards compare at a glance.
+
+    Only rows with a sourced value render -- a missing fact is omitted, never
+    invented. Values come from data/places.json 'spec', extracted from each
+    place's own description or its official site.
+    """
+    spec = p.get('spec') or {}
+    rows = ''.join(
+        '<div class="spec-row"><dt>%s</dt><dd>%s</dd></div>' % (label, html.escape(spec[k]))
+        for k, label in SPEC_ROWS if spec.get(k))
+    return '<dl class="spec">%s</dl>' % rows if rows else ''
+
+
 def place_card(p, dist=None, up='../'):
     meta = ''
     if dist is not None:
@@ -204,32 +223,52 @@ def place_card(p, dist=None, up='../'):
         meta += '<li class="m-region">%s</li>' % REGIONS.get(p['region'], p['region'])
     meta += '<li class="m-age">%s</li><li class="m-env">%s</li>' % (p['ages'], p['envlabel'])
     photo = photo_for(slugify(p['name']))
-    img_html = ''
     if photo:
-        img_html = '<img class="card-img" src="%s%s" alt="" width="400" height="225" loading="lazy">' % (up, photo)
+        media = ('<div class="card-media"><img class="card-img" src="%s%s" alt="" '
+                 'width="400" height="225" loading="lazy"></div>' % (up, photo))
+    else:
+        # Same fixed-aspect slot as a photo, so cards without one keep the
+        # same rhythm instead of collapsing the layout.
+        media = ('<div class="card-media card-media-empty" aria-hidden="true">'
+                 '<svg width="44" height="44"><use href="#%s"/></svg></div>' % p['icon'])
     fresh = ''
     if (p.get('status') or '').lower() == 'open' and p.get('last_checked'):
         fresh = ('<p class="fresh"><span class="fresh-dot" aria-hidden="true"></span>'
                  'Open &middot; Last checked %s</p>' % fmt_checked(p['last_checked']))
+    # Directions goes to Google Maps; hours and tickets live on the venue's
+    # own site, so that link is separate instead of pretending Maps has them.
+    acts = ['<a class="map" href="https://www.google.com/maps/search/?api=1&query=%s" '
+            'target="_blank" rel="noopener">Directions</a>' % p['mapq']]
+    if p.get('url'):
+        acts.append('<a class="offsite" href="%s" target="_blank" rel="noopener">'
+                    'Official site</a>' % html.escape(p['url']))
+    tickets = (p.get('spec') or {}).get('tickets_url')
+    if tickets:
+        acts.append('<a class="tickets" href="%s" target="_blank" rel="noopener">'
+                    'Tickets</a>' % html.escape(tickets))
+    actions = '<div class="card-acts">%s</div>' % ''.join(acts)
     return '''
         <article class="card{imgcls}" data-cat="{cat}" data-age="{age}" data-region="{region}" data-env="{env}"{dattr} data-lat="{lat}" data-lon="{lon}">
-          {img}
+          {media}
           <div class="card-top">
             <span class="ico" aria-hidden="true"><svg width="20" height="20"><use href="#{icon}"/></svg></span>
             <div><h3>{name}</h3><p class="en">{where}</p></div>
           </div>
           <p class="desc">{desc}</p>
           <ul class="meta">{meta}</ul>
+          {spechtml}
           {fresh}
           <p class="note"><b>Before you go</b> {note}</p>
-          <a class="map" href="https://www.google.com/maps/search/?api=1&query={mapq}" target="_blank" rel="noopener">{cta}</a>
+          {actions}
         </article>
 '''.format(dattr=('' if dist is None else ' data-dist="%.1f"' % dist),
-           meta=meta, img=img_html, imgcls=' has-img' if photo else '', fresh=fresh, **p)
+           meta=meta, media=media, spechtml=spec_html(p), actions=actions,
+           imgcls=' has-img' if photo else '', fresh=fresh, **p)
 
 
 FILTERS = '''
-      <div class="filters" role="group" aria-label="Filters">
+      <div class="filters" role="group" aria-label="Filter places">
+        <p class="filters-title">Filter places</p>
         <div class="filter-row">
           <span class="filter-label">Age</span>
           <div class="chips" data-group="age">
@@ -254,6 +293,72 @@ FILTERS = '''
         </div>
       </div>
 '''
+
+# Events get their own filter set in the week section: the place filters above
+# deliberately do not touch events, and these do not touch places. Each group
+# is labelled so the scope is obvious.
+EV_FILTERS = '''
+      <div class="ev-filters" role="group" aria-label="Filter events">
+        <p class="filters-title">Filter events</p>
+        <div class="filter-row">
+          <span class="filter-label">Age</span>
+          <div class="chips" data-egroup="age">
+            <button class="chip is-on" data-v="all">Any age</button>
+            <button class="chip" data-v="0-2">Under 3</button>
+            <button class="chip" data-v="3-5">3&ndash;5</button>
+            <button class="chip" data-v="6-9">6&ndash;9</button>
+            <button class="chip" data-v="10+">10 and up</button>
+          </div>
+        </div>
+        <div class="filter-row">
+          <span class="filter-label">Setting</span>
+          <div class="chips" data-egroup="env">
+            <button class="chip is-on" data-v="all">Either</button>
+            <button class="chip" data-v="indoor">Indoors</button>
+            <button class="chip" data-v="outdoor">Outdoors</button>
+          </div>
+        </div>
+        <div class="filter-row">
+          <span class="filter-label">Distance</span>
+          <div class="chips" data-egroup="dist">
+            <button class="chip is-on" data-v="all">Any distance</button>
+            <button class="chip" data-v="10">Within 10 mi</button>
+            <button class="chip" data-v="20">Within 20 mi</button>
+          </div>
+        </div>
+        <p class="filter-count" id="evCount" aria-live="polite"></p>
+      </div>
+'''
+
+# Display age strings on events -> the same tag vocabulary the place filters
+# use, so "Under 3" means the same thing in both sections. Unknown maps to
+# every tag: an event is never hidden for an age we have no data about.
+EVENT_AGE_TAGS = {
+    'Ages 0–5': '0-2 3-5',
+    'Babies 0–18 mo': '0-2',
+    'All ages': '0-2 3-5 6-9 10+',
+    'Under 6': '0-2 3-5',
+    'Under 8': '0-2 3-5 6-9',
+    '24 months & under': '0-2',
+    'Ages 5+': '3-5 6-9 10+',
+}
+
+
+def event_env(e):
+    """Indoor/outdoor for an event, from venue and title keywords.
+
+    Returns '' when nothing matches: app.js treats unknown as matching any
+    setting filter rather than hiding the event for missing data.
+    """
+    t = (e.get('title') or '').lower()
+    v = (e.get('venue') or '').lower()
+    if 'outdoor' in t:
+        return 'outdoor'
+    if 'library' in v or 'museum' in v or 'book' in v:
+        return 'indoor'
+    if 'market' in t or 'market' in v or 'plaza' in v or 'old town' in v:
+        return 'outdoor'
+    return ''
 
 
 def events_jsonld(ev, town, week_dates):
@@ -447,9 +552,12 @@ def seasonal_section_html(groups, town_name):
                 dist_chip = '<span class="ev-tag ev-dist">%s mi</span>' % show_miles(g['dist'])
             group_key = g.get('group_key', slugify(g['title']))
             sc_photo = photo_for(group_key)
-            sc_img = ''
             if sc_photo:
-                sc_img = '<img class="sc-img" src="../%s" alt="" width="400" height="225" loading="lazy">' % sc_photo
+                sc_img = ('<div class="sc-media"><img class="sc-img" src="../%s" alt="" '
+                          'width="400" height="225" loading="lazy"></div>' % sc_photo)
+            else:
+                sc_img = ('<div class="sc-media sc-media-empty" aria-hidden="true">'
+                          '<svg width="44" height="44"><use href="#%s"/></svg></div>' % cfg['icon'])
             out += '''        <article class="seasonal-card%s">
           %s
           <h3>%s</h3>
@@ -459,7 +567,7 @@ def seasonal_section_html(groups, town_name):
           <div class="sc-foot">
             %s
             <span class="ev-tag">%s</span>
-            <a class="map" href="https://www.google.com/maps/search/?api=1&amp;query=%s" target="_blank" rel="noopener">Map</a>
+            <a class="map" href="https://www.google.com/maps/search/?api=1&amp;query=%s" target="_blank" rel="noopener">Directions</a>
             %s
           </div>
         </article>
@@ -527,6 +635,8 @@ def city_page(town, places, events, dated, base):
             e['dist'] = round(miles(town['lat'], town['lon'], vc[0], vc[1]), 1)
             e['lat'] = vc[0]
             e['lon'] = vc[1]
+        e['age_tags'] = EVENT_AGE_TAGS.get(e.get('ages'), '0-2 3-5 6-9 10+')
+        e['env'] = event_env(e)
         ranked_ev.append(e)
     ev = ranked_ev
 
@@ -584,6 +694,7 @@ def city_page(town, places, events, dated, base):
         <p class="section-sub">Regular weekly events &mdash; markets, storytimes, open gyms</p>
       </div>
       <div class="daystrip" id="daystrip" role="tablist" aria-label="Pick a day"></div>
+%s
       <div class="events" id="events" role="tabpanel" aria-live="polite"></div>
       <p class="empty" id="weekEmpty" hidden></p>
       <p class="week-foot">
@@ -599,7 +710,7 @@ def city_page(town, places, events, dated, base):
       <div class="ev-detail" id="evDetail"></div>
     </dialog>
   </section>
-''' % html.escape(REGIONS.get(town['region'], town['region']))
+''' % (html.escape(REGIONS.get(town['region'], town['region'])), EV_FILTERS)
 
     if seasonal_groups:
         out += seasonal_section_html(seasonal_groups, name)

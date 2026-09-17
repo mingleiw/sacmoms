@@ -393,10 +393,58 @@
 
   var shown = [];
 
+  /* ---- Event filters: age / setting / distance. These apply only to the
+     week section; the place filters above apply only to places. Each set is
+     labelled with its scope so the boundary is obvious. ---- */
+  var estate = { age: 'all', env: 'all', dist: 'all' };
+  var evCountEl = document.getElementById('evCount');
+
+  function evMatches(e) {
+    if (estate.age !== 'all') {
+      var tags = (e.age_tags || '0-2 3-5 6-9 10+').split(' ');
+      if (tags.indexOf(estate.age) === -1) return false;
+    }
+    /* Unknown setting never hides an event: missing data is not a "no". */
+    if (estate.env !== 'all' && e.env && e.env !== estate.env) return false;
+    if (estate.dist !== 'all') {
+      var ed = evDist(e);
+      if (ed === null || !(ed <= +estate.dist)) return false;
+    }
+    return true;
+  }
+
+  document.querySelectorAll('[data-egroup]').forEach(function (g) {
+    var key = g.getAttribute('data-egroup');
+    g.addEventListener('click', function (ev) {
+      var btn = ev.target.closest('.chip');
+      if (!btn || !g.contains(btn)) return;
+      estate[key] = btn.getAttribute('data-v');
+      g.querySelectorAll('.chip').forEach(function (b) {
+        b.classList.toggle('is-on', b === btn);
+      });
+      render();
+    });
+  });
+
+  /* An event counts as ended only when the organiser published an end time
+     and it has passed. Without an end time we never guess. */
+  function evEnded(e, now) {
+    if (picked !== 0 || !e.until) return false;
+    var p = e.until.split(':');
+    var end = new Date(week[0]);
+    end.setHours(+p[0], +p[1], 0, 0);
+    return now > end;
+  }
+
   function render() {
     var d = week[picked];
+    var now = new Date();
     var list = EVENTS.filter(function (e) { return e.day === d.getDay() || e.date === ymd(d); })
+                     .filter(evMatches)
                      .sort(function (a, b) {
+                       /* Upcoming sessions first, ended ones last. */
+                       var ea = evEnded(a, now) ? 1 : 0, eb = evEnded(b, now) ? 1 : 0;
+                       if (ea !== eb) return ea - eb;
                        var ta = a.time || '99:99', tb = b.time || '99:99';
                        return ta < tb ? -1 : (ta > tb ? 1 : 0);
                      });
@@ -408,7 +456,8 @@
       var distChip = dist !== null
         ? '<span class="ev-tag ev-dist">' + esc(showMiles(dist)) + ' mi</span>'
         : '';
-      return '<article class="event" data-i="' + i + '">' +
+      var ended = evEnded(e, now);
+      return '<article class="event' + (ended ? ' is-ended' : '') + '" data-i="' + i + '">' +
         '<div class="ev-time' + (when ? '' : ' ev-time-unknown') + '">' +
           (when ? esc(when) : esc(e.timeLabel || 'Time not confirmed')) + '</div>' +
         '<div class="ev-body">' +
@@ -416,26 +465,49 @@
           '<p class="ev-where">' + esc(e.venue) + ', ' + esc(e.city) + '</p>' +
           '<p class="ev-blurb">' + esc(e.blurb) + '</p>' +
           '<div class="ev-foot">' +
+            (ended ? '<span class="ev-tag ev-ended">Ended</span>' : '') +
             distChip +
             '<span class="ev-tag">' + esc(e.ages) + '</span>' +
             '<button class="ev-more" type="button">Details</button>' +
             '<a class="map" href="https://www.google.com/maps/search/?api=1&query=' +
-              encodeURIComponent(e.venue + ' ' + e.city) + '" target="_blank" rel="noopener">Map</a>' +
-            (e.source ? '<a class="ev-src" href="' + esc(e.source) + '" target="_blank" rel="noopener">Where this came from</a>' : '') +
+              encodeURIComponent(e.venue + ' ' + e.city) + '" target="_blank" rel="noopener">Directions</a>' +
+            (e.source ? '<a class="ev-src" href="' + esc(e.source) + '" target="_blank" rel="noopener">Official listing</a>' : '') +
           '</div>' +
         '</div></article>';
     }).join('');
 
-    var when = picked === 0 ? 'today' : (picked === 1 ? 'tomorrow' : 'on ' + DAYS[d.getDay()]);
-    weekMt.hidden = list.length !== 0;
-
-    var nxt = -1;
-    for (var j = 1; j < week.length; j++) {
-      var idx = (picked + j) % week.length;
-      if (countFor(week[idx])) { nxt = idx; break; }
+    var filtered = estate.age !== 'all' || estate.env !== 'all' || estate.dist !== 'all';
+    if (evCountEl) {
+      evCountEl.textContent = filtered
+        ? list.length + (list.length === 1 ? ' event' : ' events') + ' match'
+        : '';
     }
-    weekMt.textContent = 'Nothing listed ' + when + '.' +
-      (nxt > -1 ? ' Next up: ' + (nxt === 0 ? 'today' : nxt === 1 ? 'tomorrow' : DAYS[week[nxt].getDay()]) + '.' : '');
+
+    var when = picked === 0 ? 'today' : (picked === 1 ? 'tomorrow' : 'on ' + DAYS[d.getDay()]);
+    weekMt.innerHTML = '';
+    if (list.length === 0) {
+      weekMt.hidden = false;
+      var nxt = -1;
+      for (var j = 1; j < week.length; j++) {
+        var idx = (picked + j) % week.length;
+        if (countFor(week[idx])) { nxt = idx; break; }
+      }
+      weekMt.textContent = filtered
+        ? 'Nothing matches those event filters — try loosening one.'
+        : 'Nothing listed ' + when + '.' +
+          (nxt > -1 ? ' Next up: ' + (nxt === 0 ? 'today' : nxt === 1 ? 'tomorrow' : DAYS[week[nxt].getDay()]) + '.' : '');
+    } else if (picked === 0 && list.every(function (e) { return evEnded(e, now); })) {
+      /* Today is over: say so plainly and offer tomorrow. */
+      weekMt.hidden = false;
+      var tn = countFor(week[1]);
+      weekMt.innerHTML = 'That\u2019s everything for today.' +
+        (tn ? ' ' + tn + (tn === 1 ? ' event' : ' events') + ' tomorrow.' : '') +
+        ' <button type="button" class="linklike" id="seeTomorrow">See tomorrow &rarr;</button>';
+      var st = weekMt.querySelector('#seeTomorrow');
+      if (st) st.addEventListener('click', function () { pickDay(1, true); });
+    } else {
+      weekMt.hidden = true;
+    }
   }
 
   // Expose so the places IIFE can trigger a re-render after geolocation
@@ -459,8 +531,40 @@
   }
   var returnHash = '';  /* hash to restore when the event dialog closes */
 
+  /* Google Calendar template link for "Add to calendar". Times are the
+     organiser's local times, pinned with ctz=America/Los_Angeles. Without an
+     end time we hold one hour, the same default Google itself uses. */
+  function calUrl(e) {
+    var base = 'https://calendar.google.com/calendar/render?action=TEMPLATE';
+    var day = e.date ? e.date : ymd(week[picked]);
+    var dt = day.replace(/-/g, '');
+    var dates;
+    if (e.time) {
+      var t0 = e.time.replace(':', '');
+      var t1;
+      if (e.until) {
+        t1 = e.until.replace(':', '');
+      } else {
+        var p = e.time.split(':');
+        t1 = ('0' + ((+p[0] + 1) % 24)).slice(-2) + p[1];
+      }
+      dates = dt + 'T' + t0 + '00/' + dt + 'T' + t1 + '00';
+    } else {
+      var d0 = new Date(day + 'T00:00:00');
+      d0.setDate(d0.getDate() + 1);
+      dates = dt + '/' + ymd(d0).replace(/-/g, '');
+    }
+    return base +
+      '&text=' + encodeURIComponent(e.title) +
+      '&dates=' + dates +
+      '&ctz=America/Los_Angeles' +
+      '&details=' + encodeURIComponent((e.blurb ? e.blurb + '\n\n' : '') + (e.source || '')) +
+      '&location=' + encodeURIComponent(e.venue + ', ' + e.city);
+  }
+
   function openDetail(e, push) {
-    if (!dlg || !detail) return;    var when = e.time ? hhmm(e.time) + (e.until ? ' – ' + hhmm(e.until) : '')
+    if (!dlg || !detail) return;
+    var when = e.time ? hhmm(e.time) + (e.until ? ' – ' + hhmm(e.until) : '')
                       : (e.timeLabel || 'Time not confirmed');
     var dist = evDist(e);
     var label = evDistLabel(e);
@@ -476,10 +580,23 @@
       '<div class="d-acts">' +
         '<a class="map" href="https://www.google.com/maps/search/?api=1&query=' +
           encodeURIComponent(e.venue + ' ' + e.city) +
-          '" target="_blank" rel="noopener">Map</a>' +
+          '" target="_blank" rel="noopener">Directions</a>' +
         (e.source ? '<a class="ev-src" href="' + esc(e.source) +
-          '" target="_blank" rel="noopener">Where this came from</a>' : '') +
+          '" target="_blank" rel="noopener">Official listing</a>' : '') +
+        '<button type="button" class="ev-share">Share</button>' +
+        '<a class="ev-cal" href="' + calUrl(e) + '" target="_blank" rel="noopener">Add to calendar</a>' +
       '</div>';
+    var shareBtn = detail.querySelector('.ev-share');
+    if (shareBtn) shareBtn.addEventListener('click', function () {
+      var url = location.origin + location.pathname + '#event=' + keyFor(e);
+      if (navigator.share) {
+        navigator.share({ title: e.title, url: url }).catch(function () {});
+      } else if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(function () {
+          shareBtn.textContent = 'Link copied';
+        }, function () {});
+      }
+    });
     if (push) {
       /* Keep the filter params on the dialog hash so they survive open/close. */
       returnHash = location.hash;
