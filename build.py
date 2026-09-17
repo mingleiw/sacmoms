@@ -121,7 +121,7 @@ HEAD = '''<!DOCTYPE html>
       <span class="brand-mark" aria-hidden="true"><svg width="19" height="19"><use href="#i-park"/></svg></span>
       <span class="brand-text">
         <strong>''' + SITE_NAME + '''</strong>
-        <small>''' + (FOCUS_LABEL if FOCUS_REGION else 'Northern California') + '''</small>
+        <small>Where to take the kids</small>
       </span>
     </a>
     <nav class="nav">{nav}</nav>
@@ -137,7 +137,7 @@ FOOT = '''
 <footer class="site-footer">
   <div class="wrap footer-inner">
     <p class="footer-brand">''' + SITE_NAME + '''</p>
-    <p class="footer-note">Find somewhere to take them today.</p>
+    <p class="footer-note">Find somewhere to take the kids today.</p>
     <p class="footer-disclaimer">
       Places listed are long-running and established.
       <strong>Hours, admission and seasonal closures change without notice &mdash; always
@@ -386,12 +386,14 @@ def root_page(towns_with_pages, places, base):
   <section class="hero">
     <div class="wrap hero-inner">
       <h1 class="hero-title">
-        <span class="hl">Where are we</span>
-        <span class="hl">going today?</span>
+        <span class="hl">Where are we taking</span>
+        <span class="hl">the kids today?</span>
       </h1>
       <p class="lede">
-        Pick your city. You get the places nearby, closest first, with the parking
-        and weather notes that decide whether it is actually worth the drive.
+        Things to do with the kids around ''' + (FOCUS_LABEL if FOCUS_REGION else 'Northern California') + ''' &mdash; playgrounds,
+        museums, splash pads, farmers&rsquo; markets and library storytimes. Pick your city
+        and you get what is on this week plus the places nearest you, with the parking
+        and weather notes that decide whether it is worth the drive.
       </p>
 
       <div class="picker">
@@ -412,7 +414,7 @@ def root_page(towns_with_pages, places, base):
     <div class="wrap">
       <div class="section-head">
         <h2>All cities</h2>
-        <p class="section-sub">%d cities, %d places. Every city links straight through.</p>
+        <p class="section-sub">%d cities, %d places to take the kids. Every city links straight through.</p>
       </div>
       <div class="city-index">
 %s      </div>

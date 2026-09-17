@@ -281,6 +281,12 @@ a page* problem, not a structured-data problem.
   can't break the markup.
 - The nav link has a short form (`Cities`) below 420px, because "Change city"
   plus the brand overflows a 320px screen.
+- The brand tagline ("Where to take the kids") **stays visible on phones**. It
+  used to be `display: none` under 560px, which was fine when it read
+  "Northern California" — but it now carries what the site is for, and that
+  matters most on the small screen. It costs nearly all the slack: at 320px the
+  city-page header leaves about 44px between the brand and the nav pill. Any
+  change to header text, font size or padding must be re-measured at 320px.
 
 ## Possible next steps
 
