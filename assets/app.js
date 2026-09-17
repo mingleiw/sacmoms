@@ -18,11 +18,16 @@
   var userLoc = null;
 
   /* Filters ride in the URL hash so refresh, bookmarking and sharing keep
-     the selection: #list?age=0-2&env=indoor. Params attach to any base
-     (#today, #weekend, #list). Written with replaceState: no scroll jump,
-     no hashchange, no interference with the week section's handlers. */
+     the selection: #list?age=0-2&env=indoor&eage=3-5&eenv=outdoor&edist=10.
+     Place filters use age/env; event filters use the e-prefixed variants.
+     Params attach to any base (#today, #weekend, #list). Written with
+     replaceState: no scroll jump, no hashchange, no interference with the
+     week section's handlers. */
   var VALID_FILTERS = { age: ['all', '0-2', '3-5', '6-9', '10+'],
-                        env: ['all', 'indoor', 'outdoor'] };
+                        env: ['all', 'indoor', 'outdoor'],
+                        eage: ['all', '0-2', '3-5', '6-9', '10+'],
+                        eenv: ['all', 'indoor', 'outdoor'],
+                        edist: ['all', '10', '20'] };
   function readFilterHash() {
     var re = /[?&](age|env)=([^&#]*)/g, t;
     while ((t = re.exec(location.hash)) !== null) {
@@ -34,6 +39,9 @@
     var q = [];
     if (state.age !== 'all') q.push('age=' + encodeURIComponent(state.age));
     if (state.env !== 'all') q.push('env=' + encodeURIComponent(state.env));
+    if (estate.age !== 'all') q.push('eage=' + encodeURIComponent(estate.age));
+    if (estate.env !== 'all') q.push('eenv=' + encodeURIComponent(estate.env));
+    if (estate.dist !== 'all') q.push('edist=' + encodeURIComponent(estate.dist));
     return q.length ? '?' + q.join('&') : '';
   }
   function syncHash(base) {
@@ -399,6 +407,25 @@
   var estate = { age: 'all', env: 'all', dist: 'all' };
   var evCountEl = document.getElementById('evCount');
 
+  /* Event filters persist in the hash under e-prefixed params, exactly like
+     the place filters, so a refresh keeps the event selection too. */
+  var EV_PARAM = { eage: 'age', eenv: 'env', edist: 'dist' };
+  function readEventFilterHash() {
+    var re = /[?&](eage|eenv|edist)=([^&#]*)/g, t;
+    while ((t = re.exec(location.hash)) !== null) {
+      var v = decodeURIComponent(t[2]);
+      if (VALID_FILTERS[t[1]].indexOf(v) !== -1) estate[EV_PARAM[t[1]]] = v;
+    }
+  }
+  function paintEventChips() {
+    document.querySelectorAll('[data-egroup]').forEach(function (g) {
+      var key = g.getAttribute('data-egroup');
+      g.querySelectorAll('.chip').forEach(function (b) {
+        b.classList.toggle('is-on', b.getAttribute('data-v') === estate[key]);
+      });
+    });
+  }
+
   function evMatches(e) {
     if (estate.age !== 'all') {
       var tags = (e.age_tags || '0-2 3-5 6-9 10+').split(' ');
@@ -419,12 +446,13 @@
       var btn = ev.target.closest('.chip');
       if (!btn || !g.contains(btn)) return;
       estate[key] = btn.getAttribute('data-v');
-      g.querySelectorAll('.chip').forEach(function (b) {
-        b.classList.toggle('is-on', b === btn);
-      });
+      paintEventChips();
       render();
+      syncHash();
     });
   });
+  readEventFilterHash();
+  paintEventChips();
 
   /* An event counts as ended only when the organiser published an end time
      and it has passed. Without an end time we never guess. */
