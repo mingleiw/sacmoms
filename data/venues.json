@@ -82,10 +82,10 @@
  {
   "venue": "Fair Oaks Library",
   "city": "Fair Oaks",
-  "lat": null,
-  "lon": null,
-  "query": "Fair Oaks Library, Fair Oaks, CA, USA",
-  "matched": "no confident match",
+  "lat": 38.6626383,
+  "lon": -121.2631033,
+  "query": "Fair Oaks Library, Sacramento County, CA, USA",
+  "matched": "Fair Oaks Community Library, 11601, Fair Oaks Boulevard, Fair Oaks, Sacramento County, California, 95628, United States",
   "resolved": "2026-09-17",
   "source": "nominatim.openstreetmap.org"
  },
@@ -112,30 +112,31 @@
  {
   "venue": "Historic Folsom Plaza",
   "city": "Folsom",
-  "lat": null,
-  "lon": null,
-  "query": "Historic Folsom Plaza, Folsom, CA, USA",
-  "matched": "no confident match",
+  "lat": 38.6759589,
+  "lon": -121.1805719,
+  "query": "Historic Folsom, Folsom, CA, USA",
+  "matched": "Historic Folsom, Folsom Boulevard, Old Town Folsom, Folsom Junction, Folsom, Sacramento County, California, 95671, United States",
   "resolved": "2026-09-17",
   "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "Laguna Gateway Center",
   "city": "Elk Grove",
-  "lat": null,
-  "lon": null,
-  "query": "Laguna Gateway Center, Elk Grove, CA, USA",
-  "matched": "no confident match",
+  "lat": 38.422297,
+  "lon": -121.402146,
+  "query": "hand-pinned",
+  "matched": "hand-pinned (locked)",
   "resolved": "2026-09-17",
-  "source": "nominatim.openstreetmap.org"
+  "source": "organizer-published address, verified via nominatim.openstreetmap.org",
+  "locked": true
  },
  {
   "venue": "Martin Luther King, Jr. Library",
   "city": "Sacramento",
-  "lat": null,
-  "lon": null,
-  "query": "Martin Luther King, Jr. Library, Sacramento, CA, USA",
-  "matched": "no confident match",
+  "lat": 38.4913581,
+  "lon": -121.4809157,
+  "query": "Martin Luther King Jr Library, Sacramento, CA, USA",
+  "matched": "Martin Luther King, Jr. Regional Library, 7340, 24th Street Bypass, Meadowview, Sacramento, Sacramento County, California, 95822, United States",
   "resolved": "2026-09-17",
   "source": "nominatim.openstreetmap.org"
  },
@@ -152,12 +153,13 @@
  {
   "venue": "Midtown Farmers Market",
   "city": "Sacramento",
-  "lat": null,
-  "lon": null,
-  "query": "Midtown Farmers Market, Sacramento, CA, USA",
-  "matched": "no confident match",
+  "lat": 38.576244,
+  "lon": -121.480403,
+  "query": "hand-pinned",
+  "matched": "hand-pinned (locked)",
   "resolved": "2026-09-17",
-  "source": "nominatim.openstreetmap.org"
+  "source": "organizer-published address, verified via nominatim.openstreetmap.org",
+  "locked": true
  },
  {
   "venue": "North Highlands - Antelope Library",
@@ -182,10 +184,10 @@
  {
   "venue": "Old Town Elk Grove",
   "city": "Elk Grove",
-  "lat": null,
-  "lon": null,
-  "query": "Old Town Elk Grove, Elk Grove, CA, USA",
-  "matched": "no confident match",
+  "lat": 38.4089911,
+  "lon": -121.3715618,
+  "query": "Elk Grove Historic District, Elk Grove, CA, USA",
+  "matched": "Elk Grove Historic District, Elk Grove, Sacramento County, California, 94624, United States",
   "resolved": "2026-09-17",
   "source": "nominatim.openstreetmap.org"
  },
@@ -202,22 +204,23 @@
  {
   "venue": "Rancho Cordova Library",
   "city": "Rancho Cordova",
-  "lat": null,
-  "lon": null,
+  "lat": 38.5765343,
+  "lon": -121.3292247,
   "query": "Rancho Cordova Library, Rancho Cordova, CA, USA",
-  "matched": "no confident match",
+  "matched": "Rancho Cordova Community Library, 9845, Folsom Boulevard, Rancho Cordova, Sacramento County, California, 95827, United States",
   "resolved": "2026-09-17",
   "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "Robbie Waters Pocket - Greenhaven Library",
   "city": "Sacramento",
-  "lat": null,
-  "lon": null,
-  "query": "Robbie Waters Pocket - Greenhaven Library, Sacramento, CA, USA",
-  "matched": "no confident match",
+  "lat": 38.493911,
+  "lon": -121.537011,
+  "query": "hand-pinned",
+  "matched": "hand-pinned (locked)",
   "resolved": "2026-09-17",
-  "source": "nominatim.openstreetmap.org"
+  "source": "organizer-published address, verified via nominatim.openstreetmap.org",
+  "locked": true
  },
  {
   "venue": "Sacramento Children's Museum",
