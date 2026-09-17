@@ -112,7 +112,6 @@ section[id] { scroll-margin-top: 78px; }
 .brand-text small { font-size: 12px; color: var(--ink-2); font-weight: 600; }
 .nav { display: flex; gap: 8px; font-size: 15px; font-weight: 700; }
 .nav a { color: var(--ink-2); padding: 6px 13px; border-radius: 999px; transition: background .2s var(--ease), color .2s var(--ease); }
-.nav a:hover { color: var(--ink); background: var(--sky-2); }
 .nav-short { display: none; }
 
 @media (max-width: 560px) {
@@ -167,7 +166,6 @@ section[id] { scroll-margin-top: 78px; }
   box-shadow: 0 3px 0 #1F6FAB;
   transition: transform .18s var(--bounce), box-shadow .18s var(--ease);
 }
-.quick-link:hover { transform: translateY(-2px); }
 .quick-link:active { transform: translateY(1px); box-shadow: 0 1px 0 #1F6FAB; }
 
 /* ---------- Freshness ---------- */
@@ -206,7 +204,6 @@ section[id] { scroll-margin-top: 78px; }
   box-shadow: 0 2px 0 var(--line-2);
   transition: transform .2s var(--bounce), background .2s var(--ease), color .2s var(--ease);
 }
-.day:hover { transform: translateY(-2px); color: var(--ink); }
 .day:active { transform: translateY(1px); box-shadow: 0 1px 0 var(--line-2); }
 .day.is-on { background: var(--sea); color: var(--chalk); box-shadow: 0 3px 0 #1F6FAB; }
 .day-name { display: block; font-size: 12.5px; font-weight: 700; }
@@ -232,7 +229,6 @@ section[id] { scroll-margin-top: 78px; }
 .ev-tag.ev-dist { background: var(--ink); color: var(--chalk); font-variant-numeric: tabular-nums; }
 .ev-time-unknown { color: var(--ink-2); font-weight: 600; font-size: 13px; }
 .ev-src { font-size: 12.5px; font-weight: 700; color: var(--ink-2); border-bottom: 1px dotted var(--line-2); }
-.ev-src:hover { color: var(--ink); }
 
 /* Cards clamp long text on purpose and the dialog is the escape hatch. Blurbs
    come from scrapers and vary from 50 to 250+ characters; without a clamp one
@@ -242,7 +238,6 @@ section[id] { scroll-margin-top: 78px; }
   line-clamp: 3; overflow: hidden;
 }
 .js .event { cursor: pointer; }
-.js .event:hover { background: var(--sky-2); }
 .event:focus-within { outline: 2px solid var(--sea); outline-offset: 2px; }
 /* The footer had four different treatments competing: a grey pill, a filled
    pill, a solid-underlined blue link and a dotted-underlined grey one. One
@@ -254,7 +249,6 @@ section[id] { scroll-margin-top: 78px; }
   padding: 5px 13px; border-radius: 999px; cursor: pointer;
   transition: background .2s var(--ease), color .2s var(--ease);
 }
-.ev-more:hover { color: var(--chalk); background: var(--sea); }
 
 /* .map is a chunky pill on place cards, which is right there and too loud
    here, where it sits beside three other things. Scoped down to match the
@@ -266,8 +260,6 @@ section[id] { scroll-margin-top: 78px; }
   align-self: center; margin-top: 0; line-height: 1.35;
   border-bottom: 1px dotted var(--line-2);
 }
-.ev-foot .map:hover, .ev-foot .ev-src:hover,
-.ev-detail .d-acts .ev-src:hover { color: var(--ink); transform: none; }
 /* No JS means no dialog to open, so the affordance must not be advertised. */
 html:not(.js) .ev-more { display: none; }
 html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: visible; display: block; }
@@ -287,7 +279,6 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
   font-size: 26px; line-height: 1; color: var(--ink-2);
   background: none; border: 0; padding: 4px 8px; cursor: pointer; border-radius: 999px;
 }
-.ev-close:hover { color: var(--ink); background: var(--sky); }
 .ev-detail { padding: 26px 24px 24px; }
 .ev-detail h3 { font-family: var(--display); font-size: 23px; line-height: 1.2; padding-right: 34px; }
 .ev-detail .d-when { margin-top: 10px; font-size: 15.5px; font-weight: 800; color: var(--sea); }
@@ -313,7 +304,6 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
   cursor: pointer; box-shadow: 0 2px 0 var(--line-2);
   transition: transform .18s var(--bounce), color .18s var(--ease);
 }
-.chip:hover { transform: translateY(-2px); color: var(--ink); }
 .chip:active { transform: translateY(1px); box-shadow: 0 1px 0 var(--line-2); }
 .chip.is-on { background: var(--grass); color: var(--chalk); box-shadow: 0 3px 0 #35804A; }
 .filter-foot { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 10px; padding-top: 14px; border-top: 2px dotted var(--line-2); }
@@ -334,7 +324,6 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
   box-shadow: 0 3px 0 var(--line-2);
   transition: transform .28s var(--bounce), box-shadow .28s var(--ease);
 }
-.card:hover { transform: translateY(-4px); box-shadow: 0 5px 0 var(--line-2), 0 16px 32px rgba(35,49,61,.1); }
 .card.has-img { padding-top: 0; }
 .card-img { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: var(--r-lg) var(--r-lg) 0 0; margin-bottom: 16px; display: block; }
 
@@ -376,7 +365,6 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
   background: var(--sea-w); padding: 8px 16px; border-radius: 999px;
   transition: transform .2s var(--bounce);
 }
-.map:hover { transform: translateY(-2px); }
 
 .empty { margin: 28px 0 0; padding: 36px 22px; text-align: center; background: var(--chalk); border-radius: var(--r-lg); font-size: 15.5px; font-weight: 600; color: var(--ink-2); }
 
@@ -402,7 +390,6 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
   background: var(--sky); padding: 6px 13px; border-radius: 999px;
   transition: transform .18s var(--bounce), color .18s var(--ease), background .18s var(--ease);
 }
-.city-group a:hover { transform: translateY(-2px); color: var(--chalk); background: var(--sea); }
 
 /* ---------- Before you go ---------- */
 .tips { background: var(--ink); color: rgba(255,255,255,.76); padding: 64px 0 70px; }
@@ -426,7 +413,6 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .loc-bar { margin-bottom: 18px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 .loc-bar:empty { display: none; }
 .loc-btn { font: inherit; font-size: 14.5px; font-weight: 700; color: var(--sea); background: var(--sea-w); border: 0; padding: 9px 18px; border-radius: 999px; cursor: pointer; transition: transform .2s var(--bounce); }
-.loc-btn:hover { transform: translateY(-1px); }
 .loc-btn:active { transform: translateY(1px); }
 .loc-btn:disabled { opacity: .6; cursor: default; transform: none; }
 .loc-or { font-size: 13.5px; color: var(--ink-2); }
@@ -438,7 +424,6 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .zip-go { padding: 8px 14px; font-size: 13.5px; }
 .loc-status { font-size: 14px; font-weight: 700; color: var(--grass); }
 .loc-clear-btn { font: inherit; font-size: 13px; font-weight: 700; color: var(--ink-2); background: none; border: 0; cursor: pointer; margin-left: 2px; border-bottom: 1px dotted var(--line-2); }
-.loc-clear-btn:hover { color: var(--ink); }
 
 /* ---------- Seasonal ---------- */
 .seasonal { padding: 48px 0 52px; }
@@ -454,7 +439,6 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
   box-shadow: 0 3px 0 var(--line-2);
   transition: transform .28s var(--bounce), box-shadow .28s var(--ease);
 }
-.seasonal-card:hover { transform: translateY(-3px); box-shadow: 0 5px 0 var(--line-2), 0 12px 28px rgba(35,49,61,.08); }
 .seasonal-card.has-img { padding-top: 0; border-left: none; border-top: 4px solid var(--sun); }
 .sc-img { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: var(--r-lg) var(--r-lg) 0 0; margin-bottom: 16px; display: block; }
 .seasonal-card h3 { font-size: 19px; font-weight: 700; }
@@ -463,7 +447,6 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .sc-blurb { margin: 8px 0 0; font-size: 14.5px; color: var(--ink-2); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden; }
 .sc-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 9px 13px; margin-top: 12px; }
 .sc-foot .map, .sc-foot .ev-src { font-size: 12.5px; font-weight: 700; color: var(--ink-2); background: none; padding: 0; border-radius: 0; border-bottom: 1px dotted var(--line-2); }
-.sc-foot .map:hover, .sc-foot .ev-src:hover { color: var(--ink); transform: none; }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
@@ -518,7 +501,6 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
   font-size: 13.5px; font-weight: 700; color: var(--ink-2);
   border-bottom: 1px dotted var(--line-2); line-height: 1.35;
 }
-.offsite:hover, .tickets:hover { color: var(--ink); }
 
 /* ---- Ended events: dimmed, badged, sorted last ---- */
 .event.is-ended { opacity: .62; }
@@ -537,4 +519,66 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
   align-self: center; margin-top: 0; line-height: 1.35;
   border-bottom: 1px dotted var(--line-2); font-family: inherit;
 }
-.ev-detail .d-acts .ev-share:hover, .ev-detail .d-acts .ev-cal:hover { color: var(--ink); }
+
+/* Touch devices (phones/tablets) keep :hover "stuck" on the last-tapped
+   element until the next tap elsewhere, which left buttons looking pressed
+   long after the tap. Hover styles therefore only apply where a real hover
+   capability exists; touch users get the same static design. */
+@media (hover: hover) {
+.nav a:hover {
+  color: var(--ink); background: var(--sky-2);
+}
+.quick-link:hover {
+  transform: translateY(-2px);
+}
+.day:hover {
+  transform: translateY(-2px); color: var(--ink);
+}
+.ev-src:hover {
+  color: var(--ink);
+}
+.js .event:hover {
+  background: var(--sky-2);
+}
+.ev-more:hover {
+  color: var(--chalk); background: var(--sea);
+}
+.ev-foot .map:hover, .ev-foot .ev-src:hover,
+.ev-detail .d-acts .ev-src:hover {
+  color: var(--ink); transform: none;
+}
+.ev-close:hover {
+  color: var(--ink); background: var(--sky);
+}
+.chip:hover {
+  transform: translateY(-2px); color: var(--ink);
+}
+.card:hover {
+  transform: translateY(-4px); box-shadow: 0 5px 0 var(--line-2), 0 16px 32px rgba(35,49,61,.1);
+}
+.map:hover {
+  transform: translateY(-2px);
+}
+.city-group a:hover {
+  transform: translateY(-2px); color: var(--chalk); background: var(--sea);
+}
+.loc-btn:hover {
+  transform: translateY(-1px);
+}
+.loc-clear-btn:hover {
+  color: var(--ink);
+}
+.seasonal-card:hover {
+  transform: translateY(-3px); box-shadow: 0 5px 0 var(--line-2), 0 12px 28px rgba(35,49,61,.08);
+}
+.sc-foot .map:hover, .sc-foot .ev-src:hover {
+  color: var(--ink); transform: none;
+}
+.offsite:hover, .tickets:hover {
+  color: var(--ink);
+}
+.ev-detail .d-acts .ev-share:hover, .ev-detail .d-acts .ev-cal:hover {
+  color: var(--ink);
+}
+}
+a, button { -webkit-tap-highlight-color: transparent; }
