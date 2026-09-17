@@ -39,7 +39,7 @@ STYLE_V = _asset_v('assets/style.css')
 # Change this if the repo is renamed or a custom domain is pointed at the site:
 # it drives every canonical URL and the sitemap, and a wrong value silently tells
 # search engines the pages live somewhere they don't.
-BASE_URL = 'https://mingleiw.github.io/sacmoms/'
+BASE_URL = 'https://sacmoms.com/'
 
 # A city needs at least this many places within MAX_MILES to get its own page.
 # Below that the page would be mostly other cities' content — thin, duplicated,
@@ -84,24 +84,6 @@ REGIONS = {'sf': 'San Francisco', 'marin': 'Marin & North Bay', 'east': 'East Ba
 GROUPS = [('sf', 'San Francisco'), ('marin', 'Marin & North Bay'), ('east', 'East Bay'),
           ('peninsula', 'Peninsula'), ('south', 'South Bay'), ('sac', 'Sacramento area')]
 
-def load_venues():
-    """{venue|city: (lat, lon)} for events, or {} when not geocoded yet.
-
-    Written by scripts/geocode_venues.py. Entries it could not resolve carry a
-    null lat and are skipped here, so an unresolved venue shows no distance
-    rather than a made-up one. Absent file = the site behaves as it did before
-    distances existed.
-    """
-    try:
-        rows = load('venues.json')
-    except FileNotFoundError:
-        return {}
-    return {'%s|%s' % (r['venue'], r['city']): (r['lat'], r['lon'])
-            for r in rows if r.get('lat') is not None and r.get('lon') is not None}
-
-
-VENUES = load_venues()
-
 SPRITE = read('templates/sprite.svg')
 TIPS = read('templates/tips.html')
 
@@ -139,7 +121,7 @@ HEAD = '''<!DOCTYPE html>
       <span class="brand-mark" aria-hidden="true"><svg width="19" height="19"><use href="#i-park"/></svg></span>
       <span class="brand-text">
         <strong>''' + SITE_NAME + '''</strong>
-        <small>Where to take the kids</small>
+        <small>Northern California</small>
       </span>
     </a>
     <nav class="nav">{nav}</nav>
@@ -155,7 +137,7 @@ FOOT = '''
 <footer class="site-footer">
   <div class="wrap footer-inner">
     <p class="footer-brand">''' + SITE_NAME + '''</p>
-    <p class="footer-note">Find somewhere to take the kids today.</p>
+    <p class="footer-note">Find somewhere to take them today.</p>
     <p class="footer-disclaimer">
       Places listed are long-running and established.
       <strong>Hours, admission and seasonal closures change without notice &mdash; always
@@ -172,16 +154,12 @@ def place_card(p, dist=None):
     meta = ''
     if dist is not None:
         meta += '<li class="m-dist">%s mi</li>' % show_miles(dist)
-    # Under FOCUS_REGION every card carries the same region label, so the chip
-    # says nothing and costs a slot on all of them. data-region stays either way;
-    # only the visible chip goes.
-    if not FOCUS_REGION:
-        meta += '<li class="m-region">%s</li>' % REGIONS.get(p['region'], p['region'])
-    meta += '<li class="m-age">%s</li><li class="m-env">%s</li>' % (p['ages'], p['envlabel'])
+    meta += '<li class="m-region">%s</li><li class="m-age">%s</li><li class="m-env">%s</li>' % (
+        REGIONS.get(p['region'], p['region']), p['ages'], p['envlabel'])
     return '''
         <article class="card" data-cat="{cat}" data-age="{age}" data-region="{region}" data-env="{env}"{dattr}>
           <div class="card-top">
-            <span class="ico" aria-hidden="true"><svg width="20" height="20"><use href="#{icon}"/></svg></span>
+            <span class="ico"><svg width="20" height="20"><use href="#{icon}"/></svg></span>
             <div><h3>{name}</h3><p class="en">{where}</p></div>
           </div>
           <p class="desc">{desc}</p>
@@ -220,67 +198,6 @@ FILTERS = '''
 '''
 
 
-def events_jsonld(ev, town, week_dates):
-    """schema.org Event markup for what the page actually lists this week.
-
-    The stated long-term plan is ads, so event rich results are worth having.
-    Two rules keep this honest, because structured data that disagrees with the
-    page is an SEO liability rather than a win:
-
-    - Only events already rendered on this page are described, over the same
-      7-day window, so the markup can never advertise more than the page shows.
-    - Nothing is invented to satisfy the schema. An event whose hour is not
-      sourced gets a date-only startDate rather than a guessed clock time, and
-      no offset is emitted at all: Sacramento switches between PDT and PST, and
-      a hardcoded offset would be silently wrong for half the year. Local time
-      without an offset is valid ISO 8601 and reads as local to the venue.
-    """
-    items = []
-    for e in ev:
-        # Weekly events recur, so resolve them to the concrete dates they land
-        # on inside the window; dated events already carry one.
-        if 'date' in e:
-            dates = [e['date']] if e['date'] in week_dates else []
-        elif 'day' in e:
-            dates = [d for d in sorted(week_dates)
-                     if datetime.date.fromisoformat(d).weekday() == (e['day'] - 1) % 7]
-        else:
-            continue
-        for d in dates:
-            item = {
-                '@type': 'Event',
-                'name': e['title'],
-                'startDate': '%sT%s' % (d, e['time']) if e.get('time') else d,
-                'eventAttendanceMode': 'https://schema.org/OfflineEventAttendanceMode',
-                'eventStatus': 'https://schema.org/EventScheduled',
-                'location': {
-                    '@type': 'Place',
-                    'name': e['venue'],
-                    'address': {
-                        '@type': 'PostalAddress',
-                        'addressLocality': e.get('city', town['name']),
-                        'addressRegion': 'CA',
-                        'addressCountry': 'US',
-                    },
-                },
-            }
-            if e.get('time') and e.get('until'):
-                item['endDate'] = '%sT%s' % (d, e['until'])
-            if e.get('blurb'):
-                item['description'] = e['blurb']
-            if e.get('source'):
-                item['url'] = e['source']
-            items.append(item)
-    if not items:
-        return ''
-    items.sort(key=lambda i: i['startDate'])
-    for i in items:
-        i['@context'] = 'https://schema.org'
-    # </script> inside a JSON string would close the tag early.
-    blob = json.dumps(items, ensure_ascii=False, indent=1).replace('</', '<\\/')
-    return '<script type="application/ld+json">\n%s\n</script>\n' % blob
-
-
 def city_page(town, places, events, dated, base):
     slug = slugify(town['name'])
     name = town['name']
@@ -295,19 +212,6 @@ def city_page(town, places, events, dated, base):
     today = datetime.date.today()
     week = {str(today + datetime.timedelta(days=i)) for i in range(7)}
     ev += [e for e in dated if e['region'] == town['region'] and e['date'] in week]
-
-    # How far each event is *from this town*. Copy first: these dicts are shared
-    # across every city page, so writing distance in place would leave all five
-    # pages showing whichever city was generated last. Baking it here is also
-    # what finally makes the pages differ from each other in substance.
-    ranked_ev = []
-    for e in ev:
-        e = dict(e)
-        vc = VENUES.get('%s|%s' % (e.get('venue', ''), e.get('city', '')))
-        if vc:
-            e['dist'] = round(miles(town['lat'], town['lon'], vc[0], vc[1]), 1)
-        ranked_ev.append(e)
-    ev = ranked_ev
 
     title = 'Where to take the kids in %s · %s' % (name, SITE_NAME)
     desc = ('Places to take kids near %s, sorted by how far they are. '
@@ -343,20 +247,13 @@ def city_page(town, places, events, dated, base):
         <p class="section-sub">Regular weekly events &mdash; markets, storytimes, open gyms</p>
       </div>
       <div class="daystrip" id="daystrip" role="tablist" aria-label="Pick a day"></div>
-      <div class="events" id="events" role="tabpanel" aria-live="polite"></div>
+      <div class="events" id="events"></div>
       <p class="empty" id="weekEmpty" hidden></p>
       <p class="week-foot">
-        Times come from what each organiser publishes &mdash; a fixed weekly slot for markets and
-        open gyms, a per-date listing for library storytimes. Schedules change and sessions get
-        cancelled, so confirm with the venue before you set out.
+        Times are what organisers publish for the regular weekly slot.
+        Schedules change and sessions get cancelled &mdash; confirm with the venue before you set out.
       </p>
     </div>
-    <dialog class="ev-dialog" id="evDialog" aria-labelledby="evDialogTitle">
-      <form method="dialog">
-        <button class="ev-close" value="close" aria-label="Close details">&times;</button>
-      </form>
-      <div class="ev-detail" id="evDetail"></div>
-    </dialog>
   </section>
 ''' % html.escape(REGIONS.get(town['region'], town['region']))
 
@@ -378,7 +275,6 @@ def city_page(town, places, events, dated, base):
 
     out += TIPS
     out += '\n</main>\n'
-    out += events_jsonld(ev, town, week)
     out += '<script>\nvar TOWN = %s;\nvar EVENTS = %s;\n</script>\n' % (
         json.dumps({'name': name, 'lat': town['lat'], 'lon': town['lon']}),
         json.dumps(ev, ensure_ascii=False))
@@ -388,14 +284,6 @@ def city_page(town, places, events, dated, base):
 
 
 def root_page(towns_with_pages, places, base):
-    # Count only places a visitor can actually reach from some city page. Using
-    # len(places) advertised the whole file, including Bay Area places that
-    # FOCUS_REGION means no page lists -- a number nothing on the site backs up.
-    listed = {
-        p['name'] for p in places
-        for t in towns_with_pages
-        if miles(t['lat'], t['lon'], p['lat'], p['lon']) <= LIST_MILES
-    }
     area = FOCUS_LABEL if FOCUS_REGION else 'Northern California'
     title = '%s · Where to take the kids in %s' % (SITE_NAME, area)
     desc = ('Pick your city and get places to take the kids, sorted by how far away they are. '
@@ -423,14 +311,12 @@ def root_page(towns_with_pages, places, base):
   <section class="hero">
     <div class="wrap hero-inner">
       <h1 class="hero-title">
-        <span class="hl">Where are we taking</span>
-        <span class="hl">the kids today?</span>
+        <span class="hl">Where are we</span>
+        <span class="hl">going today?</span>
       </h1>
       <p class="lede">
-        Things to do with the kids around ''' + (FOCUS_LABEL if FOCUS_REGION else 'Northern California') + ''' &mdash; playgrounds,
-        museums, splash pads, farmers&rsquo; markets and library storytimes. Pick your city
-        and you get what is on this week plus the places nearest you, with the parking
-        and weather notes that decide whether it is worth the drive.
+        Pick your city. You get the places nearby, closest first, with the parking
+        and weather notes that decide whether it is actually worth the drive.
       </p>
 
       <div class="picker">
@@ -451,14 +337,14 @@ def root_page(towns_with_pages, places, base):
     <div class="wrap">
       <div class="section-head">
         <h2>All cities</h2>
-        <p class="section-sub">%d cities, %d places to take the kids. Every city links straight through.</p>
+        <p class="section-sub">%d cities, %d places. Every city links straight through.</p>
       </div>
       <div class="city-index">
 %s      </div>
     </div>
   </section>
 </main>
-''' % (options, len(towns_with_pages), len(listed), links)
+''' % (options, len(towns_with_pages), len(places), links)
 
     out += '''<script>
 // Offer the city this browser used last, without getting in the way of the list.
