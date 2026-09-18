@@ -113,6 +113,11 @@ def parse_listing(html, today):
         if not when:
             continue
         date, start, end = when
+        if end and (end <= start or end >= "20:00"):
+            # Source-typo guard (seen: a 10am storytime listed "until 11pm"):
+            # never render an end at/before the start or past 8pm; a missing
+            # end just renders the start time.
+            end = None
         if date < today.isoformat():
             continue
         m = re.search(r'amev-event-location headingtext">.*?</i>\s*([^<]+)', block, re.S)

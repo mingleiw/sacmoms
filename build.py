@@ -1006,7 +1006,7 @@ def city_page(town, places, events, dated, base):
       <div class="ev-detail" id="evDetail"></div>
     </dialog>
   </section>
-''' % (html.escape(REGIONS.get(town['region'], town['region'])), EV_FILTERS)
+''' % (html.escape(name + ' area'), EV_FILTERS)
 
     if seasonal_groups:
         out += seasonal_section_html(seasonal_groups, name)

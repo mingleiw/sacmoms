@@ -720,8 +720,9 @@
     return (dow === 0 || dow === 6) ? 0 : 6 - dow;  /* Sat/Sun -> today, else upcoming Saturday */
   }
   function applyQuickHash(smooth) {
-    if (/^#today(\?|$)/.test(location.hash)) { pickDay(0, smooth); return true; }
-    if (/^#weekend(\?|$)/.test(location.hash)) { pickDay(weekendIndex(), smooth); return true; }
+    var bridge = window._sacmoms || {};
+    if (/^#today(\?|$)/.test(location.hash)) { pickDay(0, smooth); if (bridge.syncHash) bridge.syncHash('today'); return true; }
+    if (/^#weekend(\?|$)/.test(location.hash)) { pickDay(weekendIndex(), smooth); if (bridge.syncHash) bridge.syncHash('weekend'); return true; }
     return false;
   }
   window.addEventListener('hashchange', function () { applyQuickHash(true); });

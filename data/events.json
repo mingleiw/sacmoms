@@ -400,21 +400,8 @@
   "ages": "2-5",
   "blurb": "Every Monday at 11am: railroad-themed story time for ages 2-5, a different railroad book each month plus a hands-on activity. Included with museum admission ($12 adults, $6 youth 6-17, 5 & under free).",
   "source": "https://www.californiarailroad.museum/events/all-aboard-for-story-time/113430",
-  "day": 0,
+  "day": 1,
   "origin": "railroad-museum"
- },
- {
-  "time": "14:15",
-  "until": "18:30",
-  "title": "Free Public Play",
-  "venue": "Sacramento Adventure Playground",
-  "city": "Sacramento",
-  "region": "sac",
-  "ages": "6-15 (5 & under area too)",
-  "blurb": "Free after-school adventure play: build, climb, and create at the Fairytale Town-operated playground. Ages 6-15 plus a dedicated 5 & under area. One-time parent registration; parents need not stay.",
-  "source": "https://sacadventureplay.org/",
-  "day": 2,
-  "origin": "adventure-playground"
  },
  {
   "time": "14:15",
@@ -440,6 +427,19 @@
   "blurb": "Free after-school adventure play: build, climb, and create at the Fairytale Town-operated playground. Ages 6-15 plus a dedicated 5 & under area. One-time parent registration; parents need not stay.",
   "source": "https://sacadventureplay.org/",
   "day": 4,
+  "origin": "adventure-playground"
+ },
+ {
+  "time": "14:15",
+  "until": "18:30",
+  "title": "Free Public Play",
+  "venue": "Sacramento Adventure Playground",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "6-15 (5 & under area too)",
+  "blurb": "Free after-school adventure play: build, climb, and create at the Fairytale Town-operated playground. Ages 6-15 plus a dedicated 5 & under area. One-time parent registration; parents need not stay.",
+  "source": "https://sacadventureplay.org/",
+  "day": 5,
   "origin": "adventure-playground"
  }
 ]

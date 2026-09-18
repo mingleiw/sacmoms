@@ -202,6 +202,12 @@ def refresh_zoo(today):
 # ------------------------------------------------------------ fairytale
 FT_API = "https://www.fairytaletown.org/wp-json/tribe/events/v1/events"
 FT_SKIP = re.compile(r"volunteer|orientation|staff|board meeting", re.I)
+# Fairytale Town's own description for this event is stale ("every Tuesday
+# morning this Spring") while it actually runs Thursdays in the fall; don't
+# republish the wrong weekday/season.
+FT_BLURB_OVERRIDES = {
+    "Toddler Time!": "Weekly toddler program at Fairytale Town; see the official listing for this week's details.",
+}
 
 
 def refresh_fairytale(today):
@@ -232,7 +238,8 @@ def refresh_fairytale(today):
         desc = re.sub(r"\s+", " ", desc).strip()
         entries.append(entry(
             sd, title, "Fairytale Town", "Sacramento", e.get("url") or FT_API,
-            desc[:220], (e.get("start_date") or "")[11:16],
+            FT_BLURB_OVERRIDES.get(title, desc[:220]),
+            (e.get("start_date") or "")[11:16],
             (e.get("end_date") or "")[11:16]))
     if not entries:
         raise RuntimeError("no fairytale events after filtering")
