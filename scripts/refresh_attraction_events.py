@@ -210,6 +210,25 @@ FT_BLURB_OVERRIDES = {
 }
 
 
+def ft_venue(e):
+    """Real venue for a Fairytale Town listing, which is not always their park.
+
+    They publish off-site events on the same calendar (the Dirty Kid Obstacle
+    Race runs at Sacramento Adventure Playground), and stamping every entry
+    with their own name put a wrong distance and map link on those. Anything
+    the API names as Fairytale Town keeps that exact string so it still
+    matches venues.json; only a clearly different venue overrides it, and an
+    absent or unexpected shape falls back to the old behaviour.
+    """
+    v = e.get("venue")
+    if isinstance(v, dict):
+        name = html.unescape(str(v.get("venue") or "")).strip()
+        city = html.unescape(str(v.get("city") or "")).strip()
+        if name and "fairytale" not in name.lower():
+            return name, city or "Sacramento"
+    return "Fairytale Town", "Sacramento"
+
+
 def refresh_fairytale(today):
     all_events, page, pages = [], 1, 1
     while page <= pages:
@@ -236,8 +255,9 @@ def refresh_fairytale(today):
             continue
         desc = html.unescape(re.sub(r"<[^>]+>", " ", e.get("description") or ""))
         desc = re.sub(r"\s+", " ", desc).strip()
+        venue, city = ft_venue(e)
         entries.append(entry(
-            sd, title, "Fairytale Town", "Sacramento", e.get("url") or FT_API,
+            sd, title, venue, city, e.get("url") or FT_API,
             FT_BLURB_OVERRIDES.get(title, desc[:220]),
             (e.get("start_date") or "")[11:16],
             (e.get("end_date") or "")[11:16]))
