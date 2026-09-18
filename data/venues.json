@@ -40,6 +40,16 @@
   "source": "nominatim.openstreetmap.org"
  },
  {
+  "venue": "California State Railroad Museum",
+  "city": "Sacramento",
+  "lat": 38.5849726,
+  "lon": -121.5043022,
+  "query": "California State Railroad Museum, Sacramento, CA, USA",
+  "matched": "California State Railroad Museum, 125, I Street, Old Sacramento, Sacramento, Sacramento County, California, 95814, United States",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Central Library",
   "city": "Sacramento",
   "lat": 38.581631,
@@ -47,6 +57,16 @@
   "query": "Central Library, Sacramento, CA, USA",
   "matched": "Sacramento Central Public Library, 828, I Street, Downtown, Sacramento, Sacramento County, California, 95814, United States",
   "resolved": "2026-09-17",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Cesar Chavez Plaza",
+  "city": "Sacramento",
+  "lat": 38.5810283,
+  "lon": -121.4939146,
+  "query": "Cesar Chavez Plaza, Sacramento, CA, USA",
+  "matched": "Cesar E. Chavez Plaza, Downtown, Sacramento, Sacramento County, California, United States",
+  "resolved": "2026-09-18",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -301,6 +321,16 @@
   "resolved": "2026-09-17",
   "source": "organizer-published address, verified via nominatim.openstreetmap.org",
   "locked": true
+ },
+ {
+  "venue": "Sacramento Adventure Playground",
+  "city": "Sacramento",
+  "lat": 38.5195621,
+  "lon": -121.4725999,
+  "query": "Sacramento Adventure Playground, Sacramento, CA, USA",
+  "matched": "Sacramento Adventure Playground, 3301, 37th Avenue, South City Farms, Sacramento, Sacramento County, California, 95824, United States",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "Sacramento Children's Museum",

@@ -1,53 +1,5 @@
 [
  {
-  "date": "2026-09-17",
-  "time": "10:00",
-  "title": "Family Storytime",
-  "venue": "North Highlands - Antelope Library",
-  "city": "North Highlands",
-  "region": "sac",
-  "ages": "Ages 0–5",
-  "blurb": "Songs, rhymes, movement and stories for young children.",
-  "source": "https://engage.saclibrary.org/event/17038127",
-  "until": "11:00"
- },
- {
-  "date": "2026-09-17",
-  "time": "10:30",
-  "title": "Baby Storytime",
-  "venue": "Fair Oaks Library",
-  "city": "Fair Oaks",
-  "region": "sac",
-  "ages": "Babies 0–18 mo",
-  "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
-  "source": "https://engage.saclibrary.org/event/15790950",
-  "until": "11:00"
- },
- {
-  "date": "2026-09-17",
-  "time": "10:30",
-  "title": "Outdoor Storytime",
-  "venue": "McKinley Library",
-  "city": "Sacramento",
-  "region": "sac",
-  "ages": "Ages 0–5",
-  "blurb": "Songs, rhymes, movement and stories for young children.",
-  "source": "https://engage.saclibrary.org/event/17335554",
-  "until": "11:00"
- },
- {
-  "date": "2026-09-17",
-  "time": "10:30",
-  "title": "Family Storytime",
-  "venue": "Orangevale Library",
-  "city": "Orangevale",
-  "region": "sac",
-  "ages": "Ages 0–5",
-  "blurb": "Songs, rhymes, movement and stories for young children.",
-  "source": "https://engage.saclibrary.org/event/17124710",
-  "until": "11:30"
- },
- {
   "date": "2026-09-18",
   "time": "10:00",
   "title": "Family Storytime",
@@ -344,8 +296,7 @@
   "region": "sac",
   "ages": "Ages 0–5",
   "blurb": "Songs, rhymes, movement and stories for young children.",
-  "source": "https://engage.saclibrary.org/event/17038134",
-  "until": "11:00"
+  "source": "https://engage.saclibrary.org/event/17038134"
  },
  {
   "date": "2026-09-24",
