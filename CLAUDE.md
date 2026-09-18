@@ -70,6 +70,17 @@ no UTC offset (Sacramento switches PDT/PST; a fixed offset is wrong half the
 year). Structured data that disagrees with the visible page is an SEO liability,
 not a win.
 
+**Outbound links carry UTM tags; canonical URLs never do.** `utm()` in
+`build.py` appends `utm_source=sacmoms&utm_medium=referral` to venue links —
+place cards, ticket links and event `source` links — so a venue can see the
+referral in its own analytics. That number, verifiable on their side, is what a
+sponsorship conversation runs on. Tagging happens at render time only: JSON-LD,
+`canonical` and `og:url` stay clean, because pointing search engines at a tagged
+URL gets the tagged one indexed. Google Maps links are left alone. Event
+payloads are tagged through `ev_tagged()`, which copies — the event dicts are
+shared across city pages, so tagging in place appends the parameters again on
+every later page.
+
 **Event distances come from `data/venues.json`, never from memory.** Written by
 `scripts/geocode_venues.py` (needs `nominatim.openstreetmap.org`; non-fatal in
 the daily refresh). Matches outside Sacramento County are rejected — "Elk Grove

@@ -13,7 +13,7 @@ that city. Doing it here rather than in the browser means each page ships
 genuinely different, crawlable content and still works with JavaScript off.
 """
 
-import json, math, os, re, shutil, html, datetime, hashlib
+import json, math, os, re, shutil, html, datetime, hashlib, urllib.parse
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE_NAME = 'SacMoms'
@@ -88,6 +88,42 @@ def fmt_checked(iso):
         return '%s %d, %s' % (months[int(m) - 1], int(d), y)
     except Exception:
         return iso
+
+
+UTM_TAGS = (('utm_source', 'sacmoms'), ('utm_medium', 'referral'))
+
+
+def utm(url):
+    """Tag an outbound venue link so the venue sees the referral as ours.
+
+    A venue measures us in its own analytics, and that is the number worth
+    having when asking one to sponsor: they can verify it themselves. Only
+    http(s) links are tagged, an existing query string and fragment are
+    preserved, and a link that already carries a utm_source is left alone.
+
+    Applied at render time only. The canonical URL goes in JSON-LD and gets
+    no tag -- telling search engines an event lives at a tagged URL is how
+    you end up with the tagged one indexed.
+    """
+    if not url or not url.startswith(('http://', 'https://')):
+        return url
+    parts = urllib.parse.urlsplit(url)
+    q = urllib.parse.parse_qsl(parts.query, keep_blank_values=True)
+    if any(k == 'utm_source' for k, _ in q):
+        return url
+    q.extend(UTM_TAGS)
+    return urllib.parse.urlunsplit((parts.scheme, parts.netloc, parts.path,
+                                    urllib.parse.urlencode(q), parts.fragment))
+
+
+def ev_tagged(events):
+    """Copies of the event payload with outbound source links tagged.
+
+    Copies because the underlying dicts are shared across city pages; tagging
+    in place would append the parameters again on every later page.
+    """
+    return [dict(e, source=utm(e['source'])) if e.get('source') else e
+            for e in events]
 
 
 REGIONS = {'sf': 'San Francisco', 'marin': 'Marin & North Bay', 'east': 'East Bay',
@@ -243,11 +279,11 @@ def place_card(p, dist=None, up='../'):
             'target="_blank" rel="noopener">Directions</a>' % p['mapq']]
     if p.get('url'):
         acts.append('<a class="offsite" href="%s" target="_blank" rel="noopener">'
-                    'Official site</a>' % html.escape(p['url']))
+                    'Official site</a>' % html.escape(utm(p['url'])))
     tickets = (p.get('spec') or {}).get('tickets_url')
     if tickets:
         acts.append('<a class="tickets" href="%s" target="_blank" rel="noopener">'
-                    'Tickets</a>' % html.escape(tickets))
+                    'Tickets</a>' % html.escape(utm(tickets)))
     actions = '<div class="card-acts">%s</div>' % ''.join(acts)
     return '''
         <article class="card{imgcls}" data-cat="{cat}" data-age="{age}" data-region="{region}" data-env="{env}"{dattr} data-lat="{lat}" data-lon="{lon}">
@@ -587,7 +623,7 @@ def seasonal_section_html(groups, town_name):
        html.escape(g['blurb']),
        dist_chip, html.escape(g['ages']),
        html.escape(g['venue'] + ' ' + g['city']),
-       '<a class="ev-src" href="%s" target="_blank" rel="noopener">Official site</a>' % html.escape(g['source']) if g.get('source') else '')
+       '<a class="ev-src" href="%s" target="_blank" rel="noopener">Official site</a>' % html.escape(utm(g['source'])) if g.get('source') else '')
         out += '''      </div>
     </div>
   </section>
@@ -746,7 +782,7 @@ def calendar_page(town, events, dated, base):
 
     out += '<script>\nvar TOWN = %s;\nvar CAL_EVENTS = %s;\n</script>\n' % (
         json.dumps({'name': name, 'lat': town['lat'], 'lon': town['lon']}),
-        json.dumps(ev, ensure_ascii=False))
+        json.dumps(ev_tagged(ev), ensure_ascii=False))
     out += '<script src="../../assets/calendar.js?v=' + CAL_JS_V + '"></script>\n'
     out += FOOT
     return out
@@ -1033,7 +1069,7 @@ def city_page(town, places, events, dated, base):
     out += places_jsonld([p for _, p in listed])
     out += '<script>\nvar TOWN = %s;\nvar EVENTS = %s;\n</script>\n' % (
         json.dumps({'name': name, 'lat': town['lat'], 'lon': town['lon']}),
-        json.dumps(ev, ensure_ascii=False))
+        json.dumps(ev_tagged(ev), ensure_ascii=False))
     out += '<script src="../assets/app.js?v=' + APP_JS_V + '"></script>\n'
     check_app_contract(out, slug)
     out += FOOT
