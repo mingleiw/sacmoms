@@ -4,20 +4,20 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="google-site-verification" content="dm2Pu9RXpaVxuBA3NeG7Tp5krl5A987svIRWzIHpHtE" />
-<title>SacMoms · Where to take the kids in Sacramento County</title>
-<meta name="description" content="Pick your city and get places to take the kids, sorted by how far away they are. 5 cities across Sacramento County." />
-<link rel="canonical" href="https://sacmoms.com/" />
+<title>Contact SacMoms</title>
+<meta name="description" content="Get in touch with SacMoms — corrections to a listing, adding your venue, or partnering with us." />
+<link rel="canonical" href="https://sacmoms.com/contact/" />
 
 <meta property="og:type" content="website" />
-<meta property="og:title" content="SacMoms · Where to take the kids in Sacramento County" />
-<meta property="og:description" content="Pick your city and get places to take the kids, sorted by how far away they are. 5 cities across Sacramento County." />
-<meta property="og:url" content="https://sacmoms.com/" />
+<meta property="og:title" content="Contact SacMoms" />
+<meta property="og:description" content="Get in touch with SacMoms — corrections to a listing, adding your venue, or partnering with us." />
+<meta property="og:url" content="https://sacmoms.com/contact/" />
 
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/style.css?v=9a105f3a69" />
+<link rel="stylesheet" href="../assets/style.css?v=9a105f3a69" />
 <script>document.documentElement.className += ' js';</script>
 </head>
 <body>
@@ -37,73 +37,57 @@
 
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="brand" href="">
+    <a class="brand" href="../">
       <span class="brand-mark" aria-hidden="true"><svg width="19" height="19"><use href="#i-park"/></svg></span>
       <span class="brand-text">
         <strong>SacMoms</strong>
         <small>Where to take the kids</small>
       </span>
     </a>
-    <nav class="nav"></nav>
+    <nav class="nav"><a href="../"><span class="nav-full">Find places</span><span class="nav-short">Places</span></a></nav>
   </div>
 </header>
 
 <main id="top">
+
   <section class="hero">
     <div class="wrap hero-inner">
-      <h1 class="hero-title">
-        <span class="hl">Where are we taking</span>
-        <span class="hl">the kids today?</span>
-      </h1>
-      <p class="lede">
-        Things to do with the kids around Sacramento County &mdash; playgrounds,
-        museums, splash pads, farmers&rsquo; markets and library storytimes. Pick your city
-        and you get what is on this week plus the places nearest you, with the parking
-        and weather notes that decide whether it is worth the drive.
-      </p>
-
-      <p class="loc-hint" id="lastCity" hidden></p>
+      <h1 class="hero-title"><span class="hl">Contact</span></h1>
+      <p class="lede">SacMoms is a free guide to family outings in Sacramento County.
+        Email <a href="mailto:hello@sacmoms.com">hello@sacmoms.com</a> &mdash; a person reads it.</p>
     </div>
   </section>
 
-  <!-- ad slot: between hero and city index -->
-
   <section class="list-section" id="list">
-    <div class="wrap">
-      <div class="section-head">
-        <h2>Choose your city</h2>
-        <p class="section-sub">5 cities, 39 places to take the kids. Every city links straight through.</p>
-      </div>
-      <div class="city-index">
-        <section class="city-group">
-          <h3>Sacramento area</h3>
-          <ul>
-            <li><a href="elk-grove/">Elk Grove</a></li>
-            <li><a href="sacramento/">Sacramento</a></li>
-            <li><a href="rancho-cordova/">Rancho Cordova</a></li>
-            <li><a href="folsom/">Folsom</a></li>
-            <li><a href="citrus-heights/">Citrus Heights</a></li>
-          </ul>
-        </section>
-      </div>
+    <div class="wrap prose">
+
+      <h2>Something about your venue is wrong</h2>
+      <p>Tell us and we will fix it. Every listing here links to the source it
+        came from, so if that page has changed, or we have the hours, price or
+        location wrong, send the correction and it goes in on the next daily
+        build. Corrections from the venue itself take priority over anything
+        we have scraped.</p>
+
+      <h2>You run somewhere we have missed</h2>
+      <p>Send a link to your official site or events calendar. We list places
+        that are established and open to the public, and every entry needs a
+        source a parent can check &mdash; so a page with your hours and
+        location on it is all we need to get started. Listing is free.</p>
+
+      <h2>Partnering or sponsorship</h2>
+      <p>If you would like to talk about sponsoring the site or reaching
+        families in Sacramento County, email the same address and say so.</p>
+
+      <h2>How listings are put together</h2>
+      <p>Events come from official sources &mdash; library, museum, zoo and
+        parks department calendars &mdash; refreshed daily, and each one shows
+        where it came from. Nothing here is invented, and we would rather leave
+        a detail blank than guess at it. Hours and admission still change
+        without notice, so confirm before you set out.</p>
+
     </div>
   </section>
 </main>
-<script>
-// Offer the city this browser used last, without getting in the way of the list.
-(function () {
-  var hint = document.getElementById('lastCity');
-  if (!hint) return;
-  try {
-    var last = localStorage.getItem('owtk.city');
-    if (last && document.querySelector('.city-index a[href="' + last + '/"]')) {
-      hint.hidden = false;
-      hint.innerHTML = 'Last time you looked at <a href="' + last + '/">' +
-        document.querySelector('.city-index a[href="' + last + '/"]').textContent + '</a>.';
-    }
-  } catch (e) {}
-})();
-</script>
 
 <footer class="site-footer">
   <div class="wrap footer-inner">

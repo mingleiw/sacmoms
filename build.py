@@ -42,6 +42,12 @@ STYLE_V = _asset_v('assets/style.css')
 # search engines the pages live somewhere they don't.
 BASE_URL = 'https://sacmoms.com/'
 
+# Shown on /contact/ and linked from every footer. This address must actually
+# receive mail before the page ships -- a contact page pointing at a dead inbox
+# is worse than none, because a venue that writes in and hears nothing back
+# concludes the site is abandoned.
+CONTACT_EMAIL = 'hello@sacmoms.com'
+
 # A city needs at least this many places within MAX_MILES to get its own page.
 # Below that the page would be mostly other cities' content — thin, duplicated,
 # and worth less than no page at all.
@@ -226,6 +232,7 @@ FOOT = '''
       <strong>Hours, admission and seasonal closures change without notice &mdash; always
       confirm through the map link before you set out.</strong>
     </p>
+    <p class="footer-links"><a href="/contact/">Contact &amp; corrections</a></p>
   </div>
 </footer>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "96be0c24d1da427b89065462a3b5fc07"}'></script><!-- End Cloudflare Web Analytics -->
@@ -1158,6 +1165,66 @@ def root_page(towns_with_pages, places, base):
     return out
 
 
+def contact_page(base):
+    """A way to reach a human, which venues look for before replying.
+
+    Not in the sitemap sweep: it carries no .generated marker, so the city
+    cleanup in main() leaves it alone.
+    """
+    email = html.escape(CONTACT_EMAIL)
+    out = HEAD.format(
+        title=html.escape('Contact %s' % SITE_NAME, quote=True),
+        desc=html.escape('Get in touch with %s — corrections to a listing, '
+                         'adding your venue, or partnering with us.' % SITE_NAME, quote=True),
+        canonical='%scontact/' % base, up='../', og_image='',
+        nav='<a href="../"><span class="nav-full">Find places</span>'
+            '<span class="nav-short">Places</span></a>')
+    out += '''
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <h1 class="hero-title"><span class="hl">Contact</span></h1>
+      <p class="lede">%s is a free guide to family outings in Sacramento County.
+        Email <a href="mailto:%s">%s</a> &mdash; a person reads it.</p>
+    </div>
+  </section>
+
+  <section class="list-section" id="list">
+    <div class="wrap prose">
+
+      <h2>Something about your venue is wrong</h2>
+      <p>Tell us and we will fix it. Every listing here links to the source it
+        came from, so if that page has changed, or we have the hours, price or
+        location wrong, send the correction and it goes in on the next daily
+        build. Corrections from the venue itself take priority over anything
+        we have scraped.</p>
+
+      <h2>You run somewhere we have missed</h2>
+      <p>Send a link to your official site or events calendar. We list places
+        that are established and open to the public, and every entry needs a
+        source a parent can check &mdash; so a page with your hours and
+        location on it is all we need to get started. Listing is free.</p>
+
+      <h2>Partnering or sponsorship</h2>
+      <p>If you would like to talk about sponsoring the site or reaching
+        families in Sacramento County, email the same address and say so.</p>
+
+      <h2>How listings are put together</h2>
+      <p>Events come from official sources &mdash; library, museum, zoo and
+        parks department calendars &mdash; refreshed daily, and each one shows
+        where it came from. Nothing here is invented, and we would rather leave
+        a detail blank than guess at it. Hours and admission still change
+        without notice, so confirm before you set out.</p>
+
+    </div>
+  </section>
+</main>
+''' % (SITE_NAME, email, email)
+    out += FOOT
+    return out
+
+
 def main():
     check_js_scope_contract()
     towns = load('towns.json')
@@ -1232,8 +1299,14 @@ def main():
     open(os.path.join(ROOT, 'index.html'), 'w', encoding='utf-8').write(
         root_page(towns_with_pages, places, base))
 
+    contact_dir = os.path.join(ROOT, 'contact')
+    os.makedirs(contact_dir, exist_ok=True)
+    open(os.path.join(contact_dir, 'index.html'), 'w', encoding='utf-8').write(
+        contact_page(base))
+
     # sitemap, so the city pages are actually discoverable
-    urls = [base] + ['%s%s/' % (base, slugify(t['name'])) for t in towns_with_pages] + \
+    urls = [base, '%scontact/' % base] + \
+           ['%s%s/' % (base, slugify(t['name'])) for t in towns_with_pages] + \
            ['%s%s/calendar/' % (base, slugify(t['name'])) for t in towns_with_pages]
     for fp in FILTER_PAGES:
         for t in towns_with_pages:
