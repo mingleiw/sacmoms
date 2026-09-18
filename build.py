@@ -1187,36 +1187,8 @@ def contact_page(base):
       <h1 class="hero-title"><span class="hl">Contact</span></h1>
       <p class="lede">%s is a free guide to family outings in Sacramento County.
         Email <a href="mailto:%s">%s</a> &mdash; a person reads it.</p>
-    </div>
-  </section>
-
-  <section class="list-section" id="list">
-    <div class="wrap prose">
-
-      <h2>Something about your venue is wrong</h2>
-      <p>Tell us and we will fix it. Every listing here links to the source it
-        came from, so if that page has changed, or we have the hours, price or
-        location wrong, send the correction and it goes in on the next daily
-        build. Corrections from the venue itself take priority over anything
-        we have scraped.</p>
-
-      <h2>You run somewhere we have missed</h2>
-      <p>Send a link to your official site or events calendar. We list places
-        that are established and open to the public, and every entry needs a
-        source a parent can check &mdash; so a page with your hours and
-        location on it is all we need to get started. Listing is free.</p>
-
-      <h2>Partnering or sponsorship</h2>
-      <p>If you would like to talk about sponsoring the site or reaching
-        families in Sacramento County, email the same address and say so.</p>
-
-      <h2>How listings are put together</h2>
-      <p>Events come from official sources &mdash; library, museum, zoo and
-        parks department calendars &mdash; refreshed daily, and each one shows
-        where it came from. Nothing here is invented, and we would rather leave
-        a detail blank than guess at it. Hours and admission still change
-        without notice, so confirm before you set out.</p>
-
+      <p class="lede">Run somewhere listed here? If a detail is wrong, or you
+        would like to be added, send it over.</p>
     </div>
   </section>
 </main>

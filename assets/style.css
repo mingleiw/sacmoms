@@ -414,13 +414,6 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .footer-links { margin: 14px 0 0; font-size: 13.5px; }
 .footer-links a { color: var(--sea); font-weight: 700; }
 
-/* ---- Prose (contact page) ---- */
-.prose { max-width: 62ch; }
-.prose h2 { margin: 28px 0 8px; font-size: 19px; }
-.prose h2:first-child { margin-top: 0; }
-.prose p { margin: 0; line-height: 1.65; }
-.prose a { color: var(--sea); font-weight: 700; }
-
 /* ---- Location bar ---- */
 .loc-bar { margin-bottom: 18px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 .loc-bar:empty { display: none; }
