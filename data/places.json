@@ -626,6 +626,32 @@
     }
   },
   {
+    "name": "California Automobile Museum",
+    "where": "Old Sacramento Waterfront",
+    "desc": "120+ cars spanning nearly 120 years of automotive history, from brass-era classics to modern tech. Docent tours, Model T photo ops, and Sunday ride-alongs in a museum car.",
+    "note": "Open Wednesday through Monday, 10am-5pm (last admission 4pm); closed Tuesdays. Big warehouse, not fully climate-controlled, so dress for the day.",
+    "cta": "Map, hours & tickets",
+    "mapq": "California+Automobile+Museum+Sacramento",
+    "icon": "i-science",
+    "cat": "science",
+    "age": "3-5 6-9 10+",
+    "region": "sac",
+    "env": "indoor",
+    "lat": 38.57031,
+    "lon": -121.51177,
+    "ages": "3 and up",
+    "envlabel": "Indoors",
+    "arealabel": "Sacramento area",
+    "url": "https://www.calautomuseum.org/",
+    "status": "open",
+    "last_checked": "2026-09-18",
+    "spec": {
+      "price": "Adults $14, youth 6-17 $8, 5 and under free",
+      "toddler": "Ages 3+",
+      "tickets_url": "https://www.calautomuseum.org/visit"
+    }
+  },
+  {
     "name": "Sacramento Children&rsquo;s Museum",
     "where": "Rancho Cordova",
     "desc": "Hands-on water tables, air tubes and a pint-sized grocery store to play shop in. Built for birth to about eight.",
