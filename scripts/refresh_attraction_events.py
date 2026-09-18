@@ -210,7 +210,7 @@ FT_BLURB_OVERRIDES = {
 }
 
 
-def ft_venue(e):
+def ft_venue(e, title):
     """Real venue for a Fairytale Town listing, which is not always their park.
 
     They publish off-site events on the same calendar (the Dirty Kid Obstacle
@@ -219,6 +219,12 @@ def ft_venue(e):
     the API names as Fairytale Town keeps that exact string so it still
     matches venues.json; only a clearly different venue overrides it, and an
     absent or unexpected shape falls back to the old behaviour.
+
+    Note: the API's venue record itself is unreliable for off-site events --
+    the Dirty Kid race's venue field still says "Fairytale Town" (their
+    default venue record) with the real location only in the title. So when
+    the API venue is Fairytale Town, check the title against known off-site
+    locations before falling back.
     """
     v = e.get("venue")
     if isinstance(v, dict):
@@ -226,7 +232,19 @@ def ft_venue(e):
         city = html.unescape(str(v.get("city") or "")).strip()
         if name and "fairytale" not in name.lower():
             return name, city or "Sacramento"
+    tl = (title or "").lower()
+    for key, venue in FT_OFFSITE_VENUES.items():
+        if key in tl:
+            return venue, "Sacramento"
     return "Fairytale Town", "Sacramento"
+
+
+# Off-site locations Fairytale Town publishes on its own calendar while the
+# API venue record still says "Fairytale Town". Keyed on distinctive title
+# fragments; checked only when the API venue is Fairytale Town itself.
+FT_OFFSITE_VENUES = {
+    "sacramento adventure playground": "Sacramento Adventure Playground",
+}
 
 
 def refresh_fairytale(today):
@@ -255,7 +273,7 @@ def refresh_fairytale(today):
             continue
         desc = html.unescape(re.sub(r"<[^>]+>", " ", e.get("description") or ""))
         desc = re.sub(r"\s+", " ", desc).strip()
-        venue, city = ft_venue(e)
+        venue, city = ft_venue(e, title)
         entries.append(entry(
             sd, title, venue, city, e.get("url") or FT_API,
             FT_BLURB_OVERRIDES.get(title, desc[:220]),
