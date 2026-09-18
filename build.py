@@ -505,6 +505,7 @@ def group_seasonal(events, town):
             lat, lon = vc
         if lat is not None and lon is not None:
             g['dist'] = round(miles(town['lat'], town['lon'], lat, lon), 1)
+            g['lat'], g['lon'] = lat, lon
         result.append(g)
     result.sort(key=lambda g: (g.get('dist') is None, g.get('dist', 0)))
     result = [g for g in result if g.get('dist') is not None and g['dist'] <= LIST_MILES]
@@ -549,8 +550,14 @@ def seasonal_section_html(groups, town_name):
                 else:
                     when += ' &middot; %s' % start
             dist_chip = ''
+            geo_attr = ''
             if 'dist' in g:
                 dist_chip = '<span class="ev-tag ev-dist">%s mi</span>' % show_miles(g['dist'])
+                # app.js re-ranks these against a user zip/geolocation, exactly as it
+                # does place cards; without the coords the chip would stay frozen at
+                # the build-time distance from the town.
+                geo_attr = ' data-dist="%s" data-lat="%s" data-lon="%s"' % (
+                    g['dist'], g['lat'], g['lon'])
             group_key = g.get('group_key', slugify(g['title']))
             sc_photo = photo_for(group_key)
             if sc_photo:
@@ -559,7 +566,7 @@ def seasonal_section_html(groups, town_name):
             else:
                 sc_img = ('<div class="sc-media sc-media-empty" aria-hidden="true">'
                           '<svg width="44" height="44"><use href="#%s"/></svg></div>' % cfg['icon'])
-            out += '''        <article class="seasonal-card%s">
+            out += '''        <article class="seasonal-card%s"%s>
           %s
           <h3>%s</h3>
           <p class="sc-when">%s</p>
@@ -572,7 +579,7 @@ def seasonal_section_html(groups, town_name):
             %s
           </div>
         </article>
-''' % (' has-img' if sc_photo else '',
+''' % (' has-img' if sc_photo else '', geo_attr,
        sc_img,
        html.escape(g['title']), when,
        html.escape(g['venue']), html.escape(g['city']),

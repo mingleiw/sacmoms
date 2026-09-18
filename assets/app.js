@@ -115,6 +115,20 @@
     });
   }
 
+  /* Seasonal cards are server-rendered and, unlike events, never rebuilt from a
+     payload -- so a location change has to re-rank and relabel them in place. */
+  function sortSeasonal() {
+    document.querySelectorAll('.seasonal-grid').forEach(function (grid) {
+      var items = [].slice.call(grid.querySelectorAll('.seasonal-card'));
+      items.sort(function (a, b) { return cardDist(a) - cardDist(b); });
+      items.forEach(function (c) {
+        var el = c.querySelector('.ev-dist');
+        if (el) el.textContent = showMiles(cardDist(c)) + ' mi';
+        grid.appendChild(c);
+      });
+    });
+  }
+
   var ZIPS = {
     '94203':[38.382,-121.443],'94204':[38.581,-121.494],'94205':[38.581,-121.494],
     '94206':[38.581,-121.494],'94207':[38.581,-121.494],'94208':[38.581,-121.494],
@@ -184,6 +198,7 @@
         userLoc = null;
         try { localStorage.removeItem('owtk.loc'); } catch (e) {}
         sortCards();
+        sortSeasonal();
         apply();
         buildLocPrompt();
         if (typeof reRenderEvents === 'function') reRenderEvents();
@@ -246,6 +261,7 @@
     userLoc = loc;
     try { localStorage.setItem('owtk.loc', JSON.stringify(userLoc)); } catch (e) {}
     sortCards();
+    sortSeasonal();
     apply();
     buildLocPrompt();
     if (typeof reRenderEvents === 'function') reRenderEvents();
@@ -327,7 +343,7 @@
     });
   });
 
-  if (userLoc) sortCards();
+  if (userLoc) { sortCards(); sortSeasonal(); }
   buildLocPrompt();
   apply();
 })();
