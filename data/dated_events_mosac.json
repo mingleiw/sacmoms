@@ -1,0 +1,50 @@
+[
+ {
+  "date": "2026-10-02",
+  "time": "10:00",
+  "title": "Homeschool Day: UC Davis Neurofest",
+  "venue": "Museum of Science and Curiosity",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "A curiosity-filled day for homeschool, charter and independent-study families: planetarium shows, hands-on labs and museum exhibits.",
+  "source": "https://visitmosac.org/learn/homeschool-programs/",
+  "until": "14:00"
+ },
+ {
+  "date": "2026-11-19",
+  "time": "10:00",
+  "title": "Homeschool Day: Growing Sacramento",
+  "venue": "Museum of Science and Curiosity",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "A curiosity-filled day for homeschool, charter and independent-study families: planetarium shows, hands-on labs and museum exhibits.",
+  "source": "https://visitmosac.org/learn/homeschool-programs/",
+  "until": "16:00"
+ },
+ {
+  "date": "2027-01-13",
+  "time": "10:00",
+  "title": "Homeschool Day: Engineering",
+  "venue": "Museum of Science and Curiosity",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "A curiosity-filled day for homeschool, charter and independent-study families: planetarium shows, hands-on labs and museum exhibits.",
+  "source": "https://visitmosac.org/learn/homeschool-programs/",
+  "until": "16:00"
+ },
+ {
+  "date": "2027-03-11",
+  "time": "10:00",
+  "title": "Homeschool Day: Space Exploration",
+  "venue": "Museum of Science and Curiosity",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "A curiosity-filled day for homeschool, charter and independent-study families: planetarium shows, hands-on labs and museum exhibits.",
+  "source": "https://visitmosac.org/learn/homeschool-programs/",
+  "until": "16:00"
+ }
+]

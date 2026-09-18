@@ -378,5 +378,17 @@
   "day": 0,
   "until": "16:00",
   "origin": "marin-mommies"
+ },
+ {
+  "time": "16:00",
+  "day": 6,
+  "title": "K-Pop Demon Hunters Laser Show",
+  "venue": "Museum of Science and Curiosity",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Every Saturday, a sing-along laser concert under the planetarium dome. General admission required; shows sell out.",
+  "source": "https://visitmosac.org/all-ages-shows/",
+  "origin": "mosac"
  }
 ]

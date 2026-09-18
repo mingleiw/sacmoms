@@ -10,6 +10,8 @@ cd "$(dirname "$0")/.."
 # a failure here must stop the push rather than quietly ship a thinner calendar.
 python3 scripts/refresh_storytimes.py          # Sacramento-area library storytimes
 python3 scripts/refresh_scm_events.py          # Sacramento Children's Museum weekly programs
+python3 scripts/refresh_attraction_events.py  # Zoo, Fairytale Town, Effie Yeaw,
+                                               # MOSAC, Cosumnes CSD official calendars
 
 # Marin sources are kept warm but must NOT gate the run. build.py filters towns
 # to FOCUS_REGION ('sac'), so nothing these write is rendered today — and both

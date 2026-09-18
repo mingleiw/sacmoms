@@ -90,6 +90,16 @@
   "source": "nominatim.openstreetmap.org"
  },
  {
+  "venue": "Effie Yeaw Nature Center",
+  "city": "Carmichael",
+  "lat": 38.6175224,
+  "lon": -121.3115215,
+  "query": "Effie Yeaw Nature Center, Carmichael, CA, USA",
+  "matched": "Effie Yeaw Nature Center, 2850, San Lorenzo Way, Carmichael, Sacramento County, California, 95609, United States",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Elk Grove Library",
   "city": "Elk Grove",
   "lat": 38.4087136,
@@ -100,13 +110,23 @@
   "source": "nominatim.openstreetmap.org"
  },
  {
+  "venue": "Elk Grove Park",
+  "city": "Elk Grove",
+  "lat": 38.3921763,
+  "lon": -121.3741229,
+  "query": "Elk Grove Park, Elk Grove, CA, USA",
+  "matched": "Elk Grove County Park, Elk Grove, Sacramento County, California, United States",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Elk Grove Regional Park",
   "city": "Elk Grove",
   "lat": null,
   "lon": null,
   "query": "Elk Grove Regional Park, Elk Grove, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-17",
+  "resolved": "2026-09-18",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -117,6 +137,16 @@
   "query": "Fair Oaks Library, Sacramento County, CA, USA",
   "matched": "Fair Oaks Community Library, 11601, Fair Oaks Boulevard, Fair Oaks, Sacramento County, California, 95628, United States",
   "resolved": "2026-09-17",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "lat": 38.5397233,
+  "lon": -121.5010947,
+  "query": "Fairytale Town, Sacramento, CA, USA",
+  "matched": "Fairytale Town, 3901, Land Park Drive, Land Park, Sacramento, Sacramento County, California, 95822, United States",
+  "resolved": "2026-09-18",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -156,7 +186,7 @@
   "lon": null,
   "query": "Keema's Pumpkin Farm, Elk Grove, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-17",
+  "resolved": "2026-09-18",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -200,6 +230,16 @@
   "resolved": "2026-09-17",
   "source": "organizer-published address, verified via nominatim.openstreetmap.org",
   "locked": true
+ },
+ {
+  "venue": "Museum of Science and Curiosity",
+  "city": "Sacramento",
+  "lat": 38.5931999,
+  "lon": -121.5055287,
+  "query": "SMUD Museum of Science and Curiosity, Sacramento, CA, USA",
+  "matched": "SMUD Museum of Science and Curiosity, 400, Jibboom Street, Sacramento, Sacramento County, California, 95811, United States",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "North Highlands - Antelope Library",

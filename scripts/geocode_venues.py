@@ -63,6 +63,8 @@ QUERY_OVERRIDES = {
     "Martin Luther King, Jr. Library|Sacramento": ["Martin Luther King Jr Library, Sacramento, CA, USA"],
     "Historic Folsom Plaza|Folsom": ["Historic Folsom, Folsom, CA, USA"],
     "Old Town Elk Grove|Elk Grove": ["Elk Grove Historic District, Elk Grove, CA, USA"],
+    # OSM knows the museum under its SMUD-prefixed name.
+    "Museum of Science and Curiosity|Sacramento": ["SMUD Museum of Science and Curiosity, Sacramento, CA, USA"],
 }
 
 # Venues OpenStreetMap does not know at all (zero hits on every query form).

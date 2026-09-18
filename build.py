@@ -1135,7 +1135,9 @@ def main():
     # dated_events_curated.json holds hand-added one-offs (not scraper-owned).
     dated = []
     for f in ('dated_events_sac.json', 'dated_events_marin.json',
-              'dated_events_curated.json'):
+              'dated_events_curated.json', 'dated_events_zoo.json',
+              'dated_events_fairytale.json', 'dated_events_effieyeaw.json',
+              'dated_events_mosac.json', 'dated_events_cosumnes.json'):
         try:
             dated += load(f)
         except FileNotFoundError:
