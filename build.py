@@ -1134,14 +1134,32 @@ def main():
     # carries its own region; city_page filters on it.
     # dated_events_curated.json holds hand-added one-offs (not scraper-owned).
     dated = []
+    seen_dated = set()
     for f in ('dated_events_sac.json', 'dated_events_marin.json',
               'dated_events_curated.json', 'dated_events_zoo.json',
               'dated_events_fairytale.json', 'dated_events_effieyeaw.json',
               'dated_events_mosac.json', 'dated_events_cosumnes.json'):
         try:
-            dated += load(f)
+            entries = load(f)
         except FileNotFoundError:
-            pass  # first run before any refresh; weekly events still render
+            continue  # first run before any refresh; weekly events still render
+        for e in entries:
+            # The same event can land in two source files (e.g. a hand-added
+            # entry duplicating a scraper-owned one). Drop exact dupes loudly
+            # so the nightly log shows it. The key deliberately includes time
+            # and venue: two "Family Storytime" sessions on the same date at
+            # the same library, or two showtimes of one theater show, are
+            # different events, not dupes.
+            def _norm(s):
+                return re.sub(r'\s+', ' ', (s or '').strip().lower())
+            key = (e.get('date'), _norm(e.get('time')),
+                   _norm(e.get('title')), _norm(e.get('venue')))
+            if key in seen_dated:
+                print('dated-dedup: dropped duplicate %r on %s at %r from %s' % (
+                    e.get('title'), e.get('date'), e.get('venue'), f))
+                continue
+            seen_dated.add(key)
+            dated.append(e)
     base = BASE_URL
 
     keep, skipped = [], []
