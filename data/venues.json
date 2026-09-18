@@ -60,6 +60,26 @@
   "source": "nominatim.openstreetmap.org"
  },
  {
+  "venue": "Cool Patch Pumpkins",
+  "city": "Dixon",
+  "lat": 38.4432703,
+  "lon": -121.8650693,
+  "query": "Cool Patch Pumpkins, Dixon, CA, USA",
+  "matched": "Cool Patch Pumpkins, 6150, Dixon Avenue West, Dixon, Solano County, California, 95620, United States",
+  "resolved": "2026-09-17",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Dave's Pumpkin Patch",
+  "city": "West Sacramento",
+  "lat": 38.5090193,
+  "lon": -121.5578626,
+  "query": "Dave's Pumpkin Patch, West Sacramento, CA, USA",
+  "matched": "Dave's Pumpkin Patch, 3010, Burrows Avenue, Riverview, West Sacramento, Yolo County, California, 95691, United States",
+  "resolved": "2026-09-17",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Del Paso Heights Library",
   "city": "Sacramento",
   "lat": 38.6362929,
@@ -76,6 +96,16 @@
   "lon": -121.3711921,
   "query": "Elk Grove Library, Elk Grove, CA, USA",
   "matched": "Elk Grove Public Library, Elk Grove Boulevard, Elk Grove, Sacramento County, California, 94624, United States",
+  "resolved": "2026-09-17",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Elk Grove Regional Park",
+  "city": "Elk Grove",
+  "lat": null,
+  "lon": null,
+  "query": "Elk Grove Regional Park, Elk Grove, CA, USA",
+  "matched": "no confident match",
   "resolved": "2026-09-17",
   "source": "nominatim.openstreetmap.org"
  },
@@ -116,6 +146,16 @@
   "lon": -121.1805719,
   "query": "Historic Folsom, Folsom, CA, USA",
   "matched": "Historic Folsom, Folsom Boulevard, Old Town Folsom, Folsom Junction, Folsom, Sacramento County, California, 95671, United States",
+  "resolved": "2026-09-17",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Keema's Pumpkin Farm",
+  "city": "Elk Grove",
+  "lat": null,
+  "lon": null,
+  "query": "Keema's Pumpkin Farm, Elk Grove, CA, USA",
+  "matched": "no confident match",
   "resolved": "2026-09-17",
   "source": "nominatim.openstreetmap.org"
  },
@@ -229,6 +269,16 @@
   "lon": -121.2837572,
   "query": "Sacramento Children's Museum, Rancho Cordova, CA, USA",
   "matched": "Sacramento Children's Museum, 2701, Prospect Park Drive, Soudan, Rancho Cordova, Sacramento County, California, 95670, United States",
+  "resolved": "2026-09-17",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Sacramento Zoo",
+  "city": "Sacramento",
+  "lat": 38.5391873,
+  "lon": -121.5043611,
+  "query": "Sacramento Zoo, Sacramento, CA, USA",
+  "matched": "Sacramento Zoo, 3930, West Land Park Drive, Land Park, Sacramento, Sacramento County, California, 95822, United States",
   "resolved": "2026-09-17",
   "source": "nominatim.openstreetmap.org"
  },
