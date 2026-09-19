@@ -232,6 +232,13 @@ section[id] { scroll-margin-top: 78px; }
 .ev-tag.ev-dist { background: var(--ink); color: var(--chalk); font-variant-numeric: tabular-nums; }
 .ev-time-unknown { color: var(--ink-2); font-weight: 600; font-size: 13px; }
 .ev-src { font-size: 12.5px; font-weight: 700; color: var(--ink-2); border-bottom: 1px dotted var(--line-2); }
+/* Venue thumbnails on event cards, mirroring the place-card treatment. Cards
+   without a photo keep the exact same layout, just without the media slot. */
+.ev-media { flex: none; width: 132px; align-self: flex-start; border-radius: var(--r-sm); overflow: hidden; }
+.ev-img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: var(--sky); }
+/* Dialog banner image. */
+.d-media { margin: 12px 0 0; border-radius: var(--r-sm); overflow: hidden; }
+.d-img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--sky); }
 
 /* Cards clamp long text on purpose and the dialog is the escape hatch. Blurbs
    come from scrapers and vary from 50 to 250+ characters; without a clamp one
@@ -293,7 +300,7 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 
 .week-foot { margin: 24px 0 0; font-size: 14px; color: var(--ink-2); }
 
-@media (max-width: 560px) { .event { flex-direction: column; gap: 6px; } .ev-time { width: auto; } }
+@media (max-width: 560px) { .event { flex-direction: column; gap: 6px; } .ev-time { width: auto; } .ev-media { width: 100%; } .ev-img { aspect-ratio: 16 / 9; } }
 
 /* ---------- Filters ---------- */
 .list-section { padding: 44px 0 72px; }

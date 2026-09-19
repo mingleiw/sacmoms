@@ -130,6 +130,32 @@ def photo_for(slug):
     return 'assets/photos/%s.webp' % slug if os.path.exists(p) else None
 
 
+# Event venues whose photo file doesn't match slugify(venue). The file on the
+# right already exists in assets/photos; the key is slugify(venue name).
+VENUE_PHOTO_ALIASES = {
+    'sacramento-childrens-museum': 'sacramento-children-rsquo-s-museum',
+    'keemas-pumpkin-farm': 'keemas-pumpkin-2026',
+    'cool-patch-pumpkins': 'cool-patch-2026',
+    'daves-pumpkin-patch': 'daves-pumpkin-2026',
+    'museum-of-science-and-curiosity': 'smud-museum-of-science-and-curiosity',
+}
+
+
+def event_photo(venue):
+    """Photo path for a calendar event, resolved from its venue.
+
+    Returns the site-root-relative path (assets/photos/....webp) or None.
+    Library branches share one generic photo; drop a <venue-slug>.webp into
+    assets/photos to cover any other venue."""
+    slug = VENUE_PHOTO_ALIASES.get(slugify(venue or ''), slugify(venue or ''))
+    ph = photo_for(slug)
+    if ph:
+        return ph
+    if 'library' in (venue or '').lower():
+        return photo_for('sacramento-public-library')
+    return None
+
+
 SPRITE = read('templates/sprite.svg')
 TIPS = read('templates/tips.html')
 
@@ -712,6 +738,8 @@ def calendar_page(town, events, dated, base):
             e['lon'] = vc[1]
         e['age_tags'] = EVENT_AGE_TAGS.get(e.get('ages'), '0-2 3-5 6-9 10+')
         e['env'] = event_env(e)
+        ph = event_photo(e.get('venue'))
+        e['photo'] = '../../' + ph if ph else None
         ranked_ev.append(e)
     ev = ranked_ev
 
@@ -914,6 +942,8 @@ def city_page(town, places, events, dated, base):
             e['lon'] = vc[1]
         e['age_tags'] = EVENT_AGE_TAGS.get(e.get('ages'), '0-2 3-5 6-9 10+')
         e['env'] = event_env(e)
+        ph = event_photo(e.get('venue'))
+        e['photo'] = '../' + ph if ph else None
         ranked_ev.append(e)
     ev = ranked_ev
 

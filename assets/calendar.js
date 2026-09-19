@@ -215,9 +215,13 @@
         var seasonalTag = e.seasonal
           ? '<span class="ev-tag cal-seasonal-tag">Seasonal</span>'
           : '';
+        var media = e.photo
+          ? '<div class="ev-media"><img class="ev-img" src="' + esc(e.photo) + '" alt="" loading="lazy" width="400" height="300"></div>'
+          : '';
         return '<article class="event">' +
           '<div class="ev-time' + (when ? '' : ' ev-time-unknown') + '">' +
             (when ? esc(when) : 'Time TBC') + '</div>' +
+          media +
           '<div class="ev-body">' +
             '<h3>' + esc(e.title) + '</h3>' +
             '<p class="ev-where">' + esc(e.venue) + ', ' + esc(e.city) + '</p>' +

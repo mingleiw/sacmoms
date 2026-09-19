@@ -509,9 +509,13 @@
         ? '<span class="ev-tag ev-dist">' + esc(showMiles(dist)) + ' mi</span>'
         : '';
       var ended = evEnded(e, now);
+      var media = e.photo
+        ? '<div class="ev-media"><img class="ev-img" src="' + esc(e.photo) + '" alt="" loading="lazy" width="400" height="300"></div>'
+        : '';
       return '<article class="event' + (ended ? ' is-ended' : '') + '" data-i="' + i + '">' +
         '<div class="ev-time' + (when ? '' : ' ev-time-unknown') + '">' +
           (when ? esc(when) : esc(e.timeLabel || 'Time not confirmed')) + '</div>' +
+        media +
         '<div class="ev-body">' +
           '<h3>' + esc(e.title) + '</h3>' +
           '<p class="ev-where">' + esc(e.venue) + ', ' + esc(e.city) + '</p>' +
@@ -622,6 +626,8 @@
     var label = evDistLabel(e);
     detail.innerHTML =
       '<h3 id="evDialogTitle">' + esc(e.title) + '</h3>' +
+      (e.photo ? '<div class="d-media"><img class="d-img" src="' + esc(e.photo) +
+        '" alt="" loading="lazy" width="800" height="450"></div>' : '') +
       '<p class="d-when">' + esc(longDate(e)) + ' · ' + esc(when) + '</p>' +
       '<p class="d-where">' + esc(e.venue) + ', ' + esc(e.city) + '</p>' +
       (e.blurb ? '<p class="d-blurb">' + esc(e.blurb) + '</p>' : '') +
