@@ -185,6 +185,7 @@ FOOT = '''
   <div class="wrap footer-inner">
     <p class="footer-brand">''' + SITE_NAME + '''</p>
     <p class="footer-note">Find somewhere to take the kids today.</p>
+    <p class="footer-note"><a href="mailto:hello@sacmoms.com">Contact us</a> &mdash; event tips and corrections welcome.</p>
     <p class="footer-disclaimer">
       Places listed are long-running and established.
       <strong>Hours, admission and seasonal closures change without notice &mdash; always
