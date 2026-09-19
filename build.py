@@ -149,8 +149,9 @@ def event_photo(venue):
     """Photo path for a calendar event, resolved from its venue.
 
     Returns the site-root-relative path (assets/photos/....webp) or None.
-    Library branches share one generic photo; drop a <venue-slug>.webp into
-    assets/photos to cover any other venue."""
+    Library branches use their own building photo (<venue-slug>.webp),
+    falling back to the Central Library photo; drop a <venue-slug>.webp
+    into assets/photos to cover any other venue."""
     slug = VENUE_PHOTO_ALIASES.get(slugify(venue or ''), slugify(venue or ''))
     ph = photo_for(slug)
     if ph:
