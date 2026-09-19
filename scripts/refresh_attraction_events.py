@@ -37,6 +37,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
@@ -51,10 +52,23 @@ ABBR = {"jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
         "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12}
 
 
-def fetch(url):
-    r = subprocess.run(["curl", "-sL", "--max-time", "40", "-A", UA, url],
-                       capture_output=True, text=True)
-    return r.stdout or ""
+def fetch(url, retries=5):
+    # visitmosac.org sits behind a Sucuri-style bot challenge ("sgcaptcha")
+    # that fires intermittently: the same URL returns either the real page or
+    # a ~200-byte meta-refresh to /.well-known/sgcaptcha/. Documented
+    # 2026-09-18: the challenge aborted the nightly run twice even though the
+    # page loaded fine seconds earlier/later. Retrying with a pause usually
+    # clears it; a persistent block still fails the caller's content checks,
+    # so the gating semantics (no silent thinner calendar) are unchanged.
+    body = ""
+    for _ in range(retries):
+        r = subprocess.run(["curl", "-sL", "--max-time", "40", "-A", UA, url],
+                           capture_output=True, text=True)
+        body = r.stdout or ""
+        if body and "sgcaptcha" not in body:
+            return body
+        time.sleep(10)
+    return body
 
 
 def page_text(html_doc):

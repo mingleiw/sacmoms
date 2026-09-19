@@ -197,19 +197,6 @@
   "origin": "marin-mommies"
  },
  {
-  "time": "13:00",
-  "title": "Drop-in: Tumbling Tots at Novato Gymnastics",
-  "venue": "Novato Gymnastics Center",
-  "city": "Novato",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Looking for a fun way to get your little one moving, socializing, and exploring? Join us for our 45",
-  "source": "https://www.novatogymnastics.gov/preschool-gymnastics-classes-s3winter",
-  "day": 2,
-  "until": "13:45",
-  "origin": "marin-mommies"
- },
- {
   "time": "16:00",
   "title": "Fairfax Farmers Market",
   "venue": "Bolinas Park",
@@ -295,7 +282,7 @@
   "ages": "Under 6",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 2,
+  "day": 4,
   "until": "11:40",
   "origin": "marin-mommies"
  },
@@ -308,7 +295,7 @@
   "ages": "Babies & toddlers",
   "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
   "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-  "day": 2,
+  "day": 4,
   "until": "10:30",
   "origin": "marin-mommies"
  },
@@ -418,19 +405,6 @@
  },
  {
   "time": "11:00",
-  "title": "New Parents and Babies and Toddler Group",
-  "venue": "Fairfax Pavilion",
-  "city": "Fairfax",
-  "region": "marin",
-  "ages": "Babies & toddlers",
-  "blurb": "fter a summer at the library, our beloved New Parents, Babies & Toddlers Group is coming home",
-  "source": "https://www.marinmommies.com/calendar/new-parents-and-babies-and-toddler-group",
-  "day": 4,
-  "origin": "marin-mommies",
-  "until": "12:30"
- },
- {
-  "time": "11:00",
   "title": "New Parents, Babies and Toddlers Support Group (free)",
   "venue": "Fairfax Pavilion",
   "city": "Fairfax",
@@ -502,7 +476,7 @@
   "ages": "All ages",
   "blurb": "The Petaluma Pumpkin Patch and Amazing Corn Maze has over 5 acres of home grown pumpkins. Over 50",
   "source": "https://www.marinmommies.com/calendar/petaluma-pumpkin-patch-and-amazing-corn-maze-15",
-  "day": 5,
+  "day": 6,
   "origin": "marin-mommies",
   "until": "22:00"
  },
@@ -528,7 +502,7 @@
   "ages": "Under 6",
   "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5.",
   "source": "https://marinlibrary.org/locations/mc/",
-  "day": 2,
+  "day": 4,
   "until": "10:00",
   "origin": "marin-mommies"
  },
@@ -582,19 +556,6 @@
   "day": 0,
   "until": "14:00",
   "origin": "marin-mommies"
- },
- {
-  "time": "17:00",
-  "title": "Sonoma's Tuesday Night Market",
-  "venue": "Sonoma Plaza",
-  "city": "Sonoma",
-  "region": "marin",
-  "ages": "All ages",
-  "blurb": "May thru September at the Historic Sonoma Plaza in downtown Sonoma, thousands gather each Tuesday",
-  "source": "https://www.marinmommies.com/calendar/sonomas-tuesday-night-market",
-  "day": 2,
-  "origin": "marin-mommies",
-  "until": "20:00"
  },
  {
   "time": "10:00",
@@ -696,7 +657,7 @@
   "ages": "All ages",
   "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
   "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 5,
+  "day": 6,
   "until": "16:00",
   "origin": "marin-mommies"
  },
