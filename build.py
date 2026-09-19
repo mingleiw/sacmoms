@@ -133,11 +133,17 @@ def photo_for(slug):
 # Event venues whose photo file doesn't match slugify(venue). The file on the
 # right already exists in assets/photos; the key is slugify(venue name).
 VENUE_PHOTO_ALIASES = {
-    'sacramento-childrens-museum': 'sacramento-children-rsquo-s-museum',
-    'keemas-pumpkin-farm': 'keemas-pumpkin-2026',
+    'sacramento-children-s-museum': 'sacramento-children-rsquo-s-museum',
+    'keema-s-pumpkin-farm': 'keemas-pumpkin-2026',
     'cool-patch-pumpkins': 'cool-patch-2026',
-    'daves-pumpkin-patch': 'daves-pumpkin-2026',
+    'dave-s-pumpkin-patch': 'daves-pumpkin-2026',
     'museum-of-science-and-curiosity': 'smud-museum-of-science-and-curiosity',
+    # Farmers markets happen at plazas and shopping centers; they share one photo.
+    'laguna-gateway-center': 'farmers-market',
+    'old-town-elk-grove': 'farmers-market',
+    'midtown-farmers-market': 'farmers-market',
+    'historic-folsom-plaza': 'farmers-market',
+    'cesar-chavez-plaza': 'farmers-market',
 }
 
 
