@@ -197,6 +197,19 @@
   "origin": "marin-mommies"
  },
  {
+  "time": "13:00",
+  "title": "Drop-in: Tumbling Tots at Novato Gymnastics",
+  "venue": "Novato Gymnastics Center",
+  "city": "Novato",
+  "region": "marin",
+  "ages": "Under 6",
+  "blurb": "Looking for a fun way to get your little one moving, socializing, and exploring? Join us for our 45",
+  "source": "https://www.marinmommies.com/calendar/drop-tumbling-tots-novato-gymnastics-0",
+  "day": 2,
+  "origin": "marin-mommies",
+  "until": "13:45"
+ },
+ {
   "time": "16:00",
   "title": "Fairfax Farmers Market",
   "venue": "Bolinas Park",
@@ -246,19 +259,6 @@
   "day": 6,
   "origin": "marin-mommies",
   "until": "17:15"
- },
- {
-  "time": "10:00",
-  "title": "Free Yoga in the Presidio Park",
-  "venue": "Presidio’s Outpost Meadow",
-  "city": "San Francisco",
-  "region": "marin",
-  "ages": "All ages",
-  "blurb": "Find your flow in the Presidio with an outdoor yoga practice designed to help you move, breathe,",
-  "source": "https://presidio.gov/explore/events",
-  "day": 0,
-  "until": "11:00",
-  "origin": "marin-mommies"
  },
  {
   "time": "11:00",
@@ -373,7 +373,7 @@
   "ages": "All ages",
   "blurb": "Mickelson Pumpkin Patch, just past the Marin-Sonoma county line off Highway 101, offers a wide",
   "source": "https://www.marinmommies.com/calendar/mickelson-pumpkin-patch-1",
-  "day": 6,
+  "day": 5,
   "origin": "marin-mommies",
   "until": "22:00"
  },
@@ -405,6 +405,18 @@
  },
  {
   "time": "11:00",
+  "title": "New Parents and Babies and Toddler Group",
+  "venue": "Fairfax Pavilion",
+  "city": "Fairfax",
+  "region": "marin",
+  "ages": "Babies & toddlers",
+  "blurb": "fter a summer at the library, our beloved New Parents, Babies & Toddlers Group is coming home",
+  "source": "https://www.marinmommies.com/calendar/new-parents-and-babies-and-toddler-group",
+  "day": 4,
+  "origin": "marin-mommies"
+ },
+ {
+  "time": "11:00",
   "title": "New Parents, Babies and Toddlers Support Group (free)",
   "venue": "Fairfax Pavilion",
   "city": "Fairfax",
@@ -431,19 +443,6 @@
  },
  {
   "time": "11:00",
-  "title": "Oktoberfest at the Mart!",
-  "venue": "Marin Country Mart",
-  "city": "Larkspur",
-  "region": "marin",
-  "ages": "All ages",
-  "blurb": "Prost! Marin Oktoberfest is back at the Mart for a day of Bavarian-inspired food, music,",
-  "source": "https://www.marincountrymart.com/events",
-  "day": 0,
-  "until": "17:00",
-  "origin": "marin-mommies"
- },
- {
-  "time": "11:00",
   "title": "Oktoberfest at Six Flags Discovery Kingdom",
   "venue": "Six Flags Discovery Kingdom",
   "city": "Vallejo",
@@ -455,19 +454,6 @@
   "origin": "marin-mommies"
  },
  {
-  "time": "09:30",
-  "title": "Open Gym: GymWorld Gymnastics & Parkour",
-  "venue": "GymWorld Gymnastics & Parkour",
-  "city": "San Rafael",
-  "region": "marin",
-  "ages": "Ages 5+",
-  "blurb": "Let your kids run, jump, climb, and explore in a safe, playful space at GymWorld Gymnastics",
-  "source": "https://www.gymworldmarin.com/open-gym",
-  "day": 0,
-  "until": "11:30",
-  "origin": "marin-mommies"
- },
- {
   "time": "10:00",
   "title": "Petaluma Pumpkin Patch and Amazing Corn Maze",
   "venue": "Petaluma Pumpkin Patch",
@@ -476,7 +462,7 @@
   "ages": "All ages",
   "blurb": "The Petaluma Pumpkin Patch and Amazing Corn Maze has over 5 acres of home grown pumpkins. Over 50",
   "source": "https://www.marinmommies.com/calendar/petaluma-pumpkin-patch-and-amazing-corn-maze-15",
-  "day": 6,
+  "day": 5,
   "origin": "marin-mommies",
   "until": "22:00"
  },
@@ -520,19 +506,6 @@
   "until": "16:00"
  },
  {
-  "time": "09:00",
-  "title": "Santa Rosa Pumpkin Patch",
-  "venue": "Santa Rosa Pumpkin Patch",
-  "city": "Petaluma",
-  "region": "marin",
-  "ages": "All ages",
-  "blurb": "Santa Rosa Pumpkin Patch offers eight acres of pumpkins, a huge seven-acre corn maze, kiddy corn",
-  "source": "http://santarosapumpkinpatch.com/",
-  "day": 0,
-  "origin": "marin-mommies",
-  "until": "20:00"
- },
- {
   "time": "10:00",
   "title": "Sausalito Boat Show",
   "venue": "Clipper Yacht Harbor",
@@ -545,17 +518,17 @@
   "origin": "marin-mommies"
  },
  {
-  "time": "09:00",
-  "title": "Sausalito Farmers Market",
-  "venue": "Dunphy Park parking lot",
-  "city": "Sausalito",
+  "time": "17:00",
+  "title": "Sonoma's Tuesday Night Market",
+  "venue": "Sonoma Plaza",
+  "city": "Sonoma",
   "region": "marin",
   "ages": "All ages",
-  "blurb": "The Sausalito Recreation Department is excited to be partnered with a seasoned group of local",
-  "source": "https://www.instagram.com/sausalitocertifiedfarmersmkt/",
-  "day": 0,
-  "until": "14:00",
-  "origin": "marin-mommies"
+  "blurb": "May thru September at the Historic Sonoma Plaza in downtown Sonoma, thousands gather each Tuesday",
+  "source": "https://www.marinmommies.com/calendar/sonomas-tuesday-night-market",
+  "day": 2,
+  "origin": "marin-mommies",
+  "until": "20:00"
  },
  {
   "time": "10:00",
@@ -611,19 +584,6 @@
  },
  {
   "time": "08:00",
-  "title": "Sunday Marin Farmers' Market",
-  "venue": "Marin Civic Center Parking Lot",
-  "city": "San Rafael",
-  "region": "marin",
-  "ages": "All ages",
-  "blurb": "Visit the market every Sunday, rain or shine, and see why the Marin farmers market is one of the",
-  "source": "https://www.agriculturalinstitute.org/sunday-marin",
-  "day": 0,
-  "until": "13:00",
-  "origin": "marin-mommies"
- },
- {
-  "time": "08:00",
   "title": "Thursday Marin Farmers Market",
   "venue": "Veteran’s Memorial Auditorium Parking Lot",
   "city": "San Rafael",
@@ -657,7 +617,7 @@
   "ages": "All ages",
   "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
   "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 6,
+  "day": 1,
   "until": "16:00",
   "origin": "marin-mommies"
  },
