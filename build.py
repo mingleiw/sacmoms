@@ -183,22 +183,10 @@ HEAD = HEAD.replace('__STYLE_V__', STYLE_V)
 FOOT = '''
 <footer class="site-footer">
   <div class="wrap footer-inner">
-    <div class="footer-grid">
-      <div class="footer-brandcol">
-        <p class="footer-brand">''' + SITE_NAME + '''</p>
-        <p class="footer-note">Find somewhere to take the kids today.</p>
-        <p class="footer-note"><a href="mailto:hello@sacmoms.com">Contact us</a> &mdash; event tips and corrections welcome.</p>
-      </div>
-      <nav class="footer-nav" aria-label="Browse by city">
-        <p class="footer-h">Explore</p>
-        <ul class="footer-links">
-          <li><a href="/sacramento/">Sacramento</a></li>
-          <li><a href="/rancho-cordova/">Rancho Cordova</a></li>
-          <li><a href="/folsom/">Folsom</a></li>
-          <li><a href="/citrus-heights/">Citrus Heights</a></li>
-          <li><a href="/elk-grove/">Elk Grove</a></li>
-        </ul>
-      </nav>
+    <div class="footer-brandcol">
+      <p class="footer-brand">''' + SITE_NAME + '''</p>
+      <p class="footer-note">Find somewhere to take the kids today.</p>
+      <p class="footer-note"><a href="mailto:hello@sacmoms.com">Contact us</a> &mdash; event tips and corrections welcome.</p>
     </div>
     <div class="footer-bottom">
       <p class="footer-disclaimer">
