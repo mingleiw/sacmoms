@@ -138,12 +138,10 @@ VENUE_PHOTO_ALIASES = {
     'cool-patch-pumpkins': 'cool-patch-2026',
     'dave-s-pumpkin-patch': 'daves-pumpkin-2026',
     'museum-of-science-and-curiosity': 'smud-museum-of-science-and-curiosity',
-    # Farmers markets happen at plazas and shopping centers; they share one photo.
-    'laguna-gateway-center': 'farmers-market',
-    'old-town-elk-grove': 'farmers-market',
-    'midtown-farmers-market': 'farmers-market',
-    'historic-folsom-plaza': 'farmers-market',
-    'cesar-chavez-plaza': 'farmers-market',
+    # Farmers markets each have their own real photo now.
+    'laguna-gateway-center': 'elk-grove-farmers-market',
+    'old-town-elk-grove': 'old-town-elk-grove-farmers-market',
+    'historic-folsom-plaza': 'historic-folsom-farmers-market',
 }
 
 
