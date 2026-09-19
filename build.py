@@ -188,14 +188,7 @@ FOOT = '''
       <p class="footer-note">Find somewhere to take the kids today.</p>
       <p class="footer-note"><a href="mailto:hello@sacmoms.com">Contact us</a> &mdash; event tips and corrections welcome.</p>
     </div>
-    <div class="footer-bottom">
-      <p class="footer-disclaimer">
-        Places listed are long-running and established.
-        <strong>Hours, admission and seasonal closures change without notice &mdash; always
-        confirm through the map link before you set out.</strong>
-      </p>
-      <p class="footer-copy">&copy; 2026 ''' + SITE_NAME + '''</p>
-    </div>
+    <p class="footer-copy">&copy; 2026 ''' + SITE_NAME + '''</p>
   </div>
 </footer>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "96be0c24d1da427b89065462a3b5fc07"}'></script><!-- End Cloudflare Web Analytics -->
