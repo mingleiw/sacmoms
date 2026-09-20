@@ -500,6 +500,9 @@
                        /* Upcoming sessions first, ended ones last. */
                        var ea = evEnded(a, now) ? 1 : 0, eb = evEnded(b, now) ? 1 : 0;
                        if (ea !== eb) return ea - eb;
+                       /* Nearest first, then earliest start — like the places list. */
+                       var da = evDist(a), db = evDist(b);
+                       if (da !== null && db !== null && da !== db) return da - db;
                        var ta = a.time || '99:99', tb = b.time || '99:99';
                        return ta < tb ? -1 : (ta > tb ? 1 : 0);
                      });
