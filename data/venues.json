@@ -120,6 +120,16 @@
   "source": "nominatim.openstreetmap.org"
  },
  {
+  "venue": "Elk Grove Fine Arts Center",
+  "city": "Elk Grove",
+  "lat": 38.4086942,
+  "lon": -121.3660316,
+  "query": "Elk Grove Fine Arts Center, Elk Grove, CA, USA",
+  "matched": "9020, Elk Grove Boulevard, Elk Grove, Sacramento County, California, 94624, United States",
+  "resolved": "2026-09-19",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Elk Grove Library",
   "city": "Elk Grove",
   "lat": 38.4087136,
@@ -289,6 +299,16 @@
   "query": "Elk Grove Historic District, Elk Grove, CA, USA",
   "matched": "Elk Grove Historic District, Elk Grove, Sacramento County, California, 94624, United States",
   "resolved": "2026-09-17",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Old Town Plaza",
+  "city": "Elk Grove",
+  "lat": 38.4087971,
+  "lon": -121.3639238,
+  "query": "Old Town Plaza, Elk Grove, CA, USA",
+  "matched": "9615, Railroad Street, Elk Grove, Sacramento County, California, 95624, United States",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {

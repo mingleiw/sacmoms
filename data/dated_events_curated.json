@@ -1362,5 +1362,28 @@
   "ages": "All ages",
   "blurb": "Get a first look at the bookshop's new sensory inclusive space. Free.",
   "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729"
+ },
+ {
+  "date": "2026-09-22",
+  "time": "11:00",
+  "until": "13:00",
+  "title": "Create an Elk Grove History Collage",
+  "venue": "Elk Grove Fine Arts Center",
+  "city": "Elk Grove",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Free two-hour collage workshop for Elk Grove History Week, open to all ages. All supplies provided; kids must be with an adult. Sessions at 11am, 1:30pm and 4pm; registration required, space is limited.",
+  "source": "https://elkgrove.gov/event/elk-grove-history-week/september-20-2026-1200am"
+ },
+ {
+  "date": "2026-09-25",
+  "time": "17:30",
+  "title": "Elk Grove's Haunted History Tour",
+  "venue": "Old Town Plaza",
+  "city": "Elk Grove",
+  "region": "sac",
+  "ages": "Ages 5+",
+  "blurb": "First-ever docent-led walking tour of Historic Main Street's haunted past, about 90 minutes. Tours depart every 20 minutes from 5:30pm; registration required.",
+  "source": "https://elkgrove.gov/event/elk-grove-history-week/september-20-2026-1200am"
  }
 ]
