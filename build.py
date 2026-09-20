@@ -354,6 +354,7 @@ EV_FILTERS = '''
           <span class="filter-label">Distance</span>
           <div class="chips" data-egroup="dist">
             <button class="chip is-on" data-v="all">Any distance</button>
+            <button class="chip" data-v="5">Within 5 mi</button>
             <button class="chip" data-v="10">Within 10 mi</button>
             <button class="chip" data-v="20">Within 20 mi</button>
           </div>

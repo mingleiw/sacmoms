@@ -219,8 +219,6 @@
       var rows = events.map(function (e) { return { e: e, ended: evEnded(e, dateStr, now) }; });
       rows.sort(function (a, b) {
         if (a.ended !== b.ended) return a.ended ? 1 : -1;
-        var da = evDist(a.e), db = evDist(b.e);
-        if (da !== null && db !== null && da !== db) return da - db;
         var ta = a.e.time || '99:99', tb = b.e.time || '99:99';
         return ta < tb ? -1 : (ta > tb ? 1 : 0);
       });
