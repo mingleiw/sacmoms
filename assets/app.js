@@ -481,7 +481,10 @@
   /* An event counts as ended only when the organiser published an end time
      and it has passed. Without an end time we never guess. */
   function evEnded(e, now) {
-    if (picked !== 0 || !e.until) return false;
+    if (picked !== 0) return false;
+    /* After 8pm local, organisers are closed — everything today is done. */
+    if (now.getHours() >= 20) return true;
+    if (!e.until) return false;
     var p = e.until.split(':');
     var end = new Date(week[0]);
     end.setHours(+p[0], +p[1], 0, 0);

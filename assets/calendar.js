@@ -43,10 +43,12 @@
   var today = new Date(); today.setHours(0, 0, 0, 0);
   var todayStr = ymd(today);
 
-  /* An event counts as ended only when the organiser published an end time
-     and it has passed. Without an end time we never guess. */
+  /* An event counts as ended when the organiser published an end time and it
+     has passed, or once it is past 8pm local and organisers are closed. */
   function evEnded(e, dateStr, now) {
-    if (dateStr !== todayStr || !e.until) return false;
+    if (dateStr !== todayStr) return false;
+    if (now.getHours() >= 20) return true;
+    if (!e.until) return false;
     var p = e.until.split(':');
     var end = new Date(today);
     end.setHours(+p[0], +p[1], 0, 0);
