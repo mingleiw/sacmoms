@@ -696,5 +696,27 @@
   "day": 3,
   "origin": "marin-mommies",
   "until": "10:45"
+ },
+ {
+  "day": 3,
+  "time": "10:00",
+  "title": "Wednesday Family Storytime at A Seat at the Table Books",
+  "venue": "A Seat at the Table Books",
+  "city": "Elk Grove",
+  "region": "sac",
+  "ages": "Under 8",
+  "blurb": "Midweek storytime at Elk Grove's family-run bookshop and cafe. Free; all ages welcome.",
+  "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729"
+ },
+ {
+  "day": 2,
+  "time": "18:00",
+  "title": "Queer's Gambit Chess Club at A Seat at the Table Books",
+  "venue": "A Seat at the Table Books",
+  "city": "Elk Grove",
+  "region": "sac",
+  "ages": "Ages 5+",
+  "blurb": "Weekly chess club night at Elk Grove's family-run bookshop and cafe. Free and all are welcome.",
+  "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729"
  }
 ]

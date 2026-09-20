@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Daily refresh of Sacramento Public Library storytimes.
+"""Daily refresh of Sacramento Public Library storytimes and programs.
 
 The library schedules storytimes per date and rotates them between branches,
 so they cannot be encoded as weekly recurrences. Instead this script scrapes
@@ -7,11 +7,16 @@ the library's public event listing once a day and writes *dated* instances to
 data/dated_events_sac.json. build.py folds the next 7 days of those into each
 Sacramento-area town page.
 
+Storytimes are tracked at every branch. Beyond storytimes, the script also
+tracks other kid/family programs (homework help, teen nights, playgroups,
+movie nights, …) at the Elk Grove-area branches — Franklin and Elk Grove —
+where the site's other sources are thin. Adult programs are skipped.
+
     python3 scripts/refresh_storytimes.py
 
 Stdlib only. Reads nothing but the public listing; writes
 data/dated_events_sac.json. Exits non-zero, leaving the file untouched,
-when the listing fails or yields zero storytimes — the cron reports that
+when the listing fails or yields zero events — the cron reports that
 instead of publishing an empty calendar.
 """
 
@@ -92,6 +97,22 @@ def strip_tags(s):
     return re.sub(r"<[^>]+>", "", s or "").strip()
 
 
+def short_blurb(s, limit=160):
+    """First sentence of s, truncated at a word boundary to ~limit chars."""
+    s = re.sub(r"\s+", " ", s or "").strip()
+    if not s:
+        return ""
+    first = re.split(r"(?<=[.!?])\s+", s, maxsplit=1)[0]
+    if len(first) > limit:
+        first = first[:limit].rsplit(" ", 1)[0] + "…"
+    return first
+
+
+# Branches whose non-storytime programs we track (Elk Grove area; other
+# branches are covered by the site's other sources).
+PROGRAM_BRANCHES = ("Elk Grove", "Franklin")
+
+
 def parse_listing(html, today):
     events = []
     for block in html.split('<div class="amev-event">')[1:]:
@@ -102,8 +123,18 @@ def parse_listing(html, today):
         # The library's own listing sometimes uses a spaced "?" as a separator
         # ("Hora de Cuentos Bilingüe ? Bilingual Storytime"); normalize to a dash.
         title = re.sub(r"\s+\?\s+", " - ", title)
-        if "storytime" not in title.lower() and "cuentos" not in title.lower():
-            continue
+        is_storytime = "storytime" in title.lower() or "cuentos" in title.lower()
+        m = re.search(r'amev-event-location headingtext">.*?</i>\s*([^<]+)', block, re.S)
+        branch = strip_tags(m.group(1)) if m else ""
+        branch = re.sub(r"\s*-\s*$", "", branch).strip()
+        # Non-storytime programs are tracked only at the Elk Grove-area
+        # branches, where the site's other sources are thin. Adult programs
+        # are not family listings.
+        if not is_storytime:
+            if branch not in PROGRAM_BRANCHES:
+                continue
+            if "adult" in title.lower():
+                continue
         if "amev-event-canceled" in block or ">Cancelled<" in block or ">Rescheduled<" in block:
             continue
         m = re.search(r'amev-event-time headingtext">([^<]+)</div>', block)
@@ -120,22 +151,30 @@ def parse_listing(html, today):
             end = None
         if date < today.isoformat():
             continue
-        m = re.search(r'amev-event-location headingtext">.*?</i>\s*([^<]+)', block, re.S)
-        branch = strip_tags(m.group(1)) if m else ""
-        branch = re.sub(r"\s*-\s*$", "", branch).strip()
         m = re.search(r'amev-event-description">(.*?)</div>\s*</div>', block, re.S)
         desc = strip_tags(m.group(1)) if m else ""
 
         city = BRANCH_CITY.get(branch, "Sacramento" if branch else "")
         venue = branch if not branch else (branch if "Library" in branch else branch + " Library")
-        bilingual = "espa\u00f1ol" in desc.lower() or "cuentos" in desc.lower()
-        baby = "baby" in title.lower()
-        if baby:
-            blurb = "Gentle songs, rhymes and book-sharing for babies and caregivers."
+        if is_storytime:
+            bilingual = "espa\u00f1ol" in desc.lower() or "cuentos" in desc.lower()
+            baby = "baby" in title.lower()
+            if baby:
+                blurb = "Gentle songs, rhymes and book-sharing for babies and caregivers."
+            else:
+                blurb = "Songs, rhymes, movement and stories for young children."
+            if bilingual:
+                blurb += " Bilingual Spanish/English."
+            ages = "Babies 0\u201318 mo" if baby else "Ages 0\u20135"
         else:
-            blurb = "Songs, rhymes, movement and stories for young children."
-        if bilingual:
-            blurb += " Bilingual Spanish/English."
+            tl = title.lower()
+            if "teen" in tl or "homework" in tl:
+                ages = "Ages 5+"
+            elif "playgroup" in tl or "learn" in tl:
+                ages = "Ages 0\u20135"
+            else:
+                ages = "All ages"
+            blurb = short_blurb(desc) or "Library program for kids and families."
 
         events.append({
             "date": date,
@@ -144,7 +183,7 @@ def parse_listing(html, today):
             "venue": venue,
             "city": city,
             "region": "sac",
-            "ages": "Babies 0\u201318 mo" if baby else "Ages 0\u20135",
+            "ages": ages,
             "blurb": blurb,
             "source": url,
         })
@@ -168,13 +207,13 @@ def main():
     events = [e for e in parse_listing(html, today) if e["date"] <= cutoff]
     out = os.path.join(ROOT, "data", "dated_events_sac.json")
     if not events:
-        print("ERROR: zero storytimes parsed — leaving %s untouched" % out,
+        print("ERROR: zero library events parsed — leaving %s untouched" % out,
               file=sys.stderr)
         sys.exit(1)
     with open(out, "w", encoding="utf-8") as f:
         json.dump(events, f, ensure_ascii=False, indent=1)
         f.write("\n")
-    print("wrote %d dated storytimes to %s (through %s)" % (len(events), out, cutoff))
+    print("wrote %d dated library events to %s (through %s)" % (len(events), out, cutoff))
 
 
 if __name__ == "__main__":

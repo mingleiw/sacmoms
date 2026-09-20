@@ -1306,5 +1306,61 @@
   "ages": "All ages",
   "blurb": "Thursday 10:30am-1:30pm: live music and the Bodega Book Nook shaded reading spot at this downtown market. Free entry. The 2026 season runs through September.",
   "source": "https://www.downtownsac.org/events/bodega-market/"
+ },
+ {
+  "date": "2026-10-13",
+  "time": "17:00",
+  "title": "Second Tuesday Crafternoon at A Seat at the Table Books",
+  "venue": "A Seat at the Table Books",
+  "city": "Elk Grove",
+  "region": "sac",
+  "ages": "Ages 5+",
+  "blurb": "Monthly kids' crafternoon at Elk Grove's family-run bookshop and cafe. Free.",
+  "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729"
+ },
+ {
+  "date": "2026-11-10",
+  "time": "17:00",
+  "title": "Second Tuesday Crafternoon at A Seat at the Table Books",
+  "venue": "A Seat at the Table Books",
+  "city": "Elk Grove",
+  "region": "sac",
+  "ages": "Ages 5+",
+  "blurb": "Monthly kids' crafternoon at Elk Grove's family-run bookshop and cafe. Free.",
+  "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729"
+ },
+ {
+  "date": "2026-12-08",
+  "time": "17:00",
+  "title": "Second Tuesday Crafternoon at A Seat at the Table Books",
+  "venue": "A Seat at the Table Books",
+  "city": "Elk Grove",
+  "region": "sac",
+  "ages": "Ages 5+",
+  "blurb": "Monthly kids' crafternoon at Elk Grove's family-run bookshop and cafe. Free.",
+  "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729"
+ },
+ {
+  "date": "2027-01-12",
+  "time": "17:00",
+  "title": "Second Tuesday Crafternoon at A Seat at the Table Books",
+  "venue": "A Seat at the Table Books",
+  "city": "Elk Grove",
+  "region": "sac",
+  "ages": "Ages 5+",
+  "blurb": "Monthly kids' crafternoon at Elk Grove's family-run bookshop and cafe. Free.",
+  "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729"
+ },
+ {
+  "date": "2026-09-30",
+  "time": "17:30",
+  "until": "19:00",
+  "title": "Sneak Peek: Elk Grove's First Sensory Inclusive Space",
+  "venue": "A Seat at the Table Books",
+  "city": "Elk Grove",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Get a first look at the bookshop's new sensory inclusive space. Free.",
+  "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729"
  }
 ]
