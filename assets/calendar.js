@@ -43,6 +43,16 @@
   var today = new Date(); today.setHours(0, 0, 0, 0);
   var todayStr = ymd(today);
 
+  /* An event counts as ended only when the organiser published an end time
+     and it has passed. Without an end time we never guess. */
+  function evEnded(e, dateStr, now) {
+    if (dateStr !== todayStr || !e.until) return false;
+    var p = e.until.split(':');
+    var end = new Date(today);
+    end.setHours(+p[0], +p[1], 0, 0);
+    return now > end;
+  }
+
   /* Compute the range of months to show: from today's month through the last
      dated event's month. Weekly events repeat on every matching day. */
   var lastDate = todayStr;
@@ -202,11 +212,20 @@
     if (events.length === 0) {
       panel.innerHTML = '<p class="cal-no-events">Nothing listed on ' + esc(label) + '.</p>';
     } else {
+      var now = new Date();
+      /* Ended sessions sink to the bottom, mirroring the homepage week view. */
+      var rows = events.map(function (e) { return { e: e, ended: evEnded(e, dateStr, now) }; });
+      rows.sort(function (a, b) {
+        if (a.ended !== b.ended) return a.ended ? 1 : -1;
+        var ta = a.e.time || '99:99', tb = b.e.time || '99:99';
+        return ta < tb ? -1 : (ta > tb ? 1 : 0);
+      });
       var html = '<h4 class="cal-events-title">' + esc(label) +
         ' <span class="cal-events-count">' + events.length +
         (events.length === 1 ? ' event' : ' events') + '</span></h4>';
       html += '<div class="cal-events-list">';
-      html += events.map(function (e) {
+      html += rows.map(function (w) {
+        var e = w.e, ended = w.ended;
         var when = e.time ? hhmm(e.time) + (e.until ? ' – ' + hhmm(e.until) : '') : '';
         var dist = evDist(e);
         var distChip = dist !== null
@@ -215,10 +234,11 @@
         var seasonalTag = e.seasonal
           ? '<span class="ev-tag cal-seasonal-tag">Seasonal</span>'
           : '';
+        var endedTag = ended ? '<span class="ev-tag ev-ended">Ended</span>' : '';
         var media = e.photo
           ? '<div class="ev-media"><img class="ev-img" src="' + esc(e.photo) + '" alt="" loading="lazy" width="400" height="300"></div>'
           : '';
-        return '<article class="event">' +
+        return '<article class="event' + (ended ? ' is-ended' : '') + '">' +
           '<div class="ev-time' + (when ? '' : ' ev-time-unknown') + '">' +
             (when ? esc(when) : 'Time TBC') + '</div>' +
           media +
@@ -227,6 +247,7 @@
             '<p class="ev-where">' + esc(e.venue) + ', ' + esc(e.city) + '</p>' +
             '<p class="ev-blurb">' + esc(e.blurb) + '</p>' +
             '<div class="ev-foot">' +
+              endedTag +
               seasonalTag +
               distChip +
               '<span class="ev-tag">' + esc(e.ages) + '</span>' +
