@@ -22,6 +22,18 @@ python3 scripts/refresh_attraction_events.py  # Zoo, Fairytale Town, Effie Yeaw,
 python3 scripts/refresh_marin_storytimes.py || echo "warning: marin storytimes refresh failed; keeping last known-good" >&2
 python3 scripts/refresh_marin_events.py       || echo "warning: marin events refresh failed; keeping last known-good" >&2
 
+# Jev quality gate: every event file (weekly + dated one-offs) is re-checked
+# nightly. Confident rejects (stale/expired, not kid-appropriate) are moved to
+# data/events_quarantine.json for review instead of being silently deleted, and
+# a Jev/API failure keeps everything (fail-open) so the calendar never thins
+# out over an outage. Non-fatal on purpose, like geocoding below.
+shopt -s nullglob
+python3 scripts/gate_events.py \
+  --events data/events.json data/dated_events_*.json \
+  --quarantine data/events_quarantine.json \
+  || echo "warning: Jev quality gate failed; keeping last known-good" >&2
+shopt -u nullglob
+
 # New venues appear whenever the library rotates storytimes to a branch we have
 # not seen. This only looks up the ones missing coordinates, so it is usually a
 # no-op. Non-fatal on purpose: a geocoder outage must not block the push, and

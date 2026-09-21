@@ -11,6 +11,8 @@ scripts/daily_refresh.sh is a separate, approved step.
 Usage:
   scripts/gate_events.py --events candidates.json --out accepted.json --rejected rejected.json
   scripts/gate_events.py --events data/events.json --limit 5   # dry-run preview
+  scripts/gate_events.py --events data/events.json data/dated_events_*.json \\
+      --quarantine data/events_quarantine.json   # nightly: gate in place, quarantine rejects
 """
 
 import argparse
@@ -71,10 +73,14 @@ WEEKDAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", 
 
 def parse_args():
     p = argparse.ArgumentParser(description="Jev quality gate for event candidates")
-    p.add_argument("--events", required=True, help="JSON file with an array of event dicts")
-    p.add_argument("--out", help="Write accepted events here (JSON)")
-    p.add_argument("--rejected", help="Write rejected events here (JSON)")
-    p.add_argument("--limit", type=int, default=0, help="Only process the first N events")
+    p.add_argument("--events", required=True, nargs="+",
+                   help="JSON files, each holding an array of event dicts")
+    p.add_argument("--out", help="Write accepted events here (JSON, single-file mode)")
+    p.add_argument("--rejected", help="Write rejected events here (JSON, single-file mode)")
+    p.add_argument("--quarantine",
+                   help="Nightly mode: rewrite each input file in place with accepted "
+                        "events, and write all rejected events here")
+    p.add_argument("--limit", type=int, default=0, help="Only process the first N events per file")
     return p.parse_args()
 
 
@@ -138,13 +144,12 @@ def gate_event(event):
     return "LIST", reasons, details
 
 
-def main():
-    args = parse_args()
-    with open(args.events, encoding="utf-8") as f:
+def process_file(path, limit):
+    """Gate one events file. Returns (accepted, rejected)."""
+    with open(path, encoding="utf-8") as f:
         events = json.load(f)
-    if args.limit:
-        events = events[: args.limit]
-
+    if limit:
+        events = events[:limit]
     accepted, rejected = [], []
     for event in events:
         title = event.get("title", "?")
@@ -159,8 +164,38 @@ def main():
         note = f" ({'; '.join(reasons)})" if reasons else ""
         print(f"  [{tag}] {title}{note}")
         (accepted if verdict == "LIST" else rejected).append(enriched)
+    return accepted, rejected
 
-    print(f"\n{len(accepted)} accepted, {len(rejected)} rejected out of {len(events)}")
+
+def main():
+    args = parse_args()
+
+    if args.quarantine:
+        # Nightly mode: gate every file in place, quarantine all rejects.
+        all_rejected = []
+        today = datetime.now(ZoneInfo("America/Los_Angeles")).strftime("%Y-%m-%d")
+        for path in args.events:
+            try:
+                accepted, rejected = process_file(path, args.limit)
+            except FileNotFoundError:
+                print(f"  [SKIP] {path}: no such file")
+                continue
+            for event in rejected:
+                event["_quarantined_from"] = path
+                event["_quarantined_on"] = today
+            all_rejected.extend(rejected)
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(accepted, f, indent=2, ensure_ascii=False)
+            print(f"{path}: {len(accepted)} kept, {len(rejected)} quarantined")
+        with open(args.quarantine, "w", encoding="utf-8") as f:
+            json.dump(all_rejected, f, indent=2, ensure_ascii=False)
+        print(f"\nquarantined {len(all_rejected)} events -> {args.quarantine}")
+        return
+
+    if len(args.events) > 1:
+        raise SystemExit("give --quarantine to gate multiple files, or pass one file")
+    accepted, rejected = process_file(args.events[0], args.limit)
+    print(f"\n{len(accepted)} accepted, {len(rejected)} rejected")
     if args.out:
         with open(args.out, "w", encoding="utf-8") as f:
             json.dump(accepted, f, indent=2, ensure_ascii=False)
