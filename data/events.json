@@ -146,6 +146,28 @@
   "origin": "adventure-playground"
  },
  {
+  "day": 3,
+  "time": "10:00",
+  "title": "Wednesday Family Storytime at A Seat at the Table Books",
+  "venue": "A Seat at the Table Books",
+  "city": "Elk Grove",
+  "region": "sac",
+  "ages": "Under 8",
+  "blurb": "Midweek storytime at Elk Grove's family-run bookshop and cafe. Free; all ages welcome.",
+  "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729"
+ },
+ {
+  "day": 2,
+  "time": "18:00",
+  "title": "Queer's Gambit Chess Club at A Seat at the Table Books",
+  "venue": "A Seat at the Table Books",
+  "city": "Elk Grove",
+  "region": "sac",
+  "ages": "Ages 5+",
+  "blurb": "Weekly chess club night at Elk Grove's family-run bookshop and cafe. Free and all are welcome.",
+  "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729"
+ },
+ {
   "time": "10:30",
   "title": "Baby Bounce",
   "venue": "Belvedere Tiburon Library-Children's Room",
@@ -159,19 +181,6 @@
   "until": "10:45"
  },
  {
-  "time": "10:00",
-  "title": "Bilingual Storytime with Arlette",
-  "venue": "Belvedere Tiburon Library-Founders Room",
-  "city": "Tiburon",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Join us for an interactive bilingual Spanish and English storytime for infants and toddlers. Bring",
-  "source": "https://www.beltiblibrary.org/events",
-  "day": 4,
-  "until": "10:30",
-  "origin": "marin-mommies"
- },
- {
   "time": "12:00",
   "title": "Corte Madera Farmers Market",
   "venue": "Town Center Corte Madera",
@@ -183,6 +192,19 @@
   "day": 3,
   "origin": "marin-mommies",
   "until": "17:00"
+ },
+ {
+  "time": "10:00",
+  "title": "Drop-in Lego Play at Play-Well Marin",
+  "venue": "Play-Well Marin Activity Center",
+  "city": "San Anselmo",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Drop-in for Lego play for all ages. Drop-In Rates $12/hr per child (prorated every 15 minutes)",
+  "source": "https://www.marinmommies.com/calendar/drop-lego-play-9",
+  "day": 4,
+  "origin": "marin-mommies",
+  "until": "18:00"
  },
  {
   "time": "09:30",
@@ -221,18 +243,6 @@
   "day": 3,
   "origin": "marin-mommies",
   "until": "20:00"
- },
- {
-  "time": "10:00",
-  "title": "Family Storytime at the Larkspur Library",
-  "venue": "Larkspur Library",
-  "city": "Larkspur",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Storytimes are a great way to introduce your children to the five early literacy skills (talk, sing",
-  "source": "https://www.marinmommies.com/calendar/family-storytime-larkspur-library-6",
-  "day": 5,
-  "origin": "marin-mommies"
  },
  {
   "time": "09:30",
@@ -274,6 +284,19 @@
   "until": "11:00"
  },
  {
+  "time": "09:00",
+  "title": "Goblin Jamboree at the Bay Area Discovery Museum",
+  "venue": "Bay Area Discovery Museum",
+  "city": "Sausalito",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "The Bay Area Discovery Museum's annual Goblin Jamboree fundraiser, the longest running Halloween",
+  "source": "https://www.marinmommies.com/calendar/goblin-jamboree-bay-area-discovery-museum",
+  "day": 6,
+  "origin": "marin-mommies",
+  "until": "16:00"
+ },
+ {
   "time": "11:00",
   "title": "Off the Grid Treasure Island",
   "venue": "Treasure Island",
@@ -300,6 +323,19 @@
   "origin": "marin-mommies"
  },
  {
+  "time": "10:00",
+  "title": "Honor System Pumpkin Patch at Marin Country Mart",
+  "venue": "Marin Country Mart by Starbucks and in front of the Trading Post",
+  "city": "Larkspur",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Local heirloom pumpkins at our Honor System Pumpkin Patch, open through October 31st. Traditional",
+  "source": "https://www.marinmommies.com/calendar/honor-system-pumpkin-patch-marin-country-mart",
+  "day": 4,
+  "origin": "marin-mommies",
+  "until": "18:00"
+ },
+ {
   "time": "09:30",
   "title": "Jump-up Class (crawling to 26 months)",
   "venue": "San Rafael Community Center",
@@ -321,7 +357,7 @@
   "ages": "All ages",
   "blurb": "Lemos Farm's pumpkin patch in Half Moon Bay opens this Labor Day weekend! This farm-themed",
   "source": "https://www.lemosfarm.com/",
-  "day": 6,
+  "day": 0,
   "origin": "marin-mommies",
   "until": "17:00"
  },
@@ -442,31 +478,6 @@
   "origin": "marin-mommies"
  },
  {
-  "time": "16:00",
-  "title": "Novato Farmers Market",
-  "venue": "Downtown Novato",
-  "city": "Novato",
-  "region": "marin",
-  "ages": "All ages",
-  "blurb": "The Downtown Novato Community Farmers Market opens for its 2026 season tonight, Tuesday, May 5. The",
-  "source": "https://www.ilovefarmersmarkets.org/",
-  "day": 2,
-  "until": "20:00",
-  "origin": "marin-mommies"
- },
- {
-  "time": "11:00",
-  "title": "Oktoberfest at the Mart!",
-  "venue": "Marin Country Mart",
-  "city": "Larkspur",
-  "region": "marin",
-  "ages": "All ages",
-  "blurb": "Prost! Marin Oktoberfest is back at the Mart for a day of Bavarian-inspired food, music,",
-  "source": "https://www.marinmommies.com/calendar/oktoberfest-mart",
-  "day": 0,
-  "origin": "marin-mommies"
- },
- {
   "time": "11:00",
   "title": "Oktoberfest at Six Flags Discovery Kingdom",
   "venue": "Six Flags Discovery Kingdom",
@@ -475,7 +486,7 @@
   "ages": "All ages",
   "blurb": "Oktoberfest at Six Flags Discovery Kingdom is a one-of-a-kind festival experience — chase the rush",
   "source": "https://www.sixflags.com/discoverykingdom/events/oktoberfest",
-  "day": 6,
+  "day": 0,
   "origin": "marin-mommies"
  },
  {
@@ -493,6 +504,18 @@
  },
  {
   "time": "10:00",
+  "title": "Open Jump: Pump it Up",
+  "venue": "Pump it Up",
+  "city": "Santa Rosa",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Our Open Jumps are open play time where your child can have the time of their life. Our massive",
+  "source": "https://www.marinmommies.com/calendar/open-jump-pump-it-0",
+  "day": 1,
+  "origin": "marin-mommies"
+ },
+ {
+  "time": "10:00",
   "title": "Petaluma Pumpkin Patch and Amazing Corn Maze",
   "venue": "Petaluma Pumpkin Patch",
   "city": "Petaluma",
@@ -500,7 +523,7 @@
   "ages": "All ages",
   "blurb": "The Petaluma Pumpkin Patch and Amazing Corn Maze has over 5 acres of home grown pumpkins. Over 50",
   "source": "https://www.marinmommies.com/calendar/petaluma-pumpkin-patch-and-amazing-corn-maze-15",
-  "day": 5,
+  "day": 6,
   "origin": "marin-mommies",
   "until": "22:00"
  },
@@ -544,28 +567,15 @@
   "until": "16:00"
  },
  {
-  "time": "09:00",
-  "title": "Santa Rosa Pumpkin Patch",
-  "venue": "Santa Rosa Pumpkin Patch",
+  "time": "10:00",
+  "title": "Pronzini Pumpkin Patch",
+  "venue": "Pronzini Farms",
   "city": "Petaluma",
   "region": "marin",
   "ages": "All ages",
-  "blurb": "Santa Rosa Pumpkin Patch offers eight acres of pumpkins, a huge seven-acre corn maze, kiddy corn",
-  "source": "https://www.marinmommies.com/calendar/santa-rosa-pumpkin-patch-17",
-  "day": 0,
-  "origin": "marin-mommies",
-  "until": "20:00"
- },
- {
-  "time": "10:00",
-  "title": "Sausalito Boat Show",
-  "venue": "Clipper Yacht Harbor",
-  "city": "Sausalito",
-  "region": "marin",
-  "ages": "All ages",
-  "blurb": "This inaugural event is a celebration of maritime excellence and local culture, offering a diverse",
-  "source": "https://www.marinmommies.com/calendar/sausalito-boat-show-0",
-  "day": 5,
+  "blurb": "The Pronzini Farms Pumpkin Patch in Petaluma offers acres of fun in the fall. Pick pumpkins, play",
+  "source": "https://www.marinmommies.com/calendar/pronzini-pumpkin-patch-13",
+  "day": 6,
   "origin": "marin-mommies"
  },
  {
@@ -592,19 +602,6 @@
   "day": 4,
   "origin": "marin-mommies",
   "until": "10:30"
- },
- {
-  "time": "10:00",
-  "title": "Stories and Rhyme Wiggle Time @ Pioneer Park",
-  "venue": "Pioneer Park",
-  "city": "Novato",
-  "region": "marin",
-  "ages": "Under 6",
-  "blurb": "Note: Held at Pioneer Park during Novato Library closure*. Join us on Tuesdays at 10am for Stories",
-  "source": "https://marinlibrary.bibliocommons.com/events/6a1b096752c88111723bd006",
-  "day": 2,
-  "until": "10:30",
-  "origin": "marin-mommies"
  },
  {
   "time": "11:00",
@@ -659,19 +656,6 @@
   "origin": "marin-mommies"
  },
  {
-  "time": "10:15",
-  "title": "Tuesday Toddler Storytime",
-  "venue": "Belvedere Tiburon Library-Founders Room",
-  "city": "Tiburon",
-  "region": "marin",
-  "ages": "Under 3",
-  "blurb": "Join us for a fun and interactive Storytime for toddlers! We will sing songs, move our bodies, read",
-  "source": "https://www.beltiblibrary.org/events",
-  "day": 2,
-  "until": "10:45",
-  "origin": "marin-mommies"
- },
- {
   "time": "10:00",
   "title": "Visit the Marine Mammal Center",
   "venue": "Marine Mammal Center",
@@ -680,7 +664,7 @@
   "ages": "All ages",
   "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
   "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 6,
+  "day": 0,
   "until": "16:00",
   "origin": "marin-mommies"
  },
@@ -696,27 +680,5 @@
   "day": 3,
   "origin": "marin-mommies",
   "until": "10:45"
- },
- {
-  "day": 3,
-  "time": "10:00",
-  "title": "Wednesday Family Storytime at A Seat at the Table Books",
-  "venue": "A Seat at the Table Books",
-  "city": "Elk Grove",
-  "region": "sac",
-  "ages": "Under 8",
-  "blurb": "Midweek storytime at Elk Grove's family-run bookshop and cafe. Free; all ages welcome.",
-  "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729"
- },
- {
-  "day": 2,
-  "time": "18:00",
-  "title": "Queer's Gambit Chess Club at A Seat at the Table Books",
-  "venue": "A Seat at the Table Books",
-  "city": "Elk Grove",
-  "region": "sac",
-  "ages": "Ages 5+",
-  "blurb": "Weekly chess club night at Elk Grove's family-run bookshop and cafe. Free and all are welcome.",
-  "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729"
  }
 ]
