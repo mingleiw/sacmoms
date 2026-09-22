@@ -1,74 +1,116 @@
 [
- {
-  "date": "2026-09-19",
-  "time": "10:00",
-  "title": "Nature of Reading",
-  "venue": "Effie Yeaw Nature Center",
-  "city": "Carmichael",
-  "region": "sac",
-  "ages": "Ages 5–8",
-  "blurb": "Spark a love of reading—and nature—with our Nature of Reading Program! Designed for ages 5 - 8.",
-  "source": "https://www.effieyeawnature.org/event-details/nature-of-reading-2026-09-19-22-00",
-  "until": "11:00"
- },
- {
-  "date": "2026-09-26",
-  "time": "10:00",
-  "title": "Golden-State Snakes: An Introduction to Some of California’s Most Spectacular Serpents",
-  "venue": "Effie Yeaw Nature Center",
-  "city": "Carmichael",
-  "region": "sac",
-  "ages": "All ages",
-  "blurb": "What kind of snakes live in California? Discover what spectacular serpents reside in this beautiful state!",
-  "source": "https://www.effieyeawnature.org/event-details/golden-state-snakes-an-introduction-to-some-of-californias-most-spectacular-serpents",
-  "until": "11:00"
- },
- {
-  "date": "2026-09-26",
-  "time": "18:00",
-  "title": "Harvest Moon River Walk",
-  "venue": "Effie Yeaw Nature Center",
-  "city": "Carmichael",
-  "region": "sac",
-  "ages": "All ages",
-  "blurb": "Celebrate the coming of Autumnal Equinox at Effie Yeaw Nature Center!",
-  "source": "https://www.effieyeawnature.org/event-details/harvest-moon-river-walk",
-  "until": "20:30"
- },
- {
-  "date": "2026-10-13",
-  "time": "09:30",
-  "title": "Mighty Acorns",
-  "venue": "Effie Yeaw Nature Center",
-  "city": "Carmichael",
-  "region": "sac",
-  "ages": "Ages 2–5",
-  "blurb": "Discover the joy of learning through nature at the Effie Yeaw Nature Center! Designed for ages 2 - 5. Click on a date below to register.",
-  "source": "https://www.effieyeawnature.org/event-details/mighty-acorns-2026-10-13-09-30",
-  "until": "11:00"
- },
- {
-  "date": "2026-10-25",
-  "time": "18:00",
-  "title": "Creatures of the Night Effie Yeaw Nature Center",
-  "venue": "Effie Yeaw Nature Center",
-  "city": "Carmichael",
-  "region": "sac",
-  "ages": "All ages",
-  "blurb": "When the sun sets and the full moon rises, a whole new world comes alive at Effie Yeaw Nature Center. Join us for a spellbinding evening dedicated to the fascinating, misunderstood, and delightfully spooky creatures that",
-  "source": "https://www.effieyeawnature.org/event-details/creatures-of-the-night-effie-yeaw-nature-center-2",
-  "until": "20:30"
- },
- {
-  "date": "2026-11-14",
-  "time": "11:00",
-  "title": "Holiday Bird House Painting",
-  "venue": "Effie Yeaw Nature Center",
-  "city": "Carmichael",
-  "region": "sac",
-  "ages": "All ages",
-  "blurb": "Tap into your creative side by painting a unique bird house for some feathery friends!",
-  "source": "https://www.effieyeawnature.org/event-details/holiday-bird-house-painting-4",
-  "until": "14:00"
- }
+  {
+    "date": "2026-09-26",
+    "time": "10:00",
+    "title": "Golden-State Snakes: An Introduction to Some of California’s Most Spectacular Serpents",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "What kind of snakes live in California? Discover what spectacular serpents reside in this beautiful state!",
+    "source": "https://www.effieyeawnature.org/event-details/golden-state-snakes-an-introduction-to-some-of-californias-most-spectacular-serpents",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.91,
+      "stale_p": 0.06,
+      "category": "outdoor",
+      "quality": 1.6
+    }
+  },
+  {
+    "date": "2026-09-26",
+    "time": "18:00",
+    "title": "Harvest Moon River Walk",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Celebrate the coming of Autumnal Equinox at Effie Yeaw Nature Center!",
+    "source": "https://www.effieyeawnature.org/event-details/harvest-moon-river-walk",
+    "until": "20:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.92,
+      "stale_p": 0.06,
+      "category": "seasonal",
+      "quality": 1.5
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "time": "09:30",
+    "title": "Mighty Acorns",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "Ages 2–5",
+    "blurb": "Discover the joy of learning through nature at the Effie Yeaw Nature Center! Designed for ages 2 - 5. Click on a date below to register.",
+    "source": "https://www.effieyeawnature.org/event-details/mighty-acorns-2026-10-13-09-30",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.04,
+      "category": "outdoor",
+      "quality": 1.44
+    }
+  },
+  {
+    "date": "2026-10-17",
+    "time": "10:00",
+    "title": "Nature of Reading",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "Ages 5–8",
+    "blurb": "Spark a love of reading—and nature—with our Nature of Reading Program! Designed for ages 5 - 8.",
+    "source": "https://www.effieyeawnature.org/event-details/nature-of-reading-2026-10-17-22-00",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.04,
+      "category": "storytime",
+      "quality": 1.44
+    }
+  },
+  {
+    "date": "2026-10-25",
+    "time": "18:00",
+    "title": "Creatures of the Night Effie Yeaw Nature Center",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "When the sun sets and the full moon rises, a whole new world comes alive at Effie Yeaw Nature Center. Join us for a spellbinding evening dedicated to the fascinating, misunderstood, and delightfully spooky creatures that",
+    "source": "https://www.effieyeawnature.org/event-details/creatures-of-the-night-effie-yeaw-nature-center-2",
+    "until": "20:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.76,
+      "stale_p": 0.04,
+      "category": "outdoor",
+      "quality": 1.34
+    }
+  },
+  {
+    "date": "2026-11-14",
+    "time": "11:00",
+    "title": "Holiday Bird House Painting",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Tap into your creative side by painting a unique bird house for some feathery friends!",
+    "source": "https://www.effieyeawnature.org/event-details/holiday-bird-house-painting-4",
+    "until": "14:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.93,
+      "stale_p": 0.05,
+      "category": "seasonal",
+      "quality": 1.55
+    }
+  }
 ]

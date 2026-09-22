@@ -37,6 +37,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
@@ -51,10 +52,23 @@ ABBR = {"jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
         "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12}
 
 
-def fetch(url):
-    r = subprocess.run(["curl", "-sL", "--max-time", "40", "-A", UA, url],
-                       capture_output=True, text=True)
-    return r.stdout or ""
+def fetch(url, retries=5):
+    # visitmosac.org sits behind a Sucuri-style bot challenge ("sgcaptcha")
+    # that fires intermittently: the same URL returns either the real page or
+    # a ~200-byte meta-refresh to /.well-known/sgcaptcha/. Documented
+    # 2026-09-18: the challenge aborted the nightly run twice even though the
+    # page loaded fine seconds earlier/later. Retrying with a pause usually
+    # clears it; a persistent block still fails the caller's content checks,
+    # so the gating semantics (no silent thinner calendar) are unchanged.
+    body = ""
+    for _ in range(retries):
+        r = subprocess.run(["curl", "-sL", "--max-time", "40", "-A", UA, url],
+                           capture_output=True, text=True)
+        body = r.stdout or ""
+        if body and "sgcaptcha" not in body:
+            return body
+        time.sleep(10)
+    return body
 
 
 def page_text(html_doc):
@@ -210,7 +224,7 @@ FT_BLURB_OVERRIDES = {
 }
 
 
-def ft_venue(e):
+def ft_venue(e, title):
     """Real venue for a Fairytale Town listing, which is not always their park.
 
     They publish off-site events on the same calendar (the Dirty Kid Obstacle
@@ -219,6 +233,12 @@ def ft_venue(e):
     the API names as Fairytale Town keeps that exact string so it still
     matches venues.json; only a clearly different venue overrides it, and an
     absent or unexpected shape falls back to the old behaviour.
+
+    Note: the API's venue record itself is unreliable for off-site events --
+    the Dirty Kid race's venue field still says "Fairytale Town" (their
+    default venue record) with the real location only in the title. So when
+    the API venue is Fairytale Town, check the title against known off-site
+    locations before falling back.
     """
     v = e.get("venue")
     if isinstance(v, dict):
@@ -226,7 +246,19 @@ def ft_venue(e):
         city = html.unescape(str(v.get("city") or "")).strip()
         if name and "fairytale" not in name.lower():
             return name, city or "Sacramento"
+    tl = (title or "").lower()
+    for key, venue in FT_OFFSITE_VENUES.items():
+        if key in tl:
+            return venue, "Sacramento"
     return "Fairytale Town", "Sacramento"
+
+
+# Off-site locations Fairytale Town publishes on its own calendar while the
+# API venue record still says "Fairytale Town". Keyed on distinctive title
+# fragments; checked only when the API venue is Fairytale Town itself.
+FT_OFFSITE_VENUES = {
+    "sacramento adventure playground": "Sacramento Adventure Playground",
+}
 
 
 def refresh_fairytale(today):
@@ -255,7 +287,7 @@ def refresh_fairytale(today):
             continue
         desc = html.unescape(re.sub(r"<[^>]+>", " ", e.get("description") or ""))
         desc = re.sub(r"\s+", " ", desc).strip()
-        venue, city = ft_venue(e)
+        venue, city = ft_venue(e, title)
         entries.append(entry(
             sd, title, venue, city, e.get("url") or FT_API,
             FT_BLURB_OVERRIDES.get(title, desc[:220]),

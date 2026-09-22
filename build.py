@@ -13,7 +13,7 @@ that city. Doing it here rather than in the browser means each page ships
 genuinely different, crawlable content and still works with JavaScript off.
 """
 
-import json, math, os, re, shutil, html, datetime, hashlib, urllib.parse
+import json, math, os, re, shutil, html, datetime, hashlib
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE_NAME = 'SacMoms'
@@ -41,12 +41,6 @@ STYLE_V = _asset_v('assets/style.css')
 # it drives every canonical URL and the sitemap, and a wrong value silently tells
 # search engines the pages live somewhere they don't.
 BASE_URL = 'https://sacmoms.com/'
-
-# Shown on /contact/ and linked from every footer. This address must actually
-# receive mail before the page ships -- a contact page pointing at a dead inbox
-# is worse than none, because a venue that writes in and hears nothing back
-# concludes the site is abandoned.
-CONTACT_EMAIL = 'hello@sacmoms.com'
 
 # A city needs at least this many places within MAX_MILES to get its own page.
 # Below that the page would be mostly other cities' content — thin, duplicated,
@@ -96,42 +90,6 @@ def fmt_checked(iso):
         return iso
 
 
-UTM_TAGS = (('utm_source', 'sacmoms'), ('utm_medium', 'referral'))
-
-
-def utm(url):
-    """Tag an outbound venue link so the venue sees the referral as ours.
-
-    A venue measures us in its own analytics, and that is the number worth
-    having when asking one to sponsor: they can verify it themselves. Only
-    http(s) links are tagged, an existing query string and fragment are
-    preserved, and a link that already carries a utm_source is left alone.
-
-    Applied at render time only. The canonical URL goes in JSON-LD and gets
-    no tag -- telling search engines an event lives at a tagged URL is how
-    you end up with the tagged one indexed.
-    """
-    if not url or not url.startswith(('http://', 'https://')):
-        return url
-    parts = urllib.parse.urlsplit(url)
-    q = urllib.parse.parse_qsl(parts.query, keep_blank_values=True)
-    if any(k == 'utm_source' for k, _ in q):
-        return url
-    q.extend(UTM_TAGS)
-    return urllib.parse.urlunsplit((parts.scheme, parts.netloc, parts.path,
-                                    urllib.parse.urlencode(q), parts.fragment))
-
-
-def ev_tagged(events):
-    """Copies of the event payload with outbound source links tagged.
-
-    Copies because the underlying dicts are shared across city pages; tagging
-    in place would append the parameters again on every later page.
-    """
-    return [dict(e, source=utm(e['source'])) if e.get('source') else e
-            for e in events]
-
-
 REGIONS = {'sf': 'San Francisco', 'marin': 'Marin & North Bay', 'east': 'East Bay',
            'peninsula': 'Peninsula', 'south': 'South Bay', 'sac': 'Sacramento area'}
 
@@ -172,6 +130,37 @@ def photo_for(slug):
     return 'assets/photos/%s.webp' % slug if os.path.exists(p) else None
 
 
+# Event venues whose photo file doesn't match slugify(venue). The file on the
+# right already exists in assets/photos; the key is slugify(venue name).
+VENUE_PHOTO_ALIASES = {
+    'sacramento-children-s-museum': 'sacramento-children-rsquo-s-museum',
+    'keema-s-pumpkin-farm': 'keemas-pumpkin-2026',
+    'cool-patch-pumpkins': 'cool-patch-2026',
+    'dave-s-pumpkin-patch': 'daves-pumpkin-2026',
+    'museum-of-science-and-curiosity': 'smud-museum-of-science-and-curiosity',
+    # Farmers markets each have their own real photo now.
+    'laguna-gateway-center': 'elk-grove-farmers-market',
+    'old-town-elk-grove': 'old-town-elk-grove-farmers-market',
+    'historic-folsom-plaza': 'historic-folsom-farmers-market',
+}
+
+
+def event_photo(venue):
+    """Photo path for a calendar event, resolved from its venue.
+
+    Returns the site-root-relative path (assets/photos/....webp) or None.
+    Library branches use their own building photo (<venue-slug>.webp),
+    falling back to the Central Library photo; drop a <venue-slug>.webp
+    into assets/photos to cover any other venue."""
+    slug = VENUE_PHOTO_ALIASES.get(slugify(venue or ''), slugify(venue or ''))
+    ph = photo_for(slug)
+    if ph:
+        return ph
+    if 'library' in (venue or '').lower():
+        return photo_for('sacramento-public-library')
+    return None
+
+
 SPRITE = read('templates/sprite.svg')
 TIPS = read('templates/tips.html')
 
@@ -190,7 +179,8 @@ HEAD = '''<!DOCTYPE html>
 <meta property="og:description" content="{desc}" />
 <meta property="og:url" content="{canonical}" />
 {og_image}
-<link rel="icon" href="{up}assets/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="{up}assets/favicon-48.png" sizes="48x48" type="image/png" />
+<link rel="apple-touch-icon" href="{up}assets/apple-touch-icon.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
@@ -207,7 +197,7 @@ HEAD = '''<!DOCTYPE html>
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="{up}">
-      <span class="brand-mark" aria-hidden="true"><svg width="19" height="19"><use href="#i-park"/></svg></span>
+      <img class="brand-mark" src="{up}assets/favicon-48.png" width="34" height="34" alt="" />
       <span class="brand-text">
         <strong>''' + SITE_NAME + '''</strong>
         <small>Where to take the kids</small>
@@ -225,14 +215,12 @@ HEAD = HEAD.replace('__STYLE_V__', STYLE_V)
 FOOT = '''
 <footer class="site-footer">
   <div class="wrap footer-inner">
-    <p class="footer-brand">''' + SITE_NAME + '''</p>
-    <p class="footer-note">Find somewhere to take the kids today.</p>
-    <p class="footer-disclaimer">
-      Places listed are long-running and established.
-      <strong>Hours, admission and seasonal closures change without notice &mdash; always
-      confirm through the map link before you set out.</strong>
-    </p>
-    <p class="footer-links"><a href="/contact/">Contact &amp; corrections</a></p>
+    <div class="footer-brandcol">
+      <p class="footer-brand">''' + SITE_NAME + '''</p>
+      <p class="footer-note">Find somewhere to take the kids today.</p>
+      <p class="footer-note"><a href="mailto:hello@sacmoms.com">Contact us</a> &mdash; event tips and corrections welcome.</p>
+    </div>
+    <p class="footer-copy">&copy; 2026 ''' + SITE_NAME + '''</p>
   </div>
 </footer>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "96be0c24d1da427b89065462a3b5fc07"}'></script><!-- End Cloudflare Web Analytics -->
@@ -286,11 +274,11 @@ def place_card(p, dist=None, up='../'):
             'target="_blank" rel="noopener">Directions</a>' % p['mapq']]
     if p.get('url'):
         acts.append('<a class="offsite" href="%s" target="_blank" rel="noopener">'
-                    'Official site</a>' % html.escape(utm(p['url'])))
+                    'Official site</a>' % html.escape(p['url']))
     tickets = (p.get('spec') or {}).get('tickets_url')
     if tickets:
         acts.append('<a class="tickets" href="%s" target="_blank" rel="noopener">'
-                    'Tickets</a>' % html.escape(utm(tickets)))
+                    'Tickets</a>' % html.escape(tickets))
     actions = '<div class="card-acts">%s</div>' % ''.join(acts)
     return '''
         <article class="card{imgcls}" data-cat="{cat}" data-age="{age}" data-region="{region}" data-env="{env}"{dattr} data-lat="{lat}" data-lon="{lon}">
@@ -367,6 +355,7 @@ EV_FILTERS = '''
           <span class="filter-label">Distance</span>
           <div class="chips" data-egroup="dist">
             <button class="chip is-on" data-v="all">Any distance</button>
+            <button class="chip" data-v="5">Within 5 mi</button>
             <button class="chip" data-v="10">Within 10 mi</button>
             <button class="chip" data-v="20">Within 20 mi</button>
           </div>
@@ -630,7 +619,7 @@ def seasonal_section_html(groups, town_name):
        html.escape(g['blurb']),
        dist_chip, html.escape(g['ages']),
        html.escape(g['venue'] + ' ' + g['city']),
-       '<a class="ev-src" href="%s" target="_blank" rel="noopener">Official site</a>' % html.escape(utm(g['source'])) if g.get('source') else '')
+       '<a class="ev-src" href="%s" target="_blank" rel="noopener">Official site</a>' % html.escape(g['source']) if g.get('source') else '')
         out += '''      </div>
     </div>
   </section>
@@ -756,6 +745,8 @@ def calendar_page(town, events, dated, base):
             e['lon'] = vc[1]
         e['age_tags'] = EVENT_AGE_TAGS.get(e.get('ages'), '0-2 3-5 6-9 10+')
         e['env'] = event_env(e)
+        ph = event_photo(e.get('venue'))
+        e['photo'] = '../../' + ph if ph else None
         ranked_ev.append(e)
     ev = ranked_ev
 
@@ -789,7 +780,7 @@ def calendar_page(town, events, dated, base):
 
     out += '<script>\nvar TOWN = %s;\nvar CAL_EVENTS = %s;\n</script>\n' % (
         json.dumps({'name': name, 'lat': town['lat'], 'lon': town['lon']}),
-        json.dumps(ev_tagged(ev), ensure_ascii=False))
+        json.dumps(ev, ensure_ascii=False))
     out += '<script src="../../assets/calendar.js?v=' + CAL_JS_V + '"></script>\n'
     out += FOOT
     return out
@@ -958,6 +949,8 @@ def city_page(town, places, events, dated, base):
             e['lon'] = vc[1]
         e['age_tags'] = EVENT_AGE_TAGS.get(e.get('ages'), '0-2 3-5 6-9 10+')
         e['env'] = event_env(e)
+        ph = event_photo(e.get('venue'))
+        e['photo'] = '../' + ph if ph else None
         ranked_ev.append(e)
     ev = ranked_ev
 
@@ -1076,7 +1069,7 @@ def city_page(town, places, events, dated, base):
     out += places_jsonld([p for _, p in listed])
     out += '<script>\nvar TOWN = %s;\nvar EVENTS = %s;\n</script>\n' % (
         json.dumps({'name': name, 'lat': town['lat'], 'lon': town['lon']}),
-        json.dumps(ev_tagged(ev), ensure_ascii=False))
+        json.dumps(ev, ensure_ascii=False))
     out += '<script src="../assets/app.js?v=' + APP_JS_V + '"></script>\n'
     check_app_contract(out, slug)
     out += FOOT
@@ -1098,7 +1091,17 @@ def root_page(towns_with_pages, places, base):
             '%d cities across %s.' % (len(towns_with_pages), area))
 
     out = HEAD.format(title=html.escape(title, quote=True), desc=html.escape(desc, quote=True),
-                      canonical=base, up='', nav='', og_image='')
+                      canonical=base, up='', nav='',
+                      og_image='<meta property="og:image" content="%sassets/logo.png" />' % base)
+
+    # Organization logo structured data, so Google can render the logo in search.
+    out = out.replace('</head>', '''
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "Organization",
+ "name": "SacMoms", "url": "%s",
+ "logo": "%sassets/logo.png"}
+</script>
+</head>''' % (base, base), 1)
 
     links = ''
     for key, label in GROUPS:
@@ -1113,20 +1116,39 @@ def root_page(towns_with_pages, places, base):
 
     out += '''
 <main id="top">
-  <section class="hero">
+  <section class="hero hero-home">
     <div class="wrap hero-inner">
-      <h1 class="hero-title">
-        <span class="hl">Where are we taking</span>
-        <span class="hl">the kids today?</span>
-      </h1>
-      <p class="lede">
-        Things to do with the kids around ''' + (FOCUS_LABEL if FOCUS_REGION else 'Northern California') + ''' &mdash; playgrounds,
-        museums, splash pads, farmers&rsquo; markets and library storytimes. Pick your city
-        and you get what is on this week plus the places nearest you, with the parking
-        and weather notes that decide whether it is worth the drive.
-      </p>
-
-      <p class="loc-hint" id="lastCity" hidden></p>
+      <img class="home-logo" src="assets/logo.png" alt="SacMoms" width="640" height="427" fetchpriority="high" />
+      <p class="hero-tag">Things to do with the kids around Sacramento County.</p>
+    </div>
+    <div class="wrap">
+      <div class="carousel" id="seasonCarousel" aria-roledescription="carousel" aria-label="Seasonal highlights">
+        <div class="carousel-viewport">
+          <div class="carousel-track">
+            <a class="carousel-slide" href="elk-grove/#seasonal" aria-label="Keema's Pumpkin Farm, Elk Grove">
+              <img src="assets/photos/keemas-pumpkin-2026.webp" alt="Keema's Pumpkin Farm pumpkin patch" width="980" height="490" fetchpriority="high" />
+              <span class="carousel-cap"><strong>Keema's Pumpkin Farm</strong><span>Elk Grove &middot; Sep 25 &ndash; Nov 1</span></span>
+            </a>
+            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Dave's Pumpkin Patch, West Sacramento">
+              <img src="assets/photos/daves-pumpkin-2026.webp" alt="Dave's Pumpkin Patch" width="980" height="490" loading="lazy" />
+              <span class="carousel-cap"><strong>Dave's Pumpkin Patch</strong><span>West Sacramento &middot; Oct 3 &ndash; 31</span></span>
+            </a>
+            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Cool Patch Pumpkins, Dixon">
+              <img src="assets/photos/cool-patch-2026.webp" alt="Cool Patch Pumpkins corn maze" width="980" height="490" loading="lazy" />
+              <span class="carousel-cap"><strong>Cool Patch Pumpkins</strong><span>Dixon &middot; Sep 26 &ndash; Nov 1</span></span>
+            </a>
+            <a class="carousel-slide" href="elk-grove/#seasonal" aria-label="Elk Grove Giant Pumpkin Festival">
+              <img src="assets/photos/eg-pumpkin-fest-2026.webp" alt="Elk Grove Giant Pumpkin Festival" width="980" height="490" loading="lazy" />
+              <span class="carousel-cap"><strong>Elk Grove Giant Pumpkin Festival</strong><span>Elk Grove Park &middot; Oct 3 &ndash; 4</span></span>
+            </a>
+            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Boo at the Zoo, Sacramento Zoo">
+              <img src="assets/photos/sac-zoo-boo-2026.webp" alt="Boo at the Zoo at the Sacramento Zoo" width="980" height="490" loading="lazy" />
+              <span class="carousel-cap"><strong>Boo at the Zoo</strong><span>Sacramento Zoo &middot; Oct 24 &ndash; 31</span></span>
+            </a>
+          </div>
+        </div>
+        <div class="carousel-dots" role="tablist" aria-label="Choose slide"></div>
+      </div>
     </div>
   </section>
 
@@ -1136,7 +1158,7 @@ def root_page(towns_with_pages, places, base):
     <div class="wrap">
       <div class="section-head">
         <h2>Choose your city</h2>
-        <p class="section-sub">%d cities, %d places to take the kids. Every city links straight through.</p>
+        <p class="section-sub">%d cities, %d places to take the kids.</p>
       </div>
       <div class="city-index">
 %s      </div>
@@ -1146,6 +1168,50 @@ def root_page(towns_with_pages, places, base):
 ''' % (len(towns_with_pages), len(listed), links)
 
     out += '''<script>
+// Auto-rolling seasonal carousel: advances every 4.5s, pauses on hover/touch.
+(function () {
+  var root = document.getElementById('seasonCarousel');
+  if (!root) return;
+  var track = root.querySelector('.carousel-track');
+  var slides = track.children.length;
+  var dotsBox = root.querySelector('.carousel-dots');
+  var idx = 0, timer = null;
+  for (var i = 0; i < slides; i++) {
+    (function (n) {
+      var b = document.createElement('button');
+      b.setAttribute('role', 'tab');
+      b.setAttribute('aria-label', 'Slide ' + (n + 1));
+      b.addEventListener('click', function () { go(n); restart(); });
+      dotsBox.appendChild(b);
+    })(i);
+  }
+  var dots = dotsBox.children;
+  function go(n) {
+    idx = (n + slides) % slides;
+    track.style.transform = 'translateX(-' + (idx * 100) + '%)';
+    for (var i = 0; i < slides; i++) dots[i].setAttribute('aria-current', i === idx ? 'true' : 'false');
+  }
+  function restart() {
+    if (timer) clearInterval(timer);
+    timer = setInterval(function () { go(idx + 1); }, 4500);
+  }
+  root.addEventListener('mouseenter', function () { if (timer) clearInterval(timer); timer = null; });
+  root.addEventListener('mouseleave', restart);
+  var touchX = null, swiped = false;
+  root.addEventListener('touchstart', function (e) { touchX = e.touches[0].clientX; if (timer) clearInterval(timer); timer = null; }, {passive: true});
+  root.addEventListener('touchend', function (e) {
+    if (touchX !== null) {
+      var dx = e.changedTouches[0].clientX - touchX;
+      if (Math.abs(dx) > 40) { go(idx + (dx < 0 ? 1 : -1)); swiped = true; }
+      touchX = null;
+    }
+    setTimeout(restart, 3000);
+  }, {passive: true});
+  root.addEventListener('click', function (e) { if (swiped) { swiped = false; e.preventDefault(); e.stopPropagation(); } }, true);
+  go(0); restart();
+})();
+</script>
+<script>
 // Offer the city this browser used last, without getting in the way of the list.
 (function () {
   var hint = document.getElementById('lastCity');
@@ -1161,38 +1227,6 @@ def root_page(towns_with_pages, places, base):
 })();
 </script>
 '''
-    out += FOOT
-    return out
-
-
-def contact_page(base):
-    """A way to reach a human, which venues look for before replying.
-
-    Not in the sitemap sweep: it carries no .generated marker, so the city
-    cleanup in main() leaves it alone.
-    """
-    email = html.escape(CONTACT_EMAIL)
-    out = HEAD.format(
-        title=html.escape('Contact %s' % SITE_NAME, quote=True),
-        desc=html.escape('Get in touch with %s — corrections to a listing, '
-                         'adding your venue, or partnering with us.' % SITE_NAME, quote=True),
-        canonical='%scontact/' % base, up='../', og_image='',
-        nav='<a href="../"><span class="nav-full">Find places</span>'
-            '<span class="nav-short">Places</span></a>')
-    out += '''
-<main id="top">
-
-  <section class="hero">
-    <div class="wrap hero-inner">
-      <h1 class="hero-title"><span class="hl">Contact</span></h1>
-      <p class="lede">%s is a free guide to family outings in Sacramento County.
-        Email <a href="mailto:%s">%s</a> &mdash; a person reads it.</p>
-      <p class="lede">Run somewhere listed here? If a detail is wrong, or you
-        would like to be added, send it over.</p>
-    </div>
-  </section>
-</main>
-''' % (SITE_NAME, email, email)
     out += FOOT
     return out
 
@@ -1271,14 +1305,8 @@ def main():
     open(os.path.join(ROOT, 'index.html'), 'w', encoding='utf-8').write(
         root_page(towns_with_pages, places, base))
 
-    contact_dir = os.path.join(ROOT, 'contact')
-    os.makedirs(contact_dir, exist_ok=True)
-    open(os.path.join(contact_dir, 'index.html'), 'w', encoding='utf-8').write(
-        contact_page(base))
-
     # sitemap, so the city pages are actually discoverable
-    urls = [base, '%scontact/' % base] + \
-           ['%s%s/' % (base, slugify(t['name'])) for t in towns_with_pages] + \
+    urls = [base] + ['%s%s/' % (base, slugify(t['name'])) for t in towns_with_pages] + \
            ['%s%s/calendar/' % (base, slugify(t['name'])) for t in towns_with_pages]
     for fp in FILTER_PAGES:
         for t in towns_with_pages:

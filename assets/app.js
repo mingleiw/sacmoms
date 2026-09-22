@@ -481,7 +481,10 @@
   /* An event counts as ended only when the organiser published an end time
      and it has passed. Without an end time we never guess. */
   function evEnded(e, now) {
-    if (picked !== 0 || !e.until) return false;
+    if (picked !== 0) return false;
+    /* After 8pm local, organisers are closed — everything today is done. */
+    if (now.getHours() >= 20) return true;
+    if (!e.until) return false;
     var p = e.until.split(':');
     var end = new Date(week[0]);
     end.setHours(+p[0], +p[1], 0, 0);
@@ -509,9 +512,13 @@
         ? '<span class="ev-tag ev-dist">' + esc(showMiles(dist)) + ' mi</span>'
         : '';
       var ended = evEnded(e, now);
+      var media = e.photo
+        ? '<div class="ev-media"><img class="ev-img" src="' + esc(e.photo) + '" alt="" loading="lazy" width="400" height="300"></div>'
+        : '';
       return '<article class="event' + (ended ? ' is-ended' : '') + '" data-i="' + i + '">' +
         '<div class="ev-time' + (when ? '' : ' ev-time-unknown') + '">' +
           (when ? esc(when) : esc(e.timeLabel || 'Time not confirmed')) + '</div>' +
+        media +
         '<div class="ev-body">' +
           '<h3>' + esc(e.title) + '</h3>' +
           '<p class="ev-where">' + esc(e.venue) + ', ' + esc(e.city) + '</p>' +
@@ -622,6 +629,8 @@
     var label = evDistLabel(e);
     detail.innerHTML =
       '<h3 id="evDialogTitle">' + esc(e.title) + '</h3>' +
+      (e.photo ? '<div class="d-media"><img class="d-img" src="' + esc(e.photo) +
+        '" alt="" loading="lazy" width="800" height="450"></div>' : '') +
       '<p class="d-when">' + esc(longDate(e)) + ' · ' + esc(when) + '</p>' +
       '<p class="d-where">' + esc(e.venue) + ', ' + esc(e.city) + '</p>' +
       (e.blurb ? '<p class="d-blurb">' + esc(e.blurb) + '</p>' : '') +

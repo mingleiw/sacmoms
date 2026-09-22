@@ -40,6 +40,16 @@
   "source": "nominatim.openstreetmap.org"
  },
  {
+  "venue": "California State Railroad Museum",
+  "city": "Sacramento",
+  "lat": 38.5849726,
+  "lon": -121.5043022,
+  "query": "California State Railroad Museum, Sacramento, CA, USA",
+  "matched": "California State Railroad Museum, 125, I Street, Old Sacramento, Sacramento, Sacramento County, California, 95814, United States",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Central Library",
   "city": "Sacramento",
   "lat": 38.581631,
@@ -47,6 +57,16 @@
   "query": "Central Library, Sacramento, CA, USA",
   "matched": "Sacramento Central Public Library, 828, I Street, Downtown, Sacramento, Sacramento County, California, 95814, United States",
   "resolved": "2026-09-17",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Cesar Chavez Plaza",
+  "city": "Sacramento",
+  "lat": 38.5810283,
+  "lon": -121.4939146,
+  "query": "Cesar Chavez Plaza, Sacramento, CA, USA",
+  "matched": "Cesar E. Chavez Plaza, Downtown, Sacramento, Sacramento County, California, United States",
+  "resolved": "2026-09-18",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -97,6 +117,16 @@
   "query": "Effie Yeaw Nature Center, Carmichael, CA, USA",
   "matched": "Effie Yeaw Nature Center, 2850, San Lorenzo Way, Carmichael, Sacramento County, California, 95609, United States",
   "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Elk Grove Fine Arts Center",
+  "city": "Elk Grove",
+  "lat": 38.4086942,
+  "lon": -121.3660316,
+  "query": "Elk Grove Fine Arts Center, Elk Grove, CA, USA",
+  "matched": "9020, Elk Grove Boulevard, Elk Grove, Sacramento County, California, 94624, United States",
+  "resolved": "2026-09-19",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -186,7 +216,7 @@
   "lon": null,
   "query": "Keema's Pumpkin Farm, Elk Grove, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-18",
+  "resolved": "2026-09-21",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -272,6 +302,16 @@
   "source": "nominatim.openstreetmap.org"
  },
  {
+  "venue": "Old Town Plaza",
+  "city": "Elk Grove",
+  "lat": 38.4087971,
+  "lon": -121.3639238,
+  "query": "Old Town Plaza, Elk Grove, CA, USA",
+  "matched": "9615, Railroad Street, Elk Grove, Sacramento County, California, 95624, United States",
+  "resolved": "2026-09-19",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Orangevale Library",
   "city": "Orangevale",
   "lat": 38.6777845,
@@ -301,6 +341,16 @@
   "resolved": "2026-09-17",
   "source": "organizer-published address, verified via nominatim.openstreetmap.org",
   "locked": true
+ },
+ {
+  "venue": "Sacramento Adventure Playground",
+  "city": "Sacramento",
+  "lat": 38.5195621,
+  "lon": -121.4725999,
+  "query": "Sacramento Adventure Playground, Sacramento, CA, USA",
+  "matched": "Sacramento Adventure Playground, 3301, 37th Avenue, South City Farms, Sacramento, Sacramento County, California, 95824, United States",
+  "resolved": "2026-09-18",
+  "source": "nominatim.openstreetmap.org"
  },
  {
   "venue": "Sacramento Children's Museum",
