@@ -12,6 +12,9 @@ python3 scripts/refresh_storytimes.py          # Sacramento-area library storyti
 python3 scripts/refresh_scm_events.py          # Sacramento Children's Museum weekly programs
 python3 scripts/refresh_attraction_events.py  # Zoo, Fairytale Town, Effie Yeaw,
                                                # MOSAC, Cosumnes CSD official calendars
+python3 scripts/refresh_classes.py            # Kids classes: re-verify listings
+                                               # against official provider pages,
+                                               # prune verifiably ended sessions
 
 # Marin sources are kept warm but must NOT gate the run. build.py filters towns
 # to FOCUS_REGION ('sac'), so nothing these write is rendered today — and both
