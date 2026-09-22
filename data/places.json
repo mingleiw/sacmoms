@@ -652,6 +652,32 @@
   }
  },
  {
+  "name": "Aerospace Museum of California",
+  "where": "McClellan",
+  "desc": "40+ historic aircraft on a 4-acre air park — climb into real cockpits, try the flight simulators, and stand under an F-14 Tomcat. The exhibit hall has hands-on STEM exhibits for kids.",
+  "note": "Open Thursday through Sunday, 9am-5pm (last admission 4pm); closed Mon-Wed. Free parking.",
+  "cta": "Map, hours & tickets",
+  "mapq": "Aerospace+Museum+of+California+McClellan+CA",
+  "icon": "i-science",
+  "cat": "science",
+  "age": "3-5 6-9 10+",
+  "region": "sac",
+  "env": "indoor outdoor",
+  "lat": 38.675163,
+  "lon": -121.390951,
+  "ages": "3 and up",
+  "envlabel": "Indoors + out",
+  "arealabel": "Sacramento area",
+  "url": "https://www.aerospaceca.org/plan-your-visit",
+  "status": "open",
+  "last_checked": "2026-09-22",
+  "spec": {
+   "price": "Adults $18, youth 3-17 $15, 2 and under free",
+   "toddler": "Ages 3+",
+   "tickets_url": "https://www.aerospaceca.org/purchase/p/adult-general-admission"
+  }
+ },
+ {
   "name": "SMUD Museum of Science and Curiosity",
   "where": "400 Jibboom St, Sacramento",
   "desc": "100+ hands-on STEAM exhibits in a renovated 1912 power station, plus the UC Davis Multiverse Theater planetarium with a 46-foot dome. Pilot a Mars rover in Destination Space or tinker in the Design Lab.",
