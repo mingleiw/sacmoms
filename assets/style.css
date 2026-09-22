@@ -409,12 +409,26 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .tip-grid p { margin: 0; font-size: 14.5px; line-height: 1.7; }
 
 /* ---------- Footer ---------- */
-.site-footer { background: var(--sky); padding: 52px 0 40px; color: var(--ink-2); }
-.footer-inner { display: flex; flex-direction: column; gap: 8px; }
-.footer-brand { margin: 0 0 10px; font-family: var(--display); font-size: 24px; font-weight: 800; color: var(--ink); }
-.footer-note { margin: 0 0 8px; font-size: 15px; }
-.footer-note a { color: var(--ink); font-weight: 700; }
-.footer-copy { margin: 22px 0 0; font-size: 13px; }
+/* The footer shares the page background, so without a top rule it reads as more
+   empty page rather than the end of one. */
+.site-footer {
+  background: var(--sky-2); border-top: 1px solid var(--line-2);
+  padding: 30px 0 24px; color: var(--ink-2);
+}
+.footer-inner { display: flex; flex-direction: column; }
+.footer-main {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  gap: 24px 40px; flex-wrap: wrap;
+}
+.footer-brandcol { display: flex; flex-direction: column; gap: 8px; }
+.footer-logo { width: auto; height: 32px; display: block; }
+.footer-note { margin: 0; font-size: 14.5px; }
+.footer-contact { margin: 0; display: flex; flex-direction: column; gap: 2px; font-size: 14px; }
+.footer-contact a { color: var(--ink); font-weight: 800; }
+.footer-copy {
+  margin: 20px 0 0; padding-top: 16px; border-top: 1px solid var(--line-2);
+  font-size: 12.5px;
+}
 
 /* ---- Location bar ---- */
 .loc-bar { margin-bottom: 18px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }

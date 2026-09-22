@@ -213,10 +213,16 @@ HEAD = HEAD.replace('__STYLE_V__', STYLE_V)
 FOOT = '''
 <footer class="site-footer">
   <div class="wrap footer-inner">
-    <div class="footer-brandcol">
-      <p class="footer-brand">''' + SITE_NAME + '''</p>
-      <p class="footer-note">Find somewhere to take the kids today.</p>
-      <p class="footer-note"><a href="mailto:hello@sacmoms.com">Contact us</a> &mdash; event tips and corrections welcome.</p>
+    <div class="footer-main">
+      <div class="footer-brandcol">
+        <img class="footer-logo" src="{up}assets/logo-lockup.png" width="640" height="178"
+             alt="''' + SITE_NAME + '''" />
+        <p class="footer-note">Find somewhere to take the kids today.</p>
+      </div>
+      <p class="footer-contact">
+        <a href="mailto:hello@sacmoms.com">Contact us</a>
+        <span>Event tips and corrections welcome.</span>
+      </p>
     </div>
     <p class="footer-copy">&copy; 2026 ''' + SITE_NAME + '''</p>
   </div>
@@ -225,6 +231,15 @@ FOOT = '''
 </body>
 </html>
 '''
+
+
+def foot(up=''):
+    """Footer for a page `up` levels below the root.
+
+    str.replace, not str.format: the analytics beacon carries a literal JSON
+    object, and format() would read those braces as fields.
+    """
+    return FOOT.replace('{up}', up)
 
 
 SPEC_ROWS = (('price', 'Price'), ('toddler', 'Toddlers'),
@@ -780,7 +795,7 @@ def calendar_page(town, events, dated, base):
         json.dumps({'name': name, 'lat': town['lat'], 'lon': town['lon']}),
         json.dumps(ev, ensure_ascii=False))
     out += '<script src="../../assets/calendar.js?v=' + CAL_JS_V + '"></script>\n'
-    out += FOOT
+    out += foot('../../')
     return out
 
 
@@ -911,7 +926,7 @@ def filter_page(town, places, fp, base):
        ''.join(place_card(p, d, up='../../') for d, p in listed))
 
     out += places_jsonld([p for _, p in listed])
-    out += FOOT
+    out += foot('../../')
     return out
 
 
@@ -1070,7 +1085,7 @@ def city_page(town, places, events, dated, base):
         json.dumps(ev, ensure_ascii=False))
     out += '<script src="../assets/app.js?v=' + APP_JS_V + '"></script>\n'
     check_app_contract(out, slug)
-    out += FOOT
+    out += foot('../')
     return slug, out
 
 
@@ -1231,7 +1246,7 @@ def root_page(towns_with_pages, places, base):
 })();
 </script>
 '''
-    out += FOOT
+    out += foot('')
     return out
 
 
