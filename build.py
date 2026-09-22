@@ -924,21 +924,28 @@ def city_page(town, places, events, dated, base):
                       nav='<a href="../"><span class="nav-full">Change city</span>'
                           '<span class="nav-short">Cities</span></a>')
 
-    # Quick links: jump-to anchors + browse sub-pages, all in one compact nav.
+    # Quick links: just the jump-to anchors for the page's main sections.
     ql = []
     if ev:
         ql += ['<a class="quick-link" href="#today">Today</a>',
                '<a class="quick-link" href="#weekend">This weekend</a>']
     if seasonal_groups:
         ql.append('<a class="quick-link" href="#seasonal">Special events</a>')
-    ql.append('<a class="quick-link" href="#list">Places</a>')
+    quick = ''
+    if ql:
+        quick = ('\n      <nav class="quick-links" aria-label="Jump to a section">\n        %s\n      </nav>'
+                 % '\n        '.join(ql))
+
+    # Browse links sit in the places section header, not the hero.
+    browse_links = ''
     for fp in FILTER_PAGES:
         count = len([1 for d, p in listed if fp['filter'](p)])
         if count >= 2:
-            ql.append('<a class="quick-link ql-browse" href="%s/">%s (%d)</a>' %
-                      (fp['slug'], fp['slug'].capitalize(), count))
-    quick = ('\n      <nav class="quick-links" aria-label="Jump to a section">\n        %s\n      </nav>'
-             % '\n        '.join(ql))
+            browse_links += ('<a class="quick-link ql-browse" href="%s/">%s (%d)</a>' %
+                             (fp['slug'], fp['slug'].capitalize(), count))
+    if browse_links:
+        browse_links = ('\n        <nav class="quick-links browse-nav">\n          '
+                        '%s\n        </nav>' % browse_links)
 
     out += '''
 <main id="top">
@@ -992,7 +999,7 @@ def city_page(town, places, events, dated, base):
     <div class="wrap">
       <div class="section-head">
         <h2>Places near %s</h2>
-        <p class="section-sub">Open year-round, closest first</p>
+        <p class="section-sub">Open year-round, closest first</p>%s
       </div>
 %s
       <div class="cards" id="cards">
@@ -1001,7 +1008,7 @@ def city_page(town, places, events, dated, base):
       <p class="empty" id="empty" hidden>Nothing matches that combination &mdash; try loosening a filter.</p>
     </div>
   </section>
-''' % (html.escape(name), FILTERS, ''.join(place_card(p, d) for d, p in listed))
+''' % (html.escape(name), browse_links, FILTERS, ''.join(place_card(p, d) for d, p in listed))
 
     out += TIPS
     out += '\n</main>\n'
