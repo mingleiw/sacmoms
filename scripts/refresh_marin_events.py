@@ -26,6 +26,12 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EVENTS_JSON = os.path.join(ROOT, "data", "events.json")
 ORIGIN = "marin-mommies"
 
+# Stale one-offs that Marin Mommies keeps listing as recurring; never import.
+# (Sausalito Boat Show was a one-time Oct 13-15, 2023 event, blocklisted 9/17.)
+SKIP_TITLES = {
+    "sausalito boat show",
+}
+
 
 def fetch(url):
     out = subprocess.run(
@@ -125,6 +131,9 @@ def main():
     recurring = []
     for slug, occs in sorted(by_slug.items()):
         first = occs[0]
+        if norm_title(first["title"]) in SKIP_TITLES:
+            print(f"  SKIPPED (blocklisted stale): {first['title']}")
+            continue
         if "mill valley" in first["venue_str"].lower():
             continue  # covered by the Mill Valley library scraper
         js_days = Counter()
@@ -154,6 +163,8 @@ def main():
         })
 
     existing = json.load(open(EVENTS_JSON))
+    # Purge blocklisted stale entries so they can't linger from an earlier import.
+    existing = [e for e in existing if norm_title(e.get("title", "")) not in SKIP_TITLES]
     managed = [e for e in existing if e.get("origin") == ORIGIN]
     others = [e for e in existing if e.get("origin") != ORIGIN]
     by_title = {norm_title(e["title"]): e for e in managed}

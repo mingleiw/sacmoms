@@ -921,25 +921,6 @@
     }
   },
   {
-    "time": "10:00",
-    "title": "Sausalito Boat Show",
-    "venue": "Clipper Yacht Harbor",
-    "city": "Sausalito",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "This inaugural event is a celebration of maritime excellence and local culture, offering a diverse",
-    "source": "https://www.marinmommies.com/calendar/sausalito-boat-show-0",
-    "day": 5,
-    "origin": "marin-mommies",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.87,
-      "stale_p": 0.05,
-      "category": "outdoor",
-      "quality": 0.9
-    }
-  },
-  {
     "time": "09:00",
     "title": "Sausalito Farmers Market",
     "venue": "Dunphy Park parking lot",
@@ -1127,7 +1108,7 @@
     "ages": "All ages",
     "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
     "source": "https://www.marinemammalcenter.org/visit/getting-here",
-    "day": 1,
+    "day": 5,
     "until": "16:00",
     "origin": "marin-mommies",
     "_jev": {
