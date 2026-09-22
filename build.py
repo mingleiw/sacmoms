@@ -781,48 +781,6 @@ def calendar_page(town, events, dated, base):
     return out
 
 
-def city_intro(name, listed, ev, seasonal_groups, today):
-    """Data-driven editorial paragraph unique to each city page."""
-    n = len(listed)
-    indoor = [p for _, p in listed if p.get('env') == 'indoor']
-    outdoor = [p for _, p in listed if p.get('env') == 'outdoor']
-    free = [p for _, p in listed if (p.get('spec') or {}).get('price', '').startswith('Free')]
-    parks = [p for _, p in listed if p.get('cat') in ('outdoors', 'play') and p.get('env') == 'outdoor']
-
-    parts = []
-    parts.append('%s has %d kid-friendly spots within driving distance' % (name, n))
-    bits = []
-    if outdoor:
-        bits.append('%d outdoor' % len(outdoor))
-    if indoor:
-        bits.append('%d indoor' % len(indoor))
-    if bits:
-        parts[-1] += ' &mdash; %s' % ' and '.join(bits)
-    parts[-1] += '.'
-
-    if free:
-        parts.append('%d of them are completely free, including %s and %s.' % (
-            len(free), html.escape(free[0]['name']),
-            html.escape(free[1]['name']) if len(free) > 1 else 'more'))
-
-    if ev:
-        week_count = len(ev)
-        parts.append('There are %d events on the calendar this week &mdash; '
-                     'storytimes, open gyms and markets.' % week_count)
-
-    if seasonal_groups:
-        parts.append('Check the seasonal section for pumpkin patches and special events running right now.')
-
-    if parks and len(parks) >= 3:
-        close_parks = sorted(listed, key=lambda x: x[0])
-        close_parks = [p['name'] for _, p in close_parks
-                       if p.get('cat') in ('outdoors', 'play') and p.get('env') == 'outdoor'][:3]
-        parts.append('The closest playgrounds are %s, %s and %s.' % (
-            html.escape(close_parks[0]), html.escape(close_parks[1]), html.escape(close_parks[2])))
-
-    return ' '.join(parts)
-
-
 FILTER_PAGES = [
     {
         'slug': 'indoor',
@@ -977,8 +935,6 @@ def city_page(town, places, events, dated, base):
     quick = ('\n      <nav class="quick-links" aria-label="Jump to a section">\n        %s\n      </nav>'
              % '\n        '.join(ql))
 
-    intro = city_intro(name, listed, ev, seasonal_groups, today)
-
     # Links to filtered sub-pages (indoor, outdoor, free)
     filter_links = ''
     for fp in FILTER_PAGES:
@@ -998,8 +954,7 @@ def city_page(town, places, events, dated, base):
   <section class="hero">
     <div class="wrap hero-inner">
       <h1 class="hero-title"><span class="hl">Where to take the kids in %s</span></h1>
-      <p class="lede">%d places within %d miles, closest first. %s</p>
-      <p class="intro">%s</p>%s%s
+      <p class="lede">%d places within %d miles, closest first. %s</p>%s%s
     </div>
   </section>
 
@@ -1009,7 +964,7 @@ def city_page(town, places, events, dated, base):
 
 ''' % (html.escape(name), len(listed), LIST_MILES,
        'Weekly markets and events too.' if ev else '',
-       intro, quick, filter_links)
+       quick, filter_links)
 
     if ev:
         out += '''
