@@ -146,6 +146,7 @@
   root.addEventListener('mouseenter', function () { if (timer) clearInterval(timer); timer = null; });
   root.addEventListener('mouseleave', restart);
   root.addEventListener('touchstart', function () { if (timer) clearInterval(timer); timer = null; }, {passive: true});
+  root.addEventListener('touchend', function () { setTimeout(restart, 3000); }, {passive: true});
   go(0); restart();
 })();
 </script>
