@@ -137,41 +137,33 @@ section[id] { scroll-margin-top: 78px; }
 }
 
 /* ---------- Hero ---------- */
-/* Bottom padding was sized around the picker card that used to close the hero.
-   With the card gone the hero ends on the lede, so it no longer needs that much. */
-.hero { padding: 66px 0 36px; }
+.hero { padding: 40px 0 28px; }
 .hero-inner { position: relative; }
 
 .hero-title {
-  font-size: clamp(38px, 6.6vw, 62px);
-  font-weight: 800; line-height: 1.04; letter-spacing: -.02em;
-  margin-bottom: 22px; max-width: 20ch;
+  font-size: clamp(30px, 6vw, 54px);
+  font-weight: 800; line-height: 1.08; letter-spacing: -.02em;
+  margin-bottom: 14px; max-width: 20ch;
 }
 .hero-title .hl { display: block; opacity: 0; transform: translateY(16px); animation: pop .7s var(--bounce) forwards; }
 .hero-title .hl:nth-child(1) { animation-delay: .04s; }
 .hero-title .hl:nth-child(2) { animation-delay: .16s; color: var(--tomato); }
 @keyframes pop { to { opacity: 1; transform: none; } }
 
-.lede { margin: 0 0 16px; color: var(--ink-2); font-size: 17.5px; max-width: 46ch; }
+.lede { margin: 0 0 14px; color: var(--ink-2); font-size: 16px; max-width: 46ch; }
 .lede strong { color: var(--ink); font-weight: 700; }
-.intro { margin: 0 0 28px; color: var(--ink-2); font-size: 15.5px; line-height: 1.65; max-width: 56ch; }
 
 /* ---------- Quick links ---------- */
-.quick-links { display: flex; flex-wrap: wrap; gap: 10px; margin: 2px 0 0; }
-.browse-links { margin-top: 12px; }
-.browse-links .filter-label { font-size: 13px; color: var(--ink-3); align-self: center; }
+.quick-links { display: flex; flex-wrap: wrap; gap: 7px; margin: 0; }
 .quick-link {
-  font-size: 15px; font-weight: 700; padding: 9px 22px;
+  font-size: 13.5px; font-weight: 700; padding: 7px 15px;
   border-radius: 999px; background: var(--sea); color: var(--chalk);
-  box-shadow: 0 3px 0 #1F6FAB;
-  transition: transform .18s var(--bounce), box-shadow .18s var(--ease);
+  transition: transform .15s var(--ease), opacity .15s var(--ease);
 }
-.quick-link:active { transform: translateY(1px); box-shadow: 0 1px 0 #1F6FAB; }
-@media (max-width: 560px) {
-  /* Tidy 2-column grid on phones instead of ragged wrapping. */
-  .quick-links { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  .quick-link { text-align: center; padding: 11px 8px; }
-  .browse-links .filter-label { grid-column: 1 / -1; margin-bottom: -2px; }
+.quick-link:active { transform: scale(.96); }
+.ql-browse {
+  background: transparent; color: var(--sea);
+  border: 1.5px solid var(--sea);
 }
 
 /* ---------- Freshness ---------- */
@@ -555,7 +547,7 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
   color: var(--ink); background: var(--sky-2);
 }
 .quick-link:hover {
-  transform: translateY(-2px);
+  opacity: .85;
 }
 .day:hover {
   transform: translateY(-2px); color: var(--ink);

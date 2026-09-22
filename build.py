@@ -924,29 +924,21 @@ def city_page(town, places, events, dated, base):
                       nav='<a href="../"><span class="nav-full">Change city</span>'
                           '<span class="nav-short">Cities</span></a>')
 
-    # Quick links under the hero: jump straight to today's events, the weekend,
-    # or the places list. Today/Weekend only exist when the week section does.
-    ql = ['<a class="quick-link" href="#list">Places</a>']
+    # Quick links: jump-to anchors + browse sub-pages, all in one compact nav.
+    ql = []
     if ev:
-        ql[0:0] = ['<a class="quick-link" href="#today">Today</a>',
-                   '<a class="quick-link" href="#weekend">This weekend</a>']
+        ql += ['<a class="quick-link" href="#today">Today</a>',
+               '<a class="quick-link" href="#weekend">This weekend</a>']
     if seasonal_groups:
-        ql.insert(len(ql) - 1, '<a class="quick-link" href="#seasonal">Special events</a>')
-    quick = ('\n      <nav class="quick-links" aria-label="Jump to a section">\n        %s\n      </nav>'
-             % '\n        '.join(ql))
-
-    # Links to filtered sub-pages (indoor, outdoor, free)
-    filter_links = ''
+        ql.append('<a class="quick-link" href="#seasonal">Special events</a>')
+    ql.append('<a class="quick-link" href="#list">Places</a>')
     for fp in FILTER_PAGES:
         count = len([1 for d, p in listed if fp['filter'](p)])
         if count >= 2:
-            filter_links += ('<a class="quick-link" href="%s/">%s (%d)</a>' %
-                             (fp['slug'], fp['slug'].capitalize(), count))
-    if filter_links:
-        filter_links = ('\n      <nav class="quick-links browse-links" '
-                        'aria-label="Browse by category">\n        '
-                        '<span class="filter-label">Browse:</span>\n        '
-                        '%s\n      </nav>' % filter_links)
+            ql.append('<a class="quick-link ql-browse" href="%s/">%s (%d)</a>' %
+                      (fp['slug'], fp['slug'].capitalize(), count))
+    quick = ('\n      <nav class="quick-links" aria-label="Jump to a section">\n        %s\n      </nav>'
+             % '\n        '.join(ql))
 
     out += '''
 <main id="top">
@@ -954,7 +946,7 @@ def city_page(town, places, events, dated, base):
   <section class="hero">
     <div class="wrap hero-inner">
       <h1 class="hero-title"><span class="hl">Where to take the kids in %s</span></h1>
-      <p class="lede">%d places within %d miles, closest first. %s</p>%s%s
+      <p class="lede">%d places, nearest first.</p>%s
     </div>
   </section>
 
@@ -962,9 +954,7 @@ def city_page(town, places, events, dated, base):
 
   <div class="wrap"><div class="loc-bar" id="locBar"></div></div>
 
-''' % (html.escape(name), len(listed), LIST_MILES,
-       'Weekly markets and events too.' if ev else '',
-       quick, filter_links)
+''' % (html.escape(name), len(listed), quick)
 
     if ev:
         out += '''
