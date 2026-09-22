@@ -931,6 +931,7 @@ def city_page(town, places, events, dated, base):
                '<a class="quick-link" href="#weekend">This weekend</a>']
     if seasonal_groups:
         ql.append('<a class="quick-link" href="#seasonal">Special events</a>')
+    ql.append('<a class="quick-link" href="#list">Places</a>')
     quick = ''
     if ql:
         quick = ('\n      <nav class="quick-links" aria-label="Jump to a section">\n        %s\n      </nav>'
