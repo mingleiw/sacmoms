@@ -197,7 +197,7 @@ HEAD = '''<!DOCTYPE html>
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="{up}">
-      <img class="brand-logo" src="{up}assets/logo-lockup.png" width="640" height="178"
+      <img class="brand-logo" src="{up}assets/logo-lockup.png" width="640" height="230"
            alt="''' + SITE_NAME + '''" />
       <small class="brand-tag">Where to take the kids</small>
     </a>
