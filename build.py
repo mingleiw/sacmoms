@@ -766,6 +766,7 @@ def calendar_page(town, events, dated, base):
                       og_image=og_img,
                       nav='<a href="../../"><span class="nav-full">Change city</span>'
                           '<span class="nav-short">Cities</span></a>'
+                          '<a href="../../classes/">Classes</a>'
                           '<a href="../">%s</a>' % html.escape(name))
 
     out += '''
@@ -853,6 +854,7 @@ def filter_page(town, places, fp, base):
                       og_image=og_img,
                       nav='<a href="../../"><span class="nav-full">Change city</span>'
                           '<span class="nav-short">Cities</span></a>'
+                          '<a href="../../classes/">Classes</a>'
                           '<a href="../">%s</a>' % html.escape(name))
 
     out += '''
@@ -889,27 +891,13 @@ SPORT_ICONS = {
 }
 
 
-def classes_section_html(classes, town):
-    if not classes:
-        return ''
-    out = '''
-  <section class="classes-section" id="classes">
-    <div class="wrap">
-      <div class="section-head">
-        <h2>Kids classes near %s</h2>
-        <p class="section-sub">Sports, swim lessons &amp; activities &mdash; with registration links</p>
-      </div>
-      <div class="classes-grid">
-''' % html.escape(town['name'])
-    for c in classes:
-        icon = SPORT_ICONS.get(c.get('sport', '').lower(), 'i-play')
-        dist_chip = ''
-        vc = VENUES.get('%s|%s' % (c.get('venue', ''), c.get('city', '')))
-        if vc:
-            d = miles(town['lat'], town['lon'], vc[0], vc[1])
-            dist_chip = '<span class="cl-dist">%s mi</span>' % show_miles(d)
-        price_cls = ' cl-free' if c.get('price', '').lower() == 'free' else ''
-        out += '''        <article class="class-card">
+def class_card_html(c):
+    icon = SPORT_ICONS.get(c.get('sport', '').lower(), 'i-play')
+    price_cls = ' cl-free' if c.get('price', '').lower() == 'free' else ''
+    sport_attr = html.escape(c.get('sport', '').lower(), quote=True)
+    city_attr = html.escape(c.get('city', '').lower(), quote=True)
+    ages_attr = html.escape(c.get('ages', ''), quote=True)
+    return '''        <article class="class-card" data-sport="%s" data-city="%s" data-ages="%s">
           <div class="cl-head">
             <svg class="cl-icon" width="22" height="22"><use href="#%s"/></svg>
             <div>
@@ -918,7 +906,7 @@ def classes_section_html(classes, town):
             </div>
           </div>
           <div class="cl-details">
-            <p class="cl-meta"><span class="cl-ages">Ages %s</span>%s<span class="cl-price%s">%s</span></p>
+            <p class="cl-meta"><span class="cl-ages">Ages %s</span><span class="cl-price%s">%s</span></p>
             <p class="cl-schedule">%s</p>
             <p class="cl-session">%s</p>
             <p class="cl-venue">%s, %s</p>
@@ -928,11 +916,10 @@ def classes_section_html(classes, town):
             <a class="cl-source" href="%s" target="_blank" rel="noopener">Source</a>
           </div>
         </article>
-''' % (icon,
+''' % (sport_attr, city_attr, ages_attr, icon,
        html.escape(c['name']),
        html.escape(c.get('provider', '')),
        html.escape(c.get('ages', 'All')),
-       dist_chip,
        price_cls,
        html.escape(c.get('price', '')),
        html.escape(c.get('schedule', '')),
@@ -941,10 +928,106 @@ def classes_section_html(classes, town):
        html.escape(c.get('city', '')),
        html.escape(c.get('registration_url', '')),
        html.escape(c.get('source', '')))
-    out += '''      </div>
+
+
+def classes_page(base):
+    classes = CLASSES
+    if not classes:
+        return None
+
+    sports = sorted({c.get('sport', '').lower() for c in classes if c.get('sport')})
+    cities = sorted({c.get('city', '') for c in classes if c.get('city')})
+
+    title = 'Kids classes in %s · %s' % (FOCUS_LABEL, SITE_NAME)
+    desc = ('Sports, swim lessons and activities for kids in %s — '
+            'schedules, prices and registration links.' % FOCUS_LABEL)
+
+    out = HEAD.format(title=html.escape(title, quote=True),
+                      desc=html.escape(desc, quote=True),
+                      canonical='%sclasses/' % base, up='../',
+                      og_image='',
+                      nav='<a href="../"><span class="nav-full">Find places</span>'
+                          '<span class="nav-short">Places</span></a>')
+
+    # Filter chips
+    sport_chips = ''.join(
+        '<button class="filter-chip" data-filter="sport" data-val="%s">%s</button>'
+        % (html.escape(s, quote=True), html.escape(s.title()))
+        for s in sports)
+    city_chips = ''.join(
+        '<button class="filter-chip" data-filter="city" data-val="%s">%s</button>'
+        % (html.escape(c.lower(), quote=True), html.escape(c))
+        for c in cities)
+
+    out += '''
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <h1 class="hero-title"><span class="hl">Kids classes</span> in %s</h1>
+      <p class="lede">%d classes &mdash; sports, swim lessons &amp; activities with registration links.</p>
     </div>
   </section>
+
+  <section class="classes-page" id="list">
+    <div class="wrap">
+      <div class="cl-filters" id="clFilters">
+        <div class="cl-filter-group">
+          <span class="cl-filter-label">Sport</span>
+          <div class="cl-filter-row">%s</div>
+        </div>
+        <div class="cl-filter-group">
+          <span class="cl-filter-label">City</span>
+          <div class="cl-filter-row">%s</div>
+        </div>
+      </div>
+      <p class="cl-count" id="clCount">Showing all %d classes</p>
+      <div class="classes-grid" id="clGrid">
+%s
+      </div>
+      <p class="empty" id="clEmpty" hidden>No classes match those filters.</p>
+    </div>
+  </section>
+</main>
+''' % (html.escape(FOCUS_LABEL),
+       len(classes),
+       sport_chips,
+       city_chips,
+       len(classes),
+       ''.join(class_card_html(c) for c in classes))
+
+    out += '''<script>
+(function () {
+  var chips = document.querySelectorAll('.filter-chip');
+  var cards = document.querySelectorAll('.class-card');
+  var countEl = document.getElementById('clCount');
+  var emptyEl = document.getElementById('clEmpty');
+  var active = {};
+  chips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      var f = chip.dataset.filter;
+      var v = chip.dataset.val;
+      if (active[f] === v) { delete active[f]; chip.classList.remove('on'); }
+      else {
+        document.querySelectorAll('[data-filter="' + f + '"]').forEach(function (c) { c.classList.remove('on'); });
+        active[f] = v; chip.classList.add('on');
+      }
+      var n = 0;
+      cards.forEach(function (card) {
+        var show = true;
+        if (active.sport && card.dataset.sport !== active.sport) show = false;
+        if (active.city && card.dataset.city !== active.city) show = false;
+        card.hidden = !show;
+        if (show) n++;
+      });
+      countEl.textContent = n === cards.length ? 'Showing all ' + n + ' classes'
+        : 'Showing ' + n + ' of ' + cards.length + ' classes';
+      emptyEl.hidden = n > 0;
+    });
+  });
+})();
+</script>
 '''
+    out += FOOT
     return out
 
 
@@ -965,8 +1048,6 @@ def city_page(town, places, events, dated, base):
                     and e.get('seasonal')
                     and e['date'] >= str(today)]
     seasonal_groups = group_seasonal(seasonal_raw, town)
-
-    town_classes = [c for c in CLASSES if c.get('region') == town.get('region')]
 
     # How far each event is *from this town*. Copy first: these dicts are shared
     # across every city page, so writing distance in place would leave all five
@@ -1002,7 +1083,8 @@ def city_page(town, places, events, dated, base):
                       canonical='%s%s/' % (base, slug), up='../',
                       og_image=og_img,
                       nav='<a href="../"><span class="nav-full">Change city</span>'
-                          '<span class="nav-short">Cities</span></a>')
+                          '<span class="nav-short">Cities</span></a>'
+                          '<a href="../classes/">Classes</a>')
 
     # Quick links: two rows — events on row 1, content sections on row 2.
     ql_row1 = []
@@ -1013,8 +1095,6 @@ def city_page(town, places, events, dated, base):
     if seasonal_groups:
         ql_row2.append('<a class="quick-link" href="#seasonal">Special events</a>')
     ql_row2.append('<a class="quick-link" href="#list">Places</a>')
-    if town_classes:
-        ql_row2.append('<a class="quick-link" href="#classes">Classes</a>')
     quick = ''
     ql_html = ''
     if ql_row1:
@@ -1099,8 +1179,6 @@ def city_page(town, places, events, dated, base):
   </section>
 ''' % (html.escape(name), browse_links, FILTERS, ''.join(place_card(p, d) for d, p in listed))
 
-    out += classes_section_html(town_classes, town)
-
     out += TIPS
     out += '\n</main>\n'
     out += events_jsonld(ev, town, week)
@@ -1129,7 +1207,8 @@ def root_page(towns_with_pages, places, base):
             '%d cities across %s.' % (len(towns_with_pages), area))
 
     out = HEAD.format(title=html.escape(title, quote=True), desc=html.escape(desc, quote=True),
-                      canonical=base, up='', nav='',
+                      canonical=base, up='',
+                      nav='<a href="classes/">Classes</a>',
                       og_image='<meta property="og:image" content="%sassets/logo.png" />' % base)
 
     # Organization logo structured data, so Google can render the logo in search.
@@ -1349,6 +1428,14 @@ def main():
     open(os.path.join(ROOT, 'index.html'), 'w', encoding='utf-8').write(
         root_page(towns_with_pages, places, base))
 
+    # Classes page — standalone, not per-city.
+    cp = classes_page(base)
+    if cp:
+        cls_dir = os.path.join(ROOT, 'classes')
+        os.makedirs(cls_dir, exist_ok=True)
+        open(os.path.join(cls_dir, 'index.html'), 'w', encoding='utf-8').write(cp)
+        open(os.path.join(cls_dir, '.generated'), 'w').write('written by build.py\n')
+
     # sitemap, so the city pages are actually discoverable
     urls = [base] + ['%s%s/' % (base, slugify(t['name'])) for t in towns_with_pages] + \
            ['%s%s/calendar/' % (base, slugify(t['name'])) for t in towns_with_pages]
@@ -1358,6 +1445,8 @@ def main():
             fpath = os.path.join(ROOT, s, fp['slug'], 'index.html')
             if os.path.exists(fpath):
                 urls.append('%s%s/%s/' % (base, s, fp['slug']))
+    if cp:
+        urls.append('%sclasses/' % base)
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sm += ''.join('  <url><loc>%s</loc></url>\n' % u for u in urls)
     sm += '</urlset>\n'

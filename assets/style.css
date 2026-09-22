@@ -409,7 +409,7 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .tip-grid p { margin: 0; font-size: 14.5px; line-height: 1.7; }
 
 /* ---------- Classes ---------- */
-.classes-section { padding: 44px 0 56px; }
+.classes-page { padding: 0 0 56px; }
 .classes-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
 .class-card {
   background: var(--chalk); border-radius: 14px; padding: 18px 18px 14px;
@@ -424,10 +424,6 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .cl-details p { margin: 0; }
 .cl-meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
 .cl-ages { font-weight: 700; color: var(--ink); }
-.cl-dist {
-  font-size: 12px; font-weight: 700; background: var(--sea); color: var(--chalk);
-  padding: 2px 7px; border-radius: 999px;
-}
 .cl-price { font-weight: 700; color: var(--ink); }
 .cl-free { color: var(--grass); }
 .cl-schedule { font-weight: 600; }
@@ -445,6 +441,19 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 }
 .cl-register:hover { opacity: .85; }
 .cl-source:hover { background: var(--sky-2); }
+.cl-filters { display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px; }
+.cl-filter-group { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.cl-filter-label { font-size: 13px; font-weight: 800; color: var(--ink-2); text-transform: uppercase; letter-spacing: .06em; min-width: 46px; }
+.cl-filter-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.filter-chip {
+  font-family: var(--text); font-size: 13px; font-weight: 700;
+  padding: 5px 13px; border-radius: 999px; cursor: pointer;
+  background: var(--chalk); color: var(--ink-2);
+  border: 1.5px solid var(--line-2);
+  transition: background .15s var(--ease), color .15s var(--ease), border-color .15s var(--ease);
+}
+.filter-chip.on { background: var(--sea); color: var(--chalk); border-color: var(--sea); }
+.cl-count { font-size: 13.5px; color: var(--ink-2); margin: 0 0 16px; }
 
 /* ---------- Footer ---------- */
 /* Everything the footer used to carry — the lockup, the tagline — the header
