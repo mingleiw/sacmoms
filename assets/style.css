@@ -99,28 +99,25 @@ section[id] { scroll-margin-top: 78px; }
   border-bottom: 2px solid var(--line);
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 68px; }
-.brand { display: flex; align-items: center; gap: 12px; }
-.brand-mark {
-  flex: none; width: 40px; height: 40px;
-  border-radius: 14px 14px 14px 5px;      /* a little off-square, like a sticker */
-  transform: rotate(-4deg);
+.brand { display: flex; align-items: center; gap: 13px; }
+.brand-logo { flex: none; width: auto; height: 42px; display: block; }
+/* Tagline sits beside the lockup, divided by a rule rather than more type weight. */
+.brand-tag {
+  font-size: 12.5px; font-weight: 700; color: var(--ink-2); line-height: 1.2;
+  padding-left: 13px; border-left: 2px solid var(--line-2); max-width: 15ch;
 }
-.brand-text { display: flex; flex-direction: column; line-height: 1.15; }
-.brand-text strong, .nav a { white-space: nowrap; }
-.brand-text strong { font-family: var(--display); font-size: 20px; font-weight: 800; }
-.brand-text small { font-size: 12px; color: var(--ink-2); font-weight: 600; }
+.nav a { white-space: nowrap; }
 .nav { display: flex; gap: 8px; font-size: 15px; font-weight: 700; }
 .nav a { color: var(--ink-2); padding: 6px 13px; border-radius: 999px; transition: background .2s var(--ease), color .2s var(--ease); }
 .nav-short { display: none; }
 
 @media (max-width: 560px) {
   .header-inner { min-height: 60px; }
-  .brand-mark { width: 34px; height: 34px; }
-  .brand-text strong { font-size: 17px; }
+  .brand-logo { height: 34px; }
   /* The tagline used to be a region label and was dropped here for space. It now
      carries what the site is for, which is most needed on a phone, so it shrinks
      instead of disappearing. */
-  .brand-text small { font-size: 11px; }
+  .brand-tag { font-size: 11px; padding-left: 10px; max-width: 13ch; }
   .nav { gap: 4px; font-size: 13.5px; }
   .nav a { padding: 5px 10px; }
 }
@@ -129,8 +126,9 @@ section[id] { scroll-margin-top: 78px; }
   .wrap { padding-inline: 17px; }
   .nav a + a { display: none; }
   .brand { gap: 9px; }
-  .brand-mark { width: 32px; height: 32px; }
-  .brand-text strong { font-size: 15.5px; }
+  .brand-logo { height: 30px; }
+  /* At 320px the lockup plus "Change city" is already the full width. */
+  .brand-tag { display: none; }
   .nav { font-size: 12.5px; }
   .nav a { padding: 5px 10px; }
   /* "Change city" plus the brand does not fit at 320px */
@@ -461,7 +459,7 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
   .hero-title .hl { opacity: 1 !important; transform: none !important; }
-  .brand-mark, .ico { transform: none !important; }
+  .ico { transform: none !important; }
 }
 
 /* ---- Filter scope labels: each filter set names what it filters ---- */

@@ -197,11 +197,9 @@ HEAD = '''<!DOCTYPE html>
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="{up}">
-      <img class="brand-mark" src="{up}assets/favicon-48.png" width="34" height="34" alt="" />
-      <span class="brand-text">
-        <strong>''' + SITE_NAME + '''</strong>
-        <small>Where to take the kids</small>
-      </span>
+      <img class="brand-logo" src="{up}assets/logo-lockup.png" width="640" height="178"
+           alt="''' + SITE_NAME + '''" />
+      <small class="brand-tag">Where to take the kids</small>
     </a>
     <nav class="nav">{nav}</nav>
   </div>
