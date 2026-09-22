@@ -1154,7 +1154,7 @@ def root_page(towns_with_pages, places, base):
   <section class="hero hero-home">
     <div class="wrap">
       <h1 class="hero-title"><span class="hl">Where to take the kids</span> <span class="hl">in ''' + FOCUS_LABEL + '''</span></h1>
-      <p class="hero-tag">%d places and weekly events, sorted by distance from you.</p>
+      <p class="hero-tag">%d places and events, nearest first.</p>
       <p class="loc-hint" id="lastCity" hidden></p>
     </div>
   </section>
