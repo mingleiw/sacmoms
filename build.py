@@ -179,7 +179,8 @@ HEAD = '''<!DOCTYPE html>
 <meta property="og:description" content="{desc}" />
 <meta property="og:url" content="{canonical}" />
 {og_image}
-<link rel="icon" href="{up}assets/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="{up}assets/favicon-48.png" sizes="48x48" type="image/png" />
+<link rel="apple-touch-icon" href="{up}assets/apple-touch-icon.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
@@ -196,7 +197,7 @@ HEAD = '''<!DOCTYPE html>
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="{up}">
-      <span class="brand-mark" aria-hidden="true"><svg width="19" height="19"><use href="#i-park"/></svg></span>
+      <img class="brand-mark" src="{up}assets/favicon-48.png" width="34" height="34" alt="" />
       <span class="brand-text">
         <strong>''' + SITE_NAME + '''</strong>
         <small>Where to take the kids</small>
@@ -1090,7 +1091,17 @@ def root_page(towns_with_pages, places, base):
             '%d cities across %s.' % (len(towns_with_pages), area))
 
     out = HEAD.format(title=html.escape(title, quote=True), desc=html.escape(desc, quote=True),
-                      canonical=base, up='', nav='', og_image='')
+                      canonical=base, up='', nav='',
+                      og_image='<meta property="og:image" content="%sassets/logo.png" />' % base)
+
+    # Organization logo structured data, so Google can render the logo in search.
+    out = out.replace('</head>', '''
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "Organization",
+ "name": "SacMoms", "url": "%s",
+ "logo": "%sassets/logo.png"}
+</script>
+</head>''' % (base, base), 1)
 
     links = ''
     for key, label in GROUPS:
@@ -1105,20 +1116,39 @@ def root_page(towns_with_pages, places, base):
 
     out += '''
 <main id="top">
-  <section class="hero">
+  <section class="hero hero-home">
     <div class="wrap hero-inner">
-      <h1 class="hero-title">
-        <span class="hl">Where are we taking</span>
-        <span class="hl">the kids today?</span>
-      </h1>
-      <p class="lede">
-        Things to do with the kids around ''' + (FOCUS_LABEL if FOCUS_REGION else 'Northern California') + ''' &mdash; playgrounds,
-        museums, splash pads, farmers&rsquo; markets and library storytimes. Pick your city
-        and you get what is on this week plus the places nearest you, with the parking
-        and weather notes that decide whether it is worth the drive.
-      </p>
-
-      <p class="loc-hint" id="lastCity" hidden></p>
+      <img class="home-logo" src="assets/logo.png" alt="SacMoms" width="640" height="427" fetchpriority="high" />
+      <p class="hero-tag">Things to do with the kids around Sacramento County.</p>
+    </div>
+    <div class="wrap">
+      <div class="carousel" id="seasonCarousel" aria-roledescription="carousel" aria-label="Seasonal highlights">
+        <div class="carousel-viewport">
+          <div class="carousel-track">
+            <a class="carousel-slide" href="elk-grove/#seasonal" aria-label="Keema's Pumpkin Farm, Elk Grove">
+              <img src="assets/photos/keemas-pumpkin-2026.webp" alt="Keema's Pumpkin Farm pumpkin patch" width="980" height="490" fetchpriority="high" />
+              <span class="carousel-cap"><strong>Keema's Pumpkin Farm</strong><span>Elk Grove &middot; Sep 25 &ndash; Nov 1</span></span>
+            </a>
+            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Dave's Pumpkin Patch, West Sacramento">
+              <img src="assets/photos/daves-pumpkin-2026.webp" alt="Dave's Pumpkin Patch" width="980" height="490" loading="lazy" />
+              <span class="carousel-cap"><strong>Dave's Pumpkin Patch</strong><span>West Sacramento &middot; Oct 3 &ndash; 31</span></span>
+            </a>
+            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Cool Patch Pumpkins, Dixon">
+              <img src="assets/photos/cool-patch-2026.webp" alt="Cool Patch Pumpkins corn maze" width="980" height="490" loading="lazy" />
+              <span class="carousel-cap"><strong>Cool Patch Pumpkins</strong><span>Dixon &middot; Sep 26 &ndash; Nov 1</span></span>
+            </a>
+            <a class="carousel-slide" href="elk-grove/#seasonal" aria-label="Elk Grove Giant Pumpkin Festival">
+              <img src="assets/photos/eg-pumpkin-fest-2026.webp" alt="Elk Grove Giant Pumpkin Festival" width="980" height="490" loading="lazy" />
+              <span class="carousel-cap"><strong>Elk Grove Giant Pumpkin Festival</strong><span>Elk Grove Park &middot; Oct 3 &ndash; 4</span></span>
+            </a>
+            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Boo at the Zoo, Sacramento Zoo">
+              <img src="assets/photos/sac-zoo-boo-2026.webp" alt="Boo at the Zoo at the Sacramento Zoo" width="980" height="490" loading="lazy" />
+              <span class="carousel-cap"><strong>Boo at the Zoo</strong><span>Sacramento Zoo &middot; Oct 24 &ndash; 31</span></span>
+            </a>
+          </div>
+        </div>
+        <div class="carousel-dots" role="tablist" aria-label="Choose slide"></div>
+      </div>
     </div>
   </section>
 
@@ -1128,7 +1158,7 @@ def root_page(towns_with_pages, places, base):
     <div class="wrap">
       <div class="section-head">
         <h2>Choose your city</h2>
-        <p class="section-sub">%d cities, %d places to take the kids. Every city links straight through.</p>
+        <p class="section-sub">%d cities, %d places to take the kids.</p>
       </div>
       <div class="city-index">
 %s      </div>
@@ -1138,6 +1168,40 @@ def root_page(towns_with_pages, places, base):
 ''' % (len(towns_with_pages), len(listed), links)
 
     out += '''<script>
+// Auto-rolling seasonal carousel: advances every 4.5s, pauses on hover/touch.
+(function () {
+  var root = document.getElementById('seasonCarousel');
+  if (!root) return;
+  var track = root.querySelector('.carousel-track');
+  var slides = track.children.length;
+  var dotsBox = root.querySelector('.carousel-dots');
+  var idx = 0, timer = null;
+  for (var i = 0; i < slides; i++) {
+    (function (n) {
+      var b = document.createElement('button');
+      b.setAttribute('role', 'tab');
+      b.setAttribute('aria-label', 'Slide ' + (n + 1));
+      b.addEventListener('click', function () { go(n); restart(); });
+      dotsBox.appendChild(b);
+    })(i);
+  }
+  var dots = dotsBox.children;
+  function go(n) {
+    idx = (n + slides) % slides;
+    track.style.transform = 'translateX(-' + (idx * 100) + '%)';
+    for (var i = 0; i < slides; i++) dots[i].setAttribute('aria-current', i === idx ? 'true' : 'false');
+  }
+  function restart() {
+    if (timer) clearInterval(timer);
+    timer = setInterval(function () { go(idx + 1); }, 4500);
+  }
+  root.addEventListener('mouseenter', function () { if (timer) clearInterval(timer); timer = null; });
+  root.addEventListener('mouseleave', restart);
+  root.addEventListener('touchstart', function () { if (timer) clearInterval(timer); timer = null; }, {passive: true});
+  go(0); restart();
+})();
+</script>
+<script>
 // Offer the city this browser used last, without getting in the way of the list.
 (function () {
   var hint = document.getElementById('lastCity');

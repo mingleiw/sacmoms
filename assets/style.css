@@ -101,9 +101,8 @@ section[id] { scroll-margin-top: 78px; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 68px; }
 .brand { display: flex; align-items: center; gap: 12px; }
 .brand-mark {
-  flex: none; width: 40px; height: 40px; display: grid; place-items: center;
+  flex: none; width: 40px; height: 40px;
   border-radius: 14px 14px 14px 5px;      /* a little off-square, like a sticker */
-  background: var(--grass); color: var(--chalk);
   transform: rotate(-4deg);
 }
 .brand-text { display: flex; flex-direction: column; line-height: 1.15; }
@@ -669,4 +668,33 @@ a, button { -webkit-tap-highlight-color: transparent; }
   .cal-day { padding: 4px 1px; }
   .cal-events-list .event { flex-direction: column; gap: 6px; }
   .cal-events-list .ev-time { width: auto; }
+}
+
+/* ---------- Homepage: logo hero + auto-rolling seasonal carousel ---------- */
+.hero-home { padding: 40px 0 28px; text-align: center; }
+.home-logo { width: min(320px, 72vw); height: auto; }
+.hero-tag { margin: 10px 0 0; font-size: 18px; font-weight: 700; color: var(--ink-2); }
+
+.carousel { position: relative; max-width: 980px; margin: 22px auto 0; border-radius: 22px; overflow: hidden; box-shadow: 0 12px 32px rgba(60,40,10,.18); }
+.carousel-viewport { overflow: hidden; }
+.carousel-track { display: flex; transition: transform .65s cubic-bezier(.4,0,.2,1); }
+.carousel-slide { position: relative; flex: 0 0 100%; display: block; }
+.carousel-slide img { display: block; width: 100%; aspect-ratio: 16 / 8; object-fit: cover; }
+.carousel-cap {
+  position: absolute; left: 14px; bottom: 14px; right: 14px;
+  display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;
+  background: rgba(20,16,8,.62); color: #fff; backdrop-filter: blur(3px);
+  border-radius: 14px; padding: 10px 14px; text-align: left;
+}
+.carousel-cap strong { font-family: var(--display); font-size: 19px; }
+.carousel-cap span { font-size: 13.5px; opacity: .92; }
+.carousel-dots { position: absolute; top: 12px; right: 14px; display: flex; gap: 7px; }
+.carousel-dots button {
+  width: 9px; height: 9px; border-radius: 50%; border: none; padding: 0;
+  background: rgba(255,255,255,.55); cursor: pointer;
+}
+.carousel-dots button[aria-current="true"] { background: #fff; transform: scale(1.25); }
+@media (max-width: 640px) {
+  .carousel-slide img { aspect-ratio: 16 / 10; }
+  .carousel-cap strong { font-size: 16px; }
 }
