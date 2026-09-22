@@ -570,10 +570,9 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
   transform: translateY(-2px); color: var(--chalk); background: var(--sea);
 }
 .city-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 5px 0 var(--line-2), 0 16px 32px rgba(35,49,61,.1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(35,49,61,.1), 0 0 0 1px rgba(35,49,61,.07);
 }
-.city-card:hover .city-card-arrow { transform: translateX(4px); }
 .loc-btn:hover {
   transform: translateY(-1px);
 }
@@ -680,26 +679,48 @@ a, button { -webkit-tap-highlight-color: transparent; }
 .hero-home .hero-title { max-width: none; text-align: center; }
 .hero-tag { margin: 14px auto 0; font-size: 17.5px; font-weight: 600; color: var(--ink-2); max-width: 42ch; }
 
-.city-section { padding: 32px 0 56px; }
-.city-cards { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+.city-section { padding: 26px 0 52px; }
+.city-cards { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
 .city-card {
-  display: flex; flex-direction: column; align-items: center; gap: 6px;
-  background: var(--chalk); border-radius: var(--r-lg); padding: 28px 16px 24px;
-  border-top: 4px solid var(--accent, var(--sea));
-  box-shadow: 0 3px 0 var(--line-2);
-  transition: transform .28s var(--bounce), box-shadow .28s var(--ease);
-  text-align: center;
+  display: flex; flex-direction: column; gap: 3px;
+  background: var(--chalk); border-radius: 14px; padding: 13px 15px 14px;
+  /* Accent on the leading edge, not a bar across the top: on a short card a top
+     bar reads as a template header and forces the card taller to earn it. */
+  border-left: 3px solid var(--accent, var(--sea));
+  box-shadow: 0 1px 2px rgba(35,49,61,.07), 0 0 0 1px rgba(35,49,61,.05);
+  transition: transform .2s var(--ease), box-shadow .2s var(--ease);
 }
-.city-card h3 { font-family: var(--display); font-size: 21px; font-weight: 800; }
-.city-card-sub { font-size: 13px; font-weight: 600; color: var(--ink-2); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; }
-.city-card-arrow { color: var(--sea); font-size: 20px; font-weight: 800; margin-top: 4px; transition: transform .2s var(--ease); }
+.city-card h3 {
+  font-family: var(--display); font-size: 16.5px; font-weight: 800;
+  line-height: 1.2; letter-spacing: -.01em;
+}
+.city-card-sub {
+  font-size: 12.5px; font-weight: 600; color: var(--ink-2); line-height: 1.35;
+  display: -webkit-box; -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden;
+}
+/* The whole card is the link, so the arrow is decoration that costs a line of
+   height. It earns its place only in the phone list, where it marks the row. */
+.city-card-arrow { display: none; }
 @media (max-width: 900px) { .city-cards { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 560px) {
   .home-seasonal { padding: 12px 0 0; }
   .hero-home { padding: 36px 0 8px; }
-  .city-cards { grid-template-columns: repeat(2, 1fr); }
-  .city-card { padding: 22px 14px 20px; }
-  .city-card h3 { font-size: 18px; }
+  /* Five cities in two columns leaves a lone half-width card on the last row.
+     One column reads as a list and is shorter than the grid it replaces. */
+  .city-cards { grid-template-columns: 1fr; gap: 8px; }
+  .city-card {
+    display: grid; grid-template-columns: 1fr auto;
+    grid-template-areas: "name arrow" "sub arrow";
+    align-items: center; column-gap: 12px; row-gap: 1px;
+    padding: 11px 14px;
+  }
+  .city-card h3 { grid-area: name; font-size: 16px; }
+  .city-card-sub { grid-area: sub; -webkit-line-clamp: 1; line-clamp: 1; font-size: 12px; }
+  .city-card-arrow {
+    grid-area: arrow; display: block; color: var(--line-2);
+    font-size: 18px; font-weight: 800;
+  }
 }
 
 .carousel { position: relative; max-width: 980px; margin: 22px auto 0; border-radius: 22px; overflow: hidden; box-shadow: 0 12px 32px rgba(60,40,10,.18); }
