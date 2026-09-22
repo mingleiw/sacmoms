@@ -114,24 +114,18 @@ section[id] { scroll-margin-top: 78px; }
 @media (max-width: 560px) {
   .header-inner { min-height: 60px; }
   .brand-logo { height: 34px; }
-  /* The tagline used to be a region label and was dropped here for space. It now
-     carries what the site is for, which is most needed on a phone, so it shrinks
-     instead of disappearing. */
-  .brand-tag { font-size: 11px; padding-left: 10px; max-width: 13ch; }
+  .brand-tag { display: none; }
+  .brand { gap: 9px; }
   .nav { gap: 4px; font-size: 13.5px; }
   .nav a { padding: 5px 10px; }
+  .nav a:nth-child(n+3) { display: none; }
 }
-/* 320px phones: the chunkier brand mark plus a nav pill no longer fit */
 @media (max-width: 420px) {
   .wrap { padding-inline: 17px; }
   .nav a + a { display: none; }
-  .brand { gap: 9px; }
   .brand-logo { height: 30px; }
-  /* At 320px the lockup plus "Change city" is already the full width. */
-  .brand-tag { display: none; }
   .nav { font-size: 12.5px; }
   .nav a { padding: 5px 10px; }
-  /* "Change city" plus the brand does not fit at 320px */
   .nav-full { display: none; }
   .nav-short { display: inline; }
 }
