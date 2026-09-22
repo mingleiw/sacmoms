@@ -1103,25 +1103,50 @@ def root_page(towns_with_pages, places, base):
 </script>
 </head>''' % (base, base), 1)
 
-    links = ''
-    for key, label in GROUPS:
+    city_cards = ''
+    _accent = ['--sea', '--grass', '--sun', '--grape', '--tomato']
+    _ci = 0
+    for key, _label in GROUPS:
         group = [t for t in towns_with_pages if t['region'] == key]
-        if not group:
-            continue
-        links += '        <section class="city-group">\n          <h3>%s</h3>\n          <ul>\n' % html.escape(label)
         for t in group:
             s = slugify(t['name'])
-            links += '            <li><a href="%s/">%s</a></li>\n' % (s, html.escape(t['name']))
-        links += '          </ul>\n        </section>\n'
+            nearby = [p for p in places
+                      if miles(t['lat'], t['lon'], p['lat'], p['lon']) <= LIST_MILES]
+            closest = min(nearby, key=lambda p: miles(t['lat'], t['lon'], p['lat'], p['lon']))
+            city_cards += ('        <a class="city-card" href="%s/" style="--accent: var(%s)">'
+                          '<h3>%s</h3>'
+                          '<span class="city-card-sub">%s</span>'
+                          '<span class="city-card-arrow" aria-hidden="true">&rarr;</span>'
+                          '</a>\n' % (s, _accent[_ci % 5],
+                                      html.escape(t['name']),
+                                      html.escape(closest['name'])))
+            _ci += 1
 
     out += '''
 <main id="top">
   <section class="hero hero-home">
-    <div class="wrap hero-inner">
-      <img class="home-logo" src="assets/logo.png" alt="SacMoms" width="640" height="427" fetchpriority="high" />
-      <p class="hero-tag">Things to do with the kids around Sacramento County.</p>
-    </div>
     <div class="wrap">
+      <h1 class="hero-title"><span class="hl">Where to take</span> <span class="hl">the kids</span></h1>
+      <p class="hero-tag">%d places and weekly events across Sacramento County, sorted by distance from you.</p>
+      <p class="loc-hint" id="lastCity" hidden></p>
+    </div>
+  </section>
+
+  <section class="city-section" id="list">
+    <div class="wrap">
+      <div class="city-cards">
+%s      </div>
+    </div>
+  </section>
+
+  <!-- ad slot: between city picks and seasonal highlights -->
+
+  <section class="home-seasonal">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Coming up</h2>
+        <p class="section-sub">Seasonal events around Sacramento County</p>
+      </div>
       <div class="carousel" id="seasonCarousel" aria-roledescription="carousel" aria-label="Seasonal highlights">
         <div class="carousel-viewport">
           <div class="carousel-track">
@@ -1151,21 +1176,8 @@ def root_page(towns_with_pages, places, base):
       </div>
     </div>
   </section>
-
-  <!-- ad slot: between hero and city index -->
-
-  <section class="list-section" id="list">
-    <div class="wrap">
-      <div class="section-head">
-        <h2>Choose your city</h2>
-        <p class="section-sub">%d cities, %d places to take the kids.</p>
-      </div>
-      <div class="city-index">
-%s      </div>
-    </div>
-  </section>
 </main>
-''' % (len(towns_with_pages), len(listed), links)
+''' % (len(listed), city_cards)
 
     out += '''<script>
 // Auto-rolling seasonal carousel: advances every 4.5s, pauses on hover/touch.

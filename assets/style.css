@@ -571,6 +571,11 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .city-group a:hover {
   transform: translateY(-2px); color: var(--chalk); background: var(--sea);
 }
+.city-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 0 var(--line-2), 0 16px 32px rgba(35,49,61,.1);
+}
+.city-card:hover .city-card-arrow { transform: translateX(4px); }
 .loc-btn:hover {
   transform: translateY(-1px);
 }
@@ -670,10 +675,32 @@ a, button { -webkit-tap-highlight-color: transparent; }
   .cal-events-list .ev-time { width: auto; }
 }
 
-/* ---------- Homepage: logo hero + auto-rolling seasonal carousel ---------- */
-.hero-home { padding: 40px 0 28px; text-align: center; }
-.home-logo { width: min(320px, 72vw); height: auto; }
-.hero-tag { margin: 10px 0 0; font-size: 18px; font-weight: 700; color: var(--ink-2); }
+/* ---------- Homepage: hero, city cards, seasonal carousel ---------- */
+.hero-home { padding: 72px 0 12px; text-align: center; }
+.hero-home .hero-title { max-width: none; text-align: center; }
+.hero-tag { margin: 14px auto 0; font-size: 17.5px; font-weight: 600; color: var(--ink-2); max-width: 42ch; }
+
+.city-section { padding: 32px 0 56px; }
+.city-cards { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+.city-card {
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  background: var(--chalk); border-radius: var(--r-lg); padding: 28px 16px 24px;
+  border-top: 4px solid var(--accent, var(--sea));
+  box-shadow: 0 3px 0 var(--line-2);
+  transition: transform .28s var(--bounce), box-shadow .28s var(--ease);
+  text-align: center;
+}
+.city-card h3 { font-family: var(--display); font-size: 21px; font-weight: 800; }
+.city-card-sub { font-size: 13px; font-weight: 600; color: var(--ink-2); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; }
+.city-card-arrow { color: var(--sea); font-size: 20px; font-weight: 800; margin-top: 4px; transition: transform .2s var(--ease); }
+.home-seasonal { padding: 0 0 56px; }
+@media (max-width: 900px) { .city-cards { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 560px) {
+  .hero-home { padding: 56px 0 8px; }
+  .city-cards { grid-template-columns: repeat(2, 1fr); }
+  .city-card { padding: 22px 14px 20px; }
+  .city-card h3 { font-size: 18px; }
+}
 
 .carousel { position: relative; max-width: 980px; margin: 22px auto 0; border-radius: 22px; overflow: hidden; box-shadow: 0 12px 32px rgba(60,40,10,.18); }
 .carousel-viewport { overflow: hidden; }
