@@ -122,6 +122,17 @@ def load_venues():
 
 VENUES = load_venues()
 
+
+def load_classes():
+    """Sports/activity classes from data/classes_sac.json (scraper-owned)."""
+    try:
+        return load('classes_sac.json')
+    except FileNotFoundError:
+        return []
+
+
+CLASSES = load_classes()
+
 PHOTO_DIR = os.path.join(ROOT, 'assets', 'photos')
 
 
@@ -870,6 +881,73 @@ def filter_page(town, places, fp, base):
     return out
 
 
+SPORT_ICONS = {
+    'soccer': 'i-park', 'gymnastics': 'i-craft', 'basketball': 'i-play',
+    'swimming': 'i-wave', 'football': 'i-park', 'martial arts': 'i-craft',
+    'baseball': 'i-park', 'volleyball': 'i-play', 'tennis': 'i-park',
+    'dance': 'i-craft', 'skating': 'i-wave',
+}
+
+
+def classes_section_html(classes, town):
+    if not classes:
+        return ''
+    out = '''
+  <section class="classes-section" id="classes">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Kids classes near %s</h2>
+        <p class="section-sub">Sports, swim lessons &amp; activities &mdash; with registration links</p>
+      </div>
+      <div class="classes-grid">
+''' % html.escape(town['name'])
+    for c in classes:
+        icon = SPORT_ICONS.get(c.get('sport', '').lower(), 'i-play')
+        dist_chip = ''
+        vc = VENUES.get('%s|%s' % (c.get('venue', ''), c.get('city', '')))
+        if vc:
+            d = miles(town['lat'], town['lon'], vc[0], vc[1])
+            dist_chip = '<span class="cl-dist">%s mi</span>' % show_miles(d)
+        price_cls = ' cl-free' if c.get('price', '').lower() == 'free' else ''
+        out += '''        <article class="class-card">
+          <div class="cl-head">
+            <svg class="cl-icon" width="22" height="22"><use href="#%s"/></svg>
+            <div>
+              <h3>%s</h3>
+              <p class="cl-provider">%s</p>
+            </div>
+          </div>
+          <div class="cl-details">
+            <p class="cl-meta"><span class="cl-ages">Ages %s</span>%s<span class="cl-price%s">%s</span></p>
+            <p class="cl-schedule">%s</p>
+            <p class="cl-session">%s</p>
+            <p class="cl-venue">%s, %s</p>
+          </div>
+          <div class="cl-actions">
+            <a class="cl-register" href="%s" target="_blank" rel="noopener">Register</a>
+            <a class="cl-source" href="%s" target="_blank" rel="noopener">Source</a>
+          </div>
+        </article>
+''' % (icon,
+       html.escape(c['name']),
+       html.escape(c.get('provider', '')),
+       html.escape(c.get('ages', 'All')),
+       dist_chip,
+       price_cls,
+       html.escape(c.get('price', '')),
+       html.escape(c.get('schedule', '')),
+       html.escape(c.get('session', '')),
+       html.escape(c.get('venue', '')),
+       html.escape(c.get('city', '')),
+       html.escape(c.get('registration_url', '')),
+       html.escape(c.get('source', '')))
+    out += '''      </div>
+    </div>
+  </section>
+'''
+    return out
+
+
 def city_page(town, places, events, dated, base):
     slug = slugify(town['name'])
     name = town['name']
@@ -887,6 +965,8 @@ def city_page(town, places, events, dated, base):
                     and e.get('seasonal')
                     and e['date'] >= str(today)]
     seasonal_groups = group_seasonal(seasonal_raw, town)
+
+    town_classes = [c for c in CLASSES if c.get('region') == town.get('region')]
 
     # How far each event is *from this town*. Copy first: these dicts are shared
     # across every city page, so writing distance in place would leave all five
@@ -924,18 +1004,26 @@ def city_page(town, places, events, dated, base):
                       nav='<a href="../"><span class="nav-full">Change city</span>'
                           '<span class="nav-short">Cities</span></a>')
 
-    # Quick links: just the jump-to anchors for the page's main sections.
-    ql = []
+    # Quick links: two rows — events on row 1, content sections on row 2.
+    ql_row1 = []
+    ql_row2 = []
     if ev:
-        ql += ['<a class="quick-link" href="#today">Today</a>',
-               '<a class="quick-link" href="#weekend">This weekend</a>']
+        ql_row1 += ['<a class="quick-link" href="#today">Today</a>',
+                     '<a class="quick-link" href="#weekend">This weekend</a>']
     if seasonal_groups:
-        ql.append('<a class="quick-link" href="#seasonal">Special events</a>')
-    ql.append('<a class="quick-link" href="#list">Places</a>')
+        ql_row2.append('<a class="quick-link" href="#seasonal">Special events</a>')
+    ql_row2.append('<a class="quick-link" href="#list">Places</a>')
+    if town_classes:
+        ql_row2.append('<a class="quick-link" href="#classes">Classes</a>')
     quick = ''
-    if ql:
+    ql_html = ''
+    if ql_row1:
+        ql_html += '<div class="ql-row">%s</div>\n        ' % ' '.join(ql_row1)
+    if ql_row2:
+        ql_html += '<div class="ql-row">%s</div>' % ' '.join(ql_row2)
+    if ql_html.strip():
         quick = ('\n      <nav class="quick-links" aria-label="Jump to a section">\n        %s\n      </nav>'
-                 % '\n        '.join(ql))
+                 % ql_html.strip())
 
     # Browse links sit in the places section header, not the hero.
     browse_links = ''
@@ -1010,6 +1098,8 @@ def city_page(town, places, events, dated, base):
     </div>
   </section>
 ''' % (html.escape(name), browse_links, FILTERS, ''.join(place_card(p, d) for d, p in listed))
+
+    out += classes_section_html(town_classes, town)
 
     out += TIPS
     out += '\n</main>\n'

@@ -154,7 +154,8 @@ section[id] { scroll-margin-top: 78px; }
 .lede strong { color: var(--ink); font-weight: 700; }
 
 /* ---------- Quick links ---------- */
-.quick-links { display: flex; flex-wrap: wrap; gap: 7px; margin: 0; }
+.quick-links { display: flex; flex-direction: column; gap: 7px; margin: 0; }
+.ql-row { display: flex; flex-wrap: wrap; gap: 7px; }
 .quick-link {
   font-size: 13.5px; font-weight: 700; padding: 7px 15px;
   border-radius: 999px; background: var(--sea); color: var(--chalk);
@@ -406,6 +407,44 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .tip-grid li { padding-top: 16px; border-top: 3px dotted rgba(255,255,255,.28); }
 .tip-grid h3 { font-size: 19px; margin-bottom: 6px; color: var(--chalk); }
 .tip-grid p { margin: 0; font-size: 14.5px; line-height: 1.7; }
+
+/* ---------- Classes ---------- */
+.classes-section { padding: 44px 0 56px; }
+.classes-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.class-card {
+  background: var(--chalk); border-radius: 14px; padding: 18px 18px 14px;
+  box-shadow: 0 1px 3px rgba(35,49,61,.08), 0 0 0 1px rgba(35,49,61,.04);
+  display: flex; flex-direction: column; gap: 10px;
+}
+.cl-head { display: flex; gap: 10px; align-items: flex-start; }
+.cl-icon { color: var(--sea); flex: none; margin-top: 2px; }
+.cl-head h3 { font-size: 16px; font-weight: 800; line-height: 1.2; margin: 0; }
+.cl-provider { font-size: 13px; color: var(--ink-2); margin: 2px 0 0; }
+.cl-details { font-size: 13.5px; color: var(--ink-2); line-height: 1.5; }
+.cl-details p { margin: 0; }
+.cl-meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.cl-ages { font-weight: 700; color: var(--ink); }
+.cl-dist {
+  font-size: 12px; font-weight: 700; background: var(--sea); color: var(--chalk);
+  padding: 2px 7px; border-radius: 999px;
+}
+.cl-price { font-weight: 700; color: var(--ink); }
+.cl-free { color: var(--grass); }
+.cl-schedule { font-weight: 600; }
+.cl-session { font-style: italic; }
+.cl-venue { color: var(--ink-3); }
+.cl-actions { display: flex; gap: 8px; margin-top: auto; padding-top: 4px; }
+.cl-register {
+  font-size: 13px; font-weight: 700; padding: 6px 14px;
+  border-radius: 999px; background: var(--sea); color: var(--chalk);
+}
+.cl-source {
+  font-size: 13px; font-weight: 600; padding: 6px 14px;
+  border-radius: 999px; color: var(--ink-2);
+  border: 1px solid var(--line-2);
+}
+.cl-register:hover { opacity: .85; }
+.cl-source:hover { background: var(--sky-2); }
 
 /* ---------- Footer ---------- */
 /* Everything the footer used to carry — the lockup, the tagline — the header
