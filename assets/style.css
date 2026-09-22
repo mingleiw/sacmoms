@@ -675,11 +675,11 @@ a, button { -webkit-tap-highlight-color: transparent; }
 /* ---------- Homepage: carousel hero, headline, city cards ---------- */
 .home-seasonal { padding: 20px 0 0; }
 
-.hero-home { padding: 48px 0 12px; text-align: center; }
+.hero-home { padding: 34px 0 12px; text-align: center; }
 .hero-home .hero-title { max-width: none; text-align: center; }
 .hero-tag { margin: 14px auto 0; font-size: 17.5px; font-weight: 600; color: var(--ink-2); max-width: 42ch; }
 
-.city-section { padding: 26px 0 52px; }
+.city-section { padding: 18px 0 52px; }
 .city-cards { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; }
 .city-card {
   display: flex; flex-direction: column; gap: 3px;
@@ -727,7 +727,15 @@ a, button { -webkit-tap-highlight-color: transparent; }
 .carousel-viewport { overflow: hidden; }
 .carousel-track { display: flex; transition: transform .65s cubic-bezier(.4,0,.2,1); }
 .carousel-slide { position: relative; flex: 0 0 100%; display: block; }
-.carousel-slide img { display: block; width: 100%; aspect-ratio: 16 / 8; object-fit: cover; }
+/* height:auto is load-bearing: the img carries height="490", and aspect-ratio is
+   only consulted when the used height is auto. Without it the attribute wins and
+   every slide renders 490px tall at any width — which on a phone is a portrait
+   hero eating half the viewport. Desktop hid the bug, because 980x490 already is
+   16/8. The vh cap keeps it off short and landscape viewports. */
+.carousel-slide img {
+  display: block; width: 100%; height: auto;
+  aspect-ratio: 16 / 8; max-height: 46vh; object-fit: cover;
+}
 .carousel-cap {
   position: absolute; left: 14px; bottom: 14px; right: 14px;
   display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;
@@ -743,6 +751,8 @@ a, button { -webkit-tap-highlight-color: transparent; }
 }
 .carousel-dots button[aria-current="true"] { background: #fff; transform: scale(1.25); }
 @media (max-width: 640px) {
-  .carousel-slide img { aspect-ratio: 16 / 10; }
+  /* Shallower than desktop so the headline, the whole subtitle and the top of the
+     first city row clear the fold — the peek is what starts the scroll. */
+  .carousel-slide img { aspect-ratio: 16 / 10; max-height: 34vh; }
   .carousel-cap strong { font-size: 16px; }
 }
