@@ -1197,8 +1197,17 @@ def root_page(towns_with_pages, places, base):
   }
   root.addEventListener('mouseenter', function () { if (timer) clearInterval(timer); timer = null; });
   root.addEventListener('mouseleave', restart);
-  root.addEventListener('touchstart', function () { if (timer) clearInterval(timer); timer = null; }, {passive: true});
-  root.addEventListener('touchend', function () { setTimeout(restart, 3000); }, {passive: true});
+  var touchX = null, swiped = false;
+  root.addEventListener('touchstart', function (e) { touchX = e.touches[0].clientX; if (timer) clearInterval(timer); timer = null; }, {passive: true});
+  root.addEventListener('touchend', function (e) {
+    if (touchX !== null) {
+      var dx = e.changedTouches[0].clientX - touchX;
+      if (Math.abs(dx) > 40) { go(idx + (dx < 0 ? 1 : -1)); swiped = true; }
+      touchX = null;
+    }
+    setTimeout(restart, 3000);
+  }, {passive: true});
+  root.addEventListener('click', function (e) { if (swiped) { swiped = false; e.preventDefault(); e.stopPropagation(); } }, true);
   go(0); restart();
 })();
 </script>
