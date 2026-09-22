@@ -675,8 +675,10 @@ a, button { -webkit-tap-highlight-color: transparent; }
   .cal-events-list .ev-time { width: auto; }
 }
 
-/* ---------- Homepage: hero, city cards, seasonal carousel ---------- */
-.hero-home { padding: 72px 0 12px; text-align: center; }
+/* ---------- Homepage: carousel hero, headline, city cards ---------- */
+.home-seasonal { padding: 20px 0 0; }
+
+.hero-home { padding: 48px 0 12px; text-align: center; }
 .hero-home .hero-title { max-width: none; text-align: center; }
 .hero-tag { margin: 14px auto 0; font-size: 17.5px; font-weight: 600; color: var(--ink-2); max-width: 42ch; }
 
@@ -693,10 +695,10 @@ a, button { -webkit-tap-highlight-color: transparent; }
 .city-card h3 { font-family: var(--display); font-size: 21px; font-weight: 800; }
 .city-card-sub { font-size: 13px; font-weight: 600; color: var(--ink-2); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; }
 .city-card-arrow { color: var(--sea); font-size: 20px; font-weight: 800; margin-top: 4px; transition: transform .2s var(--ease); }
-.home-seasonal { padding: 0 0 56px; }
 @media (max-width: 900px) { .city-cards { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 560px) {
-  .hero-home { padding: 56px 0 8px; }
+  .home-seasonal { padding: 12px 0 0; }
+  .hero-home { padding: 36px 0 8px; }
   .city-cards { grid-template-columns: repeat(2, 1fr); }
   .city-card { padding: 22px 14px 20px; }
   .city-card h3 { font-size: 18px; }

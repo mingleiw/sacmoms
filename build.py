@@ -1124,29 +1124,8 @@ def root_page(towns_with_pages, places, base):
 
     out += '''
 <main id="top">
-  <section class="hero hero-home">
-    <div class="wrap">
-      <h1 class="hero-title"><span class="hl">Where to take</span> <span class="hl">the kids</span></h1>
-      <p class="hero-tag">%d places and weekly events across Sacramento County, sorted by distance from you.</p>
-      <p class="loc-hint" id="lastCity" hidden></p>
-    </div>
-  </section>
-
-  <section class="city-section" id="list">
-    <div class="wrap">
-      <div class="city-cards">
-%s      </div>
-    </div>
-  </section>
-
-  <!-- ad slot: between city picks and seasonal highlights -->
-
   <section class="home-seasonal">
     <div class="wrap">
-      <div class="section-head">
-        <h2>Coming up</h2>
-        <p class="section-sub">Seasonal events around Sacramento County</p>
-      </div>
       <div class="carousel" id="seasonCarousel" aria-roledescription="carousel" aria-label="Seasonal highlights">
         <div class="carousel-viewport">
           <div class="carousel-track">
@@ -1174,6 +1153,21 @@ def root_page(towns_with_pages, places, base):
         </div>
         <div class="carousel-dots" role="tablist" aria-label="Choose slide"></div>
       </div>
+    </div>
+  </section>
+
+  <section class="hero hero-home">
+    <div class="wrap">
+      <h1 class="hero-title"><span class="hl">Where to take</span> <span class="hl">the kids</span></h1>
+      <p class="hero-tag">%d places and weekly events across Sacramento County, sorted by distance from you.</p>
+      <p class="loc-hint" id="lastCity" hidden></p>
+    </div>
+  </section>
+
+  <section class="city-section" id="list">
+    <div class="wrap">
+      <div class="city-cards">
+%s      </div>
     </div>
   </section>
 </main>
