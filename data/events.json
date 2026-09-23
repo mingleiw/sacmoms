@@ -15,7 +15,7 @@
       "kid_p": 0.94,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.66
+      "quality": 0.68
     }
   },
   {
@@ -32,9 +32,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 0.37
+      "quality": 0.42
     }
   },
   {
@@ -50,9 +50,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.87,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 0.8
+      "quality": 0.68
     }
   },
   {
@@ -69,10 +69,10 @@
     "origin": "scm",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.88,
-      "stale_p": 0.04,
+      "kid_p": 0.92,
+      "stale_p": 0.05,
       "category": "museum",
-      "quality": 0.57
+      "quality": 0.5
     }
   },
   {
@@ -87,7 +87,7 @@
     "day": 3,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
+      "kid_p": 0.94,
       "stale_p": 0.04,
       "category": "other",
       "quality": 1.77
@@ -107,7 +107,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "outdoor",
       "quality": 0.79
     }
@@ -126,9 +126,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 0.82
+      "quality": 0.81
     }
   },
   {
@@ -144,10 +144,10 @@
     "origin": "mosac",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.78,
+      "kid_p": 0.76,
       "stale_p": 0.07,
       "category": "museum",
-      "quality": 0.58
+      "quality": 0.59
     }
   },
   {
@@ -163,10 +163,10 @@
     "origin": "railroad-museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
+      "kid_p": 0.96,
       "stale_p": 0.08,
       "category": "storytime",
-      "quality": 0.56
+      "quality": 0.6
     }
   },
   {
@@ -184,7 +184,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "outdoor",
       "quality": 1.63
     }
@@ -206,7 +206,7 @@
       "kid_p": 0.95,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.59
+      "quality": 1.71
     }
   },
   {
@@ -224,9 +224,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.62
+      "quality": 1.67
     }
   },
   {
@@ -241,10 +241,10 @@
     "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
+      "kid_p": 0.92,
       "stale_p": 0.06,
       "category": "storytime",
-      "quality": 0.47
+      "quality": 0.48
     }
   },
   {
@@ -262,7 +262,7 @@
       "kid_p": 0.91,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.6
+      "quality": 1.53
     }
   },
   {
@@ -279,10 +279,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
+      "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.42
+      "quality": 1.44
     }
   },
   {
@@ -300,9 +300,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.08,
+      "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.34
+      "quality": 0.39
     }
   },
   {
@@ -318,10 +318,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
+      "kid_p": 0.91,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 0.92
+      "quality": 0.91
     }
   },
   {
@@ -341,7 +341,7 @@
       "kid_p": 0.83,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 0.94
+      "quality": 0.88
     }
   },
   {
@@ -359,28 +359,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.11,
+      "stale_p": 0.1,
       "category": "outdoor",
-      "quality": 0.41
-    }
-  },
-  {
-    "time": "10:00",
-    "title": "Family Storytime at the Larkspur Library",
-    "venue": "Larkspur Library",
-    "city": "Larkspur",
-    "region": "marin",
-    "ages": "Under 6",
-    "blurb": "Storytimes are a great way to introduce your children to the five early literacy skills (talk, sing",
-    "source": "https://www.marinmommies.com/calendar/family-storytime-larkspur-library-6",
-    "day": 5,
-    "origin": "marin-mommies",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.78,
-      "stale_p": 0.04,
-      "category": "storytime",
-      "quality": 1.01
+      "quality": 0.47
     }
   },
   {
@@ -397,10 +378,10 @@
     "until": "17:15",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.08,
+      "kid_p": 0.93,
+      "stale_p": 0.09,
       "category": "museum",
-      "quality": 0.51
+      "quality": 0.5
     }
   },
   {
@@ -417,30 +398,10 @@
     "until": "17:15",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
-      "stale_p": 0.09,
+      "kid_p": 0.94,
+      "stale_p": 0.08,
       "category": "museum",
-      "quality": 0.27
-    }
-  },
-  {
-    "time": "10:00",
-    "title": "Free Yoga in the Presidio Park",
-    "venue": "Presidio’s Outpost Meadow",
-    "city": "San Francisco",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Find your flow in the Presidio with an outdoor yoga practice designed to help you move, breathe,",
-    "source": "https://www.marinmommies.com/calendar/free-yoga-presidio-park",
-    "day": 0,
-    "origin": "marin-mommies",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.89,
-      "stale_p": 0.04,
-      "category": "outdoor",
-      "quality": 1.15
+      "quality": 0.31
     }
   },
   {
@@ -457,10 +418,10 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.88,
+      "kid_p": 0.86,
       "stale_p": 0.06,
       "category": "museum",
-      "quality": 0.96
+      "quality": 1.0
     }
   },
   {
@@ -480,7 +441,7 @@
       "kid_p": 0.83,
       "stale_p": 0.16,
       "category": "outdoor",
-      "quality": 0.34
+      "quality": 0.36
     }
   },
   {
@@ -497,10 +458,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
+      "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 0.81
+      "quality": 0.75
     }
   },
   {
@@ -520,7 +481,7 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.01
+      "quality": 0.97
     }
   },
   {
@@ -540,7 +501,7 @@
       "kid_p": 0.96,
       "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 0.92
+      "quality": 0.94
     }
   },
   {
@@ -557,10 +518,10 @@
     "until": "14:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
+      "kid_p": 0.94,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.34
+      "quality": 0.38
     }
   },
   {
@@ -577,10 +538,10 @@
     "until": "11:15",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.81,
+      "kid_p": 0.83,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.45
+      "quality": 0.43
     }
   },
   {
@@ -597,10 +558,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.77,
-      "stale_p": 0.09,
+      "kid_p": 0.78,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 0.16
+      "quality": 0.15
     }
   },
   {
@@ -617,10 +578,10 @@
     "until": "10:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.8,
+      "kid_p": 0.81,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.07
+      "quality": 1.08
     }
   },
   {
@@ -632,13 +593,13 @@
     "ages": "All ages",
     "blurb": "Mickelson Pumpkin Patch, just past the Marin-Sonoma county line off Highway 101, offers a wide",
     "source": "https://www.marinmommies.com/calendar/mickelson-pumpkin-patch-1",
-    "day": 5,
+    "day": 6,
     "origin": "marin-mommies",
     "until": "22:00",
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "seasonal",
       "quality": 0.84
     }
@@ -658,9 +619,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.08,
+      "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 0.24
+      "quality": 0.21
     }
   },
   {
@@ -677,10 +638,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.81,
+      "kid_p": 0.8,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.23
+      "quality": 1.22
     }
   },
   {
@@ -699,7 +660,7 @@
       "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.07
+      "quality": 1.03
     }
   },
   {
@@ -716,7 +677,7 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.88,
+      "kid_p": 0.91,
       "stale_p": 0.04,
       "category": "other",
       "quality": 1.08
@@ -744,26 +705,6 @@
   },
   {
     "time": "11:00",
-    "title": "Oktoberfest at the Mart!",
-    "venue": "Marin Country Mart",
-    "city": "Larkspur",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Prost! Marin Oktoberfest is back at the Mart for a day of Bavarian-inspired food, music,",
-    "source": "https://www.marinmommies.com/calendar/oktoberfest-mart",
-    "day": 0,
-    "origin": "marin-mommies",
-    "until": "17:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.83,
-      "stale_p": 0.05,
-      "category": "seasonal",
-      "quality": 1.2
-    }
-  },
-  {
-    "time": "11:00",
     "title": "Oktoberfest at Six Flags Discovery Kingdom",
     "venue": "Six Flags Discovery Kingdom",
     "city": "Vallejo",
@@ -775,30 +716,30 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.74,
+      "kid_p": 0.73,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.0
+      "quality": 1.03
     }
   },
   {
-    "time": "09:30",
-    "title": "Open Gym: GymWorld Gymnastics & Parkour",
-    "venue": "GymWorld Gymnastics & Parkour",
-    "city": "San Rafael",
+    "time": "10:00",
+    "title": "Open Jump: Pump it Up",
+    "venue": "Pump it Up",
+    "city": "Santa Rosa",
     "region": "marin",
-    "ages": "Ages 5+",
-    "blurb": "Let your kids run, jump, climb, and explore in a safe, playful space at GymWorld Gymnastics",
-    "source": "https://www.marinmommies.com/calendar/open-gym-gymworld-gymnastics-parkour",
-    "day": 0,
+    "ages": "All ages",
+    "blurb": "Our Open Jumps are open play time where your child can have the time of their life. Our massive",
+    "source": "https://www.marinmommies.com/calendar/open-jump-pump-it-0",
+    "day": 2,
     "origin": "marin-mommies",
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
+      "kid_p": 0.94,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.28
+      "quality": 0.84
     }
   },
   {
@@ -810,7 +751,7 @@
     "ages": "All ages",
     "blurb": "The Petaluma Pumpkin Patch and Amazing Corn Maze has over 5 acres of home grown pumpkins. Over 50",
     "source": "https://www.marinmommies.com/calendar/petaluma-pumpkin-patch-and-amazing-corn-maze-15",
-    "day": 5,
+    "day": 6,
     "origin": "marin-mommies",
     "until": "22:00",
     "_jev": {
@@ -818,7 +759,7 @@
       "kid_p": 0.95,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 0.99
+      "quality": 0.92
     }
   },
   {
@@ -835,10 +776,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
+      "kid_p": 0.94,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.04
+      "quality": 1.06
     }
   },
   {
@@ -855,10 +796,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.84,
+      "kid_p": 0.85,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.42
+      "quality": 1.32
     }
   },
   {
@@ -875,10 +816,10 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
+      "kid_p": 0.89,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.09
+      "quality": 1.08
     }
   },
   {
@@ -897,46 +838,7 @@
       "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.05
-    }
-  },
-  {
-    "time": "09:00",
-    "title": "Santa Rosa Pumpkin Patch",
-    "venue": "Santa Rosa Pumpkin Patch",
-    "city": "Petaluma",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Santa Rosa Pumpkin Patch offers eight acres of pumpkins, a huge seven-acre corn maze, kiddy corn",
-    "source": "https://www.marinmommies.com/calendar/santa-rosa-pumpkin-patch-17",
-    "day": 0,
-    "origin": "marin-mommies",
-    "until": "20:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.04,
-      "category": "seasonal",
-      "quality": 1.07
-    }
-  },
-  {
-    "time": "09:00",
-    "title": "Sausalito Farmers Market",
-    "venue": "Dunphy Park parking lot",
-    "city": "Sausalito",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "The Sausalito Recreation Department is excited to be partnered with a seasoned group of local",
-    "source": "https://www.marinmommies.com/calendar/sausalito-farmers-market-1",
-    "day": 0,
-    "origin": "marin-mommies",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.04,
-      "category": "outdoor",
-      "quality": 0.77
+      "quality": 1.04
     }
   },
   {
@@ -953,8 +855,8 @@
     "until": "20:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.92,
-      "stale_p": 0.09,
+      "kid_p": 0.91,
+      "stale_p": 0.12,
       "category": "outdoor",
       "quality": 0.42
     }
@@ -973,10 +875,10 @@
     "until": "10:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.86,
-      "stale_p": 0.04,
+      "kid_p": 0.87,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.1
+      "quality": 1.11
     }
   },
   {
@@ -994,9 +896,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.86,
-      "stale_p": 0.1,
+      "stale_p": 0.09,
       "category": "storytime",
-      "quality": 0.17
+      "quality": 0.16
     }
   },
   {
@@ -1013,10 +915,10 @@
     "until": "12:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.83,
+      "kid_p": 0.81,
       "stale_p": 0.07,
       "category": "storytime",
-      "quality": 0.26
+      "quality": 0.28
     }
   },
   {
@@ -1033,30 +935,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.05,
+      "kid_p": 0.97,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 0.86
-    }
-  },
-  {
-    "time": "08:00",
-    "title": "Sunday Marin Farmers' Market",
-    "venue": "Marin Civic Center Parking Lot",
-    "city": "San Rafael",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Visit the market every Sunday, rain or shine, and see why the Marin farmers market is one of the",
-    "source": "https://www.marinmommies.com/calendar/sunday-marin-farmers-market-0",
-    "day": 0,
-    "origin": "marin-mommies",
-    "until": "13:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.06,
-      "category": "outdoor",
-      "quality": 0.4
+      "quality": 0.92
     }
   },
   {
@@ -1073,10 +955,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
+      "kid_p": 0.89,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.43
+      "quality": 0.39
     }
   },
   {
@@ -1093,10 +975,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
+      "kid_p": 0.9,
       "stale_p": 0.06,
       "category": "storytime",
-      "quality": 0.41
+      "quality": 0.4
     }
   },
   {
@@ -1108,15 +990,15 @@
     "ages": "All ages",
     "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
     "source": "https://www.marinemammalcenter.org/visit/getting-here",
-    "day": 5,
+    "day": 6,
     "until": "16:00",
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
+      "kid_p": 0.91,
       "stale_p": 0.04,
       "category": "museum",
-      "quality": 1.18
+      "quality": 1.17
     }
   },
   {
@@ -1133,10 +1015,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.85,
+      "kid_p": 0.87,
       "stale_p": 0.06,
       "category": "storytime",
-      "quality": 0.21
+      "quality": 0.22
     }
   }
 ]
