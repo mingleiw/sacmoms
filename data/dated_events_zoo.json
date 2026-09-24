@@ -13,7 +13,7 @@
       "kid_p": 0.96,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.47
+      "quality": 1.51
     }
   },
   {
@@ -28,9 +28,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 1.53
+      "quality": 1.52
     }
   },
   {
@@ -44,10 +44,10 @@
     "source": "https://www.saczoo.org/special-events",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
+      "kid_p": 0.98,
+      "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.25
+      "quality": 1.23
     }
   },
   {
@@ -63,8 +63,8 @@
       "verdict": "LIST",
       "kid_p": 0.95,
       "stale_p": 0.04,
-      "category": "outdoor",
-      "quality": 1.27
+      "category": "museum",
+      "quality": 1.24
     }
   },
   {
@@ -79,9 +79,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.5
+      "quality": 1.4
     }
   },
   {
@@ -98,7 +98,7 @@
       "kid_p": 0.93,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 1.02
+      "quality": 1.0
     }
   },
   {
@@ -112,10 +112,10 @@
     "source": "https://www.saczoo.org/special-events",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
+      "kid_p": 0.92,
       "stale_p": 0.04,
       "category": "seasonal",
-      "quality": 1.17
+      "quality": 1.19
     }
   },
   {
@@ -129,9 +129,9 @@
     "source": "https://www.saczoo.org/special-events",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
+      "kid_p": 0.94,
       "stale_p": 0.04,
-      "category": "outdoor",
+      "category": "museum",
       "quality": 1.32
     }
   },
@@ -147,9 +147,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 1.44
+      "quality": 1.52
     }
   },
   {
@@ -163,7 +163,7 @@
     "source": "https://www.saczoo.org/special-events",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
+      "kid_p": 0.93,
       "stale_p": 0.05,
       "category": "outdoor",
       "quality": 1.0
@@ -181,9 +181,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.44
+      "quality": 1.4
     }
   },
   {
@@ -200,7 +200,7 @@
       "kid_p": 0.96,
       "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.45
+      "quality": 1.53
     }
   }
 ]

@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "date": "2026-09-22",
+    "time": "11:00",
+    "until": "13:00",
+    "title": "Create an Elk Grove History Collage",
+    "venue": "Elk Grove Fine Arts Center",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Free two-hour collage workshop for Elk Grove History Week, open to all ages. All supplies provided; kids must be with an adult. Sessions at 11am, 1:30pm and 4pm; registration required, space is limited.",
+    "source": "https://elkgrove.gov/event/elk-grove-history-week/september-20-2026-1200am",
+    "_jev": {
+      "verdict": "REJECT",
+      "kid_p": 0.89,
+      "stale_p": 0.92,
+      "category": "other",
+      "quality": 1.65
+    },
+    "_quarantined_from": "data/dated_events_curated.json",
+    "_quarantined_on": "2026-09-23"
+  }
+]

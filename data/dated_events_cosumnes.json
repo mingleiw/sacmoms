@@ -13,7 +13,7 @@
       "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "seasonal",
-      "quality": 1.8
+      "quality": 1.74
     }
   },
   {
@@ -28,10 +28,10 @@
     "source": "https://www.cosumnescsd.gov/731/Pumpkin-Recipe-Contest",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
+      "kid_p": 0.91,
       "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.69
+      "quality": 1.61
     }
   },
   {
@@ -67,7 +67,7 @@
       "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "seasonal",
-      "quality": 1.73
+      "quality": 1.8
     }
   },
   {
@@ -102,9 +102,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.94,
-      "stale_p": 0.03,
+      "stale_p": 0.04,
       "category": "seasonal",
-      "quality": 1.85
+      "quality": 1.82
     }
   }
 ]

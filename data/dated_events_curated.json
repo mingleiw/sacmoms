@@ -12,7 +12,7 @@
     "venue": "Mare Island Naval Shipyard",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
+      "kid_p": 0.92,
       "stale_p": 0.06,
       "category": "outdoor",
       "quality": 1.98
@@ -31,10 +31,10 @@
     "venue": "Mare Island Naval Shipyard",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.07,
+      "kid_p": 0.92,
+      "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 1.98
+      "quality": 1.97
     }
   },
   {
@@ -50,10 +50,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.05,
+      "kid_p": 0.92,
+      "stale_p": 0.04,
       "category": "seasonal",
-      "quality": 1.82
+      "quality": 1.76
     }
   },
   {
@@ -69,10 +69,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.92,
+      "kid_p": 0.91,
       "stale_p": 0.04,
       "category": "seasonal",
-      "quality": 1.8
+      "quality": 1.84
     }
   },
   {
@@ -80,6 +80,44 @@
     "blurb": "The museum's annual Halloween fundraiser, the longest-running Halloween festival in Marin, over five weekends. Goblin Village, Bug Dig, Build a Beast art, Spider Spinners and more. Advance tickets required.",
     "city": "Sausalito",
     "date": "2026-10-10",
+    "region": "marin",
+    "source": "https://bayareadiscoverymuseum.org/events/goblin-jamboree/",
+    "time": "09:00",
+    "title": "Goblin Jamboree",
+    "until": "16:00",
+    "venue": "Bay Area Discovery Museum",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.91,
+      "stale_p": 0.04,
+      "category": "seasonal",
+      "quality": 1.81
+    }
+  },
+  {
+    "ages": "All ages",
+    "blurb": "The museum's annual Halloween fundraiser, the longest-running Halloween festival in Marin, over five weekends. Goblin Village, Bug Dig, Build a Beast art, Spider Spinners and more. Advance tickets required.",
+    "city": "Sausalito",
+    "date": "2026-10-11",
+    "region": "marin",
+    "source": "https://bayareadiscoverymuseum.org/events/goblin-jamboree/",
+    "time": "09:00",
+    "title": "Goblin Jamboree",
+    "until": "16:00",
+    "venue": "Bay Area Discovery Museum",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.91,
+      "stale_p": 0.05,
+      "category": "seasonal",
+      "quality": 1.78
+    }
+  },
+  {
+    "ages": "All ages",
+    "blurb": "The museum's annual Halloween fundraiser, the longest-running Halloween festival in Marin, over five weekends. Goblin Village, Bug Dig, Build a Beast art, Spider Spinners and more. Advance tickets required.",
+    "city": "Sausalito",
+    "date": "2026-10-17",
     "region": "marin",
     "source": "https://bayareadiscoverymuseum.org/events/goblin-jamboree/",
     "time": "09:00",
@@ -98,44 +136,6 @@
     "ages": "All ages",
     "blurb": "The museum's annual Halloween fundraiser, the longest-running Halloween festival in Marin, over five weekends. Goblin Village, Bug Dig, Build a Beast art, Spider Spinners and more. Advance tickets required.",
     "city": "Sausalito",
-    "date": "2026-10-11",
-    "region": "marin",
-    "source": "https://bayareadiscoverymuseum.org/events/goblin-jamboree/",
-    "time": "09:00",
-    "title": "Goblin Jamboree",
-    "until": "16:00",
-    "venue": "Bay Area Discovery Museum",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.92,
-      "stale_p": 0.04,
-      "category": "seasonal",
-      "quality": 1.79
-    }
-  },
-  {
-    "ages": "All ages",
-    "blurb": "The museum's annual Halloween fundraiser, the longest-running Halloween festival in Marin, over five weekends. Goblin Village, Bug Dig, Build a Beast art, Spider Spinners and more. Advance tickets required.",
-    "city": "Sausalito",
-    "date": "2026-10-17",
-    "region": "marin",
-    "source": "https://bayareadiscoverymuseum.org/events/goblin-jamboree/",
-    "time": "09:00",
-    "title": "Goblin Jamboree",
-    "until": "16:00",
-    "venue": "Bay Area Discovery Museum",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.04,
-      "category": "seasonal",
-      "quality": 1.79
-    }
-  },
-  {
-    "ages": "All ages",
-    "blurb": "The museum's annual Halloween fundraiser, the longest-running Halloween festival in Marin, over five weekends. Goblin Village, Bug Dig, Build a Beast art, Spider Spinners and more. Advance tickets required.",
-    "city": "Sausalito",
     "date": "2026-10-18",
     "region": "marin",
     "source": "https://bayareadiscoverymuseum.org/events/goblin-jamboree/",
@@ -145,10 +145,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.92,
+      "kid_p": 0.93,
       "stale_p": 0.04,
       "category": "seasonal",
-      "quality": 1.79
+      "quality": 1.81
     }
   },
   {
@@ -164,10 +164,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.04,
+      "kid_p": 0.92,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.73
+      "quality": 1.76
     }
   },
   {
@@ -183,10 +183,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
+      "kid_p": 0.92,
       "stale_p": 0.04,
       "category": "seasonal",
-      "quality": 1.76
+      "quality": 1.75
     }
   },
   {
@@ -205,7 +205,7 @@
       "kid_p": 0.91,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.7
+      "quality": 1.74
     }
   },
   {
@@ -258,8 +258,8 @@
     "venue": "Sacramento Children's Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.88,
-      "stale_p": 0.08,
+      "kid_p": 0.87,
+      "stale_p": 0.09,
       "category": "museum",
       "quality": 1.92
     }
@@ -279,7 +279,7 @@
       "kid_p": 0.86,
       "stale_p": 0.05,
       "category": "museum",
-      "quality": 1.91
+      "quality": 1.94
     }
   },
   {
@@ -294,10 +294,10 @@
     "venue": "Sacramento Children's Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.89,
+      "kid_p": 0.88,
       "stale_p": 0.05,
       "category": "museum",
-      "quality": 1.92
+      "quality": 1.93
     }
   },
   {
@@ -312,10 +312,10 @@
     "venue": "Sacramento Children's Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.92,
+      "kid_p": 0.87,
       "stale_p": 0.05,
       "category": "museum",
-      "quality": 1.89
+      "quality": 1.9
     }
   },
   {
@@ -332,9 +332,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.11,
+      "stale_p": 0.13,
       "category": "museum",
-      "quality": 1.84
+      "quality": 1.86
     }
   },
   {
@@ -351,9 +351,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.07,
+      "stale_p": 0.09,
       "category": "museum",
-      "quality": 1.86
+      "quality": 1.85
     }
   },
   {
@@ -391,7 +391,7 @@
       "kid_p": 0.98,
       "stale_p": 0.08,
       "category": "museum",
-      "quality": 1.87
+      "quality": 1.82
     }
   },
   {
@@ -408,9 +408,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.07,
       "category": "museum",
-      "quality": 1.91
+      "quality": 1.89
     }
   },
   {
@@ -427,9 +427,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.09,
       "category": "museum",
-      "quality": 1.91
+      "quality": 1.9
     }
   },
   {
@@ -448,7 +448,7 @@
       "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "museum",
-      "quality": 1.91
+      "quality": 1.89
     }
   },
   {
@@ -467,7 +467,7 @@
       "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "museum",
-      "quality": 1.91
+      "quality": 1.89
     }
   },
   {
@@ -486,7 +486,7 @@
       "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "museum",
-      "quality": 1.91
+      "quality": 1.92
     }
   },
   {
@@ -503,9 +503,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "museum",
-      "quality": 1.9
+      "quality": 1.88
     }
   },
   {
@@ -513,6 +513,29 @@
     "blurb": "Family pumpkin patch with corn maze, hay rides, petting zoo and giant slides. Free admission; activities priced individually. Close to downtown Sacramento.",
     "city": "West Sacramento",
     "date": "2026-10-03",
+    "group": "daves-pumpkin-2026",
+    "region": "sac",
+    "seasonal": "halloween",
+    "source": "https://www.davespumpkinpatch.com/",
+    "time": "10:00",
+    "title": "Dave's Pumpkin Patch",
+    "until": "17:00",
+    "venue": "Dave's Pumpkin Patch",
+    "lat": 38.5691,
+    "lon": -121.556,
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.04,
+      "category": "seasonal",
+      "quality": 1.94
+    }
+  },
+  {
+    "ages": "All ages",
+    "blurb": "Family pumpkin patch with corn maze, hay rides, petting zoo and giant slides. Free admission; activities priced individually. Close to downtown Sacramento.",
+    "city": "West Sacramento",
+    "date": "2026-10-04",
     "group": "daves-pumpkin-2026",
     "region": "sac",
     "seasonal": "halloween",
@@ -535,29 +558,6 @@
     "ages": "All ages",
     "blurb": "Family pumpkin patch with corn maze, hay rides, petting zoo and giant slides. Free admission; activities priced individually. Close to downtown Sacramento.",
     "city": "West Sacramento",
-    "date": "2026-10-04",
-    "group": "daves-pumpkin-2026",
-    "region": "sac",
-    "seasonal": "halloween",
-    "source": "https://www.davespumpkinpatch.com/",
-    "time": "10:00",
-    "title": "Dave's Pumpkin Patch",
-    "until": "17:00",
-    "venue": "Dave's Pumpkin Patch",
-    "lat": 38.5691,
-    "lon": -121.556,
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
-      "category": "seasonal",
-      "quality": 1.93
-    }
-  },
-  {
-    "ages": "All ages",
-    "blurb": "Family pumpkin patch with corn maze, hay rides, petting zoo and giant slides. Free admission; activities priced individually. Close to downtown Sacramento.",
-    "city": "West Sacramento",
     "date": "2026-10-10",
     "group": "daves-pumpkin-2026",
     "region": "sac",
@@ -574,7 +574,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.94
+      "quality": 1.91
     }
   },
   {
@@ -595,7 +595,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "seasonal",
       "quality": 1.93
     }
@@ -620,7 +620,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.94
+      "quality": 1.93
     }
   },
   {
@@ -641,7 +641,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "seasonal",
       "quality": 1.91
     }
@@ -666,7 +666,7 @@
       "kid_p": 0.97,
       "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.9
+      "quality": 1.89
     }
   },
   {
@@ -710,9 +710,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.9
+      "quality": 1.93
     }
   },
   {
@@ -733,9 +733,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.87
+      "quality": 1.86
     }
   },
   {
@@ -755,7 +755,7 @@
     "lon": -121.813,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
+      "kid_p": 0.96,
       "stale_p": 0.06,
       "category": "seasonal",
       "quality": 1.87
@@ -778,8 +778,8 @@
     "lon": -121.813,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.05,
+      "kid_p": 0.96,
+      "stale_p": 0.06,
       "category": "seasonal",
       "quality": 1.87
     }
@@ -801,10 +801,10 @@
     "lon": -121.813,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
+      "kid_p": 0.95,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.84
+      "quality": 1.9
     }
   },
   {
@@ -827,7 +827,7 @@
       "kid_p": 0.95,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.89
+      "quality": 1.88
     }
   },
   {
@@ -835,29 +835,6 @@
     "blurb": "Home of the world-record corn maze (63 acres). Pumpkin patch, hay rides and a smaller kids maze. Maze admission around $15; pumpkins sold by the pound.",
     "city": "Dixon",
     "date": "2026-10-11",
-    "group": "cool-patch-2026",
-    "region": "sac",
-    "seasonal": "halloween",
-    "source": "https://www.coolpatchpumpkins.com/",
-    "time": "10:00",
-    "title": "Cool Patch Pumpkins",
-    "until": "19:00",
-    "venue": "Cool Patch Pumpkins",
-    "lat": 38.4468,
-    "lon": -121.813,
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.05,
-      "category": "seasonal",
-      "quality": 1.86
-    }
-  },
-  {
-    "ages": "All ages",
-    "blurb": "Home of the world-record corn maze (63 acres). Pumpkin patch, hay rides and a smaller kids maze. Maze admission around $15; pumpkins sold by the pound.",
-    "city": "Dixon",
-    "date": "2026-10-17",
     "group": "cool-patch-2026",
     "region": "sac",
     "seasonal": "halloween",
@@ -880,6 +857,29 @@
     "ages": "All ages",
     "blurb": "Home of the world-record corn maze (63 acres). Pumpkin patch, hay rides and a smaller kids maze. Maze admission around $15; pumpkins sold by the pound.",
     "city": "Dixon",
+    "date": "2026-10-17",
+    "group": "cool-patch-2026",
+    "region": "sac",
+    "seasonal": "halloween",
+    "source": "https://www.coolpatchpumpkins.com/",
+    "time": "10:00",
+    "title": "Cool Patch Pumpkins",
+    "until": "19:00",
+    "venue": "Cool Patch Pumpkins",
+    "lat": 38.4468,
+    "lon": -121.813,
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.05,
+      "category": "seasonal",
+      "quality": 1.88
+    }
+  },
+  {
+    "ages": "All ages",
+    "blurb": "Home of the world-record corn maze (63 acres). Pumpkin patch, hay rides and a smaller kids maze. Maze admission around $15; pumpkins sold by the pound.",
+    "city": "Dixon",
     "date": "2026-10-18",
     "group": "cool-patch-2026",
     "region": "sac",
@@ -896,7 +896,7 @@
       "kid_p": 0.96,
       "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.86
+      "quality": 1.87
     }
   },
   {
@@ -919,7 +919,7 @@
       "kid_p": 0.96,
       "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.86
+      "quality": 1.88
     }
   },
   {
@@ -963,9 +963,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.83
+      "quality": 1.87
     }
   },
   {
@@ -986,9 +986,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.08,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.83
+      "quality": 1.85
     }
   },
   {
@@ -1008,10 +1008,10 @@
     "lon": -121.501,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
+      "kid_p": 0.95,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.95
+      "quality": 1.93
     }
   },
   {
@@ -1034,7 +1034,7 @@
       "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.93
+      "quality": 1.92
     }
   },
   {
@@ -1057,7 +1057,7 @@
       "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.9
+      "quality": 1.91
     }
   },
   {
@@ -1080,7 +1080,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.07,
+      "stale_p": 0.08,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1155,9 +1155,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.98
+      "quality": 1.99
     }
   },
   {
@@ -1182,7 +1182,7 @@
       "kid_p": 0.98,
       "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.98
     }
   },
   {
@@ -1255,9 +1255,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.98
+      "quality": 1.97
     }
   },
   {
@@ -1280,7 +1280,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1405,7 +1405,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1455,9 +1455,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.98
     }
   },
   {
@@ -1480,7 +1480,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1505,7 +1505,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1530,7 +1530,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1555,7 +1555,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1605,7 +1605,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1632,7 +1632,7 @@
       "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.98
     }
   },
   {
@@ -1657,7 +1657,7 @@
       "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.98
+      "quality": 1.97
     }
   },
   {
@@ -1705,9 +1705,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.96
     }
   },
   {
@@ -1732,12 +1732,37 @@
       "kid_p": 0.98,
       "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.96
     }
   },
   {
     "title": "Keema's Pumpkin Farm",
     "date": "2026-10-27",
+    "time": "11:00",
+    "until": "18:00",
+    "venue": "Keema's Pumpkin Farm",
+    "city": "Elk Grove",
+    "address": "6532 Point Pleasant Rd, Elk Grove, CA 95757",
+    "lat": 38.338764,
+    "lon": -121.428137,
+    "ages": "All ages",
+    "blurb": "Family pumpkin farm in Elk Grove: u-pick pumpkins, corn maze, farm animals, playground and jumping pillow. Tue–Fri 11am–6pm, Sat–Sun 10am–6pm (Oct 31–Nov 1: 10am–4pm); closed Mondays. Cash only: adults 13+ $8, kids 2–12 $6, under 2 free.",
+    "source": "https://www.keemaspumpkinfarm.com/?page_id=31",
+    "seasonal": "halloween",
+    "group": "keemas-pumpkin-2026",
+    "origin": "curated",
+    "region": "sac",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.06,
+      "category": "seasonal",
+      "quality": 1.96
+    }
+  },
+  {
+    "title": "Keema's Pumpkin Farm",
+    "date": "2026-10-28",
     "time": "11:00",
     "until": "18:00",
     "venue": "Keema's Pumpkin Farm",
@@ -1762,31 +1787,6 @@
   },
   {
     "title": "Keema's Pumpkin Farm",
-    "date": "2026-10-28",
-    "time": "11:00",
-    "until": "18:00",
-    "venue": "Keema's Pumpkin Farm",
-    "city": "Elk Grove",
-    "address": "6532 Point Pleasant Rd, Elk Grove, CA 95757",
-    "lat": 38.338764,
-    "lon": -121.428137,
-    "ages": "All ages",
-    "blurb": "Family pumpkin farm in Elk Grove: u-pick pumpkins, corn maze, farm animals, playground and jumping pillow. Tue–Fri 11am–6pm, Sat–Sun 10am–6pm (Oct 31–Nov 1: 10am–4pm); closed Mondays. Cash only: adults 13+ $8, kids 2–12 $6, under 2 free.",
-    "source": "https://www.keemaspumpkinfarm.com/?page_id=31",
-    "seasonal": "halloween",
-    "group": "keemas-pumpkin-2026",
-    "origin": "curated",
-    "region": "sac",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.06,
-      "category": "seasonal",
-      "quality": 1.96
-    }
-  },
-  {
-    "title": "Keema's Pumpkin Farm",
     "date": "2026-10-29",
     "time": "11:00",
     "until": "18:00",
@@ -1805,7 +1805,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "seasonal",
       "quality": 1.96
     }
@@ -1829,7 +1829,7 @@
     "region": "sac",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.98,
       "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.95
@@ -1855,7 +1855,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.06,
       "category": "seasonal",
       "quality": 1.97
     }
@@ -1880,9 +1880,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.96
+      "quality": 1.97
     }
   },
   {
@@ -1899,7 +1899,7 @@
       "kid_p": 0.94,
       "stale_p": 0.09,
       "category": "outdoor",
-      "quality": 1.86
+      "quality": 1.88
     }
   },
   {
@@ -1914,10 +1914,10 @@
     "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.56
+      "quality": 1.59
     }
   },
   {
@@ -1935,7 +1935,7 @@
       "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.54
+      "quality": 1.53
     }
   },
   {
@@ -1951,9 +1951,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.06,
+      "stale_p": 0.08,
       "category": "other",
-      "quality": 1.57
+      "quality": 1.54
     }
   },
   {
@@ -1969,9 +1969,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "other",
-      "quality": 1.51
+      "quality": 1.49
     }
   },
   {
@@ -1990,26 +1990,7 @@
       "kid_p": 0.92,
       "stale_p": 0.07,
       "category": "other",
-      "quality": 1.74
-    }
-  },
-  {
-    "date": "2026-09-22",
-    "time": "11:00",
-    "until": "13:00",
-    "title": "Create an Elk Grove History Collage",
-    "venue": "Elk Grove Fine Arts Center",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Free two-hour collage workshop for Elk Grove History Week, open to all ages. All supplies provided; kids must be with an adult. Sessions at 11am, 1:30pm and 4pm; registration required, space is limited.",
-    "source": "https://elkgrove.gov/event/elk-grove-history-week/september-20-2026-1200am",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.88,
-      "stale_p": 0.3,
-      "category": "other",
-      "quality": 1.89
+      "quality": 1.78
     }
   },
   {
@@ -2024,10 +2005,10 @@
     "source": "https://elkgrove.gov/event/elk-grove-history-week/september-20-2026-1200am",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.68,
-      "stale_p": 0.06,
+      "kid_p": 0.69,
+      "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 1.8
+      "quality": 1.79
     }
   }
 ]

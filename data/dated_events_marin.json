@@ -1,24 +1,5 @@
 [
   {
-    "date": "2026-09-22",
-    "time": "10:15",
-    "title": "Sing & Stomp",
-    "venue": "Mill Valley Public Library",
-    "city": "Mill Valley",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Join musician Emily Bonn for this music and movement class designed for infants, toddlers and preschoolers and their caregivers. No registration required. Meets in the Outdoor Amphitheater.",
-    "source": "https://millvalleylibrary.libcal.com/event/16531237",
-    "until": "10:45",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.41,
-      "category": "outdoor",
-      "quality": 1.76
-    }
-  },
-  {
     "date": "2026-09-23",
     "time": "10:15",
     "title": "Toddler Storytime",
@@ -32,9 +13,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.06,
+      "stale_p": 0.38,
       "category": "storytime",
-      "quality": 1.66
+      "quality": 1.55
     }
   },
   {
@@ -51,9 +32,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.09,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 1.24
+      "quality": 1.25
     }
   },
   {
@@ -70,9 +51,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.1,
+      "stale_p": 0.11,
       "category": "storytime",
-      "quality": 1.61
+      "quality": 1.67
     }
   },
   {
@@ -88,10 +69,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.07,
+      "kid_p": 0.97,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 1.8
+      "quality": 1.69
     }
   },
   {
@@ -110,7 +91,7 @@
       "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.8
+      "quality": 1.82
     }
   },
   {
@@ -129,7 +110,7 @@
       "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.68
+      "quality": 1.67
     }
   },
   {
@@ -145,10 +126,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.07,
+      "kid_p": 0.98,
+      "stale_p": 0.08,
       "category": "storytime",
-      "quality": 1.07
+      "quality": 1.09
     }
   },
   {
@@ -165,9 +146,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.07,
+      "stale_p": 0.08,
       "category": "storytime",
-      "quality": 1.57
+      "quality": 1.58
     }
   },
   {
@@ -186,7 +167,7 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.54
+      "quality": 1.6
     }
   },
   {
@@ -203,9 +184,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.75
+      "quality": 1.79
     }
   },
   {
@@ -241,9 +222,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.08,
+      "stale_p": 0.07,
       "category": "storytime",
-      "quality": 1.18
+      "quality": 1.16
     }
   },
   {
@@ -260,9 +241,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.07,
       "category": "storytime",
-      "quality": 1.4
+      "quality": 1.55
     }
   },
   {
@@ -281,7 +262,7 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.75
+      "quality": 1.76
     }
   },
   {
@@ -297,10 +278,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.6
+      "quality": 1.59
     }
   },
   {
@@ -316,10 +297,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.07,
+      "kid_p": 0.97,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 1.06
+      "quality": 1.04
     }
   },
   {
@@ -336,9 +317,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.09,
       "category": "storytime",
-      "quality": 1.52
+      "quality": 1.53
     }
   },
   {
@@ -355,9 +336,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.52
+      "quality": 1.5
     }
   },
   {
@@ -374,9 +355,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.77
+      "quality": 1.73
     }
   },
   {
@@ -395,7 +376,7 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.59
+      "quality": 1.61
     }
   },
   {
@@ -412,9 +393,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.08,
+      "stale_p": 0.07,
       "category": "storytime",
-      "quality": 1.14
+      "quality": 1.11
     }
   },
   {
@@ -431,9 +412,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.11,
       "category": "storytime",
-      "quality": 1.57
+      "quality": 1.48
     }
   },
   {
@@ -452,7 +433,7 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.46
+      "quality": 1.49
     }
   },
   {
@@ -469,9 +450,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.75
+      "quality": 1.74
     }
   },
   {
@@ -487,10 +468,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
+      "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.56
+      "quality": 1.58
     }
   },
   {
@@ -509,7 +490,7 @@
       "kid_p": 0.97,
       "stale_p": 0.09,
       "category": "storytime",
-      "quality": 0.87
+      "quality": 0.89
     }
   },
   {
@@ -525,10 +506,10 @@
     "until": "12:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
+      "kid_p": 0.95,
       "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 0.97
+      "quality": 1.12
     }
   },
   {
@@ -547,7 +528,7 @@
       "kid_p": 0.98,
       "stale_p": 0.15,
       "category": "storytime",
-      "quality": 1.39
+      "quality": 1.34
     }
   },
   {
@@ -563,7 +544,7 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.99,
+      "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "storytime",
       "quality": 1.55
@@ -585,7 +566,7 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.77
+      "quality": 1.75
     }
   },
   {
@@ -604,7 +585,45 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.75
+      "quality": 1.73
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "time": "10:15",
+    "title": "Toddler Storytime",
+    "venue": "Mill Valley Public Library",
+    "city": "Mill Valley",
+    "region": "marin",
+    "ages": "Toddlers",
+    "blurb": "Join Librarian Miranda for books, songs, and stories in the library's outdoor amphitheater. Designed for babies, toddlers, and preschoolers with their caregivers. No registration required. Space is... Meets in the Creekside Room.",
+    "source": "https://millvalleylibrary.libcal.com/event/17330926",
+    "until": "10:45",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.05,
+      "category": "storytime",
+      "quality": 0.83
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "time": "11:15",
+    "title": "Toddler Storytime",
+    "venue": "Mill Valley Public Library",
+    "city": "Mill Valley",
+    "region": "marin",
+    "ages": "Toddlers",
+    "blurb": "Join Librarian Miranda for books, songs, and stories in the library's outdoor amphitheater. Designed for babies, toddlers, and preschoolers with their caregivers. No registration required. Space is... Meets in the Creekside Room.",
+    "source": "https://millvalleylibrary.libcal.com/event/17330981",
+    "until": "11:45",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.05,
+      "category": "storytime",
+      "quality": 0.87
     }
   }
 ]
