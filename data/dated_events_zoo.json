@@ -13,7 +13,7 @@
       "kid_p": 0.96,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.51
+      "quality": 1.52
     }
   },
   {
@@ -30,7 +30,7 @@
       "kid_p": 0.96,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 1.52
+      "quality": 1.49
     }
   },
   {
@@ -44,10 +44,10 @@
     "source": "https://www.saczoo.org/special-events",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.04,
+      "kid_p": 0.97,
+      "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.23
+      "quality": 1.21
     }
   },
   {
@@ -63,8 +63,8 @@
       "verdict": "LIST",
       "kid_p": 0.95,
       "stale_p": 0.04,
-      "category": "museum",
-      "quality": 1.24
+      "category": "outdoor",
+      "quality": 1.25
     }
   },
   {
@@ -79,9 +79,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 1.4
+      "quality": 1.48
     }
   },
   {
@@ -95,10 +95,10 @@
     "source": "https://www.saczoo.org/special-events",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
-      "stale_p": 0.06,
+      "kid_p": 0.94,
+      "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.0
+      "quality": 1.01
     }
   },
   {
@@ -112,10 +112,10 @@
     "source": "https://www.saczoo.org/special-events",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.92,
+      "kid_p": 0.9,
       "stale_p": 0.04,
       "category": "seasonal",
-      "quality": 1.19
+      "quality": 1.2
     }
   },
   {
@@ -129,10 +129,10 @@
     "source": "https://www.saczoo.org/special-events",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
+      "kid_p": 0.95,
       "stale_p": 0.04,
-      "category": "museum",
-      "quality": 1.32
+      "category": "outdoor",
+      "quality": 1.26
     }
   },
   {
@@ -147,9 +147,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 1.52
+      "quality": 1.49
     }
   },
   {
@@ -166,7 +166,7 @@
       "kid_p": 0.93,
       "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.0
+      "quality": 0.99
     }
   },
   {
@@ -181,9 +181,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.4
+      "quality": 1.46
     }
   },
   {

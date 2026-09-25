@@ -13,9 +13,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.94,
-      "stale_p": 0.08,
+      "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.71
+      "quality": 0.68
     }
   },
   {
@@ -31,7 +31,7 @@
     "day": 0,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
+      "kid_p": 0.95,
       "stale_p": 0.06,
       "category": "outdoor",
       "quality": 0.39
@@ -49,10 +49,10 @@
     "timeLabel": "Mornings",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.88,
-      "stale_p": 0.05,
+      "kid_p": 0.87,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 0.72
+      "quality": 0.74
     }
   },
   {
@@ -69,10 +69,10 @@
     "origin": "scm",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.89,
-      "stale_p": 0.04,
+      "kid_p": 0.91,
+      "stale_p": 0.05,
       "category": "museum",
-      "quality": 0.49
+      "quality": 0.58
     }
   },
   {
@@ -90,7 +90,7 @@
       "kid_p": 0.95,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.8
+      "quality": 1.82
     }
   },
   {
@@ -109,7 +109,7 @@
       "kid_p": 0.95,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 0.81
+      "quality": 0.83
     }
   },
   {
@@ -128,7 +128,7 @@
       "kid_p": 0.96,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.82
+      "quality": 0.78
     }
   },
   {
@@ -144,8 +144,8 @@
     "origin": "mosac",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.8,
-      "stale_p": 0.07,
+      "kid_p": 0.78,
+      "stale_p": 0.09,
       "category": "museum",
       "quality": 0.55
     }
@@ -166,7 +166,7 @@
       "kid_p": 0.96,
       "stale_p": 0.07,
       "category": "storytime",
-      "quality": 0.59
+      "quality": 0.63
     }
   },
   {
@@ -180,6 +180,26 @@
     "blurb": "Free after-school adventure play: build, climb, and create at the Fairytale Town-operated playground. Ages 6-15 plus a dedicated 5 & under area. One-time parent registration; parents need not stay.",
     "source": "https://sacadventureplay.org/",
     "day": 3,
+    "origin": "adventure-playground",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.95,
+      "stale_p": 0.04,
+      "category": "outdoor",
+      "quality": 1.63
+    }
+  },
+  {
+    "time": "14:15",
+    "until": "18:30",
+    "title": "Free Public Play",
+    "venue": "Sacramento Adventure Playground",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "6-15 (5 & under area too)",
+    "blurb": "Free after-school adventure play: build, climb, and create at the Fairytale Town-operated playground. Ages 6-15 plus a dedicated 5 & under area. One-time parent registration; parents need not stay.",
+    "source": "https://sacadventureplay.org/",
+    "day": 4,
     "origin": "adventure-playground",
     "_jev": {
       "verdict": "LIST",
@@ -199,34 +219,14 @@
     "ages": "6-15 (5 & under area too)",
     "blurb": "Free after-school adventure play: build, climb, and create at the Fairytale Town-operated playground. Ages 6-15 plus a dedicated 5 & under area. One-time parent registration; parents need not stay.",
     "source": "https://sacadventureplay.org/",
-    "day": 4,
-    "origin": "adventure-playground",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.04,
-      "category": "outdoor",
-      "quality": 1.64
-    }
-  },
-  {
-    "time": "14:15",
-    "until": "18:30",
-    "title": "Free Public Play",
-    "venue": "Sacramento Adventure Playground",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "6-15 (5 & under area too)",
-    "blurb": "Free after-school adventure play: build, climb, and create at the Fairytale Town-operated playground. Ages 6-15 plus a dedicated 5 & under area. One-time parent registration; parents need not stay.",
-    "source": "https://sacadventureplay.org/",
     "day": 5,
     "origin": "adventure-playground",
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.64
+      "quality": 1.63
     }
   },
   {
@@ -241,10 +241,10 @@
     "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.07,
+      "kid_p": 0.93,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 0.44
+      "quality": 0.48
     }
   },
   {
@@ -259,10 +259,10 @@
     "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
+      "kid_p": 0.89,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.59
+      "quality": 1.61
     }
   },
   {
@@ -279,10 +279,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
+      "kid_p": 0.98,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.37
+      "quality": 1.41
     }
   },
   {
@@ -302,7 +302,7 @@
       "kid_p": 0.95,
       "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 0.43
+      "quality": 0.38
     }
   },
   {
@@ -318,10 +318,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
+      "kid_p": 0.9,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 0.96
+      "quality": 0.92
     }
   },
   {
@@ -338,10 +338,10 @@
     "until": "13:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.88,
+      "kid_p": 0.82,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 0.92
+      "quality": 0.93
     }
   },
   {
@@ -359,9 +359,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.1,
+      "stale_p": 0.13,
       "category": "outdoor",
-      "quality": 0.43
+      "quality": 0.4
     }
   },
   {
@@ -377,10 +377,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.76,
-      "stale_p": 0.05,
+      "kid_p": 0.7,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.01
+      "quality": 0.98
     }
   },
   {
@@ -400,7 +400,7 @@
       "kid_p": 0.94,
       "stale_p": 0.07,
       "category": "museum",
-      "quality": 0.48
+      "quality": 0.56
     }
   },
   {
@@ -417,10 +417,10 @@
     "until": "17:15",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
+      "kid_p": 0.93,
       "stale_p": 0.08,
       "category": "museum",
-      "quality": 0.32
+      "quality": 0.31
     }
   },
   {
@@ -437,10 +437,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
+      "kid_p": 0.89,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.18
+      "quality": 1.12
     }
   },
   {
@@ -459,8 +459,8 @@
       "verdict": "LIST",
       "kid_p": 0.88,
       "stale_p": 0.07,
-      "category": "seasonal",
-      "quality": 0.97
+      "category": "museum",
+      "quality": 0.92
     }
   },
   {
@@ -477,10 +477,10 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.83,
-      "stale_p": 0.15,
+      "kid_p": 0.84,
+      "stale_p": 0.14,
       "category": "outdoor",
-      "quality": 0.28
+      "quality": 0.37
     }
   },
   {
@@ -500,7 +500,7 @@
       "kid_p": 0.96,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 0.73
+      "quality": 0.7
     }
   },
   {
@@ -520,7 +520,7 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 0.97
+      "quality": 0.95
     }
   },
   {
@@ -540,7 +540,7 @@
       "kid_p": 0.96,
       "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 0.92
+      "quality": 0.91
     }
   },
   {
@@ -560,7 +560,7 @@
       "kid_p": 0.94,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.35
+      "quality": 0.37
     }
   },
   {
@@ -580,7 +580,7 @@
       "kid_p": 0.81,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.45
+      "quality": 0.39
     }
   },
   {
@@ -597,10 +597,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.83,
+      "kid_p": 0.8,
       "stale_p": 0.09,
       "category": "storytime",
-      "quality": 0.15
+      "quality": 0.17
     }
   },
   {
@@ -617,10 +617,10 @@
     "until": "10:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.8,
+      "kid_p": 0.83,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.11
+      "quality": 1.08
     }
   },
   {
@@ -640,7 +640,7 @@
       "kid_p": 0.95,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 0.83
+      "quality": 0.84
     }
   },
   {
@@ -660,7 +660,7 @@
       "kid_p": 0.94,
       "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 0.25
+      "quality": 0.23
     }
   },
   {
@@ -680,7 +680,7 @@
       "kid_p": 0.8,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.23
+      "quality": 1.24
     }
   },
   {
@@ -716,10 +716,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.88,
+      "kid_p": 0.91,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.03
+      "quality": 1.05
     }
   },
   {
@@ -737,9 +737,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.94,
-      "stale_p": 0.18,
+      "stale_p": 0.19,
       "category": "outdoor",
-      "quality": 0.26
+      "quality": 0.21
     }
   },
   {
@@ -759,7 +759,7 @@
       "kid_p": 0.83,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.21
+      "quality": 1.22
     }
   },
   {
@@ -778,7 +778,7 @@
       "kid_p": 0.73,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.03
+      "quality": 1.0
     }
   },
   {
@@ -815,10 +815,10 @@
     "until": "22:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.05,
+      "kid_p": 0.94,
+      "stale_p": 0.04,
       "category": "seasonal",
-      "quality": 0.98
+      "quality": 0.96
     }
   },
   {
@@ -835,10 +835,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
+      "kid_p": 0.92,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.0
+      "quality": 0.94
     }
   },
   {
@@ -855,10 +855,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.83,
+      "kid_p": 0.82,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.39
+      "quality": 1.32
     }
   },
   {
@@ -875,10 +875,10 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.88,
+      "kid_p": 0.89,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.13
+      "quality": 1.12
     }
   },
   {
@@ -897,7 +897,7 @@
       "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.04
+      "quality": 1.05
     }
   },
   {
@@ -915,9 +915,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "seasonal",
-      "quality": 1.04
+      "quality": 1.05
     }
   },
   {
@@ -935,9 +935,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.94,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 0.83
+      "quality": 0.8
     }
   },
   {
@@ -954,10 +954,10 @@
     "until": "10:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.84,
+      "kid_p": 0.87,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.03
+      "quality": 1.09
     }
   },
   {
@@ -974,10 +974,10 @@
     "until": "10:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.85,
-      "stale_p": 0.1,
+      "kid_p": 0.86,
+      "stale_p": 0.09,
       "category": "storytime",
-      "quality": 0.13
+      "quality": 0.17
     }
   },
   {
@@ -995,9 +995,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.83,
-      "stale_p": 0.07,
+      "stale_p": 0.08,
       "category": "storytime",
-      "quality": 0.25
+      "quality": 0.27
     }
   },
   {
@@ -1017,7 +1017,7 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 0.89
+      "quality": 0.84
     }
   },
   {
@@ -1035,9 +1035,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 0.37
+      "quality": 0.36
     }
   },
   {
@@ -1055,7 +1055,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.89,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "outdoor",
       "quality": 0.37
     }
@@ -1074,10 +1074,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
+      "kid_p": 0.89,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 0.55
+      "quality": 0.56
     }
   },
   {
