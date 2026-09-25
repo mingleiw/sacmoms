@@ -76,12 +76,13 @@
     "venue": "Rancho Cordova Youth Center",
     "city": "Rancho Cordova",
     "region": "sac",
-    "ages": "6–12",
+    "ages": "Grades 1–12",
     "schedule": "Tuesdays, 4:00 pm – 5:00 pm",
-    "session": "Aug 18 – Sep 22, 2026",
+    "session": "Oct 6 – Nov 10, 2026",
     "price": "Free",
     "registration_url": "https://www.cityofranchocordova.org/residents/new-businesses-and-projects/rancho-cordova-youth-center",
-    "source": "https://www.cityofranchocordova.org/residents/new-businesses-and-projects/rancho-cordova-youth-center"
+    "source": "https://www.cityofranchocordova.org/residents/new-businesses-and-projects/rancho-cordova-youth-center",
+    "notes": "Free PAL class; new session listed on city Youth Center page"
   },
   {
     "name": "Beginning Karate",
