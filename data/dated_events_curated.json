@@ -13,9 +13,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.91,
-      "stale_p": 0.07,
+      "stale_p": 0.08,
       "category": "outdoor",
-      "quality": 1.97
+      "quality": 1.98
     }
   },
   {
@@ -31,10 +31,10 @@
     "venue": "Mare Island Naval Shipyard",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.92,
-      "stale_p": 0.08,
+      "kid_p": 0.91,
+      "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 1.97
+      "quality": 1.98
     }
   },
   {
@@ -53,7 +53,7 @@
       "kid_p": 0.91,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.8
+      "quality": 1.81
     }
   },
   {
@@ -72,25 +72,6 @@
       "kid_p": 0.92,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.81
-    }
-  },
-  {
-    "ages": "All ages",
-    "blurb": "The museum's annual Halloween fundraiser, the longest-running Halloween festival in Marin, over five weekends. Goblin Village, Bug Dig, Build a Beast art, Spider Spinners and more. Advance tickets required.",
-    "city": "Sausalito",
-    "date": "2026-10-10",
-    "region": "marin",
-    "source": "https://bayareadiscoverymuseum.org/events/goblin-jamboree/",
-    "time": "09:00",
-    "title": "Goblin Jamboree",
-    "until": "16:00",
-    "venue": "Bay Area Discovery Museum",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.93,
-      "stale_p": 0.04,
-      "category": "seasonal",
       "quality": 1.82
     }
   },
@@ -98,7 +79,7 @@
     "ages": "All ages",
     "blurb": "The museum's annual Halloween fundraiser, the longest-running Halloween festival in Marin, over five weekends. Goblin Village, Bug Dig, Build a Beast art, Spider Spinners and more. Advance tickets required.",
     "city": "Sausalito",
-    "date": "2026-10-11",
+    "date": "2026-10-10",
     "region": "marin",
     "source": "https://bayareadiscoverymuseum.org/events/goblin-jamboree/",
     "time": "09:00",
@@ -117,6 +98,25 @@
     "ages": "All ages",
     "blurb": "The museum's annual Halloween fundraiser, the longest-running Halloween festival in Marin, over five weekends. Goblin Village, Bug Dig, Build a Beast art, Spider Spinners and more. Advance tickets required.",
     "city": "Sausalito",
+    "date": "2026-10-11",
+    "region": "marin",
+    "source": "https://bayareadiscoverymuseum.org/events/goblin-jamboree/",
+    "time": "09:00",
+    "title": "Goblin Jamboree",
+    "until": "16:00",
+    "venue": "Bay Area Discovery Museum",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.91,
+      "stale_p": 0.05,
+      "category": "seasonal",
+      "quality": 1.83
+    }
+  },
+  {
+    "ages": "All ages",
+    "blurb": "The museum's annual Halloween fundraiser, the longest-running Halloween festival in Marin, over five weekends. Goblin Village, Bug Dig, Build a Beast art, Spider Spinners and more. Advance tickets required.",
+    "city": "Sausalito",
     "date": "2026-10-17",
     "region": "marin",
     "source": "https://bayareadiscoverymuseum.org/events/goblin-jamboree/",
@@ -126,10 +126,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
-      "stale_p": 0.05,
+      "kid_p": 0.92,
+      "stale_p": 0.04,
       "category": "seasonal",
-      "quality": 1.81
+      "quality": 1.8
     }
   },
   {
@@ -146,9 +146,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.92,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.83
+      "quality": 1.81
     }
   },
   {
@@ -164,10 +164,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.92,
-      "stale_p": 0.04,
+      "kid_p": 0.91,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.78
+      "quality": 1.79
     }
   },
   {
@@ -183,10 +183,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
+      "kid_p": 0.92,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.78
+      "quality": 1.73
     }
   },
   {
@@ -202,10 +202,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
+      "kid_p": 0.92,
       "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.77
+      "quality": 1.72
     }
   },
   {
@@ -224,7 +224,7 @@
       "kid_p": 0.95,
       "stale_p": 0.06,
       "category": "museum",
-      "quality": 1.71
+      "quality": 1.72
     }
   },
   {
@@ -240,10 +240,10 @@
     "venue": "Legion of Honor",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
+      "kid_p": 0.93,
       "stale_p": 0.06,
       "category": "museum",
-      "quality": 1.73
+      "quality": 1.7
     }
   },
   {
@@ -258,10 +258,10 @@
     "venue": "Sacramento Children's Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.88,
-      "stale_p": 0.09,
+      "kid_p": 0.89,
+      "stale_p": 0.46,
       "category": "museum",
-      "quality": 1.94
+      "quality": 1.92
     }
   },
   {
@@ -269,6 +269,24 @@
     "blurb": "Ms. Phoebe leads bilingual (English/Spanish) sing-alongs and music-making with her ukulele, celebrating Hispanic Heritage Month. Included with museum admission; no registration needed.",
     "city": "Rancho Cordova",
     "date": "2026-10-02",
+    "region": "sac",
+    "source": "https://sackids.org/programs/bilingual-music-fun-%c2%b7-musica-bilingue-divertida/",
+    "time": "10:30",
+    "title": "Bilingual Music Fun",
+    "venue": "Sacramento Children's Museum",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.88,
+      "stale_p": 0.06,
+      "category": "museum",
+      "quality": 1.93
+    }
+  },
+  {
+    "ages": "Under 6",
+    "blurb": "Ms. Phoebe leads bilingual (English/Spanish) sing-alongs and music-making with her ukulele, celebrating Hispanic Heritage Month. Included with museum admission; no registration needed.",
+    "city": "Rancho Cordova",
+    "date": "2026-10-09",
     "region": "sac",
     "source": "https://sackids.org/programs/bilingual-music-fun-%c2%b7-musica-bilingue-divertida/",
     "time": "10:30",
@@ -286,24 +304,6 @@
     "ages": "Under 6",
     "blurb": "Ms. Phoebe leads bilingual (English/Spanish) sing-alongs and music-making with her ukulele, celebrating Hispanic Heritage Month. Included with museum admission; no registration needed.",
     "city": "Rancho Cordova",
-    "date": "2026-10-09",
-    "region": "sac",
-    "source": "https://sackids.org/programs/bilingual-music-fun-%c2%b7-musica-bilingue-divertida/",
-    "time": "10:30",
-    "title": "Bilingual Music Fun",
-    "venue": "Sacramento Children's Museum",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.05,
-      "category": "museum",
-      "quality": 1.91
-    }
-  },
-  {
-    "ages": "Under 6",
-    "blurb": "Ms. Phoebe leads bilingual (English/Spanish) sing-alongs and music-making with her ukulele, celebrating Hispanic Heritage Month. Included with museum admission; no registration needed.",
-    "city": "Rancho Cordova",
     "date": "2026-10-16",
     "region": "sac",
     "source": "https://sackids.org/programs/bilingual-music-fun-%c2%b7-musica-bilingue-divertida/",
@@ -312,10 +312,10 @@
     "venue": "Sacramento Children's Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.84,
-      "stale_p": 0.05,
+      "kid_p": 0.93,
+      "stale_p": 0.07,
       "category": "museum",
-      "quality": 1.91
+      "quality": 1.92
     }
   },
   {
@@ -332,9 +332,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.12,
+      "stale_p": 0.13,
       "category": "museum",
-      "quality": 1.83
+      "quality": 1.87
     }
   },
   {
@@ -351,7 +351,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.3,
       "category": "museum",
       "quality": 1.86
     }
@@ -372,7 +372,7 @@
       "kid_p": 0.98,
       "stale_p": 0.07,
       "category": "museum",
-      "quality": 1.85
+      "quality": 1.89
     }
   },
   {
@@ -389,7 +389,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.07,
+      "stale_p": 0.08,
       "category": "museum",
       "quality": 1.85
     }
@@ -408,9 +408,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "museum",
-      "quality": 1.89
+      "quality": 1.88
     }
   },
   {
@@ -427,9 +427,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.07,
       "category": "museum",
-      "quality": 1.87
+      "quality": 1.89
     }
   },
   {
@@ -446,9 +446,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "museum",
-      "quality": 1.91
+      "quality": 1.88
     }
   },
   {
@@ -484,7 +484,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "museum",
       "quality": 1.88
     }
@@ -503,9 +503,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "museum",
-      "quality": 1.89
+      "quality": 1.88
     }
   },
   {
@@ -528,7 +528,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.9
+      "quality": 1.94
     }
   },
   {
@@ -549,9 +549,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.93
+      "quality": 1.89
     }
   },
   {
@@ -572,9 +572,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.94
+      "quality": 1.91
     }
   },
   {
@@ -597,7 +597,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.9
+      "quality": 1.93
     }
   },
   {
@@ -618,9 +618,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.89
+      "quality": 1.93
     }
   },
   {
@@ -641,9 +641,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.91
+      "quality": 1.86
     }
   },
   {
@@ -664,7 +664,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.91
     }
@@ -687,9 +687,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.93
+      "quality": 1.91
     }
   },
   {
@@ -712,7 +712,7 @@
       "kid_p": 0.97,
       "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.89
+      "quality": 1.91
     }
   },
   {
@@ -732,10 +732,10 @@
     "lon": -121.813,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
+      "kid_p": 0.95,
       "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.86
+      "quality": 1.88
     }
   },
   {
@@ -756,9 +756,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.87
+      "quality": 1.89
     }
   },
   {
@@ -779,9 +779,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.87
+      "quality": 1.89
     }
   },
   {
@@ -789,29 +789,6 @@
     "blurb": "Home of the world-record corn maze (63 acres). Pumpkin patch, hay rides and a smaller kids maze. Maze admission around $15; pumpkins sold by the pound.",
     "city": "Dixon",
     "date": "2026-10-04",
-    "group": "cool-patch-2026",
-    "region": "sac",
-    "seasonal": "halloween",
-    "source": "https://www.coolpatchpumpkins.com/",
-    "time": "10:00",
-    "title": "Cool Patch Pumpkins",
-    "until": "19:00",
-    "venue": "Cool Patch Pumpkins",
-    "lat": 38.4468,
-    "lon": -121.813,
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.04,
-      "category": "seasonal",
-      "quality": 1.87
-    }
-  },
-  {
-    "ages": "All ages",
-    "blurb": "Home of the world-record corn maze (63 acres). Pumpkin patch, hay rides and a smaller kids maze. Maze admission around $15; pumpkins sold by the pound.",
-    "city": "Dixon",
-    "date": "2026-10-10",
     "group": "cool-patch-2026",
     "region": "sac",
     "seasonal": "halloween",
@@ -834,7 +811,7 @@
     "ages": "All ages",
     "blurb": "Home of the world-record corn maze (63 acres). Pumpkin patch, hay rides and a smaller kids maze. Maze admission around $15; pumpkins sold by the pound.",
     "city": "Dixon",
-    "date": "2026-10-11",
+    "date": "2026-10-10",
     "group": "cool-patch-2026",
     "region": "sac",
     "seasonal": "halloween",
@@ -849,6 +826,29 @@
       "verdict": "LIST",
       "kid_p": 0.96,
       "stale_p": 0.05,
+      "category": "seasonal",
+      "quality": 1.89
+    }
+  },
+  {
+    "ages": "All ages",
+    "blurb": "Home of the world-record corn maze (63 acres). Pumpkin patch, hay rides and a smaller kids maze. Maze admission around $15; pumpkins sold by the pound.",
+    "city": "Dixon",
+    "date": "2026-10-11",
+    "group": "cool-patch-2026",
+    "region": "sac",
+    "seasonal": "halloween",
+    "source": "https://www.coolpatchpumpkins.com/",
+    "time": "10:00",
+    "title": "Cool Patch Pumpkins",
+    "until": "19:00",
+    "venue": "Cool Patch Pumpkins",
+    "lat": 38.4468,
+    "lon": -121.813,
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.95,
+      "stale_p": 0.06,
       "category": "seasonal",
       "quality": 1.86
     }
@@ -873,7 +873,7 @@
       "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.89
+      "quality": 1.85
     }
   },
   {
@@ -896,7 +896,7 @@
       "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.89
+      "quality": 1.86
     }
   },
   {
@@ -916,10 +916,10 @@
     "lon": -121.813,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.06,
+      "kid_p": 0.96,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.85
+      "quality": 1.84
     }
   },
   {
@@ -988,7 +988,7 @@
       "kid_p": 0.95,
       "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.87
+      "quality": 1.85
     }
   },
   {
@@ -1009,9 +1009,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.94
+      "quality": 1.93
     }
   },
   {
@@ -1032,7 +1032,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "seasonal",
       "quality": 1.93
     }
@@ -1054,10 +1054,10 @@
     "lon": -121.501,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
+      "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.95
+      "quality": 1.93
     }
   },
   {
@@ -1080,9 +1080,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.07,
+      "stale_p": 0.37,
       "category": "seasonal",
-      "quality": 1.98
+      "quality": 1.99
     }
   },
   {
@@ -1105,9 +1105,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.07,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.99
+      "quality": 1.98
     }
   },
   {
@@ -1130,7 +1130,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.1,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1155,7 +1155,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1180,7 +1180,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.06,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1254,8 +1254,8 @@
     "region": "sac",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
+      "kid_p": 0.98,
+      "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1305,7 +1305,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1330,7 +1330,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1355,7 +1355,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1380,7 +1380,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1405,7 +1405,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1430,9 +1430,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.98
     }
   },
   {
@@ -1505,7 +1505,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1530,7 +1530,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1555,9 +1555,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.98
     }
   },
   {
@@ -1580,7 +1580,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1605,7 +1605,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1629,10 +1629,10 @@
     "region": "sac",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
+      "kid_p": 0.98,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.98
     }
   },
   {
@@ -1657,7 +1657,7 @@
       "kid_p": 0.98,
       "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.96
+      "quality": 1.97
     }
   },
   {
@@ -1679,10 +1679,10 @@
     "region": "sac",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
+      "kid_p": 0.98,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.98
+      "quality": 1.97
     }
   },
   {
@@ -1705,9 +1705,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.95
     }
   },
   {
@@ -1755,7 +1755,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.96
     }
@@ -1782,7 +1782,7 @@
       "kid_p": 0.98,
       "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.96
+      "quality": 1.95
     }
   },
   {
@@ -1805,9 +1805,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.94
+      "quality": 1.95
     }
   },
   {
@@ -1830,9 +1830,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.94
+      "quality": 1.95
     }
   },
   {
@@ -1855,9 +1855,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.98
     }
   },
   {
@@ -1886,23 +1886,6 @@
     }
   },
   {
-    "date": "2026-09-24",
-    "title": "Bodega Market",
-    "venue": "Cesar Chavez Plaza",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Thursday 10:30am-1:30pm: live music and the Bodega Book Nook shaded reading spot at this downtown market. Free entry. The 2026 season runs through September.",
-    "source": "https://www.downtownsac.org/events/bodega-market/",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.29,
-      "category": "outdoor",
-      "quality": 1.91
-    }
-  },
-  {
     "date": "2026-10-13",
     "time": "17:00",
     "title": "Second Tuesday Crafternoon at A Seat at the Table Books",
@@ -1915,9 +1898,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "other",
-      "quality": 1.54
+      "quality": 1.6
     }
   },
   {
@@ -1932,10 +1915,10 @@
     "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.05,
+      "kid_p": 0.97,
+      "stale_p": 0.06,
       "category": "other",
-      "quality": 1.5
+      "quality": 1.52
     }
   },
   {
@@ -1953,7 +1936,7 @@
       "kid_p": 0.96,
       "stale_p": 0.06,
       "category": "other",
-      "quality": 1.53
+      "quality": 1.58
     }
   },
   {
@@ -1969,9 +1952,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.07,
       "category": "other",
-      "quality": 1.66
+      "quality": 1.51
     }
   },
   {
@@ -1988,9 +1971,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.92,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "other",
-      "quality": 1.76
+      "quality": 1.79
     }
   },
   {
@@ -2005,10 +1988,10 @@
     "source": "https://elkgrove.gov/event/elk-grove-history-week/september-20-2026-1200am",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.7,
-      "stale_p": 0.08,
+      "kid_p": 0.68,
+      "stale_p": 0.39,
       "category": "outdoor",
-      "quality": 1.76
+      "quality": 1.78
     }
   }
 ]

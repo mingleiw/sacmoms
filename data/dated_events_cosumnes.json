@@ -11,9 +11,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.68
+      "quality": 1.61
     }
   },
   {
@@ -29,9 +29,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.9,
-      "stale_p": 0.05,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.69
+      "quality": 1.67
     }
   },
   {
@@ -48,7 +48,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "seasonal",
       "quality": 1.93
     }
@@ -65,9 +65,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.03,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.82
+      "quality": 1.59
     }
   },
   {
@@ -84,9 +84,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.92
+      "quality": 1.93
     }
   },
   {
@@ -102,9 +102,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.94,
-      "stale_p": 0.03,
+      "stale_p": 0.1,
       "category": "seasonal",
-      "quality": 1.75
+      "quality": 1.66
     }
   }
 ]

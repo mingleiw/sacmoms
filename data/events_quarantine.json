@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "date": "2026-09-24",
+    "title": "Bodega Market",
+    "venue": "Cesar Chavez Plaza",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Thursday 10:30am-1:30pm: live music and the Bodega Book Nook shaded reading spot at this downtown market. Free entry. The 2026 season runs through September.",
+    "source": "https://www.downtownsac.org/events/bodega-market/",
+    "_jev": {
+      "verdict": "REJECT",
+      "kid_p": 0.94,
+      "stale_p": 0.88,
+      "category": "outdoor",
+      "quality": 1.28
+    },
+    "_quarantined_from": "data/dated_events_curated.json",
+    "_quarantined_on": "2026-09-25"
+  }
+]
