@@ -1,21 +1,90 @@
 [
   {
-    "date": "2026-09-24",
-    "title": "Bodega Market",
-    "venue": "Cesar Chavez Plaza",
-    "city": "Sacramento",
+    "ages": "Under 6",
+    "blurb": "Ms. Phoebe leads bilingual (English/Spanish) sing-alongs and music-making with her ukulele, celebrating Hispanic Heritage Month. Included with museum admission; no registration needed.",
+    "city": "Rancho Cordova",
+    "date": "2026-09-25",
     "region": "sac",
-    "ages": "All ages",
-    "blurb": "Thursday 10:30am-1:30pm: live music and the Bodega Book Nook shaded reading spot at this downtown market. Free entry. The 2026 season runs through September.",
-    "source": "https://www.downtownsac.org/events/bodega-market/",
+    "source": "https://sackids.org/programs/bilingual-music-fun-%c2%b7-musica-bilingue-divertida/",
+    "time": "10:30",
+    "title": "Bilingual Music Fun",
+    "venue": "Sacramento Children's Museum",
     "_jev": {
       "verdict": "REJECT",
-      "kid_p": 0.94,
-      "stale_p": 0.88,
-      "category": "outdoor",
-      "quality": 1.28
+      "kid_p": 0.86,
+      "stale_p": 0.94,
+      "category": "museum",
+      "quality": 1.72
     },
     "_quarantined_from": "data/dated_events_curated.json",
-    "_quarantined_on": "2026-09-25"
+    "_quarantined_on": "2026-09-26"
+  },
+  {
+    "ages": "All ages",
+    "blurb": "Ten days of Gabby's Dollhouse fun: themed storytimes, character scavenger hunt, photo ops, kitty ear crowns and CatRat paper dolls in the Art Studio. Included with admission.",
+    "city": "Rancho Cordova",
+    "date": "2026-09-25",
+    "region": "sac",
+    "source": "https://sackids.org/programs/gabbys-dollhouse-meowseum-discovery-days/",
+    "time": "10:00",
+    "until": "15:00",
+    "title": "Gabby's Dollhouse MEOWseum Discovery Days",
+    "venue": "Sacramento Children's Museum",
+    "_jev": {
+      "verdict": "REJECT",
+      "kid_p": 0.98,
+      "stale_p": 0.92,
+      "category": "museum",
+      "quality": 1.63
+    },
+    "_quarantined_from": "data/dated_events_curated.json",
+    "_quarantined_on": "2026-09-26"
+  },
+  {
+    "title": "Keema's Pumpkin Farm",
+    "date": "2026-09-25",
+    "time": "11:00",
+    "until": "18:00",
+    "venue": "Keema's Pumpkin Farm",
+    "city": "Elk Grove",
+    "address": "6532 Point Pleasant Rd, Elk Grove, CA 95757",
+    "lat": 38.338764,
+    "lon": -121.428137,
+    "ages": "All ages",
+    "blurb": "Family pumpkin farm in Elk Grove: u-pick pumpkins, corn maze, farm animals, playground and jumping pillow. Tue–Fri 11am–6pm, Sat–Sun 10am–6pm (Oct 31–Nov 1: 10am–4pm); closed Mondays. Cash only: adults 13+ $8, kids 2–12 $6, under 2 free.",
+    "source": "https://www.keemaspumpkinfarm.com/?page_id=31",
+    "seasonal": "halloween",
+    "group": "keemas-pumpkin-2026",
+    "origin": "curated",
+    "region": "sac",
+    "_jev": {
+      "verdict": "REJECT",
+      "kid_p": 0.98,
+      "stale_p": 0.86,
+      "category": "seasonal",
+      "quality": 1.83
+    },
+    "_quarantined_from": "data/dated_events_curated.json",
+    "_quarantined_on": "2026-09-26"
+  },
+  {
+    "date": "2026-09-25",
+    "time": "17:30",
+    "title": "Elk Grove's Haunted History Tour",
+    "venue": "Old Town Plaza",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "Ages 5+",
+    "blurb": "First-ever docent-led walking tour of Historic Main Street's haunted past, about 90 minutes. Tours depart every 20 minutes from 5:30pm; registration required.",
+    "source": "https://elkgrove.gov/event/elk-grove-history-week/september-20-2026-1200am",
+    "_jev": {
+      "verdict": "REJECT",
+      "kid_p": 0.68,
+      "stale_p": 0.93,
+      "category": "outdoor",
+      "quality": 1.35
+    },
+    "_quarantined_from": "data/dated_events_curated.json",
+    "_quarantined_on": "2026-09-26"
   }
 ]

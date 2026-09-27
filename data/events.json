@@ -13,9 +13,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.94,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 0.65
+      "quality": 0.68
     }
   },
   {
@@ -32,9 +32,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.42
+      "quality": 0.36
     }
   },
   {
@@ -49,10 +49,10 @@
     "timeLabel": "Mornings",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.87,
+      "kid_p": 0.86,
       "stale_p": 0.06,
       "category": "storytime",
-      "quality": 0.76
+      "quality": 0.75
     }
   },
   {
@@ -69,10 +69,10 @@
     "origin": "scm",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.05,
+      "kid_p": 0.92,
+      "stale_p": 0.04,
       "category": "museum",
-      "quality": 0.57
+      "quality": 0.59
     }
   },
   {
@@ -90,7 +90,7 @@
       "kid_p": 0.94,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.78
+      "quality": 1.82
     }
   },
   {
@@ -106,10 +106,10 @@
     "day": 6,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.04,
+      "kid_p": 0.95,
+      "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 0.79
+      "quality": 0.77
     }
   },
   {
@@ -128,7 +128,7 @@
       "kid_p": 0.96,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.83
+      "quality": 0.79
     }
   },
   {
@@ -144,10 +144,10 @@
     "origin": "mosac",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.8,
-      "stale_p": 0.09,
+      "kid_p": 0.79,
+      "stale_p": 0.07,
       "category": "museum",
-      "quality": 0.52
+      "quality": 0.56
     }
   },
   {
@@ -163,10 +163,10 @@
     "origin": "railroad-museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
+      "kid_p": 0.96,
       "stale_p": 0.07,
       "category": "storytime",
-      "quality": 0.57
+      "quality": 0.61
     }
   },
   {
@@ -183,10 +183,10 @@
     "origin": "adventure-playground",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
+      "kid_p": 0.95,
       "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.63
+      "quality": 1.64
     }
   },
   {
@@ -206,7 +206,7 @@
       "kid_p": 0.95,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.67
+      "quality": 1.7
     }
   },
   {
@@ -226,7 +226,7 @@
       "kid_p": 0.95,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.65
+      "quality": 1.63
     }
   },
   {
@@ -244,7 +244,7 @@
       "kid_p": 0.93,
       "stale_p": 0.06,
       "category": "storytime",
-      "quality": 0.47
+      "quality": 0.5
     }
   },
   {
@@ -259,10 +259,10 @@
     "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.87,
+      "kid_p": 0.88,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.63
+      "quality": 1.53
     }
   },
   {
@@ -279,10 +279,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
+      "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.4
+      "quality": 1.46
     }
   },
   {
@@ -302,7 +302,7 @@
       "kid_p": 0.95,
       "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 0.36
+      "quality": 0.41
     }
   },
   {
@@ -318,10 +318,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
+      "kid_p": 0.89,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 0.95
+      "quality": 0.93
     }
   },
   {
@@ -339,9 +339,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.1,
+      "stale_p": 0.11,
       "category": "outdoor",
-      "quality": 0.44
+      "quality": 0.42
     }
   },
   {
@@ -357,10 +357,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.74,
+      "kid_p": 0.77,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.01
+      "quality": 1.02
     }
   },
   {
@@ -378,9 +378,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.94,
-      "stale_p": 0.08,
+      "stale_p": 0.07,
       "category": "museum",
-      "quality": 0.48
+      "quality": 0.54
     }
   },
   {
@@ -398,9 +398,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.94,
-      "stale_p": 0.09,
+      "stale_p": 0.08,
       "category": "museum",
-      "quality": 0.31
+      "quality": 0.32
     }
   },
   {
@@ -420,7 +420,7 @@
       "kid_p": 0.9,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.18
+      "quality": 1.14
     }
   },
   {
@@ -437,10 +437,10 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.82,
+      "kid_p": 0.8,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.14
+      "quality": 1.07
     }
   },
   {
@@ -457,10 +457,10 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.88,
+      "kid_p": 0.87,
       "stale_p": 0.07,
-      "category": "seasonal",
-      "quality": 0.97
+      "category": "museum",
+      "quality": 0.96
     }
   },
   {
@@ -477,8 +477,8 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.84,
-      "stale_p": 0.16,
+      "kid_p": 0.83,
+      "stale_p": 0.15,
       "category": "outdoor",
       "quality": 0.33
     }
@@ -497,10 +497,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
+      "kid_p": 0.96,
+      "stale_p": 0.05,
       "category": "other",
-      "quality": 0.76
+      "quality": 0.75
     }
   },
   {
@@ -518,7 +518,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "other",
       "quality": 0.98
     }
@@ -538,9 +538,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.07,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 0.91
+      "quality": 0.9
     }
   },
   {
@@ -560,7 +560,7 @@
       "kid_p": 0.94,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.39
+      "quality": 0.37
     }
   },
   {
@@ -577,10 +577,10 @@
     "until": "11:15",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.81,
+      "kid_p": 0.7,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.43
+      "quality": 0.45
     }
   },
   {
@@ -597,8 +597,8 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.79,
-      "stale_p": 0.09,
+      "kid_p": 0.77,
+      "stale_p": 0.1,
       "category": "storytime",
       "quality": 0.16
     }
@@ -620,7 +620,7 @@
       "kid_p": 0.79,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.08
+      "quality": 1.1
     }
   },
   {
@@ -632,7 +632,7 @@
     "ages": "All ages",
     "blurb": "Mickelson Pumpkin Patch, just past the Marin-Sonoma county line off Highway 101, offers a wide",
     "source": "https://www.marinmommies.com/calendar/mickelson-pumpkin-patch-1",
-    "day": 5,
+    "day": 6,
     "origin": "marin-mommies",
     "until": "22:00",
     "_jev": {
@@ -660,7 +660,7 @@
       "kid_p": 0.95,
       "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 0.23
+      "quality": 0.24
     }
   },
   {
@@ -677,10 +677,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.81,
+      "kid_p": 0.79,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.19
+      "quality": 1.21
     }
   },
   {
@@ -699,7 +699,7 @@
       "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.02
+      "quality": 1.0
     }
   },
   {
@@ -716,10 +716,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
+      "kid_p": 0.91,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.04
+      "quality": 1.1
     }
   },
   {
@@ -737,9 +737,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.94,
-      "stale_p": 0.16,
+      "stale_p": 0.19,
       "category": "outdoor",
-      "quality": 0.25
+      "quality": 0.22
     }
   },
   {
@@ -756,10 +756,10 @@
     "until": "17:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.84,
+      "kid_p": 0.85,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.22
+      "quality": 1.12
     }
   },
   {
@@ -775,10 +775,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.73,
+      "kid_p": 0.74,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.0
+      "quality": 1.01
     }
   },
   {
@@ -798,7 +798,7 @@
       "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.25
+      "quality": 1.29
     }
   },
   {
@@ -810,15 +810,15 @@
     "ages": "All ages",
     "blurb": "The Petaluma Pumpkin Patch and Amazing Corn Maze has over 5 acres of home grown pumpkins. Over 50",
     "source": "https://www.marinmommies.com/calendar/petaluma-pumpkin-patch-and-amazing-corn-maze-15",
-    "day": 5,
+    "day": 6,
     "origin": "marin-mommies",
     "until": "22:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
+      "kid_p": 0.95,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 0.96
+      "quality": 0.95
     }
   },
   {
@@ -835,10 +835,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
+      "kid_p": 0.93,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.01
+      "quality": 1.02
     }
   },
   {
@@ -855,10 +855,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.84,
+      "kid_p": 0.82,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.38
+      "quality": 1.32
     }
   },
   {
@@ -875,10 +875,10 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.89,
+      "kid_p": 0.88,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.19
+      "quality": 1.09
     }
   },
   {
@@ -897,7 +897,7 @@
       "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.03
+      "quality": 1.04
     }
   },
   {
@@ -915,9 +915,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "seasonal",
-      "quality": 1.0
+      "quality": 1.06
     }
   },
   {
@@ -937,7 +937,7 @@
       "kid_p": 0.94,
       "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 0.75
+      "quality": 0.83
     }
   },
   {
@@ -954,10 +954,10 @@
     "until": "10:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.87,
+      "kid_p": 0.82,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.04
+      "quality": 1.07
     }
   },
   {
@@ -974,10 +974,10 @@
     "until": "10:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.85,
+      "kid_p": 0.87,
       "stale_p": 0.1,
       "category": "storytime",
-      "quality": 0.15
+      "quality": 0.14
     }
   },
   {
@@ -994,10 +994,10 @@
     "until": "12:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.83,
+      "kid_p": 0.84,
       "stale_p": 0.07,
       "category": "storytime",
-      "quality": 0.31
+      "quality": 0.25
     }
   },
   {
@@ -1014,10 +1014,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
+      "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 0.91
+      "quality": 0.86
     }
   },
   {
@@ -1035,9 +1035,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 0.43
+      "quality": 0.35
     }
   },
   {
@@ -1055,9 +1055,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.9,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.42
+      "quality": 0.36
     }
   },
   {
@@ -1074,10 +1074,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
+      "kid_p": 0.91,
       "stale_p": 0.06,
       "category": "storytime",
-      "quality": 0.47
+      "quality": 0.51
     }
   },
   {
@@ -1089,12 +1089,12 @@
     "ages": "All ages",
     "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
     "source": "https://www.marinemammalcenter.org/visit/getting-here",
-    "day": 5,
+    "day": 6,
     "until": "16:00",
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
+      "kid_p": 0.9,
       "stale_p": 0.04,
       "category": "museum",
       "quality": 1.22
@@ -1114,10 +1114,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.84,
+      "kid_p": 0.87,
       "stale_p": 0.06,
       "category": "storytime",
-      "quality": 0.23
+      "quality": 0.22
     }
   }
 ]

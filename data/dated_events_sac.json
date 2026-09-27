@@ -1,157 +1,5 @@
 [
   {
-    "date": "2026-09-25",
-    "time": "10:00",
-    "title": "Family Storytime",
-    "venue": "Belle Cooledge Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/14573958",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.39,
-      "category": "storytime",
-      "quality": 1.41
-    }
-  },
-  {
-    "date": "2026-09-25",
-    "time": "10:00",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Franklin Library",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/16099338",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.36,
-      "category": "other",
-      "quality": 1.44
-    }
-  },
-  {
-    "date": "2026-09-25",
-    "time": "10:00",
-    "title": "Family Storytime",
-    "venue": "Galt - Marian O. Lawrence Library",
-    "city": "Galt",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/16133269",
-    "until": "10:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.44,
-      "category": "storytime",
-      "quality": 1.37
-    }
-  },
-  {
-    "date": "2026-09-25",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Rancho Cordova Library",
-    "city": "Rancho Cordova",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/14016516",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.42,
-      "category": "storytime",
-      "quality": 1.5
-    }
-  },
-  {
-    "date": "2026-09-25",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "South Natomas Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/16940296",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.43,
-      "category": "storytime",
-      "quality": 1.41
-    }
-  },
-  {
-    "date": "2026-09-25",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Southgate Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/16013980",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.41,
-      "category": "storytime",
-      "quality": 1.47
-    }
-  },
-  {
-    "date": "2026-09-25",
-    "time": "11:30",
-    "title": "Baby Storytime",
-    "venue": "Arden - Dimick Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Babies 0–18 mo",
-    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
-    "source": "https://engage.saclibrary.org/event/13178458",
-    "until": "12:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.39,
-      "category": "storytime",
-      "quality": 1.48
-    }
-  },
-  {
-    "date": "2026-09-25",
-    "time": "17:00",
-    "title": "Family Storytime",
-    "venue": "Martin Luther King, Jr. Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17099858",
-    "until": "18:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.45,
-      "category": "storytime",
-      "quality": 1.57
-    }
-  },
-  {
     "date": "2026-09-26",
     "time": "10:00",
     "title": "Family Storytime",
@@ -165,9 +13,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.06,
+      "stale_p": 0.43,
       "category": "storytime",
-      "quality": 1.53
+      "quality": 1.46
     }
   },
   {
@@ -184,9 +32,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.07,
+      "stale_p": 0.39,
       "category": "storytime",
-      "quality": 1.62
+      "quality": 1.51
     }
   },
   {
@@ -203,9 +51,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.07,
+      "stale_p": 0.35,
       "category": "storytime",
-      "quality": 1.53
+      "quality": 1.41
     }
   },
   {
@@ -222,9 +70,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.07,
+      "stale_p": 0.43,
       "category": "storytime",
-      "quality": 1.63
+      "quality": 1.61
     }
   },
   {
@@ -240,10 +88,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.06,
+      "kid_p": 0.97,
+      "stale_p": 0.39,
       "category": "storytime",
-      "quality": 1.56
+      "quality": 1.4
     }
   },
   {
@@ -259,10 +107,10 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.07,
+      "kid_p": 0.97,
+      "stale_p": 0.4,
       "category": "storytime",
-      "quality": 1.72
+      "quality": 1.58
     }
   },
   {
@@ -279,9 +127,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.57
+      "quality": 1.59
     }
   },
   {
@@ -300,7 +148,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.51
+      "quality": 1.53
     }
   },
   {
@@ -319,7 +167,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.56
+      "quality": 1.61
     }
   },
   {
@@ -335,10 +183,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
+      "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.58
+      "quality": 1.5
     }
   },
   {
@@ -357,7 +205,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.54
+      "quality": 1.59
     }
   },
   {
@@ -373,10 +221,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.05,
+      "kid_p": 0.97,
+      "stale_p": 0.07,
       "category": "storytime",
-      "quality": 1.7
+      "quality": 1.74
     }
   },
   {
@@ -392,10 +240,10 @@
     "until": "12:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
+      "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.67
+      "quality": 1.57
     }
   },
   {
@@ -414,7 +262,7 @@
       "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.24
+      "quality": 1.23
     }
   },
   {
@@ -452,7 +300,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.67
+      "quality": 1.63
     }
   },
   {
@@ -471,7 +319,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.6
+      "quality": 1.57
     }
   },
   {
@@ -490,7 +338,7 @@
       "kid_p": 0.96,
       "stale_p": 0.06,
       "category": "other",
-      "quality": 1.24
+      "quality": 1.28
     }
   },
   {
@@ -509,7 +357,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.55
+      "quality": 1.53
     }
   },
   {
@@ -528,7 +376,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.72
+      "quality": 1.66
     }
   },
   {
@@ -544,10 +392,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.45
+      "quality": 1.59
     }
   },
   {
@@ -566,7 +414,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.53
+      "quality": 1.61
     }
   },
   {
@@ -585,7 +433,7 @@
       "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.23
+      "quality": 1.25
     }
   },
   {
@@ -601,10 +449,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
+      "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.6
+      "quality": 1.62
     }
   },
   {
@@ -623,7 +471,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.46
+      "quality": 1.53
     }
   },
   {
@@ -642,7 +490,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.52
+      "quality": 1.5
     }
   },
   {
@@ -661,7 +509,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.65
+      "quality": 1.61
     }
   },
   {
@@ -677,10 +525,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.63
+      "quality": 1.62
     }
   },
   {
@@ -696,10 +544,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.58
+      "quality": 1.57
     }
   },
   {
@@ -715,10 +563,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
+      "kid_p": 0.98,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.66
+      "quality": 1.62
     }
   },
   {
@@ -735,9 +583,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.6
+      "quality": 1.7
     }
   },
   {
@@ -754,9 +602,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.6
+      "quality": 1.64
     }
   },
   {
@@ -772,7 +620,7 @@
     "until": "12:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
+      "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
       "quality": 1.64
@@ -794,7 +642,7 @@
       "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.64
+      "quality": 1.66
     }
   },
   {
@@ -811,7 +659,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "storytime",
       "quality": 1.66
     }
@@ -829,10 +677,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.66
+      "quality": 1.6
     }
   },
   {
@@ -849,9 +697,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 1.66
+      "quality": 1.71
     }
   },
   {
@@ -868,9 +716,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.57
+      "quality": 1.59
     }
   },
   {
@@ -889,7 +737,7 @@
       "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.56
+      "quality": 1.55
     }
   },
   {
@@ -906,9 +754,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.6
+      "quality": 1.57
     }
   },
   {
@@ -924,10 +772,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
+      "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.47
+      "quality": 1.54
     }
   },
   {
@@ -943,10 +791,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
+      "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.58
+      "quality": 1.57
     }
   },
   {
@@ -963,7 +811,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "storytime",
       "quality": 1.71
     }
@@ -981,7 +829,7 @@
     "until": "12:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "storytime",
       "quality": 1.56
@@ -1001,9 +849,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "other",
-      "quality": 1.22
+      "quality": 1.19
     }
   },
   {
@@ -1022,7 +870,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.57
+      "quality": 1.52
     }
   },
   {
@@ -1039,9 +887,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.6
+      "quality": 1.59
     }
   },
   {
@@ -1057,10 +905,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
+      "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.53
+      "quality": 1.55
     }
   },
   {
@@ -1077,9 +925,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.59
+      "quality": 1.57
     }
   },
   {
@@ -1098,7 +946,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.54
+      "quality": 1.57
     }
   },
   {
@@ -1117,7 +965,7 @@
       "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.21
+      "quality": 1.24
     }
   },
   {
@@ -1136,7 +984,7 @@
       "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.56
+      "quality": 1.64
     }
   },
   {
@@ -1155,7 +1003,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.48
+      "quality": 1.47
     }
   },
   {
@@ -1174,7 +1022,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.49
+      "quality": 1.57
     }
   },
   {
@@ -1190,10 +1038,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
+      "kid_p": 0.98,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 1.61
+      "quality": 1.63
     }
   },
   {
@@ -1210,9 +1058,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.66
+      "quality": 1.59
     }
   },
   {
@@ -1228,10 +1076,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.55
+      "quality": 1.61
     }
   },
   {
@@ -1247,10 +1095,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
+      "kid_p": 0.98,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.68
+      "quality": 1.63
     }
   },
   {
@@ -1267,9 +1115,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.58
+      "quality": 1.63
     }
   },
   {
@@ -1285,10 +1133,10 @@
     "until": "17:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.46,
-      "stale_p": 0.04,
+      "kid_p": 0.43,
+      "stale_p": 0.05,
       "category": "other",
-      "quality": 0.76
+      "quality": 0.8
     }
   },
   {
@@ -1307,7 +1155,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.57
+      "quality": 1.64
     }
   },
   {
@@ -1324,9 +1172,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.61
+      "quality": 1.56
     }
   },
   {
@@ -1345,7 +1193,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.65
+      "quality": 1.63
     }
   },
   {
@@ -1361,10 +1209,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.59
+      "quality": 1.65
     }
   },
   {
@@ -1383,7 +1231,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.6
+      "quality": 1.69
     }
   },
   {
@@ -1399,10 +1247,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
+      "kid_p": 0.98,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.68
+      "quality": 1.62
     }
   },
   {
@@ -1418,10 +1266,10 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.04,
+      "kid_p": 0.97,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.67
+      "quality": 1.69
     }
   },
   {
@@ -1437,10 +1285,10 @@
     "until": "18:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.84,
-      "stale_p": 0.05,
+      "kid_p": 0.82,
+      "stale_p": 0.04,
       "category": "seasonal",
-      "quality": 1.28
+      "quality": 1.3
     }
   },
   {
@@ -1459,7 +1307,7 @@
       "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.62
+      "quality": 1.63
     }
   },
   {
@@ -1478,7 +1326,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.51
+      "quality": 1.53
     }
   },
   {
@@ -1494,10 +1342,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.04,
+      "kid_p": 0.97,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.55
+      "quality": 1.51
     }
   },
   {
@@ -1514,9 +1362,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.54
+      "quality": 1.55
     }
   },
   {
@@ -1535,7 +1383,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.65
+      "quality": 1.61
     }
   },
   {
@@ -1552,9 +1400,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 1.68
+      "quality": 1.7
     }
   },
   {
@@ -1570,10 +1418,10 @@
     "until": "12:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.55
+      "quality": 1.53
     }
   },
   {
@@ -1590,9 +1438,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "other",
-      "quality": 1.21
+      "quality": 1.18
     }
   },
   {
@@ -1611,7 +1459,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.56
+      "quality": 1.61
     }
   },
   {
@@ -1627,10 +1475,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.66
+      "quality": 1.58
     }
   },
   {
@@ -1649,7 +1497,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.53
+      "quality": 1.52
     }
   },
   {
@@ -1665,10 +1513,10 @@
     "until": "17:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.52,
+      "kid_p": 0.53,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.07
+      "quality": 1.05
     }
   },
   {
@@ -1684,10 +1532,10 @@
     "until": "16:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.68,
+      "kid_p": 0.67,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 0.95
+      "quality": 0.87
     }
   },
   {
@@ -1725,7 +1573,7 @@
       "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.54
+      "quality": 1.58
     }
   },
   {
@@ -1742,9 +1590,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.56
+      "quality": 1.62
     }
   },
   {
@@ -1763,7 +1611,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.59
+      "quality": 1.67
     }
   },
   {
@@ -1779,8 +1627,8 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
+      "kid_p": 0.96,
+      "stale_p": 0.04,
       "category": "storytime",
       "quality": 1.48
     }
@@ -1799,9 +1647,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.66
+      "quality": 1.61
     }
   },
   {
@@ -1818,9 +1666,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "other",
-      "quality": 1.23
+      "quality": 1.22
     }
   },
   {
@@ -1839,7 +1687,7 @@
       "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.54
+      "quality": 1.59
     }
   },
   {
@@ -1855,10 +1703,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.04,
+      "kid_p": 0.97,
+      "stale_p": 0.05,
       "category": "other",
-      "quality": 1.45
+      "quality": 1.5
     }
   },
   {
@@ -1875,9 +1723,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.5
+      "quality": 1.55
     }
   },
   {
@@ -1894,9 +1742,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.06,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.58
+      "quality": 1.62
     }
   },
   {
@@ -1915,7 +1763,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.63
+      "quality": 1.61
     }
   },
   {
@@ -1932,9 +1780,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.53
+      "quality": 1.58
     }
   },
   {
@@ -1950,10 +1798,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
+      "kid_p": 0.98,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.64
+      "quality": 1.62
     }
   },
   {
@@ -1970,9 +1818,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.7
+      "quality": 1.58
     }
   },
   {
@@ -1989,9 +1837,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.61
+      "quality": 1.62
     }
   },
   {
@@ -2010,7 +1858,7 @@
       "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.56
+      "quality": 1.58
     }
   },
   {
@@ -2029,7 +1877,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.55
+      "quality": 1.57
     }
   },
   {
@@ -2045,10 +1893,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.04,
+      "kid_p": 0.97,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.62
+      "quality": 1.53
     }
   },
   {
@@ -2067,7 +1915,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.59
+      "quality": 1.6
     }
   },
   {
@@ -2086,7 +1934,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.67
+      "quality": 1.7
     }
   },
   {
@@ -2102,10 +1950,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.96,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.59
+      "quality": 1.66
     }
   },
   {
@@ -2121,10 +1969,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.96,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.5
+      "quality": 1.55
     }
   },
   {
@@ -2141,9 +1989,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.56
+      "quality": 1.55
     }
   },
   {
@@ -2162,7 +2010,7 @@
       "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.49
+      "quality": 1.6
     }
   },
   {
@@ -2179,9 +2027,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.62
+      "quality": 1.59
     }
   },
   {
@@ -2198,9 +2046,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 1.66
+      "quality": 1.73
     }
   },
   {
@@ -2217,9 +2065,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.57
+      "quality": 1.53
     }
   },
   {
@@ -2236,9 +2084,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.07,
       "category": "other",
-      "quality": 1.2
+      "quality": 1.22
     }
   },
   {
@@ -2255,9 +2103,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.54
+      "quality": 1.66
     }
   },
   {
@@ -2276,7 +2124,7 @@
       "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.74
+      "quality": 1.75
     }
   },
   {
@@ -2311,10 +2159,10 @@
     "until": "17:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.53,
+      "kid_p": 0.52,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.06
+      "quality": 1.09
     }
   },
   {
@@ -2331,9 +2179,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "other",
-      "quality": 1.2
+      "quality": 1.24
     }
   },
   {
@@ -2350,9 +2198,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.48
+      "quality": 1.51
     }
   },
   {
@@ -2369,7 +2217,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "storytime",
       "quality": 1.55
     }
@@ -2388,7 +2236,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.07,
+      "stale_p": 0.05,
       "category": "storytime",
       "quality": 1.57
     }
@@ -2407,9 +2255,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.48
+      "quality": 1.62
     }
   },
   {
@@ -2428,7 +2276,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.54
+      "quality": 1.62
     }
   },
   {
@@ -2466,7 +2314,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.74
+      "quality": 1.55
     }
   },
   {
@@ -2482,10 +2330,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.42
+      "quality": 1.43
     }
   },
   {
@@ -2504,7 +2352,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.49
+      "quality": 1.51
     }
   },
   {
@@ -2521,9 +2369,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.58
+      "quality": 1.59
     }
   },
   {
@@ -2540,9 +2388,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 1.65
+      "quality": 1.56
     }
   },
   {
@@ -2559,9 +2407,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.55
+      "quality": 1.59
     }
   },
   {
@@ -2577,10 +2425,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.04,
+      "kid_p": 0.97,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.53
+      "quality": 1.72
     }
   },
   {
@@ -2599,7 +2447,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.53
+      "quality": 1.55
     }
   },
   {
@@ -2618,7 +2466,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.59
+      "quality": 1.55
     }
   },
   {
@@ -2634,10 +2482,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
+      "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.58
+      "quality": 1.54
     }
   },
   {
@@ -2654,9 +2502,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.55
+      "quality": 1.47
     }
   },
   {
@@ -2675,7 +2523,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.53
+      "quality": 1.55
     }
   },
   {
@@ -2691,10 +2539,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
+      "kid_p": 0.97,
       "stale_p": 0.06,
       "category": "storytime",
-      "quality": 1.5
+      "quality": 1.56
     }
   },
   {
@@ -2713,7 +2561,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.6
+      "quality": 1.62
     }
   },
   {
@@ -2730,9 +2578,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.65
+      "quality": 1.6
     }
   }
 ]
