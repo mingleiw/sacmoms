@@ -1,43 +1,5 @@
 [
   {
-    "date": "2026-09-26",
-    "time": "10:00",
-    "title": "Golden-State Snakes: An Introduction to Some of California’s Most Spectacular Serpents",
-    "venue": "Effie Yeaw Nature Center",
-    "city": "Carmichael",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "What kind of snakes live in California? Discover what spectacular serpents reside in this beautiful state!",
-    "source": "https://www.effieyeawnature.org/event-details/golden-state-snakes-an-introduction-to-some-of-californias-most-spectacular-serpents",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.89,
-      "stale_p": 0.44,
-      "category": "outdoor",
-      "quality": 1.43
-    }
-  },
-  {
-    "date": "2026-09-26",
-    "time": "18:00",
-    "title": "Harvest Moon River Walk",
-    "venue": "Effie Yeaw Nature Center",
-    "city": "Carmichael",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Celebrate the coming of Autumnal Equinox at Effie Yeaw Nature Center!",
-    "source": "https://www.effieyeawnature.org/event-details/harvest-moon-river-walk",
-    "until": "20:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.44,
-      "category": "seasonal",
-      "quality": 1.43
-    }
-  },
-  {
     "date": "2026-10-13",
     "time": "09:30",
     "title": "Mighty Acorns",
@@ -51,9 +13,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.57
+      "quality": 1.47
     }
   },
   {
@@ -70,9 +32,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.37
+      "quality": 1.43
     }
   },
   {
@@ -88,7 +50,7 @@
     "until": "20:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.76,
+      "kid_p": 0.77,
       "stale_p": 0.05,
       "category": "outdoor",
       "quality": 1.34
@@ -108,9 +70,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.93,
-      "stale_p": 0.05,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.6
+      "quality": 1.58
     }
   }
 ]

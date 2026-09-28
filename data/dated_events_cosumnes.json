@@ -10,10 +10,10 @@
     "source": "https://www.cosumnescsd.gov/728/Youth-Art-Contest",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
+      "kid_p": 0.96,
+      "stale_p": 0.04,
       "category": "seasonal",
-      "quality": 1.69
+      "quality": 1.75
     }
   },
   {
@@ -28,50 +28,14 @@
     "source": "https://www.cosumnescsd.gov/731/Pumpkin-Recipe-Contest",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.07,
+      "kid_p": 0.9,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.68
+      "quality": 1.62
     }
   },
   {
     "date": "2026-10-03",
-    "time": "10:00",
-    "title": "Elk Grove Giant Pumpkin Festival",
-    "venue": "Elk Grove Park",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Free admission. Giant pumpkin and produce contest, 30+ food vendors, 100 crafters, kids' activities and contests at Elk Grove Park.",
-    "source": "https://www.cosumnescsd.gov/726/Elk-Grove-Giant-Pumpkin-Festival",
-    "until": "17:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
-      "category": "seasonal",
-      "quality": 1.93
-    }
-  },
-  {
-    "date": "2026-10-04",
-    "title": "Youth Art Contest",
-    "venue": "Elk Grove Park",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 3–17",
-    "blurb": "Youth art contest at the Giant Pumpkin Festival. Free entry; categories ages 3-6, 7-12 and 13-17; registration closes September 25.",
-    "source": "https://www.cosumnescsd.gov/728/Youth-Art-Contest",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
-      "category": "seasonal",
-      "quality": 1.75
-    }
-  },
-  {
-    "date": "2026-10-04",
     "time": "10:00",
     "title": "Elk Grove Giant Pumpkin Festival",
     "venue": "Elk Grove Park",
@@ -91,6 +55,42 @@
   },
   {
     "date": "2026-10-04",
+    "title": "Youth Art Contest",
+    "venue": "Elk Grove Park",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "Ages 3–17",
+    "blurb": "Youth art contest at the Giant Pumpkin Festival. Free entry; categories ages 3-6, 7-12 and 13-17; registration closes September 25.",
+    "source": "https://www.cosumnescsd.gov/728/Youth-Art-Contest",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.05,
+      "category": "seasonal",
+      "quality": 1.75
+    }
+  },
+  {
+    "date": "2026-10-04",
+    "time": "10:00",
+    "title": "Elk Grove Giant Pumpkin Festival",
+    "venue": "Elk Grove Park",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Free admission. Giant pumpkin and produce contest, 30+ food vendors, 100 crafters, kids' activities and contests at Elk Grove Park.",
+    "source": "https://www.cosumnescsd.gov/726/Elk-Grove-Giant-Pumpkin-Festival",
+    "until": "17:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.07,
+      "category": "seasonal",
+      "quality": 1.92
+    }
+  },
+  {
+    "date": "2026-10-04",
     "time": "10:00",
     "title": "Lil' Pumpkin Cupcake Contest",
     "venue": "Elk Grove Park",
@@ -104,7 +104,7 @@
       "kid_p": 0.94,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.8
+      "quality": 1.82
     }
   }
 ]
