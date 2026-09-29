@@ -10,7 +10,10 @@ Sacramento-area town page.
 Storytimes are tracked at every branch. Beyond storytimes, the script also
 tracks other kid/family programs (homework help, teen nights, playgroups,
 movie nights, …) at the Elk Grove-area branches — Franklin and Elk Grove —
-where the site's other sources are thin. Adult programs are skipped.
+where the site's other sources are thin. Since 2026-09-29 the Explore and
+Learn Playgroup program is tracked at *every* branch, at the Sacramento
+Public Library's own request (Early Learning Supervisor Nate Halsan tipped
+it off and asked for it on SacMoms). Adult programs are skipped.
 
     python3 scripts/refresh_storytimes.py
 
@@ -109,8 +112,10 @@ def short_blurb(s, limit=160):
 
 
 # Branches whose non-storytime programs we track (Elk Grove area; other
-# branches are covered by the site's other sources).
+# branches are covered by the site's other sources). The Explore and Learn
+# Playgroup is tracked at every branch regardless (library-requested).
 PROGRAM_BRANCHES = ("Elk Grove", "Franklin")
+PLAYGROUP_TITLE = "explore and learn playgroup"
 
 
 def parse_listing(html, today):
@@ -128,10 +133,11 @@ def parse_listing(html, today):
         branch = strip_tags(m.group(1)) if m else ""
         branch = re.sub(r"\s*-\s*$", "", branch).strip()
         # Non-storytime programs are tracked only at the Elk Grove-area
-        # branches, where the site's other sources are thin. Adult programs
-        # are not family listings.
+        # branches, where the site's other sources are thin — except the
+        # Explore and Learn Playgroup, which the library asked us to track
+        # system-wide. Adult programs are not family listings.
         if not is_storytime:
-            if branch not in PROGRAM_BRANCHES:
+            if branch not in PROGRAM_BRANCHES and PLAYGROUP_TITLE not in title.lower():
                 continue
             if "adult" in title.lower():
                 continue
