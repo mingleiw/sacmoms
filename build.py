@@ -221,6 +221,52 @@ HEAD = '''<!DOCTYPE html>
 # style.css change points at a new URL, so no browser keeps the old stylesheet.
 HEAD = HEAD.replace('__STYLE_V__', STYLE_V)
 
+
+def nav_drop(up):
+    """Header dropdown: Places / Classes / Blog. `up` is the relative path
+    prefix back to the site root for the page being rendered."""
+    return (
+        '<div class="nav-drop">'
+        '<button class="nav-drop-btn" type="button" aria-haspopup="true" '
+        'aria-expanded="false">Browse <span class="caret" aria-hidden="true">'
+        '&#9662;</span></button>'
+        '<div class="nav-menu" role="menu">'
+        '<a href="%splaces/" role="menuitem">Places</a>'
+        '<a href="%sclasses/" role="menuitem">Classes</a>'
+        '<a href="%sblog/" role="menuitem">Blog</a>'
+        '</div></div>' % (up, up, up))
+
+
+NAV_DROP_JS = '''
+<script>
+(function () {
+  var drops = document.querySelectorAll('.nav-drop');
+  function closeAll() {
+    drops.forEach(function (d) {
+      d.classList.remove('open');
+      d.querySelector('.nav-drop-btn').setAttribute('aria-expanded', 'false');
+    });
+  }
+  drops.forEach(function (drop) {
+    var btn = drop.querySelector('.nav-drop-btn');
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var wasOpen = drop.classList.contains('open');
+      closeAll();
+      if (!wasOpen) {
+        drop.classList.add('open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+  document.addEventListener('click', closeAll);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeAll();
+  });
+})();
+</script>
+'''
+
 FOOT = '''
 <footer class="site-footer">
   <div class="wrap footer-inner">
@@ -229,6 +275,7 @@ FOOT = '''
     <p class="footer-copy">&copy; 2026 ''' + SITE_NAME + '''</p>
   </div>
 </footer>
+''' + NAV_DROP_JS + '''
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "96be0c24d1da427b89065462a3b5fc07"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
@@ -764,10 +811,7 @@ def calendar_page(town, events, dated, base):
     out = HEAD.format(title=html.escape(title, quote=True), desc=html.escape(desc, quote=True),
                       canonical='%s%s/calendar/' % (base, slug), up='../../',
                       og_image=og_img,
-                      nav='<a href="../../"><span class="nav-full">Change city</span>'
-                          '<span class="nav-short">Cities</span></a>'
-                          '<a href="../../classes/">Classes</a>'
-                          '<a href="../">%s</a>' % html.escape(name))
+                      nav=nav_drop('../../'))
 
     out += '''
 <main id="top">
@@ -852,10 +896,7 @@ def filter_page(town, places, fp, base):
     out = HEAD.format(title=html.escape(title, quote=True), desc=html.escape(desc, quote=True),
                       canonical=canon, up='../../',
                       og_image=og_img,
-                      nav='<a href="../../"><span class="nav-full">Change city</span>'
-                          '<span class="nav-short">Cities</span></a>'
-                          '<a href="../../classes/">Classes</a>'
-                          '<a href="../">%s</a>' % html.escape(name))
+                      nav=nav_drop('../../'))
 
     out += '''
 <main id="top">
@@ -946,8 +987,7 @@ def classes_page(base):
                       desc=html.escape(desc, quote=True),
                       canonical='%sclasses/' % base, up='../',
                       og_image='',
-                      nav='<a href="../"><span class="nav-full">Find places</span>'
-                          '<span class="nav-short">Places</span></a>')
+                      nav=nav_drop('../'))
 
     # Filter chips
     sport_chips = ''.join(
@@ -1031,6 +1071,131 @@ def classes_page(base):
     return out
 
 
+def places_page(base, places):
+    if not places:
+        return None
+
+    title = 'Places to take the kids in %s · %s' % (FOCUS_LABEL, SITE_NAME)
+    desc = ('Every family-friendly place on %s — parks, playgrounds, museums, '
+            'zoos and more across %s.' % (SITE_NAME, FOCUS_LABEL))
+
+    out = HEAD.format(title=html.escape(title, quote=True),
+                      desc=html.escape(desc, quote=True),
+                      canonical='%splaces/' % base, up='../',
+                      og_image='',
+                      nav=nav_drop('../'))
+
+    cards = ''.join(place_card(p)
+                    for p in sorted(places, key=lambda p: p['name'].lower()))
+
+    out += '''
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <h1 class="hero-title"><span class="hl">Places</span> to take the kids in %s</h1>
+      <p class="lede">%d places &mdash; parks, playgrounds, museums, zoos and more.</p>
+    </div>
+  </section>
+  <section class="places-all" id="list">
+    <div class="wrap">
+      <div class="cards">
+%s
+      </div>
+    </div>
+  </section>
+</main>
+''' % (html.escape(FOCUS_LABEL), len(places), cards)
+    out += FOOT
+    return out
+
+
+def fmt_post_date(ds):
+    # '2026-09-30' -> 'Sep 30, 2026'; pass through anything unexpected.
+    try:
+        y, m, d = (int(x) for x in str(ds).split('-'))
+        return '%s %d, %d' % (('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul',
+                               'Aug', 'Sep', 'Oct', 'Nov', 'Dec')[m - 1], d, y)
+    except (ValueError, IndexError):
+        return str(ds)
+
+
+def blog_index_page(base, posts):
+    title = 'Blog · %s' % SITE_NAME
+    desc = 'Notes from %s — new places, seasonal picks and parent-tested ideas.' % SITE_NAME
+
+    out = HEAD.format(title=html.escape(title, quote=True),
+                      desc=html.escape(desc, quote=True),
+                      canonical='%sblog/' % base, up='../',
+                      og_image='',
+                      nav=nav_drop('../'))
+
+    items = ''
+    for p in sorted(posts, key=lambda p: p.get('date', ''), reverse=True):
+        items += '''
+        <article class="post-tease">
+          <p class="post-date">%s</p>
+          <h2><a href="%s/">%s</a></h2>
+          <p>%s</p>
+        </article>''' % (fmt_post_date(p.get('date', '')),
+                         html.escape(p['slug'], quote=True),
+                         html.escape(p['title']),
+                         html.escape(p.get('excerpt', '')))
+    if not items:
+        items = '<p class="lede">First posts are on the way.</p>'
+
+    out += '''
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <h1 class="hero-title"><span class="hl">Blog</span></h1>
+      <p class="lede">New places, seasonal picks and notes from around %s.</p>
+    </div>
+  </section>
+  <section class="blog-list">
+    <div class="wrap">
+%s
+    </div>
+  </section>
+</main>
+''' % (html.escape(FOCUS_LABEL), items)
+    out += FOOT
+    return out
+
+
+def blog_post_page(base, post):
+    title = '%s · %s blog' % (post['title'], SITE_NAME)
+
+    out = HEAD.format(title=html.escape(title, quote=True),
+                      desc=html.escape(post.get('excerpt', ''), quote=True),
+                      canonical='%sblog/%s/' % (base, post['slug']), up='../../',
+                      og_image='',
+                      nav=nav_drop('../../'))
+
+    # Body is authored HTML from our own data file, not user input.
+    out += '''
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <p class="post-date">%s</p>
+      <h1 class="hero-title">%s</h1>
+    </div>
+  </section>
+  <section class="blog-post">
+    <div class="wrap">
+      <div class="post-body">
+%s
+      </div>
+      <p class="post-back"><a href="../">&larr; All posts</a></p>
+    </div>
+  </section>
+</main>
+''' % (fmt_post_date(post.get('date', '')),
+       html.escape(post['title']),
+       post.get('body', ''))
+    out += FOOT
+    return out
+
+
 def city_page(town, places, events, dated, base):
     slug = slugify(town['name'])
     name = town['name']
@@ -1082,9 +1247,7 @@ def city_page(town, places, events, dated, base):
     out = HEAD.format(title=html.escape(title, quote=True), desc=html.escape(desc, quote=True),
                       canonical='%s%s/' % (base, slug), up='../',
                       og_image=og_img,
-                      nav='<a href="../"><span class="nav-full">Change city</span>'
-                          '<span class="nav-short">Cities</span></a>'
-                          '<a href="../classes/">Classes</a>')
+                      nav=nav_drop('../'))
 
     # Quick links: two rows — events on row 1, content sections on row 2.
     ql_row1 = []
@@ -1208,7 +1371,7 @@ def root_page(towns_with_pages, places, base):
 
     out = HEAD.format(title=html.escape(title, quote=True), desc=html.escape(desc, quote=True),
                       canonical=base, up='',
-                      nav='<a href="classes/">Classes</a>',
+                      nav=nav_drop(''),
                       og_image='<meta property="og:image" content="%sassets/logo.png" />' % base)
 
     # Organization logo structured data, so Google can render the logo in search.
@@ -1436,6 +1599,31 @@ def main():
         open(os.path.join(cls_dir, 'index.html'), 'w', encoding='utf-8').write(cp)
         open(os.path.join(cls_dir, '.generated'), 'w').write('written by build.py\n')
 
+    # Places page — standalone, every place in one list.
+    pp = places_page(base, places)
+    if pp:
+        pl_dir = os.path.join(ROOT, 'places')
+        os.makedirs(pl_dir, exist_ok=True)
+        open(os.path.join(pl_dir, 'index.html'), 'w', encoding='utf-8').write(pp)
+        open(os.path.join(pl_dir, '.generated'), 'w').write('written by build.py\n')
+
+    # Blog — index plus one page per post.
+    try:
+        posts = load('blog_posts.json')
+    except FileNotFoundError:
+        posts = []
+    bp = blog_index_page(base, posts)
+    b_dir = os.path.join(ROOT, 'blog')
+    os.makedirs(b_dir, exist_ok=True)
+    open(os.path.join(b_dir, 'index.html'), 'w', encoding='utf-8').write(bp)
+    open(os.path.join(b_dir, '.generated'), 'w').write('written by build.py\n')
+    for p in posts:
+        s_dir = os.path.join(b_dir, p['slug'])
+        os.makedirs(s_dir, exist_ok=True)
+        open(os.path.join(s_dir, 'index.html'), 'w', encoding='utf-8').write(
+            blog_post_page(base, p))
+        open(os.path.join(s_dir, '.generated'), 'w').write('written by build.py\n')
+
     # sitemap, so the city pages are actually discoverable
     urls = [base] + ['%s%s/' % (base, slugify(t['name'])) for t in towns_with_pages] + \
            ['%s%s/calendar/' % (base, slugify(t['name'])) for t in towns_with_pages]
@@ -1447,6 +1635,11 @@ def main():
                 urls.append('%s%s/%s/' % (base, s, fp['slug']))
     if cp:
         urls.append('%sclasses/' % base)
+    if pp:
+        urls.append('%splaces/' % base)
+    urls.append('%sblog/' % base)
+    for p in posts:
+        urls.append('%sblog/%s/' % (base, p['slug']))
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sm += ''.join('  <url><loc>%s</loc></url>\n' % u for u in urls)
     sm += '</urlset>\n'

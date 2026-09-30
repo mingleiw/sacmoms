@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="../../assets/style.css?v=5afcf694f7" />
+<link rel="stylesheet" href="../../assets/style.css?v=4848651c9f" />
 <script>document.documentElement.className += ' js';</script>
 </head>
 <body>
@@ -43,7 +43,7 @@
            alt="SacMoms" />
       <small class="brand-tag">Where to take the kids</small>
     </a>
-    <nav class="nav"><a href="../../"><span class="nav-full">Change city</span><span class="nav-short">Cities</span></a><a href="../../classes/">Classes</a><a href="../">Folsom</a></nav>
+    <nav class="nav"><div class="nav-drop"><button class="nav-drop-btn" type="button" aria-haspopup="true" aria-expanded="false">Browse <span class="caret" aria-hidden="true">&#9662;</span></button><div class="nav-menu" role="menu"><a href="../../places/" role="menuitem">Places</a><a href="../../classes/" role="menuitem">Classes</a><a href="../../blog/" role="menuitem">Blog</a></div></div></nav>
   </div>
 </header>
 
@@ -716,6 +716,35 @@
     <p class="footer-copy">&copy; 2026 SacMoms</p>
   </div>
 </footer>
+
+<script>
+(function () {
+  var drops = document.querySelectorAll('.nav-drop');
+  function closeAll() {
+    drops.forEach(function (d) {
+      d.classList.remove('open');
+      d.querySelector('.nav-drop-btn').setAttribute('aria-expanded', 'false');
+    });
+  }
+  drops.forEach(function (drop) {
+    var btn = drop.querySelector('.nav-drop-btn');
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var wasOpen = drop.classList.contains('open');
+      closeAll();
+      if (!wasOpen) {
+        drop.classList.add('open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+  document.addEventListener('click', closeAll);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeAll();
+  });
+})();
+</script>
+
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "96be0c24d1da427b89065462a3b5fc07"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>

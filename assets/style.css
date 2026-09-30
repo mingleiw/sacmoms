@@ -111,6 +111,35 @@ section[id] { scroll-margin-top: 78px; }
 .nav a { color: var(--ink-2); padding: 6px 13px; border-radius: 999px; transition: background .2s var(--ease), color .2s var(--ease); }
 .nav-short { display: none; }
 
+/* Browse dropdown: one button in the header, Places / Classes / Blog inside.
+   Opens on hover where hover exists; everywhere else the button toggles it. */
+.nav-drop { position: relative; }
+.nav-drop-btn {
+  font: inherit; font-weight: 700; color: var(--ink-2); white-space: nowrap;
+  padding: 6px 13px; border-radius: 999px; background: transparent; border: 0;
+  cursor: pointer; transition: background .2s var(--ease), color .2s var(--ease);
+}
+.nav-drop-btn .caret { font-size: 11px; margin-left: 2px; }
+.nav-menu {
+  position: absolute; right: 0; top: calc(100% + 8px); min-width: 168px;
+  background: #fff; border: 1px solid var(--line-2); border-radius: 14px;
+  box-shadow: 0 12px 32px rgba(35, 49, 61, .16); padding: 6px; z-index: 60;
+  display: none;
+}
+.nav-drop.open .nav-menu { display: block; }
+.nav-menu a { display: block; padding: 9px 13px; border-radius: 9px; }
+.nav-menu a:hover { background: var(--sky-2); color: var(--ink); }
+
+/* Blog */
+.post-date { color: var(--ink-2); font-size: 14px; font-weight: 700; margin: 0 0 8px; }
+.post-tease { padding: 22px 0; border-bottom: 1px solid var(--line-2); }
+.post-tease h2 { margin: 0 0 8px; font-size: 22px; }
+.post-tease h2 a { color: var(--ink); }
+.post-tease p { margin: 0; color: var(--ink-2); max-width: 60ch; }
+.post-body { max-width: 62ch; font-size: 17px; line-height: 1.65; }
+.post-body p { margin: 0 0 1.1em; }
+.post-back { margin: 28px 0 0; }
+
 @media (max-width: 560px) {
   .header-inner { min-height: 60px; }
   .brand-logo { height: 34px; }
@@ -589,6 +618,10 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .nav a:hover {
   color: var(--ink); background: var(--sky-2);
 }
+.nav-drop-btn:hover {
+  color: var(--ink); background: var(--sky-2);
+}
+.nav-drop:hover .nav-menu { display: block; }
 .quick-link:hover {
   opacity: .85;
 }
