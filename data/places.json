@@ -1452,5 +1452,31 @@
    "price": "Free",
    "toddler": "Good for toddlers"
   }
+ },
+ {
+  "name": "River Fox Train",
+  "where": "West Sacramento",
+  "desc": "Pedal-powered railbikes on century-old tracks along the Sacramento River — 10 miles round trip through Yolo farmland, with electric assist when your legs give out. The same depot also runs themed train rides (beer, boba, murder mystery, holiday trains).",
+  "note": "Seated riders must be 3+ (under 3 in a front-facing carrier; no lap seating). Weekday railbikes $68.90/rider — a full bike for two is $137.80; weekends currently list the seasonal Pumpkin Patch railbike from $91.80. Check in 30–40 min early; closed-toe shoes required. Non-refundable, rides run rain or shine. Book ahead.",
+  "cta": "Map, hours & tickets",
+  "mapq": "River+Fox+Train+West+Sacramento",
+  "icon": "i-park",
+  "cat": "outdoors",
+  "age": "3-5 6-9 10+",
+  "region": "sac",
+  "env": "outdoor",
+  "lat": 38.674347,
+  "lon": -121.629235,
+  "ages": "Ages 3+",
+  "envlabel": "Outdoors",
+  "arealabel": "Sacramento area",
+  "url": "https://www.riverfoxtrain.com/experiences/railbikes/",
+  "status": "open",
+  "last_checked": "2026-09-30",
+  "spec": {
+   "price": "Weekday railbikes $68.90/rider ($137.80 full bike for two); weekend Pumpkin Patch railbike from $91.80",
+   "toddler": "Ages 3+ seated riders",
+   "tickets_url": "https://fareharbor.com/embeds/book/sacramentorivertrain/"
+  }
  }
 ]
