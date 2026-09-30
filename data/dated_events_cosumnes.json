@@ -13,7 +13,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.75
+      "quality": 1.8
     }
   },
   {
@@ -28,10 +28,10 @@
     "source": "https://www.cosumnescsd.gov/731/Pumpkin-Recipe-Contest",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.05,
+      "kid_p": 0.9,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.63
+      "quality": 1.67
     }
   },
   {
@@ -64,10 +64,10 @@
     "source": "https://www.cosumnescsd.gov/728/Youth-Art-Contest",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
+      "kid_p": 0.96,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.72
+      "quality": 1.66
     }
   },
   {
@@ -83,8 +83,8 @@
     "until": "17:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.07,
+      "kid_p": 0.96,
+      "stale_p": 0.08,
       "category": "seasonal",
       "quality": 1.93
     }
@@ -101,10 +101,10 @@
     "source": "https://www.cosumnescsd.gov/729/Lil-Pumpkin-Cupcake-Contest",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.05,
+      "kid_p": 0.93,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.82
+      "quality": 1.73
     }
   }
 ]

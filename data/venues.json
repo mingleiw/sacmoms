@@ -160,6 +160,16 @@
   "source": "nominatim.openstreetmap.org"
  },
  {
+  "venue": "Ella K. McClatchy Library",
+  "city": "Sacramento",
+  "lat": 38.5635033,
+  "lon": -121.4828629,
+  "query": "Ella K. McClatchy Library, Sacramento, CA, USA",
+  "matched": "Ella K McClatchy Neighborhood Library, 2112, 22nd Street, Newton Booth, Curtis Park, Sacramento, Sacramento County, California, 95818, United States",
+  "resolved": "2026-09-29",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Fair Oaks Library",
   "city": "Fair Oaks",
   "lat": 38.6626383,
@@ -216,7 +226,7 @@
   "lon": null,
   "query": "Keema's Pumpkin Farm, Elk Grove, CA, USA",
   "matched": "no confident match",
-  "resolved": "2026-09-28",
+  "resolved": "2026-09-29",
   "source": "nominatim.openstreetmap.org"
  },
  {
@@ -332,6 +342,16 @@
   "source": "nominatim.openstreetmap.org"
  },
  {
+  "venue": "Rio Linda Library",
+  "city": "Rio Linda",
+  "lat": 38.690142,
+  "lon": -121.4512768,
+  "query": "Rio Linda Library, Rio Linda, CA, USA",
+  "matched": "Rio Linda Neighborhood Library, 6724, 6th Street, Rio Linda, Sacramento County, California, 95673, United States",
+  "resolved": "2026-09-29",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
   "venue": "Robbie Waters Pocket - Greenhaven Library",
   "city": "Sacramento",
   "lat": 38.493911,
@@ -400,6 +420,16 @@
   "query": "Sylvan Oaks Library, Sacramento, CA, USA",
   "matched": "Sylvan Oaks Community Library, 6700, Auburn Boulevard, Citrus Heights, Sacramento County, California, 95621, United States",
   "resolved": "2026-09-17",
+  "source": "nominatim.openstreetmap.org"
+ },
+ {
+  "venue": "Valley Hi - North Laguna Library",
+  "city": "Sacramento",
+  "lat": 38.4523736,
+  "lon": -121.4172243,
+  "query": "Valley Hi - North Laguna Library, Sacramento, CA, USA",
+  "matched": "Valley Hi North Laguna Library, 7400, Bruceville Road, Valley Hi / North Laguna, Sacramento, Sacramento County, California, 95823, United States",
+  "resolved": "2026-09-29",
   "source": "nominatim.openstreetmap.org"
  },
  {

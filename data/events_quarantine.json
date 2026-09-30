@@ -1,75 +1,23 @@
 [
   {
     "ages": "All ages",
-    "blurb": "Ten days of Gabby's Dollhouse fun: themed storytimes, character scavenger hunt, photo ops, kitty ear crowns and CatRat paper dolls in the Art Studio. Included with admission.",
-    "city": "Rancho Cordova",
+    "blurb": "The 20th anniversary of the Bay Area's DIY festival: hundreds of makers, robots, drones, rockets, Tesla coils and hands-on builds. Advance single-day tickets $52 adult / $28 youth (4–17); 3 and under free. Parking $20/day prepaid.",
+    "city": "Vallejo",
     "date": "2026-09-27",
-    "region": "sac",
-    "source": "https://sackids.org/programs/gabbys-dollhouse-meowseum-discovery-days/",
+    "region": "marin",
+    "source": "https://bayarea.makerfaire.com/",
     "time": "10:00",
-    "until": "16:00",
-    "title": "Gabby's Dollhouse MEOWseum Discovery Days",
-    "venue": "Sacramento Children's Museum",
+    "title": "Maker Faire Bay Area 2026",
+    "until": "17:00",
+    "venue": "Mare Island Naval Shipyard",
     "_jev": {
       "verdict": "REJECT",
-      "kid_p": 0.98,
-      "stale_p": 0.92,
-      "category": "museum",
-      "quality": 1.59
-    },
-    "_quarantined_from": "data/dated_events_curated.json",
-    "_quarantined_on": "2026-09-28"
-  },
-  {
-    "ages": "All ages",
-    "blurb": "Home of the world-record corn maze (63 acres). Pumpkin patch, hay rides and a smaller kids maze. Maze admission around $15; pumpkins sold by the pound.",
-    "city": "Dixon",
-    "date": "2026-09-27",
-    "group": "cool-patch-2026",
-    "region": "sac",
-    "seasonal": "halloween",
-    "source": "https://www.coolpatchpumpkins.com/",
-    "time": "10:00",
-    "title": "Cool Patch Pumpkins",
-    "until": "19:00",
-    "venue": "Cool Patch Pumpkins",
-    "lat": 38.4468,
-    "lon": -121.813,
-    "_jev": {
-      "verdict": "REJECT",
-      "kid_p": 0.95,
-      "stale_p": 0.91,
-      "category": "seasonal",
-      "quality": 1.61
-    },
-    "_quarantined_from": "data/dated_events_curated.json",
-    "_quarantined_on": "2026-09-28"
-  },
-  {
-    "title": "Keema's Pumpkin Farm",
-    "date": "2026-09-27",
-    "time": "10:00",
-    "until": "18:00",
-    "venue": "Keema's Pumpkin Farm",
-    "city": "Elk Grove",
-    "address": "6532 Point Pleasant Rd, Elk Grove, CA 95757",
-    "lat": 38.338764,
-    "lon": -121.428137,
-    "ages": "All ages",
-    "blurb": "Family pumpkin farm in Elk Grove: u-pick pumpkins, corn maze, farm animals, playground and jumping pillow. Tue–Fri 11am–6pm, Sat–Sun 10am–6pm (Oct 31–Nov 1: 10am–4pm); closed Mondays. Cash only: adults 13+ $8, kids 2–12 $6, under 2 free.",
-    "source": "https://www.keemaspumpkinfarm.com/?page_id=31",
-    "seasonal": "halloween",
-    "group": "keemas-pumpkin-2026",
-    "origin": "curated",
-    "region": "sac",
-    "_jev": {
-      "verdict": "REJECT",
-      "kid_p": 0.98,
+      "kid_p": 0.9,
       "stale_p": 0.85,
-      "category": "seasonal",
-      "quality": 1.88
+      "category": "outdoor",
+      "quality": 1.76
     },
     "_quarantined_from": "data/dated_events_curated.json",
-    "_quarantined_on": "2026-09-28"
+    "_quarantined_on": "2026-09-29"
   }
 ]

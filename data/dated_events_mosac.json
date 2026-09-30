@@ -13,9 +13,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "museum",
-      "quality": 1.83
+      "quality": 1.84
     }
   },
   {
@@ -34,7 +34,7 @@
       "kid_p": 0.96,
       "stale_p": 0.04,
       "category": "museum",
-      "quality": 1.85
+      "quality": 1.86
     }
   },
   {
@@ -53,7 +53,7 @@
       "kid_p": 0.94,
       "stale_p": 0.04,
       "category": "museum",
-      "quality": 1.9
+      "quality": 1.79
     }
   },
   {
@@ -72,7 +72,7 @@
       "kid_p": 0.95,
       "stale_p": 0.04,
       "category": "museum",
-      "quality": 1.8
+      "quality": 1.87
     }
   }
 ]
