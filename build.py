@@ -228,7 +228,7 @@ def nav_drop(up):
     return (
         '<div class="nav-drop">'
         '<button class="nav-drop-btn" type="button" aria-haspopup="true" '
-        'aria-expanded="false">Browse <span class="caret" aria-hidden="true">'
+        'aria-expanded="false">Explore <span class="caret" aria-hidden="true">'
         '&#9662;</span></button>'
         '<div class="nav-menu" role="menu">'
         '<a href="%splaces/" role="menuitem">Places</a>'
