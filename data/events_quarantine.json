@@ -1,23 +1,23 @@
 [
   {
     "ages": "All ages",
-    "blurb": "The 20th anniversary of the Bay Area's DIY festival: hundreds of makers, robots, drones, rockets, Tesla coils and hands-on builds. Advance single-day tickets $52 adult / $28 youth (4–17); 3 and under free. Parking $20/day prepaid.",
-    "city": "Vallejo",
-    "date": "2026-09-27",
-    "region": "marin",
-    "source": "https://bayarea.makerfaire.com/",
+    "blurb": "Ten days of Gabby's Dollhouse fun: themed storytimes, character scavenger hunt, photo ops, kitty ear crowns and CatRat paper dolls in the Art Studio. Included with admission.",
+    "city": "Rancho Cordova",
+    "date": "2026-09-29",
+    "region": "sac",
+    "source": "https://sackids.org/programs/gabbys-dollhouse-meowseum-discovery-days/",
     "time": "10:00",
-    "title": "Maker Faire Bay Area 2026",
-    "until": "17:00",
-    "venue": "Mare Island Naval Shipyard",
+    "until": "15:00",
+    "title": "Gabby's Dollhouse MEOWseum Discovery Days",
+    "venue": "Sacramento Children's Museum",
     "_jev": {
       "verdict": "REJECT",
-      "kid_p": 0.9,
-      "stale_p": 0.85,
-      "category": "outdoor",
-      "quality": 1.76
+      "kid_p": 0.98,
+      "stale_p": 0.93,
+      "category": "museum",
+      "quality": 1.66
     },
     "_quarantined_from": "data/dated_events_curated.json",
-    "_quarantined_on": "2026-09-29"
+    "_quarantined_on": "2026-09-30"
   }
 ]

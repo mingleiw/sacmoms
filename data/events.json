@@ -32,9 +32,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 0.35
+      "quality": 0.4
     }
   },
   {
@@ -52,7 +52,7 @@
       "kid_p": 0.88,
       "stale_p": 0.06,
       "category": "storytime",
-      "quality": 0.78
+      "quality": 0.76
     }
   },
   {
@@ -69,10 +69,10 @@
     "origin": "scm",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
-      "stale_p": 0.04,
+      "kid_p": 0.89,
+      "stale_p": 0.06,
       "category": "museum",
-      "quality": 0.56
+      "quality": 0.57
     }
   },
   {
@@ -90,7 +90,7 @@
       "kid_p": 0.94,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.77
+      "quality": 1.8
     }
   },
   {
@@ -107,9 +107,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 0.79
+      "quality": 0.77
     }
   },
   {
@@ -128,7 +128,7 @@
       "kid_p": 0.96,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.82
+      "quality": 0.76
     }
   },
   {
@@ -147,7 +147,7 @@
       "kid_p": 0.8,
       "stale_p": 0.08,
       "category": "museum",
-      "quality": 0.51
+      "quality": 0.54
     }
   },
   {
@@ -164,9 +164,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 0.58
+      "quality": 0.6
     }
   },
   {
@@ -186,7 +186,7 @@
       "kid_p": 0.95,
       "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.63
+      "quality": 1.65
     }
   },
   {
@@ -204,7 +204,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.94,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "outdoor",
       "quality": 1.67
     }
@@ -223,7 +223,7 @@
     "origin": "adventure-playground",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
+      "kid_p": 0.93,
       "stale_p": 0.05,
       "category": "outdoor",
       "quality": 1.62
@@ -244,7 +244,7 @@
       "kid_p": 0.92,
       "stale_p": 0.07,
       "category": "storytime",
-      "quality": 0.47
+      "quality": 0.4
     }
   },
   {
@@ -259,10 +259,10 @@
     "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
-      "stale_p": 0.04,
+      "kid_p": 0.89,
+      "stale_p": 0.05,
       "category": "other",
-      "quality": 1.56
+      "quality": 1.59
     }
   },
   {
@@ -280,9 +280,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.43
+      "quality": 1.41
     }
   },
   {
@@ -299,10 +299,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.86,
+      "kid_p": 0.87,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.35
+      "quality": 1.28
     }
   },
   {
@@ -319,10 +319,10 @@
     "until": "10:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.86,
-      "stale_p": 0.1,
+      "kid_p": 0.83,
+      "stale_p": 0.09,
       "category": "storytime",
-      "quality": 0.29
+      "quality": 0.3
     }
   },
   {
@@ -340,9 +340,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 0.34
+      "quality": 0.41
     }
   },
   {
@@ -358,10 +358,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.89,
-      "stale_p": 0.04,
+      "kid_p": 0.92,
+      "stale_p": 0.05,
       "category": "other",
-      "quality": 0.97
+      "quality": 0.95
     }
   },
   {
@@ -381,7 +381,7 @@
       "kid_p": 0.95,
       "stale_p": 0.12,
       "category": "outdoor",
-      "quality": 0.51
+      "quality": 0.4
     }
   },
   {
@@ -398,9 +398,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.75,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.02
+      "quality": 0.95
     }
   },
   {
@@ -418,9 +418,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.94,
-      "stale_p": 0.07,
+      "stale_p": 0.08,
       "category": "museum",
-      "quality": 0.5
+      "quality": 0.54
     }
   },
   {
@@ -438,9 +438,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.94,
-      "stale_p": 0.08,
+      "stale_p": 0.09,
       "category": "museum",
-      "quality": 0.34
+      "quality": 0.37
     }
   },
   {
@@ -460,7 +460,7 @@
       "kid_p": 0.89,
       "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.15
+      "quality": 1.14
     }
   },
   {
@@ -477,30 +477,30 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.82,
-      "stale_p": 0.04,
+      "kid_p": 0.81,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.09
+      "quality": 1.07
     }
   },
   {
     "time": "09:00",
-    "title": "Goblin Jamboree at the Bay Area Discovery Museum",
+    "title": "Goblin Jamboree 2026 at Bay Area Discovery Museum",
     "venue": "Bay Area Discovery Museum",
     "city": "Sausalito",
     "region": "marin",
     "ages": "All ages",
     "blurb": "The Bay Area Discovery Museum's annual Goblin Jamboree fundraiser, the longest running Halloween",
-    "source": "https://www.marinmommies.com/calendar/goblin-jamboree-bay-area-discovery-museum",
+    "source": "https://www.marinmommies.com/calendar/goblin-jamboree-2026-bay-area-discovery-museum",
     "day": 6,
     "origin": "marin-mommies",
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.88,
-      "stale_p": 0.06,
+      "kid_p": 0.87,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.0
+      "quality": 0.99
     }
   },
   {
@@ -520,7 +520,7 @@
       "kid_p": 0.82,
       "stale_p": 0.16,
       "category": "outdoor",
-      "quality": 0.36
+      "quality": 0.33
     }
   },
   {
@@ -538,9 +538,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.09
+      "quality": 1.08
     }
   },
   {
@@ -552,15 +552,15 @@
     "ages": "Under 6",
     "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
     "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-    "day": 2,
+    "day": 4,
     "until": "11:40",
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.04,
+      "kid_p": 0.97,
+      "stale_p": 0.05,
       "category": "other",
-      "quality": 0.71
+      "quality": 0.76
     }
   },
   {
@@ -572,15 +572,15 @@
     "ages": "Babies & toddlers",
     "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
     "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-    "day": 2,
+    "day": 4,
     "until": "10:30",
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "other",
-      "quality": 0.99
+      "quality": 0.94
     }
   },
   {
@@ -598,7 +598,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.08,
+      "stale_p": 0.09,
       "category": "seasonal",
       "quality": 0.9
     }
@@ -618,9 +618,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.94,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 0.38
+      "quality": 0.34
     }
   },
   {
@@ -638,9 +638,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.83,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 0.41
+      "quality": 0.4
     }
   },
   {
@@ -657,10 +657,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.79,
-      "stale_p": 0.08,
+      "kid_p": 0.76,
+      "stale_p": 0.09,
       "category": "storytime",
-      "quality": 0.18
+      "quality": 0.13
     }
   },
   {
@@ -677,7 +677,7 @@
     "until": "10:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.82,
+      "kid_p": 0.78,
       "stale_p": 0.04,
       "category": "other",
       "quality": 1.06
@@ -700,7 +700,7 @@
       "kid_p": 0.95,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 0.85
+      "quality": 0.83
     }
   },
   {
@@ -720,7 +720,7 @@
       "kid_p": 0.95,
       "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 0.26
+      "quality": 0.22
     }
   },
   {
@@ -737,10 +737,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.77,
+      "kid_p": 0.81,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.18
+      "quality": 1.21
     }
   },
   {
@@ -759,7 +759,7 @@
       "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.04
+      "quality": 0.99
     }
   },
   {
@@ -779,7 +779,7 @@
       "kid_p": 0.88,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.1
+      "quality": 1.05
     }
   },
   {
@@ -791,15 +791,15 @@
     "ages": "All ages",
     "blurb": "Located in the small west Marin village of Nicasio, the farm is just west of the Nicasio Village",
     "source": "https://www.marinmommies.com/calendar/nicasio-valley-pumpkin-patch-1",
-    "day": 2,
+    "day": 3,
     "origin": "marin-mommies",
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.05,
+      "kid_p": 0.96,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 0.73
+      "quality": 0.75
     }
   },
   {
@@ -816,10 +816,10 @@
     "until": "20:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
+      "kid_p": 0.95,
       "stale_p": 0.18,
       "category": "outdoor",
-      "quality": 0.21
+      "quality": 0.22
     }
   },
   {
@@ -835,10 +835,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.73,
+      "kid_p": 0.74,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.0
+      "quality": 0.98
     }
   },
   {
@@ -858,7 +858,7 @@
       "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.22
+      "quality": 1.25
     }
   },
   {
@@ -878,7 +878,7 @@
       "kid_p": 0.95,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 0.95
+      "quality": 0.91
     }
   },
   {
@@ -895,10 +895,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
+      "kid_p": 0.94,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 0.99
+      "quality": 1.06
     }
   },
   {
@@ -910,15 +910,15 @@
     "ages": "Under 6",
     "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5.",
     "source": "https://marinlibrary.org/locations/mc/",
-    "day": 2,
+    "day": 4,
     "until": "10:00",
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.84,
+      "kid_p": 0.8,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.41
+      "quality": 1.37
     }
   },
   {
@@ -938,7 +938,7 @@
       "kid_p": 0.86,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.11
+      "quality": 1.09
     }
   },
   {
@@ -957,7 +957,7 @@
       "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.06
+      "quality": 1.01
     }
   },
   {
@@ -975,9 +975,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.03
+      "quality": 1.05
     }
   },
   {
@@ -997,7 +997,7 @@
       "kid_p": 0.94,
       "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 0.78
+      "quality": 0.8
     }
   },
   {
@@ -1015,9 +1015,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.86,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.06
+      "quality": 1.07
     }
   },
   {
@@ -1035,7 +1035,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.83,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "storytime",
       "quality": 0.38
     }
@@ -1054,10 +1054,10 @@
     "until": "12:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.85,
+      "kid_p": 0.81,
       "stale_p": 0.07,
       "category": "storytime",
-      "quality": 0.26
+      "quality": 0.25
     }
   },
   {
@@ -1074,10 +1074,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
+      "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 0.88
+      "quality": 0.84
     }
   },
   {
@@ -1094,10 +1094,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.42
+      "quality": 1.41
     }
   },
   {
@@ -1117,7 +1117,7 @@
       "kid_p": 0.95,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.41
+      "quality": 0.37
     }
   },
   {
@@ -1134,10 +1134,10 @@
     "until": "17:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
+      "kid_p": 0.97,
       "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.06
+      "quality": 1.1
     }
   },
   {
@@ -1157,7 +1157,7 @@
       "kid_p": 0.89,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.36
+      "quality": 0.38
     }
   },
   {
@@ -1174,10 +1174,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
-      "stale_p": 0.05,
+      "kid_p": 0.91,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 0.53
+      "quality": 0.48
     }
   },
   {
@@ -1197,7 +1197,7 @@
       "kid_p": 0.91,
       "stale_p": 0.04,
       "category": "museum",
-      "quality": 1.19
+      "quality": 1.23
     }
   },
   {
@@ -1217,7 +1217,7 @@
       "kid_p": 0.95,
       "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 0.78
+      "quality": 0.75
     }
   },
   {
@@ -1234,8 +1234,8 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.87,
-      "stale_p": 0.06,
+      "kid_p": 0.83,
+      "stale_p": 0.07,
       "category": "storytime",
       "quality": 0.21
     }
