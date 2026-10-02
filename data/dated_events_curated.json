@@ -12,10 +12,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.92,
-      "stale_p": 0.05,
+      "kid_p": 0.9,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.85
+      "quality": 1.83
     }
   },
   {
@@ -31,10 +31,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.07,
+      "kid_p": 0.9,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.83
+      "quality": 1.85
     }
   },
   {
@@ -50,10 +50,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.06,
+      "kid_p": 0.9,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.8
+      "quality": 1.81
     }
   },
   {
@@ -69,10 +69,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.06,
+      "kid_p": 0.91,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.81
+      "quality": 1.84
     }
   },
   {
@@ -88,10 +88,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
-      "stale_p": 0.06,
+      "kid_p": 0.9,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.77
+      "quality": 1.79
     }
   },
   {
@@ -107,8 +107,8 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.05,
+      "kid_p": 0.88,
+      "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.83
     }
@@ -126,10 +126,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
-      "stale_p": 0.06,
+      "kid_p": 0.89,
+      "stale_p": 0.09,
       "category": "seasonal",
-      "quality": 1.78
+      "quality": 1.76
     }
   },
   {
@@ -145,10 +145,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.92,
-      "stale_p": 0.06,
+      "kid_p": 0.89,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.8
+      "quality": 1.76
     }
   },
   {
@@ -164,10 +164,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.06,
+      "kid_p": 0.88,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.67
+      "quality": 1.71
     }
   },
   {
@@ -184,9 +184,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.07,
+      "stale_p": 0.1,
       "category": "museum",
-      "quality": 1.64
+      "quality": 1.7
     }
   },
   {
@@ -202,10 +202,10 @@
     "venue": "Legion of Honor",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.08,
+      "kid_p": 0.92,
+      "stale_p": 0.13,
       "category": "museum",
-      "quality": 1.73
+      "quality": 1.76
     }
   },
   {
@@ -220,10 +220,10 @@
     "venue": "Sacramento Children's Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.89,
-      "stale_p": 0.1,
+      "kid_p": 0.88,
+      "stale_p": 0.13,
       "category": "museum",
-      "quality": 1.93
+      "quality": 1.96
     }
   },
   {
@@ -239,7 +239,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.88,
-      "stale_p": 0.09,
+      "stale_p": 0.17,
       "category": "museum",
       "quality": 1.91
     }
@@ -256,29 +256,10 @@
     "venue": "Sacramento Children's Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.88,
-      "stale_p": 0.11,
+      "kid_p": 0.87,
+      "stale_p": 0.18,
       "category": "museum",
-      "quality": 1.89
-    }
-  },
-  {
-    "ages": "All ages",
-    "blurb": "Ten days of Gabby's Dollhouse fun: themed storytimes, character scavenger hunt, photo ops, kitty ear crowns and CatRat paper dolls in the Art Studio. Included with admission.",
-    "city": "Rancho Cordova",
-    "date": "2026-09-30",
-    "region": "sac",
-    "source": "https://sackids.org/programs/gabbys-dollhouse-meowseum-discovery-days/",
-    "time": "10:00",
-    "until": "15:00",
-    "title": "Gabby's Dollhouse MEOWseum Discovery Days",
-    "venue": "Sacramento Children's Museum",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.41,
-      "category": "museum",
-      "quality": 1.81
+      "quality": 1.9
     }
   },
   {
@@ -295,9 +276,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.3,
       "category": "museum",
-      "quality": 1.92
+      "quality": 1.9
     }
   },
   {
@@ -314,47 +295,47 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
+      "stale_p": 0.1,
+      "category": "museum",
+      "quality": 1.89
+    }
+  },
+  {
+    "ages": "All ages",
+    "blurb": "Ten days of Gabby's Dollhouse fun: themed storytimes, character scavenger hunt, photo ops, kitty ear crowns and CatRat paper dolls in the Art Studio. Included with admission.",
+    "city": "Rancho Cordova",
+    "date": "2026-10-03",
+    "region": "sac",
+    "source": "https://sackids.org/programs/gabbys-dollhouse-meowseum-discovery-days/",
+    "time": "10:00",
+    "until": "16:00",
+    "title": "Gabby's Dollhouse MEOWseum Discovery Days",
+    "venue": "Sacramento Children's Museum",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.13,
+      "category": "museum",
+      "quality": 1.85
+    }
+  },
+  {
+    "ages": "All ages",
+    "blurb": "Ten days of Gabby's Dollhouse fun: themed storytimes, character scavenger hunt, photo ops, kitty ear crowns and CatRat paper dolls in the Art Studio. Included with admission.",
+    "city": "Rancho Cordova",
+    "date": "2026-10-04",
+    "region": "sac",
+    "source": "https://sackids.org/programs/gabbys-dollhouse-meowseum-discovery-days/",
+    "time": "10:00",
+    "until": "16:00",
+    "title": "Gabby's Dollhouse MEOWseum Discovery Days",
+    "venue": "Sacramento Children's Museum",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
       "stale_p": 0.11,
       "category": "museum",
-      "quality": 1.85
-    }
-  },
-  {
-    "ages": "All ages",
-    "blurb": "Ten days of Gabby's Dollhouse fun: themed storytimes, character scavenger hunt, photo ops, kitty ear crowns and CatRat paper dolls in the Art Studio. Included with admission.",
-    "city": "Rancho Cordova",
-    "date": "2026-10-03",
-    "region": "sac",
-    "source": "https://sackids.org/programs/gabbys-dollhouse-meowseum-discovery-days/",
-    "time": "10:00",
-    "until": "16:00",
-    "title": "Gabby's Dollhouse MEOWseum Discovery Days",
-    "venue": "Sacramento Children's Museum",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.09,
-      "category": "museum",
-      "quality": 1.85
-    }
-  },
-  {
-    "ages": "All ages",
-    "blurb": "Ten days of Gabby's Dollhouse fun: themed storytimes, character scavenger hunt, photo ops, kitty ear crowns and CatRat paper dolls in the Art Studio. Included with admission.",
-    "city": "Rancho Cordova",
-    "date": "2026-10-04",
-    "region": "sac",
-    "source": "https://sackids.org/programs/gabbys-dollhouse-meowseum-discovery-days/",
-    "time": "10:00",
-    "until": "16:00",
-    "title": "Gabby's Dollhouse MEOWseum Discovery Days",
-    "venue": "Sacramento Children's Museum",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.09,
-      "category": "museum",
-      "quality": 1.83
+      "quality": 1.82
     }
   },
   {
@@ -375,9 +356,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.06,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.93
+      "quality": 1.94
     }
   },
   {
@@ -398,9 +379,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.06,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.92
+      "quality": 1.95
     }
   },
   {
@@ -421,9 +402,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.07,
+      "stale_p": 0.09,
       "category": "seasonal",
-      "quality": 1.92
+      "quality": 1.95
     }
   },
   {
@@ -444,9 +425,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.07,
+      "stale_p": 0.09,
       "category": "seasonal",
-      "quality": 1.93
+      "quality": 1.95
     }
   },
   {
@@ -467,7 +448,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.07,
+      "stale_p": 0.11,
       "category": "seasonal",
       "quality": 1.93
     }
@@ -513,9 +494,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.08,
+      "stale_p": 0.13,
       "category": "seasonal",
-      "quality": 1.92
+      "quality": 1.95
     }
   },
   {
@@ -536,9 +517,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.09,
+      "stale_p": 0.12,
       "category": "seasonal",
-      "quality": 1.92
+      "quality": 1.94
     }
   },
   {
@@ -559,6 +540,52 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
+      "stale_p": 0.11,
+      "category": "seasonal",
+      "quality": 1.94
+    }
+  },
+  {
+    "ages": "All ages",
+    "blurb": "Home of the world-record corn maze (63 acres). Pumpkin patch, hay rides and a smaller kids maze. Maze admission around $15; pumpkins sold by the pound.",
+    "city": "Dixon",
+    "date": "2026-10-03",
+    "group": "cool-patch-2026",
+    "region": "sac",
+    "seasonal": "halloween",
+    "source": "https://www.coolpatchpumpkins.com/",
+    "time": "10:00",
+    "title": "Cool Patch Pumpkins",
+    "until": "19:00",
+    "venue": "Cool Patch Pumpkins",
+    "lat": 38.4468,
+    "lon": -121.813,
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.07,
+      "category": "seasonal",
+      "quality": 1.87
+    }
+  },
+  {
+    "ages": "All ages",
+    "blurb": "Home of the world-record corn maze (63 acres). Pumpkin patch, hay rides and a smaller kids maze. Maze admission around $15; pumpkins sold by the pound.",
+    "city": "Dixon",
+    "date": "2026-10-04",
+    "group": "cool-patch-2026",
+    "region": "sac",
+    "seasonal": "halloween",
+    "source": "https://www.coolpatchpumpkins.com/",
+    "time": "10:00",
+    "title": "Cool Patch Pumpkins",
+    "until": "19:00",
+    "venue": "Cool Patch Pumpkins",
+    "lat": 38.4468,
+    "lon": -121.813,
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.95,
       "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.89
@@ -568,30 +595,7 @@
     "ages": "All ages",
     "blurb": "Home of the world-record corn maze (63 acres). Pumpkin patch, hay rides and a smaller kids maze. Maze admission around $15; pumpkins sold by the pound.",
     "city": "Dixon",
-    "date": "2026-10-03",
-    "group": "cool-patch-2026",
-    "region": "sac",
-    "seasonal": "halloween",
-    "source": "https://www.coolpatchpumpkins.com/",
-    "time": "10:00",
-    "title": "Cool Patch Pumpkins",
-    "until": "19:00",
-    "venue": "Cool Patch Pumpkins",
-    "lat": 38.4468,
-    "lon": -121.813,
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.07,
-      "category": "seasonal",
-      "quality": 1.87
-    }
-  },
-  {
-    "ages": "All ages",
-    "blurb": "Home of the world-record corn maze (63 acres). Pumpkin patch, hay rides and a smaller kids maze. Maze admission around $15; pumpkins sold by the pound.",
-    "city": "Dixon",
-    "date": "2026-10-04",
+    "date": "2026-10-10",
     "group": "cool-patch-2026",
     "region": "sac",
     "seasonal": "halloween",
@@ -606,29 +610,6 @@
       "verdict": "LIST",
       "kid_p": 0.95,
       "stale_p": 0.08,
-      "category": "seasonal",
-      "quality": 1.88
-    }
-  },
-  {
-    "ages": "All ages",
-    "blurb": "Home of the world-record corn maze (63 acres). Pumpkin patch, hay rides and a smaller kids maze. Maze admission around $15; pumpkins sold by the pound.",
-    "city": "Dixon",
-    "date": "2026-10-10",
-    "group": "cool-patch-2026",
-    "region": "sac",
-    "seasonal": "halloween",
-    "source": "https://www.coolpatchpumpkins.com/",
-    "time": "10:00",
-    "title": "Cool Patch Pumpkins",
-    "until": "19:00",
-    "venue": "Cool Patch Pumpkins",
-    "lat": 38.4468,
-    "lon": -121.813,
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.06,
       "category": "seasonal",
       "quality": 1.88
     }
@@ -651,9 +632,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.07,
+      "stale_p": 0.09,
       "category": "seasonal",
-      "quality": 1.81
+      "quality": 1.86
     }
   },
   {
@@ -673,10 +654,10 @@
     "lon": -121.813,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.08,
+      "kid_p": 0.96,
+      "stale_p": 0.09,
       "category": "seasonal",
-      "quality": 1.85
+      "quality": 1.87
     }
   },
   {
@@ -696,10 +677,10 @@
     "lon": -121.813,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.06,
+      "kid_p": 0.95,
+      "stale_p": 0.09,
       "category": "seasonal",
-      "quality": 1.87
+      "quality": 1.88
     }
   },
   {
@@ -719,10 +700,10 @@
     "lon": -121.813,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.05,
+      "kid_p": 0.95,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.85
+      "quality": 1.87
     }
   },
   {
@@ -743,9 +724,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.07,
+      "stale_p": 0.1,
       "category": "seasonal",
-      "quality": 1.84
+      "quality": 1.85
     }
   },
   {
@@ -766,9 +747,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.06,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.83
+      "quality": 1.86
     }
   },
   {
@@ -791,7 +772,7 @@
       "kid_p": 0.96,
       "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.82
+      "quality": 1.83
     }
   },
   {
@@ -812,9 +793,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.08,
+      "stale_p": 0.13,
       "category": "seasonal",
-      "quality": 1.95
+      "quality": 1.97
     }
   },
   {
@@ -834,10 +815,10 @@
     "lon": -121.501,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.06,
+      "kid_p": 0.95,
+      "stale_p": 0.11,
       "category": "seasonal",
-      "quality": 1.93
+      "quality": 1.94
     }
   },
   {
@@ -857,60 +838,10 @@
     "lon": -121.501,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.05,
+      "kid_p": 0.95,
+      "stale_p": 0.1,
       "category": "seasonal",
-      "quality": 1.92
-    }
-  },
-  {
-    "title": "Keema's Pumpkin Farm",
-    "date": "2026-09-29",
-    "time": "11:00",
-    "until": "18:00",
-    "venue": "Keema's Pumpkin Farm",
-    "city": "Elk Grove",
-    "address": "6532 Point Pleasant Rd, Elk Grove, CA 95757",
-    "lat": 38.338764,
-    "lon": -121.428137,
-    "ages": "All ages",
-    "blurb": "Family pumpkin farm in Elk Grove: u-pick pumpkins, corn maze, farm animals, playground and jumping pillow. Tue–Fri 11am–6pm, Sat–Sun 10am–6pm (Oct 31–Nov 1: 10am–4pm); closed Mondays. Cash only: adults 13+ $8, kids 2–12 $6, under 2 free.",
-    "source": "https://www.keemaspumpkinfarm.com/?page_id=31",
-    "seasonal": "halloween",
-    "group": "keemas-pumpkin-2026",
-    "origin": "curated",
-    "region": "sac",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.84,
-      "category": "seasonal",
-      "quality": 1.85
-    }
-  },
-  {
-    "title": "Keema's Pumpkin Farm",
-    "date": "2026-09-30",
-    "time": "11:00",
-    "until": "18:00",
-    "venue": "Keema's Pumpkin Farm",
-    "city": "Elk Grove",
-    "address": "6532 Point Pleasant Rd, Elk Grove, CA 95757",
-    "lat": 38.338764,
-    "lon": -121.428137,
-    "ages": "All ages",
-    "blurb": "Family pumpkin farm in Elk Grove: u-pick pumpkins, corn maze, farm animals, playground and jumping pillow. Tue–Fri 11am–6pm, Sat–Sun 10am–6pm (Oct 31–Nov 1: 10am–4pm); closed Mondays. Cash only: adults 13+ $8, kids 2–12 $6, under 2 free.",
-    "source": "https://www.keemaspumpkinfarm.com/?page_id=31",
-    "seasonal": "halloween",
-    "group": "keemas-pumpkin-2026",
-    "origin": "curated",
-    "region": "sac",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.37,
-      "category": "seasonal",
-      "quality": 1.98
+      "quality": 1.95
     }
   },
   {
@@ -933,7 +864,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.1,
+      "stale_p": 0.27,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -960,7 +891,7 @@
       "kid_p": 0.98,
       "stale_p": 0.1,
       "category": "seasonal",
-      "quality": 1.98
+      "quality": 1.99
     }
   },
   {
@@ -982,8 +913,8 @@
     "region": "sac",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.09,
+      "kid_p": 0.98,
+      "stale_p": 0.12,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1033,7 +964,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.09,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1083,7 +1014,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.08,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1108,9 +1039,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.11,
+      "stale_p": 0.1,
       "category": "seasonal",
-      "quality": 1.98
+      "quality": 1.99
     }
   },
   {
@@ -1133,7 +1064,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.12,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1158,7 +1089,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.11,
+      "stale_p": 0.1,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1185,7 +1116,7 @@
       "kid_p": 0.98,
       "stale_p": 0.1,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.98
     }
   },
   {
@@ -1208,7 +1139,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.1,
+      "stale_p": 0.08,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1233,9 +1164,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.11,
+      "stale_p": 0.13,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.98
     }
   },
   {
@@ -1260,7 +1191,7 @@
       "kid_p": 0.98,
       "stale_p": 0.11,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.98
     }
   },
   {
@@ -1283,7 +1214,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.11,
+      "stale_p": 0.1,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1308,9 +1239,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.11,
+      "stale_p": 0.12,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.98
     }
   },
   {
@@ -1333,7 +1264,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.11,
+      "stale_p": 0.09,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1358,7 +1289,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.07,
+      "stale_p": 0.1,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1383,7 +1314,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.1,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1407,10 +1338,10 @@
     "region": "sac",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.98,
       "stale_p": 0.11,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.98
     }
   },
   {
@@ -1433,9 +1364,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.13,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.98
     }
   },
   {
@@ -1458,7 +1389,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.11,
       "category": "seasonal",
       "quality": 1.97
     }
@@ -1485,7 +1416,7 @@
       "kid_p": 0.98,
       "stale_p": 0.1,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.96
     }
   },
   {
@@ -1508,9 +1439,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.1,
+      "stale_p": 0.11,
       "category": "seasonal",
-      "quality": 1.96
+      "quality": 1.97
     }
   },
   {
@@ -1535,7 +1466,7 @@
       "kid_p": 0.98,
       "stale_p": 0.12,
       "category": "seasonal",
-      "quality": 1.96
+      "quality": 1.97
     }
   },
   {
@@ -1558,9 +1489,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.1,
+      "stale_p": 0.11,
       "category": "seasonal",
-      "quality": 1.95
+      "quality": 1.97
     }
   },
   {
@@ -1583,9 +1514,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.13,
       "category": "seasonal",
-      "quality": 1.96
+      "quality": 1.97
     }
   },
   {
@@ -1608,9 +1539,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.96
     }
   },
   {
@@ -1625,10 +1556,10 @@
     "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.06,
+      "kid_p": 0.97,
+      "stale_p": 0.11,
       "category": "other",
-      "quality": 1.62
+      "quality": 1.7
     }
   },
   {
@@ -1644,9 +1575,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "other",
-      "quality": 1.58
+      "quality": 1.56
     }
   },
   {
@@ -1662,9 +1593,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.07,
       "category": "other",
-      "quality": 1.54
+      "quality": 1.49
     }
   },
   {
@@ -1682,26 +1613,7 @@
       "kid_p": 0.96,
       "stale_p": 0.07,
       "category": "other",
-      "quality": 1.52
-    }
-  },
-  {
-    "date": "2026-09-30",
-    "time": "17:30",
-    "until": "19:00",
-    "title": "Sneak Peek: Elk Grove's First Sensory Inclusive Space",
-    "venue": "A Seat at the Table Books",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Get a first look at the bookshop's new sensory inclusive space. Free.",
-    "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.92,
-      "stale_p": 0.53,
-      "category": "other",
-      "quality": 1.64
+      "quality": 1.43
     }
   }
 ]

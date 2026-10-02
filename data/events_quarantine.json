@@ -3,7 +3,7 @@
     "ages": "All ages",
     "blurb": "Ten days of Gabby's Dollhouse fun: themed storytimes, character scavenger hunt, photo ops, kitty ear crowns and CatRat paper dolls in the Art Studio. Included with admission.",
     "city": "Rancho Cordova",
-    "date": "2026-09-29",
+    "date": "2026-09-30",
     "region": "sac",
     "source": "https://sackids.org/programs/gabbys-dollhouse-meowseum-discovery-days/",
     "time": "10:00",
@@ -13,11 +13,86 @@
     "_jev": {
       "verdict": "REJECT",
       "kid_p": 0.98,
-      "stale_p": 0.93,
+      "stale_p": 0.92,
       "category": "museum",
-      "quality": 1.66
+      "quality": 1.56
     },
     "_quarantined_from": "data/dated_events_curated.json",
-    "_quarantined_on": "2026-09-30"
+    "_quarantined_on": "2026-10-01"
+  },
+  {
+    "title": "Keema's Pumpkin Farm",
+    "date": "2026-09-29",
+    "time": "11:00",
+    "until": "18:00",
+    "venue": "Keema's Pumpkin Farm",
+    "city": "Elk Grove",
+    "address": "6532 Point Pleasant Rd, Elk Grove, CA 95757",
+    "lat": 38.338764,
+    "lon": -121.428137,
+    "ages": "All ages",
+    "blurb": "Family pumpkin farm in Elk Grove: u-pick pumpkins, corn maze, farm animals, playground and jumping pillow. Tue–Fri 11am–6pm, Sat–Sun 10am–6pm (Oct 31–Nov 1: 10am–4pm); closed Mondays. Cash only: adults 13+ $8, kids 2–12 $6, under 2 free.",
+    "source": "https://www.keemaspumpkinfarm.com/?page_id=31",
+    "seasonal": "halloween",
+    "group": "keemas-pumpkin-2026",
+    "origin": "curated",
+    "region": "sac",
+    "_jev": {
+      "verdict": "REJECT",
+      "kid_p": 0.98,
+      "stale_p": 0.86,
+      "category": "seasonal",
+      "quality": 1.88
+    },
+    "_quarantined_from": "data/dated_events_curated.json",
+    "_quarantined_on": "2026-10-01"
+  },
+  {
+    "title": "Keema's Pumpkin Farm",
+    "date": "2026-09-30",
+    "time": "11:00",
+    "until": "18:00",
+    "venue": "Keema's Pumpkin Farm",
+    "city": "Elk Grove",
+    "address": "6532 Point Pleasant Rd, Elk Grove, CA 95757",
+    "lat": 38.338764,
+    "lon": -121.428137,
+    "ages": "All ages",
+    "blurb": "Family pumpkin farm in Elk Grove: u-pick pumpkins, corn maze, farm animals, playground and jumping pillow. Tue–Fri 11am–6pm, Sat–Sun 10am–6pm (Oct 31–Nov 1: 10am–4pm); closed Mondays. Cash only: adults 13+ $8, kids 2–12 $6, under 2 free.",
+    "source": "https://www.keemaspumpkinfarm.com/?page_id=31",
+    "seasonal": "halloween",
+    "group": "keemas-pumpkin-2026",
+    "origin": "curated",
+    "region": "sac",
+    "_jev": {
+      "verdict": "REJECT",
+      "kid_p": 0.98,
+      "stale_p": 0.85,
+      "category": "seasonal",
+      "quality": 1.8
+    },
+    "_quarantined_from": "data/dated_events_curated.json",
+    "_quarantined_on": "2026-10-01"
+  },
+  {
+    "date": "2026-09-30",
+    "time": "17:30",
+    "until": "19:00",
+    "title": "Sneak Peek: Elk Grove's First Sensory Inclusive Space",
+    "venue": "A Seat at the Table Books",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Get a first look at the bookshop's new sensory inclusive space. Free.",
+    "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
+    "_jev": {
+      "verdict": "REJECT",
+      "kid_p": 0.91,
+      "stale_p": 0.94,
+      "category": "other",
+      "quality": 1.26
+    },
+    "_quarantined_from": "data/dated_events_curated.json",
+    "_quarantined_on": "2026-10-01"
   }
 ]
