@@ -13,9 +13,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.9,
-      "stale_p": 0.07,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.83
+      "quality": 1.84
     }
   },
   {
@@ -32,9 +32,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.9,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.85
+      "quality": 1.79
     }
   },
   {
@@ -51,9 +51,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.9,
-      "stale_p": 0.08,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.81
+      "quality": 1.83
     }
   },
   {
@@ -72,7 +72,7 @@
       "kid_p": 0.91,
       "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.84
+      "quality": 1.81
     }
   },
   {
@@ -88,8 +88,8 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
-      "stale_p": 0.07,
+      "kid_p": 0.92,
+      "stale_p": 0.09,
       "category": "seasonal",
       "quality": 1.79
     }
@@ -107,10 +107,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.88,
+      "kid_p": 0.91,
       "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.83
+      "quality": 1.79
     }
   },
   {
@@ -126,10 +126,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.89,
-      "stale_p": 0.09,
+      "kid_p": 0.9,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.76
+      "quality": 1.82
     }
   },
   {
@@ -145,10 +145,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.89,
+      "kid_p": 0.9,
       "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.76
+      "quality": 1.85
     }
   },
   {
@@ -164,10 +164,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.88,
-      "stale_p": 0.08,
+      "kid_p": 0.91,
+      "stale_p": 0.11,
       "category": "seasonal",
-      "quality": 1.71
+      "quality": 1.74
     }
   },
   {
@@ -186,7 +186,7 @@
       "kid_p": 0.95,
       "stale_p": 0.1,
       "category": "museum",
-      "quality": 1.7
+      "quality": 1.73
     }
   },
   {
@@ -202,10 +202,10 @@
     "venue": "Legion of Honor",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.92,
-      "stale_p": 0.13,
+      "kid_p": 0.93,
+      "stale_p": 0.09,
       "category": "museum",
-      "quality": 1.76
+      "quality": 1.77
     }
   },
   {
@@ -221,9 +221,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.88,
-      "stale_p": 0.13,
+      "stale_p": 0.45,
       "category": "museum",
-      "quality": 1.96
+      "quality": 1.91
     }
   },
   {
@@ -239,9 +239,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.88,
-      "stale_p": 0.17,
+      "stale_p": 0.12,
       "category": "museum",
-      "quality": 1.91
+      "quality": 1.93
     }
   },
   {
@@ -256,27 +256,8 @@
     "venue": "Sacramento Children's Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.87,
-      "stale_p": 0.18,
-      "category": "museum",
-      "quality": 1.9
-    }
-  },
-  {
-    "ages": "All ages",
-    "blurb": "Ten days of Gabby's Dollhouse fun: themed storytimes, character scavenger hunt, photo ops, kitty ear crowns and CatRat paper dolls in the Art Studio. Included with admission.",
-    "city": "Rancho Cordova",
-    "date": "2026-10-01",
-    "region": "sac",
-    "source": "https://sackids.org/programs/gabbys-dollhouse-meowseum-discovery-days/",
-    "time": "10:00",
-    "until": "15:00",
-    "title": "Gabby's Dollhouse MEOWseum Discovery Days",
-    "venue": "Sacramento Children's Museum",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.3,
+      "kid_p": 0.85,
+      "stale_p": 0.17,
       "category": "museum",
       "quality": 1.9
     }
@@ -295,6 +276,25 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
+      "stale_p": 0.32,
+      "category": "museum",
+      "quality": 1.88
+    }
+  },
+  {
+    "ages": "All ages",
+    "blurb": "Ten days of Gabby's Dollhouse fun: themed storytimes, character scavenger hunt, photo ops, kitty ear crowns and CatRat paper dolls in the Art Studio. Included with admission.",
+    "city": "Rancho Cordova",
+    "date": "2026-10-03",
+    "region": "sac",
+    "source": "https://sackids.org/programs/gabbys-dollhouse-meowseum-discovery-days/",
+    "time": "10:00",
+    "until": "16:00",
+    "title": "Gabby's Dollhouse MEOWseum Discovery Days",
+    "venue": "Sacramento Children's Museum",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
       "stale_p": 0.1,
       "category": "museum",
       "quality": 1.89
@@ -304,25 +304,6 @@
     "ages": "All ages",
     "blurb": "Ten days of Gabby's Dollhouse fun: themed storytimes, character scavenger hunt, photo ops, kitty ear crowns and CatRat paper dolls in the Art Studio. Included with admission.",
     "city": "Rancho Cordova",
-    "date": "2026-10-03",
-    "region": "sac",
-    "source": "https://sackids.org/programs/gabbys-dollhouse-meowseum-discovery-days/",
-    "time": "10:00",
-    "until": "16:00",
-    "title": "Gabby's Dollhouse MEOWseum Discovery Days",
-    "venue": "Sacramento Children's Museum",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.13,
-      "category": "museum",
-      "quality": 1.85
-    }
-  },
-  {
-    "ages": "All ages",
-    "blurb": "Ten days of Gabby's Dollhouse fun: themed storytimes, character scavenger hunt, photo ops, kitty ear crowns and CatRat paper dolls in the Art Studio. Included with admission.",
-    "city": "Rancho Cordova",
     "date": "2026-10-04",
     "region": "sac",
     "source": "https://sackids.org/programs/gabbys-dollhouse-meowseum-discovery-days/",
@@ -333,9 +314,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.11,
+      "stale_p": 0.1,
       "category": "museum",
-      "quality": 1.82
+      "quality": 1.83
     }
   },
   {
@@ -356,32 +337,32 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.08,
-      "category": "seasonal",
-      "quality": 1.94
-    }
-  },
-  {
-    "ages": "All ages",
-    "blurb": "Family pumpkin patch with corn maze, hay rides, petting zoo and giant slides. Free admission; activities priced individually. Close to downtown Sacramento.",
-    "city": "West Sacramento",
-    "date": "2026-10-04",
-    "group": "daves-pumpkin-2026",
-    "region": "sac",
-    "seasonal": "halloween",
-    "source": "https://www.davespumpkinpatch.com/",
-    "time": "10:00",
-    "title": "Dave's Pumpkin Patch",
-    "until": "17:00",
-    "venue": "Dave's Pumpkin Patch",
-    "lat": 38.5691,
-    "lon": -121.556,
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.08,
+      "stale_p": 0.1,
       "category": "seasonal",
       "quality": 1.95
+    }
+  },
+  {
+    "ages": "All ages",
+    "blurb": "Family pumpkin patch with corn maze, hay rides, petting zoo and giant slides. Free admission; activities priced individually. Close to downtown Sacramento.",
+    "city": "West Sacramento",
+    "date": "2026-10-04",
+    "group": "daves-pumpkin-2026",
+    "region": "sac",
+    "seasonal": "halloween",
+    "source": "https://www.davespumpkinpatch.com/",
+    "time": "10:00",
+    "title": "Dave's Pumpkin Patch",
+    "until": "17:00",
+    "venue": "Dave's Pumpkin Patch",
+    "lat": 38.5691,
+    "lon": -121.556,
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.07,
+      "category": "seasonal",
+      "quality": 1.94
     }
   },
   {
@@ -425,7 +406,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.09,
+      "stale_p": 0.11,
       "category": "seasonal",
       "quality": 1.95
     }
@@ -450,7 +431,7 @@
       "kid_p": 0.97,
       "stale_p": 0.11,
       "category": "seasonal",
-      "quality": 1.93
+      "quality": 1.94
     }
   },
   {
@@ -471,9 +452,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.08,
+      "stale_p": 0.1,
       "category": "seasonal",
-      "quality": 1.93
+      "quality": 1.92
     }
   },
   {
@@ -494,9 +475,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.13,
+      "stale_p": 0.1,
       "category": "seasonal",
-      "quality": 1.95
+      "quality": 1.94
     }
   },
   {
@@ -517,7 +498,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.12,
+      "stale_p": 0.1,
       "category": "seasonal",
       "quality": 1.94
     }
@@ -540,9 +521,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.11,
+      "stale_p": 0.15,
       "category": "seasonal",
-      "quality": 1.94
+      "quality": 1.91
     }
   },
   {
@@ -586,9 +567,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.89
+      "quality": 1.87
     }
   },
   {
@@ -610,29 +591,6 @@
       "verdict": "LIST",
       "kid_p": 0.95,
       "stale_p": 0.08,
-      "category": "seasonal",
-      "quality": 1.88
-    }
-  },
-  {
-    "ages": "All ages",
-    "blurb": "Home of the world-record corn maze (63 acres). Pumpkin patch, hay rides and a smaller kids maze. Maze admission around $15; pumpkins sold by the pound.",
-    "city": "Dixon",
-    "date": "2026-10-11",
-    "group": "cool-patch-2026",
-    "region": "sac",
-    "seasonal": "halloween",
-    "source": "https://www.coolpatchpumpkins.com/",
-    "time": "10:00",
-    "title": "Cool Patch Pumpkins",
-    "until": "19:00",
-    "venue": "Cool Patch Pumpkins",
-    "lat": 38.4468,
-    "lon": -121.813,
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.09,
       "category": "seasonal",
       "quality": 1.86
     }
@@ -641,6 +599,29 @@
     "ages": "All ages",
     "blurb": "Home of the world-record corn maze (63 acres). Pumpkin patch, hay rides and a smaller kids maze. Maze admission around $15; pumpkins sold by the pound.",
     "city": "Dixon",
+    "date": "2026-10-11",
+    "group": "cool-patch-2026",
+    "region": "sac",
+    "seasonal": "halloween",
+    "source": "https://www.coolpatchpumpkins.com/",
+    "time": "10:00",
+    "title": "Cool Patch Pumpkins",
+    "until": "19:00",
+    "venue": "Cool Patch Pumpkins",
+    "lat": 38.4468,
+    "lon": -121.813,
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.95,
+      "stale_p": 0.08,
+      "category": "seasonal",
+      "quality": 1.88
+    }
+  },
+  {
+    "ages": "All ages",
+    "blurb": "Home of the world-record corn maze (63 acres). Pumpkin patch, hay rides and a smaller kids maze. Maze admission around $15; pumpkins sold by the pound.",
+    "city": "Dixon",
     "date": "2026-10-17",
     "group": "cool-patch-2026",
     "region": "sac",
@@ -655,9 +636,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.09,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.87
+      "quality": 1.86
     }
   },
   {
@@ -677,10 +658,10 @@
     "lon": -121.813,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.09,
+      "kid_p": 0.96,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.88
+      "quality": 1.84
     }
   },
   {
@@ -703,7 +684,7 @@
       "kid_p": 0.95,
       "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.87
+      "quality": 1.88
     }
   },
   {
@@ -724,9 +705,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.1,
+      "stale_p": 0.11,
       "category": "seasonal",
-      "quality": 1.85
+      "quality": 1.86
     }
   },
   {
@@ -747,7 +728,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.08,
+      "stale_p": 0.1,
       "category": "seasonal",
       "quality": 1.86
     }
@@ -770,9 +751,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.07,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.83
+      "quality": 1.87
     }
   },
   {
@@ -793,9 +774,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.13,
+      "stale_p": 0.1,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.9
     }
   },
   {
@@ -815,10 +796,10 @@
     "lon": -121.501,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
+      "kid_p": 0.96,
       "stale_p": 0.11,
       "category": "seasonal",
-      "quality": 1.94
+      "quality": 1.95
     }
   },
   {
@@ -838,10 +819,10 @@
     "lon": -121.501,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.1,
+      "kid_p": 0.96,
+      "stale_p": 0.14,
       "category": "seasonal",
-      "quality": 1.95
+      "quality": 1.94
     }
   },
   {
@@ -864,9 +845,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.27,
+      "stale_p": 0.84,
       "category": "seasonal",
-      "quality": 1.98
+      "quality": 1.95
     }
   },
   {
@@ -889,9 +870,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.1,
+      "stale_p": 0.33,
       "category": "seasonal",
-      "quality": 1.99
+      "quality": 1.98
     }
   },
   {
@@ -914,7 +895,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.12,
+      "stale_p": 0.09,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -939,7 +920,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.11,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -964,7 +945,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -991,7 +972,7 @@
       "kid_p": 0.98,
       "stale_p": 0.09,
       "category": "seasonal",
-      "quality": 1.98
+      "quality": 1.99
     }
   },
   {
@@ -1014,7 +995,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.09,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1039,9 +1020,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.1,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.99
+      "quality": 1.98
     }
   },
   {
@@ -1064,7 +1045,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.12,
+      "stale_p": 0.1,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1114,7 +1095,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.1,
+      "stale_p": 0.09,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1139,7 +1120,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.1,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1164,7 +1145,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.13,
+      "stale_p": 0.1,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1189,7 +1170,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.11,
+      "stale_p": 0.13,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1214,7 +1195,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.1,
+      "stale_p": 0.09,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1239,7 +1220,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.12,
+      "stale_p": 0.1,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1264,7 +1245,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1289,7 +1270,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.1,
+      "stale_p": 0.09,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1314,7 +1295,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.1,
+      "stale_p": 0.08,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1339,7 +1320,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.11,
+      "stale_p": 0.09,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1391,7 +1372,7 @@
       "kid_p": 0.98,
       "stale_p": 0.11,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.98
     }
   },
   {
@@ -1414,9 +1395,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.1,
+      "stale_p": 0.11,
       "category": "seasonal",
-      "quality": 1.96
+      "quality": 1.97
     }
   },
   {
@@ -1439,7 +1420,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.11,
+      "stale_p": 0.09,
       "category": "seasonal",
       "quality": 1.97
     }
@@ -1464,9 +1445,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.12,
+      "stale_p": 0.11,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.96
     }
   },
   {
@@ -1489,9 +1470,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.11,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.96
     }
   },
   {
@@ -1514,7 +1495,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.13,
+      "stale_p": 0.14,
       "category": "seasonal",
       "quality": 1.97
     }
@@ -1539,9 +1520,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.07,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.96
+      "quality": 1.97
     }
   },
   {
@@ -1556,10 +1537,10 @@
     "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.96,
       "stale_p": 0.11,
       "category": "other",
-      "quality": 1.7
+      "quality": 1.63
     }
   },
   {
@@ -1577,7 +1558,7 @@
       "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.56
+      "quality": 1.52
     }
   },
   {
@@ -1593,9 +1574,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "other",
-      "quality": 1.49
+      "quality": 1.53
     }
   },
   {
@@ -1613,7 +1594,7 @@
       "kid_p": 0.96,
       "stale_p": 0.07,
       "category": "other",
-      "quality": 1.43
+      "quality": 1.42
     }
   }
 ]
