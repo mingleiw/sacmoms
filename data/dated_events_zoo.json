@@ -1,22 +1,5 @@
 [
   {
-    "date": "2026-10-02",
-    "title": "$10 Community Day",
-    "venue": "Sacramento Zoo",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Discounted $10 admission for the day.",
-    "source": "https://www.saczoo.org/special-events",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.38,
-      "category": "outdoor",
-      "quality": 1.47
-    }
-  },
-  {
     "date": "2026-10-10",
     "title": "Nature Explorers",
     "venue": "Sacramento Zoo",
@@ -28,9 +11,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.1,
+      "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 1.54
+      "quality": 1.48
     }
   },
   {
@@ -44,8 +27,8 @@
     "source": "https://www.saczoo.org/special-events",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.14,
+      "kid_p": 0.97,
+      "stale_p": 0.15,
       "category": "outdoor",
       "quality": 1.24
     }
@@ -61,10 +44,10 @@
     "source": "https://www.saczoo.org/special-events",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
+      "kid_p": 0.95,
       "stale_p": 0.08,
       "category": "outdoor",
-      "quality": 1.29
+      "quality": 1.26
     }
   },
   {
@@ -81,7 +64,7 @@
       "kid_p": 0.96,
       "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 1.5
+      "quality": 1.57
     }
   },
   {
@@ -95,8 +78,8 @@
     "source": "https://www.saczoo.org/special-events",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
-      "stale_p": 0.05,
+      "kid_p": 0.94,
+      "stale_p": 0.06,
       "category": "outdoor",
       "quality": 0.99
     }
@@ -112,10 +95,10 @@
     "source": "https://www.saczoo.org/special-events",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.04,
+      "kid_p": 0.9,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.19
+      "quality": 1.17
     }
   },
   {
@@ -129,10 +112,10 @@
     "source": "https://www.saczoo.org/special-events",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.05,
+      "kid_p": 0.95,
+      "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.31
+      "quality": 1.29
     }
   },
   {
@@ -147,9 +130,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 1.51
+      "quality": 1.53
     }
   },
   {
@@ -164,9 +147,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.93,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.97
+      "quality": 1.0
     }
   },
   {
@@ -181,9 +164,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 1.54
+      "quality": 1.41
     }
   },
   {
@@ -197,10 +180,27 @@
     "source": "https://www.saczoo.org/special-events",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
+      "kid_p": 0.97,
       "stale_p": 0.12,
       "category": "seasonal",
-      "quality": 1.52
+      "quality": 1.58
+    }
+  },
+  {
+    "date": "2027-01-09",
+    "title": "Nature Explorers",
+    "venue": "Sacramento Zoo",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Drop-in open play exploring the natural world, second Saturday monthly.",
+    "source": "https://www.saczoo.org/special-events",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.06,
+      "category": "outdoor",
+      "quality": 1.55
     }
   }
 ]

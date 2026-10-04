@@ -12,10 +12,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.08,
+      "kid_p": 0.98,
+      "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 1.47
+      "quality": 1.5
     }
   },
   {
@@ -32,7 +32,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.12,
+      "stale_p": 0.13,
       "category": "storytime",
       "quality": 1.42
     }
@@ -51,9 +51,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.76,
-      "stale_p": 0.09,
+      "stale_p": 0.1,
       "category": "outdoor",
-      "quality": 1.38
+      "quality": 1.32
     }
   },
   {
@@ -70,9 +70,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.51
+      "quality": 1.54
     }
   },
   {
@@ -108,9 +108,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.93,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.58
+      "quality": 1.61
     }
   }
 ]

@@ -1,24 +1,5 @@
 [
   {
-    "date": "2026-10-02",
-    "time": "10:00",
-    "title": "Homeschool Day: UC Davis Neurofest",
-    "venue": "Museum of Science and Curiosity",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "A curiosity-filled day for homeschool, charter and independent-study families: planetarium shows, hands-on labs and museum exhibits.",
-    "source": "https://visitmosac.org/learn/homeschool-programs/",
-    "until": "14:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.4,
-      "category": "museum",
-      "quality": 1.86
-    }
-  },
-  {
     "date": "2026-11-19",
     "time": "10:00",
     "title": "Homeschool Day: Growing Sacramento",
@@ -31,10 +12,10 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.05,
+      "kid_p": 0.96,
+      "stale_p": 0.04,
       "category": "museum",
-      "quality": 1.84
+      "quality": 1.81
     }
   },
   {
@@ -53,7 +34,7 @@
       "kid_p": 0.94,
       "stale_p": 0.04,
       "category": "museum",
-      "quality": 1.77
+      "quality": 1.81
     }
   },
   {
@@ -72,7 +53,7 @@
       "kid_p": 0.95,
       "stale_p": 0.04,
       "category": "museum",
-      "quality": 1.78
+      "quality": 1.79
     }
   }
 ]

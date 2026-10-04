@@ -1,24 +1,5 @@
 [
   {
-    "date": "2026-10-02",
-    "time": "10:15",
-    "title": "Pop-up Storytime in the Parks: Boyle",
-    "venue": "Mill Valley Public Library",
-    "city": "Mill Valley",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Join us every Friday at Boyle and Hauke Park for Pop-up storytimes in the park! Meets in the Boyle Park.",
-    "source": "https://millvalleylibrary.libcal.com/event/16724255",
-    "until": "10:45",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.29,
-      "category": "storytime",
-      "quality": 1.16
-    }
-  },
-  {
     "date": "2026-10-03",
     "time": "14:30",
     "title": "Family Storytime",
@@ -32,9 +13,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.13,
+      "stale_p": 0.46,
       "category": "storytime",
-      "quality": 1.61
+      "quality": 1.53
     }
   },
   {
@@ -50,10 +31,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.08,
+      "kid_p": 0.99,
+      "stale_p": 0.07,
       "category": "storytime",
-      "quality": 1.53
+      "quality": 1.56
     }
   },
   {
@@ -70,9 +51,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 1.83
+      "quality": 1.81
     }
   },
   {
@@ -89,9 +70,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 1.63
+      "quality": 1.62
     }
   },
   {
@@ -110,7 +91,7 @@
       "kid_p": 0.97,
       "stale_p": 0.09,
       "category": "storytime",
-      "quality": 1.23
+      "quality": 1.26
     }
   },
   {
@@ -127,9 +108,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.14,
+      "stale_p": 0.11,
       "category": "storytime",
-      "quality": 1.61
+      "quality": 1.63
     }
   },
   {
@@ -146,9 +127,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.14,
+      "stale_p": 0.09,
       "category": "outdoor",
-      "quality": 1.81
+      "quality": 1.79
     }
   },
   {
@@ -164,10 +145,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.09,
+      "kid_p": 0.98,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 1.63
+      "quality": 1.62
     }
   },
   {
@@ -183,10 +164,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
+      "kid_p": 0.97,
       "stale_p": 0.09,
       "category": "storytime",
-      "quality": 1.05
+      "quality": 1.03
     }
   },
   {
@@ -203,9 +184,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.19,
+      "stale_p": 0.13,
       "category": "storytime",
-      "quality": 1.57
+      "quality": 1.54
     }
   },
   {
@@ -222,9 +203,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.11,
+      "stale_p": 0.08,
       "category": "storytime",
-      "quality": 1.6
+      "quality": 1.53
     }
   },
   {
@@ -241,9 +222,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.11,
+      "stale_p": 0.09,
       "category": "outdoor",
-      "quality": 1.72
+      "quality": 1.66
     }
   },
   {
@@ -259,10 +240,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.1,
+      "kid_p": 0.98,
+      "stale_p": 0.07,
       "category": "storytime",
-      "quality": 1.62
+      "quality": 1.59
     }
   },
   {
@@ -279,9 +260,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.11,
+      "stale_p": 0.09,
       "category": "storytime",
-      "quality": 1.1
+      "quality": 1.18
     }
   },
   {
@@ -298,9 +279,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.18,
+      "stale_p": 0.17,
       "category": "storytime",
-      "quality": 1.65
+      "quality": 1.63
     }
   },
   {
@@ -317,9 +298,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.1,
+      "stale_p": 0.13,
       "category": "storytime",
-      "quality": 1.55
+      "quality": 1.56
     }
   },
   {
@@ -338,7 +319,7 @@
       "kid_p": 0.98,
       "stale_p": 0.1,
       "category": "outdoor",
-      "quality": 1.72
+      "quality": 1.73
     }
   },
   {
@@ -357,7 +338,7 @@
       "kid_p": 0.97,
       "stale_p": 0.08,
       "category": "storytime",
-      "quality": 1.55
+      "quality": 1.61
     }
   },
   {
@@ -374,9 +355,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.09,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 0.93
+      "quality": 0.97
     }
   },
   {
@@ -392,10 +373,10 @@
     "until": "12:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.21,
+      "kid_p": 0.96,
+      "stale_p": 0.19,
       "category": "seasonal",
-      "quality": 0.93
+      "quality": 1.0
     }
   },
   {
@@ -412,9 +393,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.18,
+      "stale_p": 0.19,
       "category": "storytime",
-      "quality": 1.51
+      "quality": 1.46
     }
   },
   {
@@ -431,7 +412,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
       "quality": 1.58
     }
@@ -450,9 +431,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "other",
-      "quality": 1.73
+      "quality": 1.84
     }
   },
   {
@@ -469,9 +450,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "other",
-      "quality": 1.75
+      "quality": 1.78
     }
   },
   {
@@ -488,9 +469,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 0.86
+      "quality": 0.81
     }
   },
   {
@@ -509,7 +490,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 0.85
+      "quality": 0.86
     }
   },
   {
@@ -526,9 +507,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.09,
       "category": "storytime",
-      "quality": 1.57
+      "quality": 1.59
     }
   },
   {
@@ -544,10 +525,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.99,
+      "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.63
+      "quality": 1.62
     }
   },
   {
@@ -564,7 +545,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "other",
       "quality": 1.83
     }
@@ -583,9 +564,28 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "other",
-      "quality": 1.77
+      "quality": 1.85
+    }
+  },
+  {
+    "date": "2026-11-14",
+    "time": "14:30",
+    "title": "Family Storytime",
+    "venue": "Mill Valley Public Library",
+    "city": "Mill Valley",
+    "region": "marin",
+    "ages": "All ages",
+    "blurb": "Children's early learning happens when they read, write, talk, sing and play. At Family Storytime on Saturdays, you'll hear favorite books, rhymes and flannel stories in our beautiful Children's Room....",
+    "source": "https://millvalleylibrary.libcal.com/event/15583131",
+    "until": "15:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.1,
+      "category": "storytime",
+      "quality": 1.57
     }
   }
 ]
