@@ -1,24 +1,5 @@
 [
   {
-    "date": "2026-10-03",
-    "time": "14:30",
-    "title": "Family Storytime",
-    "venue": "Mill Valley Public Library",
-    "city": "Mill Valley",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Children's early learning happens when they read, write, talk, sing and play. At Family Storytime on Saturdays, you'll hear favorite books, rhymes and flannel stories in our beautiful Children's Room....",
-    "source": "https://millvalleylibrary.libcal.com/event/15583125",
-    "until": "15:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.46,
-      "category": "storytime",
-      "quality": 1.53
-    }
-  },
-  {
     "date": "2026-10-05",
     "time": "10:15",
     "title": "Ingrid's Spanish Storytime",
@@ -32,9 +13,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.99,
-      "stale_p": 0.07,
+      "stale_p": 0.09,
       "category": "storytime",
-      "quality": 1.56
+      "quality": 1.59
     }
   },
   {
@@ -51,9 +32,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.07,
+      "stale_p": 0.08,
       "category": "outdoor",
-      "quality": 1.81
+      "quality": 1.76
     }
   },
   {
@@ -72,7 +53,7 @@
       "kid_p": 0.98,
       "stale_p": 0.06,
       "category": "storytime",
-      "quality": 1.62
+      "quality": 1.67
     }
   },
   {
@@ -89,9 +70,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.09,
+      "stale_p": 0.07,
       "category": "storytime",
-      "quality": 1.26
+      "quality": 1.23
     }
   },
   {
@@ -110,7 +91,7 @@
       "kid_p": 0.98,
       "stale_p": 0.11,
       "category": "storytime",
-      "quality": 1.63
+      "quality": 1.58
     }
   },
   {
@@ -129,7 +110,7 @@
       "kid_p": 0.98,
       "stale_p": 0.09,
       "category": "outdoor",
-      "quality": 1.79
+      "quality": 1.76
     }
   },
   {
@@ -146,9 +127,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.1,
+      "stale_p": 0.07,
       "category": "storytime",
-      "quality": 1.62
+      "quality": 1.64
     }
   },
   {
@@ -167,7 +148,7 @@
       "kid_p": 0.97,
       "stale_p": 0.09,
       "category": "storytime",
-      "quality": 1.03
+      "quality": 1.13
     }
   },
   {
@@ -184,9 +165,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.13,
+      "stale_p": 0.14,
       "category": "storytime",
-      "quality": 1.54
+      "quality": 1.61
     }
   },
   {
@@ -203,9 +184,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 1.53
+      "quality": 1.57
     }
   },
   {
@@ -222,9 +203,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.1,
       "category": "outdoor",
-      "quality": 1.66
+      "quality": 1.79
     }
   },
   {
@@ -240,10 +221,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.07,
+      "kid_p": 0.97,
+      "stale_p": 0.09,
       "category": "storytime",
-      "quality": 1.59
+      "quality": 1.62
     }
   },
   {
@@ -260,9 +241,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.09,
+      "stale_p": 0.12,
       "category": "storytime",
-      "quality": 1.18
+      "quality": 1.11
     }
   },
   {
@@ -279,9 +260,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.17,
+      "stale_p": 0.18,
       "category": "storytime",
-      "quality": 1.63
+      "quality": 1.58
     }
   },
   {
@@ -298,9 +279,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.13,
+      "stale_p": 0.11,
       "category": "storytime",
-      "quality": 1.56
+      "quality": 1.58
     }
   },
   {
@@ -319,7 +300,7 @@
       "kid_p": 0.98,
       "stale_p": 0.1,
       "category": "outdoor",
-      "quality": 1.73
+      "quality": 1.81
     }
   },
   {
@@ -335,10 +316,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.98,
       "stale_p": 0.08,
       "category": "storytime",
-      "quality": 1.61
+      "quality": 1.62
     }
   },
   {
@@ -355,9 +336,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.1,
+      "stale_p": 0.09,
       "category": "storytime",
-      "quality": 0.97
+      "quality": 0.95
     }
   },
   {
@@ -374,9 +355,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.19,
+      "stale_p": 0.17,
       "category": "seasonal",
-      "quality": 1.0
+      "quality": 1.01
     }
   },
   {
@@ -395,7 +376,7 @@
       "kid_p": 0.98,
       "stale_p": 0.19,
       "category": "storytime",
-      "quality": 1.46
+      "quality": 1.53
     }
   },
   {
@@ -412,9 +393,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.58
+      "quality": 1.62
     }
   },
   {
@@ -431,9 +412,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "other",
-      "quality": 1.84
+      "quality": 1.77
     }
   },
   {
@@ -487,10 +468,10 @@
     "until": "11:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 0.86
+      "quality": 0.82
     }
   },
   {
@@ -509,7 +490,7 @@
       "kid_p": 0.98,
       "stale_p": 0.09,
       "category": "storytime",
-      "quality": 1.59
+      "quality": 1.57
     }
   },
   {
@@ -528,7 +509,7 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.62
+      "quality": 1.58
     }
   },
   {
@@ -547,7 +528,7 @@
       "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.83
+      "quality": 1.78
     }
   },
   {
@@ -566,7 +547,7 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.85
+      "quality": 1.8
     }
   },
   {
@@ -583,9 +564,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.1,
+      "stale_p": 0.09,
       "category": "storytime",
-      "quality": 1.57
+      "quality": 1.62
     }
   }
 ]

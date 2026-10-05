@@ -15,7 +15,7 @@
       "kid_p": 0.98,
       "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 1.5
+      "quality": 1.52
     }
   },
   {
@@ -53,7 +53,7 @@
       "kid_p": 0.76,
       "stale_p": 0.1,
       "category": "outdoor",
-      "quality": 1.32
+      "quality": 1.33
     }
   },
   {
@@ -72,7 +72,7 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.54
+      "quality": 1.52
     }
   },
   {
@@ -89,9 +89,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.42
+      "quality": 1.4
     }
   },
   {
@@ -108,9 +108,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.93,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.61
+      "quality": 1.6
     }
   }
 ]
