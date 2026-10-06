@@ -79,6 +79,9 @@ PINNED = {
     "Midtown Farmers Market|Sacramento": (38.576244, -121.480403),
     # 7335 Gloria Dr; Nominatim matches "Robbie Waters Public Library" here.
     "Robbie Waters Pocket - Greenhaven Library|Sacramento": (38.493911, -121.537011),
+    # Cosumnes CSD Admin Office: 8820 Elk Grove Blvd (organizer-published on the
+    # Veterans Day Parade event page); Nominatim address geocode agrees.
+    "Cosumnes CSD Administration Office|Elk Grove": (38.4086408, -121.3747220),
 }
 
 

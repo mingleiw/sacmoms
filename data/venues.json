@@ -92,12 +92,13 @@
  {
   "venue": "Cosumnes CSD Administration Office",
   "city": "Elk Grove",
-  "lat": null,
-  "lon": null,
-  "query": "Cosumnes CSD Administration Office, Elk Grove, CA, USA",
-  "matched": "no confident match",
+  "lat": 38.4086408,
+  "lon": -121.374722,
+  "query": "hand-pinned",
+  "matched": "hand-pinned (locked)",
   "resolved": "2026-10-05",
-  "source": "nominatim.openstreetmap.org"
+  "source": "organizer-published address, verified via nominatim.openstreetmap.org",
+  "locked": true
  },
  {
   "venue": "Dave's Pumpkin Patch",
