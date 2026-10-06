@@ -2,7 +2,7 @@
   {
     "date": "2026-11-19",
     "time": "10:00",
-    "title": "Homeschool Day: Growing Sacramento",
+    "title": "Homeschool Day: QS               Growing Sacramento",
     "venue": "Museum of Science and Curiosity",
     "city": "Sacramento",
     "region": "sac",
@@ -13,9 +13,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "museum",
-      "quality": 1.86
+      "quality": 1.8
     }
   },
   {
@@ -34,7 +34,7 @@
       "kid_p": 0.94,
       "stale_p": 0.04,
       "category": "museum",
-      "quality": 1.83
+      "quality": 1.77
     }
   },
   {
@@ -53,7 +53,7 @@
       "kid_p": 0.95,
       "stale_p": 0.04,
       "category": "museum",
-      "quality": 1.78
+      "quality": 1.79
     }
   }
 ]

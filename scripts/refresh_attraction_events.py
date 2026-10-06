@@ -13,8 +13,9 @@ Sources (all fetched as plain text from the official sites):
                (Wix events JSON; kid/family items only)
   mosac      visitmosac.org homeschool programs   -> dated_events_mosac.json
                + all-ages shows (verifies the weekly K-Pop entry in events.json)
-  cosumnes   cosumnescsd.gov festival + contests  -> dated_events_cosumnes.json
-               (dates re-verified on the official pages each run)
+  cosumnes   cosumnescsd.gov community/family events -> dated_events_cosumnes.json
+               (curated upcoming list; dates re-verified on the official pages
+               each run — refresh the list when the events pass)
 
 A source that fails (unreachable page, changed layout, lost weekly signal)
 leaves its file untouched and the script exits nonzero, so the nightly
@@ -458,39 +459,29 @@ def refresh_mosac(today):
 
 
 # -------------------------------------------------------------- cosumnes
+# Curated upcoming family events from cosumnescsd.gov (dates re-verified on
+# the official pages each run). Refresh this list when the current events pass:
+# the scraper raises "all cosumnes events are in the past" when nothing here
+# is upcoming, which gates the whole nightly push on purpose.
 COSUMNES = [
-    {"url": "https://www.cosumnescsd.gov/726/Elk-Grove-Giant-Pumpkin-Festival",
-     "must": ["October 3 & 4, 2026", "10 am - 5 pm"],
-     "dates": ["2026-10-03", "2026-10-04"],
-     "title": "Elk Grove Giant Pumpkin Festival",
-     "time": "10:00", "until": "17:00",
-     "blurb": "Free admission. Giant pumpkin and produce contest, 30+ food vendors, "
-              "100 crafters, kids' activities and contests at Elk Grove Park.",
-     "ages": "All ages", "venue": "Elk Grove Park"},
-    {"url": "https://www.cosumnescsd.gov/729/Lil-Pumpkin-Cupcake-Contest",
-     "must": ["Sunday, October 4, 2026", "10 am"],
-     "dates": ["2026-10-04"],
-     "title": "Lil' Pumpkin Cupcake Contest",
-     "time": "10:00", "until": "",
-     "blurb": "Cupcake contest at the Giant Pumpkin Festival. Free entry; open to "
-              "bakers 12 and under; registration closes September 25.",
-     "ages": "12 & under", "venue": "Elk Grove Park"},
-    {"url": "https://www.cosumnescsd.gov/728/Youth-Art-Contest",
-     "must": ["October 3-4, 2026"],
-     "dates": ["2026-10-03", "2026-10-04"],
-     "title": "Youth Art Contest",
-     "time": "", "until": "",
-     "blurb": "Youth art contest at the Giant Pumpkin Festival. Free entry; "
-              "categories ages 3-6, 7-12 and 13-17; registration closes September 25.",
-     "ages": "Ages 3\u201317", "venue": "Elk Grove Park"},
-    {"url": "https://www.cosumnescsd.gov/731/Pumpkin-Recipe-Contest",
-     "must": ["Saturday, October 3, 2026", "9:30 am"],
-     "dates": ["2026-10-03"],
-     "title": "Pumpkin Recipe Contest",
-     "time": "09:30", "until": "",
-     "blurb": "Pumpkin recipe contest at the Giant Pumpkin Festival. Free entry; "
-              "walk-up entries accepted.",
-     "ages": "All ages", "venue": "Elk Grove Park"},
+    {"url": "https://www.cosumnescsd.gov/Calendar.aspx?EID=1876",
+     "must": ["Saturday, October 17, 2026", "1:00 PM - 4:00 PM"],
+     "dates": ["2026-10-17"],
+     "title": "Pool of Pumpkins",
+     "time": "13:00", "until": "16:00",
+     "blurb": "Annual floating pumpkin patch: swim in the pool, pick a pumpkin "
+              "to take home, plus arts & crafts and carnival games. No entrance "
+              "fee; $13 wristband to take home a pumpkin.",
+     "ages": "All ages", "venue": "Elk Grove Aquatics Center"},
+    {"url": "https://www.cosumnescsd.gov/Calendar.aspx?EID=1650",
+     "must": ["Wednesday, November 11, 2026", "10:00 AM - 1:00 PM"],
+     "dates": ["2026-11-11"],
+     "title": "Veterans Day Parade",
+     "time": "10:00", "until": "13:00",
+     "blurb": "Elk Grove's annual Veterans Day Parade: Reading of the Names "
+              "ceremony at 10 am, parade at 11:11 am, then a community picnic "
+              "open to the public.",
+     "ages": "All ages", "venue": "Cosumnes CSD Administration Office"},
 ]
 
 
