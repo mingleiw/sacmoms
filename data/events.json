@@ -15,7 +15,7 @@
       "kid_p": 0.94,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.72
+      "quality": 0.66
     }
   },
   {
@@ -32,9 +32,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.44
+      "quality": 0.47
     }
   },
   {
@@ -49,10 +49,10 @@
     "timeLabel": "Mornings",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.88,
+      "kid_p": 0.86,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 0.77
+      "quality": 0.76
     }
   },
   {
@@ -72,7 +72,7 @@
       "kid_p": 0.92,
       "stale_p": 0.05,
       "category": "museum",
-      "quality": 0.58
+      "quality": 0.57
     }
   },
   {
@@ -90,7 +90,7 @@
       "kid_p": 0.95,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.79
+      "quality": 1.83
     }
   },
   {
@@ -106,10 +106,10 @@
     "day": 6,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.04,
+      "kid_p": 0.95,
+      "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 0.8
+      "quality": 0.82
     }
   },
   {
@@ -128,7 +128,7 @@
       "kid_p": 0.96,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.76
+      "quality": 0.79
     }
   },
   {
@@ -144,10 +144,10 @@
     "origin": "mosac",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.8,
+      "kid_p": 0.79,
       "stale_p": 0.08,
       "category": "museum",
-      "quality": 0.55
+      "quality": 0.51
     }
   },
   {
@@ -166,7 +166,7 @@
       "kid_p": 0.96,
       "stale_p": 0.07,
       "category": "storytime",
-      "quality": 0.64
+      "quality": 0.61
     }
   },
   {
@@ -184,9 +184,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.69
+      "quality": 1.64
     }
   },
   {
@@ -206,7 +206,7 @@
       "kid_p": 0.94,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.62
+      "quality": 1.67
     }
   },
   {
@@ -226,7 +226,7 @@
       "kid_p": 0.95,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.61
+      "quality": 1.64
     }
   },
   {
@@ -242,9 +242,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.93,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 0.48
+      "quality": 0.46
     }
   },
   {
@@ -262,7 +262,7 @@
       "kid_p": 0.9,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.59
+      "quality": 1.57
     }
   },
   {
@@ -279,10 +279,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.46
+      "quality": 1.42
     }
   },
   {
@@ -299,10 +299,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
+      "kid_p": 0.88,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.33
+      "quality": 1.38
     }
   },
   {
@@ -314,15 +314,15 @@
     "ages": "All ages",
     "blurb": "Calling all ghosts and witches to join us for \"Boo at the Zoo\" and enjoy Oakland Zoo's Halloween",
     "source": "https://www.marinmommies.com/calendar/boo-zoo",
-    "day": 0,
+    "day": 6,
     "origin": "marin-mommies",
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.89,
+      "kid_p": 0.91,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.1
+      "quality": 1.15
     }
   },
   {
@@ -339,7 +339,7 @@
     "until": "10:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.84,
+      "kid_p": 0.85,
       "stale_p": 0.08,
       "category": "storytime",
       "quality": 0.28
@@ -359,10 +359,10 @@
     "until": "17:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
+      "kid_p": 0.96,
       "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 0.46
+      "quality": 0.39
     }
   },
   {
@@ -378,10 +378,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
+      "kid_p": 0.91,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 0.89
+      "quality": 0.93
     }
   },
   {
@@ -398,30 +398,30 @@
     "until": "20:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.13,
+      "kid_p": 0.95,
+      "stale_p": 0.16,
       "category": "outdoor",
-      "quality": 0.41
+      "quality": 0.36
     }
   },
   {
     "time": "09:30",
-    "title": "Free Saturday at the de Young",
+    "title": "Free Saturday at the de Young Museum in San Francisco",
     "venue": "de Young Museum",
     "city": "San Francisco",
     "region": "marin",
     "ages": "All ages",
-    "blurb": "Bay Area residents can visit the de Young museum in San Francisco for free every Saturday. Offer",
-    "source": "https://www.marinmommies.com/calendar/free-saturday-de-young",
+    "blurb": "Bay Area residents can enjoy free admission to the de Young Museum in San Francisco every Saturday",
+    "source": "https://www.marinmommies.com/calendar/free-saturday-de-young-museum-san-francisco",
     "day": 6,
     "origin": "marin-mommies",
     "until": "17:15",
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.94,
-      "stale_p": 0.07,
+      "stale_p": 0.1,
       "category": "museum",
-      "quality": 0.52
+      "quality": 0.43
     }
   },
   {
@@ -438,10 +438,10 @@
     "until": "17:15",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.08,
+      "kid_p": 0.93,
+      "stale_p": 0.07,
       "category": "museum",
-      "quality": 0.32
+      "quality": 0.34
     }
   },
   {
@@ -458,10 +458,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
+      "kid_p": 0.89,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.19
+      "quality": 1.21
     }
   },
   {
@@ -473,15 +473,15 @@
     "ages": "All ages",
     "blurb": "The Bay Area Discovery Museum's annual Goblin Jamboree fundraiser, the longest running Halloween",
     "source": "https://www.marinmommies.com/calendar/goblin-jamboree-2026-bay-area-discovery-museum",
-    "day": 0,
+    "day": 6,
     "origin": "marin-mommies",
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.86,
-      "stale_p": 0.07,
-      "category": "museum",
-      "quality": 0.89
+      "kid_p": 0.89,
+      "stale_p": 0.06,
+      "category": "seasonal",
+      "quality": 0.99
     }
   },
   {
@@ -498,10 +498,10 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.85,
-      "stale_p": 0.18,
+      "kid_p": 0.84,
+      "stale_p": 0.16,
       "category": "outdoor",
-      "quality": 0.33
+      "quality": 0.34
     }
   },
   {
@@ -513,7 +513,7 @@
     "ages": "All ages",
     "blurb": "Farm experience for the entire family. Grossi Family Pumpkin Patch is run by 4th generation Marin",
     "source": "https://www.marinmommies.com/calendar/grossi-family-farm-pumpkin-patch-2",
-    "day": 4,
+    "day": 3,
     "origin": "marin-mommies",
     "until": "17:30",
     "_jev": {
@@ -521,7 +521,7 @@
       "kid_p": 0.96,
       "stale_p": 0.04,
       "category": "seasonal",
-      "quality": 1.13
+      "quality": 1.12
     }
   },
   {
@@ -533,7 +533,7 @@
     "ages": "Under 6",
     "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
     "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-    "day": 4,
+    "day": 2,
     "until": "11:40",
     "origin": "marin-mommies",
     "_jev": {
@@ -541,7 +541,7 @@
       "kid_p": 0.96,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 0.76
+      "quality": 0.82
     }
   },
   {
@@ -553,7 +553,7 @@
     "ages": "Babies & toddlers",
     "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
     "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-    "day": 4,
+    "day": 2,
     "until": "10:30",
     "origin": "marin-mommies",
     "_jev": {
@@ -561,7 +561,7 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 0.97
+      "quality": 0.99
     }
   },
   {
@@ -573,15 +573,15 @@
     "ages": "All ages",
     "blurb": "Lemos Farm's pumpkin patch in Half Moon Bay opens this Labor Day weekend! This farm-themed",
     "source": "https://www.lemosfarm.com/",
-    "day": 0,
+    "day": 6,
     "origin": "marin-mommies",
     "until": "17:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
+      "kid_p": 0.96,
       "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 0.73
+      "quality": 0.91
     }
   },
   {
@@ -601,7 +601,7 @@
       "kid_p": 0.94,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.37
+      "quality": 0.42
     }
   },
   {
@@ -619,9 +619,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.76,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.38
+      "quality": 0.43
     }
   },
   {
@@ -638,10 +638,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.79,
-      "stale_p": 0.07,
+      "kid_p": 0.82,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 0.17
+      "quality": 0.2
     }
   },
   {
@@ -658,10 +658,10 @@
     "until": "10:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.84,
+      "kid_p": 0.83,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.09
+      "quality": 1.08
     }
   },
   {
@@ -673,7 +673,7 @@
     "ages": "All ages",
     "blurb": "Mickelson Pumpkin Patch, just past the Marin-Sonoma county line off Highway 101, offers a wide",
     "source": "https://www.marinmommies.com/calendar/mickelson-pumpkin-patch-1",
-    "day": 6,
+    "day": 5,
     "origin": "marin-mommies",
     "until": "22:00",
     "_jev": {
@@ -681,7 +681,7 @@
       "kid_p": 0.95,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 0.82
+      "quality": 0.86
     }
   },
   {
@@ -698,30 +698,10 @@
     "until": "17:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
+      "kid_p": 0.95,
       "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 0.23
-    }
-  },
-  {
-    "time": "10:30",
-    "title": "Music Time with Megan at Sports Basement Novato",
-    "venue": "Sports Basement Novato",
-    "city": "Novato",
-    "region": "marin",
-    "ages": "Under 6",
-    "blurb": "Voted “Best of the Best” Music Class by Bay Area Parent Magazine for the past 6 years, this fun,",
-    "source": "https://www.marinmommies.com/calendar/music-time-megan-sports-basement-novato",
-    "day": 1,
-    "origin": "marin-mommies",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.81,
-      "stale_p": 0.04,
-      "category": "other",
-      "quality": 1.22
+      "quality": 0.29
     }
   },
   {
@@ -740,7 +720,7 @@
       "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.01
+      "quality": 1.04
     }
   },
   {
@@ -757,10 +737,10 @@
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.92,
+      "kid_p": 0.91,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.08
+      "quality": 1.06
     }
   },
   {
@@ -772,15 +752,15 @@
     "ages": "All ages",
     "blurb": "Located in the small west Marin village of Nicasio, the farm is just west of the Nicasio Village",
     "source": "https://www.marinmommies.com/calendar/nicasio-valley-pumpkin-patch-1",
-    "day": 4,
+    "day": 2,
     "origin": "marin-mommies",
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 0.78
+      "quality": 0.76
     }
   },
   {
@@ -800,7 +780,7 @@
       "kid_p": 0.94,
       "stale_p": 0.2,
       "category": "outdoor",
-      "quality": 0.23
+      "quality": 0.21
     }
   },
   {
@@ -812,14 +792,14 @@
     "ages": "All ages",
     "blurb": "Oktoberfest at Six Flags Discovery Kingdom is a one-of-a-kind festival experience — chase the rush",
     "source": "https://www.sixflags.com/discoverykingdom/events/oktoberfest",
-    "day": 0,
+    "day": 6,
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.73,
+      "kid_p": 0.74,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 0.95
+      "quality": 1.04
     }
   },
   {
@@ -839,7 +819,7 @@
       "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.23
+      "quality": 1.3
     }
   },
   {
@@ -851,7 +831,7 @@
     "ages": "All ages",
     "blurb": "The Petaluma Pumpkin Patch and Amazing Corn Maze has over 5 acres of home grown pumpkins. Over 50",
     "source": "https://www.marinmommies.com/calendar/petaluma-pumpkin-patch-and-amazing-corn-maze-15",
-    "day": 4,
+    "day": 2,
     "origin": "marin-mommies",
     "until": "22:00",
     "_jev": {
@@ -879,7 +859,7 @@
       "kid_p": 0.94,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 0.99
+      "quality": 1.04
     }
   },
   {
@@ -891,15 +871,15 @@
     "ages": "Under 6",
     "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5.",
     "source": "https://marinlibrary.org/locations/mc/",
-    "day": 4,
+    "day": 2,
     "until": "10:00",
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.89,
+      "kid_p": 0.86,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.33
+      "quality": 1.41
     }
   },
   {
@@ -916,10 +896,30 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
+      "kid_p": 0.9,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.14
+      "quality": 1.16
+    }
+  },
+  {
+    "time": "14:00",
+    "title": "Pumpkins on Pikes",
+    "venue": "Tara Firma Farms",
+    "city": "Petaluma",
+    "region": "marin",
+    "ages": "All ages",
+    "blurb": "In addition to producing healthy and sustainable local food, Petaluma's Tara Firma Farms also puts",
+    "source": "https://www.marinmommies.com/calendar/pumpkins-pikes-0",
+    "day": 6,
+    "origin": "marin-mommies",
+    "until": "21:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.92,
+      "stale_p": 0.05,
+      "category": "seasonal",
+      "quality": 0.72
     }
   },
   {
@@ -937,9 +937,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "seasonal",
-      "quality": 1.03
+      "quality": 1.02
     }
   },
   {
@@ -957,9 +957,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.94,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 0.82
+      "quality": 0.8
     }
   },
   {
@@ -976,10 +976,10 @@
     "until": "10:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.86,
-      "stale_p": 0.04,
+      "kid_p": 0.88,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.07
+      "quality": 1.11
     }
   },
   {
@@ -997,9 +997,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.84,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "storytime",
-      "quality": 0.35
+      "quality": 0.4
     }
   },
   {
@@ -1016,10 +1016,10 @@
     "until": "12:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.83,
-      "stale_p": 0.05,
+      "kid_p": 0.84,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 0.27
+      "quality": 0.3
     }
   },
   {
@@ -1036,7 +1036,7 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
+      "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "storytime",
       "quality": 0.9
@@ -1059,7 +1059,7 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.44
+      "quality": 1.47
     }
   },
   {
@@ -1076,10 +1076,10 @@
     "until": "13:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.06,
+      "kid_p": 0.96,
+      "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 0.41
+      "quality": 0.48
     }
   },
   {
@@ -1091,7 +1091,7 @@
     "ages": "All ages",
     "blurb": "Dress up for Halloween with favorites Thomas and Percy for a 20-minute train ride, entertainment,",
     "source": "https://www.marinmommies.com/calendar/thomas-and-percy%E2%80%99s-halloween-party",
-    "day": 0,
+    "day": 6,
     "origin": "marin-mommies",
     "until": "17:00",
     "_jev": {
@@ -1099,7 +1099,7 @@
       "kid_p": 0.96,
       "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 0.98
+      "quality": 1.11
     }
   },
   {
@@ -1119,7 +1119,7 @@
       "kid_p": 0.9,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 0.4
+      "quality": 0.38
     }
   },
   {
@@ -1136,10 +1136,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.05,
+      "kid_p": 0.89,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 0.52
+      "quality": 0.5
     }
   },
   {
@@ -1151,15 +1151,15 @@
     "ages": "All ages",
     "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
     "source": "https://www.marinemammalcenter.org/visit/getting-here",
-    "day": 0,
+    "day": 5,
     "until": "16:00",
     "origin": "marin-mommies",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
-      "stale_p": 0.03,
+      "kid_p": 0.92,
+      "stale_p": 0.04,
       "category": "museum",
-      "quality": 1.16
+      "quality": 1.26
     }
   },
   {
@@ -1171,15 +1171,15 @@
     "ages": "All ages",
     "blurb": "Celebrate the fall season at the Western Railway Museum's annual Pumpkin Patch Festival! Enjoy a",
     "source": "https://www.marinmommies.com/calendar/western-railway-museum-pumpkin-patch-festival-4",
-    "day": 0,
+    "day": 6,
     "origin": "marin-mommies",
     "until": "17:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
+      "kid_p": 0.95,
       "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 0.63
+      "quality": 0.77
     }
   },
   {
@@ -1196,10 +1196,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.83,
+      "kid_p": 0.87,
       "stale_p": 0.06,
       "category": "storytime",
-      "quality": 0.24
+      "quality": 0.23
     }
   }
 ]
