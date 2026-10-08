@@ -1,24 +1,5 @@
 [
   {
-    "date": "2026-10-06",
-    "time": "10:15",
-    "title": "Sing & Stomp",
-    "venue": "Mill Valley Public Library",
-    "city": "Mill Valley",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Join musician Emily Bonn for this music and movement class designed for infants, toddlers and preschoolers and their caregivers. No registration required. Meets in the Outdoor Amphitheater.",
-    "source": "https://millvalleylibrary.libcal.com/event/16531239",
-    "until": "10:45",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.38,
-      "category": "outdoor",
-      "quality": 1.82
-    }
-  },
-  {
     "date": "2026-10-07",
     "time": "10:15",
     "title": "Toddler Storytime",
@@ -30,11 +11,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/16531273",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 1.6
+      "verdict": "ERROR",
+      "error": "rent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/"
     }
   },
   {
@@ -50,10 +28,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.08,
+      "kid_p": 0.98,
+      "stale_p": 0.09,
       "category": "storytime",
-      "quality": 1.26
+      "quality": 1.17
     }
   },
   {
@@ -69,10 +47,10 @@
     "until": "15:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.08,
+      "kid_p": 0.99,
+      "stale_p": 0.11,
       "category": "storytime",
-      "quality": 1.65
+      "quality": 1.57
     }
   },
   {
@@ -89,9 +67,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.1,
+      "stale_p": 0.08,
       "category": "outdoor",
-      "quality": 1.82
+      "quality": 1.73
     }
   },
   {
@@ -106,11 +84,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/16531274",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.59
+      "verdict": "ERROR",
+      "error": "rent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/"
     }
   },
   {
@@ -127,9 +102,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.08,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 1.01
+      "quality": 1.09
     }
   },
   {
@@ -146,9 +121,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.14,
+      "stale_p": 0.11,
       "category": "storytime",
-      "quality": 1.54
+      "quality": 1.59
     }
   },
   {
@@ -165,9 +140,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.09,
       "category": "storytime",
-      "quality": 1.6
+      "quality": 1.54
     }
   },
   {
@@ -184,9 +159,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.07,
+      "stale_p": 0.08,
       "category": "outdoor",
-      "quality": 1.78
+      "quality": 1.71
     }
   },
   {
@@ -203,9 +178,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.07,
+      "stale_p": 0.08,
       "category": "storytime",
-      "quality": 1.65
+      "quality": 1.59
     }
   },
   {
@@ -224,7 +199,7 @@
       "kid_p": 0.97,
       "stale_p": 0.09,
       "category": "storytime",
-      "quality": 1.09
+      "quality": 1.08
     }
   },
   {
@@ -240,10 +215,10 @@
     "until": "15:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.15,
+      "kid_p": 0.99,
+      "stale_p": 0.13,
       "category": "storytime",
-      "quality": 1.56
+      "quality": 1.57
     }
   },
   {
@@ -259,8 +234,8 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.1,
+      "kid_p": 0.99,
+      "stale_p": 0.08,
       "category": "storytime",
       "quality": 1.55
     }
@@ -281,7 +256,7 @@
       "kid_p": 0.98,
       "stale_p": 0.1,
       "category": "outdoor",
-      "quality": 1.82
+      "quality": 1.69
     }
   },
   {
@@ -298,9 +273,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.07,
+      "stale_p": 0.09,
       "category": "storytime",
-      "quality": 1.58
+      "quality": 1.6
     }
   },
   {
@@ -317,9 +292,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.09,
+      "stale_p": 0.11,
       "category": "storytime",
-      "quality": 0.98
+      "quality": 0.9
     }
   },
   {
@@ -338,7 +313,7 @@
       "kid_p": 0.96,
       "stale_p": 0.18,
       "category": "seasonal",
-      "quality": 0.98
+      "quality": 0.96
     }
   },
   {
@@ -355,9 +330,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.2,
+      "stale_p": 0.21,
       "category": "storytime",
-      "quality": 1.45
+      "quality": 1.52
     }
   },
   {
@@ -374,7 +349,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.99,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
       "quality": 1.64
     }
@@ -412,9 +387,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "other",
-      "quality": 1.74
+      "quality": 1.83
     }
   },
   {
@@ -430,10 +405,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 0.84
+      "quality": 0.83
     }
   },
   {
@@ -452,7 +427,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 0.88
+      "quality": 0.83
     }
   },
   {
@@ -468,10 +443,10 @@
     "until": "15:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.09,
+      "kid_p": 0.99,
+      "stale_p": 0.08,
       "category": "storytime",
-      "quality": 1.54
+      "quality": 1.61
     }
   },
   {
@@ -490,7 +465,7 @@
       "kid_p": 0.99,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.61
+      "quality": 1.57
     }
   },
   {
@@ -507,9 +482,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "other",
-      "quality": 1.82
+      "quality": 1.75
     }
   },
   {
@@ -528,7 +503,7 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.84
+      "quality": 1.81
     }
   },
   {
@@ -547,7 +522,7 @@
       "kid_p": 0.98,
       "stale_p": 0.08,
       "category": "storytime",
-      "quality": 1.59
+      "quality": 1.57
     }
   },
   {
@@ -562,11 +537,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330833",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.99,
-      "stale_p": 0.04,
-      "category": "storytime",
-      "quality": 1.61
+      "verdict": "ERROR",
+      "error": "rent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/"
     }
   },
   {
@@ -583,9 +555,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "other",
-      "quality": 1.83
+      "quality": 1.81
     }
   },
   {
@@ -604,7 +576,45 @@
       "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.82
+      "quality": 1.87
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "time": "10:15",
+    "title": "Toddler Storytime",
+    "venue": "Mill Valley Public Library",
+    "city": "Mill Valley",
+    "region": "marin",
+    "ages": "Toddlers",
+    "blurb": "Join Librarian Miranda for books, songs, and stories in the library's outdoor amphitheater. Designed for babies, toddlers, and preschoolers with their caregivers. No registration required. Space is... Meets in the Creekside Room.",
+    "source": "https://millvalleylibrary.libcal.com/event/17330928",
+    "until": "10:45",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.06,
+      "category": "storytime",
+      "quality": 0.82
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "time": "11:15",
+    "title": "Toddler Storytime",
+    "venue": "Mill Valley Public Library",
+    "city": "Mill Valley",
+    "region": "marin",
+    "ages": "Toddlers",
+    "blurb": "Join Librarian Miranda for books, songs, and stories in the library's outdoor amphitheater. Designed for babies, toddlers, and preschoolers with their caregivers. No registration required. Space is... Meets in the Creekside Room.",
+    "source": "https://millvalleylibrary.libcal.com/event/17330983",
+    "until": "11:45",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.05,
+      "category": "storytime",
+      "quality": 0.77
     }
   }
 ]

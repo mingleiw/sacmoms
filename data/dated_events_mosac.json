@@ -15,7 +15,7 @@
       "kid_p": 0.96,
       "stale_p": 0.04,
       "category": "museum",
-      "quality": 1.82
+      "quality": 1.76
     }
   },
   {
@@ -53,7 +53,7 @@
       "kid_p": 0.95,
       "stale_p": 0.04,
       "category": "museum",
-      "quality": 1.85
+      "quality": 1.77
     }
   }
 ]
