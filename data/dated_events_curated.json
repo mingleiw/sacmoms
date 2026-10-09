@@ -13,9 +13,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.92,
-      "stale_p": 0.05,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.81
+      "quality": 1.79
     }
   },
   {
@@ -32,9 +32,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.91,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.82
+      "quality": 1.8
     }
   },
   {
@@ -50,10 +50,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.92,
+      "kid_p": 0.91,
       "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.84
+      "quality": 1.72
     }
   },
   {
@@ -69,10 +69,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
-      "stale_p": 0.07,
+      "kid_p": 0.91,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.85
+      "quality": 1.8
     }
   },
   {
@@ -88,10 +88,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.92,
-      "stale_p": 0.07,
+      "kid_p": 0.91,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.81
+      "quality": 1.78
     }
   },
   {
@@ -107,10 +107,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
-      "stale_p": 0.06,
+      "kid_p": 0.92,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.79
+      "quality": 1.8
     }
   },
   {
@@ -127,9 +127,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.92,
-      "stale_p": 0.1,
+      "stale_p": 0.09,
       "category": "seasonal",
-      "quality": 1.78
+      "quality": 1.77
     }
   },
   {
@@ -145,10 +145,10 @@
     "venue": "de Young Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
+      "kid_p": 0.94,
       "stale_p": 0.82,
       "category": "museum",
-      "quality": 1.28
+      "quality": 1.17
     }
   },
   {
@@ -163,8 +163,8 @@
     "venue": "Sacramento Children's Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.92,
-      "stale_p": 0.09,
+      "kid_p": 0.88,
+      "stale_p": 0.13,
       "category": "museum",
       "quality": 1.92
     }
@@ -181,8 +181,8 @@
     "venue": "Sacramento Children's Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.89,
-      "stale_p": 0.13,
+      "kid_p": 0.86,
+      "stale_p": 0.1,
       "category": "museum",
       "quality": 1.93
     }
@@ -207,7 +207,7 @@
       "kid_p": 0.97,
       "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.95
+      "quality": 1.94
     }
   },
   {
@@ -251,9 +251,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.07,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.95
+      "quality": 1.94
     }
   },
   {
@@ -274,7 +274,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.1,
+      "stale_p": 0.08,
       "category": "seasonal",
       "quality": 1.95
     }
@@ -297,9 +297,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.11,
+      "stale_p": 0.09,
       "category": "seasonal",
-      "quality": 1.94
+      "quality": 1.93
     }
   },
   {
@@ -320,9 +320,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.09,
+      "stale_p": 0.11,
       "category": "seasonal",
-      "quality": 1.93
+      "quality": 1.92
     }
   },
   {
@@ -343,9 +343,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.12,
+      "stale_p": 0.13,
       "category": "seasonal",
-      "quality": 1.93
+      "quality": 1.94
     }
   },
   {
@@ -368,7 +368,7 @@
       "kid_p": 0.95,
       "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.88
+      "quality": 1.87
     }
   },
   {
@@ -388,10 +388,10 @@
     "lon": -121.813,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.05,
+      "kid_p": 0.95,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.86
+      "quality": 1.84
     }
   },
   {
@@ -412,9 +412,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.06,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.86
+      "quality": 1.85
     }
   },
   {
@@ -434,10 +434,10 @@
     "lon": -121.813,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
+      "kid_p": 0.95,
       "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.88
+      "quality": 1.85
     }
   },
   {
@@ -456,8 +456,11 @@
     "lat": 38.4468,
     "lon": -121.813,
     "_jev": {
-      "verdict": "ERROR",
-      "error": "rent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/"
+      "verdict": "LIST",
+      "kid_p": 0.95,
+      "stale_p": 0.08,
+      "category": "seasonal",
+      "quality": 1.83
     }
   },
   {
@@ -480,7 +483,7 @@
       "kid_p": 0.95,
       "stale_p": 0.09,
       "category": "seasonal",
-      "quality": 1.88
+      "quality": 1.86
     }
   },
   {
@@ -501,7 +504,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.09,
+      "stale_p": 0.1,
       "category": "seasonal",
       "quality": 1.86
     }
@@ -523,7 +526,7 @@
     "lon": -121.813,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
+      "kid_p": 0.95,
       "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.85
@@ -547,7 +550,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.08,
+      "stale_p": 0.11,
       "category": "seasonal",
       "quality": 1.95
     }
@@ -570,9 +573,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.12,
+      "stale_p": 0.11,
       "category": "seasonal",
-      "quality": 1.98
+      "quality": 1.95
     }
   },
   {
@@ -592,10 +595,10 @@
     "lon": -121.501,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
+      "kid_p": 0.96,
       "stale_p": 0.13,
       "category": "seasonal",
-      "quality": 1.95
+      "quality": 1.94
     }
   },
   {
@@ -618,9 +621,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.33,
+      "stale_p": 0.84,
       "category": "seasonal",
-      "quality": 1.98
+      "quality": 1.9
     }
   },
   {
@@ -643,7 +646,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.35,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -668,7 +671,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -693,7 +696,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.11,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -718,7 +721,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -743,7 +746,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.07,
+      "stale_p": 0.08,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -768,7 +771,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.08,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -793,7 +796,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.11,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -818,7 +821,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -843,7 +846,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.1,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -893,7 +896,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.1,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -918,7 +921,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.1,
+      "stale_p": 0.09,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -943,7 +946,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.11,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -968,7 +971,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.1,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -993,7 +996,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.11,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1043,7 +1046,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.08,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1068,7 +1071,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.11,
+      "stale_p": 0.1,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -1095,7 +1098,7 @@
       "kid_p": 0.98,
       "stale_p": 0.11,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.98
     }
   },
   {
@@ -1118,9 +1121,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.11,
+      "stale_p": 0.12,
       "category": "seasonal",
-      "quality": 1.96
+      "quality": 1.97
     }
   },
   {
@@ -1143,7 +1146,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.15,
+      "stale_p": 0.16,
       "category": "seasonal",
       "quality": 1.97
     }
@@ -1166,8 +1169,11 @@
     "origin": "curated",
     "region": "sac",
     "_jev": {
-      "verdict": "ERROR",
-      "error": "rent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/"
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.08,
+      "category": "seasonal",
+      "quality": 1.97
     }
   },
   {
@@ -1181,8 +1187,11 @@
     "blurb": "Monthly kids' crafternoon at Elk Grove's family-run bookshop and cafe. Free.",
     "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
     "_jev": {
-      "verdict": "ERROR",
-      "error": "rent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/"
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.05,
+      "category": "other",
+      "quality": 1.66
     }
   },
   {
@@ -1197,7 +1206,7 @@
     "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "other",
       "quality": 1.59
@@ -1215,10 +1224,10 @@
     "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
+      "kid_p": 0.96,
+      "stale_p": 0.07,
       "category": "other",
-      "quality": 1.58
+      "quality": 1.43
     }
   },
   {
@@ -1234,9 +1243,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "other",
-      "quality": 1.63
+      "quality": 1.56
     }
   }
 ]

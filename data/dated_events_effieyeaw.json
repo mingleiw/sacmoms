@@ -12,10 +12,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.05,
+      "kid_p": 0.97,
+      "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 1.44
+      "quality": 1.5
     }
   },
   {
@@ -32,9 +32,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.11,
+      "stale_p": 0.13,
       "category": "storytime",
-      "quality": 1.4
+      "quality": 1.38
     }
   },
   {
@@ -50,10 +50,10 @@
     "until": "20:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.77,
+      "kid_p": 0.76,
       "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 1.35
+      "quality": 1.31
     }
   },
   {
@@ -69,10 +69,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
+      "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.55
+      "quality": 1.45
     }
   },
   {
@@ -91,7 +91,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.39
+      "quality": 1.42
     }
   },
   {
@@ -108,9 +108,28 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.93,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.5
+      "quality": 1.57
+    }
+  },
+  {
+    "date": "2026-11-14",
+    "time": "15:30",
+    "title": "Owling Adventure!",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Come and enjoy an evening out finding wild owls at Effie Yeaw Nature Center. Your guide will be naturalist/wildlife photographer Erik Johnson. He will teach you how to find Great Horned Owls on the American River Parkway",
+    "source": "https://www.effieyeawnature.org/event-details/owling-adventure-1",
+    "until": "17:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.8,
+      "stale_p": 0.06,
+      "category": "outdoor",
+      "quality": 1.75
     }
   }
 ]

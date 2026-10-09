@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-10-07",
-    "time": "10:15",
-    "title": "Toddler Storytime",
-    "venue": "Mill Valley Public Library",
-    "city": "Mill Valley",
-    "region": "marin",
-    "ages": "Toddlers",
-    "blurb": "Join Librarian Miranda for books, songs, and stories in the library's outdoor amphitheater. Designed for babies, toddlers, and preschoolers with their caregivers.",
-    "source": "https://millvalleylibrary.libcal.com/event/16531273",
-    "until": "10:45",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": "rent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/"
-    }
-  },
-  {
     "date": "2026-10-09",
     "time": "10:15",
     "title": "Pop-up Storytime in the Parks: Hauke",
@@ -28,10 +12,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.09,
+      "kid_p": 0.97,
+      "stale_p": 0.11,
       "category": "storytime",
-      "quality": 1.17
+      "quality": 1.22
     }
   },
   {
@@ -47,10 +31,10 @@
     "until": "15:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.99,
+      "kid_p": 0.98,
       "stale_p": 0.11,
       "category": "storytime",
-      "quality": 1.57
+      "quality": 1.56
     }
   },
   {
@@ -67,9 +51,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 1.73
+      "quality": 1.78
     }
   },
   {
@@ -84,8 +68,11 @@
     "source": "https://millvalleylibrary.libcal.com/event/16531274",
     "until": "10:45",
     "_jev": {
-      "verdict": "ERROR",
-      "error": "rent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/"
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.07,
+      "category": "storytime",
+      "quality": 1.64
     }
   },
   {
@@ -102,9 +89,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.1,
+      "stale_p": 0.08,
       "category": "storytime",
-      "quality": 1.09
+      "quality": 1.02
     }
   },
   {
@@ -121,9 +108,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.11,
+      "stale_p": 0.13,
       "category": "storytime",
-      "quality": 1.59
+      "quality": 1.5
     }
   },
   {
@@ -139,10 +126,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.09,
+      "kid_p": 0.99,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 1.54
+      "quality": 1.52
     }
   },
   {
@@ -161,7 +148,7 @@
       "kid_p": 0.98,
       "stale_p": 0.08,
       "category": "outdoor",
-      "quality": 1.71
+      "quality": 1.81
     }
   },
   {
@@ -180,7 +167,7 @@
       "kid_p": 0.98,
       "stale_p": 0.08,
       "category": "storytime",
-      "quality": 1.59
+      "quality": 1.6
     }
   },
   {
@@ -197,9 +184,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.09,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 1.08
+      "quality": 1.02
     }
   },
   {
@@ -215,10 +202,10 @@
     "until": "15:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.99,
-      "stale_p": 0.13,
+      "kid_p": 0.98,
+      "stale_p": 0.16,
       "category": "storytime",
-      "quality": 1.57
+      "quality": 1.52
     }
   },
   {
@@ -234,10 +221,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.99,
-      "stale_p": 0.08,
+      "kid_p": 0.98,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 1.55
+      "quality": 1.5
     }
   },
   {
@@ -254,9 +241,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.1,
+      "stale_p": 0.12,
       "category": "outdoor",
-      "quality": 1.69
+      "quality": 1.79
     }
   },
   {
@@ -273,9 +260,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.08,
       "category": "storytime",
-      "quality": 1.6
+      "quality": 1.55
     }
   },
   {
@@ -292,9 +279,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.11,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 0.9
+      "quality": 0.93
     }
   },
   {
@@ -311,9 +298,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.18,
+      "stale_p": 0.16,
       "category": "seasonal",
-      "quality": 0.96
+      "quality": 0.93
     }
   },
   {
@@ -330,9 +317,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.21,
+      "stale_p": 0.23,
       "category": "storytime",
-      "quality": 1.52
+      "quality": 1.48
     }
   },
   {
@@ -348,10 +335,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.99,
-      "stale_p": 0.05,
+      "kid_p": 0.98,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.64
+      "quality": 1.68
     }
   },
   {
@@ -368,9 +355,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "other",
-      "quality": 1.74
+      "quality": 1.78
     }
   },
   {
@@ -389,7 +376,7 @@
       "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.83
+      "quality": 1.76
     }
   },
   {
@@ -408,7 +395,7 @@
       "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 0.83
+      "quality": 0.87
     }
   },
   {
@@ -427,7 +414,7 @@
       "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 0.83
+      "quality": 0.8
     }
   },
   {
@@ -443,10 +430,10 @@
     "until": "15:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.99,
-      "stale_p": 0.08,
+      "kid_p": 0.98,
+      "stale_p": 0.09,
       "category": "storytime",
-      "quality": 1.61
+      "quality": 1.53
     }
   },
   {
@@ -462,10 +449,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.99,
+      "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.57
+      "quality": 1.59
     }
   },
   {
@@ -501,9 +488,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "other",
-      "quality": 1.81
+      "quality": 1.77
     }
   },
   {
@@ -537,8 +524,11 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330833",
     "until": "10:45",
     "_jev": {
-      "verdict": "ERROR",
-      "error": "rent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/"
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.04,
+      "category": "storytime",
+      "quality": 1.63
     }
   },
   {
@@ -555,9 +545,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.04,
+      "stale_p": 0.06,
       "category": "other",
-      "quality": 1.81
+      "quality": 1.74
     }
   },
   {
@@ -576,7 +566,7 @@
       "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "other",
-      "quality": 1.87
+      "quality": 1.81
     }
   },
   {
@@ -593,9 +583,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 0.82
+      "quality": 0.85
     }
   },
   {
@@ -612,9 +602,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 0.77
+      "quality": 0.74
     }
   }
 ]
