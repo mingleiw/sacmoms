@@ -1,1 +1,77 @@
-[]
+[
+  {
+    "ages": "All ages",
+    "blurb": "First Tuesday free day: free general admission all day (special exhibition fees still apply).",
+    "city": "San Francisco",
+    "date": "2026-10-06",
+    "region": "marin",
+    "source": "https://www.famsf.org/",
+    "time": "09:30",
+    "title": "Free Day: de Young Museum",
+    "until": "17:15",
+    "venue": "de Young Museum",
+    "_jev": {
+      "verdict": "REJECT",
+      "kid_p": 0.94,
+      "stale_p": 0.85,
+      "category": "museum",
+      "quality": 1.25
+    },
+    "_quarantined_from": "data/dated_events_curated.json",
+    "_quarantined_on": "2026-10-09"
+  },
+  {
+    "title": "Keema's Pumpkin Farm",
+    "date": "2026-10-07",
+    "time": "11:00",
+    "until": "18:00",
+    "venue": "Keema's Pumpkin Farm",
+    "city": "Elk Grove",
+    "address": "6532 Point Pleasant Rd, Elk Grove, CA 95757",
+    "lat": 38.338764,
+    "lon": -121.428137,
+    "ages": "All ages",
+    "blurb": "Family pumpkin farm in Elk Grove: u-pick pumpkins, corn maze, farm animals, playground and jumping pillow. Tue–Fri 11am–6pm, Sat–Sun 10am–6pm (Oct 31–Nov 1: 10am–4pm); closed Mondays. Cash only: adults 13+ $8, kids 2–12 $6, under 2 free.",
+    "source": "https://www.keemaspumpkinfarm.com/?page_id=31",
+    "seasonal": "halloween",
+    "group": "keemas-pumpkin-2026",
+    "origin": "curated",
+    "region": "sac",
+    "_jev": {
+      "verdict": "REJECT",
+      "kid_p": 0.98,
+      "stale_p": 0.85,
+      "category": "seasonal",
+      "quality": 1.94
+    },
+    "_quarantined_from": "data/dated_events_curated.json",
+    "_quarantined_on": "2026-10-09"
+  },
+  {
+    "title": "Keema's Pumpkin Farm",
+    "date": "2026-10-08",
+    "time": "11:00",
+    "until": "18:00",
+    "venue": "Keema's Pumpkin Farm",
+    "city": "Elk Grove",
+    "address": "6532 Point Pleasant Rd, Elk Grove, CA 95757",
+    "lat": 38.338764,
+    "lon": -121.428137,
+    "ages": "All ages",
+    "blurb": "Family pumpkin farm in Elk Grove: u-pick pumpkins, corn maze, farm animals, playground and jumping pillow. Tue–Fri 11am–6pm, Sat–Sun 10am–6pm (Oct 31–Nov 1: 10am–4pm); closed Mondays. Cash only: adults 13+ $8, kids 2–12 $6, under 2 free.",
+    "source": "https://www.keemaspumpkinfarm.com/?page_id=31",
+    "seasonal": "halloween",
+    "group": "keemas-pumpkin-2026",
+    "origin": "curated",
+    "region": "sac",
+    "_jev": {
+      "verdict": "REJECT",
+      "kid_p": 0.98,
+      "stale_p": 0.86,
+      "category": "seasonal",
+      "quality": 1.93
+    },
+    "_quarantined_from": "data/dated_events_curated.json",
+    "_quarantined_on": "2026-10-09"
+  }
+]
