@@ -1,28 +1,27 @@
 [
   {
-    "ages": "All ages",
-    "blurb": "First Tuesday free day: free general admission all day (special exhibition fees still apply).",
-    "city": "San Francisco",
-    "date": "2026-10-06",
-    "region": "marin",
-    "source": "https://www.famsf.org/",
-    "time": "09:30",
-    "title": "Free Day: de Young Museum",
-    "until": "17:15",
-    "venue": "de Young Museum",
+    "ages": "Under 6",
+    "blurb": "Ms. Phoebe leads bilingual (English/Spanish) sing-alongs and music-making with her ukulele, celebrating Hispanic Heritage Month. Included with museum admission; no registration needed.",
+    "city": "Rancho Cordova",
+    "date": "2026-10-09",
+    "region": "sac",
+    "source": "https://sackids.org/programs/bilingual-music-fun-%c2%b7-musica-bilingue-divertida/",
+    "time": "10:30",
+    "title": "Bilingual Music Fun",
+    "venue": "Sacramento Children's Museum",
     "_jev": {
       "verdict": "REJECT",
-      "kid_p": 0.94,
-      "stale_p": 0.85,
+      "kid_p": 0.89,
+      "stale_p": 0.95,
       "category": "museum",
-      "quality": 1.25
+      "quality": 1.67
     },
     "_quarantined_from": "data/dated_events_curated.json",
-    "_quarantined_on": "2026-10-09"
+    "_quarantined_on": "2026-10-10"
   },
   {
     "title": "Keema's Pumpkin Farm",
-    "date": "2026-10-07",
+    "date": "2026-10-09",
     "time": "11:00",
     "until": "18:00",
     "venue": "Keema's Pumpkin Farm",
@@ -39,39 +38,12 @@
     "region": "sac",
     "_jev": {
       "verdict": "REJECT",
-      "kid_p": 0.98,
-      "stale_p": 0.85,
+      "kid_p": 0.97,
+      "stale_p": 0.89,
       "category": "seasonal",
-      "quality": 1.94
+      "quality": 1.81
     },
     "_quarantined_from": "data/dated_events_curated.json",
-    "_quarantined_on": "2026-10-09"
-  },
-  {
-    "title": "Keema's Pumpkin Farm",
-    "date": "2026-10-08",
-    "time": "11:00",
-    "until": "18:00",
-    "venue": "Keema's Pumpkin Farm",
-    "city": "Elk Grove",
-    "address": "6532 Point Pleasant Rd, Elk Grove, CA 95757",
-    "lat": 38.338764,
-    "lon": -121.428137,
-    "ages": "All ages",
-    "blurb": "Family pumpkin farm in Elk Grove: u-pick pumpkins, corn maze, farm animals, playground and jumping pillow. Tue–Fri 11am–6pm, Sat–Sun 10am–6pm (Oct 31–Nov 1: 10am–4pm); closed Mondays. Cash only: adults 13+ $8, kids 2–12 $6, under 2 free.",
-    "source": "https://www.keemaspumpkinfarm.com/?page_id=31",
-    "seasonal": "halloween",
-    "group": "keemas-pumpkin-2026",
-    "origin": "curated",
-    "region": "sac",
-    "_jev": {
-      "verdict": "REJECT",
-      "kid_p": 0.98,
-      "stale_p": 0.86,
-      "category": "seasonal",
-      "quality": 1.93
-    },
-    "_quarantined_from": "data/dated_events_curated.json",
-    "_quarantined_on": "2026-10-09"
+    "_quarantined_on": "2026-10-10"
   }
 ]

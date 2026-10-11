@@ -12,10 +12,10 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.05,
+      "kid_p": 0.95,
+      "stale_p": 0.04,
       "category": "museum",
-      "quality": 1.81
+      "quality": 1.79
     }
   },
   {
@@ -32,9 +32,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.94,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "museum",
-      "quality": 1.81
+      "quality": 1.84
     }
   },
   {
@@ -51,9 +51,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "museum",
-      "quality": 1.77
+      "quality": 1.84
     }
   }
 ]
