@@ -12,10 +12,10 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
-      "stale_p": 0.06,
+      "kid_p": 0.92,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.93
+      "quality": 1.94
     }
   },
   {
@@ -31,10 +31,10 @@
     "until": "13:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
+      "kid_p": 0.94,
       "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.88
+      "quality": 1.86
     }
   }
 ]
