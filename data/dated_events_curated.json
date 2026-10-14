@@ -15,7 +15,7 @@
       "kid_p": 0.91,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.83
+      "quality": 1.85
     }
   },
   {
@@ -31,10 +31,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
+      "kid_p": 0.9,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.83
+      "quality": 1.82
     }
   },
   {
@@ -50,8 +50,8 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.05,
+      "kid_p": 0.92,
+      "stale_p": 0.06,
       "category": "seasonal",
       "quality": 1.8
     }
@@ -69,10 +69,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.92,
-      "stale_p": 0.06,
+      "kid_p": 0.91,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.82
+      "quality": 1.78
     }
   },
   {
@@ -88,10 +88,10 @@
     "venue": "Bay Area Discovery Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.89,
-      "stale_p": 0.11,
+      "kid_p": 0.91,
+      "stale_p": 0.09,
       "category": "seasonal",
-      "quality": 1.75
+      "quality": 1.73
     }
   },
   {
@@ -106,10 +106,10 @@
     "venue": "Sacramento Children's Museum",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.87,
+      "kid_p": 0.91,
       "stale_p": 0.08,
       "category": "museum",
-      "quality": 1.93
+      "quality": 1.9
     }
   },
   {
@@ -130,9 +130,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.94
+      "quality": 1.93
     }
   },
   {
@@ -153,7 +153,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "seasonal",
       "quality": 1.94
     }
@@ -201,7 +201,7 @@
       "kid_p": 0.97,
       "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.93
+      "quality": 1.95
     }
   },
   {
@@ -222,9 +222,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.15,
+      "stale_p": 0.12,
       "category": "seasonal",
-      "quality": 1.94
+      "quality": 1.95
     }
   },
   {
@@ -247,7 +247,7 @@
       "kid_p": 0.95,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.88
+      "quality": 1.87
     }
   },
   {
@@ -267,10 +267,10 @@
     "lon": -121.813,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.05,
+      "kid_p": 0.95,
+      "stale_p": 0.04,
       "category": "seasonal",
-      "quality": 1.85
+      "quality": 1.87
     }
   },
   {
@@ -291,9 +291,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.88
+      "quality": 1.89
     }
   },
   {
@@ -313,8 +313,8 @@
     "lon": -121.813,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.06,
+      "kid_p": 0.95,
+      "stale_p": 0.05,
       "category": "seasonal",
       "quality": 1.86
     }
@@ -339,7 +339,7 @@
       "kid_p": 0.95,
       "stale_p": 0.1,
       "category": "seasonal",
-      "quality": 1.88
+      "quality": 1.84
     }
   },
   {
@@ -359,10 +359,10 @@
     "lon": -121.813,
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.06,
+      "kid_p": 0.96,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.83
+      "quality": 1.87
     }
   },
   {
@@ -385,7 +385,7 @@
       "kid_p": 0.96,
       "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.93
+      "quality": 1.96
     }
   },
   {
@@ -406,9 +406,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.93
+      "quality": 1.96
     }
   },
   {
@@ -429,9 +429,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.14,
+      "stale_p": 0.09,
       "category": "seasonal",
-      "quality": 1.94
+      "quality": 1.96
     }
   },
   {
@@ -454,7 +454,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.31,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -479,7 +479,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -554,9 +554,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.98
+      "quality": 1.99
     }
   },
   {
@@ -579,7 +579,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -629,7 +629,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -679,7 +679,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -704,7 +704,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.07,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -729,7 +729,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.07,
+      "stale_p": 0.08,
       "category": "seasonal",
       "quality": 1.98
     }
@@ -779,9 +779,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.98
     }
   },
   {
@@ -804,7 +804,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.06,
       "category": "seasonal",
       "quality": 1.97
     }
@@ -829,7 +829,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.08,
       "category": "seasonal",
       "quality": 1.97
     }
@@ -854,9 +854,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.14,
+      "stale_p": 0.13,
       "category": "seasonal",
-      "quality": 1.97
+      "quality": 1.98
     }
   },
   {
@@ -897,9 +897,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.07,
+      "stale_p": 0.37,
       "category": "other",
-      "quality": 1.65
+      "quality": 1.68
     }
   },
   {
@@ -917,7 +917,7 @@
       "kid_p": 0.96,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.58
+      "quality": 1.53
     }
   },
   {
@@ -935,7 +935,7 @@
       "kid_p": 0.96,
       "stale_p": 0.06,
       "category": "other",
-      "quality": 1.51
+      "quality": 1.52
     }
   },
   {
@@ -951,9 +951,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "other",
-      "quality": 1.5
+      "quality": 1.48
     }
   },
   {
@@ -969,10 +969,10 @@
     "source": "https://animeworldshow.com/",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.84,
-      "stale_p": 0.06,
+      "kid_p": 0.86,
+      "stale_p": 0.04,
       "category": "other",
-      "quality": 1.89
+      "quality": 1.94
     }
   },
   {
@@ -988,7 +988,7 @@
     "source": "https://diadelosmiles.com/",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
+      "kid_p": 0.94,
       "stale_p": 0.06,
       "category": "outdoor",
       "quality": 1.98
@@ -1007,7 +1007,7 @@
     "source": "https://www.eventbrite.com/e/halloween-festival-at-marketplace-99-tickets-2000204917753",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
+      "kid_p": 0.97,
       "stale_p": 0.08,
       "category": "seasonal",
       "quality": 1.93
@@ -1027,7 +1027,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.1,
+      "stale_p": 0.08,
       "category": "seasonal",
       "quality": 1.92
     }
@@ -1047,7 +1047,7 @@
       "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.92
+      "quality": 1.93
     }
   },
   {
@@ -1065,7 +1065,7 @@
       "kid_p": 0.96,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.93
+      "quality": 1.94
     }
   },
   {
@@ -1080,10 +1080,10 @@
     "source": "https://zoppefamilycircus.ticketspice.com/elk-grove-ca-ga-tickets",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.96,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.94
+      "quality": 1.93
     }
   },
   {
@@ -1099,9 +1099,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.94
+      "quality": 1.93
     }
   },
   {
@@ -1116,10 +1116,10 @@
     "source": "https://zoppefamilycircus.ticketspice.com/elk-grove-ca-ga-tickets",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
+      "kid_p": 0.96,
+      "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.96
+      "quality": 1.94
     }
   },
   {
@@ -1134,10 +1134,10 @@
     "source": "https://zoppefamilycircus.ticketspice.com/elk-grove-ca-ga-tickets",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.05,
+      "kid_p": 0.97,
+      "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.93
+      "quality": 1.94
     }
   },
   {
@@ -1152,10 +1152,10 @@
     "source": "https://zoppefamilycircus.ticketspice.com/elk-grove-ca-ga-tickets",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.96,
       "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.94
+      "quality": 1.92
     }
   },
   {
@@ -1173,7 +1173,7 @@
       "kid_p": 0.96,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.93
+      "quality": 1.92
     }
   },
   {
@@ -1191,7 +1191,7 @@
       "kid_p": 0.96,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.93
+      "quality": 1.94
     }
   },
   {
@@ -1209,7 +1209,7 @@
       "kid_p": 0.96,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.94
+      "quality": 1.93
     }
   },
   {
@@ -1242,7 +1242,7 @@
     "source": "https://zoppefamilycircus.ticketspice.com/elk-grove-ca-ga-tickets",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
+      "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "outdoor",
       "quality": 1.93
@@ -1263,7 +1263,7 @@
       "kid_p": 0.96,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.92
+      "quality": 1.93
     }
   },
   {
@@ -1278,10 +1278,10 @@
     "source": "https://zoppefamilycircus.ticketspice.com/elk-grove-ca-ga-tickets",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
+      "kid_p": 0.97,
       "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.94
+      "quality": 1.95
     }
   },
   {
@@ -1299,7 +1299,7 @@
       "kid_p": 0.96,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.94
+      "quality": 1.93
     }
   },
   {
@@ -1316,9 +1316,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.94,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "other",
-      "quality": 1.9
+      "quality": 1.91
     }
   }
 ]

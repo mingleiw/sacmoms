@@ -12,10 +12,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.07,
+      "kid_p": 0.97,
+      "stale_p": 0.39,
       "category": "outdoor",
-      "quality": 1.41
+      "quality": 1.39
     }
   },
   {
@@ -32,9 +32,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.35
+      "quality": 1.38
     }
   },
   {
@@ -50,10 +50,86 @@
     "until": "20:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.76,
-      "stale_p": 0.07,
+      "kid_p": 0.77,
+      "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 1.33
+      "quality": 1.34
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "time": "15:45",
+    "title": "FALL FAMILY MINI PHOTOGRAPHY SESSION",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "This is a Effie Yeaw Nature Center Current Membership only event. Come take your Fall holiday photos at Effie Yeaw Nature Center.",
+    "source": "https://www.effieyeawnature.org/event-details/fall-family-mini-photography-session-2026-10-29-15-45",
+    "until": "16:05",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.95,
+      "stale_p": 0.09,
+      "category": "seasonal",
+      "quality": 1.15
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "time": "16:25",
+    "title": "FALL FAMILY MINI PHOTOGRAPHY SESSION",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "This is a Effie Yeaw Nature Center Current Membership only event. Come take your Fall holiday photos at Effie Yeaw Nature Center.",
+    "source": "https://www.effieyeawnature.org/event-details/fall-family-mini-photography-session-2026-10-29-16-25",
+    "until": "16:45",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.95,
+      "stale_p": 0.1,
+      "category": "seasonal",
+      "quality": 1.12
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "time": "15:45",
+    "title": "FALL FAMILY MINI PHOTOGRAPHY SESSION",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "This is a Effie Yeaw Nature Center Current Membership only event. Come take your Fall holiday photos at Effie Yeaw Nature Center.",
+    "source": "https://www.effieyeawnature.org/event-details/fall-family-mini-photography-session-2026-11-05-15-45",
+    "until": "16:05",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.95,
+      "stale_p": 0.05,
+      "category": "seasonal",
+      "quality": 1.15
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "time": "16:25",
+    "title": "FALL FAMILY MINI PHOTOGRAPHY SESSION",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "This is a Effie Yeaw Nature Center Current Membership only event. Come take your Fall holiday photos at Effie Yeaw Nature Center.",
+    "source": "https://www.effieyeawnature.org/event-details/fall-family-mini-photography-session-2026-11-05-16-25",
+    "until": "16:45",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.95,
+      "stale_p": 0.05,
+      "category": "seasonal",
+      "quality": 1.2
     }
   },
   {
@@ -69,10 +145,48 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.51
+      "quality": 1.56
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "time": "15:45",
+    "title": "FALL FAMILY MINI PHOTOGRAPHY SESSION",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "This is a Effie Yeaw Nature Center Current Membership only event. Come take your Fall holiday photos at Effie Yeaw Nature Center.",
+    "source": "https://www.effieyeawnature.org/event-details/fall-family-mini-photography-session-2026-11-12-15-45",
+    "until": "16:05",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.06,
+      "category": "seasonal",
+      "quality": 1.15
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "time": "16:25",
+    "title": "FALL FAMILY MINI PHOTOGRAPHY SESSION",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "This is a Effie Yeaw Nature Center Current Membership only event. Come take your Fall holiday photos at Effie Yeaw Nature Center.",
+    "source": "https://www.effieyeawnature.org/event-details/fall-family-mini-photography-session-2026-11-12-16-25",
+    "until": "16:45",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.05,
+      "category": "seasonal",
+      "quality": 1.19
     }
   },
   {
@@ -91,7 +205,7 @@
       "kid_p": 0.97,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.38
+      "quality": 1.41
     }
   },
   {
@@ -108,9 +222,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.93,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.64
+      "quality": 1.57
     }
   },
   {
@@ -126,10 +240,10 @@
     "until": "17:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.8,
+      "kid_p": 0.79,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.68
+      "quality": 1.69
     }
   }
 ]

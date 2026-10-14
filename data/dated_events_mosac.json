@@ -12,10 +12,10 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.03,
+      "kid_p": 0.96,
+      "stale_p": 0.04,
       "category": "museum",
-      "quality": 1.75
+      "quality": 1.79
     }
   },
   {
@@ -34,7 +34,7 @@
       "kid_p": 0.94,
       "stale_p": 0.04,
       "category": "museum",
-      "quality": 1.79
+      "quality": 1.88
     }
   },
   {
@@ -53,7 +53,7 @@
       "kid_p": 0.95,
       "stale_p": 0.04,
       "category": "museum",
-      "quality": 1.8
+      "quality": 1.82
     }
   }
 ]

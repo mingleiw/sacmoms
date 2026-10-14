@@ -13,9 +13,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.4,
       "category": "outdoor",
-      "quality": 1.75
+      "quality": 1.85
     }
   },
   {
@@ -32,9 +32,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 1.64
+      "quality": 1.65
     }
   },
   {
@@ -51,9 +51,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.06,
+      "stale_p": 0.07,
       "category": "storytime",
-      "quality": 1.15
+      "quality": 1.02
     }
   },
   {
@@ -70,9 +70,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.09,
+      "stale_p": 0.07,
       "category": "storytime",
-      "quality": 1.61
+      "quality": 1.55
     }
   },
   {
@@ -91,7 +91,7 @@
       "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.56
+      "quality": 1.52
     }
   },
   {
@@ -108,9 +108,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.79
+      "quality": 1.75
     }
   },
   {
@@ -129,7 +129,7 @@
       "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 1.58
+      "quality": 1.63
     }
   },
   {
@@ -146,9 +146,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.09,
+      "stale_p": 0.07,
       "category": "storytime",
-      "quality": 1.1
+      "quality": 1.16
     }
   },
   {
@@ -165,9 +165,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.12,
+      "stale_p": 0.14,
       "category": "storytime",
-      "quality": 1.61
+      "quality": 1.63
     }
   },
   {
@@ -183,10 +183,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.07,
+      "kid_p": 0.99,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 1.5
+      "quality": 1.51
     }
   },
   {
@@ -205,7 +205,7 @@
       "kid_p": 0.98,
       "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 1.74
+      "quality": 1.81
     }
   },
   {
@@ -224,7 +224,7 @@
       "kid_p": 0.97,
       "stale_p": 0.06,
       "category": "storytime",
-      "quality": 1.64
+      "quality": 1.61
     }
   },
   {
@@ -241,9 +241,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.1,
+      "stale_p": 0.08,
       "category": "storytime",
-      "quality": 0.92
+      "quality": 1.01
     }
   },
   {
@@ -260,9 +260,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.15,
+      "stale_p": 0.1,
       "category": "seasonal",
-      "quality": 1.0
+      "quality": 0.89
     }
   },
   {
@@ -279,9 +279,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.21,
+      "stale_p": 0.2,
       "category": "storytime",
-      "quality": 1.43
+      "quality": 1.46
     }
   },
   {
@@ -357,7 +357,7 @@
       "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 0.87
+      "quality": 0.84
     }
   },
   {
@@ -373,10 +373,10 @@
     "until": "11:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
+      "kid_p": 0.98,
       "stale_p": 0.05,
       "category": "storytime",
-      "quality": 0.87
+      "quality": 0.84
     }
   },
   {
@@ -393,9 +393,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.1,
+      "stale_p": 0.07,
       "category": "storytime",
-      "quality": 1.52
+      "quality": 1.58
     }
   },
   {
@@ -433,7 +433,7 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.74
+      "quality": 1.69
     }
   },
   {
@@ -450,9 +450,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.03,
+      "stale_p": 0.04,
       "category": "other",
-      "quality": 1.77
+      "quality": 1.75
     }
   },
   {
@@ -469,9 +469,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.07,
+      "stale_p": 0.08,
       "category": "storytime",
-      "quality": 1.54
+      "quality": 1.51
     }
   },
   {
@@ -487,10 +487,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
+      "kid_p": 0.99,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.64
+      "quality": 1.55
     }
   },
   {
@@ -509,7 +509,7 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.72
+      "quality": 1.84
     }
   },
   {
@@ -528,7 +528,7 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "other",
-      "quality": 1.78
+      "quality": 1.69
     }
   },
   {
@@ -544,10 +544,10 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
+      "kid_p": 0.98,
+      "stale_p": 0.05,
       "category": "storytime",
-      "quality": 0.84
+      "quality": 0.82
     }
   },
   {
@@ -564,9 +564,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 0.8
+      "quality": 0.83
     }
   },
   {
@@ -583,9 +583,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.08,
+      "stale_p": 0.07,
       "category": "storytime",
-      "quality": 1.61
+      "quality": 1.64
     }
   },
   {
@@ -601,10 +601,48 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
+      "kid_p": 0.99,
       "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.58
+      "quality": 1.65
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "time": "10:15",
+    "title": "Sing & Stomp",
+    "venue": "Mill Valley Public Library",
+    "city": "Mill Valley",
+    "region": "marin",
+    "ages": "All ages",
+    "blurb": "Join musician Emily Bonn for this music and movement class designed for infants, toddlers and preschoolers and their caregivers. No registration required. Space is limited. Meets in the Creekside Room.",
+    "source": "https://millvalleylibrary.libcal.com/event/17330799",
+    "until": "10:45",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.04,
+      "category": "other",
+      "quality": 1.76
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "time": "11:15",
+    "title": "Sing & Stomp",
+    "venue": "Mill Valley Public Library",
+    "city": "Mill Valley",
+    "region": "marin",
+    "ages": "All ages",
+    "blurb": "Join musician Emily Bonn for this music and movement class designed for infants, toddlers and preschoolers and their caregivers. No registration required. Space is limited. Meets in the Creekside Room.",
+    "source": "https://millvalleylibrary.libcal.com/event/17330859",
+    "until": "11:45",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.04,
+      "category": "other",
+      "quality": 1.76
     }
   }
 ]
