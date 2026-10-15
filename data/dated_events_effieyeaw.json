@@ -1,24 +1,5 @@
 [
   {
-    "date": "2026-10-13",
-    "time": "09:30",
-    "title": "Mighty Acorns",
-    "venue": "Effie Yeaw Nature Center",
-    "city": "Carmichael",
-    "region": "sac",
-    "ages": "Ages 2–5",
-    "blurb": "Discover the joy of learning through nature at the Effie Yeaw Nature Center! Designed for ages 2 - 5. Click on a date below to register.",
-    "source": "https://www.effieyeawnature.org/event-details/mighty-acorns-2026-10-13-09-30",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.39,
-      "category": "outdoor",
-      "quality": 1.39
-    }
-  },
-  {
     "date": "2026-10-17",
     "time": "10:00",
     "title": "Nature of Reading",
@@ -32,9 +13,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.07,
       "category": "storytime",
-      "quality": 1.38
+      "quality": 1.4
     }
   },
   {
@@ -50,10 +31,10 @@
     "until": "20:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.77,
-      "stale_p": 0.06,
+      "kid_p": 0.76,
+      "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 1.34
+      "quality": 1.39
     }
   },
   {
@@ -72,7 +53,7 @@
       "kid_p": 0.95,
       "stale_p": 0.09,
       "category": "seasonal",
-      "quality": 1.15
+      "quality": 1.13
     }
   },
   {
@@ -89,9 +70,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.1,
+      "stale_p": 0.12,
       "category": "seasonal",
-      "quality": 1.12
+      "quality": 1.14
     }
   },
   {
@@ -108,9 +89,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.15
+      "quality": 1.14
     }
   },
   {
@@ -126,10 +107,48 @@
     "until": "16:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.05,
+      "kid_p": 0.96,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.2
+      "quality": 1.15
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "time": "10:00",
+    "title": "Music of Nature with Grow Resilient Families",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Music of Nature with Grow Resilient Families Saturday, November 7 | 10:00 - 10:45 AM Location: Effie Yeaw Nature Center Outdoor Amphitheater",
+    "source": "https://www.effieyeawnature.org/event-details/music-of-nature-with-grow-resilient-families-1",
+    "until": "10:45",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.95,
+      "stale_p": 0.08,
+      "category": "outdoor",
+      "quality": 1.69
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "time": "16:45",
+    "title": "Star Gazing Event",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "A evening out seeing the stars at Effie Yeaw Nature Center. Come and experience seeing the constellations yourself on this guided event. We will walk through the trails as we head down to the river.",
+    "source": "https://www.effieyeawnature.org/event-details/star-gazing-event",
+    "until": "18:45",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.84,
+      "stale_p": 0.06,
+      "category": "outdoor",
+      "quality": 1.61
     }
   },
   {
@@ -148,7 +167,7 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.56
+      "quality": 1.44
     }
   },
   {
@@ -164,10 +183,10 @@
     "until": "16:05",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.06,
+      "kid_p": 0.95,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.15
+      "quality": 1.13
     }
   },
   {
@@ -184,9 +203,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.19
+      "quality": 1.12
     }
   },
   {
@@ -203,7 +222,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.05,
       "category": "storytime",
       "quality": 1.41
     }
@@ -221,10 +240,10 @@
     "until": "14:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
+      "kid_p": 0.92,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.57
+      "quality": 1.55
     }
   },
   {
@@ -240,7 +259,7 @@
     "until": "17:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.79,
+      "kid_p": 0.8,
       "stale_p": 0.04,
       "category": "outdoor",
       "quality": 1.69

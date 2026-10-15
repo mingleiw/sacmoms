@@ -15,7 +15,7 @@
       "kid_p": 0.92,
       "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.86
+      "quality": 1.93
     }
   },
   {
@@ -32,9 +32,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.93,
-      "stale_p": 0.05,
+      "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 1.85
+      "quality": 1.87
     }
   }
 ]

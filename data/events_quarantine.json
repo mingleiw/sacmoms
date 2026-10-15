@@ -1,1 +1,49 @@
-[]
+[
+  {
+    "title": "Keema's Pumpkin Farm",
+    "date": "2026-10-13",
+    "time": "11:00",
+    "until": "18:00",
+    "venue": "Keema's Pumpkin Farm",
+    "city": "Elk Grove",
+    "address": "6532 Point Pleasant Rd, Elk Grove, CA 95757",
+    "lat": 38.338764,
+    "lon": -121.428137,
+    "ages": "All ages",
+    "blurb": "Family pumpkin farm in Elk Grove: u-pick pumpkins, corn maze, farm animals, playground and jumping pillow. Tue–Fri 11am–6pm, Sat–Sun 10am–6pm (Oct 31–Nov 1: 10am–4pm); closed Mondays. Cash only: adults 13+ $8, kids 2–12 $6, under 2 free.",
+    "source": "https://www.keemaspumpkinfarm.com/?page_id=31",
+    "seasonal": "halloween",
+    "group": "keemas-pumpkin-2026",
+    "origin": "curated",
+    "region": "sac",
+    "_jev": {
+      "verdict": "REJECT",
+      "kid_p": 0.98,
+      "stale_p": 0.87,
+      "category": "seasonal",
+      "quality": 1.81
+    },
+    "_quarantined_from": "data/dated_events_curated.json",
+    "_quarantined_on": "2026-10-14"
+  },
+  {
+    "date": "2026-10-13",
+    "time": "17:00",
+    "title": "Second Tuesday Crafternoon at A Seat at the Table Books",
+    "venue": "A Seat at the Table Books",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "Ages 5+",
+    "blurb": "Monthly kids' crafternoon at Elk Grove's family-run bookshop and cafe. Free.",
+    "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
+    "_jev": {
+      "verdict": "REJECT",
+      "kid_p": 0.97,
+      "stale_p": 0.92,
+      "category": "other",
+      "quality": 1.2
+    },
+    "_quarantined_from": "data/dated_events_curated.json",
+    "_quarantined_on": "2026-10-14"
+  }
+]
