@@ -12,10 +12,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.07,
+      "kid_p": 0.98,
+      "stale_p": 0.08,
       "category": "storytime",
-      "quality": 1.4
+      "quality": 1.44
     }
   },
   {
@@ -32,9 +32,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.76,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "outdoor",
-      "quality": 1.39
+      "quality": 1.32
     }
   },
   {
@@ -51,9 +51,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.09,
+      "stale_p": 0.1,
       "category": "seasonal",
-      "quality": 1.13
+      "quality": 1.12
     }
   },
   {
@@ -70,9 +70,28 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.12,
+      "stale_p": 0.1,
       "category": "seasonal",
-      "quality": 1.14
+      "quality": 1.11
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "time": "18:00",
+    "title": "2026 ARNHA Annual Meeting",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us for a celebration of volunteers and achievements, and hear all the latest organization planning and updates. Scroll down for the RSVP button.",
+    "source": "https://www.effieyeawnature.org/event-details/2026-arnha-annual-meeting",
+    "until": "19:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.77,
+      "stale_p": 0.09,
+      "category": "other",
+      "quality": 1.39
     }
   },
   {
@@ -88,10 +107,29 @@
     "until": "16:05",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
+      "kid_p": 0.96,
       "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.14
+      "quality": 1.11
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "time": "15:45",
+    "title": "Thank you!",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "This is a Effie Yeaw Nature Center Current Membership only event. Come take your Fall holiday photos at Effie Yeaw Nature Center.",
+    "source": "https://www.effieyeawnature.org/events-list",
+    "until": "16:05",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.92,
+      "stale_p": 0.05,
+      "category": "seasonal",
+      "quality": 0.86
     }
   },
   {
@@ -107,7 +145,7 @@
     "until": "16:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
+      "kid_p": 0.95,
       "stale_p": 0.06,
       "category": "seasonal",
       "quality": 1.15
@@ -126,10 +164,29 @@
     "until": "10:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.08,
+      "kid_p": 0.94,
+      "stale_p": 0.07,
       "category": "outdoor",
-      "quality": 1.69
+      "quality": 1.67
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "time": "10:00",
+    "title": "Thank you!",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Music of Nature with Grow Resilient Families Saturday, November 7 | 10:00 - 10:45 AM Location: Effie Yeaw Nature Center Outdoor Amphitheater",
+    "source": "https://www.effieyeawnature.org/events-list",
+    "until": "10:45",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.94,
+      "stale_p": 0.06,
+      "category": "outdoor",
+      "quality": 1.47
     }
   },
   {
@@ -146,9 +203,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.84,
-      "stale_p": 0.06,
+      "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.61
+      "quality": 1.52
     }
   },
   {
@@ -167,7 +224,7 @@
       "kid_p": 0.98,
       "stale_p": 0.04,
       "category": "outdoor",
-      "quality": 1.44
+      "quality": 1.54
     }
   },
   {
@@ -184,9 +241,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.07,
+      "stale_p": 0.06,
       "category": "seasonal",
-      "quality": 1.13
+      "quality": 1.12
     }
   },
   {
@@ -202,10 +259,10 @@
     "until": "16:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.07,
+      "kid_p": 0.95,
+      "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.12
+      "quality": 1.18
     }
   },
   {
@@ -221,10 +278,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
+      "kid_p": 0.98,
+      "stale_p": 0.04,
       "category": "storytime",
-      "quality": 1.41
+      "quality": 1.39
     }
   },
   {
@@ -240,10 +297,10 @@
     "until": "14:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.92,
+      "kid_p": 0.93,
       "stale_p": 0.05,
       "category": "seasonal",
-      "quality": 1.55
+      "quality": 1.56
     }
   },
   {
@@ -259,10 +316,10 @@
     "until": "17:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.8,
-      "stale_p": 0.04,
+      "kid_p": 0.79,
+      "stale_p": 0.05,
       "category": "outdoor",
-      "quality": 1.69
+      "quality": 1.68
     }
   }
 ]

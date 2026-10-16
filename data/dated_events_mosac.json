@@ -11,11 +11,8 @@
     "source": "https://visitmosac.org/learn/homeschool-programs/",
     "until": "16:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.04,
-      "category": "museum",
-      "quality": 1.76
+      "verdict": "ERROR",
+      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
     }
   },
   {
@@ -30,11 +27,8 @@
     "source": "https://visitmosac.org/learn/homeschool-programs/",
     "until": "16:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.04,
-      "category": "museum",
-      "quality": 1.77
+      "verdict": "ERROR",
+      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
     }
   },
   {
@@ -49,11 +43,8 @@
     "source": "https://visitmosac.org/learn/homeschool-programs/",
     "until": "16:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.04,
-      "category": "museum",
-      "quality": 1.85
+      "verdict": "ERROR",
+      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
     }
   }
 ]
