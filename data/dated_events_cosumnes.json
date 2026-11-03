@@ -1,24 +1,5 @@
 [
   {
-    "date": "2026-10-17",
-    "time": "13:00",
-    "title": "Pool of Pumpkins",
-    "venue": "Elk Grove Aquatics Center",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Annual floating pumpkin patch: swim in the pool, pick a pumpkin to take home, plus arts & crafts and carnival games. No entrance fee; $13 wristband to take home a pumpkin.",
-    "source": "https://www.cosumnescsd.gov/Calendar.aspx?EID=1876",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.07,
-      "category": "seasonal",
-      "quality": 1.94
-    }
-  },
-  {
     "date": "2026-11-11",
     "time": "10:00",
     "title": "Veterans Day Parade",
@@ -32,9 +13,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.93,
-      "stale_p": 0.06,
+      "stale_p": 0.15,
       "category": "outdoor",
-      "quality": 1.88
+      "quality": 1.59
     }
   }
 ]

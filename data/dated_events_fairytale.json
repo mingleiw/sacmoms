@@ -1,518 +1,5 @@
 [
   {
-    "date": "2026-10-15",
-    "time": "11:00",
-    "title": "Story Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every day in September for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under are free",
-    "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center/2026-10-15/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.43,
-      "category": "storytime",
-      "quality": 0.85
-    }
-  },
-  {
-    "date": "2026-10-15",
-    "time": "14:30",
-    "title": "Craft Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every Tuesday at 12:30pm & Thursday at 2:30pm in October for Craft Time! Craft time is free with park admission. No need to worry about skill level – all kids are welcome! Come join us for a w",
-    "source": "https://www.fairytaletown.org/calendar/craft-time-in-the-story-center-3/2026-10-15/",
-    "until": "15:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.37,
-      "category": "other",
-      "quality": 1.21
-    }
-  },
-  {
-    "date": "2026-10-16",
-    "time": "17:00",
-    "title": "Safe & Super Halloween",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "October 16, 17, 18, 23, & 24 5 PM – 9 PM Get Your Tickets Here! Join us for our 40th annual Safe and Super Halloween! Circus fun is coming to Fairytale Town this Halloween season! It’s time to get silly and enjoy all of ",
-    "source": "https://www.fairytaletown.org/calendar/safe-super-halloween-7/2026-10-16/",
-    "until": "21:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.06,
-      "category": "seasonal",
-      "quality": 1.37
-    }
-  },
-  {
-    "date": "2026-10-17",
-    "time": "17:00",
-    "title": "Safe & Super Halloween",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "October 16, 17, 18, 23, & 24 5 PM – 9 PM Get Your Tickets Here! Join us for our 40th annual Safe and Super Halloween! Circus fun is coming to Fairytale Town this Halloween season! It’s time to get silly and enjoy all of ",
-    "source": "https://www.fairytaletown.org/calendar/safe-super-halloween-7/2026-10-17/",
-    "until": "21:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.07,
-      "category": "seasonal",
-      "quality": 1.34
-    }
-  },
-  {
-    "date": "2026-10-18",
-    "time": "17:00",
-    "title": "Safe & Super Halloween",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "October 16, 17, 18, 23, & 24 5 PM – 9 PM Get Your Tickets Here! Join us for our 40th annual Safe and Super Halloween! Circus fun is coming to Fairytale Town this Halloween season! It’s time to get silly and enjoy all of ",
-    "source": "https://www.fairytaletown.org/calendar/safe-super-halloween-7/2026-10-18/",
-    "until": "21:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.05,
-      "category": "seasonal",
-      "quality": 1.34
-    }
-  },
-  {
-    "date": "2026-10-19",
-    "time": "11:00",
-    "title": "Story Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every day in September for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under are free",
-    "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center/2026-10-19/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 0.86
-    }
-  },
-  {
-    "date": "2026-10-20",
-    "time": "11:00",
-    "title": "Story Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every day in September for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under are free",
-    "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center/2026-10-20/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 0.83
-    }
-  },
-  {
-    "date": "2026-10-20",
-    "time": "12:30",
-    "title": "Craft Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every Tuesday at 12:30pm & Thursday at 2:30pm in October for Craft Time! Craft time is free with park admission. No need to worry about skill level – all kids are welcome! Come join us for a w",
-    "source": "https://www.fairytaletown.org/calendar/craft-time-in-the-story-center-4/2026-10-20/",
-    "until": "13:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.1,
-      "category": "other",
-      "quality": 1.28
-    }
-  },
-  {
-    "date": "2026-10-21",
-    "time": "11:00",
-    "title": "Story Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every day in September for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under are free",
-    "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center/2026-10-21/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.17,
-      "category": "storytime",
-      "quality": 0.79
-    }
-  },
-  {
-    "date": "2026-10-22",
-    "time": "10:00",
-    "title": "Toddler Time!",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Weekly toddler program at Fairytale Town; see the official listing for this week's details.",
-    "source": "https://www.fairytaletown.org/calendar/toddler-time-16/2026-10-22/",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 0.93
-    }
-  },
-  {
-    "date": "2026-10-22",
-    "time": "11:00",
-    "title": "Story Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every day in September for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under are free",
-    "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center/2026-10-22/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 0.84
-    }
-  },
-  {
-    "date": "2026-10-22",
-    "time": "14:30",
-    "title": "Craft Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every Tuesday at 12:30pm & Thursday at 2:30pm in October for Craft Time! Craft time is free with park admission. No need to worry about skill level – all kids are welcome! Come join us for a w",
-    "source": "https://www.fairytaletown.org/calendar/craft-time-in-the-story-center-3/2026-10-22/",
-    "until": "15:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.12,
-      "category": "storytime",
-      "quality": 1.26
-    }
-  },
-  {
-    "date": "2026-10-23",
-    "time": "17:00",
-    "title": "Safe & Super Halloween",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "October 16, 17, 18, 23, & 24 5 PM – 9 PM Get Your Tickets Here! Join us for our 40th annual Safe and Super Halloween! Circus fun is coming to Fairytale Town this Halloween season! It’s time to get silly and enjoy all of ",
-    "source": "https://www.fairytaletown.org/calendar/safe-super-halloween-7/2026-10-23/",
-    "until": "21:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.05,
-      "category": "seasonal",
-      "quality": 1.35
-    }
-  },
-  {
-    "date": "2026-10-24",
-    "time": "11:00",
-    "title": "Tractor Tales",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us on October 24 & 25 at 11am in the Story Center Classroom for Tractor Tales featuring Charlotte the tarantula & friends! Perfect for little animal lovers, this interactive event combines the magic of books with th",
-    "source": "https://www.fairytaletown.org/calendar/tractor-tales-10/2026-10-24/",
-    "until": "11:20",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 1.31
-    }
-  },
-  {
-    "date": "2026-10-24",
-    "time": "17:00",
-    "title": "Safe & Super Halloween",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "October 16, 17, 18, 23, & 24 5 PM – 9 PM Get Your Tickets Here! Join us for our 40th annual Safe and Super Halloween! Circus fun is coming to Fairytale Town this Halloween season! It’s time to get silly and enjoy all of ",
-    "source": "https://www.fairytaletown.org/calendar/safe-super-halloween-7/2026-10-24/",
-    "until": "21:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.06,
-      "category": "seasonal",
-      "quality": 1.38
-    }
-  },
-  {
-    "date": "2026-10-25",
-    "time": "11:00",
-    "title": "Tractor Tales",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us on October 24 & 25 at 11am in the Story Center Classroom for Tractor Tales featuring Charlotte the tarantula & friends! Perfect for little animal lovers, this interactive event combines the magic of books with th",
-    "source": "https://www.fairytaletown.org/calendar/tractor-tales-10/2026-10-25/",
-    "until": "11:20",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.1,
-      "category": "storytime",
-      "quality": 1.35
-    }
-  },
-  {
-    "date": "2026-10-26",
-    "time": "11:00",
-    "title": "Story Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every day in September for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under are free",
-    "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center/2026-10-26/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 0.74
-    }
-  },
-  {
-    "date": "2026-10-27",
-    "time": "11:00",
-    "title": "Story Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every day in September for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under are free",
-    "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center/2026-10-27/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.23,
-      "category": "storytime",
-      "quality": 0.73
-    }
-  },
-  {
-    "date": "2026-10-27",
-    "time": "12:30",
-    "title": "Craft Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every Tuesday at 12:30pm & Thursday at 2:30pm in October for Craft Time! Craft time is free with park admission. No need to worry about skill level – all kids are welcome! Come join us for a w",
-    "source": "https://www.fairytaletown.org/calendar/craft-time-in-the-story-center-4/2026-10-27/",
-    "until": "13:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.12,
-      "category": "other",
-      "quality": 1.26
-    }
-  },
-  {
-    "date": "2026-10-28",
-    "time": "11:00",
-    "title": "Story Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every day in September for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under are free",
-    "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center/2026-10-28/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.19,
-      "category": "storytime",
-      "quality": 0.67
-    }
-  },
-  {
-    "date": "2026-10-29",
-    "time": "10:00",
-    "title": "Toddler Time!",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Weekly toddler program at Fairytale Town; see the official listing for this week's details.",
-    "source": "https://www.fairytaletown.org/calendar/toddler-time-16/2026-10-29/",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.07,
-      "category": "storytime",
-      "quality": 0.93
-    }
-  },
-  {
-    "date": "2026-10-29",
-    "time": "11:00",
-    "title": "Story Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every day in September for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under are free",
-    "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center/2026-10-29/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.19,
-      "category": "storytime",
-      "quality": 0.69
-    }
-  },
-  {
-    "date": "2026-10-29",
-    "time": "14:30",
-    "title": "Craft Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every Tuesday at 12:30pm & Thursday at 2:30pm in October for Craft Time! Craft time is free with park admission. No need to worry about skill level – all kids are welcome! Come join us for a w",
-    "source": "https://www.fairytaletown.org/calendar/craft-time-in-the-story-center-3/2026-10-29/",
-    "until": "15:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.13,
-      "category": "storytime",
-      "quality": 1.21
-    }
-  },
-  {
-    "date": "2026-10-30",
-    "time": "11:00",
-    "title": "Homeschool Clubhouse: Fairytale Science",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
-    "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytale-science/2026-10-30/",
-    "until": "11:45",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.07,
-      "category": "other",
-      "quality": 1.33
-    }
-  },
-  {
-    "date": "2026-10-30",
-    "time": "11:00",
-    "title": "Story Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every day in September for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under are free",
-    "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center/2026-10-30/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.2,
-      "category": "storytime",
-      "quality": 0.72
-    }
-  },
-  {
-    "date": "2026-10-31",
-    "time": "10:00",
-    "title": "Halloween Fun Day!",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Get ready for a fa-boo-lous Halloween at Fairytale Town! We’re kicking off the day with a not-so-spooky dance party, where you can show off your best dance moves. Join in on a friendly scavenger hunt filled with fun surp",
-    "source": "https://www.fairytaletown.org/calendar/halloween-fun/",
-    "until": "14:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.1,
-      "category": "seasonal",
-      "quality": 1.22
-    }
-  },
-  {
-    "date": "2026-11-01",
-    "time": "10:00",
-    "title": "Day of the Dead Celebration",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Celebrate the magic of Dia de los Muertos at Fairytale Town! Little ones can craft vibrant sugar skull masks, listen to captivating stories, and get their faces painted. Families are invited to contribute to a traditiona",
-    "source": "https://www.fairytaletown.org/calendar/day-of-the-dead/",
-    "until": "14:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.07,
-      "category": "seasonal",
-      "quality": 1.38
-    }
-  },
-  {
     "date": "2026-11-05",
     "time": "10:00",
     "title": "Toddler Time!",
@@ -526,9 +13,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.07,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 0.98
+      "quality": 0.97
     }
   },
   {
@@ -544,10 +31,10 @@
     "until": "11:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.92,
-      "stale_p": 0.04,
-      "category": "other",
-      "quality": 1.4
+      "kid_p": 0.88,
+      "stale_p": 0.13,
+      "category": "museum",
+      "quality": 1.31
     }
   },
   {
@@ -564,9 +51,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.12,
       "category": "storytime",
-      "quality": 1.84
+      "quality": 1.58
     }
   },
   {
@@ -583,9 +70,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.06,
+      "stale_p": 0.08,
       "category": "storytime",
-      "quality": 0.96
+      "quality": 0.98
     }
   },
   {
@@ -601,10 +88,29 @@
     "until": "12:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.05,
+      "kid_p": 0.97,
+      "stale_p": 0.18,
       "category": "storytime",
-      "quality": 1.48
+      "quality": 1.45
+    }
+  },
+  {
+    "date": "2026-11-14",
+    "time": "11:00",
+    "title": "Author Visit: Kathryn Michenfelder",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Come meet Kathryn Michenfelder on Saturday, November 14th, from 11 AM – 12:30 PM!",
+    "source": "https://www.fairytaletown.org/calendar/author-visit-kathryn-michenfelder/",
+    "until": "12:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.14,
+      "category": "storytime",
+      "quality": 1.59
     }
   },
   {
@@ -621,9 +127,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.06,
+      "stale_p": 0.11,
       "category": "storytime",
-      "quality": 0.97
+      "quality": 1.0
     }
   },
   {
@@ -639,10 +145,10 @@
     "until": "11:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.04,
+      "kid_p": 0.94,
+      "stale_p": 0.16,
       "category": "storytime",
-      "quality": 1.41
+      "quality": 1.33
     }
   },
   {
@@ -658,10 +164,10 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
-      "stale_p": 0.05,
+      "kid_p": 0.95,
+      "stale_p": 0.14,
       "category": "seasonal",
-      "quality": 0.79
+      "quality": 0.81
     }
   },
   {
@@ -677,10 +183,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
+      "kid_p": 0.96,
+      "stale_p": 0.18,
       "category": "storytime",
-      "quality": 1.01
+      "quality": 1.06
     }
   },
   {
@@ -696,10 +202,10 @@
     "until": "23:59",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.66,
-      "stale_p": 0.15,
+      "kid_p": 0.53,
+      "stale_p": 0.2,
       "category": "seasonal",
-      "quality": 1.23
+      "quality": 1.1
     }
   },
   {
@@ -715,10 +221,10 @@
     "until": "11:20",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
+      "kid_p": 0.96,
+      "stale_p": 0.14,
       "category": "storytime",
-      "quality": 1.48
+      "quality": 1.39
     }
   },
   {
@@ -734,10 +240,10 @@
     "until": "11:20",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
+      "kid_p": 0.96,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 1.54
+      "quality": 1.48
     }
   },
   {
@@ -753,10 +259,10 @@
     "until": "23:59",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.06,
+      "kid_p": 0.94,
+      "stale_p": 0.17,
       "category": "seasonal",
-      "quality": 0.97
+      "quality": 1.06
     }
   },
   {
@@ -773,9 +279,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.13,
       "category": "other",
-      "quality": 1.74
+      "quality": 1.58
     }
   },
   {
@@ -786,15 +292,15 @@
     "city": "Sacramento",
     "region": "sac",
     "ages": "All ages",
-    "blurb": "Saturday & Sunday, December 5-6 & 12-13 Special Park & Event Hours: 1 PM – 7 PM (Box Office Closes at 6 PM) Weather permitting Celebrate the holidays together at Fairytale Town’s annual Winter Wonderland! Enjoy a visit w",
-    "source": "https://www.fairytaletown.org/calendar/winter-wonderland/2026-12-05/",
-    "until": "18:00",
+    "blurb": "Saturday & Sunday, December 5-6 & 12-13 Special Park & Event Hours: 1 PM – 7 PM (last admission at 6 PM) Weather permitting Click Here for Tickets! Celebrate the holidays together at Fairytale Town’s annual Winter Wonder",
+    "source": "https://www.fairytaletown.org/calendar/winter-wonderland-3/",
+    "until": "19:00",
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.09,
       "category": "seasonal",
-      "quality": 1.44
+      "quality": 1.38
     }
   },
   {
@@ -805,15 +311,15 @@
     "city": "Sacramento",
     "region": "sac",
     "ages": "All ages",
-    "blurb": "Saturday & Sunday, December 5-6 & 12-13 Special Park & Event Hours: 1 PM – 7 PM (Box Office Closes at 6 PM) Weather permitting Celebrate the holidays together at Fairytale Town’s annual Winter Wonderland! Enjoy a visit w",
-    "source": "https://www.fairytaletown.org/calendar/winter-wonderland/2026-12-06/",
-    "until": "18:00",
+    "blurb": "Saturday & Sunday, December 5-6 & 12-13 Special Park & Event Hours: 1 PM – 7 PM (last admission at 6 PM) Weather permitting Click Here for Tickets! Celebrate the holidays together at Fairytale Town’s annual Winter Wonder",
+    "source": "https://www.fairytaletown.org/calendar/winter-wonderland-4/",
+    "until": "19:00",
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.07,
       "category": "seasonal",
-      "quality": 1.32
+      "quality": 1.26
     }
   },
   {
@@ -829,10 +335,10 @@
     "until": "20:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
-      "stale_p": 0.04,
-      "category": "other",
-      "quality": 1.05
+      "kid_p": 0.94,
+      "stale_p": 0.08,
+      "category": "seasonal",
+      "quality": 1.06
     }
   },
   {
@@ -843,15 +349,34 @@
     "city": "Sacramento",
     "region": "sac",
     "ages": "All ages",
-    "blurb": "Saturday & Sunday, December 5-6 & 12-13 Special Park & Event Hours: 1 PM – 7 PM (Box Office Closes at 6 PM) Weather permitting Celebrate the holidays together at Fairytale Town’s annual Winter Wonderland! Enjoy a visit w",
-    "source": "https://www.fairytaletown.org/calendar/winter-wonderland/2026-12-12/",
-    "until": "18:00",
+    "blurb": "Saturday & Sunday, December 5-6 & 12-13 Special Park & Event Hours: 1 PM – 7 PM (last admission at 6 PM) Weather permitting Click Here for Tickets! Celebrate the holidays together at Fairytale Town’s annual Winter Wonder",
+    "source": "https://www.fairytaletown.org/calendar/winter-wonderland/",
+    "until": "19:00",
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.3
+      "quality": 1.31
+    }
+  },
+  {
+    "date": "2026-12-12",
+    "time": "13:00",
+    "title": "Winter Wonderland",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Saturday & Sunday, December 5-6 & 12-13 Special Park & Event Hours: 1 PM – 7 PM (last admission at 6 PM) Weather permitting Click Here for Tickets! Celebrate the holidays together at Fairytale Town’s annual Winter Wonder",
+    "source": "https://www.fairytaletown.org/calendar/winter-wonderland-5/",
+    "until": "19:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.09,
+      "category": "seasonal",
+      "quality": 1.23
     }
   },
   {
@@ -867,10 +392,10 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.05,
+      "kid_p": 0.96,
+      "stale_p": 0.09,
       "category": "other",
-      "quality": 1.78
+      "quality": 1.61
     }
   },
   {
@@ -881,15 +406,15 @@
     "city": "Sacramento",
     "region": "sac",
     "ages": "All ages",
-    "blurb": "Saturday & Sunday, December 5-6 & 12-13 Special Park & Event Hours: 1 PM – 7 PM (Box Office Closes at 6 PM) Weather permitting Celebrate the holidays together at Fairytale Town’s annual Winter Wonderland! Enjoy a visit w",
-    "source": "https://www.fairytaletown.org/calendar/winter-wonderland/2026-12-13/",
-    "until": "18:00",
+    "blurb": "Saturday & Sunday, December 5-6 & 12-13 Special Park & Event Hours: 1 PM – 7 PM (last admission at 6 PM) Weather permitting Click Here for Tickets! Celebrate the holidays together at Fairytale Town’s annual Winter Wonder",
+    "source": "https://www.fairytaletown.org/calendar/winter-wonderland-2/",
+    "until": "19:00",
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.08,
       "category": "seasonal",
-      "quality": 1.29
+      "quality": 1.27
     }
   },
   {
@@ -906,9 +431,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.08,
+      "stale_p": 0.13,
       "category": "storytime",
-      "quality": 1.51
+      "quality": 1.53
     }
   },
   {
@@ -925,9 +450,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.07,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 1.53
+      "quality": 1.62
     }
   },
   {
@@ -943,7 +468,7 @@
     "until": "11:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
+      "kid_p": 0.88,
       "stale_p": 0.06,
       "category": "museum",
       "quality": 1.4
@@ -962,10 +487,10 @@
     "until": "11:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.04,
-      "category": "other",
-      "quality": 1.38
+      "kid_p": 0.92,
+      "stale_p": 0.06,
+      "category": "museum",
+      "quality": 1.4
     }
   },
   {
@@ -981,10 +506,10 @@
     "until": "11:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.04,
+      "kid_p": 0.94,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 1.36
+      "quality": 1.32
     }
   },
   {
@@ -1000,10 +525,10 @@
     "until": "11:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.92,
-      "stale_p": 0.04,
+      "kid_p": 0.88,
+      "stale_p": 0.06,
       "category": "museum",
-      "quality": 1.35
+      "quality": 1.33
     }
   },
   {
@@ -1019,10 +544,10 @@
     "until": "11:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
-      "stale_p": 0.04,
-      "category": "other",
-      "quality": 1.42
+      "kid_p": 0.92,
+      "stale_p": 0.06,
+      "category": "museum",
+      "quality": 1.34
     }
   },
   {
@@ -1038,10 +563,10 @@
     "until": "11:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.04,
+      "kid_p": 0.94,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 1.34
+      "quality": 1.37
     }
   },
   {
@@ -1057,10 +582,10 @@
     "until": "11:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.05,
+      "kid_p": 0.88,
+      "stale_p": 0.07,
       "category": "museum",
-      "quality": 1.35
+      "quality": 1.32
     }
   },
   {
@@ -1076,9 +601,9 @@
     "until": "11:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.04,
-      "category": "other",
+      "kid_p": 0.92,
+      "stale_p": 0.07,
+      "category": "museum",
       "quality": 1.36
     }
   },
@@ -1095,10 +620,10 @@
     "until": "11:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.04,
+      "kid_p": 0.94,
+      "stale_p": 0.06,
       "category": "storytime",
-      "quality": 1.35
+      "quality": 1.34
     }
   },
   {
@@ -1114,10 +639,10 @@
     "until": "11:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.9,
-      "stale_p": 0.05,
+      "kid_p": 0.87,
+      "stale_p": 0.06,
       "category": "museum",
-      "quality": 1.36
+      "quality": 1.39
     }
   },
   {
@@ -1133,10 +658,10 @@
     "until": "11:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
-      "stale_p": 0.05,
+      "kid_p": 0.92,
+      "stale_p": 0.06,
       "category": "other",
-      "quality": 1.39
+      "quality": 1.37
     }
   }
 ]

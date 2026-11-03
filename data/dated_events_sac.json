@@ -1,1930 +1,5 @@
 [
   {
-    "date": "2026-10-15",
-    "time": "10:00",
-    "title": "Family Storytime",
-    "venue": "North Highlands - Antelope Library",
-    "city": "North Highlands",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17038163",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
-    }
-  },
-  {
-    "date": "2026-10-15",
-    "time": "10:00",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Robbie Waters Pocket - Greenhaven Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/14546264",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.39,
-      "category": "other",
-      "quality": 1.44
-    }
-  },
-  {
-    "date": "2026-10-15",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Elk Grove Library",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17400926",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
-    }
-  },
-  {
-    "date": "2026-10-15",
-    "time": "10:30",
-    "title": "Baby Storytime",
-    "venue": "Fair Oaks Library",
-    "city": "Fair Oaks",
-    "region": "sac",
-    "ages": "Babies 0–18 mo",
-    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
-    "source": "https://engage.saclibrary.org/event/16049434",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.38,
-      "category": "storytime",
-      "quality": 1.5
-    }
-  },
-  {
-    "date": "2026-10-15",
-    "time": "10:30",
-    "title": "Outdoor Storytime",
-    "venue": "McKinley Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17335558",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
-    }
-  },
-  {
-    "date": "2026-10-15",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Orangevale Library",
-    "city": "Orangevale",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17124715",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
-    }
-  },
-  {
-    "date": "2026-10-15",
-    "time": "15:45",
-    "title": "Homework Zone",
-    "venue": "Franklin Library",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 5+",
-    "blurb": "Students in kindergarten through eighth grade can get help on their homework.",
-    "source": "https://engage.saclibrary.org/event/16812408",
-    "until": "17:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.36,
-      "category": "other",
-      "quality": 1.21
-    }
-  },
-  {
-    "date": "2026-10-16",
-    "time": "10:00",
-    "title": "Family Storytime",
-    "venue": "Belle Cooledge Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/14573961",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
-      "category": "storytime",
-      "quality": 1.52
-    }
-  },
-  {
-    "date": "2026-10-16",
-    "time": "10:00",
-    "title": "Family Storytime",
-    "venue": "Galt - Marian O. Lawrence Library",
-    "city": "Galt",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/16133272",
-    "until": "10:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 1.5
-    }
-  },
-  {
-    "date": "2026-10-16",
-    "time": "10:30",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Colonial Heights Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/16959148",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
-    }
-  },
-  {
-    "date": "2026-10-16",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Rancho Cordova Library",
-    "city": "Rancho Cordova",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/14016594",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.07,
-      "category": "storytime",
-      "quality": 1.51
-    }
-  },
-  {
-    "date": "2026-10-16",
-    "time": "10:30",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Rio Linda Library",
-    "city": "Rio Linda",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/17422159",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
-    }
-  },
-  {
-    "date": "2026-10-16",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "South Natomas Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/16940688",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
-      "category": "storytime",
-      "quality": 1.62
-    }
-  },
-  {
-    "date": "2026-10-16",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Southgate Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/16013983",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.55
-    }
-  },
-  {
-    "date": "2026-10-16",
-    "time": "10:30",
-    "title": "Baby Storytime",
-    "venue": "Sylvan Oaks Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Babies 0–18 mo",
-    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
-    "source": "https://engage.saclibrary.org/event/15066179",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 1.68
-    }
-  },
-  {
-    "date": "2026-10-16",
-    "time": "11:30",
-    "title": "Baby Storytime",
-    "venue": "Arden - Dimick Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Babies 0–18 mo",
-    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
-    "source": "https://engage.saclibrary.org/event/13178461",
-    "until": "12:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 1.59
-    }
-  },
-  {
-    "date": "2026-10-16",
-    "time": "17:00",
-    "title": "Family Storytime",
-    "venue": "Martin Luther King, Jr. Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17099861",
-    "until": "18:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
-      "category": "storytime",
-      "quality": 1.6
-    }
-  },
-  {
-    "date": "2026-10-17",
-    "time": "10:00",
-    "title": "Family Storytime",
-    "venue": "Robbie Waters Pocket - Greenhaven Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/13689857",
-    "until": "12:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.52
-    }
-  },
-  {
-    "date": "2026-10-17",
-    "time": "10:30",
-    "title": "Baby Storytime",
-    "venue": "Central Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Babies 0–18 mo",
-    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
-    "source": "https://engage.saclibrary.org/event/16639467",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.05,
-      "category": "storytime",
-      "quality": 1.57
-    }
-  },
-  {
-    "date": "2026-10-17",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "North Natomas Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/15790922",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.61
-    }
-  },
-  {
-    "date": "2026-10-17",
-    "time": "15:30",
-    "title": "Hora de Cuentos Bilingüe - Bilingual Storytime",
-    "venue": "Central Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children. Bilingual Spanish/English.",
-    "source": "https://engage.saclibrary.org/event/16903228",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
-    }
-  },
-  {
-    "date": "2026-10-20",
-    "time": "10:00",
-    "title": "Family Storytime",
-    "venue": "Walnut Grove Library",
-    "city": "Walnut Grove",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17265590",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
-      "category": "storytime",
-      "quality": 1.59
-    }
-  },
-  {
-    "date": "2026-10-20",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Arcade Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/15868884",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
-      "category": "storytime",
-      "quality": 1.54
-    }
-  },
-  {
-    "date": "2026-10-20",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Central Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/16639540",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
-      "category": "storytime",
-      "quality": 1.63
-    }
-  },
-  {
-    "date": "2026-10-20",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Colonial Heights Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/16053386",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
-      "category": "storytime",
-      "quality": 1.54
-    }
-  },
-  {
-    "date": "2026-10-20",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Fair Oaks Library",
-    "city": "Fair Oaks",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/16049267",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
-    }
-  },
-  {
-    "date": "2026-10-20",
-    "time": "10:30",
-    "title": "Hora de Cuentos Bilingüe / Bilingual Storytime",
-    "venue": "Rancho Cordova Library",
-    "city": "Rancho Cordova",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children. Bilingual Spanish/English.",
-    "source": "https://engage.saclibrary.org/event/17516664",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.05,
-      "category": "storytime",
-      "quality": 1.72
-    }
-  },
-  {
-    "date": "2026-10-20",
-    "time": "11:00",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Orangevale Library",
-    "city": "Orangevale",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/17411149",
-    "until": "12:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.06,
-      "category": "other",
-      "quality": 1.54
-    }
-  },
-  {
-    "date": "2026-10-20",
-    "time": "11:30",
-    "title": "Family Storytime",
-    "venue": "Del Paso Heights Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17339071",
-    "until": "12:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
-      "category": "storytime",
-      "quality": 1.64
-    }
-  },
-  {
-    "date": "2026-10-20",
-    "time": "12:00",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Ella K. McClatchy Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/15249803",
-    "until": "13:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.05,
-      "category": "other",
-      "quality": 1.47
-    }
-  },
-  {
-    "date": "2026-10-20",
-    "time": "13:00",
-    "title": "Explore and Learn Playgroup",
-    "venue": "North Natomas Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn Playgroup, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/15781599",
-    "until": "14:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
-      "category": "other",
-      "quality": 1.45
-    }
-  },
-  {
-    "date": "2026-10-20",
-    "time": "15:45",
-    "title": "Homework Zone",
-    "venue": "Franklin Library",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 5+",
-    "blurb": "Students in kindergarten through eighth grade can get help on their homework.",
-    "source": "https://engage.saclibrary.org/event/16812409",
-    "until": "17:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.04,
-      "category": "other",
-      "quality": 1.24
-    }
-  },
-  {
-    "date": "2026-10-21",
-    "time": "10:00",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Belle Cooledge Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn Playgroup, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/15696190",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
-    }
-  },
-  {
-    "date": "2026-10-21",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Arden - Dimick Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/13177385",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
-    }
-  },
-  {
-    "date": "2026-10-21",
-    "time": "10:30",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Fair Oaks Library",
-    "city": "Fair Oaks",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/16104920",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
-    }
-  },
-  {
-    "date": "2026-10-21",
-    "time": "10:30",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Rancho Cordova Library",
-    "city": "Rancho Cordova",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/13865495",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.06,
-      "category": "other",
-      "quality": 1.41
-    }
-  },
-  {
-    "date": "2026-10-21",
-    "time": "10:30",
-    "title": "Explore and Learn Playgroup",
-    "venue": "South Natomas Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/16940440",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.07,
-      "category": "other",
-      "quality": 1.5
-    }
-  },
-  {
-    "date": "2026-10-21",
-    "time": "10:30",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Southgate Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/15621680",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.07,
-      "category": "other",
-      "quality": 1.51
-    }
-  },
-  {
-    "date": "2026-10-21",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Sylvan Oaks Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/15066241",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
-    }
-  },
-  {
-    "date": "2026-10-21",
-    "time": "10:30",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Valley Hi - North Laguna Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/16720304",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.06,
-      "category": "other",
-      "quality": 1.34
-    }
-  },
-  {
-    "date": "2026-10-21",
-    "time": "11:30",
-    "title": "Family Storytime",
-    "venue": "Arden - Dimick Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/13177571",
-    "until": "12:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
-      "category": "storytime",
-      "quality": 1.54
-    }
-  },
-  {
-    "date": "2026-10-21",
-    "time": "15:00",
-    "title": "Teen Space",
-    "venue": "Elk Grove Library",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 5+",
-    "blurb": "Meet other teens, do fun activities, and socialize and hang out in a space dedicated to you.",
-    "source": "https://engage.saclibrary.org/event/17400958",
-    "until": "17:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.56,
-      "stale_p": 0.05,
-      "category": "other",
-      "quality": 1.13
-    }
-  },
-  {
-    "date": "2026-10-21",
-    "time": "15:45",
-    "title": "Homework Zone",
-    "venue": "Franklin Library",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 5+",
-    "blurb": "Students in kindergarten through eighth grade can get help on their homework.",
-    "source": "https://engage.saclibrary.org/event/16812410",
-    "until": "17:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "other",
-      "quality": 1.21
-    }
-  },
-  {
-    "date": "2026-10-21",
-    "time": "16:00",
-    "title": "Explore and Learn Playgroup",
-    "venue": "North Highlands - Antelope Library",
-    "city": "North Highlands",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/15295062",
-    "until": "17:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.06,
-      "category": "other",
-      "quality": 1.42
-    }
-  },
-  {
-    "date": "2026-10-22",
-    "time": "10:00",
-    "title": "Family Storytime",
-    "venue": "North Highlands - Antelope Library",
-    "city": "North Highlands",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/16579893",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.56
-    }
-  },
-  {
-    "date": "2026-10-22",
-    "time": "10:00",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Robbie Waters Pocket - Greenhaven Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/14546265",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "other",
-      "quality": 1.45
-    }
-  },
-  {
-    "date": "2026-10-22",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Elk Grove Library",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17400927",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
-    }
-  },
-  {
-    "date": "2026-10-22",
-    "time": "10:30",
-    "title": "Baby Storytime",
-    "venue": "Fair Oaks Library",
-    "city": "Fair Oaks",
-    "region": "sac",
-    "ages": "Babies 0–18 mo",
-    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
-    "source": "https://engage.saclibrary.org/event/16049444",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.67
-    }
-  },
-  {
-    "date": "2026-10-22",
-    "time": "10:30",
-    "title": "Outdoor Storytime",
-    "venue": "McKinley Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17335559",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.5
-    }
-  },
-  {
-    "date": "2026-10-22",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Orangevale Library",
-    "city": "Orangevale",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17124716",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
-    }
-  },
-  {
-    "date": "2026-10-22",
-    "time": "15:45",
-    "title": "Homework Zone",
-    "venue": "Franklin Library",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 5+",
-    "blurb": "Students in kindergarten through eighth grade can get help on their homework.",
-    "source": "https://engage.saclibrary.org/event/16812411",
-    "until": "17:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
-    }
-  },
-  {
-    "date": "2026-10-23",
-    "time": "10:00",
-    "title": "Family Storytime",
-    "venue": "Belle Cooledge Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/14573962",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
-      "category": "storytime",
-      "quality": 1.52
-    }
-  },
-  {
-    "date": "2026-10-23",
-    "time": "10:00",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Franklin Library",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/16099342",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "other",
-      "quality": 1.5
-    }
-  },
-  {
-    "date": "2026-10-23",
-    "time": "10:00",
-    "title": "Family Storytime",
-    "venue": "Galt - Marian O. Lawrence Library",
-    "city": "Galt",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/16133273",
-    "until": "10:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
-    }
-  },
-  {
-    "date": "2026-10-23",
-    "time": "10:30",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Colonial Heights Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/16959149",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.06,
-      "category": "other",
-      "quality": 1.48
-    }
-  },
-  {
-    "date": "2026-10-23",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Rancho Cordova Library",
-    "city": "Rancho Cordova",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/14016595",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
-      "category": "storytime",
-      "quality": 1.65
-    }
-  },
-  {
-    "date": "2026-10-23",
-    "time": "10:30",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Rio Linda Library",
-    "city": "Rio Linda",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/17422160",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.05,
-      "category": "other",
-      "quality": 1.48
-    }
-  },
-  {
-    "date": "2026-10-23",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "South Natomas Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/16940689",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.05,
-      "category": "storytime",
-      "quality": 1.62
-    }
-  },
-  {
-    "date": "2026-10-23",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Southgate Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/16013984",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
-    }
-  },
-  {
-    "date": "2026-10-23",
-    "time": "10:30",
-    "title": "Baby Storytime",
-    "venue": "Sylvan Oaks Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Babies 0–18 mo",
-    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
-    "source": "https://engage.saclibrary.org/event/15066180",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
-      "category": "storytime",
-      "quality": 1.68
-    }
-  },
-  {
-    "date": "2026-10-23",
-    "time": "11:30",
-    "title": "Baby Storytime",
-    "venue": "Arden - Dimick Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Babies 0–18 mo",
-    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
-    "source": "https://engage.saclibrary.org/event/13178463",
-    "until": "12:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.04,
-      "category": "storytime",
-      "quality": 1.62
-    }
-  },
-  {
-    "date": "2026-10-23",
-    "time": "17:00",
-    "title": "Family Storytime",
-    "venue": "Martin Luther King, Jr. Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17099862",
-    "until": "18:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.05,
-      "category": "storytime",
-      "quality": 1.58
-    }
-  },
-  {
-    "date": "2026-10-24",
-    "time": "10:00",
-    "title": "Family Storytime",
-    "venue": "Franklin Library",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/16811818",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.57
-    }
-  },
-  {
-    "date": "2026-10-24",
-    "time": "10:00",
-    "title": "Family Storytime",
-    "venue": "Robbie Waters Pocket - Greenhaven Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/13689858",
-    "until": "12:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.58
-    }
-  },
-  {
-    "date": "2026-10-24",
-    "time": "10:30",
-    "title": "Baby Storytime",
-    "venue": "Central Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Babies 0–18 mo",
-    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
-    "source": "https://engage.saclibrary.org/event/16639468",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
-      "category": "storytime",
-      "quality": 1.58
-    }
-  },
-  {
-    "date": "2026-10-24",
-    "time": "10:30",
-    "title": "Hora de Cuentos Bilingüe - Bilingual Storytime",
-    "venue": "Colonial Heights Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children. Bilingual Spanish/English.",
-    "source": "https://engage.saclibrary.org/event/16053347",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 1.65
-    }
-  },
-  {
-    "date": "2026-10-24",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "North Natomas Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/15790923",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.65
-    }
-  },
-  {
-    "date": "2026-10-24",
-    "time": "15:30",
-    "title": "Hora de Cuentos Bilingüe - Bilingual Storytime",
-    "venue": "Central Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children. Bilingual Spanish/English.",
-    "source": "https://engage.saclibrary.org/event/16903229",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.07,
-      "category": "storytime",
-      "quality": 1.7
-    }
-  },
-  {
-    "date": "2026-10-27",
-    "time": "10:00",
-    "title": "Family Storytime",
-    "venue": "Walnut Grove Library",
-    "city": "Walnut Grove",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17265591",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.58
-    }
-  },
-  {
-    "date": "2026-10-27",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Arcade Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/15868885",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.07,
-      "category": "storytime",
-      "quality": 1.51
-    }
-  },
-  {
-    "date": "2026-10-27",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Central Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/16639541",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.55
-    }
-  },
-  {
-    "date": "2026-10-27",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Colonial Heights Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/16053387",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.61
-    }
-  },
-  {
-    "date": "2026-10-27",
-    "time": "10:30",
-    "title": "Hora de Cuentos Bilingüe / Bilingual Storytime",
-    "venue": "Rancho Cordova Library",
-    "city": "Rancho Cordova",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children. Bilingual Spanish/English.",
-    "source": "https://engage.saclibrary.org/event/17516665",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 1.71
-    }
-  },
-  {
-    "date": "2026-10-27",
-    "time": "11:00",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Orangevale Library",
-    "city": "Orangevale",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/17411150",
-    "until": "12:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "other",
-      "quality": 1.47
-    }
-  },
-  {
-    "date": "2026-10-27",
-    "time": "11:30",
-    "title": "Family Storytime",
-    "venue": "Del Paso Heights Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17339072",
-    "until": "12:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.53
-    }
-  },
-  {
-    "date": "2026-10-27",
-    "time": "12:00",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Ella K. McClatchy Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/15249804",
-    "until": "13:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.08,
-      "category": "other",
-      "quality": 1.47
-    }
-  },
-  {
-    "date": "2026-10-27",
-    "time": "13:00",
-    "title": "Explore and Learn Playgroup",
-    "venue": "North Natomas Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn Playgroup, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/15781601",
-    "until": "14:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "other",
-      "quality": 1.42
-    }
-  },
-  {
-    "date": "2026-10-27",
-    "time": "15:45",
-    "title": "Homework Zone",
-    "venue": "Franklin Library",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 5+",
-    "blurb": "Students in kindergarten through eighth grade can get help on their homework.",
-    "source": "https://engage.saclibrary.org/event/16812412",
-    "until": "17:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.06,
-      "category": "other",
-      "quality": 1.22
-    }
-  },
-  {
-    "date": "2026-10-28",
-    "time": "10:00",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Belle Cooledge Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn Playgroup, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/17352938",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "other",
-      "quality": 1.49
-    }
-  },
-  {
-    "date": "2026-10-28",
-    "time": "10:30",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Rancho Cordova Library",
-    "city": "Rancho Cordova",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/17437263",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.06,
-      "category": "other",
-      "quality": 1.51
-    }
-  },
-  {
-    "date": "2026-10-28",
-    "time": "10:30",
-    "title": "Explore and Learn Playgroup",
-    "venue": "South Natomas Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/16940441",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.07,
-      "category": "other",
-      "quality": 1.47
-    }
-  },
-  {
-    "date": "2026-10-28",
-    "time": "10:30",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Southgate Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/15621681",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.07,
-      "category": "other",
-      "quality": 1.42
-    }
-  },
-  {
-    "date": "2026-10-28",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Sylvan Oaks Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/15066242",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.07,
-      "category": "storytime",
-      "quality": 1.61
-    }
-  },
-  {
-    "date": "2026-10-28",
-    "time": "10:30",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Valley Hi - North Laguna Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/16720305",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.07,
-      "category": "other",
-      "quality": 1.35
-    }
-  },
-  {
-    "date": "2026-10-28",
-    "time": "15:00",
-    "title": "Teen Space",
-    "venue": "Elk Grove Library",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 5+",
-    "blurb": "Meet other teens, do fun activities, and socialize and hang out in a space dedicated to you.",
-    "source": "https://engage.saclibrary.org/event/17400959",
-    "until": "17:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.52,
-      "stale_p": 0.06,
-      "category": "other",
-      "quality": 1.09
-    }
-  },
-  {
-    "date": "2026-10-28",
-    "time": "15:45",
-    "title": "Homework Zone",
-    "venue": "Franklin Library",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 5+",
-    "blurb": "Students in kindergarten through eighth grade can get help on their homework.",
-    "source": "https://engage.saclibrary.org/event/16812413",
-    "until": "17:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.05,
-      "category": "other",
-      "quality": 1.25
-    }
-  },
-  {
-    "date": "2026-10-28",
-    "time": "16:00",
-    "title": "Teen Advisory Board - Franklin",
-    "venue": "Franklin Library",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 5+",
-    "blurb": "Do you want a say in what the library does for teens?",
-    "source": "https://engage.saclibrary.org/event/17004605",
-    "until": "17:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.45,
-      "stale_p": 0.06,
-      "category": "other",
-      "quality": 0.72
-    }
-  },
-  {
-    "date": "2026-10-28",
-    "time": "16:00",
-    "title": "Explore and Learn Playgroup",
-    "venue": "North Highlands - Antelope Library",
-    "city": "North Highlands",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/16100989",
-    "until": "17:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "other",
-      "quality": 1.51
-    }
-  },
-  {
-    "date": "2026-10-29",
-    "time": "10:00",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Robbie Waters Pocket - Greenhaven Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/14546266",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.08,
-      "category": "other",
-      "quality": 1.48
-    }
-  },
-  {
-    "date": "2026-10-29",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Elk Grove Library",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17400955",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.62
-    }
-  },
-  {
-    "date": "2026-10-29",
-    "time": "10:30",
-    "title": "Outdoor Storytime",
-    "venue": "McKinley Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17335560",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.47
-    }
-  },
-  {
-    "date": "2026-10-29",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Orangevale Library",
-    "city": "Orangevale",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17124717",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.07,
-      "category": "storytime",
-      "quality": 1.62
-    }
-  },
-  {
-    "date": "2026-10-29",
-    "time": "15:45",
-    "title": "Homework Zone",
-    "venue": "Franklin Library",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 5+",
-    "blurb": "Students in kindergarten through eighth grade can get help on their homework.",
-    "source": "https://engage.saclibrary.org/event/16812414",
-    "until": "17:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.07,
-      "category": "other",
-      "quality": 1.22
-    }
-  },
-  {
-    "date": "2026-10-30",
-    "time": "10:00",
-    "title": "Family Storytime",
-    "venue": "Belle Cooledge Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17353215",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.61
-    }
-  },
-  {
-    "date": "2026-10-30",
-    "time": "10:00",
-    "title": "Family Storytime",
-    "venue": "Galt - Marian O. Lawrence Library",
-    "city": "Galt",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/16133274",
-    "until": "10:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.58
-    }
-  },
-  {
-    "date": "2026-10-30",
-    "time": "10:30",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Colonial Heights Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/16959150",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.07,
-      "category": "other",
-      "quality": 1.46
-    }
-  },
-  {
-    "date": "2026-10-30",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Rancho Cordova Library",
-    "city": "Rancho Cordova",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17467583",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.62
-    }
-  },
-  {
-    "date": "2026-10-30",
-    "time": "10:30",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Rio Linda Library",
-    "city": "Rio Linda",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/17422161",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.06,
-      "category": "other",
-      "quality": 1.41
-    }
-  },
-  {
-    "date": "2026-10-30",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "South Natomas Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/16940690",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.58
-    }
-  },
-  {
-    "date": "2026-10-30",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Southgate Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/15567794",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.52
-    }
-  },
-  {
-    "date": "2026-10-30",
-    "time": "10:30",
-    "title": "Baby Storytime",
-    "venue": "Sylvan Oaks Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Babies 0–18 mo",
-    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
-    "source": "https://engage.saclibrary.org/event/15066181",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.69
-    }
-  },
-  {
-    "date": "2026-10-30",
-    "time": "17:00",
-    "title": "Family Storytime",
-    "venue": "Martin Luther King, Jr. Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17099863",
-    "until": "18:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 1.52
-    }
-  },
-  {
-    "date": "2026-10-31",
-    "time": "10:30",
-    "title": "Baby Storytime",
-    "venue": "Central Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Babies 0–18 mo",
-    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
-    "source": "https://engage.saclibrary.org/event/16639469",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.07,
-      "category": "storytime",
-      "quality": 1.59
-    }
-  },
-  {
-    "date": "2026-10-31",
-    "time": "15:30",
-    "title": "Hora de Cuentos Bilingüe - Bilingual Storytime",
-    "venue": "Central Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children. Bilingual Spanish/English.",
-    "source": "https://engage.saclibrary.org/event/16903230",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.12,
-      "category": "storytime",
-      "quality": 1.65
-    }
-  },
-  {
     "date": "2026-11-03",
     "time": "10:00",
     "title": "Family Storytime",
@@ -1937,10 +12,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
+      "kid_p": 0.95,
+      "stale_p": 0.29,
       "category": "storytime",
-      "quality": 1.53
+      "quality": 1.33
     }
   },
   {
@@ -1956,10 +31,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.04,
+      "kid_p": 0.95,
+      "stale_p": 0.28,
       "category": "storytime",
-      "quality": 1.59
+      "quality": 1.28
     }
   },
   {
@@ -1976,9 +51,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.31,
       "category": "storytime",
-      "quality": 1.7
+      "quality": 1.47
     }
   },
   {
@@ -1995,28 +70,28 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.29,
       "category": "storytime",
-      "quality": 1.6
+      "quality": 1.29
     }
   },
   {
     "date": "2026-11-03",
-    "time": "12:00",
+    "time": "13:00",
     "title": "Explore and Learn Playgroup",
-    "venue": "Ella K. McClatchy Library",
+    "venue": "North Natomas Library",
     "city": "Sacramento",
     "region": "sac",
     "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/15249805",
-    "until": "13:00",
+    "blurb": "Join us for Explore and Learn Playgroup, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/17789402",
+    "until": "14:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
+      "kid_p": 0.98,
+      "stale_p": 0.28,
       "category": "other",
-      "quality": 1.46
+      "quality": 1.26
     }
   },
   {
@@ -2033,9 +108,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.04,
+      "stale_p": 0.28,
       "category": "other",
-      "quality": 1.19
+      "quality": 1.14
     }
   },
   {
@@ -2051,10 +126,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
+      "kid_p": 0.98,
+      "stale_p": 0.13,
       "category": "other",
-      "quality": 1.51
+      "quality": 1.29
     }
   },
   {
@@ -2071,9 +146,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.04,
+      "stale_p": 0.13,
       "category": "other",
-      "quality": 1.43
+      "quality": 1.33
     }
   },
   {
@@ -2089,46 +164,8 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
-      "category": "other",
-      "quality": 1.44
-    }
-  },
-  {
-    "date": "2026-11-04",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Sylvan Oaks Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/15066243",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
-      "category": "storytime",
-      "quality": 1.57
-    }
-  },
-  {
-    "date": "2026-11-04",
-    "time": "10:30",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Valley Hi - North Laguna Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/16720306",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
+      "kid_p": 0.98,
+      "stale_p": 0.12,
       "category": "other",
       "quality": 1.35
     }
@@ -2146,10 +183,10 @@
     "until": "17:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.52,
-      "stale_p": 0.05,
+      "kid_p": 0.5,
+      "stale_p": 0.13,
       "category": "other",
-      "quality": 1.07
+      "quality": 0.89
     }
   },
   {
@@ -2166,9 +203,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.05,
+      "stale_p": 0.13,
       "category": "other",
-      "quality": 1.24
+      "quality": 1.17
     }
   },
   {
@@ -2185,9 +222,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 1.56
+      "quality": 1.35
     }
   },
   {
@@ -2202,8 +239,11 @@
     "source": "https://engage.saclibrary.org/event/14546267",
     "until": "11:30",
     "_jev": {
-      "verdict": "ERROR",
-      "error": "nse = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  Fi"
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.11,
+      "category": "other",
+      "quality": 1.44
     }
   },
   {
@@ -2220,9 +260,28 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 1.59
+      "quality": 1.35
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "time": "10:30",
+    "title": "Baby Storytime",
+    "venue": "Fair Oaks Library",
+    "city": "Fair Oaks",
+    "region": "sac",
+    "ages": "Babies 0–18 mo",
+    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
+    "source": "https://engage.saclibrary.org/event/17657473",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.09,
+      "category": "storytime",
+      "quality": 1.52
     }
   },
   {
@@ -2238,10 +297,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.04,
+      "kid_p": 0.97,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 1.54
+      "quality": 1.28
     }
   },
   {
@@ -2258,9 +317,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 1.56
+      "quality": 1.31
     }
   },
   {
@@ -2276,10 +335,10 @@
     "until": "17:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
+      "kid_p": 0.96,
+      "stale_p": 0.09,
       "category": "other",
-      "quality": 1.19
+      "quality": 1.18
     }
   },
   {
@@ -2296,9 +355,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 1.6
+      "quality": 1.4
     }
   },
   {
@@ -2314,10 +373,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
+      "kid_p": 0.98,
+      "stale_p": 0.08,
       "category": "other",
-      "quality": 1.44
+      "quality": 1.34
     }
   },
   {
@@ -2334,9 +393,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.08,
       "category": "storytime",
-      "quality": 1.56
+      "quality": 1.37
     }
   },
   {
@@ -2352,10 +411,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
+      "kid_p": 0.98,
+      "stale_p": 0.11,
       "category": "other",
-      "quality": 1.47
+      "quality": 1.35
     }
   },
   {
@@ -2372,9 +431,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.11,
       "category": "storytime",
-      "quality": 1.67
+      "quality": 1.36
     }
   },
   {
@@ -2391,9 +450,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.04,
+      "stale_p": 0.09,
       "category": "other",
-      "quality": 1.4
+      "quality": 1.36
     }
   },
   {
@@ -2410,9 +469,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 1.64
+      "quality": 1.38
     }
   },
   {
@@ -2429,28 +488,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.08,
       "category": "storytime",
-      "quality": 1.57
-    }
-  },
-  {
-    "date": "2026-11-06",
-    "time": "10:30",
-    "title": "Baby Storytime",
-    "venue": "Sylvan Oaks Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Babies 0–18 mo",
-    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
-    "source": "https://engage.saclibrary.org/event/15066182",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
-      "category": "storytime",
-      "quality": 1.76
+      "quality": 1.37
     }
   },
   {
@@ -2466,10 +506,10 @@
     "until": "18:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.05,
+      "kid_p": 0.97,
+      "stale_p": 0.08,
       "category": "storytime",
-      "quality": 1.6
+      "quality": 1.4
     }
   },
   {
@@ -2486,9 +526,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.1,
       "category": "storytime",
-      "quality": 1.53
+      "quality": 1.39
     }
   },
   {
@@ -2505,9 +545,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.08,
       "category": "storytime",
-      "quality": 1.61
+      "quality": 1.45
     }
   },
   {
@@ -2524,9 +564,28 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.11,
       "category": "storytime",
-      "quality": 1.63
+      "quality": 1.52
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "North Natomas Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/17732138",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.1,
+      "category": "storytime",
+      "quality": 1.35
     }
   },
   {
@@ -2542,10 +601,10 @@
     "until": "16:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
+      "kid_p": 0.96,
+      "stale_p": 0.09,
       "category": "storytime",
-      "quality": 1.63
+      "quality": 1.55
     }
   },
   {
@@ -2561,10 +620,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
+      "kid_p": 0.96,
+      "stale_p": 0.11,
       "category": "storytime",
-      "quality": 1.55
+      "quality": 1.32
     }
   },
   {
@@ -2581,9 +640,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.14,
       "category": "storytime",
-      "quality": 1.52
+      "quality": 1.36
     }
   },
   {
@@ -2600,9 +659,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.13,
       "category": "storytime",
-      "quality": 1.54
+      "quality": 1.37
     }
   },
   {
@@ -2618,10 +677,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
+      "kid_p": 0.96,
+      "stale_p": 0.14,
       "category": "storytime",
-      "quality": 1.57
+      "quality": 1.34
     }
   },
   {
@@ -2638,9 +697,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.12,
       "category": "storytime",
-      "quality": 1.54
+      "quality": 1.39
     }
   },
   {
@@ -2657,9 +716,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.15,
       "category": "storytime",
-      "quality": 1.72
+      "quality": 1.6
     }
   },
   {
@@ -2676,9 +735,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.12,
       "category": "other",
-      "quality": 1.46
+      "quality": 1.37
     }
   },
   {
@@ -2694,10 +753,10 @@
     "until": "12:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
+      "kid_p": 0.96,
+      "stale_p": 0.15,
       "category": "storytime",
-      "quality": 1.69
+      "quality": 1.4
     }
   },
   {
@@ -2714,9 +773,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.04,
+      "stale_p": 0.11,
       "category": "other",
-      "quality": 1.44
+      "quality": 1.41
     }
   },
   {
@@ -2733,9 +792,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.04,
+      "stale_p": 0.13,
       "category": "other",
-      "quality": 1.42
+      "quality": 1.38
     }
   },
   {
@@ -2752,9 +811,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.04,
+      "stale_p": 0.1,
       "category": "other",
-      "quality": 1.19
+      "quality": 1.24
     }
   },
   {
@@ -2770,10 +829,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
+      "kid_p": 0.98,
+      "stale_p": 0.09,
       "category": "other",
-      "quality": 1.45
+      "quality": 1.37
     }
   },
   {
@@ -2790,28 +849,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.12,
       "category": "other",
-      "quality": 1.39
-    }
-  },
-  {
-    "date": "2026-11-11",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Sylvan Oaks Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/15066244",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
-      "category": "storytime",
-      "quality": 1.65
+      "quality": 1.37
     }
   },
   {
@@ -2827,10 +867,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
+      "kid_p": 0.96,
+      "stale_p": 0.12,
       "category": "storytime",
-      "quality": 1.56
+      "quality": 1.34
     }
   },
   {
@@ -2846,10 +886,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
+      "kid_p": 0.98,
+      "stale_p": 0.12,
       "category": "other",
-      "quality": 1.49
+      "quality": 1.33
     }
   },
   {
@@ -2866,9 +906,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.13,
       "category": "storytime",
-      "quality": 1.59
+      "quality": 1.37
     }
   },
   {
@@ -2884,10 +924,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.05,
+      "kid_p": 0.98,
+      "stale_p": 0.13,
       "category": "storytime",
-      "quality": 1.58
+      "quality": 1.43
     }
   },
   {
@@ -2904,9 +944,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.04,
+      "stale_p": 0.12,
       "category": "storytime",
-      "quality": 1.46
+      "quality": 1.28
     }
   },
   {
@@ -2923,9 +963,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.14,
       "category": "storytime",
-      "quality": 1.57
+      "quality": 1.32
     }
   },
   {
@@ -2941,10 +981,10 @@
     "until": "12:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
+      "kid_p": 0.96,
+      "stale_p": 0.14,
       "category": "storytime",
-      "quality": 1.54
+      "quality": 1.48
     }
   },
   {
@@ -2961,9 +1001,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.04,
+      "stale_p": 0.1,
       "category": "other",
-      "quality": 1.2
+      "quality": 1.18
     }
   },
   {
@@ -2980,9 +1020,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.12,
       "category": "storytime",
-      "quality": 1.58
+      "quality": 1.37
     }
   },
   {
@@ -2998,10 +1038,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
+      "kid_p": 0.98,
+      "stale_p": 0.1,
       "category": "other",
-      "quality": 1.45
+      "quality": 1.36
     }
   },
   {
@@ -3018,9 +1058,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.12,
       "category": "storytime",
-      "quality": 1.52
+      "quality": 1.39
     }
   },
   {
@@ -3037,9 +1077,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.11,
       "category": "other",
-      "quality": 1.46
+      "quality": 1.39
     }
   },
   {
@@ -3055,10 +1095,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.04,
+      "kid_p": 0.97,
+      "stale_p": 0.14,
       "category": "storytime",
-      "quality": 1.62
+      "quality": 1.38
     }
   },
   {
@@ -3074,10 +1114,10 @@
     "until": "11:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
+      "kid_p": 0.98,
+      "stale_p": 0.11,
       "category": "other",
-      "quality": 1.4
+      "quality": 1.37
     }
   },
   {
@@ -3094,9 +1134,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.14,
       "category": "storytime",
-      "quality": 1.54
+      "quality": 1.33
     }
   },
   {
@@ -3113,9 +1153,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.15,
       "category": "storytime",
-      "quality": 1.55
+      "quality": 1.34
     }
   },
   {
@@ -3132,9 +1172,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.98,
-      "stale_p": 0.05,
+      "stale_p": 0.13,
       "category": "storytime",
-      "quality": 1.61
+      "quality": 1.55
     }
   },
   {
@@ -3151,9 +1191,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.12,
       "category": "storytime",
-      "quality": 1.63
+      "quality": 1.41
     }
   },
   {
@@ -3169,10 +1209,10 @@
     "until": "17:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.42,
-      "stale_p": 0.05,
+      "kid_p": 0.39,
+      "stale_p": 0.13,
       "category": "other",
-      "quality": 0.69
+      "quality": 0.74
     }
   },
   {
@@ -3188,10 +1228,10 @@
     "until": "18:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
+      "kid_p": 0.96,
+      "stale_p": 0.14,
       "category": "storytime",
-      "quality": 1.63
+      "quality": 1.38
     }
   },
   {
@@ -3207,10 +1247,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.04,
+      "kid_p": 0.97,
+      "stale_p": 0.16,
       "category": "storytime",
-      "quality": 1.56
+      "quality": 1.43
     }
   },
   {
@@ -3227,9 +1267,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.15,
       "category": "storytime",
-      "quality": 1.58
+      "quality": 1.48
     }
   },
   {
@@ -3245,10 +1285,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.04,
+      "kid_p": 0.97,
+      "stale_p": 0.12,
       "category": "storytime",
-      "quality": 1.57
+      "quality": 1.46
     }
   },
   {
@@ -3265,9 +1305,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.19,
       "category": "storytime",
-      "quality": 1.58
+      "quality": 1.6
     }
   },
   {
@@ -3284,9 +1324,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.04,
+      "stale_p": 0.14,
       "category": "storytime",
-      "quality": 1.59
+      "quality": 1.37
     }
   },
   {
@@ -3303,9 +1343,1928 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.05,
+      "stale_p": 0.13,
       "category": "storytime",
-      "quality": 1.67
+      "quality": 1.57
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "time": "10:00",
+    "title": "Family Storytime",
+    "venue": "Walnut Grove Library",
+    "city": "Walnut Grove",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/17265594",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.14,
+      "category": "storytime",
+      "quality": 1.4
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Arcade Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/15868888",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.14,
+      "category": "storytime",
+      "quality": 1.36
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Central Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/16639544",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.11,
+      "category": "storytime",
+      "quality": 1.41
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Colonial Heights Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/16053390",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.12,
+      "category": "storytime",
+      "quality": 1.35
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Fair Oaks Library",
+    "city": "Fair Oaks",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/16195352",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.11,
+      "category": "storytime",
+      "quality": 1.39
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "time": "10:30",
+    "title": "Hora de Cuentos Bilingüe / Bilingual Storytime",
+    "venue": "Rancho Cordova Library",
+    "city": "Rancho Cordova",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children. Bilingual Spanish/English.",
+    "source": "https://engage.saclibrary.org/event/13864986",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.16,
+      "category": "storytime",
+      "quality": 1.62
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "time": "11:00",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Orangevale Library",
+    "city": "Orangevale",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/17411152",
+    "until": "12:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.12,
+      "category": "other",
+      "quality": 1.39
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "time": "11:30",
+    "title": "Family Storytime",
+    "venue": "Del Paso Heights Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/17339074",
+    "until": "12:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.14,
+      "category": "storytime",
+      "quality": 1.37
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "time": "12:00",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Ella K. McClatchy Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/15249807",
+    "until": "13:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.13,
+      "category": "other",
+      "quality": 1.37
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "time": "13:00",
+    "title": "Explore and Learn Playgroup",
+    "venue": "North Natomas Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn Playgroup, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/15781603",
+    "until": "14:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.12,
+      "category": "other",
+      "quality": 1.27
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "time": "10:00",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Belle Cooledge Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn Playgroup, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/15696194",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.14,
+      "category": "other",
+      "quality": 1.34
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Arden - Dimick Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/13177388",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.15,
+      "category": "storytime",
+      "quality": 1.38
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "time": "10:30",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Fair Oaks Library",
+    "city": "Fair Oaks",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/16195381",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.13,
+      "category": "other",
+      "quality": 1.37
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "time": "10:30",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Rancho Cordova Library",
+    "city": "Rancho Cordova",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/13865571",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.15,
+      "category": "other",
+      "quality": 1.39
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "time": "10:30",
+    "title": "Explore and Learn Playgroup",
+    "venue": "South Natomas Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/16940708",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.14,
+      "category": "other",
+      "quality": 1.36
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "time": "10:30",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Southgate Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/15621684",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.13,
+      "category": "other",
+      "quality": 1.31
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Sylvan Oaks Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/15066245",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.17,
+      "category": "storytime",
+      "quality": 1.38
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "time": "10:30",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Valley Hi - North Laguna Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/16720307",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.17,
+      "category": "other",
+      "quality": 1.35
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "time": "11:30",
+    "title": "Family Storytime",
+    "venue": "Arden - Dimick Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/13177575",
+    "until": "12:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.15,
+      "category": "storytime",
+      "quality": 1.45
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "time": "15:00",
+    "title": "Teen Space",
+    "venue": "Elk Grove Library",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "Ages 5+",
+    "blurb": "Meet other teens, do fun activities, and socialize and hang out in a space dedicated to you.",
+    "source": "https://engage.saclibrary.org/event/17400961",
+    "until": "17:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.51,
+      "stale_p": 0.11,
+      "category": "other",
+      "quality": 0.88
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "time": "16:00",
+    "title": "STEAM for Kids",
+    "venue": "Franklin Library",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us while we explore different STEAM (Science, Technology, Engineering, Art, and Math) activities and projects.",
+    "source": "https://engage.saclibrary.org/event/15622306",
+    "until": "17:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.94,
+      "stale_p": 0.13,
+      "category": "other",
+      "quality": 1.21
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "time": "16:00",
+    "title": "Explore and Learn Playgroup",
+    "venue": "North Highlands - Antelope Library",
+    "city": "North Highlands",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/15295143",
+    "until": "17:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.11,
+      "category": "other",
+      "quality": 1.43
+    }
+  },
+  {
+    "date": "2026-11-19",
+    "time": "10:00",
+    "title": "Family Storytime",
+    "venue": "North Highlands - Antelope Library",
+    "city": "North Highlands",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/15395767",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.14,
+      "category": "storytime",
+      "quality": 1.44
+    }
+  },
+  {
+    "date": "2026-11-19",
+    "time": "10:00",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Robbie Waters Pocket - Greenhaven Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/14546269",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.14,
+      "category": "other",
+      "quality": 1.34
+    }
+  },
+  {
+    "date": "2026-11-19",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Elk Grove Library",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/17400929",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.16,
+      "category": "storytime",
+      "quality": 1.36
+    }
+  },
+  {
+    "date": "2026-11-19",
+    "time": "10:30",
+    "title": "Baby Storytime",
+    "venue": "Fair Oaks Library",
+    "city": "Fair Oaks",
+    "region": "sac",
+    "ages": "Babies 0–18 mo",
+    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
+    "source": "https://engage.saclibrary.org/event/16195380",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.12,
+      "category": "storytime",
+      "quality": 1.53
+    }
+  },
+  {
+    "date": "2026-11-19",
+    "time": "10:30",
+    "title": "Outdoor Storytime",
+    "venue": "McKinley Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/17335563",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.16,
+      "category": "storytime",
+      "quality": 1.28
+    }
+  },
+  {
+    "date": "2026-11-19",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Orangevale Library",
+    "city": "Orangevale",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/17124720",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.14,
+      "category": "storytime",
+      "quality": 1.35
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "time": "10:00",
+    "title": "Family Storytime",
+    "venue": "Belle Cooledge Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/14573966",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.13,
+      "category": "storytime",
+      "quality": 1.35
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "time": "10:00",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Franklin Library",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/16099346",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.13,
+      "category": "other",
+      "quality": 1.44
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "time": "10:00",
+    "title": "Family Storytime",
+    "venue": "Galt - Marian O. Lawrence Library",
+    "city": "Galt",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/16133277",
+    "until": "10:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.15,
+      "category": "storytime",
+      "quality": 1.36
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "time": "10:30",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Colonial Heights Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/16959153",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.16,
+      "category": "other",
+      "quality": 1.37
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Rancho Cordova Library",
+    "city": "Rancho Cordova",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/14016741",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.14,
+      "category": "storytime",
+      "quality": 1.4
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "time": "10:30",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Rio Linda Library",
+    "city": "Rio Linda",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/17560832",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.11,
+      "category": "other",
+      "quality": 1.31
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "South Natomas Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/16940745",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.19,
+      "category": "storytime",
+      "quality": 1.37
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Southgate Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/16013986",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.15,
+      "category": "storytime",
+      "quality": 1.34
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "time": "10:30",
+    "title": "Baby Storytime",
+    "venue": "Sylvan Oaks Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Babies 0–18 mo",
+    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
+    "source": "https://engage.saclibrary.org/event/15066184",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.12,
+      "category": "storytime",
+      "quality": 1.47
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "time": "11:30",
+    "title": "Baby Storytime",
+    "venue": "Arden - Dimick Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Babies 0–18 mo",
+    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
+    "source": "https://engage.saclibrary.org/event/13178467",
+    "until": "12:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.14,
+      "category": "storytime",
+      "quality": 1.45
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "time": "16:00",
+    "title": "Family Movie Time: Brother Bear",
+    "venue": "Franklin Library",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Watch a movie and enjoy activities.",
+    "source": "https://engage.saclibrary.org/event/16819741",
+    "until": "18:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.95,
+      "stale_p": 0.15,
+      "category": "other",
+      "quality": 1.08
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "time": "17:00",
+    "title": "Family Storytime",
+    "venue": "Martin Luther King, Jr. Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/17099866",
+    "until": "18:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.14,
+      "category": "storytime",
+      "quality": 1.3
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "time": "10:00",
+    "title": "Family Storytime",
+    "venue": "Franklin Library",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/16811822",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.16,
+      "category": "storytime",
+      "quality": 1.34
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "time": "10:00",
+    "title": "Family Storytime",
+    "venue": "Robbie Waters Pocket - Greenhaven Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/13689862",
+    "until": "12:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.13,
+      "category": "storytime",
+      "quality": 1.4
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "time": "10:30",
+    "title": "Baby Storytime",
+    "venue": "Central Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Babies 0–18 mo",
+    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
+    "source": "https://engage.saclibrary.org/event/16639472",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.12,
+      "category": "storytime",
+      "quality": 1.54
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "time": "10:30",
+    "title": "Hora de Cuentos Bilingüe - Bilingual Storytime",
+    "venue": "Colonial Heights Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children. Bilingual Spanish/English.",
+    "source": "https://engage.saclibrary.org/event/16053351",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.16,
+      "category": "storytime",
+      "quality": 1.53
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "North Natomas Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/15790925",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.16,
+      "category": "storytime",
+      "quality": 1.33
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "time": "15:30",
+    "title": "Hora de Cuentos Bilingüe - Bilingual Storytime",
+    "venue": "Central Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children. Bilingual Spanish/English.",
+    "source": "https://engage.saclibrary.org/event/16903233",
+    "until": "16:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.14,
+      "category": "storytime",
+      "quality": 1.53
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "time": "10:00",
+    "title": "Family Storytime",
+    "venue": "Walnut Grove Library",
+    "city": "Walnut Grove",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/17265595",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.16,
+      "category": "storytime",
+      "quality": 1.43
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Arcade Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/15868889",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.16,
+      "category": "storytime",
+      "quality": 1.37
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Central Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/16639545",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.14,
+      "category": "storytime",
+      "quality": 1.34
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Colonial Heights Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/16053391",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.15,
+      "category": "storytime",
+      "quality": 1.32
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Fair Oaks Library",
+    "city": "Fair Oaks",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/16195353",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.15,
+      "category": "storytime",
+      "quality": 1.29
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "time": "10:30",
+    "title": "Hora de Cuentos Bilingüe / Bilingual Storytime",
+    "venue": "Rancho Cordova Library",
+    "city": "Rancho Cordova",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children. Bilingual Spanish/English.",
+    "source": "https://engage.saclibrary.org/event/13864987",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.19,
+      "category": "storytime",
+      "quality": 1.58
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "time": "11:00",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Orangevale Library",
+    "city": "Orangevale",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/17411153",
+    "until": "12:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.15,
+      "category": "other",
+      "quality": 1.35
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "time": "11:30",
+    "title": "Family Storytime",
+    "venue": "Del Paso Heights Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/17339075",
+    "until": "12:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.17,
+      "category": "storytime",
+      "quality": 1.35
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "time": "12:00",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Ella K. McClatchy Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/15249808",
+    "until": "13:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.15,
+      "category": "other",
+      "quality": 1.33
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "time": "13:00",
+    "title": "Explore and Learn Playgroup",
+    "venue": "North Natomas Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn Playgroup, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/15781604",
+    "until": "14:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.15,
+      "category": "other",
+      "quality": 1.28
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "time": "10:00",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Belle Cooledge Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn Playgroup, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/15696195",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.16,
+      "category": "other",
+      "quality": 1.36
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Arden - Dimick Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/13177389",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.15,
+      "category": "storytime",
+      "quality": 1.44
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "time": "10:30",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Fair Oaks Library",
+    "city": "Fair Oaks",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/16195382",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.18,
+      "category": "other",
+      "quality": 1.37
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "time": "10:30",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Rancho Cordova Library",
+    "city": "Rancho Cordova",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/13865572",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.14,
+      "category": "other",
+      "quality": 1.33
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "time": "10:30",
+    "title": "Explore and Learn Playgroup",
+    "venue": "South Natomas Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/16940709",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.14,
+      "category": "other",
+      "quality": 1.34
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "time": "10:30",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Southgate Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/15621685",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.16,
+      "category": "other",
+      "quality": 1.31
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Sylvan Oaks Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/15066246",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.14,
+      "category": "storytime",
+      "quality": 1.42
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "time": "10:30",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Valley Hi - North Laguna Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/16720308",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.15,
+      "category": "other",
+      "quality": 1.29
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "time": "11:30",
+    "title": "Family Storytime",
+    "venue": "Arden - Dimick Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/13177577",
+    "until": "12:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.14,
+      "category": "storytime",
+      "quality": 1.42
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "time": "16:00",
+    "title": "Explore and Learn Playgroup",
+    "venue": "North Highlands - Antelope Library",
+    "city": "North Highlands",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/15295164",
+    "until": "17:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.14,
+      "category": "other",
+      "quality": 1.36
+    }
+  },
+  {
+    "date": "2026-11-27",
+    "time": "10:00",
+    "title": "Family Storytime",
+    "venue": "Galt - Marian O. Lawrence Library",
+    "city": "Galt",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/16133278",
+    "until": "10:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.14,
+      "category": "storytime",
+      "quality": 1.31
+    }
+  },
+  {
+    "date": "2026-11-28",
+    "time": "10:00",
+    "title": "Family Storytime",
+    "venue": "Franklin Library",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/16811823",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.14,
+      "category": "storytime",
+      "quality": 1.34
+    }
+  },
+  {
+    "date": "2026-11-28",
+    "time": "10:00",
+    "title": "Family Storytime",
+    "venue": "Robbie Waters Pocket - Greenhaven Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/13689863",
+    "until": "12:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.14,
+      "category": "storytime",
+      "quality": 1.42
+    }
+  },
+  {
+    "date": "2026-11-28",
+    "time": "10:30",
+    "title": "Baby Storytime",
+    "venue": "Central Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Babies 0–18 mo",
+    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
+    "source": "https://engage.saclibrary.org/event/16639473",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.11,
+      "category": "storytime",
+      "quality": 1.42
+    }
+  },
+  {
+    "date": "2026-11-28",
+    "time": "10:30",
+    "title": "Hora de Cuentos Bilingüe - Bilingual Storytime",
+    "venue": "Colonial Heights Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children. Bilingual Spanish/English.",
+    "source": "https://engage.saclibrary.org/event/16053352",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.15,
+      "category": "storytime",
+      "quality": 1.52
+    }
+  },
+  {
+    "date": "2026-11-28",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "North Natomas Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/15790926",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.18,
+      "category": "storytime",
+      "quality": 1.37
+    }
+  },
+  {
+    "date": "2026-11-28",
+    "time": "15:30",
+    "title": "Hora de Cuentos Bilingüe - Bilingual Storytime",
+    "venue": "Central Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children. Bilingual Spanish/English.",
+    "source": "https://engage.saclibrary.org/event/16903234",
+    "until": "16:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.16,
+      "category": "storytime",
+      "quality": 1.49
+    }
+  },
+  {
+    "date": "2026-12-01",
+    "time": "10:00",
+    "title": "Family Storytime",
+    "venue": "Walnut Grove Library",
+    "city": "Walnut Grove",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/17265596",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.13,
+      "category": "storytime",
+      "quality": 1.46
+    }
+  },
+  {
+    "date": "2026-12-01",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Arcade Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/15868890",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.09,
+      "category": "storytime",
+      "quality": 1.43
+    }
+  },
+  {
+    "date": "2026-12-01",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Central Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/16639546",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.1,
+      "category": "storytime",
+      "quality": 1.52
+    }
+  },
+  {
+    "date": "2026-12-01",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Colonial Heights Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/16053392",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.12,
+      "category": "storytime",
+      "quality": 1.46
+    }
+  },
+  {
+    "date": "2026-12-01",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Fair Oaks Library",
+    "city": "Fair Oaks",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/16499883",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.13,
+      "category": "storytime",
+      "quality": 1.38
+    }
+  },
+  {
+    "date": "2026-12-01",
+    "time": "10:30",
+    "title": "Hora de Cuentos Bilingüe / Bilingual Storytime",
+    "venue": "Rancho Cordova Library",
+    "city": "Rancho Cordova",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children. Bilingual Spanish/English.",
+    "source": "https://engage.saclibrary.org/event/13865017",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.17,
+      "category": "storytime",
+      "quality": 1.68
+    }
+  },
+  {
+    "date": "2026-12-01",
+    "time": "11:00",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Orangevale Library",
+    "city": "Orangevale",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/17411154",
+    "until": "12:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.11,
+      "category": "other",
+      "quality": 1.35
+    }
+  },
+  {
+    "date": "2026-12-01",
+    "time": "11:30",
+    "title": "Family Storytime",
+    "venue": "Del Paso Heights Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/17339076",
+    "until": "12:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.09,
+      "category": "storytime",
+      "quality": 1.43
+    }
+  },
+  {
+    "date": "2026-12-01",
+    "time": "12:00",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Ella K. McClatchy Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/15249809",
+    "until": "13:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.1,
+      "category": "other",
+      "quality": 1.38
+    }
+  },
+  {
+    "date": "2026-12-01",
+    "time": "13:00",
+    "title": "Explore and Learn Playgroup",
+    "venue": "North Natomas Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn Playgroup, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/15781605",
+    "until": "14:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.09,
+      "category": "other",
+      "quality": 1.31
+    }
+  },
+  {
+    "date": "2026-12-01",
+    "time": "15:45",
+    "title": "Homework Zone",
+    "venue": "Franklin Library",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "Ages 5+",
+    "blurb": "Students in kindergarten through eighth grade can get help on their homework.",
+    "source": "https://engage.saclibrary.org/event/16812420",
+    "until": "17:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.1,
+      "category": "other",
+      "quality": 1.2
+    }
+  },
+  {
+    "date": "2026-12-02",
+    "time": "10:00",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Belle Cooledge Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn Playgroup, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/15696196",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.09,
+      "category": "other",
+      "quality": 1.37
+    }
+  },
+  {
+    "date": "2026-12-02",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Arden - Dimick Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/13177390",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.09,
+      "category": "storytime",
+      "quality": 1.37
+    }
+  },
+  {
+    "date": "2026-12-02",
+    "time": "10:30",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Fair Oaks Library",
+    "city": "Fair Oaks",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/16499944",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.08,
+      "category": "other",
+      "quality": 1.39
+    }
+  },
+  {
+    "date": "2026-12-02",
+    "time": "10:30",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Rancho Cordova Library",
+    "city": "Rancho Cordova",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/13865592",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.09,
+      "category": "other",
+      "quality": 1.37
+    }
+  },
+  {
+    "date": "2026-12-02",
+    "time": "10:30",
+    "title": "Explore and Learn Playgroup",
+    "venue": "South Natomas Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/16941331",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.09,
+      "category": "other",
+      "quality": 1.3
+    }
+  },
+  {
+    "date": "2026-12-02",
+    "time": "10:30",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Southgate Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/15621686",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.09,
+      "category": "other",
+      "quality": 1.34
+    }
+  },
+  {
+    "date": "2026-12-02",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Sylvan Oaks Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/15066247",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.09,
+      "category": "storytime",
+      "quality": 1.41
+    }
+  },
+  {
+    "date": "2026-12-02",
+    "time": "10:30",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Valley Hi - North Laguna Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/16720309",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.13,
+      "category": "other",
+      "quality": 1.29
+    }
+  },
+  {
+    "date": "2026-12-02",
+    "time": "11:30",
+    "title": "Family Storytime",
+    "venue": "Arden - Dimick Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/13177579",
+    "until": "12:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.1,
+      "category": "storytime",
+      "quality": 1.43
+    }
+  },
+  {
+    "date": "2026-12-02",
+    "time": "15:45",
+    "title": "Homework Zone",
+    "venue": "Franklin Library",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "Ages 5+",
+    "blurb": "Students in kindergarten through eighth grade can get help on their homework.",
+    "source": "https://engage.saclibrary.org/event/16812421",
+    "until": "17:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.96,
+      "stale_p": 0.09,
+      "category": "other",
+      "quality": 1.18
+    }
+  },
+  {
+    "date": "2026-12-02",
+    "time": "16:00",
+    "title": "Explore and Learn Playgroup",
+    "venue": "North Highlands - Antelope Library",
+    "city": "North Highlands",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/15295435",
+    "until": "17:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.08,
+      "category": "other",
+      "quality": 1.37
+    }
+  },
+  {
+    "date": "2026-12-03",
+    "time": "10:00",
+    "title": "Family Storytime",
+    "venue": "North Highlands - Antelope Library",
+    "city": "North Highlands",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/15389018",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.09,
+      "category": "storytime",
+      "quality": 1.37
+    }
+  },
+  {
+    "date": "2026-12-03",
+    "time": "10:00",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Robbie Waters Pocket - Greenhaven Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/14546270",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.09,
+      "category": "other",
+      "quality": 1.39
+    }
+  },
+  {
+    "date": "2026-12-03",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Elk Grove Library",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/17400930",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.08,
+      "category": "storytime",
+      "quality": 1.46
+    }
+  },
+  {
+    "date": "2026-12-03",
+    "time": "10:30",
+    "title": "Baby Storytime",
+    "venue": "Fair Oaks Library",
+    "city": "Fair Oaks",
+    "region": "sac",
+    "ages": "Babies 0–18 mo",
+    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
+    "source": "https://engage.saclibrary.org/event/16499955",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.06,
+      "category": "storytime",
+      "quality": 1.58
+    }
+  },
+  {
+    "date": "2026-12-03",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Orangevale Library",
+    "city": "Orangevale",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/17124721",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.11,
+      "category": "storytime",
+      "quality": 1.48
+    }
+  },
+  {
+    "date": "2026-12-03",
+    "time": "15:45",
+    "title": "Homework Zone",
+    "venue": "Franklin Library",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "Ages 5+",
+    "blurb": "Students in kindergarten through eighth grade can get help on their homework.",
+    "source": "https://engage.saclibrary.org/event/16812422",
+    "until": "17:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.07,
+      "category": "other",
+      "quality": 1.18
     }
   }
 ]

@@ -1,100 +1,5 @@
 [
   {
-    "date": "2026-10-17",
-    "time": "10:00",
-    "title": "Nature of Reading",
-    "venue": "Effie Yeaw Nature Center",
-    "city": "Carmichael",
-    "region": "sac",
-    "ages": "Ages 5–8",
-    "blurb": "Spark a love of reading—and nature—with our Nature of Reading Program! Designed for ages 5 - 8.",
-    "source": "https://www.effieyeawnature.org/event-details/nature-of-reading-2026-10-17-22-00",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 1.44
-    }
-  },
-  {
-    "date": "2026-10-25",
-    "time": "18:00",
-    "title": "Creatures of the Night Effie Yeaw Nature Center",
-    "venue": "Effie Yeaw Nature Center",
-    "city": "Carmichael",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "When the sun sets and the full moon rises, a whole new world comes alive at Effie Yeaw Nature Center. Join us for a spellbinding evening dedicated to the fascinating, misunderstood, and delightfully spooky creatures that",
-    "source": "https://www.effieyeawnature.org/event-details/creatures-of-the-night-effie-yeaw-nature-center-2",
-    "until": "20:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.76,
-      "stale_p": 0.06,
-      "category": "outdoor",
-      "quality": 1.32
-    }
-  },
-  {
-    "date": "2026-10-29",
-    "time": "15:45",
-    "title": "FALL FAMILY MINI PHOTOGRAPHY SESSION",
-    "venue": "Effie Yeaw Nature Center",
-    "city": "Carmichael",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "This is a Effie Yeaw Nature Center Current Membership only event. Come take your Fall holiday photos at Effie Yeaw Nature Center.",
-    "source": "https://www.effieyeawnature.org/event-details/fall-family-mini-photography-session-2026-10-29-15-45",
-    "until": "16:05",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.1,
-      "category": "seasonal",
-      "quality": 1.12
-    }
-  },
-  {
-    "date": "2026-10-29",
-    "time": "16:25",
-    "title": "FALL FAMILY MINI PHOTOGRAPHY SESSION",
-    "venue": "Effie Yeaw Nature Center",
-    "city": "Carmichael",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "This is a Effie Yeaw Nature Center Current Membership only event. Come take your Fall holiday photos at Effie Yeaw Nature Center.",
-    "source": "https://www.effieyeawnature.org/event-details/fall-family-mini-photography-session-2026-10-29-16-25",
-    "until": "16:45",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.1,
-      "category": "seasonal",
-      "quality": 1.11
-    }
-  },
-  {
-    "date": "2026-10-29",
-    "time": "18:00",
-    "title": "2026 ARNHA Annual Meeting",
-    "venue": "Effie Yeaw Nature Center",
-    "city": "Carmichael",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us for a celebration of volunteers and achievements, and hear all the latest organization planning and updates. Scroll down for the RSVP button.",
-    "source": "https://www.effieyeawnature.org/event-details/2026-arnha-annual-meeting",
-    "until": "19:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.77,
-      "stale_p": 0.09,
-      "category": "other",
-      "quality": 1.39
-    }
-  },
-  {
     "date": "2026-11-05",
     "time": "15:45",
     "title": "FALL FAMILY MINI PHOTOGRAPHY SESSION",
@@ -107,10 +12,10 @@
     "until": "16:05",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.06,
+      "kid_p": 0.94,
+      "stale_p": 0.21,
       "category": "seasonal",
-      "quality": 1.11
+      "quality": 1.1
     }
   },
   {
@@ -126,10 +31,10 @@
     "until": "16:05",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.92,
-      "stale_p": 0.05,
+      "kid_p": 0.94,
+      "stale_p": 0.13,
       "category": "seasonal",
-      "quality": 0.86
+      "quality": 0.93
     }
   },
   {
@@ -146,9 +51,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.06,
+      "stale_p": 0.19,
       "category": "seasonal",
-      "quality": 1.15
+      "quality": 1.06
     }
   },
   {
@@ -165,28 +70,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.94,
-      "stale_p": 0.07,
+      "stale_p": 0.19,
       "category": "outdoor",
-      "quality": 1.67
-    }
-  },
-  {
-    "date": "2026-11-07",
-    "time": "10:00",
-    "title": "Thank you!",
-    "venue": "Effie Yeaw Nature Center",
-    "city": "Carmichael",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Music of Nature with Grow Resilient Families Saturday, November 7 | 10:00 - 10:45 AM Location: Effie Yeaw Nature Center Outdoor Amphitheater",
-    "source": "https://www.effieyeawnature.org/events-list",
-    "until": "10:45",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.06,
-      "category": "outdoor",
-      "quality": 1.47
+      "quality": 1.53
     }
   },
   {
@@ -197,15 +83,15 @@
     "city": "Carmichael",
     "region": "sac",
     "ages": "All ages",
-    "blurb": "A evening out seeing the stars at Effie Yeaw Nature Center. Come and experience seeing the constellations yourself on this guided event. We will walk through the trails as we head down to the river.",
+    "blurb": "A evening out on the trails and time to take in the night sky by the river at Effie Yeaw Nature Center.",
     "source": "https://www.effieyeawnature.org/event-details/star-gazing-event",
     "until": "18:45",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.84,
-      "stale_p": 0.05,
+      "kid_p": 0.88,
+      "stale_p": 0.1,
       "category": "outdoor",
-      "quality": 1.52
+      "quality": 1.37
     }
   },
   {
@@ -221,10 +107,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.04,
+      "kid_p": 0.97,
+      "stale_p": 0.12,
       "category": "outdoor",
-      "quality": 1.54
+      "quality": 1.33
     }
   },
   {
@@ -241,9 +127,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.06,
+      "stale_p": 0.22,
       "category": "seasonal",
-      "quality": 1.12
+      "quality": 1.09
     }
   },
   {
@@ -260,9 +146,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.05,
+      "stale_p": 0.2,
       "category": "seasonal",
-      "quality": 1.18
+      "quality": 1.06
     }
   },
   {
@@ -278,10 +164,10 @@
     "until": "11:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.04,
+      "kid_p": 0.97,
+      "stale_p": 0.17,
       "category": "storytime",
-      "quality": 1.39
+      "quality": 1.32
     }
   },
   {
@@ -297,10 +183,10 @@
     "until": "14:00",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.93,
-      "stale_p": 0.05,
+      "kid_p": 0.92,
+      "stale_p": 0.17,
       "category": "seasonal",
-      "quality": 1.56
+      "quality": 1.39
     }
   },
   {
@@ -316,10 +202,67 @@
     "until": "17:30",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.79,
-      "stale_p": 0.05,
+      "kid_p": 0.78,
+      "stale_p": 0.22,
       "category": "outdoor",
-      "quality": 1.68
+      "quality": 1.57
+    }
+  },
+  {
+    "date": "2026-11-28",
+    "time": "10:00",
+    "title": "EYNC Annual Holiday Market",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Come stroll the booths, sip something warm, and find the perfect holiday treasures—handmade, local, and inspired by nature.",
+    "source": "https://www.effieyeawnature.org/event-details/eync-annual-holiday-market",
+    "until": "15:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.94,
+      "stale_p": 0.15,
+      "category": "seasonal",
+      "quality": 1.57
+    }
+  },
+  {
+    "date": "2026-12-08",
+    "time": "09:30",
+    "title": "Mighty Acorns",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "Ages 2–5",
+    "blurb": "Discover the joy of learning through nature at the Effie Yeaw Nature Center! Designed for ages 2 - 5. Click on a date below to register.",
+    "source": "https://www.effieyeawnature.org/event-details/mighty-acorns-2026-12-08-09-30",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.98,
+      "stale_p": 0.1,
+      "category": "outdoor",
+      "quality": 1.34
+    }
+  },
+  {
+    "date": "2026-12-12",
+    "time": "10:00",
+    "title": "Nature of Reading",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "Ages 5–8",
+    "blurb": "Spark a love of reading—and nature—with our Nature of Reading Program! Designed for ages 5 - 8.",
+    "source": "https://www.effieyeawnature.org/event-details/nature-of-reading-2026-12-12-22-00",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "LIST",
+      "kid_p": 0.97,
+      "stale_p": 0.09,
+      "category": "storytime",
+      "quality": 1.33
     }
   }
 ]
