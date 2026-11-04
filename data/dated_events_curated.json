@@ -14,7 +14,7 @@
       "kid_p": 0.97,
       "stale_p": 0.09,
       "category": "other",
-      "quality": 1.55
+      "quality": 1.49
     }
   },
   {
@@ -32,7 +32,7 @@
       "kid_p": 0.97,
       "stale_p": 0.08,
       "category": "other",
-      "quality": 1.51
+      "quality": 1.46
     }
   },
   {
@@ -50,7 +50,7 @@
       "kid_p": 0.97,
       "stale_p": 0.1,
       "category": "other",
-      "quality": 1.38
+      "quality": 1.36
     }
   }
 ]

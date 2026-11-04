@@ -10,8 +10,8 @@
     "source": "https://www.saczoo.org/special-events",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.14,
+      "kid_p": 0.95,
+      "stale_p": 0.13,
       "category": "outdoor",
       "quality": 1.34
     }
@@ -28,7 +28,7 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.92,
-      "stale_p": 0.12,
+      "stale_p": 0.13,
       "category": "outdoor",
       "quality": 1.0
     }
@@ -44,10 +44,10 @@
     "source": "https://www.saczoo.org/special-events",
     "_jev": {
       "verdict": "LIST",
-      "kid_p": 0.89,
-      "stale_p": 0.11,
+      "kid_p": 0.88,
+      "stale_p": 0.12,
       "category": "seasonal",
-      "quality": 1.11
+      "quality": 1.13
     }
   },
   {
@@ -62,8 +62,8 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.95,
-      "stale_p": 0.1,
-      "category": "other",
+      "stale_p": 0.13,
+      "category": "museum",
       "quality": 1.12
     }
   },
@@ -79,9 +79,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.96,
-      "stale_p": 0.08,
+      "stale_p": 0.09,
       "category": "outdoor",
-      "quality": 1.36
+      "quality": 1.37
     }
   },
   {
@@ -96,9 +96,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.93,
-      "stale_p": 0.09,
+      "stale_p": 0.08,
       "category": "outdoor",
-      "quality": 1.0
+      "quality": 1.02
     }
   },
   {
@@ -115,7 +115,7 @@
       "kid_p": 0.96,
       "stale_p": 0.1,
       "category": "outdoor",
-      "quality": 1.35
+      "quality": 1.38
     }
   },
   {
@@ -130,9 +130,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.97,
-      "stale_p": 0.13,
+      "stale_p": 0.18,
       "category": "seasonal",
-      "quality": 1.45
+      "quality": 1.47
     }
   },
   {
@@ -149,7 +149,7 @@
       "kid_p": 0.96,
       "stale_p": 0.08,
       "category": "outdoor",
-      "quality": 1.37
+      "quality": 1.39
     }
   },
   {
@@ -166,7 +166,7 @@
       "kid_p": 0.96,
       "stale_p": 0.09,
       "category": "outdoor",
-      "quality": 1.35
+      "quality": 1.4
     }
   }
 ]

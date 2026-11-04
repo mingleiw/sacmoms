@@ -13,9 +13,9 @@
     "_jev": {
       "verdict": "LIST",
       "kid_p": 0.93,
-      "stale_p": 0.15,
+      "stale_p": 0.14,
       "category": "outdoor",
-      "quality": 1.59
+      "quality": 1.64
     }
   }
 ]
