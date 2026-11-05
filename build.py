@@ -99,6 +99,11 @@ SEASONAL_CONFIG = {
         'title': 'Halloween',
         'sub': 'Pumpkin patches, haunted trails &amp; more near %s',
     },
+    'fall': {
+        'icon': 'i-park',
+        'title': 'Fall',
+        'sub': 'Fall fun near %s',
+    },
 }
 
 GROUPS = [('sf', 'San Francisco'), ('marin', 'Marin & North Bay'), ('east', 'East Bay'),
@@ -1409,25 +1414,21 @@ def root_page(towns_with_pages, places, base):
       <div class="carousel" id="seasonCarousel" aria-roledescription="carousel" aria-label="Seasonal highlights">
         <div class="carousel-viewport">
           <div class="carousel-track">
-            <a class="carousel-slide" href="elk-grove/#seasonal" aria-label="Keema's Pumpkin Farm, Elk Grove">
-              <img src="assets/photos/keemas-pumpkin-2026.webp" alt="Keema's Pumpkin Farm pumpkin patch" width="980" height="490" fetchpriority="high" />
-              <span class="carousel-cap"><strong>Keema's Pumpkin Farm</strong><span>Elk Grove &middot; Sep 25 &ndash; Nov 1</span></span>
+            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Author Visit: Jenna Johnson, Fairytale Town">
+              <img src="assets/photos/fairytale-town.webp" alt="Author visit at Fairytale Town" width="980" height="490" fetchpriority="high" />
+              <span class="carousel-cap"><strong>Author Visit: Jenna Johnson</strong><span>Fairytale Town &middot; Nov 7</span></span>
             </a>
-            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Dave's Pumpkin Patch, West Sacramento">
-              <img src="assets/photos/daves-pumpkin-2026.webp" alt="Dave's Pumpkin Patch" width="980" height="490" loading="lazy" />
-              <span class="carousel-cap"><strong>Dave's Pumpkin Patch</strong><span>West Sacramento &middot; Oct 3 &ndash; 31</span></span>
+            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Star Gazing Event, Effie Yeaw Nature Center">
+              <img src="assets/photos/effie-yeaw-nature-center.webp" alt="Star gazing at Effie Yeaw Nature Center" width="980" height="490" loading="lazy" />
+              <span class="carousel-cap"><strong>Star Gazing Event</strong><span>Effie Yeaw Nature Center &middot; Nov 8</span></span>
             </a>
-            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Cool Patch Pumpkins, Dixon">
-              <img src="assets/photos/cool-patch-2026.webp" alt="Cool Patch Pumpkins corn maze" width="980" height="490" loading="lazy" />
-              <span class="carousel-cap"><strong>Cool Patch Pumpkins</strong><span>Dixon &middot; Sep 26 &ndash; Nov 1</span></span>
+            <a class="carousel-slide" href="elk-grove/#seasonal" aria-label="Second Tuesday Crafternoon, A Seat at the Table Books">
+              <img src="assets/photos/a-seat-at-the-table-books.webp" alt="Crafternoon at A Seat at the Table Books" width="980" height="490" loading="lazy" />
+              <span class="carousel-cap"><strong>Second Tuesday Crafternoon</strong><span>A Seat at the Table Books &middot; Nov 10</span></span>
             </a>
-            <a class="carousel-slide" href="elk-grove/#seasonal" aria-label="Elk Grove Giant Pumpkin Festival">
-              <img src="assets/photos/eg-pumpkin-fest-2026.webp" alt="Elk Grove Giant Pumpkin Festival" width="980" height="490" loading="lazy" />
-              <span class="carousel-cap"><strong>Elk Grove Giant Pumpkin Festival</strong><span>Elk Grove Park &middot; Oct 3 &ndash; 4</span></span>
-            </a>
-            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Boo at the Zoo, Sacramento Zoo">
-              <img src="assets/photos/sac-zoo-boo-2026.webp" alt="Boo at the Zoo at the Sacramento Zoo" width="980" height="490" loading="lazy" />
-              <span class="carousel-cap"><strong>Boo at the Zoo</strong><span>Sacramento Zoo &middot; Oct 24 &ndash; 31</span></span>
+            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Nature Explorers, Sacramento Zoo">
+              <img src="assets/photos/sacramento-zoo.webp" alt="Nature Explorers at the Sacramento Zoo" width="980" height="490" loading="lazy" />
+              <span class="carousel-cap"><strong>Nature Explorers</strong><span>Sacramento Zoo &middot; Nov 14</span></span>
             </a>
           </div>
         </div>

@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-11-07",
+    "time": "11:00",
+    "until": "12:30",
+    "title": "Author Visit: Jenna Johnson",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Come meet Jenna Johnson on Saturday, November 7th, from 11 AM – 12:30 PM!",
+    "source": "https://www.fairytaletown.org/calendar/author-visit-jenna-johnson/",
+    "seasonal": "fall",
+    "group": "fairytale-town",
+    "origin": "curated"
+  },
+  {
+    "date": "2026-11-08",
+    "time": "16:45",
+    "until": "18:45",
+    "title": "Star Gazing Event",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "A evening out on the trails and time to take in the night sky by the river at Effie Yeaw Nature Center.",
+    "source": "https://www.effieyeawnature.org/event-details/star-gazing-event",
+    "seasonal": "fall",
+    "group": "effie-yeaw-nature-center",
+    "origin": "curated"
+  },
+  {
     "date": "2026-11-10",
     "time": "17:00",
     "title": "Second Tuesday Crafternoon at A Seat at the Table Books",
@@ -12,7 +42,38 @@
     "_jev": {
       "verdict": "ERROR",
       "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
+    },
+    "seasonal": "fall",
+    "group": "a-seat-at-the-table-books",
+    "origin": "curated"
+  },
+  {
+    "date": "2026-11-11",
+    "time": "10:00",
+    "until": "13:00",
+    "title": "Veterans Day Parade",
+    "venue": "Cosumnes CSD Administration Office",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Elk Grove's annual Veterans Day Parade: Reading of the Names ceremony at 10 am, parade at 11:11 am, then a community picnic open to the public.",
+    "source": "https://www.cosumnescsd.gov/Calendar.aspx?EID=1650",
+    "seasonal": "fall",
+    "group": "veterans-day-parade",
+    "origin": "curated"
+  },
+  {
+    "date": "2026-11-14",
+    "title": "Nature Explorers",
+    "venue": "Sacramento Zoo",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Drop-in open play exploring the natural world, second Saturday monthly.",
+    "source": "https://www.saczoo.org/special-events",
+    "seasonal": "fall",
+    "group": "sacramento-zoo",
+    "origin": "curated"
   },
   {
     "date": "2026-12-08",
@@ -27,7 +88,23 @@
     "_jev": {
       "verdict": "ERROR",
       "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
+    },
+    "seasonal": "fall",
+    "group": "a-seat-at-the-table-books",
+    "origin": "curated"
+  },
+  {
+    "date": "2026-12-12",
+    "title": "Nature Explorers",
+    "venue": "Sacramento Zoo",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Drop-in open play exploring the natural world, second Saturday monthly.",
+    "source": "https://www.saczoo.org/special-events",
+    "seasonal": "fall",
+    "group": "sacramento-zoo",
+    "origin": "curated"
   },
   {
     "date": "2027-01-12",
@@ -42,6 +119,9 @@
     "_jev": {
       "verdict": "ERROR",
       "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
+    },
+    "seasonal": "fall",
+    "group": "a-seat-at-the-table-books",
+    "origin": "curated"
   }
 ]
