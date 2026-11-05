@@ -1,214 +1,5 @@
 [
   {
-    "date": "2026-11-03",
-    "time": "10:00",
-    "title": "Family Storytime",
-    "venue": "Walnut Grove Library",
-    "city": "Walnut Grove",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17265592",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.33,
-      "category": "storytime",
-      "quality": 1.28
-    }
-  },
-  {
-    "date": "2026-11-03",
-    "time": "10:30",
-    "title": "Family Storytime",
-    "venue": "Central Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/16639542",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.3,
-      "category": "storytime",
-      "quality": 1.26
-    }
-  },
-  {
-    "date": "2026-11-03",
-    "time": "10:30",
-    "title": "Hora de Cuentos Bilingüe / Bilingual Storytime",
-    "venue": "Rancho Cordova Library",
-    "city": "Rancho Cordova",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children. Bilingual Spanish/English.",
-    "source": "https://engage.saclibrary.org/event/14770001",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.31,
-      "category": "storytime",
-      "quality": 1.48
-    }
-  },
-  {
-    "date": "2026-11-03",
-    "time": "11:30",
-    "title": "Family Storytime",
-    "venue": "Del Paso Heights Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Songs, rhymes, movement and stories for young children.",
-    "source": "https://engage.saclibrary.org/event/17339073",
-    "until": "12:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.27,
-      "category": "storytime",
-      "quality": 1.35
-    }
-  },
-  {
-    "date": "2026-11-03",
-    "time": "13:00",
-    "title": "Explore and Learn Playgroup",
-    "venue": "North Natomas Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn Playgroup, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/17789402",
-    "until": "14:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.29,
-      "category": "other",
-      "quality": 1.3
-    }
-  },
-  {
-    "date": "2026-11-03",
-    "time": "15:45",
-    "title": "Homework Zone",
-    "venue": "Franklin Library",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 5+",
-    "blurb": "Students in kindergarten through eighth grade can get help on their homework.",
-    "source": "https://engage.saclibrary.org/event/16812415",
-    "until": "17:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.28,
-      "category": "other",
-      "quality": 1.14
-    }
-  },
-  {
-    "date": "2026-11-04",
-    "time": "10:00",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Belle Cooledge Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn Playgroup, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/17352939",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.13,
-      "category": "other",
-      "quality": 1.3
-    }
-  },
-  {
-    "date": "2026-11-04",
-    "time": "10:30",
-    "title": "Explore and Learn Playgroup",
-    "venue": "South Natomas Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/16940707",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.13,
-      "category": "other",
-      "quality": 1.33
-    }
-  },
-  {
-    "date": "2026-11-04",
-    "time": "10:30",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Southgate Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/15621682",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.12,
-      "category": "other",
-      "quality": 1.37
-    }
-  },
-  {
-    "date": "2026-11-04",
-    "time": "15:00",
-    "title": "Teen Space",
-    "venue": "Elk Grove Library",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 5+",
-    "blurb": "Meet other teens, do fun activities, and socialize and hang out in a space dedicated to you.",
-    "source": "https://engage.saclibrary.org/event/17400960",
-    "until": "17:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.5,
-      "stale_p": 0.13,
-      "category": "other",
-      "quality": 0.87
-    }
-  },
-  {
-    "date": "2026-11-04",
-    "time": "15:45",
-    "title": "Homework Zone",
-    "venue": "Franklin Library",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 5+",
-    "blurb": "Students in kindergarten through eighth grade can get help on their homework.",
-    "source": "https://engage.saclibrary.org/event/16812416",
-    "until": "17:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.13,
-      "category": "other",
-      "quality": 1.17
-    }
-  },
-  {
     "date": "2026-11-05",
     "time": "10:00",
     "title": "Family Storytime",
@@ -220,11 +11,8 @@
     "source": "https://engage.saclibrary.org/event/17038174",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.1,
-      "category": "storytime",
-      "quality": 1.27
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -239,11 +27,8 @@
     "source": "https://engage.saclibrary.org/event/14546267",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.09,
-      "category": "other",
-      "quality": 1.42
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -258,11 +43,8 @@
     "source": "https://engage.saclibrary.org/event/17400956",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.11,
-      "category": "storytime",
-      "quality": 1.34
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -277,11 +59,8 @@
     "source": "https://engage.saclibrary.org/event/17657473",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 1.58
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -296,11 +75,8 @@
     "source": "https://engage.saclibrary.org/event/17335561",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.12,
-      "category": "storytime",
-      "quality": 1.32
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -315,11 +91,8 @@
     "source": "https://engage.saclibrary.org/event/17124718",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.12,
-      "category": "storytime",
-      "quality": 1.37
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -334,11 +107,8 @@
     "source": "https://engage.saclibrary.org/event/16812417",
     "until": "17:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.13,
-      "category": "other",
-      "quality": 1.16
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -353,11 +123,8 @@
     "source": "https://engage.saclibrary.org/event/17353216",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.09,
-      "category": "storytime",
-      "quality": 1.4
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -372,11 +139,8 @@
     "source": "https://engage.saclibrary.org/event/16099344",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.1,
-      "category": "other",
-      "quality": 1.36
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -391,11 +155,8 @@
     "source": "https://engage.saclibrary.org/event/16133275",
     "until": "10:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 1.32
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -410,11 +171,8 @@
     "source": "https://engage.saclibrary.org/event/16959151",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.11,
-      "category": "other",
-      "quality": 1.35
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -429,11 +187,8 @@
     "source": "https://engage.saclibrary.org/event/17467584",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.09,
-      "category": "storytime",
-      "quality": 1.43
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -448,11 +203,8 @@
     "source": "https://engage.saclibrary.org/event/17560830",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.1,
-      "category": "other",
-      "quality": 1.36
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -467,11 +219,8 @@
     "source": "https://engage.saclibrary.org/event/16940743",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.1,
-      "category": "storytime",
-      "quality": 1.38
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -486,11 +235,8 @@
     "source": "https://engage.saclibrary.org/event/15567795",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.1,
-      "category": "storytime",
-      "quality": 1.4
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -505,11 +251,8 @@
     "source": "https://engage.saclibrary.org/event/17099864",
     "until": "18:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 1.38
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -524,11 +267,8 @@
     "source": "https://engage.saclibrary.org/event/16811820",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.11,
-      "category": "storytime",
-      "quality": 1.34
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -543,11 +283,8 @@
     "source": "https://engage.saclibrary.org/event/16639470",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 1.49
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -562,11 +299,8 @@
     "source": "https://engage.saclibrary.org/event/16053349",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.11,
-      "category": "storytime",
-      "quality": 1.62
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -581,11 +315,8 @@
     "source": "https://engage.saclibrary.org/event/17732138",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.1,
-      "category": "storytime",
-      "quality": 1.34
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -600,11 +331,8 @@
     "source": "https://engage.saclibrary.org/event/16903231",
     "until": "16:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 1.51
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -619,11 +347,8 @@
     "source": "https://engage.saclibrary.org/event/17265593",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.11,
-      "category": "storytime",
-      "quality": 1.44
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -638,11 +363,8 @@
     "source": "https://engage.saclibrary.org/event/15868887",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.09,
-      "category": "storytime",
-      "quality": 1.4
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -657,11 +379,8 @@
     "source": "https://engage.saclibrary.org/event/16639543",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.13,
-      "category": "storytime",
-      "quality": 1.38
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -676,11 +395,8 @@
     "source": "https://engage.saclibrary.org/event/16053389",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.17,
-      "category": "storytime",
-      "quality": 1.37
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -695,11 +411,8 @@
     "source": "https://engage.saclibrary.org/event/16195351",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.41
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -714,11 +427,8 @@
     "source": "https://engage.saclibrary.org/event/13864985",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.16,
-      "category": "storytime",
-      "quality": 1.6
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -733,11 +443,8 @@
     "source": "https://engage.saclibrary.org/event/17411151",
     "until": "12:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.12,
-      "category": "other",
-      "quality": 1.43
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -752,11 +459,8 @@
     "source": "https://engage.saclibrary.org/event/17339081",
     "until": "12:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.38
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -771,11 +475,8 @@
     "source": "https://engage.saclibrary.org/event/15249806",
     "until": "13:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.11,
-      "category": "other",
-      "quality": 1.42
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -790,11 +491,8 @@
     "source": "https://engage.saclibrary.org/event/15781602",
     "until": "14:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.1,
-      "category": "other",
-      "quality": 1.32
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -809,49 +507,8 @@
     "source": "https://engage.saclibrary.org/event/16812418",
     "until": "17:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.11,
-      "category": "other",
-      "quality": 1.19
-    }
-  },
-  {
-    "date": "2026-11-11",
-    "time": "10:00",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Belle Cooledge Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn Playgroup, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/15696193",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.11,
-      "category": "other",
-      "quality": 1.33
-    }
-  },
-  {
-    "date": "2026-11-11",
-    "time": "10:30",
-    "title": "Explore and Learn Playgroup",
-    "venue": "Southgate Library",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "Ages 0–5",
-    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
-    "source": "https://engage.saclibrary.org/event/15621683",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.11,
-      "category": "other",
-      "quality": 1.36
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -866,11 +523,8 @@
     "source": "https://engage.saclibrary.org/event/15395735",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.13,
-      "category": "storytime",
-      "quality": 1.32
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -885,11 +539,8 @@
     "source": "https://engage.saclibrary.org/event/14546268",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.14,
-      "category": "other",
-      "quality": 1.35
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -904,11 +555,8 @@
     "source": "https://engage.saclibrary.org/event/17400928",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.38
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -923,11 +571,8 @@
     "source": "https://engage.saclibrary.org/event/16195379",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.11,
-      "category": "storytime",
-      "quality": 1.38
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -942,11 +587,8 @@
     "source": "https://engage.saclibrary.org/event/17335562",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.11,
-      "category": "storytime",
-      "quality": 1.27
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -961,11 +603,8 @@
     "source": "https://engage.saclibrary.org/event/17124719",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.38
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -980,11 +619,8 @@
     "source": "https://engage.saclibrary.org/event/17339612",
     "until": "12:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.17,
-      "category": "storytime",
-      "quality": 1.38
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -999,11 +635,8 @@
     "source": "https://engage.saclibrary.org/event/16812419",
     "until": "17:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.11,
-      "category": "other",
-      "quality": 1.2
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1018,11 +651,8 @@
     "source": "https://engage.saclibrary.org/event/14573965",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.39
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1037,11 +667,8 @@
     "source": "https://engage.saclibrary.org/event/16099345",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.15,
-      "category": "other",
-      "quality": 1.35
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1056,11 +683,8 @@
     "source": "https://engage.saclibrary.org/event/16133276",
     "until": "10:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.12,
-      "category": "storytime",
-      "quality": 1.32
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1075,11 +699,8 @@
     "source": "https://engage.saclibrary.org/event/16959152",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.14,
-      "category": "other",
-      "quality": 1.37
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1094,11 +715,8 @@
     "source": "https://engage.saclibrary.org/event/14016740",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.32
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1113,11 +731,8 @@
     "source": "https://engage.saclibrary.org/event/17560831",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.12,
-      "category": "other",
-      "quality": 1.33
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1132,11 +747,8 @@
     "source": "https://engage.saclibrary.org/event/16940744",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.13,
-      "category": "storytime",
-      "quality": 1.37
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1151,11 +763,8 @@
     "source": "https://engage.saclibrary.org/event/16013985",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.41
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1170,11 +779,8 @@
     "source": "https://engage.saclibrary.org/event/15066183",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.11,
-      "category": "storytime",
-      "quality": 1.46
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1189,11 +795,8 @@
     "source": "https://engage.saclibrary.org/event/13178466",
     "until": "12:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.09,
-      "category": "storytime",
-      "quality": 1.41
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1208,11 +811,8 @@
     "source": "https://engage.saclibrary.org/event/17004606",
     "until": "17:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.4,
-      "stale_p": 0.13,
-      "category": "other",
-      "quality": 0.81
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1227,11 +827,8 @@
     "source": "https://engage.saclibrary.org/event/17099865",
     "until": "18:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.1,
-      "category": "storytime",
-      "quality": 1.39
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1246,11 +843,8 @@
     "source": "https://engage.saclibrary.org/event/16811821",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.2,
-      "category": "storytime",
-      "quality": 1.45
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1265,11 +859,8 @@
     "source": "https://engage.saclibrary.org/event/13689861",
     "until": "12:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.16,
-      "category": "storytime",
-      "quality": 1.4
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1284,11 +875,8 @@
     "source": "https://engage.saclibrary.org/event/16639471",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.09,
-      "category": "storytime",
-      "quality": 1.46
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1303,11 +891,8 @@
     "source": "https://engage.saclibrary.org/event/16053350",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.58
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1322,11 +907,8 @@
     "source": "https://engage.saclibrary.org/event/15790924",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.13,
-      "category": "storytime",
-      "quality": 1.34
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1341,11 +923,8 @@
     "source": "https://engage.saclibrary.org/event/16903232",
     "until": "16:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.59
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1360,11 +939,8 @@
     "source": "https://engage.saclibrary.org/event/17265594",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.11,
-      "category": "storytime",
-      "quality": 1.37
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1379,11 +955,8 @@
     "source": "https://engage.saclibrary.org/event/15868888",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.16,
-      "category": "storytime",
-      "quality": 1.4
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1398,11 +971,8 @@
     "source": "https://engage.saclibrary.org/event/16639544",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.13,
-      "category": "storytime",
-      "quality": 1.42
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1417,11 +987,8 @@
     "source": "https://engage.saclibrary.org/event/16053390",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.15,
-      "category": "storytime",
-      "quality": 1.36
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1436,11 +1003,8 @@
     "source": "https://engage.saclibrary.org/event/16195352",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.32
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1455,11 +1019,8 @@
     "source": "https://engage.saclibrary.org/event/13864986",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.19,
-      "category": "storytime",
-      "quality": 1.62
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1474,11 +1035,8 @@
     "source": "https://engage.saclibrary.org/event/17411152",
     "until": "12:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.11,
-      "category": "other",
-      "quality": 1.37
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1493,11 +1051,8 @@
     "source": "https://engage.saclibrary.org/event/17339074",
     "until": "12:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.32
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1512,11 +1067,8 @@
     "source": "https://engage.saclibrary.org/event/15249807",
     "until": "13:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.12,
-      "category": "other",
-      "quality": 1.33
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1531,11 +1083,8 @@
     "source": "https://engage.saclibrary.org/event/15781603",
     "until": "14:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.11,
-      "category": "other",
-      "quality": 1.33
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1550,11 +1099,8 @@
     "source": "https://engage.saclibrary.org/event/15696194",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.12,
-      "category": "other",
-      "quality": 1.3
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1569,11 +1115,8 @@
     "source": "https://engage.saclibrary.org/event/13177388",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.15,
-      "category": "storytime",
-      "quality": 1.36
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1588,11 +1131,8 @@
     "source": "https://engage.saclibrary.org/event/16195381",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.14,
-      "category": "other",
-      "quality": 1.34
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1607,11 +1147,8 @@
     "source": "https://engage.saclibrary.org/event/13865571",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.15,
-      "category": "other",
-      "quality": 1.34
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1626,11 +1163,8 @@
     "source": "https://engage.saclibrary.org/event/16940708",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.14,
-      "category": "other",
-      "quality": 1.37
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1645,11 +1179,8 @@
     "source": "https://engage.saclibrary.org/event/15621684",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.12,
-      "category": "other",
-      "quality": 1.36
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1664,11 +1195,8 @@
     "source": "https://engage.saclibrary.org/event/15066245",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.18,
-      "category": "storytime",
-      "quality": 1.37
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1683,11 +1211,8 @@
     "source": "https://engage.saclibrary.org/event/16720307",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "other",
-      "quality": 1.3
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1702,11 +1227,8 @@
     "source": "https://engage.saclibrary.org/event/13177575",
     "until": "12:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.39
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1721,11 +1243,8 @@
     "source": "https://engage.saclibrary.org/event/17400961",
     "until": "17:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.5,
-      "stale_p": 0.12,
-      "category": "other",
-      "quality": 0.84
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1740,11 +1259,8 @@
     "source": "https://engage.saclibrary.org/event/15622306",
     "until": "17:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.12,
-      "category": "other",
-      "quality": 1.23
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1759,11 +1275,8 @@
     "source": "https://engage.saclibrary.org/event/15295143",
     "until": "17:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.12,
-      "category": "other",
-      "quality": 1.34
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1778,11 +1291,8 @@
     "source": "https://engage.saclibrary.org/event/15395767",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.18,
-      "category": "storytime",
-      "quality": 1.31
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1797,11 +1307,8 @@
     "source": "https://engage.saclibrary.org/event/14546269",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.14,
-      "category": "other",
-      "quality": 1.4
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1816,11 +1323,8 @@
     "source": "https://engage.saclibrary.org/event/17400929",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.33
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1835,11 +1339,8 @@
     "source": "https://engage.saclibrary.org/event/16195380",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.11,
-      "category": "storytime",
-      "quality": 1.47
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1854,11 +1355,8 @@
     "source": "https://engage.saclibrary.org/event/17335563",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.31
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1873,11 +1371,8 @@
     "source": "https://engage.saclibrary.org/event/17124720",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.19,
-      "category": "storytime",
-      "quality": 1.36
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1892,11 +1387,8 @@
     "source": "https://engage.saclibrary.org/event/14573966",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.39
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1911,11 +1403,8 @@
     "source": "https://engage.saclibrary.org/event/16099346",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.13,
-      "category": "other",
-      "quality": 1.34
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1930,11 +1419,8 @@
     "source": "https://engage.saclibrary.org/event/16133277",
     "until": "10:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.12,
-      "category": "storytime",
-      "quality": 1.32
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1949,11 +1435,8 @@
     "source": "https://engage.saclibrary.org/event/16959153",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.13,
-      "category": "other",
-      "quality": 1.38
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1968,11 +1451,8 @@
     "source": "https://engage.saclibrary.org/event/14016741",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.19,
-      "category": "storytime",
-      "quality": 1.4
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -1987,11 +1467,8 @@
     "source": "https://engage.saclibrary.org/event/17560832",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.12,
-      "category": "other",
-      "quality": 1.35
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2006,11 +1483,8 @@
     "source": "https://engage.saclibrary.org/event/16940745",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.39
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2025,11 +1499,8 @@
     "source": "https://engage.saclibrary.org/event/16013986",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.38
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2044,11 +1515,8 @@
     "source": "https://engage.saclibrary.org/event/15066184",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.12,
-      "category": "storytime",
-      "quality": 1.55
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2063,11 +1531,8 @@
     "source": "https://engage.saclibrary.org/event/13178467",
     "until": "12:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.11,
-      "category": "storytime",
-      "quality": 1.49
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2082,11 +1547,8 @@
     "source": "https://engage.saclibrary.org/event/16819741",
     "until": "18:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.13,
-      "category": "other",
-      "quality": 1.09
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2101,11 +1563,8 @@
     "source": "https://engage.saclibrary.org/event/17099866",
     "until": "18:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.19,
-      "category": "storytime",
-      "quality": 1.32
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2120,11 +1579,8 @@
     "source": "https://engage.saclibrary.org/event/16811822",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.37
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2139,11 +1595,8 @@
     "source": "https://engage.saclibrary.org/event/13689862",
     "until": "12:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.15,
-      "category": "storytime",
-      "quality": 1.4
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2158,11 +1611,8 @@
     "source": "https://engage.saclibrary.org/event/16639472",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.13,
-      "category": "storytime",
-      "quality": 1.44
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2177,11 +1627,8 @@
     "source": "https://engage.saclibrary.org/event/16053351",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.17,
-      "category": "storytime",
-      "quality": 1.47
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2196,11 +1643,8 @@
     "source": "https://engage.saclibrary.org/event/15790925",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.16,
-      "category": "storytime",
-      "quality": 1.34
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2215,11 +1659,8 @@
     "source": "https://engage.saclibrary.org/event/16903233",
     "until": "16:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.15,
-      "category": "storytime",
-      "quality": 1.54
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2234,11 +1675,8 @@
     "source": "https://engage.saclibrary.org/event/17265595",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.16,
-      "category": "storytime",
-      "quality": 1.3
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2253,11 +1691,8 @@
     "source": "https://engage.saclibrary.org/event/15868889",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.17,
-      "category": "storytime",
-      "quality": 1.36
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2272,11 +1707,8 @@
     "source": "https://engage.saclibrary.org/event/16639545",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.17,
-      "category": "storytime",
-      "quality": 1.37
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2291,11 +1723,8 @@
     "source": "https://engage.saclibrary.org/event/16053391",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.16,
-      "category": "storytime",
-      "quality": 1.34
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2310,11 +1739,8 @@
     "source": "https://engage.saclibrary.org/event/16195353",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.17,
-      "category": "storytime",
-      "quality": 1.35
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2329,11 +1755,8 @@
     "source": "https://engage.saclibrary.org/event/13864987",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.17,
-      "category": "storytime",
-      "quality": 1.53
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2348,11 +1771,8 @@
     "source": "https://engage.saclibrary.org/event/17411153",
     "until": "12:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.13,
-      "category": "other",
-      "quality": 1.38
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2367,11 +1787,8 @@
     "source": "https://engage.saclibrary.org/event/17339075",
     "until": "12:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.15,
-      "category": "storytime",
-      "quality": 1.35
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2386,11 +1803,8 @@
     "source": "https://engage.saclibrary.org/event/15249808",
     "until": "13:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.15,
-      "category": "other",
-      "quality": 1.34
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2405,11 +1819,8 @@
     "source": "https://engage.saclibrary.org/event/15781604",
     "until": "14:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.17,
-      "category": "other",
-      "quality": 1.3
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2424,11 +1835,8 @@
     "source": "https://engage.saclibrary.org/event/15696195",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.16,
-      "category": "other",
-      "quality": 1.3
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2443,11 +1851,8 @@
     "source": "https://engage.saclibrary.org/event/13177389",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.15,
-      "category": "storytime",
-      "quality": 1.41
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2462,11 +1867,8 @@
     "source": "https://engage.saclibrary.org/event/16195382",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.13,
-      "category": "other",
-      "quality": 1.36
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2481,11 +1883,8 @@
     "source": "https://engage.saclibrary.org/event/13865572",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.14,
-      "category": "other",
-      "quality": 1.32
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2500,11 +1899,8 @@
     "source": "https://engage.saclibrary.org/event/16940709",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.15,
-      "category": "other",
-      "quality": 1.35
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2519,11 +1915,8 @@
     "source": "https://engage.saclibrary.org/event/15621685",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.16,
-      "category": "other",
-      "quality": 1.36
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2538,11 +1931,8 @@
     "source": "https://engage.saclibrary.org/event/15066246",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.16,
-      "category": "storytime",
-      "quality": 1.37
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2557,11 +1947,8 @@
     "source": "https://engage.saclibrary.org/event/16720308",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.17,
-      "category": "other",
-      "quality": 1.31
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2576,11 +1963,8 @@
     "source": "https://engage.saclibrary.org/event/13177577",
     "until": "12:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.16,
-      "category": "storytime",
-      "quality": 1.38
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2595,11 +1979,8 @@
     "source": "https://engage.saclibrary.org/event/15295164",
     "until": "17:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.15,
-      "category": "other",
-      "quality": 1.36
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2614,11 +1995,8 @@
     "source": "https://engage.saclibrary.org/event/16133278",
     "until": "10:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.13,
-      "category": "storytime",
-      "quality": 1.34
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2633,11 +2011,8 @@
     "source": "https://engage.saclibrary.org/event/16811823",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.34
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2652,11 +2027,8 @@
     "source": "https://engage.saclibrary.org/event/13689863",
     "until": "12:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.16,
-      "category": "storytime",
-      "quality": 1.35
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2671,11 +2043,8 @@
     "source": "https://engage.saclibrary.org/event/16639473",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.13,
-      "category": "storytime",
-      "quality": 1.41
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2690,11 +2059,8 @@
     "source": "https://engage.saclibrary.org/event/16053352",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.15,
-      "category": "storytime",
-      "quality": 1.5
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2709,11 +2075,8 @@
     "source": "https://engage.saclibrary.org/event/15790926",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.17,
-      "category": "storytime",
-      "quality": 1.36
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2728,11 +2091,8 @@
     "source": "https://engage.saclibrary.org/event/16903234",
     "until": "16:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.53
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2747,11 +2107,8 @@
     "source": "https://engage.saclibrary.org/event/17265596",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.09,
-      "category": "storytime",
-      "quality": 1.52
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2766,11 +2123,8 @@
     "source": "https://engage.saclibrary.org/event/15868890",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.09,
-      "category": "storytime",
-      "quality": 1.36
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2785,11 +2139,8 @@
     "source": "https://engage.saclibrary.org/event/16639546",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.09,
-      "category": "storytime",
-      "quality": 1.44
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2804,11 +2155,8 @@
     "source": "https://engage.saclibrary.org/event/16053392",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.1,
-      "category": "storytime",
-      "quality": 1.35
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2823,11 +2171,8 @@
     "source": "https://engage.saclibrary.org/event/16499883",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.1,
-      "category": "storytime",
-      "quality": 1.46
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2842,11 +2187,8 @@
     "source": "https://engage.saclibrary.org/event/13865017",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.6
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2861,11 +2203,8 @@
     "source": "https://engage.saclibrary.org/event/17411154",
     "until": "12:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.1,
-      "category": "other",
-      "quality": 1.39
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2880,11 +2219,8 @@
     "source": "https://engage.saclibrary.org/event/17339076",
     "until": "12:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.09,
-      "category": "storytime",
-      "quality": 1.44
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2899,11 +2235,8 @@
     "source": "https://engage.saclibrary.org/event/15249809",
     "until": "13:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.09,
-      "category": "other",
-      "quality": 1.36
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2918,11 +2251,8 @@
     "source": "https://engage.saclibrary.org/event/15781605",
     "until": "14:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.09,
-      "category": "other",
-      "quality": 1.31
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2937,11 +2267,8 @@
     "source": "https://engage.saclibrary.org/event/16812420",
     "until": "17:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.1,
-      "category": "other",
-      "quality": 1.17
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2956,11 +2283,8 @@
     "source": "https://engage.saclibrary.org/event/15696196",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.09,
-      "category": "other",
-      "quality": 1.32
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2975,11 +2299,8 @@
     "source": "https://engage.saclibrary.org/event/13177390",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.1,
-      "category": "storytime",
-      "quality": 1.39
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -2994,11 +2315,8 @@
     "source": "https://engage.saclibrary.org/event/16499944",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.09,
-      "category": "other",
-      "quality": 1.36
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -3013,11 +2331,8 @@
     "source": "https://engage.saclibrary.org/event/13865592",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.1,
-      "category": "other",
-      "quality": 1.33
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -3032,11 +2347,8 @@
     "source": "https://engage.saclibrary.org/event/16941331",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.09,
-      "category": "other",
-      "quality": 1.33
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -3051,11 +2363,8 @@
     "source": "https://engage.saclibrary.org/event/15621686",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.1,
-      "category": "other",
-      "quality": 1.38
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -3070,11 +2379,8 @@
     "source": "https://engage.saclibrary.org/event/15066247",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.1,
-      "category": "storytime",
-      "quality": 1.47
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -3089,11 +2395,8 @@
     "source": "https://engage.saclibrary.org/event/16720309",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "other",
-      "quality": 1.29
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -3108,11 +2411,8 @@
     "source": "https://engage.saclibrary.org/event/13177579",
     "until": "12:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.11,
-      "category": "storytime",
-      "quality": 1.41
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -3127,11 +2427,8 @@
     "source": "https://engage.saclibrary.org/event/16812421",
     "until": "17:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.08,
-      "category": "other",
-      "quality": 1.23
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -3146,11 +2443,8 @@
     "source": "https://engage.saclibrary.org/event/15295435",
     "until": "17:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.09,
-      "category": "other",
-      "quality": 1.4
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -3165,11 +2459,8 @@
     "source": "https://engage.saclibrary.org/event/15389018",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 1.34
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -3184,11 +2475,8 @@
     "source": "https://engage.saclibrary.org/event/14546270",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.09,
-      "category": "other",
-      "quality": 1.39
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -3203,11 +2491,8 @@
     "source": "https://engage.saclibrary.org/event/17400930",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 1.38
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -3222,11 +2507,8 @@
     "source": "https://engage.saclibrary.org/event/16499955",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 1.59
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -3241,11 +2523,8 @@
     "source": "https://engage.saclibrary.org/event/17124721",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.09,
-      "category": "storytime",
-      "quality": 1.47
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -3260,11 +2539,184 @@
     "source": "https://engage.saclibrary.org/event/16812422",
     "until": "17:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.08,
-      "category": "other",
-      "quality": 1.17
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-04",
+    "time": "10:00",
+    "title": "Family Storytime",
+    "venue": "Belle Cooledge Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/14573967",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-04",
+    "time": "10:00",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Franklin Library",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/16099347",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-04",
+    "time": "10:00",
+    "title": "Family Storytime",
+    "venue": "Galt - Marian O. Lawrence Library",
+    "city": "Galt",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/16133279",
+    "until": "10:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-04",
+    "time": "10:30",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Colonial Heights Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/16959154",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-04",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Rancho Cordova Library",
+    "city": "Rancho Cordova",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/14016755",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-04",
+    "time": "10:30",
+    "title": "Explore and Learn Playgroup",
+    "venue": "Rio Linda Library",
+    "city": "Rio Linda",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Join us for Explore and Learn, a program with fun learning activities for young children and their caregivers to meet others and play together.",
+    "source": "https://engage.saclibrary.org/event/17561106",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-04",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "South Natomas Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/16941611",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-04",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "Southgate Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/16013987",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-04",
+    "time": "10:30",
+    "title": "Baby Storytime",
+    "venue": "Sylvan Oaks Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Babies 0–18 mo",
+    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
+    "source": "https://engage.saclibrary.org/event/15066185",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-04",
+    "time": "11:30",
+    "title": "Baby Storytime",
+    "venue": "Arden - Dimick Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Babies 0–18 mo",
+    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
+    "source": "https://engage.saclibrary.org/event/13178468",
+    "until": "12:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-04",
+    "time": "17:00",
+    "title": "Family Storytime",
+    "venue": "Martin Luther King, Jr. Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/17099867",
+    "until": "18:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   }
 ]

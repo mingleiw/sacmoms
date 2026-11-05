@@ -11,11 +11,8 @@
     "source": "https://www.fairytaletown.org/calendar/toddler-time-16/2026-11-05/",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.13,
-      "category": "storytime",
-      "quality": 0.98
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -30,11 +27,8 @@
     "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-2/2026-11-05/",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.16,
-      "category": "storytime",
-      "quality": 1.16
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -49,11 +43,8 @@
     "source": "https://www.fairytaletown.org/calendar/craft-time-in-the-story-center-5/2026-11-05/",
     "until": "15:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.15,
-      "category": "other",
-      "quality": 1.76
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -68,11 +59,8 @@
     "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-art-history/2026-11-06/",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.87,
-      "stale_p": 0.11,
-      "category": "museum",
-      "quality": 1.35
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -87,11 +75,8 @@
     "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-2/2026-11-06/",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.12,
-      "category": "storytime",
-      "quality": 1.17
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -106,11 +91,8 @@
     "source": "https://www.fairytaletown.org/calendar/author-visit-jenna-johnson/",
     "until": "12:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.09,
-      "category": "storytime",
-      "quality": 1.63
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -125,11 +107,40 @@
     "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-2/2026-11-07/",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.13,
-      "category": "storytime",
-      "quality": 1.16
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "time": "13:00",
+    "title": "Theater Show: Story Time Theatre",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Visit this weekend and enjoy the interactive show “Story Time Theater” with Cynthia Speakman in the Children’s Theater! Theater shows are free with the cost of paid park admission . All performances take place in Fairyta",
+    "source": "https://www.fairytaletown.org/calendar/theater-show-story-time-theatre-4/2026-11-07/1/",
+    "until": "13:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "time": "14:00",
+    "title": "Theater Show: Story Time Theatre",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Visit this weekend and enjoy the interactive show “Story Time Theater” with Cynthia Speakman in the Children’s Theater! Theater shows are free with the cost of paid park admission . All performances take place in Fairyta",
+    "source": "https://www.fairytaletown.org/calendar/theater-show-story-time-theatre-4/2026-11-07/2/",
+    "until": "14:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -144,11 +155,56 @@
     "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-2/2026-11-08/",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.13
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "time": "13:00",
+    "title": "Theater Show: Story Time Theatre",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Visit this weekend and enjoy the interactive show “Story Time Theater” with Cynthia Speakman in the Children’s Theater! Theater shows are free with the cost of paid park admission . All performances take place in Fairyta",
+    "source": "https://www.fairytaletown.org/calendar/theater-show-story-time-theatre-4/2026-11-08/1/",
+    "until": "13:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "time": "14:00",
+    "title": "Theater Show: Story Time Theatre",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Visit this weekend and enjoy the interactive show “Story Time Theater” with Cynthia Speakman in the Children’s Theater! Theater shows are free with the cost of paid park admission . All performances take place in Fairyta",
+    "source": "https://www.fairytaletown.org/calendar/theater-show-story-time-theatre-4/2026-11-08/2/",
+    "until": "14:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "time": "10:00",
+    "title": "Closed for Winter Hours",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-2/",
+    "until": "16:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -163,11 +219,8 @@
     "source": "https://www.fairytaletown.org/calendar/toddler-time-16/2026-11-12/",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.1,
-      "category": "storytime",
-      "quality": 0.98
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -182,11 +235,8 @@
     "source": "https://www.fairytaletown.org/calendar/theme-week-nursery-rhymes/",
     "until": "12:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.19,
-      "category": "storytime",
-      "quality": 1.5
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -201,11 +251,24 @@
     "source": "https://www.fairytaletown.org/calendar/author-visit-kathryn-michenfelder/",
     "until": "12:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.15,
-      "category": "storytime",
-      "quality": 1.59
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "time": "10:00",
+    "title": "Closed for Winter Hours",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-3/",
+    "until": "16:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -220,11 +283,8 @@
     "source": "https://www.fairytaletown.org/calendar/toddler-time-16/2026-11-19/",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 0.98
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -239,11 +299,8 @@
     "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-3/2026-11-19/",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.19,
-      "category": "storytime",
-      "quality": 1.17
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -258,11 +315,8 @@
     "source": "https://www.fairytaletown.org/calendar/craft-time-in-the-story-center-5/2026-11-19/",
     "until": "15:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.18,
-      "category": "other",
-      "quality": 1.75
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -277,11 +331,8 @@
     "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytales-of-the-world/2026-11-20/",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.15,
-      "category": "storytime",
-      "quality": 1.35
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -296,11 +347,8 @@
     "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-3/2026-11-20/",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.13,
-      "category": "storytime",
-      "quality": 1.14
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -315,11 +363,8 @@
     "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-3/2026-11-21/",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.15,
-      "category": "storytime",
-      "quality": 1.17
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -334,11 +379,8 @@
     "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-3/2026-11-22/",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.18,
-      "category": "storytime",
-      "quality": 1.14
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -353,11 +395,8 @@
     "source": "https://www.fairytaletown.org/calendar/fall-funcamp/",
     "until": "16:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.19,
-      "category": "seasonal",
-      "quality": 0.82
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -372,11 +411,8 @@
     "source": "https://www.fairytaletown.org/calendar/story-time-with-the-maidu-museum/",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.19,
-      "category": "storytime",
-      "quality": 1.05
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -391,11 +427,8 @@
     "source": "https://www.fairytaletown.org/calendar/closed-for-thanksgiving/",
     "until": "23:59",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.54,
-      "stale_p": 0.2,
-      "category": "seasonal",
-      "quality": 1.11
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -410,11 +443,8 @@
     "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-4/",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.17,
-      "category": "storytime",
-      "quality": 1.1
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -429,11 +459,8 @@
     "source": "https://www.fairytaletown.org/calendar/tractor-tales-11/2026-11-28/",
     "until": "11:20",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.15,
-      "category": "storytime",
-      "quality": 1.41
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -448,11 +475,24 @@
     "source": "https://www.fairytaletown.org/calendar/tractor-tales-11/2026-11-29/",
     "until": "11:20",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.13,
-      "category": "storytime",
-      "quality": 1.52
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-30",
+    "time": "10:00",
+    "title": "Closed for Winter Hours",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-4/",
+    "until": "16:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -467,11 +507,8 @@
     "source": "https://www.fairytaletown.org/calendar/giving-tuesday/",
     "until": "23:59",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.13,
-      "category": "seasonal",
-      "quality": 1.04
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -486,11 +523,8 @@
     "source": "https://www.fairytaletown.org/calendar/scholastic-book-fair-2/",
     "until": "23:59",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.14,
-      "category": "other",
-      "quality": 1.64
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -505,11 +539,8 @@
     "source": "https://www.fairytaletown.org/calendar/winter-wonderland-3/",
     "until": "19:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.08,
-      "category": "seasonal",
-      "quality": 1.36
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -524,11 +555,24 @@
     "source": "https://www.fairytaletown.org/calendar/winter-wonderland-4/",
     "until": "19:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.07,
-      "category": "seasonal",
-      "quality": 1.3
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-07",
+    "time": "10:00",
+    "title": "Closed for Winter Hours",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-5/",
+    "until": "16:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -543,11 +587,8 @@
     "source": "https://www.fairytaletown.org/calendar/kids-night-out-cocoa-cookies/",
     "until": "20:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.07,
-      "category": "seasonal",
-      "quality": 1.0
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -562,11 +603,8 @@
     "source": "https://www.fairytaletown.org/calendar/winter-wonderland/",
     "until": "19:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.08,
-      "category": "seasonal",
-      "quality": 1.29
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -581,11 +619,8 @@
     "source": "https://www.fairytaletown.org/calendar/winter-wonderland-5/",
     "until": "19:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.08,
-      "category": "seasonal",
-      "quality": 1.31
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -600,11 +635,8 @@
     "source": "https://www.fairytaletown.org/calendar/author-visit-crystel-patterson/",
     "until": "16:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.1,
-      "category": "storytime",
-      "quality": 1.61
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -619,11 +651,40 @@
     "source": "https://www.fairytaletown.org/calendar/winter-wonderland-2/",
     "until": "19:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.09,
-      "category": "seasonal",
-      "quality": 1.3
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-14",
+    "time": "10:00",
+    "title": "Closed for Winter Hours",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-6/",
+    "until": "16:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-21",
+    "time": "10:00",
+    "title": "Closed for Winter Hours",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-8/",
+    "until": "16:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -638,11 +699,8 @@
     "source": "https://www.fairytaletown.org/calendar/tractor-tales-12/2026-12-26/",
     "until": "11:20",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.13,
-      "category": "storytime",
-      "quality": 1.6
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -657,11 +715,40 @@
     "source": "https://www.fairytaletown.org/calendar/tractor-tales-12/2026-12-27/",
     "until": "11:20",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.11,
-      "category": "storytime",
-      "quality": 1.63
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-28",
+    "time": "10:00",
+    "title": "Closed for Winter Hours",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-7/",
+    "until": "16:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2027-01-04",
+    "time": "10:00",
+    "title": "Closed for Winter Hours",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-9/",
+    "until": "16:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -676,11 +763,24 @@
     "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-art-history/2027-01-08/",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.88,
-      "stale_p": 0.07,
-      "category": "museum",
-      "quality": 1.33
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2027-01-11",
+    "time": "10:00",
+    "title": "Closed for Winter Hours",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-10/",
+    "until": "16:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -695,11 +795,24 @@
     "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytale-science/2027-01-15/",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.92,
-      "stale_p": 0.07,
-      "category": "museum",
-      "quality": 1.36
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2027-01-18",
+    "time": "10:00",
+    "title": "Closed for Winter Hours",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-11/",
+    "until": "16:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -714,11 +827,40 @@
     "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytales-of-the-world/2027-01-22/",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.07,
-      "category": "storytime",
-      "quality": 1.35
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2027-01-25",
+    "time": "10:00",
+    "title": "Closed for Winter Hours",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-12/",
+    "until": "16:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2027-02-01",
+    "time": "10:00",
+    "title": "Closed for Winter Hours",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-13/",
+    "until": "16:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -733,11 +875,40 @@
     "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-art-history/2027-02-05/",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.88,
-      "stale_p": 0.06,
-      "category": "museum",
-      "quality": 1.35
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2027-02-08",
+    "time": "10:00",
+    "title": "Closed for Winter Hours",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-14/",
+    "until": "16:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2027-02-15",
+    "time": "10:00",
+    "title": "Closed for Winter Hours",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-15/",
+    "until": "16:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -752,11 +923,24 @@
     "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytale-science/2027-02-19/",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.06,
-      "category": "other",
-      "quality": 1.33
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2027-02-22",
+    "time": "10:00",
+    "title": "Closed for Winter Hours",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-16/",
+    "until": "16:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -771,11 +955,8 @@
     "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytales-of-the-world/2027-03-05/",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.07,
-      "category": "storytime",
-      "quality": 1.37
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -790,11 +971,8 @@
     "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-art-history/2027-03-19/",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.87,
-      "stale_p": 0.06,
-      "category": "museum",
-      "quality": 1.32
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -809,11 +987,8 @@
     "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytale-science/2027-04-09/",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.92,
-      "stale_p": 0.06,
-      "category": "other",
-      "quality": 1.34
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -828,11 +1003,8 @@
     "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytales-of-the-world/2027-04-23/",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.07,
-      "category": "storytime",
-      "quality": 1.4
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -847,11 +1019,8 @@
     "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-art-history/2027-05-07/",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.87,
-      "stale_p": 0.06,
-      "category": "museum",
-      "quality": 1.35
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -866,11 +1035,8 @@
     "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytale-science/2027-05-21/",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.92,
-      "stale_p": 0.07,
-      "category": "museum",
-      "quality": 1.34
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   }
 ]

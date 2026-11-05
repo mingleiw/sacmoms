@@ -1,81 +1,5 @@
 [
   {
-    "date": "2026-11-03",
-    "time": "10:15",
-    "title": "Sing & Stomp",
-    "venue": "Mill Valley Public Library",
-    "city": "Mill Valley",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Join musician Emily Bonn for this music and movement class designed for infants, toddlers and preschoolers and their caregivers. No registration required. Space is limited. Meets in the Creekside Room.",
-    "source": "https://millvalleylibrary.libcal.com/event/17330796",
-    "until": "10:45",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.29,
-      "category": "other",
-      "quality": 1.53
-    }
-  },
-  {
-    "date": "2026-11-03",
-    "time": "11:15",
-    "title": "Sing & Stomp",
-    "venue": "Mill Valley Public Library",
-    "city": "Mill Valley",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Join musician Emily Bonn for this music and movement class designed for infants, toddlers and preschoolers and their caregivers. No registration required. Space is limited. Meets in the Creekside Room.",
-    "source": "https://millvalleylibrary.libcal.com/event/17330856",
-    "until": "11:45",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.32,
-      "category": "other",
-      "quality": 1.52
-    }
-  },
-  {
-    "date": "2026-11-04",
-    "time": "10:15",
-    "title": "Toddler Storytime",
-    "venue": "Mill Valley Public Library",
-    "city": "Mill Valley",
-    "region": "marin",
-    "ages": "Toddlers",
-    "blurb": "Join Librarian Miranda for books, songs, and stories in the library's outdoor amphitheater. Designed for babies, toddlers, and preschoolers with their caregivers. No registration required. Space is... Meets in the Creekside Room.",
-    "source": "https://millvalleylibrary.libcal.com/event/17330926",
-    "until": "10:45",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.12,
-      "category": "storytime",
-      "quality": 0.7
-    }
-  },
-  {
-    "date": "2026-11-04",
-    "time": "11:15",
-    "title": "Toddler Storytime",
-    "venue": "Mill Valley Public Library",
-    "city": "Mill Valley",
-    "region": "marin",
-    "ages": "Toddlers",
-    "blurb": "Join Librarian Miranda for books, songs, and stories in the library's outdoor amphitheater. Designed for babies, toddlers, and preschoolers with their caregivers. No registration required. Space is... Meets in the Creekside Room.",
-    "source": "https://millvalleylibrary.libcal.com/event/17330981",
-    "until": "11:45",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 0.68
-    }
-  },
-  {
     "date": "2026-11-07",
     "time": "14:30",
     "title": "Family Storytime",
@@ -87,11 +11,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/15583130",
     "until": "15:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.13,
-      "category": "storytime",
-      "quality": 1.53
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -106,11 +27,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330832",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.12,
-      "category": "storytime",
-      "quality": 1.39
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -125,11 +43,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330797",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.11,
-      "category": "other",
-      "quality": 1.61
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -144,11 +59,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330857",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.13,
-      "category": "other",
-      "quality": 1.62
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -163,11 +75,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/15583131",
     "until": "15:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.15,
-      "category": "storytime",
-      "quality": 1.49
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -182,11 +91,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330833",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.43
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -201,11 +107,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330798",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.13,
-      "category": "other",
-      "quality": 1.63
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -220,11 +123,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330858",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.12,
-      "category": "other",
-      "quality": 1.59
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -239,11 +139,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330928",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.11,
-      "category": "storytime",
-      "quality": 0.73
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -258,11 +155,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330983",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.11,
-      "category": "storytime",
-      "quality": 0.71
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -277,11 +171,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/15583132",
     "until": "15:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.16,
-      "category": "storytime",
-      "quality": 1.47
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -296,11 +187,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330834",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.16,
-      "category": "storytime",
-      "quality": 1.43
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -315,11 +203,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330799",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.13,
-      "category": "other",
-      "quality": 1.63
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -334,11 +219,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330859",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.15,
-      "category": "other",
-      "quality": 1.66
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -353,11 +235,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330929",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.13,
-      "category": "storytime",
-      "quality": 0.72
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -372,11 +251,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330984",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.13,
-      "category": "storytime",
-      "quality": 0.68
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -391,11 +267,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/15583133",
     "until": "15:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.16,
-      "category": "storytime",
-      "quality": 1.44
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -410,11 +283,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330835",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.15,
-      "category": "storytime",
-      "quality": 1.46
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -429,11 +299,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330800",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.1,
-      "category": "other",
-      "quality": 1.61
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -448,11 +315,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330860",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.1,
-      "category": "other",
-      "quality": 1.58
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -467,11 +331,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330930",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 0.75
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -486,11 +347,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330985",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.09,
-      "category": "storytime",
-      "quality": 0.65
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -505,11 +363,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/15583134",
     "until": "15:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.13,
-      "category": "storytime",
-      "quality": 1.46
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -524,11 +379,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17724880",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 1.49
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -543,11 +395,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330802",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.09,
-      "category": "other",
-      "quality": 1.65
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -562,11 +411,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330862",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.09,
-      "category": "other",
-      "quality": 1.7
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -581,11 +427,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330931",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 0.73
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -600,11 +443,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330987",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.07,
-      "category": "storytime",
-      "quality": 0.69
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -619,11 +459,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17592724",
     "until": "16:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.08,
-      "category": "seasonal",
-      "quality": 1.6
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -638,11 +475,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/15583135",
     "until": "15:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.14,
-      "category": "storytime",
-      "quality": 1.46
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -657,11 +491,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17724881",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.1,
-      "category": "storytime",
-      "quality": 1.54
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -676,11 +507,8 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330803",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.08,
-      "category": "other",
-      "quality": 1.59
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -695,11 +523,40 @@
     "source": "https://millvalleylibrary.libcal.com/event/17330863",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.08,
-      "category": "other",
-      "quality": 1.61
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-16",
+    "time": "10:15",
+    "title": "Toddler Storytime",
+    "venue": "Mill Valley Public Library",
+    "city": "Mill Valley",
+    "region": "marin",
+    "ages": "Toddlers",
+    "blurb": "Join Librarian Miranda for books, songs, and stories in the library's outdoor amphitheater. Designed for babies, toddlers, and preschoolers with their caregivers. No registration required. Space is... Meets in the Creekside Room.",
+    "source": "https://millvalleylibrary.libcal.com/event/17330932",
+    "until": "10:45",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-16",
+    "time": "11:15",
+    "title": "Toddler Storytime",
+    "venue": "Mill Valley Public Library",
+    "city": "Mill Valley",
+    "region": "marin",
+    "ages": "Toddlers",
+    "blurb": "Join Librarian Miranda for books, songs, and stories in the library's outdoor amphitheater. Designed for babies, toddlers, and preschoolers with their caregivers. No registration required. Space is... Meets in the Creekside Room.",
+    "source": "https://millvalleylibrary.libcal.com/event/17330988",
+    "until": "11:45",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   }
 ]

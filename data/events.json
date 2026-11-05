@@ -11,11 +11,8 @@
     "source": "https://alchemistcdc.org/elkgrove/",
     "day": 6,
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.08,
-      "category": "outdoor",
-      "quality": 0.59
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -30,11 +27,8 @@
     "source": "https://ilovemyfarmersmarket.com/",
     "day": 0,
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.1,
-      "category": "outdoor",
-      "quality": 0.32
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -48,11 +42,8 @@
     "source": "https://withfriends.co/a_seat_at_the_table_books/events",
     "timeLabel": "Mornings",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.86,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 0.88
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -68,11 +59,8 @@
     "day": 2,
     "origin": "scm",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.06,
-      "category": "museum",
-      "quality": 0.49
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -86,11 +74,8 @@
     "source": "https://www.eventbrite.com/o/33385319729",
     "day": 3,
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.04,
-      "category": "other",
-      "quality": 1.59
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -105,11 +90,8 @@
     "source": "https://exploremidtown.org/midtown-markets/",
     "day": 6,
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.94,
-      "stale_p": 0.07,
-      "category": "outdoor",
-      "quality": 0.68
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -124,11 +106,8 @@
     "source": "https://historicfolsom.org/historic-folsom-farmers-market/",
     "day": 6,
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.07,
-      "category": "outdoor",
-      "quality": 0.69
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -143,11 +122,8 @@
     "source": "https://visitmosac.org/all-ages-shows/",
     "origin": "mosac",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.73,
-      "stale_p": 0.12,
-      "category": "museum",
-      "quality": 0.35
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -162,11 +138,8 @@
     "day": 1,
     "origin": "railroad-museum",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.07,
-      "category": "storytime",
-      "quality": 0.72
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -182,11 +155,8 @@
     "day": 3,
     "origin": "adventure-playground",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.93,
-      "stale_p": 0.04,
-      "category": "outdoor",
-      "quality": 1.68
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -202,11 +172,8 @@
     "day": 4,
     "origin": "adventure-playground",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.93,
-      "stale_p": 0.04,
-      "category": "outdoor",
-      "quality": 1.59
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -222,11 +189,8 @@
     "day": 5,
     "origin": "adventure-playground",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.93,
-      "stale_p": 0.04,
-      "category": "outdoor",
-      "quality": 1.57
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -240,11 +204,8 @@
     "blurb": "Midweek storytime at Elk Grove's family-run bookshop and cafe. Free; all ages welcome.",
     "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.08,
-      "category": "storytime",
-      "quality": 0.54
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -258,11 +219,8 @@
     "blurb": "Weekly chess club night at Elk Grove's family-run bookshop and cafe. Free and all are welcome.",
     "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.92,
-      "stale_p": 0.03,
-      "category": "other",
-      "quality": 1.5
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -278,11 +236,8 @@
     "origin": "marin-mommies",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.05,
-      "category": "storytime",
-      "quality": 1.44
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -298,31 +253,8 @@
     "origin": "marin-mommies",
     "until": "10:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.04,
-      "category": "storytime",
-      "quality": 1.14
-    }
-  },
-  {
-    "time": "10:30",
-    "title": "Bilingual Spanish Storytime at San Anselmo Library",
-    "venue": "San Anselmo Library",
-    "city": "San Anselmo",
-    "region": "marin",
-    "ages": "Under 6",
-    "blurb": "Join the San Anselmo Library for Bilingual Spanish Storytime on Wednesdays at 10:30 am! Little ones",
-    "source": "https://www.marinmommies.com/calendar/bilingual-spanish-storytime-san-anselmo-library",
-    "day": 3,
-    "origin": "marin-mommies",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.87,
-      "stale_p": 0.07,
-      "category": "storytime",
-      "quality": 0.46
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -338,11 +270,8 @@
     "origin": "marin-mommies",
     "until": "10:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.84,
-      "stale_p": 0.15,
-      "category": "storytime",
-      "quality": 0.54
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -358,11 +287,8 @@
     "origin": "marin-mommies",
     "until": "17:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.07,
-      "category": "outdoor",
-      "quality": 0.38
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -378,11 +304,8 @@
     "origin": "marin-mommies",
     "until": "10:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.87,
-      "stale_p": 0.03,
-      "category": "storytime",
-      "quality": 1.54
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -398,11 +321,8 @@
     "origin": "marin-mommies",
     "until": "17:15",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.93,
-      "stale_p": 0.08,
-      "category": "museum",
-      "quality": 0.48
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -418,11 +338,8 @@
     "origin": "marin-mommies",
     "until": "17:15",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.09,
-      "category": "museum",
-      "quality": 0.32
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -438,11 +355,8 @@
     "origin": "marin-mommies",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.85,
-      "stale_p": 0.04,
-      "category": "outdoor",
-      "quality": 1.24
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -454,15 +368,12 @@
     "ages": "Under 6",
     "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
     "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-    "day": 2,
+    "day": 4,
     "until": "11:40",
     "origin": "marin-mommies",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
-      "category": "other",
-      "quality": 0.72
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -474,15 +385,12 @@
     "ages": "Babies & toddlers",
     "blurb": "Jumping Jacks is an hour-long class that consists of activities that encourage creative movement,",
     "source": "https://heyzine.com/flip-book/c186a96ff1.html#page/10",
-    "day": 2,
+    "day": 4,
     "until": "10:30",
     "origin": "marin-mommies",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.98,
-      "stale_p": 0.04,
-      "category": "other",
-      "quality": 0.92
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -498,11 +406,8 @@
     "origin": "marin-mommies",
     "until": "14:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
-      "category": "outdoor",
-      "quality": 0.98
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -518,11 +423,8 @@
     "origin": "marin-mommies",
     "until": "11:15",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.77,
-      "stale_p": 0.1,
-      "category": "outdoor",
-      "quality": 0.45
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -538,11 +440,8 @@
     "until": "11:15",
     "origin": "marin-mommies",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.81,
-      "stale_p": 0.09,
-      "category": "storytime",
-      "quality": 0.12
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -558,11 +457,8 @@
     "origin": "marin-mommies",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.76,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 0.45
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -577,11 +473,8 @@
     "day": 4,
     "origin": "marin-mommies",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.97,
-      "stale_p": 0.04,
-      "category": "other",
-      "quality": 1.03
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -597,11 +490,8 @@
     "origin": "marin-mommies",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.04,
-      "category": "other",
-      "quality": 1.14
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -613,15 +503,12 @@
     "ages": "Under 6",
     "blurb": "Join us for stories, movement, songs and rhymes for children ages 0-5.",
     "source": "https://marinlibrary.org/locations/mc/",
-    "day": 2,
+    "day": 4,
     "until": "10:00",
     "origin": "marin-mommies",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.88,
-      "stale_p": 0.04,
-      "category": "storytime",
-      "quality": 1.46
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -637,11 +524,8 @@
     "origin": "marin-mommies",
     "until": "14:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.05,
-      "category": "outdoor",
-      "quality": 0.89
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -657,11 +541,8 @@
     "origin": "marin-mommies",
     "until": "11:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.07,
-      "category": "outdoor",
-      "quality": 0.25
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -677,11 +558,8 @@
     "origin": "marin-mommies",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.79,
-      "stale_p": 0.05,
-      "category": "storytime",
-      "quality": 1.0
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -697,11 +575,8 @@
     "origin": "marin-mommies",
     "until": "10:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.85,
-      "stale_p": 0.06,
-      "category": "storytime",
-      "quality": 0.38
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -717,11 +592,8 @@
     "origin": "marin-mommies",
     "until": "12:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.89,
-      "stale_p": 0.07,
-      "category": "storytime",
-      "quality": 0.39
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -737,11 +609,8 @@
     "origin": "marin-mommies",
     "until": "11:30",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.89,
-      "stale_p": 0.04,
-      "category": "storytime",
-      "quality": 1.31
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -757,11 +626,8 @@
     "origin": "marin-mommies",
     "until": "13:00",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.07,
-      "category": "outdoor",
-      "quality": 0.51
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -777,11 +643,8 @@
     "until": "13:00",
     "origin": "marin-mommies",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.9,
-      "stale_p": 0.07,
-      "category": "outdoor",
-      "quality": 0.37
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -793,15 +656,12 @@
     "ages": "Under 6",
     "blurb": "Bring your little ones to Tumbling Tots at Novato Gymnastics Center! This fun, 45-minute drop-in",
     "source": "https://www.marinmommies.com/calendar/tumbling-tots-drop-gymnastics-kids-ages-5-under",
-    "day": 2,
+    "day": 4,
     "origin": "marin-mommies",
     "until": "13:15",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.87,
-      "stale_p": 0.04,
-      "category": "other",
-      "quality": 1.05
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -817,11 +677,8 @@
     "until": "16:00",
     "origin": "marin-mommies",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.91,
-      "stale_p": 0.04,
-      "category": "museum",
-      "quality": 1.14
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -836,11 +693,8 @@
     "day": 3,
     "origin": "marin-mommies",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.96,
-      "stale_p": 0.07,
-      "category": "storytime",
-      "quality": 0.58
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -852,15 +706,12 @@
     "ages": "All ages",
     "blurb": "Bring your little ones to Wee Yogis Open Play in San Anselmo for some indoor fun! Kids can climb,",
     "source": "https://www.marinmommies.com/calendar/wee-yogis-open-play-san-anselmo",
-    "day": 2,
+    "day": 4,
     "origin": "marin-mommies",
     "until": "11:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.95,
-      "stale_p": 0.04,
-      "category": "other",
-      "quality": 0.95
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   },
   {
@@ -876,11 +727,8 @@
     "origin": "marin-mommies",
     "until": "10:45",
     "_jev": {
-      "verdict": "LIST",
-      "kid_p": 0.83,
-      "stale_p": 0.07,
-      "category": "storytime",
-      "quality": 0.34
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
   }
 ]
