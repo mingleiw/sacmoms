@@ -730,5 +730,22 @@
       "verdict": "ERROR",
       "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
     }
+  },
+  {
+    "time": "17:30",
+    "title": "ZooLights at the San Francisco Zoo 2026",
+    "venue": "San Francisco Zoo",
+    "city": "San Francisco",
+    "region": "marin",
+    "ages": "All ages",
+    "blurb": "Celebrate the holiday season with ZooLights at the San Francisco Zoo! Returning for the first time",
+    "source": "https://www.marinmommies.com/calendar/zoolights-san-francisco-zoo-2026-0",
+    "day": 0,
+    "origin": "marin-mommies",
+    "until": "21:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
   }
 ]

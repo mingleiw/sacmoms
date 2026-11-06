@@ -273,6 +273,22 @@
   },
   {
     "date": "2026-11-07",
+    "time": "10:00",
+    "title": "Family Storytime",
+    "venue": "Robbie Waters Pocket - Greenhaven Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/17845590",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-07",
     "time": "10:30",
     "title": "Baby Storytime",
     "venue": "Central Library",
@@ -2714,6 +2730,102 @@
     "blurb": "Songs, rhymes, movement and stories for young children.",
     "source": "https://engage.saclibrary.org/event/17099867",
     "until": "18:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-05",
+    "time": "10:00",
+    "title": "Family Storytime",
+    "venue": "Franklin Library",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/16811824",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-05",
+    "time": "10:00",
+    "title": "Family Storytime",
+    "venue": "Robbie Waters Pocket - Greenhaven Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/13689864",
+    "until": "12:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-05",
+    "time": "10:30",
+    "title": "Baby Storytime",
+    "venue": "Central Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Babies 0–18 mo",
+    "blurb": "Gentle songs, rhymes and book-sharing for babies and caregivers.",
+    "source": "https://engage.saclibrary.org/event/16639474",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-05",
+    "time": "10:30",
+    "title": "Hora de Cuentos Bilingüe - Bilingual Storytime",
+    "venue": "Colonial Heights Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children. Bilingual Spanish/English.",
+    "source": "https://engage.saclibrary.org/event/16053353",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-05",
+    "time": "10:30",
+    "title": "Family Storytime",
+    "venue": "North Natomas Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children.",
+    "source": "https://engage.saclibrary.org/event/15790927",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-05",
+    "time": "15:30",
+    "title": "Hora de Cuentos Bilingüe - Bilingual Storytime",
+    "venue": "Central Library",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "Ages 0–5",
+    "blurb": "Songs, rhymes, movement and stories for young children. Bilingual Spanish/English.",
+    "source": "https://engage.saclibrary.org/event/16903235",
+    "until": "16:00",
     "_jev": {
       "verdict": "ERROR",
       "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "

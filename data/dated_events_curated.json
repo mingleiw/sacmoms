@@ -12,7 +12,11 @@
     "source": "https://www.fairytaletown.org/calendar/author-visit-jenna-johnson/",
     "seasonal": "fall",
     "group": "fairytale-town",
-    "origin": "curated"
+    "origin": "curated",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
   },
   {
     "date": "2026-11-08",
@@ -27,7 +31,11 @@
     "source": "https://www.effieyeawnature.org/event-details/star-gazing-event",
     "seasonal": "fall",
     "group": "effie-yeaw-nature-center",
-    "origin": "curated"
+    "origin": "curated",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
   },
   {
     "date": "2026-11-10",
@@ -60,7 +68,11 @@
     "source": "https://www.cosumnescsd.gov/Calendar.aspx?EID=1650",
     "seasonal": "fall",
     "group": "veterans-day-parade",
-    "origin": "curated"
+    "origin": "curated",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
   },
   {
     "date": "2026-11-14",
@@ -73,7 +85,11 @@
     "source": "https://www.saczoo.org/special-events",
     "seasonal": "fall",
     "group": "sacramento-zoo",
-    "origin": "curated"
+    "origin": "curated",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
   },
   {
     "date": "2026-12-08",
@@ -104,7 +120,11 @@
     "source": "https://www.saczoo.org/special-events",
     "seasonal": "fall",
     "group": "sacramento-zoo",
-    "origin": "curated"
+    "origin": "curated",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
   },
   {
     "date": "2027-01-12",

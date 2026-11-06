@@ -209,6 +209,22 @@
   },
   {
     "date": "2026-11-12",
+    "time": "00:00",
+    "title": "Theme Week Activity: All Day Fun",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! Throughout the day on Thurs-Sun this week, enjoy interactive activities l",
+    "source": "https://www.fairytaletown.org/calendar/theme-week-activity-all-day-fun/2026-11-12/",
+    "until": "23:59",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-12",
     "time": "10:00",
     "title": "Toddler Time!",
     "venue": "Fairytale Town",
@@ -218,6 +234,22 @@
     "blurb": "Weekly toddler program at Fairytale Town; see the official listing for this week's details.",
     "source": "https://www.fairytaletown.org/calendar/toddler-time-16/2026-11-12/",
     "until": "11:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "time": "11:00",
+    "title": "Theme Week Activity: Story Time with Little Bo Peep & Her Sheep",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! At 11am Thurs-Sun this week, enjoy stories with Little Bo Peep and Her Sh",
+    "source": "https://www.fairytaletown.org/calendar/theme-week-activity-story-time-with-little-bo-peep-her-sheep/2026-11-12/",
+    "until": "11:30",
     "_jev": {
       "verdict": "ERROR",
       "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
@@ -240,6 +272,102 @@
     }
   },
   {
+    "date": "2026-11-12",
+    "time": "12:00",
+    "title": "Theme Week Activity: Sing-Along with the Itsy Bitsy Spider",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! At 12pm Thurs-Sun this week, enjoy singing with the Itsy Bitsy Spider in ",
+    "source": "https://www.fairytaletown.org/calendar/theme-week-activity-sing-along-with-the-itsy-bitsy-spider/2026-11-12/",
+    "until": "12:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "time": "00:00",
+    "title": "Theme Week Activity: All Day Fun",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! Throughout the day on Thurs-Sun this week, enjoy interactive activities l",
+    "source": "https://www.fairytaletown.org/calendar/theme-week-activity-all-day-fun/2026-11-13/",
+    "until": "23:59",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "time": "11:00",
+    "title": "Theme Week Activity: Story Time with Little Bo Peep & Her Sheep",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! At 11am Thurs-Sun this week, enjoy stories with Little Bo Peep and Her Sh",
+    "source": "https://www.fairytaletown.org/calendar/theme-week-activity-story-time-with-little-bo-peep-her-sheep/2026-11-13/",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "time": "12:00",
+    "title": "Theme Week Activity: Sing-Along with the Itsy Bitsy Spider",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! At 12pm Thurs-Sun this week, enjoy singing with the Itsy Bitsy Spider in ",
+    "source": "https://www.fairytaletown.org/calendar/theme-week-activity-sing-along-with-the-itsy-bitsy-spider/2026-11-13/",
+    "until": "12:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-14",
+    "time": "00:00",
+    "title": "Theme Week Activity: All Day Fun",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! Throughout the day on Thurs-Sun this week, enjoy interactive activities l",
+    "source": "https://www.fairytaletown.org/calendar/theme-week-activity-all-day-fun/2026-11-14/",
+    "until": "23:59",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-14",
+    "time": "10:00",
+    "title": "Theme Week Activity: Meet Humpty Dumpty!",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! Meet Humpty Dumpty at 10am on the Mother Goose Stage this Saturday and Su",
+    "source": "https://www.fairytaletown.org/calendar/theme-week-activity-meet-humpty-dumpty/2026-11-14/",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
     "date": "2026-11-14",
     "time": "11:00",
     "title": "Author Visit: Kathryn Michenfelder",
@@ -249,6 +377,102 @@
     "ages": "All ages",
     "blurb": "Come meet Kathryn Michenfelder on Saturday, November 14th, from 11 AM – 12:30 PM!",
     "source": "https://www.fairytaletown.org/calendar/author-visit-kathryn-michenfelder/",
+    "until": "12:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-14",
+    "time": "11:00",
+    "title": "Theme Week Activity: Story Time with Little Bo Peep & Her Sheep",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! At 11am Thurs-Sun this week, enjoy stories with Little Bo Peep and Her Sh",
+    "source": "https://www.fairytaletown.org/calendar/theme-week-activity-story-time-with-little-bo-peep-her-sheep/2026-11-14/",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-14",
+    "time": "12:00",
+    "title": "Theme Week Activity: Sing-Along with the Itsy Bitsy Spider",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! At 12pm Thurs-Sun this week, enjoy singing with the Itsy Bitsy Spider in ",
+    "source": "https://www.fairytaletown.org/calendar/theme-week-activity-sing-along-with-the-itsy-bitsy-spider/2026-11-14/",
+    "until": "12:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-15",
+    "time": "00:00",
+    "title": "Theme Week Activity: All Day Fun",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! Throughout the day on Thurs-Sun this week, enjoy interactive activities l",
+    "source": "https://www.fairytaletown.org/calendar/theme-week-activity-all-day-fun/2026-11-15/",
+    "until": "23:59",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-15",
+    "time": "10:00",
+    "title": "Theme Week Activity: Meet Humpty Dumpty!",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! Meet Humpty Dumpty at 10am on the Mother Goose Stage this Saturday and Su",
+    "source": "https://www.fairytaletown.org/calendar/theme-week-activity-meet-humpty-dumpty/2026-11-15/",
+    "until": "11:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-15",
+    "time": "11:00",
+    "title": "Theme Week Activity: Story Time with Little Bo Peep & Her Sheep",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! At 11am Thurs-Sun this week, enjoy stories with Little Bo Peep and Her Sh",
+    "source": "https://www.fairytaletown.org/calendar/theme-week-activity-story-time-with-little-bo-peep-her-sheep/2026-11-15/",
+    "until": "11:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-15",
+    "time": "12:00",
+    "title": "Theme Week Activity: Sing-Along with the Itsy Bitsy Spider",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! At 12pm Thurs-Sun this week, enjoy singing with the Itsy Bitsy Spider in ",
+    "source": "https://www.fairytaletown.org/calendar/theme-week-activity-sing-along-with-the-itsy-bitsy-spider/2026-11-15/",
     "until": "12:30",
     "_jev": {
       "verdict": "ERROR",
