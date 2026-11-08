@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-11-05",
-    "time": "15:45",
-    "title": "FALL FAMILY MINI PHOTOGRAPHY SESSION",
-    "venue": "Effie Yeaw Nature Center",
-    "city": "Carmichael",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "This is a Effie Yeaw Nature Center Current Membership only event. Come take your Fall holiday photos at Effie Yeaw Nature Center.",
-    "source": "https://www.effieyeawnature.org/event-details/fall-family-mini-photography-session-2026-11-05-15-45",
-    "until": "16:05",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-05",
-    "time": "15:45",
-    "title": "Thank you!",
-    "venue": "Effie Yeaw Nature Center",
-    "city": "Carmichael",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "This is a Effie Yeaw Nature Center Current Membership only event. Come take your Fall holiday photos at Effie Yeaw Nature Center.",
-    "source": "https://www.effieyeawnature.org/events-list",
-    "until": "16:05",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-05",
-    "time": "16:25",
-    "title": "FALL FAMILY MINI PHOTOGRAPHY SESSION",
-    "venue": "Effie Yeaw Nature Center",
-    "city": "Carmichael",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "This is a Effie Yeaw Nature Center Current Membership only event. Come take your Fall holiday photos at Effie Yeaw Nature Center.",
-    "source": "https://www.effieyeawnature.org/event-details/fall-family-mini-photography-session-2026-11-05-16-25",
-    "until": "16:45",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
     "date": "2026-11-07",
     "time": "10:00",
     "title": "Music of Nature with Grow Resilient Families",
@@ -138,22 +90,6 @@
     "blurb": "Spark a love of reading—and nature—with our Nature of Reading Program! Designed for ages 5 - 8.",
     "source": "https://www.effieyeawnature.org/event-details/nature-of-reading-2026-11-14-22-00",
     "until": "11:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-14",
-    "time": "11:00",
-    "title": "Holiday Bird House Painting",
-    "venue": "Effie Yeaw Nature Center",
-    "city": "Carmichael",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Tap into your creative side by painting a unique bird house for some feathery friends!",
-    "source": "https://www.effieyeawnature.org/event-details/holiday-bird-house-painting-4",
-    "until": "14:00",
     "_jev": {
       "verdict": "ERROR",
       "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "

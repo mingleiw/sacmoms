@@ -1,85 +1,5 @@
 [
   {
-    "date": "2026-11-05",
-    "time": "10:00",
-    "title": "Toddler Time!",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Weekly toddler program at Fairytale Town; see the official listing for this week's details.",
-    "source": "https://www.fairytaletown.org/calendar/toddler-time-16/2026-11-05/",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-05",
-    "time": "11:00",
-    "title": "Story Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every Thur – Sun in November for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
-    "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-2/2026-11-05/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-05",
-    "time": "14:30",
-    "title": "Craft Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every Thursday at 2:30pm in November for Craft Time! Craft time is free with park admission. No need to worry about skill level – all kids are welcome! Come join us for a world of creative fun",
-    "source": "https://www.fairytaletown.org/calendar/craft-time-in-the-story-center-5/2026-11-05/",
-    "until": "15:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-06",
-    "time": "11:00",
-    "title": "Homeschool Clubhouse: Art History",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
-    "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-art-history/2026-11-06/",
-    "until": "11:45",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-06",
-    "time": "11:00",
-    "title": "Story Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every Thur – Sun in November for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
-    "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-2/2026-11-06/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
     "date": "2026-11-07",
     "time": "11:00",
     "title": "Author Visit: Jenna Johnson",
@@ -362,22 +282,6 @@
     "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! Meet Humpty Dumpty at 10am on the Mother Goose Stage this Saturday and Su",
     "source": "https://www.fairytaletown.org/calendar/theme-week-activity-meet-humpty-dumpty/2026-11-14/",
     "until": "11:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-14",
-    "time": "11:00",
-    "title": "Author Visit: Kathryn Michenfelder",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Come meet Kathryn Michenfelder on Saturday, November 14th, from 11 AM – 12:30 PM!",
-    "source": "https://www.fairytaletown.org/calendar/author-visit-kathryn-michenfelder/",
-    "until": "12:30",
     "_jev": {
       "verdict": "ERROR",
       "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
