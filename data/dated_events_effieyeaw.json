@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-11-07",
-    "time": "10:00",
-    "title": "Music of Nature with Grow Resilient Families",
-    "venue": "Effie Yeaw Nature Center",
-    "city": "Carmichael",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Music of Nature with Grow Resilient Families Saturday, November 7 | 10:00 - 10:45 AM Location: Effie Yeaw Nature Center Outdoor Amphitheater",
-    "source": "https://www.effieyeawnature.org/event-details/music-of-nature-with-grow-resilient-families-1",
-    "until": "10:45",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
     "date": "2026-11-08",
     "time": "16:45",
     "title": "Star Gazing Event",

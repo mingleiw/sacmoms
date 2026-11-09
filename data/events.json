@@ -445,6 +445,23 @@
     }
   },
   {
+    "time": "16:00",
+    "title": "Merry Meritage Holiday Ice Skating – Napa",
+    "venue": "The Meritage Resort & Space, Village Lawn",
+    "city": "Napa",
+    "region": "marin",
+    "ages": "All ages",
+    "blurb": "Celebrate the holiday season with outdoor ice skating at Merry Meritage at The Meritage Resort",
+    "source": "https://www.marinmommies.com/calendar/merry-meritage-holiday-ice-skating-%E2%80%93-napa",
+    "day": 4,
+    "origin": "marin-mommies",
+    "until": "22:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
     "time": "10:30",
     "title": "Monday Storytime at Imagination Park",
     "venue": "Imagination Park",
@@ -673,7 +690,7 @@
     "ages": "All ages",
     "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
     "source": "https://www.marinemammalcenter.org/visit/getting-here",
-    "day": 6,
+    "day": 0,
     "until": "16:00",
     "origin": "marin-mommies",
     "_jev": {
@@ -739,7 +756,7 @@
     "region": "marin",
     "ages": "All ages",
     "blurb": "Celebrate the holiday season with ZooLights at the San Francisco Zoo! Returning for the first time",
-    "source": "https://www.marinmommies.com/calendar/zoolights-san-francisco-zoo-2026-0",
+    "source": "https://www.sfzoo.org/zoolights/",
     "day": 0,
     "origin": "marin-mommies",
     "until": "21:00",
