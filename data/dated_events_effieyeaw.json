@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-11-08",
-    "time": "16:45",
-    "title": "Star Gazing Event",
-    "venue": "Effie Yeaw Nature Center",
-    "city": "Carmichael",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "A evening out on the trails and time to take in the night sky by the river at Effie Yeaw Nature Center.",
-    "source": "https://www.effieyeawnature.org/event-details/star-gazing-event",
-    "until": "18:45",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
     "date": "2026-11-10",
     "time": "09:30",
     "title": "Mighty Acorns",

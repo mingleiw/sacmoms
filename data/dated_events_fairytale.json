@@ -1,53 +1,5 @@
 [
   {
-    "date": "2026-11-08",
-    "time": "11:00",
-    "title": "Story Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every Thur – Sun in November for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
-    "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-2/2026-11-08/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-08",
-    "time": "13:00",
-    "title": "Theater Show: Story Time Theatre",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Visit this weekend and enjoy the interactive show “Story Time Theater” with Cynthia Speakman in the Children’s Theater! Theater shows are free with the cost of paid park admission . All performances take place in Fairyta",
-    "source": "https://www.fairytaletown.org/calendar/theater-show-story-time-theatre-4/2026-11-08/1/",
-    "until": "13:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-08",
-    "time": "14:00",
-    "title": "Theater Show: Story Time Theatre",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Visit this weekend and enjoy the interactive show “Story Time Theater” with Cynthia Speakman in the Children’s Theater! Theater shows are free with the cost of paid park admission . All performances take place in Fairyta",
-    "source": "https://www.fairytaletown.org/calendar/theater-show-story-time-theatre-4/2026-11-08/2/",
-    "until": "14:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
     "date": "2026-11-09",
     "time": "10:00",
     "title": "Closed for Winter Hours",
@@ -665,22 +617,6 @@
     "ages": "All ages",
     "blurb": "Saturday & Sunday, December 5-6 & 12-13 Special Park & Event Hours: 1 PM – 7 PM (last admission at 6 PM) Weather permitting Click Here for Tickets! Celebrate the holidays together at Fairytale Town’s annual Winter Wonder",
     "source": "https://www.fairytaletown.org/calendar/winter-wonderland/",
-    "until": "19:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-12",
-    "time": "13:00",
-    "title": "Winter Wonderland",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Saturday & Sunday, December 5-6 & 12-13 Special Park & Event Hours: 1 PM – 7 PM (last admission at 6 PM) Weather permitting Click Here for Tickets! Celebrate the holidays together at Fairytale Town’s annual Winter Wonder",
-    "source": "https://www.fairytaletown.org/calendar/winter-wonderland-5/",
     "until": "19:00",
     "_jev": {
       "verdict": "ERROR",
