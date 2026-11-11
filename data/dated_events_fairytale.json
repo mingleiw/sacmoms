@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-11-09",
-    "time": "10:00",
-    "title": "Closed for Winter Hours",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
-    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-2/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
     "date": "2026-11-12",
     "time": "00:00",
     "title": "Theme Week Activity: All Day Fun",
@@ -208,6 +192,38 @@
     }
   },
   {
+    "date": "2026-11-14",
+    "time": "13:00",
+    "title": "Theater Show: Three Little Pigs",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us for a magical, original fairytale performance created especially for young audiences this weekend in the Children’s Theater, thanks to NorCal Arts! Theater shows are free with the cost of paid park admission . Al",
+    "source": "https://www.fairytaletown.org/calendar/theater-show-three-little-pigs-4/2026-11-14/1/",
+    "until": "13:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-14",
+    "time": "14:00",
+    "title": "Theater Show: Three Little Pigs",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us for a magical, original fairytale performance created especially for young audiences this weekend in the Children’s Theater, thanks to NorCal Arts! Theater shows are free with the cost of paid park admission . Al",
+    "source": "https://www.fairytaletown.org/calendar/theater-show-three-little-pigs-4/2026-11-14/2/",
+    "until": "14:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
     "date": "2026-11-15",
     "time": "00:00",
     "title": "Theme Week Activity: All Day Fun",
@@ -266,6 +282,38 @@
     "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! At 12pm Thurs-Sun this week, enjoy singing with the Itsy Bitsy Spider in ",
     "source": "https://www.fairytaletown.org/calendar/theme-week-activity-sing-along-with-the-itsy-bitsy-spider/2026-11-15/",
     "until": "12:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-15",
+    "time": "13:00",
+    "title": "Theater Show: Three Little Pigs",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us for a magical, original fairytale performance created especially for young audiences this weekend in the Children’s Theater, thanks to NorCal Arts! Theater shows are free with the cost of paid park admission . Al",
+    "source": "https://www.fairytaletown.org/calendar/theater-show-three-little-pigs-4/2026-11-15/1/",
+    "until": "13:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-15",
+    "time": "14:00",
+    "title": "Theater Show: Three Little Pigs",
+    "venue": "Fairytale Town",
+    "city": "Sacramento",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Join us for a magical, original fairytale performance created especially for young audiences this weekend in the Children’s Theater, thanks to NorCal Arts! Theater shows are free with the cost of paid park admission . Al",
+    "source": "https://www.fairytaletown.org/calendar/theater-show-three-little-pigs-4/2026-11-15/2/",
+    "until": "14:30",
     "_jev": {
       "verdict": "ERROR",
       "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
