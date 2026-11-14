@@ -1,15 +1,47 @@
 [
   {
-    "date": "2026-11-11",
+    "date": "2026-11-14",
     "time": "10:00",
-    "title": "Veterans Day Parade",
-    "venue": "Cosumnes CSD Administration Office",
+    "title": "Sammy's Fun Pop-Up",
+    "venue": "Miwok Park",
     "city": "Elk Grove",
     "region": "sac",
     "ages": "All ages",
-    "blurb": "Elk Grove's annual Veterans Day Parade: Reading of the Names ceremony at 10 am, parade at 11:11 am, then a community picnic open to the public.",
-    "source": "https://www.cosumnescsd.gov/Calendar.aspx?EID=1650",
+    "blurb": "Sammy the Duck hosts a free pop-up with fun activities, games and music featuring the Mobile Recreation Unit, Rec Force One, for the whole family.",
+    "source": "https://www.cosumnescsd.gov/Calendar.aspx?EID=1959",
     "until": "13:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-19",
+    "time": "14:30",
+    "title": "Sammy's Fun Pop-Up",
+    "venue": "Foulks Park",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Sammy the Duck hosts a free pop-up with fun activities, games and music featuring the Mobile Recreation Unit, Rec Force One, for the whole family.",
+    "source": "https://www.cosumnescsd.gov/Calendar.aspx?EID=1960",
+    "until": "17:00",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-12-03",
+    "time": "17:30",
+    "title": "International Day Of Persons With Disabilities Celebration",
+    "venue": "Wackford Community & Aquatic Complex",
+    "city": "Elk Grove",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "An inclusive evening of fun, connection, entertainment, games and activities for individuals of all abilities.",
+    "source": "https://www.cosumnescsd.gov/Calendar.aspx?EID=1946",
+    "until": "19:30",
     "_jev": {
       "verdict": "ERROR",
       "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "

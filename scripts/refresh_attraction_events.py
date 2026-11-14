@@ -463,25 +463,39 @@ def refresh_mosac(today):
 # the official pages each run). Refresh this list when the current events pass:
 # the scraper raises "all cosumnes events are in the past" when nothing here
 # is upcoming, which gates the whole nightly push on purpose.
+# Refreshed 2026-11-13 (previous entries Pool of Pumpkins Oct 17 and Veterans
+# Day Parade Nov 11 both passed). Dickens Street Faire (Nov 28) and the
+# Illumination Festival (Dec 5) are NOT on the Cosumnes calendar — verified
+# 2026-11-13 via live calendar search (0 hits for both); they are City of
+# Elk Grove / Chamber events, so they do not belong in this list.
+# Next refresh needed after Dec 3, 2026.
 COSUMNES = [
-    {"url": "https://www.cosumnescsd.gov/Calendar.aspx?EID=1876",
-     "must": ["Saturday, October 17, 2026", "1:00 PM - 4:00 PM"],
-     "dates": ["2026-10-17"],
-     "title": "Pool of Pumpkins",
-     "time": "13:00", "until": "16:00",
-     "blurb": "Annual floating pumpkin patch: swim in the pool, pick a pumpkin "
-              "to take home, plus arts & crafts and carnival games. No entrance "
-              "fee; $13 wristband to take home a pumpkin.",
-     "ages": "All ages", "venue": "Elk Grove Aquatics Center"},
-    {"url": "https://www.cosumnescsd.gov/Calendar.aspx?EID=1650",
-     "must": ["Wednesday, November 11, 2026", "10:00 AM - 1:00 PM"],
-     "dates": ["2026-11-11"],
-     "title": "Veterans Day Parade",
+    {"url": "https://www.cosumnescsd.gov/Calendar.aspx?EID=1959",
+     "must": ["Saturday, November 14, 2026", "10:00 AM - 1:00 PM"],
+     "dates": ["2026-11-14"],
+     "title": "Sammy's Fun Pop-Up",
      "time": "10:00", "until": "13:00",
-     "blurb": "Elk Grove's annual Veterans Day Parade: Reading of the Names "
-              "ceremony at 10 am, parade at 11:11 am, then a community picnic "
-              "open to the public.",
-     "ages": "All ages", "venue": "Cosumnes CSD Administration Office"},
+     "blurb": "Sammy the Duck hosts a free pop-up with fun activities, games "
+              "and music featuring the Mobile Recreation Unit, Rec Force One, "
+              "for the whole family.",
+     "ages": "All ages", "venue": "Miwok Park"},
+    {"url": "https://www.cosumnescsd.gov/Calendar.aspx?EID=1960",
+     "must": ["Thursday, November 19, 2026", "2:30 PM - 5:00 PM"],
+     "dates": ["2026-11-19"],
+     "title": "Sammy's Fun Pop-Up",
+     "time": "14:30", "until": "17:00",
+     "blurb": "Sammy the Duck hosts a free pop-up with fun activities, games "
+              "and music featuring the Mobile Recreation Unit, Rec Force One, "
+              "for the whole family.",
+     "ages": "All ages", "venue": "Foulks Park"},
+    {"url": "https://www.cosumnescsd.gov/Calendar.aspx?EID=1946",
+     "must": ["Thursday, December 3, 2026", "5:30 PM - 7:30 PM"],
+     "dates": ["2026-12-03"],
+     "title": "International Day Of Persons With Disabilities Celebration",
+     "time": "17:30", "until": "19:30",
+     "blurb": "An inclusive evening of fun, connection, entertainment, games "
+              "and activities for individuals of all abilities.",
+     "ages": "All ages", "venue": "Wackford Community & Aquatic Complex"},
 ]
 
 

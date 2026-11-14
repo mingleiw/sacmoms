@@ -1,37 +1,5 @@
 [
   {
-    "date": "2026-11-12",
-    "time": "15:45",
-    "title": "FALL FAMILY MINI PHOTOGRAPHY SESSION",
-    "venue": "Effie Yeaw Nature Center",
-    "city": "Carmichael",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "This is a Effie Yeaw Nature Center Current Membership only event. Come take your Fall holiday photos at Effie Yeaw Nature Center.",
-    "source": "https://www.effieyeawnature.org/event-details/fall-family-mini-photography-session-2026-11-12-15-45",
-    "until": "16:05",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-12",
-    "time": "16:25",
-    "title": "FALL FAMILY MINI PHOTOGRAPHY SESSION",
-    "venue": "Effie Yeaw Nature Center",
-    "city": "Carmichael",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "This is a Effie Yeaw Nature Center Current Membership only event. Come take your Fall holiday photos at Effie Yeaw Nature Center.",
-    "source": "https://www.effieyeawnature.org/event-details/fall-family-mini-photography-session-2026-11-12-16-25",
-    "until": "16:45",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
     "date": "2026-11-14",
     "time": "10:00",
     "title": "Nature of Reading",
@@ -58,6 +26,22 @@
     "blurb": "Come and enjoy an evening out finding wild owls at Effie Yeaw Nature Center. Your guide will be naturalist/wildlife photographer Erik Johnson. He will teach you how to find Great Horned Owls on the American River Parkway",
     "source": "https://www.effieyeawnature.org/event-details/owling-adventure-1",
     "until": "17:30",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "time": "09:00",
+    "title": "Family Birding at Effie Yeaw Nature Center",
+    "venue": "Effie Yeaw Nature Center",
+    "city": "Carmichael",
+    "region": "sac",
+    "ages": "All ages",
+    "blurb": "Sacramento Bird Alliance leads free birding walks at Effie Yeaw Nature Center on the third Saturday of the month (September through June).",
+    "source": "https://www.effieyeawnature.org/event-details/family-birding-at-effie-yeaw-nature-center-2026-11-21-09-00",
+    "until": "11:00",
     "_jev": {
       "verdict": "ERROR",
       "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
