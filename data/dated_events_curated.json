@@ -155,7 +155,11 @@
     "ages": "All ages",
     "blurb": "Celebrate the holiday season with outdoor ice skating at Merry Meritage at The Meritage Resort",
     "source": "https://www.marinmommies.com/calendar/merry-meritage-holiday-ice-skating-%E2%80%93-napa",
-    "origin": "curated"
+    "origin": "curated",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
   },
   {
     "date": "2026-11-21",
@@ -168,7 +172,11 @@
     "ages": "All ages",
     "blurb": "Celebrate the holiday season with a festive afternoon tea at the Fairmont San Francisco! This",
     "source": "https://www.marinmommies.com/calendar/holiday-tea-fairmont-hotel",
-    "origin": "curated"
+    "origin": "curated",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
   },
   {
     "date": "2026-11-21",
@@ -181,7 +189,11 @@
     "ages": "All ages",
     "blurb": "Celebrate the magic of the winter season with Fairmont San Francisco’s beloved Santa Tea—a",
     "source": "https://www.marinmommies.com/calendar/santa-tea-fairmont-hotel",
-    "origin": "curated"
+    "origin": "curated",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
   },
   {
     "date": "2026-11-29",
@@ -194,7 +206,11 @@
     "ages": "All ages",
     "blurb": "Celebrate the magic of the winter season with Fairmont San Francisco’s beloved Santa Tea—a",
     "source": "https://www.marinmommies.com/calendar/santa-tea-fairmont-hotel",
-    "origin": "curated"
+    "origin": "curated",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
   },
   {
     "date": "2026-12-05",
@@ -207,7 +223,11 @@
     "ages": "All ages",
     "blurb": "Celebrate the magic of the winter season with Fairmont San Francisco’s beloved Santa Tea—a",
     "source": "https://www.marinmommies.com/calendar/santa-tea-fairmont-hotel",
-    "origin": "curated"
+    "origin": "curated",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
   },
   {
     "date": "2026-12-18",
@@ -220,7 +240,11 @@
     "ages": "All ages",
     "blurb": "Celebrate the magic of the winter season with Fairmont San Francisco’s beloved Santa Tea—a",
     "source": "https://www.marinmommies.com/calendar/santa-tea-fairmont-hotel",
-    "origin": "curated"
+    "origin": "curated",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
   },
   {
     "date": "2026-12-21",
@@ -233,7 +257,11 @@
     "ages": "All ages",
     "blurb": "Celebrate the magic of the winter season with Fairmont San Francisco’s beloved Santa Tea—a",
     "source": "https://www.marinmommies.com/calendar/santa-tea-fairmont-hotel",
-    "origin": "curated"
+    "origin": "curated",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
   },
   {
     "date": "2026-12-23",
@@ -246,7 +274,11 @@
     "ages": "All ages",
     "blurb": "Celebrate the magic of the winter season with Fairmont San Francisco’s beloved Santa Tea—a",
     "source": "https://www.marinmommies.com/calendar/santa-tea-fairmont-hotel",
-    "origin": "curated"
+    "origin": "curated",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
   },
   {
     "date": "2026-11-22",
@@ -259,7 +291,11 @@
     "ages": "All ages",
     "blurb": "Experience the wonder of the season as Santa Claus himself makes The Meritage his home for the",
     "source": "https://www.marinmommies.com/calendar/santas-reading-corner-meritage",
-    "origin": "curated"
+    "origin": "curated",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
   },
   {
     "date": "2026-11-14",
@@ -271,7 +307,11 @@
     "ages": "All ages",
     "blurb": "Celebrate the holiday season with a festive Holiday Tea at the Claremont Resort & Club in",
     "source": "https://www.marinmommies.com/calendar/festive-holiday-tea-claremont-berkeley",
-    "origin": "curated"
+    "origin": "curated",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
   },
   {
     "date": "2026-11-14",
@@ -283,7 +323,11 @@
     "ages": "All ages",
     "blurb": "Celebrate the holiday season with a festive Holiday Tea at the Claremont Resort & Club in",
     "source": "https://www.marinmommies.com/calendar/festive-holiday-tea-claremont-berkeley",
-    "origin": "curated"
+    "origin": "curated",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
   },
   {
     "date": "2026-11-14",
@@ -295,6 +339,10 @@
     "ages": "All ages",
     "blurb": "Celebrate the holiday season with a festive Holiday Tea at the Claremont Resort & Club in",
     "source": "https://www.marinmommies.com/calendar/festive-holiday-tea-claremont-berkeley",
-    "origin": "curated"
+    "origin": "curated",
+    "_jev": {
+      "verdict": "ERROR",
+      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+    }
   }
 ]

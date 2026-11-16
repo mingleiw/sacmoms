@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-11-14",
-    "title": "Nature Explorers",
-    "venue": "Sacramento Zoo",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Drop-in open play exploring the natural world, second Saturday monthly.",
-    "source": "https://www.saczoo.org/special-events",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
     "date": "2026-11-18",
     "title": "Sac Zoo Academy Days",
     "venue": "Sacramento Zoo",
