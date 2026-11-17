@@ -1,866 +1,626 @@
 [
-  {
-    "date": "2026-11-15",
-    "time": "00:00",
-    "title": "Theme Week Activity: All Day Fun",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! Throughout the day on Thurs-Sun this week, enjoy interactive activities l",
-    "source": "https://www.fairytaletown.org/calendar/theme-week-activity-all-day-fun/2026-11-15/",
-    "until": "23:59",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-15",
-    "time": "10:00",
-    "title": "Theme Week Activity: Meet Humpty Dumpty!",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! Meet Humpty Dumpty at 10am on the Mother Goose Stage this Saturday and Su",
-    "source": "https://www.fairytaletown.org/calendar/theme-week-activity-meet-humpty-dumpty/2026-11-15/",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-15",
-    "time": "11:00",
-    "title": "Theme Week Activity: Story Time with Little Bo Peep & Her Sheep",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! At 11am Thurs-Sun this week, enjoy stories with Little Bo Peep and Her Sh",
-    "source": "https://www.fairytaletown.org/calendar/theme-week-activity-story-time-with-little-bo-peep-her-sheep/2026-11-15/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-15",
-    "time": "12:00",
-    "title": "Theme Week Activity: Sing-Along with the Itsy Bitsy Spider",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us for World Nursery Rhyme Week, a fun-filled celebration of classic rhymes, songs, and stories that have delighted children for generations! At 12pm Thurs-Sun this week, enjoy singing with the Itsy Bitsy Spider in ",
-    "source": "https://www.fairytaletown.org/calendar/theme-week-activity-sing-along-with-the-itsy-bitsy-spider/2026-11-15/",
-    "until": "12:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-15",
-    "time": "13:00",
-    "title": "Theater Show: Three Little Pigs",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us for a magical, original fairytale performance created especially for young audiences this weekend in the Children’s Theater, thanks to NorCal Arts! Theater shows are free with the cost of paid park admission . Al",
-    "source": "https://www.fairytaletown.org/calendar/theater-show-three-little-pigs-4/2026-11-15/1/",
-    "until": "13:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-15",
-    "time": "14:00",
-    "title": "Theater Show: Three Little Pigs",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us for a magical, original fairytale performance created especially for young audiences this weekend in the Children’s Theater, thanks to NorCal Arts! Theater shows are free with the cost of paid park admission . Al",
-    "source": "https://www.fairytaletown.org/calendar/theater-show-three-little-pigs-4/2026-11-15/2/",
-    "until": "14:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-16",
-    "time": "10:00",
-    "title": "Closed for Winter Hours",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
-    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-3/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-19",
-    "time": "10:00",
-    "title": "Toddler Time!",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Weekly toddler program at Fairytale Town; see the official listing for this week's details.",
-    "source": "https://www.fairytaletown.org/calendar/toddler-time-16/2026-11-19/",
-    "until": "11:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-19",
-    "time": "11:00",
-    "title": "Story Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every Thur – Sun in November for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
-    "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-3/2026-11-19/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-19",
-    "time": "14:30",
-    "title": "Craft Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every Thursday at 2:30pm in November for Craft Time! Craft time is free with park admission. No need to worry about skill level – all kids are welcome! Come join us for a world of creative fun",
-    "source": "https://www.fairytaletown.org/calendar/craft-time-in-the-story-center-5/2026-11-19/",
-    "until": "15:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-20",
-    "time": "11:00",
-    "title": "Homeschool Clubhouse: Fairytales of the World",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
-    "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytales-of-the-world/2026-11-20/",
-    "until": "11:45",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-20",
-    "time": "11:00",
-    "title": "Story Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every Thur – Sun in November for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
-    "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-3/2026-11-20/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-21",
-    "time": "11:00",
-    "title": "Story Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every Thur – Sun in November for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
-    "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-3/2026-11-21/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-22",
-    "time": "11:00",
-    "title": "Story Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every Thur – Sun in November for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
-    "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-3/2026-11-22/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-23",
-    "time": "10:00",
-    "title": "Fall FunCamp",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Fairytale Town Fall FunCamps 2026 Fairytale Town Fall FunCamps invite children ages 4–9 to dive into hands-on learning, creativity, and adventure. Each age group will explore exciting themes designed just for them! Each ",
-    "source": "https://www.fairytaletown.org/calendar/fall-funcamp/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-24",
-    "time": "11:00",
-    "title": "Story Time with the Maidu Museum",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under are free. Please note: Adults must be accompanied by children and children must be accompanied by adults in order to gain a",
-    "source": "https://www.fairytaletown.org/calendar/story-time-with-the-maidu-museum/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-26",
-    "time": "00:00",
-    "title": "Closed for Thanksgiving",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Fairytale Town will be closed on Thursday, November 26, in observance of the Thanksgiving Holiday.",
-    "source": "https://www.fairytaletown.org/calendar/closed-for-thanksgiving/",
-    "until": "23:59",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-27",
-    "time": "11:00",
-    "title": "Story Time in the Story Center",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us in the Story Center every Thur – Sun in November for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
-    "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-4/",
-    "until": "11:30",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-28",
-    "time": "11:00",
-    "title": "Tractor Tales",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us on November 28 & 29 at 11am in the Story Center Classroom for Tractor Tales featuring Oliver, the eclectus parrot! Perfect for little animal lovers, this interactive event combines the magic of books with the joy",
-    "source": "https://www.fairytaletown.org/calendar/tractor-tales-11/2026-11-28/",
-    "until": "11:20",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-29",
-    "time": "11:00",
-    "title": "Tractor Tales",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us on November 28 & 29 at 11am in the Story Center Classroom for Tractor Tales featuring Oliver, the eclectus parrot! Perfect for little animal lovers, this interactive event combines the magic of books with the joy",
-    "source": "https://www.fairytaletown.org/calendar/tractor-tales-11/2026-11-29/",
-    "until": "11:20",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-30",
-    "time": "10:00",
-    "title": "Closed for Winter Hours",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
-    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-4/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-01",
-    "time": "00:00",
-    "title": "Giving Tuesday",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Tis the season for giving! More than 250,000 children and their families enjoy Fairytale Town each year, and kids gain invaluable skills in imagination, creativity, and early literacy. Amid the crisis, Fairytale Town has",
-    "source": "https://www.fairytaletown.org/calendar/giving-tuesday/",
-    "until": "23:59",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-04",
-    "time": "00:00",
-    "title": "Scholastic Book Fair!",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "The Scholastic Book Fair is happening inside the Story Center ! There will be pens, bookmarks, erasers, fun gadgets, and books for all ages! Come on over and dive into a world of stories!",
-    "source": "https://www.fairytaletown.org/calendar/scholastic-book-fair-2/",
-    "until": "23:59",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-05",
-    "time": "13:00",
-    "title": "Winter Wonderland",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Saturday & Sunday, December 5-6 & 12-13 Special Park & Event Hours: 1 PM – 7 PM (last admission at 6 PM) Weather permitting Click Here for Tickets! Celebrate the holidays together at Fairytale Town’s annual Winter Wonder",
-    "source": "https://www.fairytaletown.org/calendar/winter-wonderland-3/",
-    "until": "19:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-06",
-    "time": "13:00",
-    "title": "Winter Wonderland",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Saturday & Sunday, December 5-6 & 12-13 Special Park & Event Hours: 1 PM – 7 PM (last admission at 6 PM) Weather permitting Click Here for Tickets! Celebrate the holidays together at Fairytale Town’s annual Winter Wonder",
-    "source": "https://www.fairytaletown.org/calendar/winter-wonderland-4/",
-    "until": "19:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-07",
-    "time": "10:00",
-    "title": "Closed for Winter Hours",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
-    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-5/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-11",
-    "time": "17:00",
-    "title": "Kids’ Night Out: Cocoa & Cookies",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Register Now! Welcome to Kid’s Night Out! Come to Fairytale Town for a Kids Night Out! Kids ages 4–12 can enjoy a fun night out filled with activities, including craft projects, games and dinner. Take this opportunity to",
-    "source": "https://www.fairytaletown.org/calendar/kids-night-out-cocoa-cookies/",
-    "until": "20:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-12",
-    "time": "13:00",
-    "title": "Winter Wonderland",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Saturday & Sunday, December 5-6 & 12-13 Special Park & Event Hours: 1 PM – 7 PM (last admission at 6 PM) Weather permitting Click Here for Tickets! Celebrate the holidays together at Fairytale Town’s annual Winter Wonder",
-    "source": "https://www.fairytaletown.org/calendar/winter-wonderland/",
-    "until": "19:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-12",
-    "time": "14:00",
-    "title": "Author Visit: Crystel Patterson",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Come meet Crystel Patterson on Saturday, December 12th, from 2 PM – 4 PM!",
-    "source": "https://www.fairytaletown.org/calendar/author-visit-crystel-patterson/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-13",
-    "time": "13:00",
-    "title": "Winter Wonderland",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Saturday & Sunday, December 5-6 & 12-13 Special Park & Event Hours: 1 PM – 7 PM (last admission at 6 PM) Weather permitting Click Here for Tickets! Celebrate the holidays together at Fairytale Town’s annual Winter Wonder",
-    "source": "https://www.fairytaletown.org/calendar/winter-wonderland-2/",
-    "until": "19:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-14",
-    "time": "10:00",
-    "title": "Closed for Winter Hours",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
-    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-6/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-21",
-    "time": "10:00",
-    "title": "Closed for Winter Hours",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
-    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-8/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-26",
-    "time": "11:00",
-    "title": "Tractor Tales",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us on December 26 & 27 at 11am in the Story Center Classroom for Tractor Tales featuring Ferdinand the bull! Perfect for little animal lovers, this interactive event combines the magic of books with the joy of meeti",
-    "source": "https://www.fairytaletown.org/calendar/tractor-tales-12/2026-12-26/",
-    "until": "11:20",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-27",
-    "time": "11:00",
-    "title": "Tractor Tales",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Join us on December 26 & 27 at 11am in the Story Center Classroom for Tractor Tales featuring Ferdinand the bull! Perfect for little animal lovers, this interactive event combines the magic of books with the joy of meeti",
-    "source": "https://www.fairytaletown.org/calendar/tractor-tales-12/2026-12-27/",
-    "until": "11:20",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-28",
-    "time": "10:00",
-    "title": "Closed for Winter Hours",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
-    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-7/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-01-04",
-    "time": "10:00",
-    "title": "Closed for Winter Hours",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
-    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-9/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-01-08",
-    "time": "11:00",
-    "title": "Homeschool Clubhouse: Art History",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
-    "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-art-history/2027-01-08/",
-    "until": "11:45",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-01-11",
-    "time": "10:00",
-    "title": "Closed for Winter Hours",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
-    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-10/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-01-15",
-    "time": "11:00",
-    "title": "Homeschool Clubhouse: Fairytale Science",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
-    "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytale-science/2027-01-15/",
-    "until": "11:45",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-01-18",
-    "time": "10:00",
-    "title": "Closed for Winter Hours",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
-    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-11/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-01-22",
-    "time": "11:00",
-    "title": "Homeschool Clubhouse: Fairytales of the World",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
-    "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytales-of-the-world/2027-01-22/",
-    "until": "11:45",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-01-25",
-    "time": "10:00",
-    "title": "Closed for Winter Hours",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
-    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-12/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-02-01",
-    "time": "10:00",
-    "title": "Closed for Winter Hours",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
-    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-13/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-02-05",
-    "time": "11:00",
-    "title": "Homeschool Clubhouse: Art History",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
-    "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-art-history/2027-02-05/",
-    "until": "11:45",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-02-08",
-    "time": "10:00",
-    "title": "Closed for Winter Hours",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
-    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-14/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-02-15",
-    "time": "10:00",
-    "title": "Closed for Winter Hours",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
-    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-15/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-02-19",
-    "time": "11:00",
-    "title": "Homeschool Clubhouse: Fairytale Science",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
-    "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytale-science/2027-02-19/",
-    "until": "11:45",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-02-22",
-    "time": "10:00",
-    "title": "Closed for Winter Hours",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
-    "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-16/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-03-05",
-    "time": "11:00",
-    "title": "Homeschool Clubhouse: Fairytales of the World",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
-    "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytales-of-the-world/2027-03-05/",
-    "until": "11:45",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-03-19",
-    "time": "11:00",
-    "title": "Homeschool Clubhouse: Art History",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
-    "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-art-history/2027-03-19/",
-    "until": "11:45",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-04-09",
-    "time": "11:00",
-    "title": "Homeschool Clubhouse: Fairytale Science",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
-    "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytale-science/2027-04-09/",
-    "until": "11:45",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-04-23",
-    "time": "11:00",
-    "title": "Homeschool Clubhouse: Fairytales of the World",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
-    "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytales-of-the-world/2027-04-23/",
-    "until": "11:45",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-05-07",
-    "time": "11:00",
-    "title": "Homeschool Clubhouse: Art History",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
-    "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-art-history/2027-05-07/",
-    "until": "11:45",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-05-21",
-    "time": "11:00",
-    "title": "Homeschool Clubhouse: Fairytale Science",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
-    "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytale-science/2027-05-21/",
-    "until": "11:45",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  }
+ {
+  "date": "2026-11-16",
+  "time": "10:00",
+  "title": "Closed for Winter Hours",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+  "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-3/",
+  "until": "16:00"
+ },
+ {
+  "date": "2026-11-19",
+  "time": "10:00",
+  "title": "Toddler Time!",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Weekly toddler program at Fairytale Town; see the official listing for this week's details.",
+  "source": "https://www.fairytaletown.org/calendar/toddler-time-16/2026-11-19/",
+  "until": "11:00"
+ },
+ {
+  "date": "2026-11-19",
+  "time": "11:00",
+  "title": "Story Time in the Story Center",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us in the Story Center every Thur – Sun in November for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
+  "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-3/2026-11-19/",
+  "until": "11:30"
+ },
+ {
+  "date": "2026-11-19",
+  "time": "14:30",
+  "title": "Craft Time in the Story Center",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us in the Story Center every Thursday at 2:30pm in November for Craft Time! Craft time is free with park admission. No need to worry about skill level – all kids are welcome! Come join us for a world of creative fun",
+  "source": "https://www.fairytaletown.org/calendar/craft-time-in-the-story-center-5/2026-11-19/",
+  "until": "15:00"
+ },
+ {
+  "date": "2026-11-20",
+  "time": "11:00",
+  "title": "Homeschool Clubhouse: Fairytales of the World",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
+  "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytales-of-the-world/2026-11-20/",
+  "until": "11:45"
+ },
+ {
+  "date": "2026-11-20",
+  "time": "11:00",
+  "title": "Story Time in the Story Center",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us in the Story Center every Thur – Sun in November for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
+  "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-3/2026-11-20/",
+  "until": "11:30"
+ },
+ {
+  "date": "2026-11-21",
+  "time": "11:00",
+  "title": "Story Time in the Story Center",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us in the Story Center every Thur – Sun in November for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
+  "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-3/2026-11-21/",
+  "until": "11:30"
+ },
+ {
+  "date": "2026-11-21",
+  "time": "13:00",
+  "title": "Theater Show: Three Little Pigs",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us for a magical, original fairytale performance created especially for young audiences this weekend in the Children’s Theater, thanks to NorCal Arts! Theater shows are free with the cost of paid park admission . Al",
+  "source": "https://www.fairytaletown.org/calendar/theater-show-three-little-pigs-5/2026-11-21/1/",
+  "until": "13:30"
+ },
+ {
+  "date": "2026-11-21",
+  "time": "14:00",
+  "title": "Theater Show: Three Little Pigs",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us for a magical, original fairytale performance created especially for young audiences this weekend in the Children’s Theater, thanks to NorCal Arts! Theater shows are free with the cost of paid park admission . Al",
+  "source": "https://www.fairytaletown.org/calendar/theater-show-three-little-pigs-5/2026-11-21/2/",
+  "until": "14:30"
+ },
+ {
+  "date": "2026-11-22",
+  "time": "11:00",
+  "title": "Story Time in the Story Center",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us in the Story Center every Thur – Sun in November for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
+  "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-3/2026-11-22/",
+  "until": "11:30"
+ },
+ {
+  "date": "2026-11-22",
+  "time": "13:00",
+  "title": "Theater Show: Three Little Pigs",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us for a magical, original fairytale performance created especially for young audiences this weekend in the Children’s Theater, thanks to NorCal Arts! Theater shows are free with the cost of paid park admission . Al",
+  "source": "https://www.fairytaletown.org/calendar/theater-show-three-little-pigs-5/2026-11-22/1/",
+  "until": "13:30"
+ },
+ {
+  "date": "2026-11-22",
+  "time": "14:00",
+  "title": "Theater Show: Three Little Pigs",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us for a magical, original fairytale performance created especially for young audiences this weekend in the Children’s Theater, thanks to NorCal Arts! Theater shows are free with the cost of paid park admission . Al",
+  "source": "https://www.fairytaletown.org/calendar/theater-show-three-little-pigs-5/2026-11-22/2/",
+  "until": "14:30"
+ },
+ {
+  "date": "2026-11-23",
+  "time": "10:00",
+  "title": "Fall FunCamp",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Fairytale Town Fall FunCamps 2026 Fairytale Town Fall FunCamps invite children ages 4–9 to dive into hands-on learning, creativity, and adventure. Each age group will explore exciting themes designed just for them! Each ",
+  "source": "https://www.fairytaletown.org/calendar/fall-funcamp/",
+  "until": "16:00"
+ },
+ {
+  "date": "2026-11-24",
+  "time": "11:00",
+  "title": "Story Time with the Maidu Museum",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under are free. Please note: Adults must be accompanied by children and children must be accompanied by adults in order to gain a",
+  "source": "https://www.fairytaletown.org/calendar/story-time-with-the-maidu-museum/",
+  "until": "11:30"
+ },
+ {
+  "date": "2026-11-26",
+  "time": "00:00",
+  "title": "Closed for Thanksgiving",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Fairytale Town will be closed on Thursday, November 26, in observance of the Thanksgiving Holiday.",
+  "source": "https://www.fairytaletown.org/calendar/closed-for-thanksgiving/",
+  "until": "23:59"
+ },
+ {
+  "date": "2026-11-27",
+  "time": "11:00",
+  "title": "Story Time in the Story Center",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us in the Story Center every Thur – Sun in November for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
+  "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-4/",
+  "until": "11:30"
+ },
+ {
+  "date": "2026-11-28",
+  "time": "11:00",
+  "title": "Tractor Tales",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us on November 28 & 29 at 11am in the Story Center Classroom for Tractor Tales featuring Oliver, the eclectus parrot! Perfect for little animal lovers, this interactive event combines the magic of books with the joy",
+  "source": "https://www.fairytaletown.org/calendar/tractor-tales-11/2026-11-28/",
+  "until": "11:20"
+ },
+ {
+  "date": "2026-11-29",
+  "time": "11:00",
+  "title": "Tractor Tales",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us on November 28 & 29 at 11am in the Story Center Classroom for Tractor Tales featuring Oliver, the eclectus parrot! Perfect for little animal lovers, this interactive event combines the magic of books with the joy",
+  "source": "https://www.fairytaletown.org/calendar/tractor-tales-11/2026-11-29/",
+  "until": "11:20"
+ },
+ {
+  "date": "2026-11-30",
+  "time": "10:00",
+  "title": "Closed for Winter Hours",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+  "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-4/",
+  "until": "16:00"
+ },
+ {
+  "date": "2026-12-01",
+  "time": "00:00",
+  "title": "Giving Tuesday",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Tis the season for giving! More than 250,000 children and their families enjoy Fairytale Town each year, and kids gain invaluable skills in imagination, creativity, and early literacy. Amid the crisis, Fairytale Town has",
+  "source": "https://www.fairytaletown.org/calendar/giving-tuesday/",
+  "until": "23:59"
+ },
+ {
+  "date": "2026-12-04",
+  "time": "00:00",
+  "title": "Scholastic Book Fair!",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "The Scholastic Book Fair is happening inside the Story Center ! There will be pens, bookmarks, erasers, fun gadgets, and books for all ages! Come on over and dive into a world of stories!",
+  "source": "https://www.fairytaletown.org/calendar/scholastic-book-fair-2/",
+  "until": "23:59"
+ },
+ {
+  "date": "2026-12-05",
+  "time": "13:00",
+  "title": "Winter Wonderland",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Saturday & Sunday, December 5-6 & 12-13 Special Park & Event Hours: 1 PM – 7 PM (last admission at 6 PM) Weather permitting Click Here for Tickets! Celebrate the holidays together at Fairytale Town’s annual Winter Wonder",
+  "source": "https://www.fairytaletown.org/calendar/winter-wonderland-3/",
+  "until": "19:00"
+ },
+ {
+  "date": "2026-12-06",
+  "time": "13:00",
+  "title": "Winter Wonderland",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Saturday & Sunday, December 5-6 & 12-13 Special Park & Event Hours: 1 PM – 7 PM (last admission at 6 PM) Weather permitting Click Here for Tickets! Celebrate the holidays together at Fairytale Town’s annual Winter Wonder",
+  "source": "https://www.fairytaletown.org/calendar/winter-wonderland-4/",
+  "until": "19:00"
+ },
+ {
+  "date": "2026-12-07",
+  "time": "10:00",
+  "title": "Closed for Winter Hours",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+  "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-5/",
+  "until": "16:00"
+ },
+ {
+  "date": "2026-12-11",
+  "time": "17:00",
+  "title": "Kids’ Night Out: Cocoa & Cookies",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Register Now! Welcome to Kid’s Night Out! Come to Fairytale Town for a Kids Night Out! Kids ages 4–12 can enjoy a fun night out filled with activities, including craft projects, games and dinner. Take this opportunity to",
+  "source": "https://www.fairytaletown.org/calendar/kids-night-out-cocoa-cookies/",
+  "until": "20:00"
+ },
+ {
+  "date": "2026-12-12",
+  "time": "13:00",
+  "title": "Winter Wonderland",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Saturday & Sunday, December 5-6 & 12-13 Special Park & Event Hours: 1 PM – 7 PM (last admission at 6 PM) Weather permitting Click Here for Tickets! Celebrate the holidays together at Fairytale Town’s annual Winter Wonder",
+  "source": "https://www.fairytaletown.org/calendar/winter-wonderland/",
+  "until": "19:00"
+ },
+ {
+  "date": "2026-12-12",
+  "time": "14:00",
+  "title": "Author Visit: Crystel Patterson",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Come meet Crystel Patterson on Saturday, December 12th, from 2 PM – 4 PM!",
+  "source": "https://www.fairytaletown.org/calendar/author-visit-crystel-patterson/",
+  "until": "16:00"
+ },
+ {
+  "date": "2026-12-13",
+  "time": "13:00",
+  "title": "Winter Wonderland",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Saturday & Sunday, December 5-6 & 12-13 Special Park & Event Hours: 1 PM – 7 PM (last admission at 6 PM) Weather permitting Click Here for Tickets! Celebrate the holidays together at Fairytale Town’s annual Winter Wonder",
+  "source": "https://www.fairytaletown.org/calendar/winter-wonderland-2/",
+  "until": "19:00"
+ },
+ {
+  "date": "2026-12-14",
+  "time": "10:00",
+  "title": "Closed for Winter Hours",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+  "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-6/",
+  "until": "16:00"
+ },
+ {
+  "date": "2026-12-21",
+  "time": "10:00",
+  "title": "Closed for Winter Hours",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+  "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-8/",
+  "until": "16:00"
+ },
+ {
+  "date": "2026-12-26",
+  "time": "11:00",
+  "title": "Tractor Tales",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us on December 26 & 27 at 11am in the Story Center Classroom for Tractor Tales featuring Ferdinand the bull! Perfect for little animal lovers, this interactive event combines the magic of books with the joy of meeti",
+  "source": "https://www.fairytaletown.org/calendar/tractor-tales-12/2026-12-26/",
+  "until": "11:20"
+ },
+ {
+  "date": "2026-12-27",
+  "time": "11:00",
+  "title": "Tractor Tales",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us on December 26 & 27 at 11am in the Story Center Classroom for Tractor Tales featuring Ferdinand the bull! Perfect for little animal lovers, this interactive event combines the magic of books with the joy of meeti",
+  "source": "https://www.fairytaletown.org/calendar/tractor-tales-12/2026-12-27/",
+  "until": "11:20"
+ },
+ {
+  "date": "2026-12-28",
+  "time": "10:00",
+  "title": "Closed for Winter Hours",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+  "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-7/",
+  "until": "16:00"
+ },
+ {
+  "date": "2027-01-04",
+  "time": "10:00",
+  "title": "Closed for Winter Hours",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+  "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-9/",
+  "until": "16:00"
+ },
+ {
+  "date": "2027-01-08",
+  "time": "11:00",
+  "title": "Homeschool Clubhouse: Art History",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
+  "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-art-history/2027-01-08/",
+  "until": "11:45"
+ },
+ {
+  "date": "2027-01-11",
+  "time": "10:00",
+  "title": "Closed for Winter Hours",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+  "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-10/",
+  "until": "16:00"
+ },
+ {
+  "date": "2027-01-15",
+  "time": "11:00",
+  "title": "Homeschool Clubhouse: Fairytale Science",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
+  "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytale-science/2027-01-15/",
+  "until": "11:45"
+ },
+ {
+  "date": "2027-01-18",
+  "time": "10:00",
+  "title": "Closed for Winter Hours",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+  "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-11/",
+  "until": "16:00"
+ },
+ {
+  "date": "2027-01-22",
+  "time": "11:00",
+  "title": "Homeschool Clubhouse: Fairytales of the World",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
+  "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytales-of-the-world/2027-01-22/",
+  "until": "11:45"
+ },
+ {
+  "date": "2027-01-25",
+  "time": "10:00",
+  "title": "Closed for Winter Hours",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+  "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-12/",
+  "until": "16:00"
+ },
+ {
+  "date": "2027-02-01",
+  "time": "10:00",
+  "title": "Closed for Winter Hours",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+  "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-13/",
+  "until": "16:00"
+ },
+ {
+  "date": "2027-02-05",
+  "time": "11:00",
+  "title": "Homeschool Clubhouse: Art History",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
+  "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-art-history/2027-02-05/",
+  "until": "11:45"
+ },
+ {
+  "date": "2027-02-08",
+  "time": "10:00",
+  "title": "Closed for Winter Hours",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+  "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-14/",
+  "until": "16:00"
+ },
+ {
+  "date": "2027-02-15",
+  "time": "10:00",
+  "title": "Closed for Winter Hours",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+  "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-15/",
+  "until": "16:00"
+ },
+ {
+  "date": "2027-02-19",
+  "time": "11:00",
+  "title": "Homeschool Clubhouse: Fairytale Science",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
+  "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytale-science/2027-02-19/",
+  "until": "11:45"
+ },
+ {
+  "date": "2027-02-22",
+  "time": "10:00",
+  "title": "Closed for Winter Hours",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
+  "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-16/",
+  "until": "16:00"
+ },
+ {
+  "date": "2027-03-05",
+  "time": "11:00",
+  "title": "Homeschool Clubhouse: Fairytales of the World",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
+  "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytales-of-the-world/2027-03-05/",
+  "until": "11:45"
+ },
+ {
+  "date": "2027-03-19",
+  "time": "11:00",
+  "title": "Homeschool Clubhouse: Art History",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
+  "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-art-history/2027-03-19/",
+  "until": "11:45"
+ },
+ {
+  "date": "2027-04-09",
+  "time": "11:00",
+  "title": "Homeschool Clubhouse: Fairytale Science",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
+  "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytale-science/2027-04-09/",
+  "until": "11:45"
+ },
+ {
+  "date": "2027-04-23",
+  "time": "11:00",
+  "title": "Homeschool Clubhouse: Fairytales of the World",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
+  "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytales-of-the-world/2027-04-23/",
+  "until": "11:45"
+ },
+ {
+  "date": "2027-05-07",
+  "time": "11:00",
+  "title": "Homeschool Clubhouse: Art History",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
+  "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-art-history/2027-05-07/",
+  "until": "11:45"
+ },
+ {
+  "date": "2027-05-21",
+  "time": "11:00",
+  "title": "Homeschool Clubhouse: Fairytale Science",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Register Now! Looking for engaging learning experiences to add to your homeschool routine? Homeschool Clubhouse brings families together at Fairytale Town for hands-on, educator-led workshops designed to inspire curiosit",
+  "source": "https://www.fairytaletown.org/calendar/homeschool-clubhouse-fairytale-science/2027-05-21/",
+  "until": "11:45"
+ }
 ]

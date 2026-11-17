@@ -1,50 +1,38 @@
 [
-  {
-    "date": "2026-11-19",
-    "time": "10:00",
-    "title": "Homeschool Day: QS               Growing Sacramento",
-    "venue": "Museum of Science and Curiosity",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "A curiosity-filled day for homeschool, charter and independent-study families: planetarium shows, hands-on labs and museum exhibits.",
-    "source": "https://visitmosac.org/learn/homeschool-programs/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-01-13",
-    "time": "10:00",
-    "title": "Homeschool Day: Engineering",
-    "venue": "Museum of Science and Curiosity",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "A curiosity-filled day for homeschool, charter and independent-study families: planetarium shows, hands-on labs and museum exhibits.",
-    "source": "https://visitmosac.org/learn/homeschool-programs/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-03-11",
-    "time": "10:00",
-    "title": "Homeschool Day: Space Exploration",
-    "venue": "Museum of Science and Curiosity",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "A curiosity-filled day for homeschool, charter and independent-study families: planetarium shows, hands-on labs and museum exhibits.",
-    "source": "https://visitmosac.org/learn/homeschool-programs/",
-    "until": "16:00",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  }
+ {
+  "date": "2026-11-19",
+  "time": "10:00",
+  "title": "Homeschool Day: QS               Growing Sacramento",
+  "venue": "Museum of Science and Curiosity",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "A curiosity-filled day for homeschool, charter and independent-study families: planetarium shows, hands-on labs and museum exhibits.",
+  "source": "https://visitmosac.org/learn/homeschool-programs/",
+  "until": "16:00"
+ },
+ {
+  "date": "2027-01-13",
+  "time": "10:00",
+  "title": "Homeschool Day: Engineering",
+  "venue": "Museum of Science and Curiosity",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "A curiosity-filled day for homeschool, charter and independent-study families: planetarium shows, hands-on labs and museum exhibits.",
+  "source": "https://visitmosac.org/learn/homeschool-programs/",
+  "until": "16:00"
+ },
+ {
+  "date": "2027-03-11",
+  "time": "10:00",
+  "title": "Homeschool Day: Space Exploration",
+  "venue": "Museum of Science and Curiosity",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "A curiosity-filled day for homeschool, charter and independent-study families: planetarium shows, hands-on labs and museum exhibits.",
+  "source": "https://visitmosac.org/learn/homeschool-programs/",
+  "until": "16:00"
+ }
 ]
