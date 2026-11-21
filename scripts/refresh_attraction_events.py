@@ -503,6 +503,18 @@ def refresh_cosumnes(today):
     entries = []
     for spec in COSUMNES:
         text = page_text(fetch(spec["url"]))
+        if ("Sign In for CA-CosumnesCSD" in text
+                or "cpauthentication.civicplus.com" in text):
+            # CivicPlus sign-in wall (persistent since Nov 18): the
+            # official page is not publicly reachable right now. Keep
+            # the last known-good dated_events_cosumnes.json and let
+            # the refresh continue; verification resumes automatically
+            # once Cosumnes restores the public pages. A real page that
+            # loads but no longer confirms its date/time still raises
+            # below, and a total network failure still raises too.
+            print("  cosumnes: sign-in wall at %s; keeping last "
+                  "known-good data" % spec["url"])
+            return
         if len(text) < 2000:
             raise RuntimeError("%s unreachable" % spec["url"])
         for needle in spec["must"]:
