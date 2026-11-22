@@ -1,17 +1,5 @@
 [
  {
-  "date": "2026-11-21",
-  "time": "09:00",
-  "title": "Family Birding at Effie Yeaw Nature Center",
-  "venue": "Effie Yeaw Nature Center",
-  "city": "Carmichael",
-  "region": "sac",
-  "ages": "All ages",
-  "blurb": "Sacramento Bird Alliance leads free birding walks at Effie Yeaw Nature Center on the third Saturday of the month (September through June).",
-  "source": "https://www.effieyeawnature.org/event-details/family-birding-at-effie-yeaw-nature-center-2026-11-21-09-00",
-  "until": "11:00"
- },
- {
   "date": "2026-11-23",
   "time": "10:00",
   "title": "Family Program: Scent-sational Salmon",
@@ -94,5 +82,125 @@
   "blurb": "Spark a love of reading—and nature—with our Nature of Reading Program! Designed for ages 5 - 8.",
   "source": "https://www.effieyeawnature.org/event-details/nature-of-reading-2026-12-12-22-00",
   "until": "11:00"
+ },
+ {
+  "date": "2026-12-19",
+  "time": "10:30",
+  "title": "Do the Salmon Like my Stream?",
+  "venue": "Effie Yeaw Nature Center",
+  "city": "Carmichael",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "A presentation on the Fall-Run Chinook Salmon journey and local watershed followed by a hike to the river to observe the salmon habitat.",
+  "source": "https://www.effieyeawnature.org/event-details/do-the-salmon-like-my-stream",
+  "until": "12:30"
+ },
+ {
+  "date": "2026-12-21",
+  "time": "09:00",
+  "title": "Crafty Corner (Ages 6-11)",
+  "venue": "Effie Yeaw Nature Center",
+  "city": "Carmichael",
+  "region": "sac",
+  "ages": "Ages 6–11",
+  "blurb": "This camp is all about making crafts and is for children ages 6-11.",
+  "source": "https://www.effieyeawnature.org/event-details/crafty-corner-ages-6-11-2",
+  "until": "12:00"
+ },
+ {
+  "date": "2026-12-21",
+  "time": "09:00",
+  "title": "Radical Reptiles (Age 5)",
+  "venue": "Effie Yeaw Nature Center",
+  "city": "Carmichael",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "This camp is all about reptiles and is for children aged 5.",
+  "source": "https://www.effieyeawnature.org/event-details/radical-reptiles-age-5",
+  "until": "12:00"
+ },
+ {
+  "date": "2026-12-22",
+  "time": "09:00",
+  "title": "Fish Frenzy (Ages 6-7)",
+  "venue": "Effie Yeaw Nature Center",
+  "city": "Carmichael",
+  "region": "sac",
+  "ages": "Ages 6–7",
+  "blurb": "This camp is all about salmon and is for children ages 6-7.",
+  "source": "https://www.effieyeawnature.org/event-details/fish-frenzy-ages-6-7",
+  "until": "15:00"
+ },
+ {
+  "date": "2026-12-22",
+  "time": "09:00",
+  "title": "Salmon Stroll (Ages 8-11)",
+  "venue": "Effie Yeaw Nature Center",
+  "city": "Carmichael",
+  "region": "sac",
+  "ages": "Ages 8–11",
+  "blurb": "This camp is all about salmon and is for children ages 8-11.",
+  "source": "https://www.effieyeawnature.org/event-details/salmon-stroll-ages-8-11",
+  "until": "15:00"
+ },
+ {
+  "date": "2026-12-23",
+  "time": "09:00",
+  "title": "Fuzzy Friends (Ages 8-11)",
+  "venue": "Effie Yeaw Nature Center",
+  "city": "Carmichael",
+  "region": "sac",
+  "ages": "Ages 8–11",
+  "blurb": "This camp is all about mammals and is for children ages 8-11.",
+  "source": "https://www.effieyeawnature.org/event-details/fuzzy-friends-ages-8-11-2",
+  "until": "15:00"
+ },
+ {
+  "date": "2026-12-23",
+  "time": "09:00",
+  "title": "Sleepy Sleepers (Ages 6-7)",
+  "venue": "Effie Yeaw Nature Center",
+  "city": "Carmichael",
+  "region": "sac",
+  "ages": "Ages 6–7",
+  "blurb": "This camp is all about hibernation and is for children ages 6-7.",
+  "source": "https://www.effieyeawnature.org/event-details/sleepy-sleepers-ages-6-7",
+  "until": "15:00"
+ },
+ {
+  "date": "2026-12-28",
+  "time": "09:00",
+  "title": "Animals by Design (Ages 6-11)",
+  "venue": "Effie Yeaw Nature Center",
+  "city": "Carmichael",
+  "region": "sac",
+  "ages": "Ages 6–11",
+  "blurb": "This camp is all about patterns in nature and is for children ages 6-11.",
+  "source": "https://www.effieyeawnature.org/event-details/animals-by-design-ages-6-11",
+  "until": "15:00"
+ },
+ {
+  "date": "2026-12-29",
+  "time": "09:00",
+  "title": "Brumation Station (Ages 8-11)",
+  "venue": "Effie Yeaw Nature Center",
+  "city": "Carmichael",
+  "region": "sac",
+  "ages": "Ages 8–11",
+  "blurb": "This camp is all about brumation and is for children ages 8-11.",
+  "source": "https://www.effieyeawnature.org/event-details/brumation-station-ages-8-11",
+  "until": "15:00"
+ },
+ {
+  "date": "2026-12-29",
+  "time": "09:00",
+  "title": "Sun-Seeking Critters (Ages 6-7)",
+  "venue": "Effie Yeaw Nature Center",
+  "city": "Carmichael",
+  "region": "sac",
+  "ages": "Ages 6–7",
+  "blurb": "This camp is all about animals who bask in the sun and is for children ages 6-7.",
+  "source": "https://www.effieyeawnature.org/event-details/sun-seeking-critters-ages-6-7",
+  "until": "15:00"
  }
 ]
