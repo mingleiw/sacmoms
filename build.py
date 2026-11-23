@@ -956,13 +956,28 @@ SPORT_ICONS = {
 }
 
 
+_MONTHS = {m: i for i, m in enumerate(
+    ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'], 1)}
+
+
+def class_session_end(session):
+    """ISO end date from a session like 'Oct 5 – Oct 28, 2026', else ''.
+
+    The page compares it with the viewer's own date, so a class that has run
+    its course reads as ended even when the daily build has not run since."""
+    m = re.search(r'([A-Z][a-z]{2})[a-z]* (\d{1,2}), (\d{4})\s*$', session or '')
+    if not m or m.group(1) not in _MONTHS:
+        return ''
+    return '%s-%02d-%02d' % (m.group(3), _MONTHS[m.group(1)], int(m.group(2)))
+
+
 def class_card_html(c):
     icon = SPORT_ICONS.get(c.get('sport', '').lower(), 'i-play')
     price_cls = ' cl-free' if c.get('price', '').lower() == 'free' else ''
     sport_attr = html.escape(c.get('sport', '').lower(), quote=True)
     city_attr = html.escape(c.get('city', '').lower(), quote=True)
     ages_attr = html.escape(c.get('ages', ''), quote=True)
-    return '''        <article class="class-card" data-sport="%s" data-city="%s" data-ages="%s">
+    return '''        <article class="class-card" data-sport="%s" data-city="%s" data-ages="%s" data-ends="%s">
           <div class="cl-head">
             <svg class="cl-icon" width="22" height="22"><use href="#%s"/></svg>
             <div>
@@ -981,7 +996,7 @@ def class_card_html(c):
             <a class="cl-source" href="%s" target="_blank" rel="noopener">Source</a>
           </div>
         </article>
-''' % (sport_attr, city_attr, ages_attr, icon,
+''' % (sport_attr, city_attr, ages_attr, class_session_end(c.get('session', '')), icon,
        html.escape(c['name']),
        html.escape(c.get('provider', '')),
        html.escape(c.get('ages', 'All')),
@@ -1066,6 +1081,23 @@ def classes_page(base):
   var countEl = document.getElementById('clCount');
   var emptyEl = document.getElementById('clEmpty');
   var active = {};
+  // Ended sessions stay listed (dimmed, badged, sorted last), the same
+  // treatment as ended events, judged against the viewer's own date.
+  var d = new Date();
+  var today = d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
+  var grid = document.getElementById('clGrid');
+  var ended = [];
+  cards.forEach(function (card) {
+    if (card.dataset.ends && card.dataset.ends < today) {
+      card.classList.add('is-ended');
+      var meta = card.querySelector('.cl-meta');
+      var tag = document.createElement('span');
+      tag.className = 'cl-ended'; tag.textContent = 'Ended';
+      meta.insertBefore(tag, meta.firstChild);
+      ended.push(card);
+    }
+  });
+  ended.forEach(function (card) { grid.appendChild(card); });
   chips.forEach(function (chip) {
     chip.addEventListener('click', function () {
       var f = chip.dataset.filter;
