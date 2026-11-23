@@ -1414,8 +1414,12 @@ def root_page(towns_with_pages, places, base):
       <div class="carousel" id="seasonCarousel" aria-roledescription="carousel" aria-label="Seasonal highlights">
         <div class="carousel-viewport">
           <div class="carousel-track">
+            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="A Night in Bethlehem, House of Bread Church">
+              <img src="assets/photos/house-of-bread.webp" alt="A Night in Bethlehem at House of Bread Church" width="980" height="490" fetchpriority="high" />
+              <span class="carousel-cap"><strong>A Night in Bethlehem</strong><span>House of Bread Church &middot; Dec 10&ndash;13</span></span>
+            </a>
             <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Fall FunCamp, Fairytale Town">
-              <img src="assets/photos/fairytale-town.webp" alt="Fall FunCamp at Fairytale Town" width="980" height="490" fetchpriority="high" />
+              <img src="assets/photos/fairytale-town.webp" alt="Fall FunCamp at Fairytale Town" width="980" height="490" loading="lazy" />
               <span class="carousel-cap"><strong>Fall FunCamp</strong><span>Fairytale Town &middot; Nov 23</span></span>
             </a>
             <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Zoo Fall Camp, Sacramento Zoo">
