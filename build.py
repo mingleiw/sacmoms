@@ -402,7 +402,6 @@ FILTERS = '''
 # is labelled so the scope is obvious.
 EV_FILTERS = '''
       <div class="ev-filters" role="group" aria-label="Filter events">
-        <p class="filters-title">Filter events</p>
         <div class="filter-row">
           <span class="filter-label">Age</span>
           <div class="chips" data-egroup="age">
@@ -1357,7 +1356,7 @@ def city_page(town, places, events, dated, base):
     <div class="wrap">
       <div class="section-head">
         <h2>This week in the %s</h2>
-        <p class="section-sub">Regular weekly events &mdash; markets, storytimes, open gyms</p>
+        <p class="section-sub">Markets, storytimes, open gyms</p>
       </div>
       <div class="daystrip" id="daystrip" role="tablist" aria-label="Pick a day"></div>
 %s

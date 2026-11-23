@@ -885,3 +885,28 @@ a, button { -webkit-tap-highlight-color: transparent; }
 .ev-detail .d-acts .ev-src::after, .ev-detail .d-acts .ev-share::after, .ev-detail .d-acts .ev-cal::after {
   content: ''; position: absolute; inset: -11px -6px;
 }
+
+/* ---- This week on a phone: get the first event card above the fold.
+   Less space over the title, shorter day cards (the fifth still peeks out so
+   the row reads as scrollable), and each event filter row on one line that
+   scrolls sideways instead of wrapping onto three or four lines. ---- */
+@media (max-width: 560px) {
+  .week { padding-top: 28px; }
+  .week .section-head { margin-bottom: 16px; }
+  .week .section-sub { margin-top: 4px; }
+  .daystrip { margin-bottom: 16px; }
+  .day { padding: 7px 12px; }
+  .day-name { font-size: 12px; line-height: 1.2; }
+  .day-num { font-size: 19px; }
+  .day-dot { width: 5px; height: 5px; margin-top: 2px; }
+  .ev-filters { margin: 0 0 16px; }
+  .ev-filters .filter-row { flex-direction: row; align-items: center; gap: 10px; margin-bottom: 6px; }
+  .ev-filters .filter-label { width: 58px; padding-top: 0; }
+  .ev-filters .chips {
+    flex-wrap: nowrap; min-width: 0; overflow-x: auto; scrollbar-width: none;
+    margin-right: -16px; padding-right: 16px;
+  }
+  .ev-filters .chips::-webkit-scrollbar { display: none; }
+  .ev-filters .chip { flex: none; white-space: nowrap; }
+  .ev-filters .filter-count { margin-top: 8px; }
+}
