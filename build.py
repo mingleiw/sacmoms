@@ -1320,7 +1320,7 @@ def city_page(town, places, events, dated, base):
     if ql_row2:
         ql_html += '<div class="ql-row">%s</div>' % ' '.join(ql_row2)
     if ql_html.strip():
-        quick = ('\n      <nav class="quick-links" aria-label="Jump to a section">\n        %s\n      </nav>'
+        quick = ('\n      <nav class="quick-links jump-links" aria-label="Jump to a section">\n        %s\n      </nav>'
                  % ql_html.strip())
 
     # Browse links sit in the places section header, not the hero.
@@ -1337,7 +1337,7 @@ def city_page(town, places, events, dated, base):
     out += '''
 <main id="top">
 
-  <section class="hero">
+  <section class="hero hero-city">
     <div class="wrap hero-inner">
       <h1 class="hero-title"><span class="hl">Where to take the kids in %s</span></h1>
       <p class="lede">%d places, nearest first</p>%s
