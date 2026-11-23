@@ -190,8 +190,8 @@
 
     if (userLoc) {
       var label = userLoc.zip
-        ? '\u{1F4CD} Using zip code ' + esc(userLoc.zip)
-        : '\u{1F4CD} Using your location';
+        ? '<svg class="loc-ico" aria-hidden="true"><use href="#i-pin"/></svg> Using zip code ' + esc(userLoc.zip)
+        : '<svg class="loc-ico" aria-hidden="true"><use href="#i-pin"/></svg> Using your location';
       locBar.innerHTML = '<span class="loc-status">' + label + '</span>' +
         '<button class="loc-clear-btn">Reset</button>';
       locBar.querySelector('.loc-clear-btn').addEventListener('click', function () {
@@ -207,12 +207,12 @@
       var html = '';
       if ('geolocation' in navigator) {
         html += '<button class="loc-btn">' +
-          '\u{1F4CD} Use my location</button>' +
+          '<svg class="loc-ico" aria-hidden="true"><use href="#i-pin"/></svg> Use my location</button>' +
           '<span class="loc-or">or</span>';
       }
       html += '<form class="zip-form">' +
         '<input class="zip-input" type="text" inputmode="numeric" pattern="[0-9]{5}"' +
-        ' maxlength="5" placeholder="Enter zip code" aria-label="Zip code">' +
+        ' maxlength="5" placeholder="Zip code" aria-label="Zip code">' +
         '<button class="loc-btn zip-go" type="submit">Go</button>' +
         '</form>';
       locBar.innerHTML = html;

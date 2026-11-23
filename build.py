@@ -212,14 +212,13 @@ HEAD = '''<!DOCTYPE html>
 <link rel="apple-touch-icon" href="{up}assets/apple-touch-icon.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600&family=Nunito:wght@400;600&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="{up}assets/style.css?v=__STYLE_V__" />
 <script>document.documentElement.className += ' js';</script>
 </head>
 <body>
 
 <a class="skip" href="#list">Skip to places</a>
-<div class="grain" aria-hidden="true"></div>
 
 ''' + SPRITE + '''
 
@@ -1310,7 +1309,7 @@ def city_page(town, places, events, dated, base):
   <section class="hero">
     <div class="wrap hero-inner">
       <h1 class="hero-title"><span class="hl">Where to take the kids in %s</span></h1>
-      <p class="lede">%d places, nearest first.</p>%s
+      <p class="lede">%d places, nearest first</p>%s
     </div>
   </section>
 
@@ -1409,8 +1408,6 @@ def root_page(towns_with_pages, places, base):
 </head>''' % (base, base), 1)
 
     city_cards = ''
-    _accent = ['--sea', '--grass', '--sun', '--grape', '--tomato']
-    _ci = 0
     for key, _label in GROUPS:
         group = [t for t in towns_with_pages if t['region'] == key]
         for t in group:
@@ -1418,14 +1415,13 @@ def root_page(towns_with_pages, places, base):
             nearby = [p for p in places
                       if miles(t['lat'], t['lon'], p['lat'], p['lon']) <= LIST_MILES]
             closest = min(nearby, key=lambda p: miles(t['lat'], t['lon'], p['lat'], p['lon']))
-            city_cards += ('        <a class="city-card" href="%s/" style="--accent: var(%s)">'
+            city_cards += ('        <a class="city-card" href="%s/">'
                           '<h3>%s</h3>'
                           '<span class="city-card-sub">%s</span>'
                           '<span class="city-card-arrow" aria-hidden="true">&rarr;</span>'
-                          '</a>\n' % (s, _accent[_ci % 5],
+                          '</a>\n' % (s,
                                       html.escape(t['name']),
                                       html.escape(closest['name'])))
-            _ci += 1
 
     out += '''
 <main id="top">
@@ -1464,7 +1460,7 @@ def root_page(towns_with_pages, places, base):
   <section class="hero hero-home">
     <div class="wrap">
       <h1 class="hero-title"><span class="hl">Where to take the kids</span> <span class="hl">in ''' + FOCUS_LABEL + '''</span></h1>
-      <p class="hero-tag">%d places and events, nearest first.</p>
+      <p class="hero-tag">%d places and events, nearest first</p>
       <p class="loc-hint" id="lastCity" hidden></p>
     </div>
   </section>
