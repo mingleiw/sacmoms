@@ -189,7 +189,7 @@ section[id] { scroll-margin-top: 80px; }
 }
 .quick-link:active { transform: scale(.98); }
 .ql-browse { background: transparent; color: var(--ink-2); }
-.browse-nav { margin-top: 12px; }
+.browse-nav { margin-top: 12px; flex-direction: row; flex-wrap: wrap; }
 
 /* ---------- Freshness ---------- */
 .fresh { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--ink-2); margin: 8px 0 0; }
@@ -244,7 +244,7 @@ section[id] { scroll-margin-top: 80px; }
 .ev-body h3 { font-size: 18px; }
 .ev-sample { display: inline-block; margin-left: 8px; padding: 2px 12px; border-radius: 999px; background: var(--sun-w); color: #7A5A18; font-size: 12px; font-weight: 600; vertical-align: 2px; }
 .ev-where { margin: 3px 0 0; font-size: 14px; font-weight: 600; }
-.ev-blurb { margin: 4px 0 0; font-size: 14px; color: var(--ink-2); }
+.ev-blurb { margin: 4px 0 0; font-size: 14px; color: var(--ink-2); max-width: 70ch; }
 .ev-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-top: 12px; }
 .ev-tag { font-size: 13px; font-weight: 600; color: var(--ink-2); background: var(--sky); padding: 2px 12px; border-radius: 999px; }
 /* Same dark pill place cards use for distance, so "how far" reads the same
@@ -327,7 +327,7 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .d-gallery img.is-on { outline: 2px solid var(--sea); outline-offset: 1px; }
 @media (max-width: 420px) { .ev-detail { padding: 24px 20px 20px; } .ev-detail h3 { font-size: 20px; } }
 
-.week-foot { margin: 24px 0 0; font-size: 14px; color: var(--ink-2); }
+.week-foot { margin: 24px 0 0; font-size: 14px; color: var(--ink-2); max-width: 70ch; }
 
 @media (max-width: 560px) { .event { flex-direction: column; gap: 8px; } .ev-time { width: auto; } .ev-media { width: 100%; } .ev-img { aspect-ratio: 16 / 9; } }
 
@@ -363,7 +363,6 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
   box-shadow: 0 0 0 1px var(--line), 0 1px 2px rgba(35,49,61,.05);
   transition: box-shadow var(--t-fast) var(--ease);
 }
-.card.has-img { padding-top: 0; }
 .card-img { width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; border-radius: var(--r-lg) var(--r-lg) 0 0; margin-bottom: 16px; display: block; }
 
 .card-top { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; }
@@ -473,17 +472,18 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .cl-register:hover { opacity: .85; }
 .cl-source:hover { background: var(--sky-2); }
 .cl-filters { display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px; }
-.cl-filter-group { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
-.cl-filter-label { font-size: 14px; font-weight: 600; color: var(--ink-2); min-width: 48px; }
+.cl-filter-group { display: flex; align-items: baseline; gap: 8px 16px; flex-wrap: wrap; }
+.cl-filter-label { flex: none; width: 66px; font-size: 14px; font-weight: 600; color: var(--ink); }
 .cl-filter-row { display: flex; flex-wrap: wrap; gap: 8px; }
+/* Same chip as the city pages' filters, so a filter looks like a filter. */
 .filter-chip {
-  font-family: var(--text); font-size: 13px; font-weight: 600;
-  padding: 4px 12px; border-radius: 999px; cursor: pointer;
-  background: var(--chalk); color: var(--ink-2);
-  border: 1px solid var(--line-2);
-  transition: background .15s var(--ease), color .15s var(--ease), border-color .15s var(--ease);
+  font: inherit; font-size: 14px; font-weight: 600; padding: 8px 16px;
+  border: 0; border-radius: 999px; background: var(--chalk); color: var(--ink-2);
+  cursor: pointer; box-shadow: inset 0 0 0 1px var(--line);
+  transition: transform var(--t-fast) var(--ease), background var(--t-fast) var(--ease), color var(--t-fast) var(--ease);
 }
-.filter-chip.on { background: var(--sea); color: var(--chalk); border-color: var(--sea); }
+.filter-chip:active { transform: scale(.98); }
+.filter-chip.on { background: var(--sea); color: var(--chalk); box-shadow: none; }
 .cl-count { font-size: 14px; color: var(--ink-2); margin: 0 0 16px; }
 
 /* ---------- Footer ---------- */
@@ -518,9 +518,9 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .loc-or { font-size: 14px; color: var(--ink-2); }
 .zip-form { display: flex; align-items: center; gap: 8px; }
 .zip-input { font: inherit; font-size: 14px; width: 8em; padding: 8px 12px; border: 1px solid var(--line-2); border-radius: var(--r-sm); background: var(--chalk); color: var(--ink); text-align: center; }
-.zip-input:focus { outline: none; border-color: var(--sea); }
+.zip-input:focus { border-color: var(--sea); }
 .zip-input.zip-err { border-color: var(--tomato); }
-.zip-input::placeholder { color: var(--ink-2); opacity: .7; }
+.zip-input::placeholder { color: var(--ink-2); opacity: 1; }
 .zip-go { padding: 8px 16px; font-size: 14px; }
 .loc-status { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; color: var(--good); }
 .loc-clear-btn { font: inherit; font-size: 13px; font-weight: 600; color: var(--ink-2); background: none; border: 0; cursor: pointer; margin-left: 2px; border-bottom: 1px dotted var(--line-2); }
@@ -535,12 +535,11 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 
 .seasonal-card {
   background: var(--chalk); border-radius: var(--r-lg); padding: 24px;
-  border-left: 4px solid var(--sun);
+  overflow: hidden;
   box-shadow: 0 0 0 1px var(--line), 0 1px 2px rgba(35,49,61,.05);
   transition: box-shadow var(--t-fast) var(--ease);
 }
-.seasonal-card.has-img { padding-top: 0; border-left: none; border-top: 4px solid var(--sun); }
-.sc-img { width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; border-radius: var(--r-lg) var(--r-lg) 0 0; margin-bottom: 16px; display: block; }
+.sc-img { width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; display: block; }
 .seasonal-card h3 { font-size: 20px; font-weight: 600; line-height: 1.2; }
 .sc-when { margin: 8px 0 0; font-size: 14px; font-weight: 600; color: var(--ink); }
 .sc-where { margin: 3px 0 0; font-size: 14px; font-weight: 600; }
@@ -575,23 +574,24 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .spec-row dt { font-size: 12px; font-weight: 400; color: var(--ink-2); }
 .spec-row dd { margin: 0; font-size: 14px; font-weight: 600; color: var(--ink); }
 
-/* ---- Fixed-aspect media slot: photo or placeholder, same rhythm either way ---- */
+/* ---- Fixed-aspect media slot: photo or placeholder, same rhythm either way ----
+   The card keeps its 24px top padding and the slot's -24px margin pulls it flush.
+   Zeroing the padding as well lifted every photo 24px above its own card and
+   into the row above. */
 .card-media { margin: -24px -24px 16px; }
-.card.has-img { padding-top: 0; }
 .card-img { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: var(--r-lg) var(--r-lg) 0 0; display: block; margin-bottom: 0; }
 .card-media-empty {
   aspect-ratio: 16/9; display: grid; place-items: center;
   background: var(--sky-2); color: var(--ink-2);
   border-radius: var(--r-lg) var(--r-lg) 0 0;
 }
-.sc-media { margin: 0 0 16px; }
-.sc-media .sc-img { margin-bottom: 0; }
+/* Photo runs edge to edge like place cards; the seasonal marker is a straight
+   sun bar under it rather than a border bent round the card's corner. */
+.sc-media { margin: -24px -24px 16px; border-bottom: 4px solid var(--sun); }
 .sc-media-empty {
   aspect-ratio: 16/9; display: grid; place-items: center;
   background: var(--sky-2); color: var(--ink-2);
-  border-radius: var(--r-lg) var(--r-lg) 0 0;
 }
-.seasonal-card.has-img { padding-top: 0; border-left: none; border-top: 4px solid var(--sun); }
 
 /* ---- Card actions: one emphasised action, quiet references beside it ---- */
 .card-acts { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin-top: auto; padding-top: 4px; }
@@ -602,7 +602,13 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 }
 
 /* ---- Ended events: dimmed, badged, sorted last ---- */
-.event.is-ended { opacity: .62; }
+/* Dim the picture and the accent colour, not the text: whole-card opacity took
+   the words down to 2.6:1. Everything left is ink-2 or darker, 4.5:1 or more. */
+.event.is-ended .ev-media { opacity: .5; filter: grayscale(1); }
+.event.is-ended .ev-time, .event.is-ended .ev-body h3,
+.class-card.is-ended h3, .class-card.is-ended .cl-schedule { color: var(--ink-2); }
+.class-card.is-ended .cl-register { background: var(--ink-2); }
+.cl-ended { font-size: 13px; font-weight: 600; color: var(--ink-2); background: var(--sky-2); padding: 2px 12px; border-radius: 999px; }
 .ev-tag.ev-ended { background: var(--sky-2); color: var(--ink-2); }
 
 /* ---- Link-styled button (the "See tomorrow" prompt) ---- */
@@ -650,7 +656,7 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .ev-close:hover {
   color: var(--ink); background: var(--sky);
 }
-.chip:not(.is-on):hover {
+.chip:not(.is-on):hover, .filter-chip:not(.on):hover {
   color: var(--ink); background: var(--sky);
 }
 .card:hover {
@@ -849,15 +855,33 @@ a, button { -webkit-tap-highlight-color: transparent; }
 }
 .carousel-cap strong { font-family: var(--display); font-size: 20px; }
 .carousel-cap span { font-size: 14px; opacity: .92; }
-.carousel-dots { position: absolute; top: 12px; right: 16px; display: flex; gap: 8px; }
+.carousel-dots { position: absolute; top: 4px; right: 8px; display: flex; gap: 0; }
+/* 24px buttons for the thumb; the visible dot stays 9px. */
 .carousel-dots button {
-  width: 9px; height: 9px; border-radius: 50%; border: none; padding: 0;
-  background: rgba(255,255,255,.55); cursor: pointer;
+  width: 24px; height: 24px; border: none; padding: 0; background: none;
+  display: grid; place-items: center; cursor: pointer;
 }
-.carousel-dots button[aria-current="true"] { background: #fff; }
+.carousel-dots button::before {
+  content: ''; width: 9px; height: 9px; border-radius: 50%;
+  background: rgba(255,255,255,.55);
+}
+.carousel-dots button[aria-current="true"]::before { background: #fff; }
 @media (max-width: 640px) {
   /* Shallower than desktop so the headline, the whole subtitle and the top of the
      first city row clear the fold — the peek is what starts the scroll. */
   .carousel-slide img { aspect-ratio: 16 / 10; max-height: 34vh; }
   .carousel-cap strong { font-size: 16px; }
+}
+
+/* ---- Tap targets: the quiet text links stay 13-14px to look at, but take a
+   ~40px hit area, so a thumb on a phone doesn't need to be precise. ---- */
+.ev-foot .map, .ev-foot .ev-src, .sc-foot .map, .sc-foot .ev-src,
+.offsite, .tickets, .loc-clear-btn,
+.ev-detail .d-acts .ev-src, .ev-detail .d-acts .ev-share, .ev-detail .d-acts .ev-cal {
+  position: relative;
+}
+.ev-foot .map::after, .ev-foot .ev-src::after, .sc-foot .map::after, .sc-foot .ev-src::after,
+.offsite::after, .tickets::after, .loc-clear-btn::after,
+.ev-detail .d-acts .ev-src::after, .ev-detail .d-acts .ev-share::after, .ev-detail .d-acts .ev-cal::after {
+  content: ''; position: absolute; inset: -11px -6px;
 }
