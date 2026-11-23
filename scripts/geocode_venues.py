@@ -82,6 +82,10 @@ PINNED = {
     # Cosumnes CSD Admin Office: 8820 Elk Grove Blvd (organizer-published on the
     # Veterans Day Parade event page); Nominatim address geocode agrees.
     "Cosumnes CSD Administration Office|Elk Grove": (38.4086408, -121.3747220),
+    # House of Bread Church, 6521 Hazel Ave, Orangevale (organizer-published,
+    # A Night in Bethlehem); Nominatim address geocode agrees to the same
+    # street number (matched Family Christian Academy, same campus).
+    "House of Bread Church|Orangevale": (38.6837984, -121.2261267),
 }
 
 

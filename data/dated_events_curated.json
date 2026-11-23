@@ -1,348 +1,404 @@
 [
-  {
-    "date": "2026-11-07",
-    "time": "11:00",
-    "until": "12:30",
-    "title": "Author Visit: Jenna Johnson",
-    "venue": "Fairytale Town",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Come meet Jenna Johnson on Saturday, November 7th, from 11 AM – 12:30 PM!",
-    "source": "https://www.fairytaletown.org/calendar/author-visit-jenna-johnson/",
-    "seasonal": "fall",
-    "group": "fairytale-town",
-    "origin": "curated",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-08",
-    "time": "16:45",
-    "until": "18:45",
-    "title": "Star Gazing Event",
-    "venue": "Effie Yeaw Nature Center",
-    "city": "Carmichael",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "A evening out on the trails and time to take in the night sky by the river at Effie Yeaw Nature Center.",
-    "source": "https://www.effieyeawnature.org/event-details/star-gazing-event",
-    "seasonal": "fall",
-    "group": "effie-yeaw-nature-center",
-    "origin": "curated",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-10",
-    "time": "17:00",
-    "title": "Second Tuesday Crafternoon at A Seat at the Table Books",
-    "venue": "A Seat at the Table Books",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 5+",
-    "blurb": "Monthly kids' crafternoon at Elk Grove's family-run bookshop and cafe. Free.",
-    "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    },
-    "seasonal": "fall",
-    "group": "a-seat-at-the-table-books",
-    "origin": "curated"
-  },
-  {
-    "date": "2026-11-11",
-    "time": "10:00",
-    "until": "13:00",
-    "title": "Veterans Day Parade",
-    "venue": "Cosumnes CSD Administration Office",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Elk Grove's annual Veterans Day Parade: Reading of the Names ceremony at 10 am, parade at 11:11 am, then a community picnic open to the public.",
-    "source": "https://www.cosumnescsd.gov/Calendar.aspx?EID=1650",
-    "seasonal": "fall",
-    "group": "veterans-day-parade",
-    "origin": "curated",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-14",
-    "title": "Nature Explorers",
-    "venue": "Sacramento Zoo",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Drop-in open play exploring the natural world, second Saturday monthly.",
-    "source": "https://www.saczoo.org/special-events",
-    "seasonal": "fall",
-    "group": "sacramento-zoo",
-    "origin": "curated",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-08",
-    "time": "17:00",
-    "title": "Second Tuesday Crafternoon at A Seat at the Table Books",
-    "venue": "A Seat at the Table Books",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 5+",
-    "blurb": "Monthly kids' crafternoon at Elk Grove's family-run bookshop and cafe. Free.",
-    "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    },
-    "seasonal": "fall",
-    "group": "a-seat-at-the-table-books",
-    "origin": "curated"
-  },
-  {
-    "date": "2026-12-12",
-    "title": "Nature Explorers",
-    "venue": "Sacramento Zoo",
-    "city": "Sacramento",
-    "region": "sac",
-    "ages": "All ages",
-    "blurb": "Drop-in open play exploring the natural world, second Saturday monthly.",
-    "source": "https://www.saczoo.org/special-events",
-    "seasonal": "fall",
-    "group": "sacramento-zoo",
-    "origin": "curated",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2027-01-12",
-    "time": "17:00",
-    "title": "Second Tuesday Crafternoon at A Seat at the Table Books",
-    "venue": "A Seat at the Table Books",
-    "city": "Elk Grove",
-    "region": "sac",
-    "ages": "Ages 5+",
-    "blurb": "Monthly kids' crafternoon at Elk Grove's family-run bookshop and cafe. Free.",
-    "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    },
-    "seasonal": "fall",
-    "group": "a-seat-at-the-table-books",
-    "origin": "curated"
-  },
-  {
-    "date": "2026-11-19",
-    "time": "16:00",
-    "until": "22:00",
-    "title": "Merry Meritage Holiday Ice Skating – Napa",
-    "venue": "The Meritage Resort & Space, Village Lawn",
-    "city": "Napa",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Celebrate the holiday season with outdoor ice skating at Merry Meritage at The Meritage Resort",
-    "source": "https://www.marinmommies.com/calendar/merry-meritage-holiday-ice-skating-%E2%80%93-napa",
-    "origin": "curated",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-21",
-    "time": "13:00",
-    "until": "15:30",
-    "title": "Holiday Tea at the Fairmont San Francisco",
-    "venue": "Fairmont San Francisco–Laurel Court Restaurant & Bar",
-    "city": "San Francisco",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Celebrate the holiday season with a festive afternoon tea at the Fairmont San Francisco! This",
-    "source": "https://www.marinmommies.com/calendar/holiday-tea-fairmont-hotel",
-    "origin": "curated",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-21",
-    "time": "13:00",
-    "until": "15:30",
-    "title": "Santa Tea at the Fairmont Hotel",
-    "venue": "Fairmont San Francisco",
-    "city": "San Francisco",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Celebrate the magic of the winter season with Fairmont San Francisco’s beloved Santa Tea—a",
-    "source": "https://www.marinmommies.com/calendar/santa-tea-fairmont-hotel",
-    "origin": "curated",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-29",
-    "time": "13:00",
-    "until": "15:30",
-    "title": "Santa Tea at the Fairmont Hotel",
-    "venue": "Fairmont San Francisco",
-    "city": "San Francisco",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Celebrate the magic of the winter season with Fairmont San Francisco’s beloved Santa Tea—a",
-    "source": "https://www.marinmommies.com/calendar/santa-tea-fairmont-hotel",
-    "origin": "curated",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-05",
-    "time": "13:00",
-    "until": "15:30",
-    "title": "Santa Tea at the Fairmont Hotel",
-    "venue": "Fairmont San Francisco",
-    "city": "San Francisco",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Celebrate the magic of the winter season with Fairmont San Francisco’s beloved Santa Tea—a",
-    "source": "https://www.marinmommies.com/calendar/santa-tea-fairmont-hotel",
-    "origin": "curated",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-18",
-    "time": "13:00",
-    "until": "15:30",
-    "title": "Santa Tea at the Fairmont Hotel",
-    "venue": "Fairmont San Francisco",
-    "city": "San Francisco",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Celebrate the magic of the winter season with Fairmont San Francisco’s beloved Santa Tea—a",
-    "source": "https://www.marinmommies.com/calendar/santa-tea-fairmont-hotel",
-    "origin": "curated",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-21",
-    "time": "13:00",
-    "until": "15:30",
-    "title": "Santa Tea at the Fairmont Hotel",
-    "venue": "Fairmont San Francisco",
-    "city": "San Francisco",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Celebrate the magic of the winter season with Fairmont San Francisco’s beloved Santa Tea—a",
-    "source": "https://www.marinmommies.com/calendar/santa-tea-fairmont-hotel",
-    "origin": "curated",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-12-23",
-    "time": "13:00",
-    "until": "15:30",
-    "title": "Santa Tea at the Fairmont Hotel",
-    "venue": "Fairmont San Francisco",
-    "city": "San Francisco",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Celebrate the magic of the winter season with Fairmont San Francisco’s beloved Santa Tea—a",
-    "source": "https://www.marinmommies.com/calendar/santa-tea-fairmont-hotel",
-    "origin": "curated",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-22",
-    "time": "14:00",
-    "until": "16:00",
-    "title": "Santa's Reading Corner at the Meritage",
-    "venue": "The Meritage Resort & Spa",
-    "city": "Napa",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Experience the wonder of the season as Santa Claus himself makes The Meritage his home for the",
-    "source": "https://www.marinmommies.com/calendar/santas-reading-corner-meritage",
-    "origin": "curated",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-14",
-    "time": "10:00",
-    "title": "Festive Holiday Tea at the Claremont in Berkeley",
-    "venue": "Claremont Resort & Club",
-    "city": "Berkeley",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Celebrate the holiday season with a festive Holiday Tea at the Claremont Resort & Club in",
-    "source": "https://www.marinmommies.com/calendar/festive-holiday-tea-claremont-berkeley",
-    "origin": "curated",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-14",
-    "time": "12:30",
-    "title": "Festive Holiday Tea at the Claremont in Berkeley",
-    "venue": "Claremont Resort & Club",
-    "city": "Berkeley",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Celebrate the holiday season with a festive Holiday Tea at the Claremont Resort & Club in",
-    "source": "https://www.marinmommies.com/calendar/festive-holiday-tea-claremont-berkeley",
-    "origin": "curated",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
-  },
-  {
-    "date": "2026-11-14",
-    "time": "15:00",
-    "title": "Festive Holiday Tea at the Claremont in Berkeley",
-    "venue": "Claremont Resort & Club",
-    "city": "Berkeley",
-    "region": "marin",
-    "ages": "All ages",
-    "blurb": "Celebrate the holiday season with a festive Holiday Tea at the Claremont Resort & Club in",
-    "source": "https://www.marinmommies.com/calendar/festive-holiday-tea-claremont-berkeley",
-    "origin": "curated",
-    "_jev": {
-      "verdict": "ERROR",
-      "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-    }
+ {
+  "date": "2026-11-07",
+  "time": "11:00",
+  "until": "12:30",
+  "title": "Author Visit: Jenna Johnson",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Come meet Jenna Johnson on Saturday, November 7th, from 11 AM – 12:30 PM!",
+  "source": "https://www.fairytaletown.org/calendar/author-visit-jenna-johnson/",
+  "seasonal": "fall",
+  "group": "fairytale-town",
+  "origin": "curated",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
   }
+ },
+ {
+  "date": "2026-11-08",
+  "time": "16:45",
+  "until": "18:45",
+  "title": "Star Gazing Event",
+  "venue": "Effie Yeaw Nature Center",
+  "city": "Carmichael",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "A evening out on the trails and time to take in the night sky by the river at Effie Yeaw Nature Center.",
+  "source": "https://www.effieyeawnature.org/event-details/star-gazing-event",
+  "seasonal": "fall",
+  "group": "effie-yeaw-nature-center",
+  "origin": "curated",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+  }
+ },
+ {
+  "date": "2026-11-10",
+  "time": "17:00",
+  "title": "Second Tuesday Crafternoon at A Seat at the Table Books",
+  "venue": "A Seat at the Table Books",
+  "city": "Elk Grove",
+  "region": "sac",
+  "ages": "Ages 5+",
+  "blurb": "Monthly kids' crafternoon at Elk Grove's family-run bookshop and cafe. Free.",
+  "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+  },
+  "seasonal": "fall",
+  "group": "a-seat-at-the-table-books",
+  "origin": "curated"
+ },
+ {
+  "date": "2026-11-11",
+  "time": "10:00",
+  "until": "13:00",
+  "title": "Veterans Day Parade",
+  "venue": "Cosumnes CSD Administration Office",
+  "city": "Elk Grove",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Elk Grove's annual Veterans Day Parade: Reading of the Names ceremony at 10 am, parade at 11:11 am, then a community picnic open to the public.",
+  "source": "https://www.cosumnescsd.gov/Calendar.aspx?EID=1650",
+  "seasonal": "fall",
+  "group": "veterans-day-parade",
+  "origin": "curated",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+  }
+ },
+ {
+  "date": "2026-11-14",
+  "title": "Nature Explorers",
+  "venue": "Sacramento Zoo",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Drop-in open play exploring the natural world, second Saturday monthly.",
+  "source": "https://www.saczoo.org/special-events",
+  "seasonal": "fall",
+  "group": "sacramento-zoo",
+  "origin": "curated",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+  }
+ },
+ {
+  "date": "2026-12-08",
+  "time": "17:00",
+  "title": "Second Tuesday Crafternoon at A Seat at the Table Books",
+  "venue": "A Seat at the Table Books",
+  "city": "Elk Grove",
+  "region": "sac",
+  "ages": "Ages 5+",
+  "blurb": "Monthly kids' crafternoon at Elk Grove's family-run bookshop and cafe. Free.",
+  "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+  },
+  "seasonal": "fall",
+  "group": "a-seat-at-the-table-books",
+  "origin": "curated"
+ },
+ {
+  "date": "2026-12-12",
+  "title": "Nature Explorers",
+  "venue": "Sacramento Zoo",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Drop-in open play exploring the natural world, second Saturday monthly.",
+  "source": "https://www.saczoo.org/special-events",
+  "seasonal": "fall",
+  "group": "sacramento-zoo",
+  "origin": "curated",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+  }
+ },
+ {
+  "date": "2027-01-12",
+  "time": "17:00",
+  "title": "Second Tuesday Crafternoon at A Seat at the Table Books",
+  "venue": "A Seat at the Table Books",
+  "city": "Elk Grove",
+  "region": "sac",
+  "ages": "Ages 5+",
+  "blurb": "Monthly kids' crafternoon at Elk Grove's family-run bookshop and cafe. Free.",
+  "source": "https://www.eventbrite.com/o/a-seat-at-the-table-books-33385319729",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+  },
+  "seasonal": "fall",
+  "group": "a-seat-at-the-table-books",
+  "origin": "curated"
+ },
+ {
+  "date": "2026-11-19",
+  "time": "16:00",
+  "until": "22:00",
+  "title": "Merry Meritage Holiday Ice Skating – Napa",
+  "venue": "The Meritage Resort & Space, Village Lawn",
+  "city": "Napa",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate the holiday season with outdoor ice skating at Merry Meritage at The Meritage Resort",
+  "source": "https://www.marinmommies.com/calendar/merry-meritage-holiday-ice-skating-%E2%80%93-napa",
+  "origin": "curated",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+  }
+ },
+ {
+  "date": "2026-11-21",
+  "time": "13:00",
+  "until": "15:30",
+  "title": "Holiday Tea at the Fairmont San Francisco",
+  "venue": "Fairmont San Francisco–Laurel Court Restaurant & Bar",
+  "city": "San Francisco",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate the holiday season with a festive afternoon tea at the Fairmont San Francisco! This",
+  "source": "https://www.marinmommies.com/calendar/holiday-tea-fairmont-hotel",
+  "origin": "curated",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+  }
+ },
+ {
+  "date": "2026-11-21",
+  "time": "13:00",
+  "until": "15:30",
+  "title": "Santa Tea at the Fairmont Hotel",
+  "venue": "Fairmont San Francisco",
+  "city": "San Francisco",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate the magic of the winter season with Fairmont San Francisco’s beloved Santa Tea—a",
+  "source": "https://www.marinmommies.com/calendar/santa-tea-fairmont-hotel",
+  "origin": "curated",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+  }
+ },
+ {
+  "date": "2026-11-29",
+  "time": "13:00",
+  "until": "15:30",
+  "title": "Santa Tea at the Fairmont Hotel",
+  "venue": "Fairmont San Francisco",
+  "city": "San Francisco",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate the magic of the winter season with Fairmont San Francisco’s beloved Santa Tea—a",
+  "source": "https://www.marinmommies.com/calendar/santa-tea-fairmont-hotel",
+  "origin": "curated",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+  }
+ },
+ {
+  "date": "2026-12-05",
+  "time": "13:00",
+  "until": "15:30",
+  "title": "Santa Tea at the Fairmont Hotel",
+  "venue": "Fairmont San Francisco",
+  "city": "San Francisco",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate the magic of the winter season with Fairmont San Francisco’s beloved Santa Tea—a",
+  "source": "https://www.marinmommies.com/calendar/santa-tea-fairmont-hotel",
+  "origin": "curated",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+  }
+ },
+ {
+  "date": "2026-12-18",
+  "time": "13:00",
+  "until": "15:30",
+  "title": "Santa Tea at the Fairmont Hotel",
+  "venue": "Fairmont San Francisco",
+  "city": "San Francisco",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate the magic of the winter season with Fairmont San Francisco’s beloved Santa Tea—a",
+  "source": "https://www.marinmommies.com/calendar/santa-tea-fairmont-hotel",
+  "origin": "curated",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+  }
+ },
+ {
+  "date": "2026-12-21",
+  "time": "13:00",
+  "until": "15:30",
+  "title": "Santa Tea at the Fairmont Hotel",
+  "venue": "Fairmont San Francisco",
+  "city": "San Francisco",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate the magic of the winter season with Fairmont San Francisco’s beloved Santa Tea—a",
+  "source": "https://www.marinmommies.com/calendar/santa-tea-fairmont-hotel",
+  "origin": "curated",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+  }
+ },
+ {
+  "date": "2026-12-23",
+  "time": "13:00",
+  "until": "15:30",
+  "title": "Santa Tea at the Fairmont Hotel",
+  "venue": "Fairmont San Francisco",
+  "city": "San Francisco",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate the magic of the winter season with Fairmont San Francisco’s beloved Santa Tea—a",
+  "source": "https://www.marinmommies.com/calendar/santa-tea-fairmont-hotel",
+  "origin": "curated",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+  }
+ },
+ {
+  "date": "2026-11-22",
+  "time": "14:00",
+  "until": "16:00",
+  "title": "Santa's Reading Corner at the Meritage",
+  "venue": "The Meritage Resort & Spa",
+  "city": "Napa",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Experience the wonder of the season as Santa Claus himself makes The Meritage his home for the",
+  "source": "https://www.marinmommies.com/calendar/santas-reading-corner-meritage",
+  "origin": "curated",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+  }
+ },
+ {
+  "date": "2026-11-14",
+  "time": "10:00",
+  "title": "Festive Holiday Tea at the Claremont in Berkeley",
+  "venue": "Claremont Resort & Club",
+  "city": "Berkeley",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate the holiday season with a festive Holiday Tea at the Claremont Resort & Club in",
+  "source": "https://www.marinmommies.com/calendar/festive-holiday-tea-claremont-berkeley",
+  "origin": "curated",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+  }
+ },
+ {
+  "date": "2026-11-14",
+  "time": "12:30",
+  "title": "Festive Holiday Tea at the Claremont in Berkeley",
+  "venue": "Claremont Resort & Club",
+  "city": "Berkeley",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate the holiday season with a festive Holiday Tea at the Claremont Resort & Club in",
+  "source": "https://www.marinmommies.com/calendar/festive-holiday-tea-claremont-berkeley",
+  "origin": "curated",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+  }
+ },
+ {
+  "date": "2026-11-14",
+  "time": "15:00",
+  "title": "Festive Holiday Tea at the Claremont in Berkeley",
+  "venue": "Claremont Resort & Club",
+  "city": "Berkeley",
+  "region": "marin",
+  "ages": "All ages",
+  "blurb": "Celebrate the holiday season with a festive Holiday Tea at the Claremont Resort & Club in",
+  "source": "https://www.marinmommies.com/calendar/festive-holiday-tea-claremont-berkeley",
+  "origin": "curated",
+  "_jev": {
+   "verdict": "ERROR",
+   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
+  }
+ },
+ {
+  "date": "2026-12-10",
+  "time": "16:30",
+  "title": "A Night in Bethlehem",
+  "venue": "House of Bread Church",
+  "city": "Orangevale",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "A Night in Bethlehem is a walk-through Christmas experience for the whole family at House of Bread Church, December 10–13. Explore a recreated Bethlehem village and see the story of Jesus' birth come to life. Tickets are $20 at nib.hofb.org.",
+  "source": "https://nib.hofb.org",
+  "seasonal": "christmas",
+  "group": "house-of-bread",
+  "origin": "curated"
+ },
+ {
+  "date": "2026-12-11",
+  "time": "16:30",
+  "title": "A Night in Bethlehem",
+  "venue": "House of Bread Church",
+  "city": "Orangevale",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "A Night in Bethlehem is a walk-through Christmas experience for the whole family at House of Bread Church, December 10–13. Explore a recreated Bethlehem village and see the story of Jesus' birth come to life. Tickets are $20 at nib.hofb.org.",
+  "source": "https://nib.hofb.org",
+  "seasonal": "christmas",
+  "group": "house-of-bread",
+  "origin": "curated"
+ },
+ {
+  "date": "2026-12-12",
+  "time": "15:00",
+  "title": "A Night in Bethlehem",
+  "venue": "House of Bread Church",
+  "city": "Orangevale",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "A Night in Bethlehem is a walk-through Christmas experience for the whole family at House of Bread Church, December 10–13. Explore a recreated Bethlehem village and see the story of Jesus' birth come to life. Tickets are $20 at nib.hofb.org.",
+  "source": "https://nib.hofb.org",
+  "seasonal": "christmas",
+  "group": "house-of-bread",
+  "origin": "curated"
+ },
+ {
+  "date": "2026-12-13",
+  "time": "15:00",
+  "title": "A Night in Bethlehem",
+  "venue": "House of Bread Church",
+  "city": "Orangevale",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "A Night in Bethlehem is a walk-through Christmas experience for the whole family at House of Bread Church, December 10–13. Explore a recreated Bethlehem village and see the story of Jesus' birth come to life. Tickets are $20 at nib.hofb.org.",
+  "source": "https://nib.hofb.org",
+  "seasonal": "christmas",
+  "group": "house-of-bread",
+  "origin": "curated"
+ }
 ]
