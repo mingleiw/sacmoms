@@ -1320,8 +1320,17 @@ def city_page(town, places, events, dated, base):
     if ql_row2:
         ql_html += '<div class="ql-row">%s</div>' % ' '.join(ql_row2)
     if ql_html.strip():
-        quick = ('\n      <nav class="quick-links jump-links" aria-label="Jump to a section">\n        %s\n      </nav>'
-                 % ql_html.strip())
+        quick = ('\n      <nav class="quick-links jump-links%s" aria-label="Jump to a section">\n        %s\n      </nav>'
+                 % (' has-side' if ev else '', ql_html.strip()))
+
+    # On wide screens the jump links move into the This week sidebar, beside
+    # the event filters; this copy is hidden on phones and the hero copy is
+    # hidden on desktop, so only one is ever shown.
+    side_links = ql_row1 + ql_row2
+    side_jump = ''
+    if side_links:
+        side_jump = ('\n        <nav class="side-jump" aria-label="Jump to a section">\n          %s\n        </nav>'
+                     % '\n          '.join(side_links))
 
     # Browse links sit in the places section header, not the hero.
     browse_links = ''
@@ -1359,7 +1368,8 @@ def city_page(town, places, events, dated, base):
         <p class="section-sub">Markets, storytimes, open gyms</p>
       </div>
       <div class="daystrip" id="daystrip" role="tablist" aria-label="Pick a day"></div>
-%s
+      <div class="week-side">%s%s
+      </div>
       <div class="events" id="events" role="tabpanel" aria-live="polite"></div>
       <p class="empty" id="weekEmpty" hidden></p>
       <p class="week-foot">
@@ -1376,7 +1386,7 @@ def city_page(town, places, events, dated, base):
       <div class="ev-detail" id="evDetail"></div>
     </dialog>
   </section>
-''' % (html.escape(name + ' area'), EV_FILTERS)
+''' % (html.escape(name + ' area'), side_jump, EV_FILTERS)
 
     if seasonal_groups:
         out += seasonal_section_html(seasonal_groups, name)
