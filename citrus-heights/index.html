@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600&family=Nunito:wght@400;600&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="../assets/style.css?v=9b5b5128b4" />
+<link rel="stylesheet" href="../assets/style.css?v=94d11db956" />
 <script>document.documentElement.className += ' js';</script>
 </head>
 <body>
@@ -53,7 +53,7 @@
     <div class="wrap hero-inner">
       <h1 class="hero-title"><span class="hl">Where to take the kids in Citrus Heights</span></h1>
       <p class="lede">41 places, nearest first</p>
-      <nav class="quick-links jump-links" aria-label="Jump to a section">
+      <nav class="quick-links jump-links has-side" aria-label="Jump to a section">
         <div class="ql-row"><a class="quick-link" href="#today">Today</a> <a class="quick-link" href="#weekend">This weekend</a></div>
         <div class="ql-row"><a class="quick-link" href="#seasonal">Special events</a> <a class="quick-link" href="#list">Places</a></div>
       </nav>
@@ -72,7 +72,13 @@
         <p class="section-sub">Markets, storytimes, open gyms</p>
       </div>
       <div class="daystrip" id="daystrip" role="tablist" aria-label="Pick a day"></div>
-
+      <div class="week-side">
+        <nav class="side-jump" aria-label="Jump to a section">
+          <a class="quick-link" href="#today">Today</a>
+          <a class="quick-link" href="#weekend">This weekend</a>
+          <a class="quick-link" href="#seasonal">Special events</a>
+          <a class="quick-link" href="#list">Places</a>
+        </nav>
       <div class="ev-filters" role="group" aria-label="Filter events">
         <div class="filter-row">
           <span class="filter-label">Age</span>
@@ -104,6 +110,7 @@
         <p class="filter-count" id="evCount" aria-live="polite"></p>
       </div>
 
+      </div>
       <div class="events" id="events" role="tabpanel" aria-live="polite"></div>
       <p class="empty" id="weekEmpty" hidden></p>
       <p class="week-foot">

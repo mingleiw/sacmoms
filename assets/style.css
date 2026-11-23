@@ -46,7 +46,7 @@
   --display: 'Baloo 2', 'Nunito', system-ui, sans-serif;
   --text:    'Nunito', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 
-  --wrap: 1140px;
+  --wrap: 1100px;
   --ease: cubic-bezier(.22, 1, .36, 1);
   --t-fast: 150ms;
 
@@ -928,4 +928,52 @@ a, button { -webkit-tap-highlight-color: transparent; }
   .jump-links .quick-link { flex: none; white-space: nowrap; }
   .loc-bar { margin-bottom: 16px; }
   .week .section-head h2 { font-size: 23px; }
+}
+
+/* ---- Desktop layout for city pages (laptop width and up). Phones keep the
+   single column above. The This week section becomes a sidebar (jump links
+   and event filters, sticky while you scroll the week) beside a two-up grid
+   of event cards with the photo on top, like the seasonal cards. ---- */
+.side-jump { display: none; }
+@media (min-width: 1024px) {
+  .jump-links.has-side { display: none; }
+  .week .wrap {
+    display: grid;
+    grid-template-columns: 232px minmax(0, 1fr);
+    grid-template-areas:
+      "head head"
+      "side days"
+      "side list"
+      "side empty"
+      "side foot"
+      "side cta";
+    grid-template-rows: auto auto auto auto auto 1fr;
+    column-gap: 40px;
+    align-items: start;
+  }
+  .week .section-head { grid-area: head; }
+  .week .daystrip { grid-area: days; }
+  .week .events { grid-area: list; }
+  .week #weekEmpty { grid-area: empty; }
+  .week .week-foot { grid-area: foot; }
+  .week .cal-cta { grid-area: cta; justify-self: start; }
+  .week-side {
+    grid-area: side; position: sticky; top: 88px;
+    max-height: calc(100vh - 104px); overflow-y: auto; scrollbar-width: thin;
+  }
+  .side-jump { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; margin-bottom: 24px; }
+  .week-side .ev-filters { margin: 0; }
+  .week-side .filter-row { flex-direction: column; align-items: stretch; gap: 8px; margin-bottom: 16px; }
+  .week-side .filter-label { width: auto; padding-top: 0; }
+  .week-side .chips { flex-wrap: wrap; }
+
+  .week .events { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  /* Outer ring, not inset, so the edge-to-edge photo doesn't cover it. */
+  .week .event { flex-direction: column; gap: 8px; overflow: hidden; box-shadow: 0 0 0 1px var(--line); }
+  .week .ev-time { width: auto; }
+  .week .ev-media {
+    order: -1; width: auto; margin: -20px -20px 4px;
+    border-radius: 0; border-bottom: 1px solid var(--line);
+  }
+  .week .ev-img { aspect-ratio: 16 / 9; }
 }
