@@ -357,7 +357,8 @@
   "source": "https://nib.hofb.org",
   "seasonal": "christmas",
   "group": "house-of-bread",
-  "origin": "curated"
+  "origin": "curated",
+  "details": "Check in at 4:30pm Thursday and Friday, 3:00pm Saturday and Sunday. Your visit starts with 30 minutes of registration, then a 45-minute program, then 90 minutes exploring the Bethlehem village. Tickets are $20 per person; children 2 and under are free."
  },
  {
   "date": "2026-12-11",
@@ -371,7 +372,8 @@
   "source": "https://nib.hofb.org",
   "seasonal": "christmas",
   "group": "house-of-bread",
-  "origin": "curated"
+  "origin": "curated",
+  "details": "Check in at 4:30pm Thursday and Friday, 3:00pm Saturday and Sunday. Your visit starts with 30 minutes of registration, then a 45-minute program, then 90 minutes exploring the Bethlehem village. Tickets are $20 per person; children 2 and under are free."
  },
  {
   "date": "2026-12-12",
@@ -385,7 +387,8 @@
   "source": "https://nib.hofb.org",
   "seasonal": "christmas",
   "group": "house-of-bread",
-  "origin": "curated"
+  "origin": "curated",
+  "details": "Check in at 4:30pm Thursday and Friday, 3:00pm Saturday and Sunday. Your visit starts with 30 minutes of registration, then a 45-minute program, then 90 minutes exploring the Bethlehem village. Tickets are $20 per person; children 2 and under are free."
  },
  {
   "date": "2026-12-13",
@@ -399,6 +402,7 @@
   "source": "https://nib.hofb.org",
   "seasonal": "christmas",
   "group": "house-of-bread",
-  "origin": "curated"
+  "origin": "curated",
+  "details": "Check in at 4:30pm Thursday and Friday, 3:00pm Saturday and Sunday. Your visit starts with 30 minutes of registration, then a 45-minute program, then 90 minutes exploring the Bethlehem village. Tickets are $20 per person; children 2 and under are free."
  }
 ]

@@ -316,6 +316,15 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .ev-detail .d-blurb { margin-top: 12px; font-size: 15px; color: var(--ink-2); }
 .ev-detail .d-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
 .ev-detail .d-acts { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin-top: 18px; }
+
+/* Seasonal card deep-link target: the banner lands here, outline it so the
+   eye finds the card. Cards open the detail dialog, like weekly events. */
+.seasonal-card:target { outline: 3px solid var(--sun); outline-offset: 4px; }
+.seasonal-card { cursor: pointer; }
+/* Detail-dialog photo gallery: tap a thumb to swap the big photo. */
+.d-gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 10px; }
+.d-gallery img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; cursor: pointer; }
+.d-gallery img.is-on { outline: 2px solid var(--sea); outline-offset: 1px; }
 @media (max-width: 420px) { .ev-detail { padding: 22px 18px 20px; } .ev-detail h3 { font-size: 20px; } }
 
 .week-foot { margin: 24px 0 0; font-size: 14px; color: var(--ink-2); }

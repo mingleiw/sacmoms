@@ -693,6 +693,82 @@
     if (e) openDetail(e, true);
   });
 
+  /* ---- Seasonal cards: same dialog, built from the card's own markup. ----
+     The card carries everything: title, when, where, blurb, a hidden fuller
+     details paragraph, the main photo and a data-gallery list of extra
+     photos. No calendar link here -- a seasonal group spans several days with
+     different check-in times, so one calendar entry would be wrong for most
+     of them. Share copies the card's own anchor, which the banner links to. */
+  function openSeasonalDetail(card) {
+    if (!dlg || !detail) return;
+    var txt = function (sel) {
+      var el = card.querySelector(sel);
+      return el ? el.textContent : '';
+    };
+    var img = card.querySelector('.sc-img');
+    var mainPhoto = img ? img.getAttribute('src') : '';
+    var gallery = (card.getAttribute('data-gallery') || '')
+      .split(',').map(function (s) { return s.trim(); })
+      .filter(function (s) { return s; });
+    var srcLink = card.querySelector('.ev-src');
+    var mapLink = card.querySelector('.map');
+    var tagsHtml = [].slice.call(card.querySelectorAll('.sc-foot .ev-tag'))
+      .map(function (el) {
+        return '<span class="ev-tag' +
+          (el.classList.contains('ev-dist') ? ' ev-dist' : '') + '">' +
+          esc(el.textContent) + '</span>';
+      }).join('');
+    detail.innerHTML =
+      '<h3 id="evDialogTitle">' + esc(txt('h3')) + '</h3>' +
+      (mainPhoto ? '<div class="d-media"><img class="d-img" id="dMainImg" src="' + esc(mainPhoto) +
+        '" alt="" loading="lazy" width="800" height="450"></div>' : '') +
+      (gallery.length ? '<div class="d-gallery">' +
+        gallery.map(function (src) {
+          return '<img src="' + esc(src) + '" alt="" loading="lazy" data-full="' + esc(src) + '">';
+        }).join('') + '</div>' : '') +
+      '<p class="d-when">' + esc(txt('.sc-when')) + '</p>' +
+      '<p class="d-where">' + esc(txt('.sc-where')) + '</p>' +
+      (txt('.sc-blurb') ? '<p class="d-blurb">' + esc(txt('.sc-blurb')) + '</p>' : '') +
+      (txt('.sc-details') ? '<p class="d-blurb">' + esc(txt('.sc-details')) + '</p>' : '') +
+      '<div class="d-tags">' + tagsHtml + '</div>' +
+      '<div class="d-acts">' +
+        (mapLink ? '<a class="map" href="' + esc(mapLink.getAttribute('href')) +
+          '" target="_blank" rel="noopener">Directions</a>' : '') +
+        (srcLink ? '<a class="ev-src" href="' + esc(srcLink.getAttribute('href')) +
+          '" target="_blank" rel="noopener">Official listing</a>' : '') +
+        '<button type="button" class="ev-share">Share</button>' +
+      '</div>';
+    var mainImg = detail.querySelector('#dMainImg');
+    detail.querySelectorAll('.d-gallery img').forEach(function (thumb) {
+      thumb.addEventListener('click', function () {
+        if (mainImg) mainImg.src = thumb.getAttribute('data-full');
+        detail.querySelectorAll('.d-gallery img').forEach(function (t) { t.classList.remove('is-on'); });
+        thumb.classList.add('is-on');
+      });
+    });
+    var shareBtn = detail.querySelector('.ev-share');
+    if (shareBtn) shareBtn.addEventListener('click', function () {
+      var url = location.origin + location.pathname + '#' + card.getAttribute('id');
+      if (navigator.share) {
+        navigator.share({ title: txt('h3'), url: url }).catch(function () {});
+      } else if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(function () {
+          shareBtn.textContent = 'Link copied';
+        }, function () {});
+      }
+    });
+    if (dlg.showModal) { if (!dlg.open) dlg.showModal(); }
+    else { dlg.setAttribute('open', ''); }
+  }
+
+  document.querySelectorAll('.seasonal-grid').forEach(function (grid) {
+    grid.addEventListener('click', function (ev) {
+      if (ev.target.closest('a')) return;
+      var card = ev.target.closest('.seasonal-card');
+      if (card) openSeasonalDetail(card);
+    });
+  });
+
   function fromHash() {
     var m = /^#event=([^?&#]+)/.exec(location.hash);
     if (!m) return;

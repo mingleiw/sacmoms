@@ -146,6 +146,19 @@ def photo_for(slug):
     return 'assets/photos/%s.webp' % slug if os.path.exists(p) else None
 
 
+# Extra photos for a seasonal group's detail popup, keyed by group. Only the
+# main photo (photo_for) shows on the card itself; these appear as thumbnails
+# in the popup, tap one to swap the big photo. Paths are site-root relative.
+SEASONAL_GALLERY = {
+    'house-of-bread': [
+        'assets/photos/house-of-bread-herald.webp',
+        'assets/photos/house-of-bread-firepit.webp',
+        'assets/photos/house-of-bread-family.webp',
+        'assets/photos/house-of-bread-craft.webp',
+    ],
+}
+
+
 # Event venues whose photo file doesn't match slugify(venue). The file on the
 # right already exists in assets/photos; the key is slugify(venue name).
 VENUE_PHOTO_ALIASES = {
@@ -582,6 +595,7 @@ def group_seasonal(events, town):
             'city': first.get('city', ''),
             'ages': first.get('ages', 'All ages'),
             'blurb': first.get('blurb', ''),
+            'details': first.get('details', ''),
             'source': first.get('source', ''),
             'time': first.get('time', ''),
             'until': first.get('until', ''),
@@ -657,12 +671,18 @@ def seasonal_section_html(groups, town_name):
             else:
                 sc_img = ('<div class="sc-media sc-media-empty" aria-hidden="true">'
                           '<svg width="44" height="44"><use href="#%s"/></svg></div>' % cfg['icon'])
-            out += '''        <article class="seasonal-card%s"%s>
+            # The banner links straight here (sacramento/#<group_key>), and the
+            # popup reads the card's own markup, so the id, gallery and fuller
+            # details all ride on the article itself.
+            gallery = SEASONAL_GALLERY.get(group_key, [])
+            gallery_attr = (' data-gallery="%s"' % ','.join('../' + p for p in gallery)) if gallery else ''
+            details_html = ('<p class="sc-details" hidden>%s</p>' % html.escape(g['details'])) if g.get('details') else ''
+            out += '''        <article class="seasonal-card%s"%s id="%s"%s>
           %s
           <h3>%s</h3>
           <p class="sc-when">%s</p>
           <p class="sc-where">%s, %s</p>
-          <p class="sc-blurb">%s</p>
+          <p class="sc-blurb">%s</p>%s
           <div class="sc-foot">
             %s
             <span class="ev-tag">%s</span>
@@ -670,11 +690,11 @@ def seasonal_section_html(groups, town_name):
             %s
           </div>
         </article>
-''' % (' has-img' if sc_photo else '', geo_attr,
+''' % (' has-img' if sc_photo else '', geo_attr, html.escape(group_key), gallery_attr,
        sc_img,
        html.escape(g['title']), when,
        html.escape(g['venue']), html.escape(g['city']),
-       html.escape(g['blurb']),
+       html.escape(g['blurb']), details_html,
        dist_chip, html.escape(g['ages']),
        html.escape(g['venue'] + ' ' + g['city']),
        '<a class="ev-src" href="%s" target="_blank" rel="noopener">Official site</a>' % html.escape(g['source']) if g.get('source') else '')
@@ -1414,7 +1434,7 @@ def root_page(towns_with_pages, places, base):
       <div class="carousel" id="seasonCarousel" aria-roledescription="carousel" aria-label="Seasonal highlights">
         <div class="carousel-viewport">
           <div class="carousel-track">
-            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="A Night in Bethlehem, House of Bread Church">
+            <a class="carousel-slide" href="sacramento/#house-of-bread" aria-label="A Night in Bethlehem, House of Bread Church">
               <img src="assets/photos/house-of-bread.webp" alt="A Night in Bethlehem at House of Bread Church" width="980" height="490" fetchpriority="high" />
               <span class="carousel-cap"><strong>A Night in Bethlehem</strong><span>House of Bread Church &middot; Dec 10&ndash;13</span></span>
             </a>
