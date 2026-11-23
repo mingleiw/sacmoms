@@ -513,7 +513,8 @@ html:not(.js) .ev-blurb { -webkit-line-clamp: none; line-clamp: none; overflow: 
 .loc-btn { font: inherit; font-size: 14px; font-weight: 600; color: var(--chalk); background: var(--sea); border: 0; padding: 8px 16px; border-radius: var(--r-sm); cursor: pointer; display: inline-flex; align-items: center; gap: 8px; transition: background var(--t-fast) var(--ease), transform var(--t-fast) var(--ease); }
 .loc-btn:active { transform: scale(.98); }
 .loc-ico { width: 16px; height: 16px; flex: none; }
-.zip-go { color: var(--sea); background: var(--sea-w); }
+/* White with a blue outline: the pale fill read as a disabled button. */
+.zip-go { color: var(--sea); background: var(--chalk); box-shadow: inset 0 0 0 1.5px var(--sea); }
 .loc-btn:disabled { opacity: .6; cursor: default; transform: none; }
 .loc-or { font-size: 14px; color: var(--ink-2); }
 .zip-form { display: flex; align-items: center; gap: 8px; }
@@ -909,4 +910,22 @@ a, button { -webkit-tap-highlight-color: transparent; }
   .ev-filters .chips::-webkit-scrollbar { display: none; }
   .ev-filters .chip { flex: none; white-space: nowrap; }
   .ev-filters .filter-count { margin-top: 8px; }
+}
+
+/* ---- Top of a city page on a phone: less space over the title, the jump
+   links on one row that scrolls sideways (like the event filters), and a
+   smaller This week heading so it doesn't compete with the page title. ---- */
+@media (max-width: 560px) {
+  .hero-city { padding: 20px 0 12px; }
+  .hero-city .hero-title { margin-bottom: 8px; }
+  .hero-city .lede { margin-bottom: 12px; }
+  .jump-links {
+    flex-direction: row; gap: 8px; overflow-x: auto; scrollbar-width: none;
+    margin-right: -16px; padding-right: 16px;
+  }
+  .jump-links::-webkit-scrollbar { display: none; }
+  .jump-links .ql-row { display: contents; }
+  .jump-links .quick-link { flex: none; white-space: nowrap; }
+  .loc-bar { margin-bottom: 16px; }
+  .week .section-head h2 { font-size: 23px; }
 }
