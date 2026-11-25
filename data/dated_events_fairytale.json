@@ -1,17 +1,5 @@
 [
  {
-  "date": "2026-11-23",
-  "time": "10:00",
-  "title": "Fall FunCamp",
-  "venue": "Fairytale Town",
-  "city": "Sacramento",
-  "region": "sac",
-  "ages": "All ages",
-  "blurb": "Fairytale Town Fall FunCamps 2026 Fairytale Town Fall FunCamps invite children ages 4–9 to dive into hands-on learning, creativity, and adventure. Each age group will explore exciting themes designed just for them! Each ",
-  "source": "https://www.fairytaletown.org/calendar/fall-funcamp/",
-  "until": "16:00"
- },
- {
   "date": "2026-11-24",
   "time": "11:00",
   "title": "Story Time with the Maidu Museum",
@@ -60,6 +48,30 @@
   "until": "11:20"
  },
  {
+  "date": "2026-11-28",
+  "time": "13:00",
+  "title": "Theater Show: Three Little Pigs",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us for a magical, original fairytale performance created especially for young audiences this weekend in the Children’s Theater, thanks to NorCal Arts! Theater shows are free with the cost of paid park admission . Al",
+  "source": "https://www.fairytaletown.org/calendar/theater-show-three-little-pigs-6/2026-11-28/1/",
+  "until": "13:30"
+ },
+ {
+  "date": "2026-11-28",
+  "time": "14:00",
+  "title": "Theater Show: Three Little Pigs",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us for a magical, original fairytale performance created especially for young audiences this weekend in the Children’s Theater, thanks to NorCal Arts! Theater shows are free with the cost of paid park admission . Al",
+  "source": "https://www.fairytaletown.org/calendar/theater-show-three-little-pigs-6/2026-11-28/2/",
+  "until": "14:30"
+ },
+ {
   "date": "2026-11-29",
   "time": "11:00",
   "title": "Tractor Tales",
@@ -70,6 +82,30 @@
   "blurb": "Join us on November 28 & 29 at 11am in the Story Center Classroom for Tractor Tales featuring Oliver, the eclectus parrot! Perfect for little animal lovers, this interactive event combines the magic of books with the joy",
   "source": "https://www.fairytaletown.org/calendar/tractor-tales-11/2026-11-29/",
   "until": "11:20"
+ },
+ {
+  "date": "2026-11-29",
+  "time": "13:00",
+  "title": "Theater Show: Three Little Pigs",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us for a magical, original fairytale performance created especially for young audiences this weekend in the Children’s Theater, thanks to NorCal Arts! Theater shows are free with the cost of paid park admission . Al",
+  "source": "https://www.fairytaletown.org/calendar/theater-show-three-little-pigs-6/2026-11-29/1/",
+  "until": "13:30"
+ },
+ {
+  "date": "2026-11-29",
+  "time": "14:00",
+  "title": "Theater Show: Three Little Pigs",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us for a magical, original fairytale performance created especially for young audiences this weekend in the Children’s Theater, thanks to NorCal Arts! Theater shows are free with the cost of paid park admission . Al",
+  "source": "https://www.fairytaletown.org/calendar/theater-show-three-little-pigs-6/2026-11-29/2/",
+  "until": "14:30"
  },
  {
   "date": "2026-11-30",
@@ -96,6 +132,30 @@
   "until": "23:59"
  },
  {
+  "date": "2026-12-03",
+  "time": "11:00",
+  "title": "Story Time in the Story Center",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us in the Story Center every Thur – Sun in December for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
+  "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-5/2026-12-03/",
+  "until": "11:30"
+ },
+ {
+  "date": "2026-12-03",
+  "time": "14:30",
+  "title": "Craft Time in the Story Center",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us in the Story Center every Thursday at 2:30pm in December for Craft Time! Craft time is free with park admission. No need to worry about skill level—all kids are welcome! Come join us for a world of creative fun. ",
+  "source": "https://www.fairytaletown.org/calendar/craft-time-in-the-story-center-6/2026-12-03/",
+  "until": "15:00"
+ },
+ {
   "date": "2026-12-04",
   "time": "00:00",
   "title": "Scholastic Book Fair!",
@@ -106,6 +166,18 @@
   "blurb": "The Scholastic Book Fair is happening inside the Story Center ! There will be pens, bookmarks, erasers, fun gadgets, and books for all ages! Come on over and dive into a world of stories!",
   "source": "https://www.fairytaletown.org/calendar/scholastic-book-fair-2/",
   "until": "23:59"
+ },
+ {
+  "date": "2026-12-04",
+  "time": "11:00",
+  "title": "Story Time in the Story Center",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us in the Story Center every Thur – Sun in December for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
+  "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-5/2026-12-04/",
+  "until": "11:30"
  },
  {
   "date": "2026-12-05",
@@ -142,6 +214,42 @@
   "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
   "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-5/",
   "until": "16:00"
+ },
+ {
+  "date": "2026-12-10",
+  "time": "11:00",
+  "title": "Story Time in the Story Center",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us in the Story Center every Thur – Sun in December for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
+  "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-6/2026-12-10/",
+  "until": "11:30"
+ },
+ {
+  "date": "2026-12-10",
+  "time": "14:30",
+  "title": "Craft Time in the Story Center",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us in the Story Center every Thursday at 2:30pm in December for Craft Time! Craft time is free with park admission. No need to worry about skill level—all kids are welcome! Come join us for a world of creative fun. ",
+  "source": "https://www.fairytaletown.org/calendar/craft-time-in-the-story-center-6/2026-12-10/",
+  "until": "15:00"
+ },
+ {
+  "date": "2026-12-11",
+  "time": "11:00",
+  "title": "Story Time in the Story Center",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us in the Story Center every Thur – Sun in December for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
+  "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-6/2026-12-11/",
+  "until": "11:30"
  },
  {
   "date": "2026-12-11",
@@ -204,6 +312,66 @@
   "until": "16:00"
  },
  {
+  "date": "2026-12-17",
+  "time": "11:00",
+  "title": "Story Time in the Story Center",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us in the Story Center every Thur – Sun in December for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
+  "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-7/2026-12-17/",
+  "until": "11:30"
+ },
+ {
+  "date": "2026-12-17",
+  "time": "14:30",
+  "title": "Craft Time in the Story Center",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us in the Story Center every Thursday at 2:30pm in December for Craft Time! Craft time is free with park admission. No need to worry about skill level—all kids are welcome! Come join us for a world of creative fun. ",
+  "source": "https://www.fairytaletown.org/calendar/craft-time-in-the-story-center-6/2026-12-17/",
+  "until": "15:00"
+ },
+ {
+  "date": "2026-12-18",
+  "time": "11:00",
+  "title": "Story Time in the Story Center",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us in the Story Center every Thur – Sun in December for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
+  "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-7/2026-12-18/",
+  "until": "11:30"
+ },
+ {
+  "date": "2026-12-19",
+  "time": "11:00",
+  "title": "Story Time in the Story Center",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us in the Story Center every Thur – Sun in December for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
+  "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-7/2026-12-19/",
+  "until": "11:30"
+ },
+ {
+  "date": "2026-12-20",
+  "time": "11:00",
+  "title": "Story Time in the Story Center",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us in the Story Center every Thur – Sun in December for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
+  "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-7/2026-12-20/",
+  "until": "11:30"
+ },
+ {
   "date": "2026-12-21",
   "time": "10:00",
   "title": "Closed for Winter Hours",
@@ -214,6 +382,30 @@
   "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
   "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-8/",
   "until": "16:00"
+ },
+ {
+  "date": "2026-12-24",
+  "time": "11:00",
+  "title": "Story Time in the Story Center",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us in the Story Center every Thur – Sun in December for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
+  "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-8/",
+  "until": "11:30"
+ },
+ {
+  "date": "2026-12-25",
+  "time": "00:00",
+  "title": "Closed for Christmas Day",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Fairytale Town will be closed on Friday, December 25, in observance of the Christmas Day Holiday.",
+  "source": "https://www.fairytaletown.org/calendar/closed-for-christmas/",
+  "until": "23:59"
  },
  {
   "date": "2026-12-26",
@@ -250,6 +442,18 @@
   "blurb": "Fairytale Town will be closed on Monday, Tuesday, and Wednesday now through February for our winter hours.",
   "source": "https://www.fairytaletown.org/calendar/closed-for-winter-hours-7/",
   "until": "16:00"
+ },
+ {
+  "date": "2026-12-31",
+  "time": "11:00",
+  "title": "Story Time in the Story Center",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Join us in the Story Center every Thur – Sun in December for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
+  "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-9/",
+  "until": "11:30"
  },
  {
   "date": "2027-01-04",

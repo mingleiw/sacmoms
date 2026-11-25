@@ -849,23 +849,6 @@
   }
  },
  {
-  "time": "10:00",
-  "title": "Visit the Marine Mammal Center",
-  "venue": "Marine Mammal Center",
-  "city": "Sausalito",
-  "region": "marin",
-  "ages": "All ages",
-  "blurb": "Watch as our volunteers prepare meals in the Fish Kitchen, peek into our laboratory to learn more",
-  "source": "https://www.marinemammalcenter.org/visit/getting-here",
-  "day": 1,
-  "until": "16:00",
-  "origin": "marin-mommies",
-  "_jev": {
-   "verdict": "ERROR",
-   "error": " = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File "
-  }
- },
- {
   "time": "11:00",
   "title": "Wednesday Storytime for Toddlers & Preschoolers — Sausalito",
   "venue": "Sausalito Books by the Bay",

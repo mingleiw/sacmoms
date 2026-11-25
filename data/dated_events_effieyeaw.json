@@ -1,17 +1,5 @@
 [
  {
-  "date": "2026-11-23",
-  "time": "10:00",
-  "title": "Family Program: Scent-sational Salmon",
-  "venue": "Effie Yeaw Nature Center",
-  "city": "Carmichael",
-  "region": "sac",
-  "ages": "All ages",
-  "blurb": "30-minute presentation followed by a 1-hour guided hike.",
-  "source": "https://www.effieyeawnature.org/event-details/family-program-scent-sational-salmon",
-  "until": "11:30"
- },
- {
   "date": "2026-11-24",
   "time": "10:00",
   "title": "Family Program: Turkey Talk",
@@ -225,6 +213,18 @@
   "ages": "Ages 6–7",
   "blurb": "This camp is all about birds and is for children ages 6-7.",
   "source": "https://www.effieyeawnature.org/event-details/feathered-friends-ages-6-7",
+  "until": "15:00"
+ },
+ {
+  "date": "2026-12-30",
+  "time": "09:00",
+  "title": "Winter Wanderers (Ages 8-11)",
+  "venue": "Effie Yeaw Nature Center",
+  "city": "Carmichael",
+  "region": "sac",
+  "ages": "Ages 8–11",
+  "blurb": "This camp is all about bird migration and is for children ages 8-11.",
+  "source": "https://www.effieyeawnature.org/event-details/winter-wanderers-ages-8-11",
   "until": "15:00"
  }
 ]
