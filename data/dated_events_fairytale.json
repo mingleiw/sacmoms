@@ -1,17 +1,5 @@
 [
  {
-  "date": "2026-11-24",
-  "time": "11:00",
-  "title": "Story Time with the Maidu Museum",
-  "venue": "Fairytale Town",
-  "city": "Sacramento",
-  "region": "sac",
-  "ages": "All ages",
-  "blurb": "Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under are free. Please note: Adults must be accompanied by children and children must be accompanied by adults in order to gain a",
-  "source": "https://www.fairytaletown.org/calendar/story-time-with-the-maidu-museum/",
-  "until": "11:30"
- },
- {
   "date": "2026-11-26",
   "time": "00:00",
   "title": "Closed for Thanksgiving",
@@ -454,6 +442,18 @@
   "blurb": "Join us in the Story Center every Thur – Sun in December for Story Time at 11am! Story time is free with park admission. Admission is $10 for adults and children ages 2 and older. Members and children ages 1 and under ar",
   "source": "https://www.fairytaletown.org/calendar/story-time-in-the-story-center-9/",
   "until": "11:30"
+ },
+ {
+  "date": "2027-01-01",
+  "time": "00:00",
+  "title": "Closed for New Year’s Day",
+  "venue": "Fairytale Town",
+  "city": "Sacramento",
+  "region": "sac",
+  "ages": "All ages",
+  "blurb": "Fairytale Town will be closed on Thursday, January 1, in observance of the New Year’s Day Holiday.",
+  "source": "https://www.fairytaletown.org/calendar/closed-for-new-years-day/",
+  "until": "23:59"
  },
  {
   "date": "2027-01-04",

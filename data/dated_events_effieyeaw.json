@@ -1,29 +1,5 @@
 [
  {
-  "date": "2026-11-24",
-  "time": "10:00",
-  "title": "Family Program: Turkey Talk",
-  "venue": "Effie Yeaw Nature Center",
-  "city": "Carmichael",
-  "region": "sac",
-  "ages": "All ages",
-  "blurb": "30-minute presentation followed by a 1-hour guided hike.",
-  "source": "https://www.effieyeawnature.org/event-details/family-program-turkey-talk",
-  "until": "11:30"
- },
- {
-  "date": "2026-11-25",
-  "time": "10:00",
-  "title": "Family Program: Nutty Squirrels",
-  "venue": "Effie Yeaw Nature Center",
-  "city": "Carmichael",
-  "region": "sac",
-  "ages": "All ages",
-  "blurb": "30-minute presentation followed by a 1-hour guided hike.",
-  "source": "https://www.effieyeawnature.org/event-details/family-program-nutty-squirrels",
-  "until": "11:30"
- },
- {
   "date": "2026-11-27",
   "time": "10:00",
   "title": "Family Program: Branching Out",
@@ -86,7 +62,7 @@
  {
   "date": "2026-12-19",
   "time": "10:30",
-  "title": "Do the Salmon Like my Stream?",
+  "title": "Do the Salmon Like My Stream?",
   "venue": "Effie Yeaw Nature Center",
   "city": "Carmichael",
   "region": "sac",
