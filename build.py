@@ -1475,21 +1475,21 @@ def root_page(towns_with_pages, places, base):
               <img src="assets/photos/house-of-bread.webp" alt="A Night in Bethlehem at House of Bread Church" width="980" height="490" fetchpriority="high" />
               <span class="carousel-cap"><strong>A Night in Bethlehem</strong><span>House of Bread Church &middot; Dec 10&ndash;13</span></span>
             </a>
-            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Fall FunCamp, Fairytale Town">
-              <img src="assets/photos/fairytale-town.webp" alt="Fall FunCamp at Fairytale Town" width="980" height="490" loading="lazy" />
-              <span class="carousel-cap"><strong>Fall FunCamp</strong><span>Fairytale Town &middot; Nov 23</span></span>
-            </a>
-            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Zoo Fall Camp, Sacramento Zoo">
-              <img src="assets/photos/sacramento-zoo.webp" alt="Zoo Fall Camp at the Sacramento Zoo" width="980" height="490" loading="lazy" />
-              <span class="carousel-cap"><strong>Zoo Fall Camp</strong><span>Sacramento Zoo &middot; Nov 23</span></span>
-            </a>
-            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Family Program: Turkey Talk, Effie Yeaw Nature Center">
-              <img src="assets/photos/effie-yeaw-nature-center.webp" alt="Turkey Talk at Effie Yeaw Nature Center" width="980" height="490" loading="lazy" />
-              <span class="carousel-cap"><strong>Family Program: Turkey Talk</strong><span>Effie Yeaw Nature Center &middot; Nov 24</span></span>
+            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Family Program: Branching Out, Effie Yeaw Nature Center">
+              <img src="assets/photos/effie-yeaw-nature-center.webp" alt="Branching Out at Effie Yeaw Nature Center" width="980" height="490" loading="lazy" />
+              <span class="carousel-cap"><strong>Family Program: Branching Out</strong><span>Effie Yeaw Nature Center &middot; Nov 27</span></span>
             </a>
             <a class="carousel-slide" href="sacramento/#seasonal" aria-label="EYNC Annual Holiday Market, Effie Yeaw Nature Center">
               <img src="assets/photos/effie-yeaw-nature-center.webp" alt="Holiday market at Effie Yeaw Nature Center" width="980" height="490" loading="lazy" />
               <span class="carousel-cap"><strong>EYNC Annual Holiday Market</strong><span>Effie Yeaw Nature Center &middot; Nov 28</span></span>
+            </a>
+            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Species in the Spotlight, Sacramento Zoo">
+              <img src="assets/photos/sacramento-zoo.webp" alt="Species in the Spotlight at the Sacramento Zoo" width="980" height="490" loading="lazy" />
+              <span class="carousel-cap"><strong>Species in the Spotlight</strong><span>Sacramento Zoo &middot; Nov 29</span></span>
+            </a>
+            <a class="carousel-slide" href="sacramento/#seasonal" aria-label="Winter Wonderland, Fairytale Town">
+              <img src="assets/photos/fairytale-town.webp" alt="Winter Wonderland at Fairytale Town" width="980" height="490" loading="lazy" />
+              <span class="carousel-cap"><strong>Winter Wonderland</strong><span>Fairytale Town &middot; Dec 5&ndash;6</span></span>
             </a>
           </div>
         </div>
